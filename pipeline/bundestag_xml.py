@@ -32,6 +32,12 @@ _KOMMENTAR_TYP = [
     ("buh", "Missfallen"), ("unruhe", "Unruhe"),
 ]
 
+# Blöcke unter <sitzungsverlauf>, die Reden/Saalreaktionen tragen. Reden hängen NICHT nur an
+# Tagesordnungspunkten, sondern auch an Zusatzpunkten und am Sitzungsbeginn (Geschäftsordnung,
+# Aktuelle Stunde, Reaktionen vor TOP 1). top-id ist frei und nicht eindeutig numerisch.
+_TOP_BLOCKS = ("sitzungsbeginn", "tagesordnungspunkt", "zusatzpunkt", "sitzungsende")
+_BLOCK_TITEL = {"sitzungsbeginn": "Sitzungseröffnung", "sitzungsende": "Sitzungsende"}
+
 
 def _text(el: ET.Element | None) -> str:
     return "".join(el.itertext()).strip() if el is not None else ""
@@ -86,16 +92,25 @@ def parse_plenarprotokoll(xml_path: str | Path) -> Protocol:
         u_index += 1
         return idx
 
-    for top in root.iter("tagesordnungspunkt"):
-        top_id = top.get("top-id", "")
-        m = re.search(r"(\d+)", top_id)
-        top_nr = int(m.group(1)) if m else (len(p.tops) + 1)
-        titel = _text(top.find("top-titel"))
-        if not any(x["nummer"] == top_nr for x in p.tops):
-            p.tops.append({"nummer": top_nr, "titel": titel, "quelle_utterances": []})
+    # In Dokumentreihenfolge über die inhaltstragenden Blöcke des Sitzungsverlaufs gehen.
+    # Wir vergeben eine laufende, kollisionsfreie TOP-Nummer (top-id ist frei/mehrdeutig:
+    # "Tagesordnungspunkt 1", "Zusatzpunkt 5", "Zur Geschäftsordnung" → früher kollidiert).
+    verlauf = root.find("sitzungsverlauf")
+    blocks = list(verlauf) if verlauf is not None else list(root.iter("tagesordnungspunkt"))
+    top_nr = 0
+    for block in blocks:
+        if block.tag not in _TOP_BLOCKS:
+            continue
+        if block.find("rede") is None and block.find("kommentar") is None:
+            continue  # leerer Rahmenblock (z. B. reines <sitzungsende>) → kein TOP
+        top_nr += 1
+        cur = top_nr
+        titel = _text(block.find("top-titel")) or block.get("top-id", "") \
+            or _BLOCK_TITEL.get(block.tag, "")
+        p.tops.append({"nummer": cur, "titel": titel, "quelle_utterances": []})
 
         rede_index = -1
-        for child in list(top):
+        for child in list(block):
             if child.tag == "rede":
                 redner = child.find(".//redner")
                 person = _speaker_from_redner(redner) if redner is not None else \
@@ -107,19 +122,19 @@ def parse_plenarprotokoll(xml_path: str | Path) -> Protocol:
                 rede_index = idx
                 p.redebeitraege.append({
                     "person": person["name"], "fraktion": person.get("fraktion"),
-                    "top_nummer": top_nr, "start": 0.0, "timecode": "Prot.",
+                    "top_nummer": cur, "start": 0.0, "timecode": "Prot.",
                     "quelle_utterances": [idx]})
                 # prüfbare Aussagen für den Faktencheck
                 for sent in _split_sentences(speech):
                     if _is_checkable(sent) and "frage" not in sent.lower():
                         p.aussagen.append({"text": sent, "person": person["name"],
                                            "fraktion": person.get("fraktion"),
-                                           "top_nummer": top_nr, "quelle_utterances": [idx]})
+                                           "top_nummer": cur, "quelle_utterances": [idx]})
                 # Kommentare innerhalb der Rede (Saalreaktionen)
                 for kom in child.findall("kommentar"):
-                    _add_kommentar(p, _text(kom), top_nr, rede_index)
+                    _add_kommentar(p, _text(kom), cur, rede_index)
             elif child.tag == "kommentar":
-                _add_kommentar(p, _text(child), top_nr, rede_index)
+                _add_kommentar(p, _text(child), cur, rede_index)
             elif child.tag == "name":  # Sitzungsleitung (Präsident:in)
                 txt = _text(child).rstrip(":")
                 if txt:

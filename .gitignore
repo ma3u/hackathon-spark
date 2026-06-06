@@ -18,3 +18,7 @@ neo4j/logs/
 *.swp
 .idea/
 .vscode/
+
+# Claude Code: shared config (.claude/settings.json, rules, commands, skills, agents) is
+# tracked; personal/local overrides are not.
+.claude/settings.local.json

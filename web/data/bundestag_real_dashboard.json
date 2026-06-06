@@ -1,0 +1,209 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "18.03.2025",
+    "wahlperiode": "20",
+    "sitzung_nr": "214"
+  },
+  "kennzahlen": {
+    "reden": 45,
+    "woerter": 32803,
+    "tops": 3,
+    "saalreaktionen": 643,
+    "geprüfte_aussagen": 0
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Tagesordnungspunkt 1",
+      "woerter": 29545
+    },
+    {
+      "top": 2,
+      "titel": "Zur Geschäftsordnung",
+      "woerter": 3258
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 6590,
+      "prozent": 22.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 5914,
+      "prozent": 20.3
+    },
+    {
+      "fraktion": "FDP",
+      "woerter": 4696,
+      "prozent": 16.2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4648,
+      "prozent": 16.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 3534,
+      "prozent": 12.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 1688,
+      "prozent": 5.8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 1135,
+      "prozent": 3.9
+    },
+    {
+      "fraktion": "BSW",
+      "woerter": 872,
+      "prozent": 3.0
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Tagesordnungspunkt 1",
+      "positiv": 337,
+      "negativ": 67
+    },
+    {
+      "top": 2,
+      "titel": "Zur Geschäftsordnung",
+      "positiv": 56,
+      "negativ": 14
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "SPD",
+      "positiv": 45,
+      "negativ": 6
+    },
+    {
+      "fraktion": "FDP",
+      "positiv": 40,
+      "negativ": 10
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 45,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 22,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 13,
+      "negativ": 0
+    },
+    {
+      "fraktion": "FDP und der AfD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der FDP",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "FDP sowie bei Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der FDP und der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken und des BSW",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der FDP und des BSW",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der FDP",
+      "positiv": 0,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Beifall bei der FDP",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der FDP",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 66,
+      "negativ": 22
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 63,
+      "negativ": 23
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 73,
+      "negativ": 9
+    },
+    {
+      "fraktion": "FDP",
+      "positiv": 61,
+      "negativ": 8
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 41,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 21,
+      "negativ": 2
+    },
+    {
+      "fraktion": "BSW",
+      "positiv": 17,
+      "negativ": 6
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 16,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {}
+}
