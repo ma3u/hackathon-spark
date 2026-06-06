@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "title": "Protokoll-Knowledge-Graph — Gemeinderatssitzung Musterbach",
+    "source_audio": "plenarprotokoll-21-081-sample.xml",
+    "generated_by": "graph-protokoll pipeline (SPARK Challenge 2 prototype)",
+    "ontology_layers": [
+      "normativ",
+      "zeitlich",
+      "prozedural",
+      "fallbezug",
+      "provenienz"
+    ],
+    "node_count": 31,
+    "relationship_count": 47
+  },
+  "nodes": [
+    {
+      "id": "sitzung_bt_21_81",
+      "label": "Sitzung 14.05.2026",
+      "type": "Sitzung",
+      "subtype": "Öffentliche Gemeinderatssitzung",
+      "gremium": "Deutscher Bundestag",
+      "datum": "14.05.2026",
+      "ort": "Berlin",
+      "beschlussfaehig": "",
+      "audio_file": "plenarprotokoll-21-081-sample.xml"
+    },
+    {
+      "id": "gemo_37",
+      "label": "GemO §37 Beschlussfähigkeit",
+      "type": "Norm",
+      "subtype": "Gemeindeordnung",
+      "schicht": "normativ"
+    },
+    {
+      "id": "person_stefan_m_ller",
+      "label": "Stefan Möller",
+      "type": "Person",
+      "subtype": "Abgeordneter"
+    },
+    {
+      "id": "fraktion_fraktion_fortschritt",
+      "label": "Fraktion Fortschritt",
+      "type": "Fraktion",
+      "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_lena_vossberg",
+      "label": "Dr. Lena Vossberg",
+      "type": "Person",
+      "subtype": "Abgeordneter"
+    },
+    {
+      "id": "fraktion_fraktion_mitte",
+      "label": "Fraktion Mitte",
+      "type": "Fraktion",
+      "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jonas_reuter",
+      "label": "Jonas Reuter",
+      "type": "Person",
+      "subtype": "Staatssekretär"
+    },
+    {
+      "id": "top_7",
+      "label": "TOP 7: Beratung über den Ausbau der Ladeinfrastruktur für die Elektromobilität",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 7,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "redebeitrag_0",
+      "label": "Redebeitrag Stefan Möller (TOP 7, Prot.)",
+      "type": "Redebeitrag",
+      "subtype": "Fraktion Fortschritt",
+      "timecode": "Prot.",
+      "start_sec": 0.0,
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_1",
+      "label": "Redebeitrag Dr. Lena Vossberg (TOP 7, Prot.)",
+      "type": "Redebeitrag",
+      "subtype": "Fraktion Mitte",
+      "timecode": "Prot.",
+      "start_sec": 0.0,
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_2",
+      "label": "Redebeitrag Jonas Reuter (TOP 7, Prot.)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "Prot.",
+      "start_sec": 0.0,
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "aussage_0",
+      "label": "Aussage: In Deutschland gibt es inzwischen über 150.000 öffentliche L…",
+      "type": "Aussage",
+      "subtype": "Fraktion Fortschritt",
+      "text": "In Deutschland gibt es inzwischen über 150.000 öffentliche Ladepunkte.",
+      "person": "Stefan Möller",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_0",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Die belegte Zahl liegt bei rund 121.000 öffentlichen Ladepunkten (Stand 04/2026). Die Angabe von über 150.000 überzeichnet den Bestand um etwa ein Viertel.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_lades_ulenregister_fiktiv",
+      "label": "Ladesäulenregister (fiktiv)",
+      "type": "Quelle",
+      "subtype": "2026-04",
+      "url": "https://example.org/ladesaeulenregister",
+      "stand": "2026-04",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_1",
+      "label": "Aussage: Drei von vier Ladevorgängen finden ohnehin zu Hause statt, d…",
+      "type": "Aussage",
+      "subtype": "Fraktion Fortschritt",
+      "text": "Drei von vier Ladevorgängen finden ohnehin zu Hause statt, deshalb setzen wir den Schwerpunkt richtig auf private Wallboxen.",
+      "person": "Stefan Möller",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_1",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Erhebungen zum Ladeverhalten stützen, dass rund 70–80 % der Ladevorgänge privat (zu Hause oder am Arbeitsplatz) erfolgen. Die Aussage 'drei von vier' liegt in diesem Rahmen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_mobilit_tsstudie_ladeverhalten_fiktiv",
+      "label": "Mobilitätsstudie Ladeverhalten (fiktiv)",
+      "type": "Quelle",
+      "subtype": "2025-11",
+      "url": "https://example.org/ladeverhalten",
+      "stand": "2025-11",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_2",
+      "label": "Aussage: Die Zahl der öffentlichen Ladepunkte hat sich seit 2021 nich…",
+      "type": "Aussage",
+      "subtype": "Fraktion Mitte",
+      "text": "Die Zahl der öffentlichen Ladepunkte hat sich seit 2021 nicht erhöht.",
+      "person": "Dr. Lena Vossberg",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_2",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Die Zahl der öffentlichen Ladepunkte hat sich seit 2021 mehr als verdoppelt (ca. 50.000 → 121.000). Die Behauptung, sie habe sich nicht erhöht, ist nachweislich unzutreffend.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_lades_ulenregister_zeitreihe_fiktiv",
+      "label": "Ladesäulenregister Zeitreihe (fiktiv)",
+      "type": "Quelle",
+      "subtype": "2026-04",
+      "url": "https://example.org/ladesaeulen-zeitreihe",
+      "stand": "2026-04",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_3",
+      "label": "Aussage: Mein Eindruck ist, dass über 40 Prozent der Ladesäulen regel…",
+      "type": "Aussage",
+      "subtype": "Fraktion Mitte",
+      "text": "Mein Eindruck ist, dass über 40 Prozent der Ladesäulen regelmäßig defekt sind.",
+      "person": "Dr. Lena Vossberg",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_3",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Gegen den Evidenzkorpus (Stand 2026-05-01) geprüft; kein Beleg gefunden. 'Unbelegt' bedeutet nicht 'falsch'.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_evidenzkorpus_durchsucht_kein_beleg_gefunden",
+      "label": "Evidenzkorpus durchsucht — kein Beleg gefunden",
+      "type": "Quelle",
+      "subtype": "2026-05-01",
+      "url": "https://dip.bundestag.de/",
+      "stand": "2026-05-01",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "ereignis_0",
+      "label": "Beifall — Fraktion Fortschritt",
+      "type": "AkustischesEreignis",
+      "subtype": "Beifall",
+      "text": "(Beifall bei der Fraktion Fortschritt)",
+      "urheber": "Fraktion Fortschritt",
+      "intensitaet": "",
+      "start_sec": "",
+      "herkunft": "protokoll",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "ereignis_1",
+      "label": "Zwischenruf — Fraktion Mitte",
+      "type": "AkustischesEreignis",
+      "subtype": "Zwischenruf",
+      "text": "(Zuruf von der Fraktion Mitte: Das stimmt doch gar nicht!)",
+      "urheber": "Fraktion Mitte",
+      "intensitaet": "",
+      "start_sec": "",
+      "herkunft": "protokoll",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "ereignis_2",
+      "label": "Widerspruch — Fraktion Fortschritt",
+      "type": "AkustischesEreignis",
+      "subtype": "Widerspruch",
+      "text": "(Widerspruch bei der Fraktion Fortschritt)",
+      "urheber": "Fraktion Fortschritt",
+      "intensitaet": "",
+      "start_sec": "",
+      "herkunft": "protokoll",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "ereignis_3",
+      "label": "Lachen — Fraktion Fortschritt",
+      "type": "AkustischesEreignis",
+      "subtype": "Lachen",
+      "text": "(Lachen bei der Fraktion Fortschritt)",
+      "urheber": "Fraktion Fortschritt",
+      "intensitaet": "",
+      "start_sec": "",
+      "herkunft": "protokoll",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "ereignis_4",
+      "label": "Beifall — Fraktion Mitte",
+      "type": "AkustischesEreignis",
+      "subtype": "Beifall",
+      "text": "(Beifall bei der Fraktion Fortschritt — Vereinzelt Beifall bei der Fraktion Mitte)",
+      "urheber": "Fraktion Mitte",
+      "intensitaet": "",
+      "start_sec": "",
+      "herkunft": "protokoll",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "segment_0",
+      "label": "Segment Prot. (Stefan Möller)",
+      "type": "Transkriptsegment",
+      "subtype": "Stefan Möller",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "timecode": "Prot.",
+      "sprecher": "Stefan Möller",
+      "text": "Vielen Dank. Der Ausbau kommt voran. In Deutschland gibt es inzwischen über 150.000 öffentliche Ladepunkte. Drei von vier Ladevorgängen finden ohnehin zu Hause statt, deshalb setzen wir den Schwerpunkt richtig auf private Wallboxen.",
+      "audio_file": "plenarprotokoll-21-081-sample.xml",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_1",
+      "label": "Segment Prot. (Dr. Lena Vossberg)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Lena Vossberg",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "timecode": "Prot.",
+      "sprecher": "Dr. Lena Vossberg",
+      "text": "Frau Präsidentin, das ist Schönfärberei. Die Zahl der öffentlichen Ladepunkte hat sich seit 2021 nicht erhöht. Mein Eindruck ist, dass über 40 Prozent der Ladesäulen regelmäßig defekt sind.",
+      "audio_file": "plenarprotokoll-21-081-sample.xml",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_2",
+      "label": "Segment Prot. (Jonas Reuter)",
+      "type": "Transkriptsegment",
+      "subtype": "Jonas Reuter",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "timecode": "Prot.",
+      "sprecher": "Jonas Reuter",
+      "text": "Die Bundesregierung wird dem Ausschuss bis zum 30. Juni 2026 einen regionalisierten Ausbauplan schriftlich vorlegen.",
+      "audio_file": "plenarprotokoll-21-081-sample.xml",
+      "schicht": "provenienz"
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "person_stefan_m_ller",
+      "target_id": "fraktion_fraktion_fortschritt",
+      "relationship_type": "MITGLIED_VON"
+    },
+    {
+      "source_id": "person_dr_lena_vossberg",
+      "target_id": "fraktion_fraktion_mitte",
+      "relationship_type": "MITGLIED_VON"
+    },
+    {
+      "source_id": "sitzung_bt_21_81",
+      "target_id": "top_7",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "person_stefan_m_ller",
+      "target_id": "redebeitrag_0",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_0",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_dr_lena_vossberg",
+      "target_id": "redebeitrag_1",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_1",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_jonas_reuter",
+      "target_id": "redebeitrag_2",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_2",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_stefan_m_ller",
+      "target_id": "aussage_0",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "faktencheck_0",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "irreführend"
+    },
+    {
+      "source_id": "faktencheck_0",
+      "target_id": "quelle_lades_ulenregister_fiktiv",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_stefan_m_ller",
+      "target_id": "aussage_1",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "faktencheck_1",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_1",
+      "target_id": "quelle_mobilit_tsstudie_ladeverhalten_fiktiv",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_lena_vossberg",
+      "target_id": "aussage_2",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "faktencheck_2",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "falsch"
+    },
+    {
+      "source_id": "faktencheck_2",
+      "target_id": "quelle_lades_ulenregister_zeitreihe_fiktiv",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_lena_vossberg",
+      "target_id": "aussage_3",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "faktencheck_3",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_3",
+      "target_id": "quelle_evidenzkorpus_durchsucht_kein_beleg_gefunden",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "top_7",
+      "target_id": "ereignis_0",
+      "relationship_type": "HAT_REAKTION"
+    },
+    {
+      "source_id": "ereignis_0",
+      "target_id": "redebeitrag_0",
+      "relationship_type": "REAKTION_AUF"
+    },
+    {
+      "source_id": "ereignis_0",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_7",
+      "target_id": "ereignis_1",
+      "relationship_type": "HAT_REAKTION"
+    },
+    {
+      "source_id": "ereignis_1",
+      "target_id": "redebeitrag_0",
+      "relationship_type": "REAKTION_AUF"
+    },
+    {
+      "source_id": "ereignis_1",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_7",
+      "target_id": "ereignis_2",
+      "relationship_type": "HAT_REAKTION"
+    },
+    {
+      "source_id": "ereignis_2",
+      "target_id": "redebeitrag_1",
+      "relationship_type": "REAKTION_AUF"
+    },
+    {
+      "source_id": "ereignis_2",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_7",
+      "target_id": "ereignis_3",
+      "relationship_type": "HAT_REAKTION"
+    },
+    {
+      "source_id": "ereignis_3",
+      "target_id": "redebeitrag_1",
+      "relationship_type": "REAKTION_AUF"
+    },
+    {
+      "source_id": "ereignis_3",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_7",
+      "target_id": "ereignis_4",
+      "relationship_type": "HAT_REAKTION"
+    },
+    {
+      "source_id": "ereignis_4",
+      "target_id": "redebeitrag_2",
+      "relationship_type": "REAKTION_AUF"
+    },
+    {
+      "source_id": "ereignis_4",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_0",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_1",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_2",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    }
+  ]
+}

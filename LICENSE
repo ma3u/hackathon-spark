@@ -1,0 +1,32 @@
+graph-protokoll
+Copyright (c) 2026 Matthias Buchhorn (ma3u)
+
+SPDX-License-Identifier: EUPL-1.2
+
+Licensed under the European Union Public Licence (EUPL), Version 1.2 (or — as
+soon as they are approved by the European Commission — subsequent versions of
+the EUPL).
+
+You may not use this work except in compliance with the Licence. You may obtain
+a copy of the Licence at:
+
+    https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the Licence is distributed on an "AS IS" basis, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the Licence for the
+specific language governing permissions and limitations under the Licence.
+
+This matches the licensing of the BMDS "SPARK Workflow" reference implementation
+(EUPL-1.2), under the "Public Money — Public Code" principle.
+
+------------------------------------------------------------------------------
+NOTE: This file contains the official EUPL-1.2 licence NOTICE. The full,
+authoritative EUPL-1.2 licence TEXT is a fixed legal document and should
+accompany the repository. Fetch it into LICENSE with:
+
+    curl -L -o LICENSE \
+      https://gitlab.opencode.de/fitko/docs/portal/-/raw/main/LICENSES/EUPL-1.2.txt
+
+(The publish script scripts/publish-to-github.sh does this automatically.)
+------------------------------------------------------------------------------

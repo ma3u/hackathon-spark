@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FIKTIVES Beispiel im offiziellen dbtplenarprotokoll-Schema (DTD ab WP19).
+     Echte Struktur, erfundener Inhalt: keine realen Abgeordneten/Zitate.
+     Für echte Daten: scripts/fetch-session.sh lädt die amtliche XML der Sitzung. -->
+<dbtplenarprotokoll wahlperiode="21" sitzung-nr="81" sitzung-datum="14.05.2026"
+    sitzung-start-uhrzeit="09:00" sitzung-ende-uhrzeit="16:42" sitzung-ort="Berlin">
+  <vorspann>
+    <kopfdaten>
+      <plenarprotokoll-nummer>Plenarprotokoll <wahlperiode>21</wahlperiode>/<sitzungsnr>81</sitzungsnr></plenarprotokoll-nummer>
+    </kopfdaten>
+  </vorspann>
+  <sitzungsverlauf>
+    <sitzungsbeginn sitzung-start-uhrzeit="09:00">
+      <name>Präsidentin Dr. Karin Brandt:</name>
+      <p klasse="J">Die Sitzung ist eröffnet.</p>
+    </sitzungsbeginn>
+
+    <tagesordnungspunkt top-id="Tagesordnungspunkt 7">
+      <top-titel>Beratung über den Ausbau der Ladeinfrastruktur für die Elektromobilität</top-titel>
+
+      <rede id="ID2108100100">
+        <p klasse="redner">
+          <redner id="11000201">
+            <name>
+              <vorname>Stefan</vorname>
+              <nachname>Möller</nachname>
+              <fraktion>Fraktion Fortschritt</fraktion>
+            </name>
+          </redner>
+          Stefan Möller (Fraktion Fortschritt):
+        </p>
+        <p klasse="J_1">Vielen Dank. Der Ausbau kommt voran. In Deutschland gibt es inzwischen über 150.000 öffentliche Ladepunkte.</p>
+        <kommentar>(Beifall bei der Fraktion Fortschritt)</kommentar>
+        <p klasse="J">Drei von vier Ladevorgängen finden ohnehin zu Hause statt, deshalb setzen wir den Schwerpunkt richtig auf private Wallboxen.</p>
+        <kommentar>(Zuruf von der Fraktion Mitte: Das stimmt doch gar nicht!)</kommentar>
+      </rede>
+
+      <rede id="ID2108100200">
+        <p klasse="redner">
+          <redner id="11000202">
+            <name>
+              <titel>Dr.</titel>
+              <vorname>Lena</vorname>
+              <nachname>Vossberg</nachname>
+              <fraktion>Fraktion Mitte</fraktion>
+            </name>
+          </redner>
+          Dr. Lena Vossberg (Fraktion Mitte):
+        </p>
+        <p klasse="J_1">Frau Präsidentin, das ist Schönfärberei. Die Zahl der öffentlichen Ladepunkte hat sich seit 2021 nicht erhöht.</p>
+        <kommentar>(Widerspruch bei der Fraktion Fortschritt)</kommentar>
+        <p klasse="J">Mein Eindruck ist, dass über 40 Prozent der Ladesäulen regelmäßig defekt sind.</p>
+        <kommentar>(Lachen bei der Fraktion Fortschritt)</kommentar>
+      </rede>
+
+      <rede id="ID2108100300">
+        <p klasse="redner">
+          <redner id="11000203">
+            <name>
+              <vorname>Jonas</vorname>
+              <nachname>Reuter</nachname>
+              <rolle><rolle_lang>Staatssekretär</rolle_lang><rolle_kurz>Staatssekr.</rolle_kurz></rolle>
+            </name>
+          </redner>
+          Jonas Reuter, Staatssekretär:
+        </p>
+        <p klasse="J_1">Die Bundesregierung wird dem Ausschuss bis zum 30. Juni 2026 einen regionalisierten Ausbauplan schriftlich vorlegen.</p>
+        <kommentar>(Beifall bei der Fraktion Fortschritt — Vereinzelt Beifall bei der Fraktion Mitte)</kommentar>
+      </rede>
+    </tagesordnungspunkt>
+
+    <sitzungsende sitzung-ende-uhrzeit="16:42">
+      <name>Präsidentin Dr. Karin Brandt:</name>
+      <p klasse="J">Ich schließe die Aussprache. Die Sitzung ist geschlossen.</p>
+    </sitzungsende>
+  </sitzungsverlauf>
+  <anlagen/>
+  <rednerliste sitzung-datum="14.05.2026">
+    <redner id="11000201"><name><vorname>Stefan</vorname><nachname>Möller</nachname><fraktion>Fraktion Fortschritt</fraktion></name></redner>
+    <redner id="11000202"><name><titel>Dr.</titel><vorname>Lena</vorname><nachname>Vossberg</nachname><fraktion>Fraktion Mitte</fraktion></name></redner>
+  </rednerliste>
+</dbtplenarprotokoll>

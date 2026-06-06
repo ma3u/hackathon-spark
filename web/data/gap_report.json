@@ -1,0 +1,37 @@
+{
+  "wer": {
+    "wer": 0.169,
+    "subst": 1,
+    "ins": 0,
+    "del": 12,
+    "ref_woerter": 77
+  },
+  "reaktionen": {
+    "amtlich": 5,
+    "asr_erkannt": 0,
+    "recall": 0.0,
+    "hinweis": "Reines ASR erfasst Saalreaktionen nicht — Sound-Event-Detection nötig."
+  },
+  "sprecher": {
+    "im_protokoll": [
+      "Dr. Lena Vossberg",
+      "Jonas Reuter",
+      "Stefan Möller"
+    ],
+    "fehlend_in_asr": [
+      "Jonas Reuter"
+    ]
+  },
+  "inhalts_luecken": [
+    {
+      "sprecher": "Dr. Lena Vossberg",
+      "satz": "Mein Eindruck ist, dass über 40 Prozent der Ladesäulen regelmäßig defekt sind.",
+      "abdeckung": 0.25
+    }
+  ],
+  "bewertung": [
+    "WER 16.9% — akzeptabel",
+    "Saalreaktionen-Recall 0% — Lücke: Sound-Event-Detection ergänzen",
+    "1 Inhalts-Lücke(n) — fehlende/abweichende Passagen prüfen"
+  ]
+}

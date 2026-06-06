@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>graph-protokoll — Sitzungsmitschnitt → Knowledge Graph + Faktencheck</title>
+    <style>
+      :root {
+        --bg: #0d1117; --panel: #161b22; --border: #30363d;
+        --text: #c9d1d9; --muted: #8b949e; --accent: #58a6ff;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
+      header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex;
+        align-items: center; gap: 16px; flex-wrap: wrap; }
+      header h1 { font-size: 17px; margin: 0; font-weight: 600; }
+      header .sub { color: var(--muted); font-size: 12px; }
+      .tabs { margin-left: auto; display: flex; gap: 8px; }
+      .tab { background: var(--panel); color: var(--text); border: 1px solid var(--border);
+        padding: 7px 14px; border-radius: 7px; cursor: pointer; font-size: 13px; }
+      .tab.active { border-color: var(--accent); color: var(--accent); }
+      #wrap { display: flex; height: calc(100vh - 56px); }
+      #graph { flex: 1; position: relative; }
+      #side { width: 380px; border-left: 1px solid var(--border); overflow-y: auto; padding: 16px; }
+      .card { background: var(--panel); border: 1px solid var(--border); border-radius: 9px;
+        padding: 13px; margin-bottom: 12px; }
+      .card h2 { font-size: 13px; margin: 0 0 9px; text-transform: uppercase; letter-spacing: .04em;
+        color: var(--muted); }
+      .legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 12px;
+        margin: 3px 9px 3px 0; }
+      .dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+      .prop { font-size: 12.5px; margin: 4px 0; word-break: break-word; }
+      .prop b { color: var(--muted); font-weight: 500; }
+      .fc { font-size: 12.5px; border-left: 3px solid var(--border); padding: 6px 10px; margin: 8px 0; }
+      .fc.bestätigt { border-color: #3fb950; } .fc.falsch { border-color: #f85149; }
+      .fc.irreführend { border-color: #d29922; } .fc.unbelegt { border-color: #8b949e; }
+      .fc .verdikt { font-weight: 600; } .fc .src { color: var(--muted); font-size: 11px; }
+      .cite { color: var(--accent); font-size: 11.5px; cursor: pointer; }
+      audio { width: 100%; margin-top: 8px; }
+      a { color: var(--accent); }
+      #dash { height: calc(100vh - 56px); overflow-y: auto; padding: 20px;
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 14px; align-content: start; }
+      .kpi { display: flex; gap: 18px; flex-wrap: wrap; }
+      .kpi .n { font-size: 24px; font-weight: 700; color: var(--accent); }
+      .kpi .l { font-size: 11px; color: var(--muted); text-transform: uppercase; }
+      .bar { display: grid; grid-template-columns: 150px 1fr 54px; align-items: center; gap: 8px; margin: 5px 0; font-size: 12px; }
+      .bar .track { background: #21262d; border-radius: 4px; height: 13px; overflow: hidden; }
+      .bar .fill { height: 100%; background: var(--accent); }
+      .bar .fill.pos { background: #3fb950; } .bar .fill.neg { background: #f85149; }
+      .split { display: flex; height: 13px; border-radius: 4px; overflow: hidden; background: #21262d; }
+      .num { text-align: right; color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>🎙️ graph-protokoll</h1>
+        <div class="sub">Audiomitschnitt → Protokoll-Knowledge-Graph + Faktencheck · SPARK Challenge 2</div>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-s="gemeinderat">Gemeinderat</button>
+        <button class="tab" data-s="bundestag">Bundestag (Audio)</button>
+        <button class="tab" data-s="bundestag_xml">Bundestag (amtliches XML)</button>
+        <button class="tab" id="viewToggle">📊 Dashboard</button>
+        <button class="tab" id="a11y" title="Barrierefreie Vorlesefassung (Screenreader/TTS)">♿ Vorlesefassung</button>
+      </div>
+    </header>
+    <div id="dash" style="display:none"></div>
+    <div id="wrap">
+      <div id="graph"></div>
+      <div id="side">
+        <div class="card" id="meta"></div>
+        <div class="card legend" id="legend"><h2>Ontologie-Schichten</h2></div>
+        <div class="card" id="detail"><h2>Knoten</h2><div class="muted">Knoten anklicken…</div></div>
+        <div class="card" id="factcheck" style="display:none"><h2>🔎 Faktencheck</h2></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/3d-force-graph@1.73.4/dist/3d-force-graph.min.js"></script>
+    <script>
+      const LAYER = {
+        normativ:    { c: "#7d3c98", label: "L1 Normativ (Normen)" },
+        zeitlich:    { c: "#2471a3", label: "L2 Zeitlich (Sitzung/Fristen)" },
+        prozedural:  { c: "#1e8449", label: "L3 Prozedural (TOP→Beschluss)" },
+        fallbezug:   { c: "#ca6f1e", label: "L4 Fallbezug (Person/Aussage)" },
+        faktencheck: { c: "#c0392b", label: "Faktencheck (Verdikt/Quelle)" },
+        provenienz:  { c: "#566573", label: "Provenienz (Audiosegment)" },
+      };
+      const color = (n) => (LAYER[n.schicht] || { c: "#999" }).c;
+      const $ = (id) => document.getElementById(id);
+
+      const Graph = ForceGraph3D()($("graph"))
+        .backgroundColor("#0d1117")
+        .nodeColor(color)
+        .nodeLabel((n) => `<b>${n.label}</b><br/><i>${n.type}</i>`)
+        .nodeRelSize(5)
+        .linkColor(() => "#30363d")
+        .linkDirectionalArrowLength(3)
+        .linkLabel((l) => l.relationship_type)
+        .onNodeClick(showNode);
+
+      function toGraph(data) {
+        const nodes = data.nodes.map((n) => ({ ...n }));
+        const links = data.relationships.map((r) => ({
+          ...r, source: r.source_id, target: r.target_id,
+        }));
+        return { nodes, links };
+      }
+
+      function showNode(n) {
+        const skip = new Set(["id", "label", "type", "schicht"]);
+        let html = `<h2>${n.type}</h2><div class="prop"><b>${n.label}</b></div>`;
+        for (const [k, v] of Object.entries(n)) {
+          if (skip.has(k) || v === "" || v == null || typeof v === "object") continue;
+          if (["x", "y", "z", "vx", "vy", "vz", "index", "source_id", "target_id"].includes(k)) continue;
+          html += `<div class="prop"><b>${k}:</b> ${v}</div>`;
+        }
+        if (n.type === "Transkriptsegment") {
+          html += `<div class="prop cite">▶ Audio bei ${n.timecode} (${n.start_sec}s)</div>`;
+          html += `<audio controls preload="none" src="./audio/${n.audio_file || ""}#t=${Math.floor(n.start_sec || 0)}"></audio>`;
+        }
+        $("detail").innerHTML = html;
+      }
+
+      function renderMeta(data) {
+        const m = data.metadata;
+        $("meta").innerHTML = `<h2>${m.title || "Protokoll-Graph"}</h2>
+          <div class="prop"><b>Quelle:</b> ${m.source_audio || "—"}</div>
+          <div class="prop"><b>Knoten:</b> ${m.node_count} · <b>Beziehungen:</b> ${m.relationship_count}</div>`;
+      }
+
+      function renderLegend() {
+        $("legend").innerHTML = "<h2>Ontologie-Schichten</h2>" +
+          Object.values(LAYER).map((l) =>
+            `<span><span class="dot" style="background:${l.c}"></span>${l.label}</span>`).join("");
+      }
+
+      function renderFactcheck(data) {
+        const checks = data.nodes.filter((n) => n.type === "Faktencheck");
+        const box = $("factcheck");
+        if (!checks.length) { box.style.display = "none"; return; }
+        box.style.display = "block";
+        const byId = Object.fromEntries(data.nodes.map((n) => [n.id, n]));
+        const claimOf = (fcId) => {
+          const r = data.relationships.find((r) => r.target_id === fcId && r.relationship_type === "GEPRUEFT_ALS");
+          return r ? byId[r.source_id] : null;
+        };
+        const srcOf = (fcId) => {
+          const r = data.relationships.find((r) => r.source_id === fcId && r.relationship_type === "BELEGT_MIT");
+          return r ? byId[r.target_id] : null;
+        };
+        box.innerHTML = "<h2>🔎 Faktencheck der Reden</h2>" + checks.map((fc) => {
+          const c = claimOf(fc.id), s = srcOf(fc.id);
+          return `<div class="fc ${fc.verdikt}">
+            <span class="verdikt">${fc.verdikt.toUpperCase()}</span> — ${c ? c.person : ""}<br/>
+            „${c ? c.text : ""}"<br/>
+            <span class="src">${fc.begruendung || ""}${s ? " · Quelle: " + s.label : ""}</span></div>`;
+        }).join("");
+      }
+
+      async function load(scenario) {
+        const data = await (await fetch(`./data/${scenario}.json`)).json();
+        renderMeta(data); renderFactcheck(data);
+        Graph.graphData(toGraph(data));
+        $("detail").innerHTML = '<h2>Knoten</h2><div class="muted">Knoten anklicken…</div>';
+      }
+
+      let current = "gemeinderat", dashOn = false;
+
+      function card(title, inner) {
+        return `<div class="card"><h2>${title}</h2>${inner}</div>`;
+      }
+      function bars(rows, valKey, max, cls = "") {
+        const m = max || Math.max(1, ...rows.map((r) => r[valKey]));
+        return rows.map((r) =>
+          `<div class="bar"><span>${r.label}</span><span class="track">
+             <span class="fill ${cls}" style="width:${(100 * r[valKey]) / m}%"></span></span>
+           <span class="num">${r.num}</span></div>`).join("");
+      }
+      async function loadDash(scenario) {
+        const box = $("dash");
+        let d;
+        try { d = await (await fetch(`./data/${scenario}_dashboard.json`)).json(); }
+        catch { box.innerHTML = card("Dashboard", "Für dieses Szenario liegen keine Kennzahlen vor."); return; }
+        const k = d.kennzahlen;
+        const kpi = card(`${d.sitzung.gremium} — ${d.sitzung.datum}`,
+          `<div class="kpi">` + Object.entries({
+            Reden: k.reden, Wörter: k.woerter, TOPs: k.tops,
+            Saalreaktionen: k.saalreaktionen, "Geprüfte Aussagen": k.geprüfte_aussagen,
+          }).map(([l, n]) => `<div><div class="n">${n}</div><div class="l">${l}</div></div>`).join("") + `</div>`);
+
+        const themen = card("Top-Themen (nach Redevolumen)",
+          bars(d.top_themen.map((t) => ({ label: `TOP ${t.top}`, woerter: t.woerter, num: t.woerter })), "woerter")
+          || "—");
+        const sprach = card("Sprachanteil pro Fraktion",
+          bars(d.sprachanteil_fraktion.map((s) => ({ label: s.fraktion, prozent: s.prozent, num: s.prozent + "%" })),
+               "prozent", 100) || "—");
+
+        const fb = (rows, t) => card(t, rows.length ? rows.map((r) => {
+          const tot = r.positiv + r.negativ || 1;
+          return `<div class="bar"><span>${r.fraktion || r.titel || ("TOP " + r.top)}</span>
+            <span class="split"><span class="fill pos" style="width:${100 * r.positiv / tot}%"></span>
+              <span class="fill neg" style="width:${100 * r.negativ / tot}%"></span></span>
+            <span class="num">+${r.positiv}/−${r.negativ}</span></div>`;
+        }).join("") : "—");
+
+        const bilanz = card("Faktencheck-Bilanz",
+          Object.entries(d.faktencheck_bilanz).map(([v, n]) =>
+            `<div class="bar"><span>${v}</span><span class="track">
+               <span class="fill" style="width:${100 * n / Math.max(1, k.geprüfte_aussagen)}%"></span></span>
+             <span class="num">${n}</span></div>`).join("") || "—");
+
+        box.innerHTML = kpi + themen + sprach
+          + fb(d.feedback_erhalten_fraktion, "Feedback erhalten (Reaktionen auf Reden der Fraktion)")
+          + fb(d.feedback_gegeben_fraktion, "Feedback gegeben (Beifall/Widerspruch durch Fraktion)")
+          + fb(d.feedback_je_thema, "Stimmung je Thema (positiv/negativ)")
+          + bilanz;
+      }
+      function setView() {
+        $("dash").style.display = dashOn ? "grid" : "none";
+        $("wrap").style.display = dashOn ? "none" : "flex";
+        $("viewToggle").classList.toggle("active", dashOn);
+        $("viewToggle").textContent = dashOn ? "🕸️ Graph" : "📊 Dashboard";
+        if (dashOn) loadDash(current);
+      }
+
+      document.querySelectorAll(".tab[data-s]").forEach((t) =>
+        t.addEventListener("click", () => {
+          document.querySelectorAll(".tab[data-s]").forEach((x) => x.classList.remove("active"));
+          t.classList.add("active");
+          current = t.dataset.s;
+          dashOn ? loadDash(current) : load(current);
+        }));
+      $("viewToggle").addEventListener("click", () => { dashOn = !dashOn; setView(); });
+      $("a11y").addEventListener("click", () => window.open(`./data/${current}_barrierefrei.txt`, "_blank"));
+
+      renderLegend();
+      load("gemeinderat");
+    </script>
+  </body>
+</html>

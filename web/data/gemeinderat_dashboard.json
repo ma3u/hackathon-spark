@@ -1,0 +1,50 @@
+{
+  "sitzung": {
+    "gremium": "Gemeinderat Musterbach",
+    "datum": "12. Mai 2026",
+    "wahlperiode": "",
+    "sitzung_nr": ""
+  },
+  "kennzahlen": {
+    "reden": 5,
+    "woerter": 402,
+    "tops": 3,
+    "saalreaktionen": 0,
+    "geprüfte_aussagen": 2
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Anschaffung eines Bücherbusses für die Ortsteile Musterbach-Süd und Talheim",
+      "woerter": 95
+    },
+    {
+      "top": 2,
+      "titel": "Einführung digitaler Terminvergabe im Bürgerbüro",
+      "woerter": 53
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "GRÜN-Liste Musterbach",
+      "woerter": 62,
+      "prozent": 41.9
+    },
+    {
+      "fraktion": "Bürgerfraktion Musterbach",
+      "woerter": 54,
+      "prozent": 36.5
+    },
+    {
+      "fraktion": "Freie Wähler Musterbach",
+      "woerter": 32,
+      "prozent": 21.6
+    }
+  ],
+  "feedback_je_thema": [],
+  "feedback_gegeben_fraktion": [],
+  "feedback_erhalten_fraktion": [],
+  "faktencheck_bilanz": {
+    "unbelegt": 2
+  }
+}

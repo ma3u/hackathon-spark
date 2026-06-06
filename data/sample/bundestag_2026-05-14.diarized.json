@@ -1,0 +1,28 @@
+{
+  "audio_file": "bundestag_2026-05-14.mp3",
+  "language": "de",
+  "duration_sec": 421.0,
+  "asr_model": "faster-whisper large-v3 (demo: pre-transcribed sample)",
+  "diarization_model": "pyannote/speaker-diarization-3.1 (demo: pre-diarized sample)",
+  "_hinweis": "FIKTIVE Plenardebatte. Erfundene Abgeordnete und Fraktionen. Keine realen Personen oder Zitate. Dient nur der Demonstration der Faktencheck-Pipeline.",
+  "speaker_map": {
+    "SPEAKER_00": { "name": "Dr. Karin Brandt", "rolle": "Vizepräsidentin (Sitzungsleitung)", "fraktion": null },
+    "SPEAKER_01": { "name": "Stefan Möller", "rolle": "Abgeordneter", "fraktion": "Fraktion Fortschritt" },
+    "SPEAKER_02": { "name": "Dr. Lena Vossberg", "rolle": "Abgeordnete", "fraktion": "Fraktion Mitte" },
+    "SPEAKER_03": { "name": "Jonas Reuter", "rolle": "Staatssekretär (Bundesregierung)", "fraktion": null }
+  },
+  "segments": [
+    { "start": 0.0, "end": 18.0, "speaker": "SPEAKER_00",
+      "text": "Ich rufe Tagesordnungspunkt 7 auf: Beratung über den Ausbau der Ladeinfrastruktur für die Elektromobilität. Als erstem Redner erteile ich dem Abgeordneten Möller das Wort." },
+    { "start": 18.0, "end": 47.5, "speaker": "SPEAKER_01",
+      "text": "Vielen Dank. Der Ausbau kommt voran. In Deutschland gibt es inzwischen über 150.000 öffentliche Ladepunkte. Drei von vier Ladevorgängen finden ohnehin zu Hause statt, deshalb setzen wir den Schwerpunkt richtig auf private Wallboxen." },
+    { "start": 47.5, "end": 78.2, "speaker": "SPEAKER_02",
+      "text": "Frau Präsidentin, das ist Schönfärberei. Die Zahl der öffentlichen Ladepunkte hat sich seit 2021 nicht erhöht. Während die Bundesregierung sich feiert, stehen die Menschen im ländlichen Raum ohne Lademöglichkeit da. Ich frage die Bundesregierung: Bis wann legen Sie einen verbindlichen Ausbauplan für die Landkreise vor?" },
+    { "start": 78.2, "end": 104.6, "speaker": "SPEAKER_03",
+      "text": "Frau Abgeordnete Vossberg, die Bundesregierung wird dem Ausschuss bis zum 30. Juni 2026 einen regionalisierten Ausbauplan schriftlich vorlegen. Ich weise zugleich die Behauptung zurück, der Bestand habe stagniert; die Zahlen zeigen ein deutliches Wachstum." },
+    { "start": 104.6, "end": 126.0, "speaker": "SPEAKER_02",
+      "text": "Dann nennen Sie die Zahlen. Mein Eindruck ist, dass über 40 Prozent der Ladesäulen regelmäßig defekt sind. Das müssen Sie widerlegen." },
+    { "start": 126.0, "end": 140.0, "speaker": "SPEAKER_00",
+      "text": "Die Redezeit ist erschöpft. Ich schließe die Aussprache zu Tagesordnungspunkt 7." }
+  ]
+}

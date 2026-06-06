@@ -1,0 +1,11 @@
+{
+  "_hinweis": "Vorab berechnete PANNs-SED-Ausgabe (fiktiv) zum Bundestag-Audio-Szenario. Zeitstempel passen auf bundestag_2026-05-14.diarized.json. Ersetzt im Produktivpfad durch sound_events.detect_events(audio).",
+  "audio_file": "bundestag_2026-05-14.mp3",
+  "events": [
+    { "label": "Applause", "start_sec": 46.5, "end_sec": 49.0, "score": 0.91, "db": -13.5 },
+    { "label": "Hubbub, speech noise, speech babble", "start_sec": 58.0, "end_sec": 59.5, "score": 0.52, "db": -27.0 },
+    { "label": "Booing", "start_sec": 77.0, "end_sec": 78.2, "score": 0.74, "db": -16.0 },
+    { "label": "Applause", "start_sec": 103.5, "end_sec": 105.0, "score": 0.83, "db": -20.5 },
+    { "label": "Laughter", "start_sec": 124.5, "end_sec": 126.0, "score": 0.68, "db": -22.0 }
+  ]
+}

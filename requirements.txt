@@ -1,0 +1,17 @@
+# Demo (run_demo.py auf dem Beispielmitschnitt) braucht NICHTS außer Python 3.11+ (stdlib).
+#
+# Produktivpfad (echtes Audio) — on-prem / DSGVO-konform:
+faster-whisper>=1.0          # ASR (CTranslate2), Modell large-v3, lokal
+pyannote.audio>=3.1          # Sprecher-Diarisierung (speaker-diarization-3.1)
+whisperx>=3.1                # Forced Alignment + Wort↔Sprecher-Zuordnung
+torch>=2.2                   # Backend für pyannote/whisperx (CUDA optional)
+# Sound-Event-Detection (Beifall/Buhrufe/Lachen + Lautstärke):
+panns-inference>=0.1         # PANNs (AudioSet) für Saalreaktionen aus Audio
+librosa>=0.10               # Audio laden / RMS-Pegel für Lautstärke
+# Extraktion: lokales LLM über OpenAI-kompatible API (vLLM / Ollama / llama.cpp)
+openai>=1.30                 # nur als API-Client gegen den lokalen LLM-Endpoint
+# Graph-Persistenz + Neo4j-GraphRAG:
+neo4j>=5.20
+neo4j-graphrag>=1.0          # offizielle Neo4j-GraphRAG-Bibliothek (Text2Cypher-Retriever)
+# Echte Sitzungsquellen ziehen (scripts/fetch-session.sh):
+yt-dlp>=2025.1               # Audio vom YouTube-Kanal des Bundestages / Mediathek

@@ -1,0 +1,49 @@
+publiccodeYmlVersion: "0.4"
+name: graph-protokoll
+url: "https://github.com/ma3u/hackathon-spark"
+softwareType: standalone/backend
+softwareVersion: "0.1.0"
+releaseDate: "2026-06-06"
+platforms:
+  - linux
+  - web
+categories:
+  - knowledge-management
+  - it-development
+developmentStatus: concept
+description:
+  de:
+    shortDescription: >-
+      Audio-Sitzungsmitschnitte automatisch in einen prüfbaren
+      Protokoll-Knowledge-Graphen mit GraphRAG überführen.
+    longDescription: >-
+      graph-protokoll erweitert die SPARK-KI-Module um eine neue
+      Verwaltungsleistung jenseits von Planungs- und Genehmigungsverfahren
+      (SPARK-Hackathon Challenge 2 "Da geht noch mehr"). Aus einem
+      Sitzungsmitschnitt (Gemeinderat, Ausschuss, Anhörung) entsteht über
+      Spracherkennung (Whisper), Sprecher-Diarisierung (pyannote) und
+      LLM-gestützte Extraktion ein strukturiertes Protokoll: Tagesordnungspunkte,
+      Anträge, Abstimmungen, Beschlüsse, Befangenheiten und Aufgaben mit Fristen.
+      Diese werden in einen Vier-Schichten-Ontologie-Graphen geladen (normativ,
+      zeitlich, prozedural, fallbezogen) und über GraphRAG beantwortbar gemacht.
+      Jede Aussage ist per Provenienzkante bis zum Audio-Zeitstempel belegbar -
+      Voraussetzung fuer Rechtsverbindlichkeit und Pruefbarkeit. Baut auf dem
+      gemeinsamen SPARK-Datenformat der Schwester-Prototypen graph-insurance,
+      graph-investigation und graph-eAkte auf.
+    features:
+      - "Spracherkennung (faster-whisper, on-prem, DSGVO-konform)"
+      - "Sprecher-Diarisierung (pyannote.audio)"
+      - "LLM-Extraktion: TOPs, Beschlüsse, Abstimmungen, Befangenheiten, Aufgaben"
+      - "Knowledge Graph (Neo4j) mit Vier-Schichten-Ontologie"
+      - "GraphRAG-Abfragen mit Audio-Provenienz"
+      - "Export als JSON, CSV und Neo4j-Cypher (SPARK-Format)"
+legal:
+  license: EUPL-1.2
+maintenance:
+  type: community
+  contacts:
+    - name: ma3u
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - de

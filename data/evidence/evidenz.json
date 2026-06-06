@@ -1,0 +1,30 @@
+{
+  "_hinweis": "Fiktive Evidenzbasis für den Faktencheck-Demonstrator. Keine realen Statistiken. Produktiv würde hier ein durchsuchbarer Korpus amtlicher Quellen (Destatis, Bundesregierung-Antworten, Drucksachen) per Retrieval angebunden.",
+  "stand": "2026-05-01",
+  "korpus_url": "https://dip.bundestag.de/",
+  "evidenz": [
+    {
+      "id": "ev_ladepunkte_anzahl",
+      "schluesselbegriffe": ["öffentliche", "ladepunkte", "anzahl"],
+      "zahl_aussage": 150000,
+      "zahl_belegt": 121000,
+      "verdikt": "irreführend",
+      "begruendung": "Die belegte Zahl liegt bei rund 121.000 öffentlichen Ladepunkten (Stand 04/2026). Die Angabe von über 150.000 überzeichnet den Bestand um etwa ein Viertel.",
+      "quelle": {"titel": "Ladesäulenregister (fiktiv)", "stand": "2026-04", "url": "https://example.org/ladesaeulenregister"}
+    },
+    {
+      "id": "ev_ladepunkte_entwicklung",
+      "schluesselbegriffe": ["seit", "2021", "nicht", "erhöht", "ladepunkte"],
+      "verdikt": "falsch",
+      "begruendung": "Die Zahl der öffentlichen Ladepunkte hat sich seit 2021 mehr als verdoppelt (ca. 50.000 → 121.000). Die Behauptung, sie habe sich nicht erhöht, ist nachweislich unzutreffend.",
+      "quelle": {"titel": "Ladesäulenregister Zeitreihe (fiktiv)", "stand": "2026-04", "url": "https://example.org/ladesaeulen-zeitreihe"}
+    },
+    {
+      "id": "ev_laden_zuhause",
+      "schluesselbegriffe": ["zu", "hause", "ladevorgänge", "drei", "vier"],
+      "verdikt": "bestätigt",
+      "begruendung": "Erhebungen zum Ladeverhalten stützen, dass rund 70–80 % der Ladevorgänge privat (zu Hause oder am Arbeitsplatz) erfolgen. Die Aussage 'drei von vier' liegt in diesem Rahmen.",
+      "quelle": {"titel": "Mobilitätsstudie Ladeverhalten (fiktiv)", "stand": "2025-11", "url": "https://example.org/ladeverhalten"}
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "14.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "81"
+  },
+  "kennzahlen": {
+    "reden": 3,
+    "woerter": 76,
+    "tops": 1,
+    "saalreaktionen": 5,
+    "geprüfte_aussagen": 4
+  },
+  "top_themen": [
+    {
+      "top": 7,
+      "titel": "Beratung über den Ausbau der Ladeinfrastruktur für die Elektromobilität",
+      "woerter": 76
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "Fraktion Fortschritt",
+      "woerter": 33,
+      "prozent": 54.1
+    },
+    {
+      "fraktion": "Fraktion Mitte",
+      "woerter": 28,
+      "prozent": 45.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 7,
+      "titel": "Beratung über den Ausbau der Ladeinfrastruktur für die Elektromobilität",
+      "positiv": 2,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "Fraktion Fortschritt",
+      "positiv": 1,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Fraktion Mitte",
+      "positiv": 1,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "Fraktion Fortschritt",
+      "positiv": 1,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Fraktion Mitte",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "faktencheck_bilanz": {
+    "irreführend": 1,
+    "bestätigt": 1,
+    "falsch": 1,
+    "unbelegt": 1
+  }
+}

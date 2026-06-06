@@ -1,0 +1,733 @@
+{
+  "metadata": {
+    "title": "Protokoll-Knowledge-Graph — Gemeinderatssitzung Musterbach",
+    "source_audio": "sitzung_2026-05-12.mp3",
+    "generated_by": "graph-protokoll pipeline (SPARK Challenge 2 prototype)",
+    "ontology_layers": [
+      "normativ",
+      "zeitlich",
+      "prozedural",
+      "fallbezug",
+      "provenienz"
+    ],
+    "node_count": 46,
+    "relationship_count": 52
+  },
+  "nodes": [
+    {
+      "id": "sitzung_gemeinderat",
+      "label": "Sitzung 12. Mai 2026",
+      "type": "Sitzung",
+      "subtype": "Öffentliche Gemeinderatssitzung",
+      "gremium": "Gemeinderat Musterbach",
+      "datum": "12. Mai 2026",
+      "ort": "Rathaus Musterbach, Sitzungssaal",
+      "beschlussfaehig": "True",
+      "audio_file": "sitzung_2026-05-12.mp3"
+    },
+    {
+      "id": "gemo_37",
+      "label": "GemO §37 Beschlussfähigkeit",
+      "type": "Norm",
+      "subtype": "Gemeindeordnung",
+      "schicht": "normativ"
+    },
+    {
+      "id": "person_dr_petra_hoffmann",
+      "label": "Dr. Petra Hoffmann",
+      "type": "Person",
+      "subtype": "Bürgermeisterin (Vorsitz)"
+    },
+    {
+      "id": "person_klaus_brandt",
+      "label": "Klaus Brandt",
+      "type": "Person",
+      "subtype": "Ratsmitglied"
+    },
+    {
+      "id": "fraktion_gr_n_liste_musterbach",
+      "label": "GRÜN-Liste Musterbach",
+      "type": "Fraktion",
+      "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sabine_wagner",
+      "label": "Sabine Wagner",
+      "type": "Person",
+      "subtype": "Ratsmitglied"
+    },
+    {
+      "id": "fraktion_b_rgerfraktion_musterbach",
+      "label": "Bürgerfraktion Musterbach",
+      "type": "Fraktion",
+      "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_markus_lang",
+      "label": "Markus Lang",
+      "type": "Person",
+      "subtype": "Schriftführer"
+    },
+    {
+      "id": "person_thomas_keller",
+      "label": "Thomas Keller",
+      "type": "Person",
+      "subtype": "Ratsmitglied"
+    },
+    {
+      "id": "fraktion_freie_w_hler_musterbach",
+      "label": "Freie Wähler Musterbach",
+      "type": "Fraktion",
+      "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "top_2",
+      "label": "TOP 2: Einführung digitaler Terminvergabe im Bürgerbüro",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 2,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_3",
+      "label": "TOP 3: Anschaffung eines Bücherbusses für die Ortsteile Musterbach-Süd und Talheim",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 3,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_4",
+      "label": "TOP 4: Verschiedenes",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 4,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "antrag_t2_0",
+      "label": "Antrag (Bürgerfraktion Musterbach)",
+      "type": "Antrag",
+      "subtype": "Bürgerfraktion Musterbach",
+      "text": "Dem stimmt die Bürgerfraktion zu. Wir beantragen die Ergänzung, dass eine telefonische Terminvergabe als gleichwertiger Zugang erhalten bleibt.",
+      "schicht": "prozedural"
+    },
+    {
+      "id": "antrag_t3_1",
+      "label": "Antrag (Bürgerfraktion Musterbach)",
+      "type": "Antrag",
+      "subtype": "Bürgerfraktion Musterbach",
+      "text": "Die Bürgerfraktion unterstützt den Bücherbus. Gerade die Ortsteile ohne eigene Bücherei profitieren davon. Wir sehen aber die jährlichen Betriebskosten von geschätzt 60.000 Euro kritisch und beantragen, dass die Verwaltung bis zur nächsten ",
+      "schicht": "prozedural"
+    },
+    {
+      "id": "abstimmung_t2",
+      "label": "Abstimmung TOP 2 (7:0:1)",
+      "type": "Abstimmung",
+      "subtype": "angenommen",
+      "ja": 7,
+      "nein": 0,
+      "enthaltung": 1,
+      "ergebnis": "angenommen",
+      "schicht": "prozedural"
+    },
+    {
+      "id": "abstimmung_t3",
+      "label": "Abstimmung TOP 3 (5:2:0)",
+      "type": "Abstimmung",
+      "subtype": "angenommen",
+      "ja": 5,
+      "nein": 2,
+      "enthaltung": 0,
+      "ergebnis": "angenommen",
+      "schicht": "prozedural"
+    },
+    {
+      "id": "beschluss_2026-014",
+      "label": "Beschluss 2026-014",
+      "type": "Beschluss",
+      "subtype": "",
+      "nummer": "2026-014",
+      "text": "Das Online-Terminsystem wird zum 1. September eingeführt, die telefonische Terminvergabe bleibt als gleichwertiger Zugang bestehen.",
+      "schicht": "prozedural"
+    },
+    {
+      "id": "beschluss_2026-015",
+      "label": "Beschluss 2026-015",
+      "type": "Beschluss",
+      "subtype": "",
+      "nummer": "2026-015",
+      "text": "Die Anschaffung eines Bücherbusses wird grundsätzlich beschlossen. Die Verwaltung wird beauftragt, bis zur Sitzung am 9. Juni 2026 ein Finanzierungskonzept einschließlich der Betriebskosten vorzulegen. Zuständig ist das Hauptamt, Frau Wagner bietet sich als Ansprechpartnerin des Rats an.",
+      "schicht": "prozedural"
+    },
+    {
+      "id": "aufgabe_0",
+      "label": "Aufgabe: Finanzierungskonzept / beauftragte Vorlage",
+      "type": "Aufgabe",
+      "subtype": "Hauptamt",
+      "frist": "Sitzung am 9. Juni 2026",
+      "zustaendig": "Hauptamt",
+      "schicht": "prozedural"
+    },
+    {
+      "id": "gemo_18",
+      "label": "GemO §18 Befangenheit",
+      "type": "Norm",
+      "subtype": "Gemeindeordnung",
+      "schicht": "normativ"
+    },
+    {
+      "id": "redebeitrag_2",
+      "label": "Redebeitrag Klaus Brandt (TOP 2, 00:33)",
+      "type": "Redebeitrag",
+      "subtype": "GRÜN-Liste Musterbach",
+      "timecode": "00:33",
+      "start_sec": 33.0,
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_3",
+      "label": "Redebeitrag Sabine Wagner (TOP 2, 00:58)",
+      "type": "Redebeitrag",
+      "subtype": "Bürgerfraktion Musterbach",
+      "timecode": "00:58",
+      "start_sec": 58.2,
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_8",
+      "label": "Redebeitrag Thomas Keller (TOP 3, 02:20)",
+      "type": "Redebeitrag",
+      "subtype": "Freie Wähler Musterbach",
+      "timecode": "02:20",
+      "start_sec": 140.3,
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_9",
+      "label": "Redebeitrag Sabine Wagner (TOP 3, 02:36)",
+      "type": "Redebeitrag",
+      "subtype": "Bürgerfraktion Musterbach",
+      "timecode": "02:36",
+      "start_sec": 156.7,
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_10",
+      "label": "Redebeitrag Klaus Brandt (TOP 3, 02:59)",
+      "type": "Redebeitrag",
+      "subtype": "GRÜN-Liste Musterbach",
+      "timecode": "02:59",
+      "start_sec": 179.9,
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "aussage_0",
+      "label": "Aussage: Ich erkläre mich nach Paragraph 18 der Gemeindeordnung für b…",
+      "type": "Aussage",
+      "subtype": "Freie Wähler Musterbach",
+      "text": "Ich erkläre mich nach Paragraph 18 der Gemeindeordnung für befangen und werde an der Beratung und Abstimmung zu diesem Punkt nicht teilnehmen.",
+      "person": "Thomas Keller",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_0",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Gegen den Evidenzkorpus (Stand 2026-05-01) geprüft; kein Beleg gefunden. 'Unbelegt' bedeutet nicht 'falsch'.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_evidenzkorpus_durchsucht_kein_beleg_gefunden",
+      "label": "Evidenzkorpus durchsucht — kein Beleg gefunden",
+      "type": "Quelle",
+      "subtype": "2026-05-01",
+      "url": "https://dip.bundestag.de/",
+      "stand": "2026-05-01",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_1",
+      "label": "Aussage: Wir sehen aber die jährlichen Betriebskosten von geschätzt 6…",
+      "type": "Aussage",
+      "subtype": "Bürgerfraktion Musterbach",
+      "text": "Wir sehen aber die jährlichen Betriebskosten von geschätzt 60.000 Euro kritisch und beantragen, dass die Verwaltung bis zur nächsten Sitzung ein Finanzierungskonzept vorlegt.",
+      "person": "Sabine Wagner",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_1",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Gegen den Evidenzkorpus (Stand 2026-05-01) geprüft; kein Beleg gefunden. 'Unbelegt' bedeutet nicht 'falsch'.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "segment_0",
+      "label": "Segment 00:00 (Dr. Petra Hoffmann)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Petra Hoffmann",
+      "start_sec": 0.0,
+      "end_sec": 21.5,
+      "timecode": "00:00",
+      "sprecher": "Dr. Petra Hoffmann",
+      "text": "Ich eröffne die öffentliche Sitzung des Gemeinderats Musterbach am 12. Mai 2026. Die Ladung erfolgte form- und fristgerecht. Von neun Ratsmitgliedern sind acht anwesend, der Rat ist somit beschlussfähig nach Paragraph 37 der Gemeindeordnung.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_1",
+      "label": "Segment 00:21 (Dr. Petra Hoffmann)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Petra Hoffmann",
+      "start_sec": 21.5,
+      "end_sec": 33.0,
+      "timecode": "00:21",
+      "sprecher": "Dr. Petra Hoffmann",
+      "text": "Wir kommen zu Tagesordnungspunkt 2: Einführung digitaler Terminvergabe im Bürgerbüro. Die Verwaltung schlägt vor, ab dem 1. September ein Online-Terminsystem einzuführen.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_2",
+      "label": "Segment 00:33 (Klaus Brandt)",
+      "type": "Transkriptsegment",
+      "subtype": "Klaus Brandt",
+      "start_sec": 33.0,
+      "end_sec": 58.2,
+      "timecode": "00:33",
+      "sprecher": "Klaus Brandt",
+      "text": "Die GRÜN-Liste begrüßt das ausdrücklich. Die Wartezeiten im Bürgerbüro sind zu lang. Wichtig ist uns aber, dass auch ältere Bürgerinnen und Bürger ohne Internet weiterhin telefonisch einen Termin bekommen. Das muss im Beschluss festgehalten werden.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_3",
+      "label": "Segment 00:58 (Sabine Wagner)",
+      "type": "Transkriptsegment",
+      "subtype": "Sabine Wagner",
+      "start_sec": 58.2,
+      "end_sec": 72.4,
+      "timecode": "00:58",
+      "sprecher": "Sabine Wagner",
+      "text": "Dem stimmt die Bürgerfraktion zu. Wir beantragen die Ergänzung, dass eine telefonische Terminvergabe als gleichwertiger Zugang erhalten bleibt.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_4",
+      "label": "Segment 01:12 (Dr. Petra Hoffmann)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Petra Hoffmann",
+      "start_sec": 72.4,
+      "end_sec": 88.9,
+      "timecode": "01:12",
+      "sprecher": "Dr. Petra Hoffmann",
+      "text": "Dann lasse ich über den Verwaltungsvorschlag mit der Ergänzung von Frau Wagner abstimmen. Wer dem Antrag zustimmt, den bitte ich um das Handzeichen.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_5",
+      "label": "Segment 01:28 (Markus Lang)",
+      "type": "Transkriptsegment",
+      "subtype": "Markus Lang",
+      "start_sec": 88.9,
+      "end_sec": 104.0,
+      "timecode": "01:28",
+      "sprecher": "Markus Lang",
+      "text": "Ich zähle: sieben Jastimmen, keine Gegenstimme, eine Enthaltung. Der Antrag ist damit mehrheitlich angenommen.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_6",
+      "label": "Segment 01:44 (Dr. Petra Hoffmann)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Petra Hoffmann",
+      "start_sec": 104.0,
+      "end_sec": 118.6,
+      "timecode": "01:44",
+      "sprecher": "Dr. Petra Hoffmann",
+      "text": "Damit ist Beschluss 2026-014 gefasst: Das Online-Terminsystem wird zum 1. September eingeführt, die telefonische Terminvergabe bleibt als gleichwertiger Zugang bestehen.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_7",
+      "label": "Segment 01:58 (Dr. Petra Hoffmann)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Petra Hoffmann",
+      "start_sec": 118.6,
+      "end_sec": 140.3,
+      "timecode": "01:58",
+      "sprecher": "Dr. Petra Hoffmann",
+      "text": "Tagesordnungspunkt 3: Anschaffung eines Bücherbusses für die Ortsteile Musterbach-Süd und Talheim. Bevor wir beginnen, ein Hinweis: Herr Keller, Sie betreiben die Buchhandlung am Markt, die als möglicher Lieferant in Frage kommt.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_8",
+      "label": "Segment 02:20 (Thomas Keller)",
+      "type": "Transkriptsegment",
+      "subtype": "Thomas Keller",
+      "start_sec": 140.3,
+      "end_sec": 156.7,
+      "timecode": "02:20",
+      "sprecher": "Thomas Keller",
+      "text": "Das ist richtig. Ich erkläre mich nach Paragraph 18 der Gemeindeordnung für befangen und werde an der Beratung und Abstimmung zu diesem Punkt nicht teilnehmen. Ich verlasse für diesen Tagesordnungspunkt meinen Platz.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_9",
+      "label": "Segment 02:36 (Sabine Wagner)",
+      "type": "Transkriptsegment",
+      "subtype": "Sabine Wagner",
+      "start_sec": 156.7,
+      "end_sec": 179.9,
+      "timecode": "02:36",
+      "sprecher": "Sabine Wagner",
+      "text": "Die Bürgerfraktion unterstützt den Bücherbus. Gerade die Ortsteile ohne eigene Bücherei profitieren davon. Wir sehen aber die jährlichen Betriebskosten von geschätzt 60.000 Euro kritisch und beantragen, dass die Verwaltung bis zur nächsten Sitzung ein Finanzierungskonzept vorlegt.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_10",
+      "label": "Segment 02:59 (Klaus Brandt)",
+      "type": "Transkriptsegment",
+      "subtype": "Klaus Brandt",
+      "start_sec": 179.9,
+      "end_sec": 201.2,
+      "timecode": "02:59",
+      "sprecher": "Klaus Brandt",
+      "text": "Die GRÜN-Liste teilt die Sorge um die Betriebskosten nicht in dem Maße, unterstützt aber den Antrag auf ein Finanzierungskonzept. Bildung in der Fläche ist uns das wert.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_11",
+      "label": "Segment 03:21 (Dr. Petra Hoffmann)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Petra Hoffmann",
+      "start_sec": 201.2,
+      "end_sec": 220.5,
+      "timecode": "03:21",
+      "sprecher": "Dr. Petra Hoffmann",
+      "text": "Ich lasse über den Grundsatzbeschluss zur Anschaffung des Bücherbusses abstimmen, verbunden mit dem Auftrag an die Verwaltung, bis zur Sitzung im Juni ein Finanzierungskonzept vorzulegen. Herr Keller nimmt wegen Befangenheit nicht teil.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_12",
+      "label": "Segment 03:40 (Markus Lang)",
+      "type": "Transkriptsegment",
+      "subtype": "Markus Lang",
+      "start_sec": 220.5,
+      "end_sec": 236.8,
+      "timecode": "03:40",
+      "sprecher": "Markus Lang",
+      "text": "Bei diesem Punkt stimmen sieben Mitglieder ab. Ergebnis: fünf Jastimmen, zwei Gegenstimmen, keine Enthaltung. Der Antrag ist angenommen.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_13",
+      "label": "Segment 03:56 (Dr. Petra Hoffmann)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Petra Hoffmann",
+      "start_sec": 236.8,
+      "end_sec": 256.0,
+      "timecode": "03:56",
+      "sprecher": "Dr. Petra Hoffmann",
+      "text": "Beschluss 2026-015: Die Anschaffung eines Bücherbusses wird grundsätzlich beschlossen. Die Verwaltung wird beauftragt, bis zur Sitzung am 9. Juni 2026 ein Finanzierungskonzept einschließlich der Betriebskosten vorzulegen. Zuständig ist das Hauptamt, Frau Wagner bietet sich als Ansprechpartnerin des Rats an.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_14",
+      "label": "Segment 04:16 (Dr. Petra Hoffmann)",
+      "type": "Transkriptsegment",
+      "subtype": "Dr. Petra Hoffmann",
+      "start_sec": 256.0,
+      "end_sec": 270.3,
+      "timecode": "04:16",
+      "sprecher": "Dr. Petra Hoffmann",
+      "text": "Tagesordnungspunkt 4, Verschiedenes. Gibt es Wortmeldungen? Wenn nicht, schließe ich die öffentliche Sitzung um 19:42 Uhr. Ich danke Ihnen für die Mitarbeit.",
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "provenienz"
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "sitzung_gemeinderat",
+      "target_id": "gemo_37",
+      "relationship_type": "BESCHLUSSFAEHIG_NACH"
+    },
+    {
+      "source_id": "sitzung_gemeinderat",
+      "target_id": "person_dr_petra_hoffmann",
+      "relationship_type": "GELEITET_VON"
+    },
+    {
+      "source_id": "person_klaus_brandt",
+      "target_id": "fraktion_gr_n_liste_musterbach",
+      "relationship_type": "MITGLIED_VON"
+    },
+    {
+      "source_id": "person_sabine_wagner",
+      "target_id": "fraktion_b_rgerfraktion_musterbach",
+      "relationship_type": "MITGLIED_VON"
+    },
+    {
+      "source_id": "sitzung_gemeinderat",
+      "target_id": "person_markus_lang",
+      "relationship_type": "PROTOKOLLIERT_VON"
+    },
+    {
+      "source_id": "person_thomas_keller",
+      "target_id": "fraktion_freie_w_hler_musterbach",
+      "relationship_type": "MITGLIED_VON"
+    },
+    {
+      "source_id": "sitzung_gemeinderat",
+      "target_id": "top_2",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_gemeinderat",
+      "target_id": "top_3",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_gemeinderat",
+      "target_id": "top_4",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "top_2",
+      "target_id": "antrag_t2_0",
+      "relationship_type": "BEHANDELT_ANTRAG"
+    },
+    {
+      "source_id": "top_3",
+      "target_id": "antrag_t3_1",
+      "relationship_type": "BEHANDELT_ANTRAG"
+    },
+    {
+      "source_id": "top_2",
+      "target_id": "abstimmung_t2",
+      "relationship_type": "ENTSCHIEDEN_DURCH"
+    },
+    {
+      "source_id": "top_3",
+      "target_id": "abstimmung_t3",
+      "relationship_type": "ENTSCHIEDEN_DURCH"
+    },
+    {
+      "source_id": "abstimmung_t2",
+      "target_id": "beschluss_2026-014",
+      "relationship_type": "FUEHRT_ZU"
+    },
+    {
+      "source_id": "top_2",
+      "target_id": "beschluss_2026-014",
+      "relationship_type": "ERGEBNIS_BESCHLUSS"
+    },
+    {
+      "source_id": "abstimmung_t3",
+      "target_id": "beschluss_2026-015",
+      "relationship_type": "FUEHRT_ZU"
+    },
+    {
+      "source_id": "top_3",
+      "target_id": "beschluss_2026-015",
+      "relationship_type": "ERGEBNIS_BESCHLUSS"
+    },
+    {
+      "source_id": "beschluss_2026-015",
+      "target_id": "aufgabe_0",
+      "relationship_type": "ERZEUGT_AUFGABE"
+    },
+    {
+      "source_id": "person_thomas_keller",
+      "target_id": "top_3",
+      "relationship_type": "BEFANGEN_BEI",
+      "rechtsgrundlage": "Paragraph 18 der Gemeindeordnung"
+    },
+    {
+      "source_id": "person_thomas_keller",
+      "target_id": "gemo_18",
+      "relationship_type": "BEFANGENHEIT_NACH"
+    },
+    {
+      "source_id": "person_klaus_brandt",
+      "target_id": "redebeitrag_2",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_2",
+      "target_id": "top_2",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sabine_wagner",
+      "target_id": "redebeitrag_3",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_3",
+      "target_id": "top_2",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_thomas_keller",
+      "target_id": "redebeitrag_8",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_8",
+      "target_id": "top_3",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sabine_wagner",
+      "target_id": "redebeitrag_9",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_9",
+      "target_id": "top_3",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_klaus_brandt",
+      "target_id": "redebeitrag_10",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_10",
+      "target_id": "top_3",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_thomas_keller",
+      "target_id": "aussage_0",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "top_3",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "faktencheck_0",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_0",
+      "target_id": "quelle_evidenzkorpus_durchsucht_kein_beleg_gefunden",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sabine_wagner",
+      "target_id": "aussage_1",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "top_3",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "faktencheck_1",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_1",
+      "target_id": "quelle_evidenzkorpus_durchsucht_kein_beleg_gefunden",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "top_2",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_3",
+      "target_id": "segment_7",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_4",
+      "target_id": "segment_14",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "beschluss_2026-014",
+      "target_id": "segment_6",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "beschluss_2026-015",
+      "target_id": "segment_13",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "abstimmung_t2",
+      "target_id": "segment_5",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "abstimmung_t3",
+      "target_id": "segment_12",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_2",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_3",
+      "target_id": "segment_3",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_8",
+      "target_id": "segment_8",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_9",
+      "target_id": "segment_9",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_10",
+      "target_id": "segment_10",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "segment_8",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "segment_9",
+      "relationship_type": "BELEGT_DURCH"
+    }
+  ]
+}
