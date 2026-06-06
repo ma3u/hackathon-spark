@@ -65,16 +65,16 @@
       "subtype": "Staatssekretär"
     },
     {
-      "id": "top_7",
-      "label": "TOP 7: Beratung über den Ausbau der Ladeinfrastruktur für die Elektromobilität",
+      "id": "top_1",
+      "label": "TOP 1: Beratung über den Ausbau der Ladeinfrastruktur für die Elektromobilität",
       "type": "Tagesordnungspunkt",
       "subtype": "",
-      "nummer": 7,
+      "nummer": 1,
       "schicht": "prozedural"
     },
     {
       "id": "redebeitrag_0",
-      "label": "Redebeitrag Stefan Möller (TOP 7, Prot.)",
+      "label": "Redebeitrag Stefan Möller (TOP 1, Prot.)",
       "type": "Redebeitrag",
       "subtype": "Fraktion Fortschritt",
       "timecode": "Prot.",
@@ -83,7 +83,7 @@
     },
     {
       "id": "redebeitrag_1",
-      "label": "Redebeitrag Dr. Lena Vossberg (TOP 7, Prot.)",
+      "label": "Redebeitrag Dr. Lena Vossberg (TOP 1, Prot.)",
       "type": "Redebeitrag",
       "subtype": "Fraktion Mitte",
       "timecode": "Prot.",
@@ -92,7 +92,7 @@
     },
     {
       "id": "redebeitrag_2",
-      "label": "Redebeitrag Jonas Reuter (TOP 7, Prot.)",
+      "label": "Redebeitrag Jonas Reuter (TOP 1, Prot.)",
       "type": "Redebeitrag",
       "subtype": "",
       "timecode": "Prot.",
@@ -320,7 +320,7 @@
     },
     {
       "source_id": "sitzung_bt_21_81",
-      "target_id": "top_7",
+      "target_id": "top_1",
       "relationship_type": "HAT_TOP"
     },
     {
@@ -330,7 +330,7 @@
     },
     {
       "source_id": "redebeitrag_0",
-      "target_id": "top_7",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -340,7 +340,7 @@
     },
     {
       "source_id": "redebeitrag_1",
-      "target_id": "top_7",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -350,7 +350,7 @@
     },
     {
       "source_id": "redebeitrag_2",
-      "target_id": "top_7",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -360,7 +360,7 @@
     },
     {
       "source_id": "aussage_0",
-      "target_id": "top_7",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -381,7 +381,7 @@
     },
     {
       "source_id": "aussage_1",
-      "target_id": "top_7",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "source_id": "aussage_2",
-      "target_id": "top_7",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -423,7 +423,7 @@
     },
     {
       "source_id": "aussage_3",
-      "target_id": "top_7",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -438,7 +438,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "top_7",
+      "source_id": "top_1",
       "target_id": "ereignis_0",
       "relationship_type": "HAT_REAKTION"
     },
@@ -453,7 +453,7 @@
       "relationship_type": "BELEGT_DURCH"
     },
     {
-      "source_id": "top_7",
+      "source_id": "top_1",
       "target_id": "ereignis_1",
       "relationship_type": "HAT_REAKTION"
     },
@@ -468,7 +468,7 @@
       "relationship_type": "BELEGT_DURCH"
     },
     {
-      "source_id": "top_7",
+      "source_id": "top_1",
       "target_id": "ereignis_2",
       "relationship_type": "HAT_REAKTION"
     },
@@ -483,7 +483,7 @@
       "relationship_type": "BELEGT_DURCH"
     },
     {
-      "source_id": "top_7",
+      "source_id": "top_1",
       "target_id": "ereignis_3",
       "relationship_type": "HAT_REAKTION"
     },
@@ -498,7 +498,7 @@
       "relationship_type": "BELEGT_DURCH"
     },
     {
-      "source_id": "top_7",
+      "source_id": "top_1",
       "target_id": "ereignis_4",
       "relationship_type": "HAT_REAKTION"
     },

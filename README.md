@@ -7,16 +7,16 @@ Genehmigungsverfahren: Aus dem **Audiomitschnitt** einer Gremiensitzung
 **strukturiertes, durchsuchbares, rechtssicher belegbares Protokoll** als
 Knowledge Graph mit GraphRAG — inklusive **Faktencheck** politischer Aussagen.
 
-> Dies dreht die Audio-Richtung der Schwester-Prototypen um: `graph-insurance`,
-> `graph-investigation` und `graph-eAkte` nutzen Audio als **Output** (TTS-Briefings).
-> `graph-protokoll` nutzt Audio als **Input** (ASR) — und füllt damit eine echte Lücke
-> im SPARK-Baukasten.
-
 ![GraphRAG](https://img.shields.io/badge/GraphRAG-mit%20Audio--Provenienz-brightgreen) ![Faktencheck](https://img.shields.io/badge/Faktencheck-mit%20Quellen-red) ![Szenarien](https://img.shields.io/badge/Demos-Gemeinderat%20%2B%20Bundestag-blue) ![DSGVO](https://img.shields.io/badge/KI-lokal%20%2B%20DSGVO-brightgreen) ![License](https://img.shields.io/badge/license-EUPL--1.2-green)
 
-**Zwei Demo-Szenarien:** **Gemeinderat** (Beschlüsse, Abstimmungen, Befangenheit,
-Aufgaben) und **Bundestag** (Plenardebatte mit Faktencheck + Frage an die
-Bundesregierung). Analyse der Bundestags-Protokollierung & des Faktenchecks:
+**Drei Demo-Szenarien:** **Gemeinderat** (Beschlüsse, Abstimmungen, Befangenheit,
+Aufgaben) und **Bundestag** (fiktive Plenardebatte mit Faktencheck + Frage an die
+Bundesregierung) — beide fiktiv — sowie **Bundestag (echt)**: das **echte amtliche
+Plenarprotokoll WP20/214** (18.03.2025, gemeinfrei §5 UrhG) mit 45 Reden und 643
+amtlichen Saalreaktionen. **Beim echten Szenario ist der Faktencheck bewusst aus**
+(keine automatischen Verdikte über reale Personen). SPARK-Nutzung, Echtdaten-Wege und
+die Faktencheck-Grenzen: [`docs/spark-und-echtdaten.md`](docs/spark-und-echtdaten.md).
+Analyse der Bundestags-Protokollierung & des Faktenchecks:
 [`docs/bundestag-protokollierung-analyse.md`](docs/bundestag-protokollierung-analyse.md).
 
 ---
@@ -183,9 +183,15 @@ Deploy: Der Workflow `.github/workflows/pages.yml` baut die Daten und publiziert
 Echte Bundestagsdaten brauchen kein Audio: das **amtliche Plenarprotokoll-XML**
 (DTD `dbtplenarprotokoll`, ab WP19) wird direkt geparst — inklusive der
 `<kommentar>`-**Saalreaktionen** (Beifall/Zwischenruf/Lachen/Widerspruch =
-Jubel/Buhrufe, amtlich annotiert).
+Jubel/Buhrufe, amtlich annotiert). **Mitgeliefert ist eine echte Sitzung**
+(`data/real/plenarprotokoll-20-214.xml`, gemeinfrei) — Szenario „Bundestag (echt)".
 
 ```bash
+# Echtes mitgeliefertes Protokoll (ohne Faktencheck über reale Personen):
+python ingest_bundestag.py --xml data/real/plenarprotokoll-20-214.xml \
+    --name bundestag_real --no-factcheck
+
+# Eigene Sitzung ziehen + verarbeiten:
 # 1) Offizielle Quellen einer Sitzung ziehen (auf deiner Maschine):
 ./scripts/fetch-session.sh 21 81            # Open-Data-XML + DIP-API + YouTube-Audio
 # 2) Parsen → Graph + Faktencheck + Dashboard, dry-run Neo4j:
@@ -257,9 +263,15 @@ graph-protokoll/
 
 ## Demo-Daten
 
-**Alles frei erfunden** — Gemeinde Musterbach, fiktive Abgeordnete/Fraktionen,
-fiktive Statistiken/Quellen. Keine realen Personen, Organisationen, Sitzungen
-oder Zitate. Der Faktencheck demonstriert den **Mechanismus**, nicht reale Politik.
+- **`data/sample/` — frei erfunden:** Gemeinde Musterbach, fiktive Abgeordnete/Fraktionen,
+  fiktive Statistiken/Quellen. Keine realen Personen, Organisationen, Sitzungen oder Zitate.
+  Der **Faktencheck** läuft nur hier (gegen den fiktiven `data/evidence/evidenz.json`) und
+  demonstriert den **Mechanismus**, nicht reale Politik.
+- **`data/real/` — echt:** amtliches Plenarprotokoll WP20/214 (gemeinfrei, § 5 UrhG). Daraus
+  entsteht das Szenario „Bundestag (echt)" mit Graph, Saalreaktionen, Dashboard und
+  Vorlesefassung — **ohne** Faktencheck-Verdikte über reale Personen (`--no-factcheck`).
+  Einordnung & weitere Echtdaten-Wege (YouTube-Untertitel, eigene Sitzungen):
+  [`docs/spark-und-echtdaten.md`](docs/spark-und-echtdaten.md).
 
 ## Lizenz
 
