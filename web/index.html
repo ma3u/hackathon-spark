@@ -104,6 +104,26 @@
       const color = (n) => (LAYER[n.schicht] || { c: "#999" }).c;
       const $ = (id) => document.getElementById(id);
 
+      // Fraktions-Farben (dark-theme-tauglich) für klar erkennbare Balken statt Grau.
+      const PARTY = {
+        "CDU/CSU": "#bfc7d0", "SPD": "#e3000f", "BÜNDNIS 90/DIE GRÜNEN": "#3fbf46",
+        "FDP": "#ffd400", "AfD": "#009ee0", "Die Linke": "#be3075", "Linke": "#be3075",
+        "BSW": "#ff7a00", "fraktionslos": "#8b949e", "fraktionslos ": "#8b949e",
+      };
+      const VERDICT = {
+        "bestätigt": "#3fb950", "teilweise": "#d29922", "irreführend": "#d29922",
+        "falsch": "#f85149", "unbelegt": "#8b949e",
+      };
+      // Echte Quelle je Szenario (Deeplink). Fiktive Szenarien: keine externe Quelle.
+      const SOURCE = {
+        bundestag_real: {
+          url: "https://www.bundestag.de/resource/blob/1057624/20214.xml",
+          label: "Bundestag Open Data — Plenarprotokoll 20/214 (18.03.2025)",
+          mediathek: "https://www.bundestag.de/mediathek",
+        },
+      };
+      const partyColor = (f) => PARTY[(f || "").replace(/ /g, " ").trim()] || "#58a6ff";
+
       // 3D-Graph braucht WebGL (3d-force-graph → THREE.js). Ist WebGL aus (Hardware-
       // beschleunigung deaktiviert/sandboxed), darf die Init NICHT die ganze Seite lahmlegen:
       // gekapselt, damit Tabs, Dashboard und Vorlesefassung ohne WebGL weiterlaufen.
@@ -171,19 +191,32 @@
         for (const [k, v] of Object.entries(n)) {
           if (skip.has(k) || v === "" || v == null || typeof v === "object") continue;
           if (["x", "y", "z", "vx", "vy", "vz", "index", "source_id", "target_id"].includes(k)) continue;
+          if (k === "url" && /^https?:/.test(v)) {  // Quelle-Knoten: URL als Deeplink
+            html += `<div class="prop"><b>url:</b> <a href="${v}" target="_blank" rel="noopener">${v}</a></div>`;
+            continue;
+          }
           html += `<div class="prop"><b>${k}:</b> ${v}</div>`;
         }
-        if (n.type === "Transkriptsegment") {
-          html += `<div class="prop cite">▶ Audio bei ${n.timecode} (${n.start_sec}s)</div>`;
-          html += `<audio controls preload="none" src="./audio/${n.audio_file || ""}#t=${Math.floor(n.start_sec || 0)}"></audio>`;
+        const src = SOURCE[current];
+        if (n.type === "Transkriptsegment" && src) {  // Deeplink in die echte Quelle
+          const t = Math.floor(n.start_sec || 0);
+          const link = /youtu/.test(src.url) ? `${src.url}${src.url.includes("?") ? "&" : "?"}t=${t}s` : src.url;
+          html += `<div class="prop"><a class="cite" href="${link}" target="_blank" rel="noopener">▶ Quelle ansehen (${n.timecode}${t ? ", " + t + "s" : ""})</a></div>`;
+        }
+        if (n.type === "Transkriptsegment" && /\.(mp3|wav|m4a)$/i.test(n.audio_file || "")) {
+          html += `<audio controls preload="none" src="./audio/${n.audio_file}#t=${Math.floor(n.start_sec || 0)}"></audio>`;
         }
         $("detail").innerHTML = html;
       }
 
       function renderMeta(data) {
-        const m = data.metadata;
+        const m = data.metadata, src = SOURCE[current];
+        const quelle = src
+          ? `<a href="${src.url}" target="_blank" rel="noopener">${src.label}</a>`
+            + (src.mediathek ? ` · <a href="${src.mediathek}" target="_blank" rel="noopener">Mediathek</a>` : "")
+          : (m.source_audio || "—");
         $("meta").innerHTML = `<h2>${m.title || "Protokoll-Graph"}</h2>
-          <div class="prop"><b>Quelle:</b> ${m.source_audio || "—"}</div>
+          <div class="prop"><b>Quelle:</b> ${quelle}</div>
           <div class="prop"><b>Knoten:</b> ${m.node_count} · <b>Beziehungen:</b> ${m.relationship_count}</div>`;
       }
 
@@ -212,11 +245,12 @@
           return `<div class="fc ${fc.verdikt}">
             <span class="verdikt">${fc.verdikt.toUpperCase()}</span> — ${c ? c.person : ""}<br/>
             „${c ? c.text : ""}"<br/>
-            <span class="src">${fc.begruendung || ""}${s ? " · Quelle: " + s.label : ""}</span></div>`;
+            <span class="src">${fc.begruendung || ""}${s ? ` · Quelle: ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.label}</a>` : s.label}${s.stand ? ` (Stand ${s.stand})` : ""}` : ""}</span></div>`;
         }).join("");
       }
 
       async function load(scenario) {
+        current = scenario;
         const data = await (await fetch(`./data/${scenario}.json`)).json();
         renderMeta(data); renderFactcheck(data);
         if (Graph) Graph.graphData(toGraph(data));
@@ -231,10 +265,13 @@
       function bars(rows, valKey, max, cls = "") {
         if (!rows.length) return "";
         const m = max || Math.max(1, ...rows.map((r) => r[valKey]));
-        return rows.map((r) =>
-          `<div class="bar"><span title="${String(r.label).replace(/"/g, "&quot;")}">${r.label}</span><span class="track">
-             <span class="fill ${cls}" style="width:${Math.max(1.5, (100 * r[valKey]) / m)}%"></span></span>
-           <span class="num">${r.num}</span></div>`).join("");
+        return rows.map((r) => {
+          const w = Math.max(1.5, (100 * r[valKey]) / m);
+          const style = `width:${w}%` + (r.color ? `;background:${r.color}` : "");
+          return `<div class="bar"><span title="${String(r.label).replace(/"/g, "&quot;")}">${r.label}</span><span class="track">
+             <span class="fill ${cls}" style="${style}"></span></span>
+           <span class="num">${r.num}</span></div>`;
+        }).join("");
       }
       const empty = (msg) => `<div class="empty">${msg}</div>`;
       async function loadDash(scenario) {
@@ -253,11 +290,12 @@
         const themen = card("Top-Themen (nach Redevolumen)",
           bars(d.top_themen.map((t) => ({
             label: t.titel ? `${t.top}: ${t.titel}` : `TOP ${t.top}`,
-            woerter: t.woerter, num: t.woerter,
+            woerter: t.woerter, num: t.woerter, color: "#58a6ff",
           })), "woerter") || empty("Kein Redevolumen erfasst."));
         const sprach = card("Sprachanteil pro Fraktion",
-          bars(d.sprachanteil_fraktion.map((s) => ({ label: s.fraktion, prozent: s.prozent, num: s.prozent + "%" })),
-               "prozent", 100) || empty("Keine Fraktions-Wortanteile."));
+          bars(d.sprachanteil_fraktion.map((s) => ({
+            label: s.fraktion, prozent: s.prozent, num: s.prozent + "%", color: partyColor(s.fraktion),
+          })), "prozent", 100) || empty("Keine Fraktions-Wortanteile."));
 
         const fb = (rows, t) => card(t, rows.length ? rows.map((r) => {
           const tot = r.positiv + r.negativ || 1;
@@ -271,7 +309,7 @@
         const bilanz = card("Faktencheck-Bilanz",
           Object.entries(d.faktencheck_bilanz).map(([v, n]) =>
             `<div class="bar"><span title="${v}">${v}</span><span class="track">
-               <span class="fill" style="width:${Math.max(1.5, 100 * n / Math.max(1, k.geprüfte_aussagen))}%"></span></span>
+               <span class="fill" style="width:${Math.max(1.5, 100 * n / Math.max(1, k.geprüfte_aussagen))}%;background:${VERDICT[v] || "#58a6ff"}"></span></span>
              <span class="num">${n}</span></div>`).join("")
           || empty("Kein Faktencheck für diese Sitzung — bei echten Personen bewusst ohne automatische Verdikte."));
 
