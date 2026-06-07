@@ -42,6 +42,7 @@ def build_graph(p: Protocol, *, audio_file: str, sitzung_id: str, factchecks=Non
     m = p.meeting
     node(sitzung_id, f"Sitzung {m.get('datum','')}", "Sitzung", "Öffentliche Gemeinderatssitzung",
          gremium=m.get("gremium", ""), datum=m.get("datum", ""), ort=m.get("ort", ""),
+         wahlperiode=str(m.get("wahlperiode", "")), sitzung_nr=str(m.get("sitzung_nr", "")),
          beschlussfaehig=str(m.get("beschlussfaehig", "")), audio_file=audio_file)
 
     # ── L1: Normen (referenziert aus Beschlussfähigkeit + Befangenheit) ──────

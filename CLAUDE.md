@@ -33,6 +33,19 @@ pip install -r requirements.txt                      # faster-whisper, pyannote,
 docker compose -f docker-compose.neo4j.yml up -d     # local Neo4j 5 (neo4j/healthdataspace)
 python3 -m pipeline.neo4j_graphrag "Welche Aussagen sind falsch — mit Quelle?"
 ./scripts/fetch-session.sh 21 81                     # pull official sources (runs on YOUR machine)
+
+# Multiple REAL sessions fully into one local Neo4j (ports overridable if 7474/7687 taken):
+NEO4J_HTTP_PORT=7475 NEO4J_BOLT_PORT=7688 docker compose -f docker-compose.neo4j.yml up -d
+export NEO4J_URI=bolt://localhost:7688
+python3 scripts/load_real_sessions.py                # load data/real/*.xml (namespaced, factcheck off)
+python3 scripts/verify_neo4j.py                      # automated checks (3 real-case scenarios)
+
+# GenAI stack (venv; LLM via .env — Azure AI Foundry, OpenAI-compatible. NEVER commit .env):
+.venv/bin/pip install -r requirements-genai.txt      # neo4j-graphrag, graphdatascience, haystack
+.venv/bin/python scripts/graphrag_compare.py         # Text2Cypher: Mistral-Large-3 vs Kimi-K2.6
+.venv/bin/python scripts/gds_analysis.py             # GDS: PageRank / Louvain / Degree
+.venv/bin/python scripts/haystack_neo4j.py "Frage"   # Haystack→Neo4j full-text RAG + Azure
+.venv/bin/python scripts/vector_search.py "Frage"    # vector/semantic RAG (text-embedding-3-large)
 ```
 
 There is **no test framework** yet (no pytest/CI tests). Verification = running the

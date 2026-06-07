@@ -231,6 +231,69 @@ gegen den amtlichen Goldstandard. Methodik: `docs/test-protokoll-vs-video.md`.
 **Doku:** Quellen `docs/quellen.md` · Plan/Fortschritt `docs/challenge-plan.md` ·
 Fragen an den Bundestag `docs/fragen-bundestag.md`.
 
+## SPARK: Was wir nutzen — und was wir erweitern
+
+Das offizielle [**BMDS SPARK Workflow**](https://gitlab.opencode.de/bmds/planungs-und-genehmigungsbeschleunigung/spark-workflow)
+wurde lokal geklont und untersucht. Wichtig zur Einordnung: `graph-protokoll` hat **keine
+Code-Abhängigkeit** zu SPARK — wir teilen Mission, Lizenz und Bausteinkonzept, nicht Quellcode.
+(Das „SPARK-Datenformat" der Schwester-Prototypen `graph-insurance/-investigation/-eAkte`
+stammt aus dem eigenen Prototypen-Ökosystem `github.com/ma3u`, nicht aus SPARK selbst.)
+
+**Was wir aus SPARK übernehmen (konzeptionell):**
+
+| SPARK Workflow (BMDS) | Übernahme in `graph-protokoll` |
+| --------------------- | ------------------------------ |
+| Challenge 2 „Da geht noch mehr" — neue Leistung jenseits Planung/Genehmigung | **Gremien-/Plenarprotokoll-Analyse** als neue Verwaltungsleistung |
+| Lizenz EUPL-1.2, Public Money – Public Code | gleiche Lizenz/Haltung |
+| On-prem-LLM über OpenAI-kompatiblen Endpoint (LiteLLM/vLLM) | gleiches Muster (Ollama/vLLM **oder** Azure AI Foundry über `.env`) |
+| Modul **Inhaltsextraktion** aus Antragsunterlagen | analog `pipeline/extract.py` / `bundestag_xml.py` |
+| **Vollständigkeits-/Plausibilitätsprüfung** | analog Faktencheck/Qualitätsprüfung |
+
+**Wo wir SPARK erweitern** (Bausteine, die SPARK Workflow nicht hat — SPARK nutzt Temporal +
+FastAPI + **Qdrant/Vektor-RAG**, *keinen* Graph):
+
+| Fähigkeit | SPARK | `graph-protokoll` (Erweiterung) |
+| --------- | ----- | ------------------------------- |
+| Eingabe | Dokumente (PDF/DOCX) | **Audio/ASR**, amtliches **Plenarprotokoll-XML**, YouTube-Untertitel |
+| Retrieval | Vektor-RAG (Qdrant) | **Knowledge Graph (Neo4j) + GraphRAG/Text2Cypher** |
+| Analytik | — | **Graph Data Science** (PageRank, Louvain, Degree) |
+| Provenienz | Dokumentbezug | **Audio-Sekunde / Segment** (`BELEGT_DURCH`) |
+| Bewertung | formale/Plausibilitätsprüfung | **Faktencheck mit Quellen** (fiktiv; reale Personen ohne Auto-Verdikt) |
+| Mehrkanal-RAG | — | **Haystack/Neo4j** (Volltext-RAG) + Text2Cypher nebeneinander |
+
+Ausführliche Analyse (mit den real ausgeführten Schritten): [`docs/spark-und-echtdaten.md`](docs/spark-und-echtdaten.md).
+
+## GenAI-Stack: GraphRAG · GDS · Haystack (Mistral-Large-3 vs. Kimi-K2.6)
+
+Für **Genauigkeit & Performance** auf den echten Sitzungen (siehe
+[`docs/neo4j-echtsitzungen.md`](docs/neo4j-echtsitzungen.md)) kommen drei Neo4j-GenAI-Bausteine
+zum Einsatz. LLM-Zugang on-prem-fähig über `.env` (OpenAI-kompatibel; hier **Azure AI Foundry**:
+`Mistral-Large-3` + `Kimi-K2.6`). Setup: `.venv/bin/pip install -r requirements-genai.txt`,
+`cp .env.example .env` (Werte eintragen), Neo4j auf 7475/7688 starten + `load_real_sessions.py`.
+
+| Baustein | Bibliothek | Skript | Zweck |
+| -------- | ---------- | ------ | ----- |
+| **GraphRAG (Text2Cypher)** | [`neo4j-graphrag`](https://neo4j.com/developer/genai-ecosystem/graphrag-python/) | `scripts/graphrag_compare.py` | NL-Frage → Cypher → Antwort; **Modellvergleich** Mistral vs. Kimi |
+| **Graph Data Science** | [`graphdatascience`](https://neo4j.com/docs/graph-data-science/) | `scripts/gds_analysis.py` | PageRank/Louvain/Degree über den Mitsprache-Graph |
+| **Haystack ↔ Neo4j** | [`neo4j-haystack`](https://neo4j.com/labs/genai-ecosystem/haystack/) | `scripts/haystack_neo4j.py` | Volltext-RAG über die Reden + Azure-Generator |
+| **Vektor-/Semantik-Suche** | `neo4j-graphrag` VectorCypherRetriever | `scripts/vector_search.py` | Embeddings (Azure `text-embedding-3-large`, 3072d) → **nativer Neo4j-Vektor-Index** → Bedeutungsähnlichkeit |
+
+Damit stehen **drei komplementäre Retrieval-Wege** über denselben Graphen: strukturiert
+(Text2Cypher), stichwortbasiert (Haystack-Volltext) und semantisch (Vektor). Das Embedding-Modell
+gab es im Azure-Resource noch nicht — es wurde per `az cognitiveservices account deployment create`
+bereitgestellt (Mistral-Embed ist dort nicht im Katalog → `text-embedding-3-large`, multilingual).
+
+```bash
+.venv/bin/python scripts/graphrag_compare.py   # Mistral-Large-3 vs. Kimi-K2.6, Cypher + Antwort
+.venv/bin/python scripts/gds_analysis.py       # zentrale Sprecher, Communities
+.venv/bin/python scripts/haystack_neo4j.py "Was wurde zur Energie gesagt?"
+.venv/bin/python scripts/vector_search.py "Was wurde zur Rente gesagt?"  # semantisch (Embeddings)
+```
+
+**Beobachtung Modellvergleich:** Beide erzeugen valides Cypher; **Mistral-Large-3** ist schneller
+(~2–4 s), **Kimi-K2.6** ist ein Reasoning-Modell (langsamer, braucht mehr `max_tokens`) und war
+bei der Synthese komplexer Ranglisten teils präziser. Beleg/Details: `docs/neo4j-echtsitzungen.md`.
+
 ## Projektstruktur
 
 ```

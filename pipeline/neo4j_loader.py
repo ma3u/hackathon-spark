@@ -48,9 +48,33 @@ def build_statements(graph: dict) -> list[tuple[str, dict]]:
     return stmts
 
 
+# Knotentypen, die SITZUNGSÜBERGREIFEND dieselbe Entität bezeichnen: eine Person, eine
+# Fraktion, eine Norm, eine Quelle ist in jeder Sitzung dieselbe. Alle übrigen Knoten
+# (TOPs, Reden, Aussagen, Segmente, Saalreaktionen …) sind sitzungsspezifisch.
+SHARED_TYPES = frozenset({"Person", "Fraktion", "Norm", "Quelle"})
+
+
+def namespace_graph(graph: dict, prefix: str, *, shared_types=SHARED_TYPES) -> dict:
+    """Knoten-IDs pro Sitzung eindeutig machen — Voraussetzung, um MEHRERE Sitzungen
+    kollisionsfrei in EIN Neo4j zu laden.
+
+    Sitzungsspezifische IDs werden mit `prefix` versehen; geteilte Entitäten (Person,
+    Fraktion, …) behalten ihre globale ID und werden so über `MERGE` sitzungsübergreifend
+    zu EINEM Knoten verschmolzen — genau das ermöglicht Abfragen wie „in welchen Sitzungen
+    sprach Person X?". Gibt einen neuen Graph-Dict zurück (Original bleibt unverändert).
+    """
+    idmap = {n["id"]: (n["id"] if n["type"] in shared_types else f"{prefix}::{n['id']}")
+             for n in graph["nodes"]}
+    nodes = [{**n, "id": idmap[n["id"]]} for n in graph["nodes"]]
+    rels = [{**r, "source_id": idmap.get(r["source_id"], r["source_id"]),
+             "target_id": idmap.get(r["target_id"], r["target_id"])}
+            for r in graph["relationships"]]
+    return {"metadata": graph.get("metadata", {}), "nodes": nodes, "relationships": rels}
+
+
 def load_graph(graph: dict, *, uri: str | None = None, user: str | None = None,
                password: str | None = None, database: str = "neo4j",
-               dry_run: bool = True) -> dict:
+               dry_run: bool = True, batch_size: int = 500) -> dict:
     stmts = build_statements(graph)
     n_nodes = len(graph["nodes"])
     n_rels = len(graph["relationships"])
@@ -64,10 +88,21 @@ def load_graph(graph: dict, *, uri: str | None = None, user: str | None = None,
     user = user or os.environ.get("NEO4J_USER", "neo4j")
     password = password or os.environ.get("NEO4J_PASSWORD", "healthdataspace")
     driver = GraphDatabase.driver(uri, auth=(user, password))
+    # Constraints zuerst (Schema, autocommit), dann Daten in Transaktions-Batches — bei
+    # ganzen Sitzungen (zehntausende Statements) deutlich schneller als Autocommit je Statement.
+    constraints = [s for s in stmts if s[0].startswith("CREATE CONSTRAINT")]
+    writes = [s for s in stmts if not s[0].startswith("CREATE CONSTRAINT")]
+
+    def _run_batch(tx, batch):
+        for cypher, params in batch:
+            tx.run(cypher, **params)
+
     try:
         with driver.session(database=database) as session:
-            for cypher, params in stmts:
+            for cypher, params in constraints:
                 session.run(cypher, **params)
+            for i in range(0, len(writes), batch_size):
+                session.execute_write(_run_batch, writes[i:i + batch_size])
         print(f"✓ Geladen nach {uri}/{database}: {n_nodes} Knoten, {n_rels} Beziehungen.")
     finally:
         driver.close()

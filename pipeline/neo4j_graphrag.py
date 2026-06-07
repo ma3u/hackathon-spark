@@ -72,11 +72,13 @@ EXAMPLES = [
 
 
 def build_graphrag(*, uri: str | None = None, user: str | None = None,
-                   password: str | None = None, llm_model: str = "gpt-4o",
-                   llm_base_url: str | None = None):
+                   password: str | None = None, llm_model: str | None = None,
+                   llm_base_url: str | None = None, api_key: str | None = None):
     """Erzeugt eine GraphRAG-Instanz (Text2Cypher) gegen ein laufendes Neo4j.
 
-    llm_base_url z. B. 'http://localhost:11434/v1' für ein lokales Ollama/vLLM.
+    LLM-Defaults kommen aus der Umgebung (.env), OpenAI-kompatibel:
+      • Azure AI Foundry: AZURE_AI_ENDPOINT (…/openai/v1) + AZURE_AI_API_KEY + MISTRAL_DEPLOYMENT
+      • lokal on-prem:    llm_base_url='http://localhost:11434/v1' (Ollama/vLLM)
     """
     from neo4j import GraphDatabase
     from neo4j_graphrag.retrievers import Text2CypherRetriever
@@ -88,8 +90,17 @@ def build_graphrag(*, uri: str | None = None, user: str | None = None,
     password = password or os.environ.get("NEO4J_PASSWORD", "healthdataspace")
     driver = GraphDatabase.driver(uri, auth=(user, password))
 
-    llm_kwargs = {"base_url": llm_base_url} if llm_base_url else {}
-    llm = OpenAILLM(model_name=llm_model, model_params={"temperature": 0}, **llm_kwargs)
+    llm_model = llm_model or os.environ.get("MISTRAL_DEPLOYMENT") or "gpt-4o"
+    llm_base_url = llm_base_url or os.environ.get("AZURE_AI_ENDPOINT")
+    api_key = api_key or os.environ.get("AZURE_AI_API_KEY")
+    llm_kwargs = {}
+    if llm_base_url:
+        llm_kwargs["base_url"] = llm_base_url
+    if api_key:
+        llm_kwargs["api_key"] = api_key
+    # Kimi-K2.6 ist ein Reasoning-Modell → genug Token-Budget nach dem "Denken" lassen.
+    llm = OpenAILLM(model_name=llm_model, model_params={"temperature": 0, "max_tokens": 4096},
+                    **llm_kwargs)
 
     retriever = Text2CypherRetriever(
         driver=driver, llm=llm, neo4j_schema=NEO4J_SCHEMA, examples=EXAMPLES)
@@ -117,5 +128,10 @@ def answer(question: str, **kwargs) -> str:
 
 if __name__ == "__main__":
     import sys
+    try:  # .env (Azure-Endpoint/-Key, NEO4J_URI) laden, falls vorhanden
+        from dotenv import load_dotenv
+        load_dotenv()
+    except Exception:
+        pass
     q = " ".join(sys.argv[1:]) or "Welche Aussagen sind falsch oder irreführend — mit Quelle?"
     print(answer(q))

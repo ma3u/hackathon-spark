@@ -2,16 +2,22 @@
 #   docker compose -f docker-compose.neo4j.yml up -d
 #   python ingest_bundestag.py --xml <prot>.xml --load
 #   Browser: http://localhost:7474  (neo4j / healthdataspace)
+#
+# Ports sind überschreibbar, falls 7474/7687 schon belegt sind (z. B. ein anderes
+# lokales Neo4j). Eigene Instanz isoliert auf anderen Ports starten:
+#   NEO4J_HTTP_PORT=7475 NEO4J_BOLT_PORT=7688 docker compose -f docker-compose.neo4j.yml up -d
+#   export NEO4J_URI=bolt://localhost:7688   # für ingest/load/verify
 services:
   neo4j:
     image: neo4j:5-community
     container_name: graph-protokoll-neo4j
     ports:
-      - "7474:7474" # HTTP / Browser
-      - "7687:7687" # Bolt
+      - "${NEO4J_HTTP_PORT:-7474}:7474" # HTTP / Browser
+      - "${NEO4J_BOLT_PORT:-7687}:7687" # Bolt
     environment:
       NEO4J_AUTH: "neo4j/healthdataspace"
-      NEO4J_PLUGINS: '["apoc"]'
+      # APOC (Hilfsprozeduren) + Graph Data Science (Algorithmen: PageRank, Community, …)
+      NEO4J_PLUGINS: '["apoc","graph-data-science"]'
     volumes:
       - neo4j_data:/data
 volumes:

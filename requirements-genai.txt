@@ -1,0 +1,13 @@
+# GenAI-/Analytics-Pfad (über requirements.txt hinaus): Neo4j-GraphRAG, GDS, Haystack.
+# Installieren in ein venv:  python3 -m venv .venv && .venv/bin/pip install -r requirements-genai.txt
+# LLM-Zugang per .env (AZURE_AI_ENDPOINT/AZURE_AI_API_KEY, OpenAI-kompatibel). NICHT committen.
+
+neo4j>=6.0                 # Treiber
+neo4j-graphrag>=1.17       # offizielle GraphRAG-Bibliothek (Text2Cypher-Retriever)
+graphdatascience>=1.22     # GDS-Python-Client (PageRank, Louvain, Degree, …)
+openai>=2.0               # OpenAI-kompatibler Client → Azure AI Foundry / Ollama / vLLM
+python-dotenv>=1.0         # .env laden
+
+# Haystack (deepset) ↔ Neo4j (RAG über Volltext der Reden)
+haystack-ai>=2.30
+neo4j-haystack>=3.0

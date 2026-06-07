@@ -64,7 +64,19 @@ python3 ingest_bundestag.py --xml data/real/plenarprotokoll-20-214.xml \
   dedicated TOP with `herkunft="anlage"` + `schriftlich=true`; `dashboard.py` excludes them from
   spoken metrics (Sprachanteil/Top-Themen) and counts them as `schriftliche_beitraege`.
 
+## Multiple real sessions in one local Neo4j
+
+`scripts/load_real_sessions.py` loads several full real protocols (`data/real/*.xml`) into ONE
+Neo4j. Key: `neo4j_loader.namespace_graph(graph, sitzung_id)` prefixes session-specific node
+IDs so they don't collide, while `SHARED_TYPES` (`Person`/`Fraktion`/`Norm`/`Quelle`) stay
+global and **merge across sessions** (enables cross-session queries). Fact-check is off
+(`factchecks=None`). `scripts/verify_neo4j.py` runs automated checks (provenance, no verdicts
+on real people, Saalreaktionen analysis, cross-session person tracking). Develop on localhost;
+if 7474/7687 are taken, start on alt ports (`NEO4J_HTTP_PORT`/`NEO4J_BOLT_PORT`) and set
+`NEO4J_URI`. See `docs/neo4j-echtsitzungen.md`.
+
 ## Verify
 
 `python3 ingest_bundestag.py` (fictional sample) · the real command above (`bundestag_real`) ·
-`python3 compare_protocol_video.py` (gap self-test). All run on Python 3.11 stdlib.
+`python3 compare_protocol_video.py` (gap self-test) — all on Python 3.11 stdlib. Neo4j paths
+need the `neo4j` driver + a running instance (`scripts/verify_neo4j.py` → 8/8 checks).
