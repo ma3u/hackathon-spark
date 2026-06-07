@@ -66,6 +66,43 @@ def _classify_kommentar(text: str) -> tuple[str, str | None]:
     return typ, urheber
 
 
+def _norm_label(s: str) -> str:
+    """top-id / ivz-block-titel auf eine vergleichbare Form bringen (NBSP, Doppelpunkt)."""
+    return s.replace("\xa0", " ").strip().rstrip(":").strip()
+
+
+def _clean_ws(s: str, *, limit: int = 200) -> str:
+    s = re.sub(r"\s+", " ", s.replace("\xa0", " ")).strip()
+    return s[: limit - 1].rstrip() + "…" if len(s) > limit else s
+
+
+def _ivz_titles(root: ET.Element) -> dict[str, str]:
+    """Inhaltsverzeichnis → {top-id-Label: beschreibender Titel}.
+
+    Der <tagesordnungspunkt> trägt selbst keinen Titel; die Sachbeschreibung steht im
+    <inhaltsverzeichnis> (vorspann). Der erste <ivz-eintrag> OHNE <redner> ist die
+    Beschreibung (Einträge MIT <redner> sind nur die Rednerliste des TOP).
+    """
+    out: dict[str, str] = {}
+    ivz = root.find(".//inhaltsverzeichnis")
+    if ivz is None:
+        return out
+    for blk in ivz.findall("ivz-block"):
+        t = blk.find("ivz-block-titel")
+        label = _norm_label(_text(t)) if t is not None else ""
+        if not label:
+            continue
+        for e in blk.findall("ivz-eintrag"):
+            if e.find(".//redner") is not None:
+                continue
+            inhalt = e.find("ivz-eintrag-inhalt")
+            desc = _clean_ws(_text(inhalt)) if inhalt is not None else ""
+            if desc:
+                out[label] = desc
+                break
+    return out
+
+
 def parse_plenarprotokoll(xml_path: str | Path) -> Protocol:
     root = ET.parse(xml_path).getroot()
     wp = root.get("wahlperiode", "")
@@ -82,19 +119,41 @@ def parse_plenarprotokoll(xml_path: str | Path) -> Protocol:
     }
     u_index = 0  # laufende Utterance-Nummer (Provenienz-Segment-Index)
 
-    def add_utterance(person: dict, text: str) -> int:
+    def add_utterance(person: dict, text: str, herkunft: str = "protokoll") -> int:
         nonlocal u_index
         p.utterances.append(Utterance(
             start=0.0, end=0.0, speaker_label=f"R{u_index}", speaker_name=person["name"],
             rolle=person["rolle"], fraktion=person.get("fraktion"), text=text,
-            herkunft="protokoll"))
+            herkunft=herkunft))
         idx = u_index
         u_index += 1
+        return idx
+
+    def ingest_rede(rede: ET.Element, top_nr: int, *, herkunft: str = "protokoll") -> int:
+        """Ein <rede>-Element → Utterance + Redebeitrag (+ Aussagen + Saalreaktionen)."""
+        redner = rede.find(".//redner")
+        person = _speaker_from_redner(redner) if redner is not None else \
+            {"name": "Unbekannt", "rolle": "Redner", "fraktion": None}
+        paras = [_text(pp) for pp in rede.findall("p") if pp.get("klasse") != "redner"]
+        speech = " ".join(t for t in paras if t)
+        idx = add_utterance(person, speech, herkunft)
+        p.redebeitraege.append({
+            "person": person["name"], "fraktion": person.get("fraktion"),
+            "top_nummer": top_nr, "start": 0.0, "timecode": "Prot.",
+            "schriftlich": herkunft == "anlage", "quelle_utterances": [idx]})
+        for sent in _split_sentences(speech):
+            if _is_checkable(sent) and "frage" not in sent.lower():
+                p.aussagen.append({"text": sent, "person": person["name"],
+                                   "fraktion": person.get("fraktion"),
+                                   "top_nummer": top_nr, "quelle_utterances": [idx]})
+        for kom in rede.findall("kommentar"):  # Saalreaktionen innerhalb der Rede
+            _add_kommentar(p, _text(kom), top_nr, idx)
         return idx
 
     # In Dokumentreihenfolge über die inhaltstragenden Blöcke des Sitzungsverlaufs gehen.
     # Wir vergeben eine laufende, kollisionsfreie TOP-Nummer (top-id ist frei/mehrdeutig:
     # "Tagesordnungspunkt 1", "Zusatzpunkt 5", "Zur Geschäftsordnung" → früher kollidiert).
+    ivz_titel = _ivz_titles(root)
     verlauf = root.find("sitzungsverlauf")
     blocks = list(verlauf) if verlauf is not None else list(root.iter("tagesordnungspunkt"))
     top_nr = 0
@@ -105,40 +164,36 @@ def parse_plenarprotokoll(xml_path: str | Path) -> Protocol:
             continue  # leerer Rahmenblock (z. B. reines <sitzungsende>) → kein TOP
         top_nr += 1
         cur = top_nr
-        titel = _text(block.find("top-titel")) or block.get("top-id", "") \
+        # Titel: beschreibende Sachüberschrift aus dem Inhaltsverzeichnis (echte Protokolle),
+        # sonst <top-titel> (Sample), sonst die top-id, sonst der Blocktyp.
+        titel = ivz_titel.get(_norm_label(block.get("top-id", ""))) \
+            or _text(block.find("top-titel")) or block.get("top-id", "") \
             or _BLOCK_TITEL.get(block.tag, "")
         p.tops.append({"nummer": cur, "titel": titel, "quelle_utterances": []})
 
         rede_index = -1
         for child in list(block):
             if child.tag == "rede":
-                redner = child.find(".//redner")
-                person = _speaker_from_redner(redner) if redner is not None else \
-                    {"name": "Unbekannt", "rolle": "Redner", "fraktion": None}
-                # Redetext = alle <p> außer dem Redner-Kopf
-                paras = [_text(pp) for pp in child.findall("p") if pp.get("klasse") != "redner"]
-                speech = " ".join(t for t in paras if t)
-                idx = add_utterance(person, speech)
-                rede_index = idx
-                p.redebeitraege.append({
-                    "person": person["name"], "fraktion": person.get("fraktion"),
-                    "top_nummer": cur, "start": 0.0, "timecode": "Prot.",
-                    "quelle_utterances": [idx]})
-                # prüfbare Aussagen für den Faktencheck
-                for sent in _split_sentences(speech):
-                    if _is_checkable(sent) and "frage" not in sent.lower():
-                        p.aussagen.append({"text": sent, "person": person["name"],
-                                           "fraktion": person.get("fraktion"),
-                                           "top_nummer": cur, "quelle_utterances": [idx]})
-                # Kommentare innerhalb der Rede (Saalreaktionen)
-                for kom in child.findall("kommentar"):
-                    _add_kommentar(p, _text(kom), cur, rede_index)
+                rede_index = ingest_rede(child, cur)
             elif child.tag == "kommentar":
                 _add_kommentar(p, _text(child), cur, rede_index)
             elif child.tag == "name":  # Sitzungsleitung (Präsident:in)
                 txt = _text(child).rstrip(":")
                 if txt:
                     add_utterance({"name": txt, "rolle": "Sitzungsleitung", "fraktion": None}, "")
+
+    # Schriftliche Beiträge in den <anlagen>: "zu Protokoll gegebene Reden" und
+    # Erklärungen nach §31 GO — echte, namentliche Beiträge, die NICHT mündlich gehalten
+    # wurden. Eigener TOP + herkunft="anlage", damit Auswertungen sie von gesprochenen
+    # Redebeiträgen trennen können (keine Saalreaktionen, kein Sprachanteil).
+    anlagen = root.find("anlagen")
+    anlagen_reden = list(anlagen.iter("rede")) if anlagen is not None else []
+    if anlagen_reden:
+        top_nr += 1
+        p.tops.append({"nummer": top_nr, "titel": "Schriftliche Beiträge zu Protokoll (Anlagen)",
+                       "quelle_utterances": []})
+        for rede in anlagen_reden:
+            ingest_rede(rede, top_nr, herkunft="anlage")
     return p
 
 

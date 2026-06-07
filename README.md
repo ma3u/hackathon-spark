@@ -12,8 +12,9 @@ Knowledge Graph mit GraphRAG — inklusive **Faktencheck** politischer Aussagen.
 **Drei Demo-Szenarien:** **Gemeinderat** (Beschlüsse, Abstimmungen, Befangenheit,
 Aufgaben) und **Bundestag** (fiktive Plenardebatte mit Faktencheck + Frage an die
 Bundesregierung) — beide fiktiv — sowie **Bundestag (echt)**: das **echte amtliche
-Plenarprotokoll WP20/214** (18.03.2025, gemeinfrei §5 UrhG) mit 45 Reden und 643
-amtlichen Saalreaktionen. **Beim echten Szenario ist der Faktencheck bewusst aus**
+Plenarprotokoll WP20/214** (18.03.2025, gemeinfrei §5 UrhG) mit 45 gesprochenen Reden,
+38 schriftlichen Beiträgen (Anlagen) und 643 amtlichen Saalreaktionen. **Beim echten
+Szenario ist der Faktencheck bewusst aus**
 (keine automatischen Verdikte über reale Personen). SPARK-Nutzung, Echtdaten-Wege und
 die Faktencheck-Grenzen: [`docs/spark-und-echtdaten.md`](docs/spark-und-echtdaten.md).
 Analyse der Bundestags-Protokollierung & des Faktenchecks:

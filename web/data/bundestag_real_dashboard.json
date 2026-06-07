@@ -7,15 +7,16 @@
   },
   "kennzahlen": {
     "reden": 45,
+    "schriftliche_beitraege": 38,
     "woerter": 32803,
-    "tops": 3,
+    "tops": 4,
     "saalreaktionen": 643,
     "geprüfte_aussagen": 0
   },
   "top_themen": [
     {
       "top": 3,
-      "titel": "Tagesordnungspunkt 1",
+      "titel": "a) Zweite und dritte Beratung des von den Fraktionen der SPD und CDU/CSU eingebrachten Entwurfs eines Gesetzes zur Änderung des Grundgesetzes (Artikel 109, 115 und 143h)",
       "woerter": 29545
     },
     {
@@ -69,7 +70,7 @@
   "feedback_je_thema": [
     {
       "top": 3,
-      "titel": "Tagesordnungspunkt 1",
+      "titel": "a) Zweite und dritte Beratung des von den Fraktionen der SPD und CDU/CSU eingebrachten Entwurfs eines Gesetzes zur Änderung des Grundgesetzes (Artikel 109, 115 und 143h)",
       "positiv": 337,
       "negativ": 67
     },

@@ -16,7 +16,9 @@ Amtliches **Plenarprotokoll** des Deutschen Bundestags, **WP 20, 214. Sitzung,
       --name bundestag_real --no-factcheck
   ```
   Ergibt `web/data/bundestag_real{,_dashboard.json,_barrierefrei.txt}` (Szenario
-  „Bundestag (echt)" im Pages-UI): 3 TOPs, 45 Reden, 643 amtliche Saalreaktionen.
+  „Bundestag (echt)" im Pages-UI): 4 TOPs, 45 gesprochene Reden + 38 schriftliche
+  Beiträge (Anlagen, `herkunft="anlage"`), 643 amtliche Saalreaktionen. Die TOP-Titel
+  stammen aus dem `<inhaltsverzeichnis>`; schriftliche Beiträge zählen nicht zum Sprachanteil.
 
 > **`--no-factcheck` ist Absicht.** Über reale, namentlich genannte Personen werden
 > **keine** automatischen Faktencheck-Verdikte erzeugt/veröffentlicht (Persönlichkeitsrecht;

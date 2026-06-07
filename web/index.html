@@ -189,6 +189,7 @@
           `<div class="kpi">` + Object.entries({
             Reden: k.reden, Wörter: k.woerter, TOPs: k.tops,
             Saalreaktionen: k.saalreaktionen, "Geprüfte Aussagen": k.geprüfte_aussagen,
+            ...(k.schriftliche_beitraege ? { "Schriftl. Beiträge": k.schriftliche_beitraege } : {}),
           }).map(([l, n]) => `<div><div class="n">${n}</div><div class="l">${l}</div></div>`).join("") + `</div>`);
 
         const themen = card("Top-Themen (nach Redevolumen)",
