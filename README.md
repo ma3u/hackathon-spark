@@ -166,10 +166,16 @@ Graph: `Aussage →GEPRUEFT_ALS→ Faktencheck →BELEGT_MIT→ Quelle` (+ `BELE
 die `web/data/<scenario>.json` lädt — Szenario-Umschalter, Detail-Panel,
 Faktencheck-Liste, Audio-Deep-Links auf `Transkriptsegment`.
 
+**Lokal starten** (nur Python-Stdlib, kein Build-Schritt):
+
 ```bash
-python3 run_demo.py --no-queries        # web/data/*.json erzeugen
-python3 -m http.server -d web 8000      # lokal: http://localhost:8000
+python3 run_demo.py --no-queries        # web/data/*.json (neu) erzeugen — bei stale Daten
+python3 -m http.server -d web 8000      # statischen Server starten
+# → Browser öffnen: http://localhost:8000   ·   Stoppen: Strg-C
 ```
+
+Der Server liefert nur die statischen Dateien aus `web/` aus (kein Backend). Sind die
+Daten im UI veraltet oder leer, zuerst `run_demo.py --no-queries` laufen lassen, dann neu laden.
 
 Deploy: Der Workflow `.github/workflows/pages.yml` baut die Daten und publiziert
 `web/` automatisch. **Eigenständiges Repo + Pages mit einem Befehl:**

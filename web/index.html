@@ -20,8 +20,13 @@
         padding: 7px 14px; border-radius: 7px; cursor: pointer; font-size: 13px; }
       .tab.active { border-color: var(--accent); color: var(--accent); }
       #wrap { display: flex; height: calc(100vh - 56px); }
-      #graph { flex: 1; position: relative; }
+      #graph { flex: 1; position: relative; min-width: 0; overflow: hidden; }
       #side { width: 380px; border-left: 1px solid var(--border); overflow-y: auto; padding: 16px; }
+      @media (max-width: 760px) {
+        #wrap { flex-direction: column; height: auto; }
+        #graph { height: 58vh; }
+        #side { width: auto; border-left: none; border-top: 1px solid var(--border); }
+      }
       .card { background: var(--panel); border: 1px solid var(--border); border-radius: 9px;
         padding: 13px; margin-bottom: 12px; }
       .card h2 { font-size: 13px; margin: 0 0 9px; text-transform: uppercase; letter-spacing: .04em;
@@ -51,6 +56,12 @@
       .bar .fill.pos { background: #3fb950; } .bar .fill.neg { background: #f85149; }
       .split { display: flex; height: 13px; border-radius: 4px; overflow: hidden; background: #21262d; }
       .num { text-align: right; color: var(--muted); }
+      .glfail { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+        padding: 32px; text-align: center; color: var(--muted); font-size: 13px; line-height: 1.65; }
+      .glfail .inner { max-width: 460px; }
+      .glfail b { color: var(--text); }
+      .glfail code { background: var(--panel); border: 1px solid var(--border); border-radius: 4px;
+        padding: 1px 5px; color: var(--accent); font-size: 12px; }
     </style>
   </head>
   <body>
@@ -93,15 +104,58 @@
       const color = (n) => (LAYER[n.schicht] || { c: "#999" }).c;
       const $ = (id) => document.getElementById(id);
 
-      const Graph = ForceGraph3D()($("graph"))
-        .backgroundColor("#0d1117")
-        .nodeColor(color)
-        .nodeLabel((n) => `<b>${n.label}</b><br/><i>${n.type}</i>`)
-        .nodeRelSize(5)
-        .linkColor(() => "#30363d")
-        .linkDirectionalArrowLength(3)
-        .linkLabel((l) => l.relationship_type)
-        .onNodeClick(showNode);
+      // 3D-Graph braucht WebGL (3d-force-graph → THREE.js). Ist WebGL aus (Hardware-
+      // beschleunigung deaktiviert/sandboxed), darf die Init NICHT die ganze Seite lahmlegen:
+      // gekapselt, damit Tabs, Dashboard und Vorlesefassung ohne WebGL weiterlaufen.
+      let Graph = null;
+      function webglVerfuegbar() {
+        try {
+          const c = document.createElement("canvas");
+          return !!(window.WebGLRenderingContext &&
+            (c.getContext("webgl") || c.getContext("experimental-webgl")));
+        } catch { return false; }
+      }
+      function zeigeGraphFallback() {
+        $("graph").innerHTML = `<div class="glfail"><div class="inner">
+          🕸️ <b>3D-Graph nicht verfügbar</b> — WebGL ist in diesem Browser deaktiviert.<br/><br/>
+          Hardware-Beschleunigung aktivieren: <code>chrome://settings</code> → System →
+          „Hardwarebeschleunigung verwenden, wenn verfügbar" → neu laden.
+          Status prüfen unter <code>chrome://gpu</code>.<br/><br/>
+          <span class="muted">📊 Dashboard und ♿ Vorlesefassung funktionieren ohne WebGL.</span>
+        </div></div>`;
+      }
+      function initGraph() {
+        if (!webglVerfuegbar()) { zeigeGraphFallback(); return; }
+        try {
+          Graph = ForceGraph3D()($("graph"))
+            .backgroundColor("#0d1117")
+            .nodeColor(color)
+            .nodeLabel((n) => `<b>${n.label}</b><br/><i>${n.type}</i>`)
+            .nodeRelSize(5)
+            // Beziehungen sichtbar machen (Default-Opacity 0.2 + dunkles Grau = unsichtbar):
+            .linkColor(() => "#8b949e")
+            .linkOpacity(0.55)
+            .linkWidth(0.6)
+            .linkDirectionalArrowLength(3.5)
+            .linkDirectionalArrowRelPos(1)
+            .linkDirectionalArrowColor(() => "#8b949e")
+            .linkLabel((l) => l.relationship_type)
+            .onNodeClick(showNode);
+          requestAnimationFrame(sizeGraph);  // Canvas auf die Container-Breite zwingen
+        } catch (e) {
+          Graph = null;
+          zeigeGraphFallback();
+          console.warn("3D-Graph konnte nicht initialisiert werden:", e);
+        }
+      }
+
+      // 3d-force-graph greift sonst die Fensterbreite ab und überdeckt das Seitenpanel
+      // (Infobox). Wir zwingen den Canvas auf die tatsächliche Container-Breite.
+      function sizeGraph() {
+        if (!Graph) return;
+        const el = $("graph");
+        if (el.clientWidth > 0) Graph.width(el.clientWidth).height(el.clientHeight);
+      }
 
       function toGraph(data) {
         const nodes = data.nodes.map((n) => ({ ...n }));
@@ -165,7 +219,7 @@
       async function load(scenario) {
         const data = await (await fetch(`./data/${scenario}.json`)).json();
         renderMeta(data); renderFactcheck(data);
-        Graph.graphData(toGraph(data));
+        if (Graph) Graph.graphData(toGraph(data));
         $("detail").innerHTML = '<h2>Knoten</h2><div class="muted">Knoten anklicken…</div>';
       }
 
@@ -233,6 +287,7 @@
         $("viewToggle").classList.toggle("active", dashOn);
         $("viewToggle").textContent = dashOn ? "🕸️ Graph" : "📊 Dashboard";
         if (dashOn) loadDash(current);
+        else requestAnimationFrame(sizeGraph);  // beim Zurückschalten Canvas neu vermessen
       }
 
       document.querySelectorAll(".tab[data-s]").forEach((t) =>
@@ -245,8 +300,11 @@
       $("viewToggle").addEventListener("click", () => { dashOn = !dashOn; setView(); });
       $("a11y").addEventListener("click", () => window.open(`./data/${current}_barrierefrei.txt`, "_blank"));
 
+      window.addEventListener("resize", sizeGraph);
+      initGraph();
       renderLegend();
       load("gemeinderat");
+      requestAnimationFrame(sizeGraph);
     </script>
   </body>
 </html>

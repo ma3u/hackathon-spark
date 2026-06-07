@@ -211,7 +211,8 @@ def build_graph(p: Protocol, *, audio_file: str, sitzung_id: str, factchecks=Non
         belegt(f"aussage_{i}", a.get("quelle_utterances"))
 
     metadata = {
-        "title": "Protokoll-Knowledge-Graph — Gemeinderatssitzung Musterbach",
+        "title": f"Protokoll-Knowledge-Graph — {m.get('gremium') or 'Sitzung'}"
+                 + (f", {m.get('datum')}" if m.get("datum") else ""),
         "source_audio": audio_file,
         "generated_by": "graph-protokoll pipeline (SPARK Challenge 2 prototype)",
         "ontology_layers": ["normativ", "zeitlich", "prozedural", "fallbezug", "provenienz"],
