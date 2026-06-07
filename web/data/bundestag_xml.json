@@ -22,6 +22,8 @@
       "gremium": "Deutscher Bundestag",
       "datum": "14.05.2026",
       "ort": "Berlin",
+      "wahlperiode": "21",
+      "sitzung_nr": "81",
       "beschlussfaehig": "",
       "audio_file": "plenarprotokoll-21-081-sample.xml"
     },

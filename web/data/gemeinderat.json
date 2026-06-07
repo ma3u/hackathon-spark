@@ -22,6 +22,8 @@
       "gremium": "Gemeinderat Musterbach",
       "datum": "12. Mai 2026",
       "ort": "Rathaus Musterbach, Sitzungssaal",
+      "wahlperiode": "",
+      "sitzung_nr": "",
       "beschlussfaehig": "True",
       "audio_file": "sitzung_2026-05-12.mp3"
     },

@@ -15,7 +15,7 @@
         align-items: center; gap: 16px; flex-wrap: wrap; }
       header h1 { font-size: 17px; margin: 0; font-weight: 600; }
       header .sub { color: var(--muted); font-size: 12px; }
-      .tabs { margin-left: auto; display: flex; gap: 8px; }
+      .tabs { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
       .tab { background: var(--panel); color: var(--text); border: 1px solid var(--border);
         padding: 7px 14px; border-radius: 7px; cursor: pointer; font-size: 13px; }
       .tab.active { border-color: var(--accent); color: var(--accent); }
@@ -39,13 +39,15 @@
       audio { width: 100%; margin-top: 8px; }
       a { color: var(--accent); }
       #dash { height: calc(100vh - 56px); overflow-y: auto; padding: 20px;
-        display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 14px; align-content: start; }
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 14px; align-content: start; }
+      .empty { color: var(--muted); font-size: 12.5px; font-style: italic; }
       .kpi { display: flex; gap: 18px; flex-wrap: wrap; }
       .kpi .n { font-size: 24px; font-weight: 700; color: var(--accent); }
       .kpi .l { font-size: 11px; color: var(--muted); text-transform: uppercase; }
-      .bar { display: grid; grid-template-columns: 150px 1fr 54px; align-items: center; gap: 8px; margin: 5px 0; font-size: 12px; }
-      .bar .track { background: #21262d; border-radius: 4px; height: 13px; overflow: hidden; }
-      .bar .fill { height: 100%; background: var(--accent); }
+      .bar { display: grid; grid-template-columns: 160px 1fr 64px; align-items: center; gap: 10px; margin: 6px 0; font-size: 12px; }
+      .bar > span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .bar .track { background: #21262d; border-radius: 4px; height: 14px; overflow: hidden; }
+      .bar .fill { height: 100%; background: var(--accent); min-width: 3px; border-radius: 4px; }
       .bar .fill.pos { background: #3fb950; } .bar .fill.neg { background: #f85149; }
       .split { display: flex; height: 13px; border-radius: 4px; overflow: hidden; background: #21262d; }
       .num { text-align: right; color: var(--muted); }
@@ -173,12 +175,14 @@
         return `<div class="card"><h2>${title}</h2>${inner}</div>`;
       }
       function bars(rows, valKey, max, cls = "") {
+        if (!rows.length) return "";
         const m = max || Math.max(1, ...rows.map((r) => r[valKey]));
         return rows.map((r) =>
-          `<div class="bar"><span>${r.label}</span><span class="track">
-             <span class="fill ${cls}" style="width:${(100 * r[valKey]) / m}%"></span></span>
+          `<div class="bar"><span title="${String(r.label).replace(/"/g, "&quot;")}">${r.label}</span><span class="track">
+             <span class="fill ${cls}" style="width:${Math.max(1.5, (100 * r[valKey]) / m)}%"></span></span>
            <span class="num">${r.num}</span></div>`).join("");
       }
+      const empty = (msg) => `<div class="empty">${msg}</div>`;
       async function loadDash(scenario) {
         const box = $("dash");
         let d;
@@ -193,25 +197,29 @@
           }).map(([l, n]) => `<div><div class="n">${n}</div><div class="l">${l}</div></div>`).join("") + `</div>`);
 
         const themen = card("Top-Themen (nach Redevolumen)",
-          bars(d.top_themen.map((t) => ({ label: `TOP ${t.top}`, woerter: t.woerter, num: t.woerter })), "woerter")
-          || "—");
+          bars(d.top_themen.map((t) => ({
+            label: t.titel ? `${t.top}: ${t.titel}` : `TOP ${t.top}`,
+            woerter: t.woerter, num: t.woerter,
+          })), "woerter") || empty("Kein Redevolumen erfasst."));
         const sprach = card("Sprachanteil pro Fraktion",
           bars(d.sprachanteil_fraktion.map((s) => ({ label: s.fraktion, prozent: s.prozent, num: s.prozent + "%" })),
-               "prozent", 100) || "—");
+               "prozent", 100) || empty("Keine Fraktions-Wortanteile."));
 
         const fb = (rows, t) => card(t, rows.length ? rows.map((r) => {
           const tot = r.positiv + r.negativ || 1;
-          return `<div class="bar"><span>${r.fraktion || r.titel || ("TOP " + r.top)}</span>
+          const label = r.fraktion || r.titel || ("TOP " + r.top);
+          return `<div class="bar"><span title="${String(label).replace(/"/g, "&quot;")}">${label}</span>
             <span class="split"><span class="fill pos" style="width:${100 * r.positiv / tot}%"></span>
               <span class="fill neg" style="width:${100 * r.negativ / tot}%"></span></span>
             <span class="num">+${r.positiv}/−${r.negativ}</span></div>`;
-        }).join("") : "—");
+        }).join("") : empty("Keine Saalreaktionen protokolliert (z. B. kommunale Sitzung)."));
 
         const bilanz = card("Faktencheck-Bilanz",
           Object.entries(d.faktencheck_bilanz).map(([v, n]) =>
-            `<div class="bar"><span>${v}</span><span class="track">
-               <span class="fill" style="width:${100 * n / Math.max(1, k.geprüfte_aussagen)}%"></span></span>
-             <span class="num">${n}</span></div>`).join("") || "—");
+            `<div class="bar"><span title="${v}">${v}</span><span class="track">
+               <span class="fill" style="width:${Math.max(1.5, 100 * n / Math.max(1, k.geprüfte_aussagen))}%"></span></span>
+             <span class="num">${n}</span></div>`).join("")
+          || empty("Kein Faktencheck für diese Sitzung — bei echten Personen bewusst ohne automatische Verdikte."));
 
         box.innerHTML = kpi + themen + sprach
           + fb(d.feedback_erhalten_fraktion, "Feedback erhalten (Reaktionen auf Reden der Fraktion)")

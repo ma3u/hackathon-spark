@@ -22,6 +22,8 @@
       "gremium": "Deutscher Bundestag",
       "datum": "18.03.2025",
       "ort": "Berlin",
+      "wahlperiode": "20",
+      "sitzung_nr": "214",
       "beschlussfaehig": "",
       "audio_file": "plenarprotokoll-20-214.xml"
     },
