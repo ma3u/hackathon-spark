@@ -231,6 +231,24 @@ gegen den amtlichen Goldstandard. Methodik: `docs/test-protokoll-vs-video.md`.
 **Doku:** Quellen `docs/quellen.md` · Plan/Fortschritt `docs/challenge-plan.md` ·
 Fragen an den Bundestag `docs/fragen-bundestag.md`.
 
+## Datenquellen → Graph (Mapping & „landed"-Status)
+
+Welche Quelle erzeugt welche Graph-Elemente — und ist sie tatsächlich geladen? Status:
+✅ geladen · ⚠️ funktionsfähig, (noch) nicht in Neo4j · ⬜ offen. Die `landed`-Spalte wird von
+der E2E-Test-Suite (s. u.) automatisch geprüft.
+
+| # | Quelle | Format | Loader / Modul | Erzeugte Knoten (Auswahl) | Art | landed |
+|---|--------|--------|----------------|---------------------------|-----|--------|
+| 1 | **Amtliches Plenarprotokoll** (Bundestag Open Data, DTD `dbtplenarprotokoll`) | XML | `pipeline/bundestag_xml.py` → `graph_build` → `neo4j_loader` | `Sitzung, Tagesordnungspunkt, Person, Fraktion, Redebeitrag, Aussage, AkustischesEreignis, Transkriptsegment` | **echt** | ✅ 3 Sitzungen WP21/79–81 in Neo4j; WP20/214 als Pages-Szenario |
+| 2 | **Inhaltsverzeichnis** (im selben XML) | XML | `bundestag_xml._ivz_titles` | TOP-Titel (Property) | echt | ✅ |
+| 3 | **Anlagen** „zu Protokoll gegebene Reden" / §31-GO (im selben XML) | XML | `bundestag_xml` (anlagen) | `Redebeitrag` (`schriftlich=true`) | echt | ✅ |
+| 4 | **Diarisierte Audio-Mitschnitte** | JSON | `asr`/`align`/`extract` → `graph_build` | + `Beschluss, Abstimmung, Antrag, Befangenheit, Aufgabe` | **fiktiv** | ✅ Pages-Demo (gemeinderat/bundestag) |
+| 5 | **YouTube/Mediathek-Untertitel** | VTT/SRT | `pipeline/subtitles.py` → `align` → `extract` | wie Audio-Pfad | echt (Auto-ASR) | ⚠️ Pipeline ok; Demo-VTT fiktiv, nicht in Neo4j |
+| 6 | **Sound-Event-Detection** (PANNs/AudioSet) | JSON/Audio | `pipeline/sound_events.py` | `AkustischesEreignis` (`herkunft=audio-SED`) | fiktiv (Sample) | ✅ Pages-Demo |
+| 7 | **Evidenz-Korpus** (Faktencheck) | JSON | `pipeline/factcheck.py` | `Faktencheck, Quelle` | **fiktiv** | ✅ nur fiktives Szenario — **bewusst NICHT** auf reale Personen |
+| 8 | **DIP-API** (Vorgänge/Drucksachen/Metadaten) | REST/JSON | `scripts/fetch-session.sh` (Key) | — (nur Fetch/Metadaten) | echt | ⬜ noch nicht in den Graph importiert |
+| 9 | **Embeddings** (Azure `text-embedding-3-large`) | Vektor | `scripts/vector_search.py` | `Transkriptsegment.embedding` + Vektor-Index | echt | ✅ 449 in Neo4j |
+
 ## SPARK: Was wir nutzen — und was wir erweitern
 
 Das offizielle [**BMDS SPARK Workflow**](https://gitlab.opencode.de/bmds/planungs-und-genehmigungsbeschleunigung/spark-workflow)
@@ -293,6 +311,27 @@ bereitgestellt (Mistral-Embed ist dort nicht im Katalog → `text-embedding-3-la
 **Beobachtung Modellvergleich:** Beide erzeugen valides Cypher; **Mistral-Large-3** ist schneller
 (~2–4 s), **Kimi-K2.6** ist ein Reasoning-Modell (langsamer, braucht mehr `max_tokens`) und war
 bei der Synthese komplexer Ranglisten teils präziser. Beleg/Details: `docs/neo4j-echtsitzungen.md`.
+
+## E2E-Tests (200+ reale Fälle)
+
+`tests/` enthält eine **End-to-End-Suite mit ~250 realen Testfällen** (pytest) gegen die echten,
+in Neo4j geladenen Sitzungen — **positiv** (System tut das Richtige) und **negativ** (ungültige
+Eingaben werden abgewehrt, nicht vorhandene Daten liefern leer). Sie prüft u. a. die
+`landed`-Spalte der Mapping-Tabelle.
+
+```bash
+.venv/bin/pip install -r requirements-test.txt
+NEO4J_URI=bolt://localhost:7688 .venv/bin/python -m pytest tests/ -q     # → 251 passed
+```
+
+| Gruppe | Beispiele | ~Fälle |
+| ------ | --------- | ------ |
+| ✅ positiv — Quellen gelandet | jeder Knotentyp vorhanden; je Sitzung Reden/Saalreaktionen/TOPs = Parser-Zahl | ~70 |
+| ✅ positiv — Provenienz & Personen | 50 echte Redner:innen als `Person`-Knoten; 30× „jeder Redebeitrag ist `BELEGT_DURCH`" | ~80 |
+| ✅ positiv — Embeddings/Index | 449 Vektoren, Dimension 3072, Vektor-Index `ONLINE` | ~20 |
+| ❌ negativ — Sicherheit | `_SAFE` weist 25 unsichere Label/Injection-Strings ab; Namespacing kollisionsfrei | ~35 |
+| ❌ negativ — Invarianten | **0** Faktencheck/Quelle/`GEPRUEFT_ALS` über reale Personen | ~6 |
+| ❌ negativ — Robustheit/Absenz | malformed XML → sauberer `ParseError`; 25 nicht vorhandene Namen/Begriffe → leer | ~35 |
 
 ## Projektstruktur
 

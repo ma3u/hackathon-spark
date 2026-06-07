@@ -1,0 +1,5 @@
+# E2E-Test-Suite (tests/). Braucht zusätzlich den GenAI-/Neo4j-Stack:
+#   .venv/bin/pip install -r requirements-genai.txt -r requirements-test.txt
+# Neo4j-Tests laufen gegen ein geladenes lokales Neo4j (sonst werden sie übersprungen):
+#   NEO4J_URI=bolt://localhost:7688 .venv/bin/python -m pytest tests/ -q
+pytest>=8

@@ -12,10 +12,18 @@ alwaysApply: false
 
 # Testing & verification — graph-protokoll
 
-**Honest state of the repo:** there is **no test framework** yet — no `pytest`, no `tests/`
-directory, no CI test job (`.github/workflows/pages.yml` only builds & deploys Pages). Per
-`docs/challenge-plan.md`, a WER/DER benchmark (#16) is "🔜 Tool steht, Daten fehlen". Don't
-claim tests pass when there are none; verify by **running the reproducible demos** below.
+**State of the repo:** two layers of verification.
+- **Dep-free demos (stdlib)** — the always-on smoke test; no pip/GPU/network. CI runs these.
+- **`tests/` E2E suite (pytest, ~250 cases)** — runs in the **venv** against the **real**
+  sessions loaded in local Neo4j (`requirements-genai.txt` + `requirements-test.txt`). Positive
+  (data landed/correct, provenance, embeddings) + negative (`_SAFE`/injection, namespacing, no
+  verdicts on real persons, malformed XML → clean `ParseError`, absent data → empty). Neo4j
+  tests **skip** (not fail) when Neo4j is unreachable. Not in CI (needs Neo4j + a loaded graph).
+  ```bash
+  NEO4J_URI=bolt://localhost:7688 .venv/bin/python -m pytest tests/ -q
+  ```
+Don't claim the E2E suite passed without a loaded Neo4j; the dep-free demos below are the
+baseline anyone can run.
 
 ## How the project is verified today
 

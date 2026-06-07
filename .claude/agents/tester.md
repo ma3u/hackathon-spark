@@ -15,9 +15,10 @@ quote actual command output, never assume "it probably works".
 
 ## Ground truth
 
-There is **no test framework** in this repo (no pytest/`tests/`/CI tests). Verification today =
-running the dep-free demos + the runtime `assert` + the gap self-test. See
-`.claude/rules/testing.md`. Don't claim tests pass when none exist.
+Two verification layers: (1) **dep-free demos** (stdlib, CI-run) — the baseline; (2) a
+**`tests/` pytest E2E suite (~250 cases)** in the venv against real sessions in local Neo4j
+(skips if Neo4j is down; not in CI). See `.claude/rules/testing.md`. Don't claim the E2E suite
+passed without a loaded Neo4j; never claim more than you ran.
 
 ## Run these (Python 3.11+ stdlib only — no pip/GPU/network)
 
