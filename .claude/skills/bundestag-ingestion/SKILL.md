@@ -58,8 +58,11 @@ python3 ingest_bundestag.py --xml data/real/plenarprotokoll-20-214.xml \
   `Aussage` nodes (public speech) and Saalreaktionen are fine. See `[[fact-checking]]` and
   `docs/spark-und-echtdaten.md`.
 - Real XML lives in `<sitzungsverlauf>` (`sitzungsbeginn`/`tagesordnungspunkt`/`zusatzpunkt`/
-  `sitzungsende`); the parser assigns sequential, collision-free TOP numbers. Written speeches
-  in `<anlagen>` ("zu Protokoll gegebene Reden") are a separate, not-yet-ingested category.
+  `sitzungsende`); the parser assigns sequential, collision-free TOP numbers. TOP titles come
+  from `vorspann/inhaltsverzeichnis` (the `<tagesordnungspunkt>` carries none). Written speeches
+  in `<anlagen>` ("zu Protokoll gegebene Reden" / §31-GO statements) are ingested under a
+  dedicated TOP with `herkunft="anlage"` + `schriftlich=true`; `dashboard.py` excludes them from
+  spoken metrics (Sprachanteil/Top-Themen) and counts them as `schriftliche_beitraege`.
 
 ## Verify
 

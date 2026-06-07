@@ -113,13 +113,22 @@ curl -sSL -o real.xml "https://www.bundestag.de/resource/blob/1057624/20214.xml"
 python3 ingest_bundestag.py --xml real.xml          # → Graph + Faktencheck + Dashboard (dry-run Neo4j)
 ```
 
-**Ergebnis (echte Sitzung WP20/214, 18.03.2025):** 45 Reden, 139 prüfbare Aussagen,
-**638 amtliche Saalreaktionen** (388× Beifall, 81× Zwischenruf, 9× Lachen …), Graph mit
-**1075 Knoten / 2780 Beziehungen**; echte Redner:innen (Johannes Vogel, Dr. Johannes Fechner,
-Dr. Bernd Baumann …). Amtliche Protokolle sind **gemeinfrei** (§ 5 UrhG) — rechtlich
-unbedenklich. *Gefundene Schwäche:* die TOP-Erkennung griff nur 1 TOP (der Parser iteriert
-`tagesordnungspunkt`, übersieht `zusatzpunkt`/`sitzungsbeginn`) → `bundestag_xml.py` für
-Echtdaten nachschärfen.
+**Ergebnis (echte Sitzung WP20/214, 18.03.2025):** 45 gesprochene Reden + 38 schriftliche
+Beiträge (Anlagen), 4 TOPs, **643 amtliche Saalreaktionen** (388× Beifall, 81× Zwischenruf,
+9× Lachen …), Graph mit **1230 Knoten / 3181 Beziehungen**; echte Redner:innen (Johannes Vogel,
+Dr. Johannes Fechner, Dr. Bernd Baumann …). Amtliche Protokolle sind **gemeinfrei** (§ 5 UrhG)
+— rechtlich unbedenklich.
+
+*Behobene Schwächen (anfangs gefunden, inzwischen gefixt in `bundestag_xml.py`):*
+- **TOP-Erkennung:** Der Parser iterierte nur `tagesordnungspunkt` und kollidierte bei
+  mehrdeutigen `top-id` → jetzt laufende, kollisionsfreie Nummern über `sitzungsbeginn`/
+  `tagesordnungspunkt`/`zusatzpunkt`.
+- **TOP-Titel:** `<tagesordnungspunkt>` trägt keinen Titel — die Sachüberschrift kommt jetzt
+  aus dem `<inhaltsverzeichnis>` (z. B. „a) Zweite und dritte Beratung … Gesetzes …").
+- **Schriftliche Beiträge:** „Zu Protokoll gegebene Reden" / §31-GO-Erklärungen aus `<anlagen>`
+  werden nun als eigener TOP „Schriftliche Beiträge zu Protokoll (Anlagen)" erfasst
+  (`herkunft="anlage"`, `schriftlich=true`) — getrennt von gesprochenen Reden, damit
+  Sprachanteil/Redevolumen im Dashboard nicht verfälscht werden.
 
 ### Weg 2 — YouTube-Untertitel von `@bundestag` ✅ funktioniert, mit Vorbehalt
 

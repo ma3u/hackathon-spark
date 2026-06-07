@@ -25,10 +25,11 @@ def compute_dashboard(protocol, factchecks=None) -> dict:
     uwords = {i: len(x.text.split()) for i, x in enumerate(u)}
     ufrak = {i: x.fraktion for i, x in enumerate(u)}
 
-    # Sprachanteil pro Fraktion (Wortanteil)
+    # Sprachanteil pro Fraktion (Wortanteil) — nur GESPROCHENE Beiträge
+    # (schriftliche Anlagen, herkunft="anlage", verzerren den Redeanteil nicht).
     words_by_frak: Counter = Counter()
     for i, x in enumerate(u):
-        if x.fraktion:
+        if x.fraktion and x.herkunft != "anlage":
             words_by_frak[x.fraktion] += uwords[i]
     total = sum(words_by_frak.values()) or 1
     sprachanteil = [
@@ -40,6 +41,8 @@ def compute_dashboard(protocol, factchecks=None) -> dict:
     top_titel = {t["nummer"]: t["titel"] for t in protocol.tops}
     words_by_top: Counter = Counter()
     for r in protocol.redebeitraege:
+        if r.get("schriftlich"):
+            continue  # schriftliche Anlagen sind kein gesprochenes Redevolumen
         for idx in r.get("quelle_utterances", []):
             words_by_top[r["top_nummer"]] += uwords.get(idx, 0)
     themen = [
@@ -76,8 +79,9 @@ def compute_dashboard(protocol, factchecks=None) -> dict:
             "sitzung_nr": protocol.meeting.get("sitzung_nr", ""),
         },
         "kennzahlen": {
-            "reden": len(protocol.redebeitraege),
-            "woerter": sum(uwords.values()),
+            "reden": sum(1 for r in protocol.redebeitraege if not r.get("schriftlich")),
+            "schriftliche_beitraege": sum(1 for r in protocol.redebeitraege if r.get("schriftlich")),
+            "woerter": sum(w for i, w in uwords.items() if u[i].herkunft != "anlage"),
             "tops": len(protocol.tops),
             "saalreaktionen": len(protocol.kommentare),
             "geprüfte_aussagen": len(fc),
