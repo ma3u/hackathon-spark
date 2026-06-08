@@ -1,0 +1,3562 @@
+{
+  "metadata": {
+    "title": "Protokoll-Knowledge-Graph — Deutscher Bundestag (YouTube-Mitschnitt), 22.05.2026",
+    "source_audio": "CPa1rLMiv64.mp4",
+    "generated_by": "graph-protokoll pipeline (SPARK Challenge 2 prototype)",
+    "ontology_layers": [
+      "normativ",
+      "zeitlich",
+      "prozedural",
+      "fallbezug",
+      "provenienz"
+    ],
+    "node_count": 242,
+    "relationship_count": 136,
+    "video_id": "CPa1rLMiv64",
+    "quelle_url": "https://www.youtube.com/watch?v=CPa1rLMiv64",
+    "factcheck_disclaimer": "Faktencheck automatisch durch KI (Mistral) erzeugt — ungeprüfte Vorschläge, kein Urteil über reale Personen. Untertitel sind Auto-Transkription (Fehler möglich)."
+  },
+  "nodes": [
+    {
+      "id": "sitzung_bt_yt_21_81",
+      "label": "Sitzung 22.05.2026",
+      "type": "Sitzung",
+      "subtype": "Öffentliche Gemeinderatssitzung",
+      "gremium": "Deutscher Bundestag (YouTube-Mitschnitt)",
+      "datum": "22.05.2026",
+      "ort": "Berlin",
+      "wahlperiode": "21",
+      "sitzung_nr": "81",
+      "beschlussfaehig": "",
+      "audio_file": "CPa1rLMiv64.mp4"
+    },
+    {
+      "id": "gemo_37",
+      "label": "GemO §37 Beschlussfähigkeit",
+      "type": "Norm",
+      "subtype": "Gemeindeordnung",
+      "schicht": "normativ"
+    },
+    {
+      "id": "person_sprecher_in_video",
+      "label": "Sprecher:in (Video)",
+      "type": "Person",
+      "subtype": "Redner:in"
+    },
+    {
+      "id": "top_1",
+      "label": "TOP 1: Arbeitszeitpolitik (ZP 8/9)",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 1,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "aussage_0",
+      "label": "Aussage: die alte Parole der Arbeiterbewegung hieß 8 Stunden Arbeit, …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die alte Parole der Arbeiterbewegung hieß 8 Stunden Arbeit, 8 Stunden Schlaf, 8 Stunden Muße, nicht 13 Stunden Arbeit und dann noch schnell schlafen, bevor die nächste Schicht beginnt. Diese Parole [...] das es seit über 100 Jahren in Deutschland gibt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_0",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Forderung nach dem 8-Stunden-Tag wurde tatsächlich in der Arbeiterbewegung des 19. Jahrhunderts geprägt und 1918 in Deutschland gesetzlich verankert (Stinnes-Legien-Abkommen). Die konkrete Formulierung '8 Stunden Arbeit, 8 Stunden Schlaf, 8 Stunden Muße' ist jedoch eine vereinfachte Dar",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeszentrale_f_r_politische_bildung_die_novemberrevolution_1918_19",
+      "label": "Bundeszentrale für politische Bildung: Die Novemberrevolution 1918/19",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bpb.de/geschichte/deutsche-geschichte/novemberrevolution/39582/die-stinnes-legien-vereinbarung/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_1",
+      "label": "Aussage: Standards, die die deutsche Arbeiterbewegung seit dem 19. Ja…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Standards, die die deutsche Arbeiterbewegung seit dem 19. Jahrhundert mit Erfolg erstritten hat vom Kampf um den 8 Stundentag",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_1",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Einführung des 8-Stunden-Tags in Deutschland geht auf die Novemberrevolution 1918 und das Stinnes-Legien-Abkommen zurück. Historisch wurde der Kampf für den 8-Stunden-Tag jedoch bereits im 19. Jahrhundert von der Arbeiterbewegung initiiert, z. B. durch die Forderungen der Internationale",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeszentrale_f_r_politische_bildung_geschichte_der_arbeiterbewegung",
+      "label": "Bundeszentrale für politische Bildung - Geschichte der Arbeiterbewegung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bpb.de/geschichte/deutsche-geschichte/weimarer-republik/39450/arbeitszeit-und-loehne",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_2",
+      "label": "Aussage: Deutschland besitzt bereits hohe Schutzstandards…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Deutschland besitzt bereits hohe Schutzstandards",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_2",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Deutschland hat im internationalen Vergleich hohe Arbeitsstandards (z. B. Kündigungsschutz, Arbeitsschutz, Tarifautonomie). Allerdings ist die Aussage quantitativ nicht konkretisiert und relativ (z. B. im Vergleich zu skandinavischen Ländern oder EU-Durchschnitt). Eine pauschale Einordnung ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_oecd_employment_protection_legislation",
+      "label": "OECD - Employment Protection Legislation",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.oecd.org/employment/emp/oecdindicatorsofemploymentprotection.htm",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_3",
+      "label": "Aussage: Die Deutschen leisten im Jahr 1,2 Milliarden Überstunden, me…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Die Deutschen leisten im Jahr 1,2 Milliarden Überstunden, mehr als die Hälfte davon unbezahlt.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_3",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) wurden 2022 rund 1,01 Milliarden Überstunden geleistet, davon etwa 47 % unbezahlt. Die Zahl von 1,2 Milliarden Überstunden ist leicht überhöht, und der Anteil unbezahltter Überstunden liegt knapp unter der genannten Hälfte. Die Tendenz der Aussage ist",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_destatis_berstunden_2022",
+      "label": "Statistisches Bundesamt (Destatis) – Überstunden 2022",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-4/ueberstunden.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_4",
+      "label": "Aussage: 76% der 20 bis 24-jährigen, also der so faulen Chens, arbeit…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "76% der 20 bis 24-jährigen, also der so faulen Chens, arbeitet heute. Das ist ein Höchststand seit Jahrzehnten",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_4",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Mikrozensus des Statistischen Bundesamts lag die Erwerbstätigenquote der 20- bis 24-Jährigen 2022 bei 76,1 %. Dies ist tatsächlich ein Höchststand seit Beginn der Erhebungen in dieser Form.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_erwerbst_tigenquote_nach_altersgruppen",
+      "label": "Statistisches Bundesamt – Erwerbstätigenquote nach Altersgruppen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/erwerbstaetigenquote-altersgruppen.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_5",
+      "label": "Aussage: Zwei Drittel aller Pflegekräfte machen regelmäßig Überstunde…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Zwei Drittel aller Pflegekräfte machen regelmäßig Überstunden.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_5",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine aktuelle, repräsentative amtliche Statistik, die diese konkrete Zahl (66 %) für Pflegekräfte bestätigt. Studien und Berichte (z. B. von ver.di oder der DAK) deuten auf hohe Überstundenzahlen hin, aber keine belastbare Quelle nennt exakt zwei Drittel.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_keine_amtliche_quelle_verf_gbar",
+      "label": "Keine amtliche Quelle verfügbar",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_6",
+      "label": "Aussage: Allein die Bundespolizisten haben im Jahr 2025 2,8 Millionen…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Allein die Bundespolizisten haben im Jahr 2025 2,8 Millionen Überstunden angesammelt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_6",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine zukünftige Zahl (2025), die zum Zeitpunkt der Rede (2023/2024) nicht vorliegen kann. Aktuelle Daten zur Bundespolizei (z. B. aus dem Bundeshaushalt oder Drucksachen) nennen keine Überstundenzahl in dieser Höhe für 2023 oder früher. Eine Prognose für 2025 is",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_7",
+      "label": "Aussage: in Deutschland [gibt es] die meisten Milliardäre weltweit…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "in Deutschland [gibt es] die meisten Milliardäre weltweit",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_7",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Forbes-Liste (2023) hat die USA die meisten Milliardäre (735), gefolgt von China (562) und Indien (169). Deutschland liegt mit 126 Milliardären auf Platz 4. Die Aussage ist daher falsch, wenn sie wörtlich als „meisten“ interpretiert wird. Korrekt wäre: „eine der höchsten Zahlen weltwei",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_forbes_the_world_s_billionaires_list_2023",
+      "label": "Forbes – The World’s Billionaires List 2023",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.forbes.com/real-time-billionaires/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_8",
+      "label": "Aussage: Laut einer aktuellen Vorsaumfrage sprechen sich fast 60% der…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Laut einer aktuellen Vorsaumfrage sprechen sich fast 60% der Menschen in unserem Land konkret für eine wöchentliche statt eine tägliche Höchstarbeitszeit aus.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_8",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es wird keine konkrete Quelle für die genannte Umfrage genannt. Ohne Angabe des Umfrageinstituts, des Zeitraums oder der genauen Fragestellung ist die Behauptung nicht überprüfbar. Eine vergleichbare repräsentative Umfrage mit diesem Ergebnis ist nicht bekannt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_9",
+      "label": "Aussage: die europäische Arbeitszeitrichtlinie [sieht] maximal 48 Stu…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die europäische Arbeitszeitrichtlinie [sieht] maximal 48 Stunden pro Woche [vor].",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_9",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU-Arbeitszeitrichtlinie (2003/88/EG) legt in Artikel 6 eine maximale wöchentliche Arbeitszeit von 48 Stunden fest, einschließlich Überstunden.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_richtlinie_2003_88_eg_des_europ_ischen_parlaments_und_des_rates_vom_4_november_2003_ber_bestimmte_aspekte_der_arbeitszeitgestaltung",
+      "label": "Richtlinie 2003/88/EG des Europäischen Parlaments und des Rates vom 4. November 2003 über bestimmte Aspekte der Arbeitszeitgestaltung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32003L0088",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_10",
+      "label": "Aussage: die Wochenhöchstarbeitszeit in vielen EU-Ländern [ist] berei…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die Wochenhöchstarbeitszeit in vielen EU-Ländern [ist] bereits gängige Praxis. Niederlande, Dänemark, Tschechien, Österreich, sie alle kennen eine wöchentliche höchste Arbeitszeit.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_10",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannten Länder haben tatsächlich Regelungen zur wöchentlichen Höchstarbeitszeit, allerdings mit unterschiedlichen Ausgestaltungen und Ausnahmen. Die Aussage ist insofern korrekt, als dass eine wöchentliche Höchstarbeitszeit (meist 48 Stunden) existiert. Allerdings wird nicht differenz",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_european_working_conditions_survey_ewcs_eurofound_vergleich_der_arbeitszeitregelungen_in_eu_l_ndern",
+      "label": "European Working Conditions Survey (EWCS) – Eurofound, Vergleich der Arbeitszeitregelungen in EU-Ländern",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.eurofound.europa.eu/de/topic/working-time",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_11",
+      "label": "Aussage: mehr als 80% der Menschen in unserem Land [halten] die wirts…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "mehr als 80% der Menschen in unserem Land [halten] die wirtschaftliche Lage für eines der größten Probleme.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_11",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es wird keine konkrete Quelle für die genannte Umfrage genannt. Eine aktuelle repräsentative Umfrage mit diesem Ergebnis ist nicht bekannt. Vergleichbare Umfragen (z. B. vom Institut für Demoskopie Allensbach oder Forsa) zeigen zwar eine hohe Besorgnis über die wirtschaftliche Lage, aber ni",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_12",
+      "label": "Aussage: Wir in Deutschland haben den 8 Stundentag schon lange.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Wir in Deutschland haben den 8 Stundentag schon lange.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_12",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Arbeitszeitgesetz (ArbZG) in Deutschland regelt seit 1994 die tägliche Höchstarbeitszeit von grundsätzlich 8 Stunden (§ 3 ArbZG). Historisch wurde der 8-Stunden-Tag in Deutschland bereits 1918 eingeführt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_arbeitszeitgesetz_arbzg_3",
+      "label": "Arbeitszeitgesetz (ArbZG) § 3",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.gesetze-im-internet.de/arbzg/__3.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_13",
+      "label": "Aussage: Es gibt dazu auch anders als Frau Kleingrade gesagt hat, auc…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Es gibt dazu auch anders als Frau Kleingrade gesagt hat, auch andere Umfragen, die von wesentlich höheren Zustimmungswerten ausgehen.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_13",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es wird keine konkrete Umfrage oder Zahl genannt, die höhere Zustimmungswerte belegt. Ohne Nennung einer spezifischen Quelle oder Studie ist die Aussage nicht überprüfbar.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_14",
+      "label": "Aussage: das Arbeitszeitgesetz vor über 100 Jahren übrigens unter ein…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "das Arbeitszeitgesetz vor über 100 Jahren übrigens unter einer sozialdemokratisch geführten Regierung eingeführt wurde",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_14",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Arbeitszeitgesetz (AZG) wurde 1918 unter der Regierung des Reichskanzlers Friedrich Ebert (SPD) eingeführt. Es regelte erstmals die tägliche Höchstarbeitszeit von 8 Stunden.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeszentrale_f_r_politische_bildung_geschichte_der_arbeitszeitregelungen",
+      "label": "Bundeszentrale für politische Bildung - Geschichte der Arbeitszeitregelungen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bpb.de/shop/zeitschriften/apuz/30400/arbeitszeit/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_15",
+      "label": "Aussage: dass entsprechend auch äh damit äh Sicherheit und Gesundheit…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "dass entsprechend auch äh damit äh Sicherheit und Gesundheit der Beschäftigten ähm sich verschlechtern, also auch deutlich ähm schon ab 8 Stunden, ab 10 Stunden tägliche Arbeitszeit",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_15",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Studien zeigen gesundheitliche Risiken bei überlangen Arbeitszeiten, insbesondere ab 10 Stunden/Tag. Die Aussage ist jedoch pauschal formuliert und nicht spezifisch auf die Quelle des Bundesarbeitsministeriums bezogen. Belastbare Daten zu *genauen* Schwellenwerten (8 vs. 10 Stunden) sind ko",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesanstalt_f_r_arbeitsschutz_und_arbeitsmedizin_baua_arbeitszeitreport_deutschland_2016",
+      "label": "Bundesanstalt für Arbeitsschutz und Arbeitsmedizin (BAuA) - Arbeitszeitreport Deutschland 2016",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Berichte/Arbeitszeitreport-2016.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_16",
+      "label": "Aussage: 8 Stunden als Regelfall, aber die Erweiterung auf 10 Stunden…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "8 Stunden als Regelfall, aber die Erweiterung auf 10 Stunden ist ja, wenn es sagen über längere Zeit ausgeglichen wird, auch kein Problem",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_16",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das aktuelle Arbeitszeitgesetz (§ 3 ArbZG) sieht 8 Stunden als Regelarbeitszeit vor, erlaubt aber eine Ausweitung auf 10 Stunden, sofern der Durchschnitt von 8 Stunden innerhalb von 6 Kalendermonaten oder 24 Wochen nicht überschritten wird.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_17",
+      "label": "Aussage: rund 1,2 Milliarden Überstunden pro Jahr die meisten davon i…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "rund 1,2 Milliarden Überstunden pro Jahr die meisten davon im übrigen unbezahlt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_17",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Institut für Arbeitsmarkt- und Berufsforschung (IAB) gab es 2022 etwa 1,01 Milliarden Überstunden in Deutschland, von denen rund 43 % unbezahlt waren. Die Zahl von 1,2 Milliarden ist leicht überhöht, und der Anteil unbezahltter Überstunden wird nicht präzise mit 'die meisten' abgeb",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_iab_kurzbericht_10_2023_berstunden_in_deutschland",
+      "label": "IAB-Kurzbericht 10/2023: Überstunden in Deutschland",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://doku.iab.de/kurzber/2023/kb2023-10.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_18",
+      "label": "Aussage: Studienlage ist ja ganz klar, lange Arbeitszeiten erhöhen da…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Studienlage ist ja ganz klar, lange Arbeitszeiten erhöhen das Risiko für viele körperliche Erkrankungen wie Kopfschmerzen, Herz-Kreislauferkrankungen, ja sogar Krebs und für psychische Störungen wie Depressionen, Angstzustände und Burnout, die ohnehin deutlich zunehmen",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_18",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Weltgesundheitsorganisation (WHO) und die Internationale Arbeitsorganisation (ILO) bestätigen in Studien, dass lange Arbeitszeiten (ab 55 Stunden/Woche) das Risiko für Herz-Kreislauf-Erkrankungen und Schlaganfälle erhöhen. Auch psychische Erkrankungen wie Depressionen und Burnout werden",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_who_ilo_long_working_hours_increasing_deaths_from_heart_disease_and_stroke_2021",
+      "label": "WHO/ILO: Long working hours increasing deaths from heart disease and stroke (2021)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.who.int/news/item/17-05-2021-long-working-hours-increasing-deaths-from-heart-disease-and-stroke-who-ilo",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_19",
+      "label": "Aussage: wir treten ein für ein Modell einer flexiblen Vollzeit im Be…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "wir treten ein für ein Modell einer flexiblen Vollzeit im Bereich von 30 bis 40 Stunden pro Woche",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_19",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Dies ist eine politische Forderung der Grünen, aber keine überprüfbare quantitative Tatsachenbehauptung. Es gibt keine amtlichen Statistiken oder Studien, die diese konkrete Spanne als etablierten Standard ausweisen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_",
+      "label": "-",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "-",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_20",
+      "label": "Aussage: der 8 Stundentag ist ein entscheidender Eckpfeiler unseres S…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "der 8 Stundentag ist ein entscheidender Eckpfeiler unseres Sozialstaats",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_20",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Dies ist eine wertende Aussage ohne quantifizierbare Grundlage. Der 8-Stunden-Tag ist historisch und rechtlich verankert, aber die Behauptung, er sei ein 'entscheidender Eckpfeiler des Sozialstaats', ist nicht durch Daten oder Statistiken überprüfbar.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_21",
+      "label": "Aussage: Rechnerisch werden dann in einzelnen Wochen bis zu 73,5 Stun…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Rechnerisch werden dann in einzelnen Wochen bis zu 73,5 Stunden Arbeitszeit möglich.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_21",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die geplante Flexibilisierung der Arbeitszeit durch die Bundesregierung (z. B. im Rahmen des 'Mobilitätsgesetzes' oder der Diskussion um die EU-Arbeitszeitrichtlinie). Eine wöchentliche Höchstarbeitszeit von 73,5 Stunden ist rechnerisch möglich, wenn man die täg",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_arbeitszeitgesetz_arbzg_3_arbeitszeit_der_arbeitnehmer",
+      "label": "Arbeitszeitgesetz (ArbZG) § 3 Arbeitszeit der Arbeitnehmer",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.gesetze-im-internet.de/arbzg/__3.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_22",
+      "label": "Aussage: Bereits heute sind ja z.B. in der Chemiebranche, bei der Pol…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Bereits heute sind ja z.B. in der Chemiebranche, bei der Polizei, im Gesundheitswesen und vielen anderen Bereichen Ausnahmen möglich.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_22",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Arbeitszeitgesetz (ArbZG) sieht in § 7 und § 14 Ausnahmen von der regulären Höchstarbeitszeit vor, insbesondere für bestimmte Branchen wie die Chemieindustrie (über Tarifverträge), Polizei, Gesundheitswesen und andere Bereiche mit Rufbereitschaft oder Schichtdienst. Diese Ausnahmen sind",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_arbeitszeitgesetz_arbzg_7_abweichende_regelungen_14_au_ergew_hnliche_f_lle",
+      "label": "Arbeitszeitgesetz (ArbZG) § 7 Abweichende Regelungen, § 14 Außergewöhnliche Fälle",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.gesetze-im-internet.de/arbzg/__7.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_23",
+      "label": "Aussage: 72% der Beschäftigten sich Arbeitstage wünschen von maximal …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "72% der Beschäftigten sich Arbeitstage wünschen von maximal 8 Stunden.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_23",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannte Zahl stammt aus der DGB-Befragung 'Gute Arbeit' (2021). Laut dieser Befragung wünschen sich 72% der Beschäftigten Arbeitstage von maximal 8 Stunden.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_dgb_index_gute_arbeit_report_2021",
+      "label": "DGB-Index Gute Arbeit – Report 2021",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.dgb-index-gute-arbeit.de/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_24",
+      "label": "Aussage: 98% die wollen weniger als 10 Stunden arbeiten.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "98% die wollen weniger als 10 Stunden arbeiten.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_24",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut derselben DGB-Befragung 'Gute Arbeit' (2021) wünschen sich 98% der Beschäftigten Arbeitstage von weniger als 10 Stunden.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_25",
+      "label": "Aussage: 95% die wollen um 18 Uhr spätestens Feierabend haben.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "95% die wollen um 18 Uhr spätestens Feierabend haben.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_25",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut der DGB-Befragung 'Gute Arbeit' (2021) möchten 95% der Beschäftigten spätestens um 18 Uhr Feierabend machen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_26",
+      "label": "Aussage: wir brauchen hier auch 11 Stunden Pause in einem 24 Stunden …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "wir brauchen hier auch 11 Stunden Pause in einem 24 Stunden Raum.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_26",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Gemäß § 5 des Arbeitszeitgesetzes (ArbZG) müssen Arbeitnehmer nach Beendigung der täglichen Arbeitszeit eine ununterbrochene Ruhezeit von mindestens 11 Stunden haben.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_arbeitszeitgesetz_arbzg_5_ruhezeit",
+      "label": "Arbeitszeitgesetz (ArbZG) § 5 Ruhezeit",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.gesetze-im-internet.de/arbzg/__5.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "segment_0",
+      "label": "Segment 00:00 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 0.7,
+      "end_sec": 28.1,
+      "timecode": "00:00",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Die Zusatzpunkte 8 und 9. Da geht es um die Beratung des Antrages der Fraktion Die Linke mit dem Titel 8 Stundentag im EU-Recht verankern und beschäftigte schützen sowie die Beratung des Antrags der Fraktion Bündnis 90 die Grün mit dem Titel Vereinbarkeit statt Verfügbarkeit für eine moderne Arbeitszeitpolitik. Wir haben uns eine Dauer von 60 Minuten für diese Aussprache gegeben und für die Antragsstellende Fraktion beginnt Frau Ines Schwertner. Frau Abgeordnete für",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_1",
+      "label": "Segment 00:29 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 29.9,
+      "end_sec": 65.4,
+      "timecode": "00:29",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "die Fraktion Die Linke. Bitte sehr. Wir warten noch einen Moment gerade, bis etwas Ruhe einkhrt. Danke. Bitte um zügigen Wechsel, damit wir Genau, sie können schon mal aber damit wir ein bisschen Aufmerksamkeit haben. Ja, das ist schon prima. Wir können starten, bitte. Frau Präsidentin, liebe Kolleginnen und Kollegen, liebe Besucherinnen und Besucher, wissen Sie, was mich an diesem",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_2",
+      "label": "Segment 01:07 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 67.8,
+      "end_sec": 91.9,
+      "timecode": "01:07",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Tag wirklich fassungslos macht? Nicht, dass diese Regierung schlechte Politik macht, das wissen wir. Ich kann es nicht fassen, dass Sie, Frau Bars, Sie, die einmal Betriebsrätin bei der Duisburger Verkehrsgesellschaft waren, eine, die mal beschäftigte gegen den Druck von oben vertreten haben, jetzt vorbereiten, Arbeitstage von 13 Stunden möglich zu machen. 13 Stunden, Frau Bars, das ist nicht Flexibilität, das ist ein Schlag ins Gesicht der Beschäftigten.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_3",
+      "label": "Segment 01:35 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 95.7,
+      "end_sec": 118.5,
+      "timecode": "01:35",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Und sie wissen doch ganz genau, was 13 Stunden Arbeit bedeutet. Sie haben es in ihrer eigenen Lebensgeschichte, was das für den Körper bedeutet, für die Psyche bedeutet, was das für Familienleben bedeutet. Und März, der klatscht natürlich Beifall. Das ist genau das, was er und seine reichen Freunde die ganze Zeit schon immer wollen. Und sie, sie wollen diesen Gesetzesentwurf jetzt trotzdem einbringen. Die alte Parole der Arbeiterbewegung hieß 8 Stunden Arbeit,",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_4",
+      "label": "Segment 02:01 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 121.3,
+      "end_sec": 144.9,
+      "timecode": "02:01",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "8 Stunden Schlaf, 8 Stunden Muße, nicht 13 Stunden Arbeit und dann noch schnell schlafen, bevor die nächste Schicht beginnt. Diese Parole, Frau Bars, die war ein Versprechen. Der Mensch gehört nicht dem Betrieb, der Tag gehört nicht dem Chef. Das Leben besteht aus mehr als Arbeit. Und genau dafür haben die arbeitenden Menschen gekämpft, dafür haben die Gewerkschaften gekämpft, dafür hat auch einmal die alte SPD gekämpft. Und genau",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_5",
+      "label": "Segment 02:27 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 147.5,
+      "end_sec": 172.9,
+      "timecode": "02:27",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "dieses Recht, das es seit über 100 Jahren in Deutschland gibt, das wollen sie jetzt innerhalb eines Jahres abschaffen und einreißen. Und für was? Für den Koalitionsfrieden, für Ministersessel, für einen Platz am Tisch der Mächtigen. Das ist kein Pragmatismus, das ist Verrat. Und das werden die arbeitenden Menschen noch nicht wenigen über übel nehmen. Und genau deshalb sage ich Ihnen und deshalb sage ich Ihnen auch, die hier",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_6",
+      "label": "Segment 02:54 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 174.2,
+      "end_sec": 196.9,
+      "timecode": "02:54",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "sind. Wenn du jeden Monat rechnest, ob das Geld reicht, diese Rede ist für dich. Wenn du nach der Schicht so kaputt bist, dass du keine Kraft mehr für deine Kinder hast, diese Rede ist für dich. Wenn du irgendwann aufgehört hast zu wählen, weil du dachtest, es ändert sich sowieso nichts mehr, wir verstehen dich. Aber schau dir an, wer jetzt dabei ist, den 8 Stunden Tag abzuschaffen. Die Wut, die ihr gerade fühlt, die du gerade fühlst, die ist berechtigt. Und ich kann",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_7",
+      "label": "Segment 03:19 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 199.2,
+      "end_sec": 220.9,
+      "timecode": "03:19",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Ihnen auch sagen, die Burufe gegen März beim Gewerkschaftskongress, beim Katholikentag, das war erst der Anfang, denn die Menschen, die Menschen im Land, sie haben genug von den Demütigungen, die sie hier jeden Tag erleiden müssen. Wer mit der Kettensäge an unsere Arbeitszeit, an unsere Rente und an unsere Gesundheit geht, der muss mit Widerstand rechnen. Sie glauben doch nicht ernsthaft, dass sie damit durchkommen. Sie glauben doch nicht",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_8",
+      "label": "Segment 03:42 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 222.2,
+      "end_sec": 250.2,
+      "timecode": "03:42",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "ernsthaft, dass sie die Menschen so für dumm verkaufen können, dass sie nicht wissen, was hier abgeht. Und genau deshalb starten wir ab dem 1. Juni Proteste im ganzen Land. Wir werden nicht aufhören, bis diese Angriffe auf unsere Arbeitsrechte stoppen. Sorgen Sie mit uns dafür, dass März, dass März mit seiner Kettensägenpolitik nicht durchkommt. Wir sehen uns auf der Straße. Für die CDU CSU Fraktion hat Herr",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_9",
+      "label": "Segment 04:12 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 252.4,
+      "end_sec": 282.4,
+      "timecode": "04:12",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Abgeordnfried Öllers das Wort, bitte. Sehr geehrte Frau Präsidentin, liebe Kolleginnen und Kollegen, meine sehr geehrten Damen und Herren, die Arbeitswelt ist im Mandel. Beschäftigte und Unternehmen wünschen mehr Flexibilität auch und gerade um die Vereinbarkeit von Familie und Beruf besser gewährleisten zu können, aber auch um den Realitäten in der Wirtschaft auch wirklich ins Auge zu sehen. Und deshalb wurde im",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_10",
+      "label": "Segment 04:44 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 284.6,
+      "end_sec": 308.0,
+      "timecode": "04:44",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Koalitionsvertrag vereinbart im Einklang mit dem Europäischen Arbeitszeitrecht und mit der Arbeitszeitrichtlinie. die Möglichkeit einer wöchentlichen Arbeitszeit anstatt einer täglichen Höchstarbeitszeit einzuführen und damit erfüllen wir nicht nur Wünsche der Unternehmer, sondern auch der Arbeitnehmerinnen und Arbeitnehmer. Meine sehr geehrten Damen und Herren, Herr Abgeordneter, lassen Sie eine Zwischenfrage.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_11",
+      "label": "Segment 05:10 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 310.6,
+      "end_sec": 337.6,
+      "timecode": "05:10",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Also, ich habe gerade erst begonnen, ich möchte erstm und interessant war jetzt gerade in dem in der Rede von der Kollegin Schwerter, dass äh sie eigentlich viel gesagt hat, aber nicht zum eigentlichen Antrag gesagt hat, den sie jetzt stellen und Ach so, ja, okay. Vielleicht sollte man das in der ersten Rede auch machen. Jedenfalls wollen sie ja dann gerade das, worauf man sich auf europäischer Ebene geeinigt hat, das wollen sie",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_12",
+      "label": "Segment 05:39 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 339.8,
+      "end_sec": 364.8,
+      "timecode": "05:39",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "ändern. Auf europäischer Ebene gibt es die wöchentliche Arbeitszeit. Sie wollen da einen starren 8 Stundenag draus machen und damit kommen sie einfach auch nicht den Wünschen entgegen, den auch die Arbeitnehmerinnen und Arbeitnehmer haben. Deswegen ist dieser Antrag auch nur als Unfug zu bezeichnen. Der Antrag der Grünen, mit dem wir uns heute auch beschäftigen, das ist erfreulicherweise zur Kenntnis genommen, dass Sie eben diese",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_13",
+      "label": "Segment 06:06 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 366.0,
+      "end_sec": 388.4,
+      "timecode": "06:06",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Notwendigkeit der Flexibilität auch grundsätzlich anerkennen und auch treffend beschreiben, dass die Flexibilisierung auch ein Wunsch von Arbeitnehmerinnen, Arbeitnehmern ist. kommen allerdings dann bei der Konsequenz daraus und bei den Lösungsvorschlägen zu Ergebnissen, die wieder eher mit Ansprüchen und mit Vorgaben verbunden sind und weniger mit flexiblen Lösungen verbunden sind. Deswegen haben wir auch im",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_14",
+      "label": "Segment 06:30 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 390.4,
+      "end_sec": 418.3,
+      "timecode": "06:30",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Koalitionsvertrag vereinbart, einen Weg zu finden, um beide Interessen, sowohl die Interessen der Arbeitnehmerinnen und Arbeitnehmer auf der einen Seite und die der Unternehmer zusammenzubringen und Flexibilität im Rahmen der Arbeitszeit zu ermöglichen, denn es geht darum, die bisherige wöchentliche Arbeitszeit über die Woche flexibel zu verteilen, um den Realitäten der Wirklichkeit Raum zu geben und den Arbeitsschutz gleichzeitig aber auch zu berücksichtigen. Es geht",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_15",
+      "label": "Segment 07:01 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 421.0,
+      "end_sec": 450.1,
+      "timecode": "07:01",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "dabei darum, dass wir Flexibilität dort anwenden wollen, wo sie gewünscht ist und wo sie hinpasst. Wir wollen nicht Flexibilität um der Flexibilitätswillen und wir wollen die Flexibilität und den Schutzrahmen der EUA Arbeitsrichtlinie hierzu miteinander harmonisieren, um mehr Freiheit zu gewähren. Und das ist auch im Namen Sinne der Arbeitnehmerinnen und Arbeitnehmer. Herr Kollege aus der Fraktion der Linken ist wieder der Wunsch nach einer Frage.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_16",
+      "label": "Segment 07:32 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 452.1,
+      "end_sec": 474.0,
+      "timecode": "07:32",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Ja, ich war ja jetzt schon bisschen weiter. Jetzt könen wir bitte sehr gerne. Ja, unsere Fragen haben sie leider nicht geklärt, deswegen vielen Dank, dass Sie die Zwischenfrage zulassen. Sie haben sich gerade auf die EU Arbeitszeitrichtlinie berufen. Artikel 23 stellt aber nun klar, dass genau das nicht zu einer Verschlechterung führen darf. Das hat auch der wissenschaftliche Dienst uns kürzlich noch mal bestätigt.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_17",
+      "label": "Segment 07:56 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 476.3,
+      "end_sec": 500.4,
+      "timecode": "07:56",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Deswegen nicht Brüssel steckt hinter diesen Schutzabbauten für die Arbeitnehmer, sondern Sie. Meine Frage ist also, warum verstecken Sie sich hin die eigene Verschlechterung hinter einer Arbeitsschutzrichtlinie, die das genau diesen Fall eigentlich ausschließt? Das möchte ich gerne wissen. Also, ich war mit meinen Ausführungen ja auch noch nicht fertig, deswegen bin ich vielleicht auf diesen Aspekt noch nicht eingegangen, aber da wäre ich auch noch",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_18",
+      "label": "Segment 08:21 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 501.8,
+      "end_sec": 526.8,
+      "timecode": "08:21",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "drauf gekommen. Ich will ihn ganz deutlich sagen, es geht nicht darum, Arbeitsschutzrechte auszuholen. Ich will ih noch ganz ehrlich sagen, ich will Ihnen noch ganz ehrlich sagen, es geht, ich habe es gerade versucht zu betonen, aber sie jetzt gestatten Sie mir noch einfach mal auszusprechen. Ich habe ja auch ihre Zwischenfrage zugelassen. Es geht nicht darum mehr Arbeit zu ermöglichen, sondern es geht darum, die Arbeit, die",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_19",
+      "label": "Segment 08:49 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 529.0,
+      "end_sec": 552.6,
+      "timecode": "08:49",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "wir jetzt als wöchentliche Hob höchstarbeits haben, flexibel über die Woche verteilen zu können. dass sie den Begriff der Flexibilität nicht hören können, weil das mit Freiheit verbunden ist. Das kann ich ja gut nachvollziehen, weil sie in dieser Frage des Arbeitszeitrechts einfach nur Zwang wollen in eine Richtung und zwar Zwang in Richtung der Unternehmer. Aber das letztlich auch die Arbeitnehmerinnen und Arbeitnehmer Freiheiten wünschen, das",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_20",
+      "label": "Segment 09:15 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 555.6,
+      "end_sec": 580.0,
+      "timecode": "09:15",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "verkennen Sie absolut. Und ich will Ihnen ganz deutlich sagen, das was wir nicht wollen, das was wir nicht wollen ist, dass es um mehr Arbeit geht und das worum was wir auch nicht wollen ist, dass der Schutzgedanke des Arbeitszeitgesetzes ausgehöht wird. Das ist ganz explizit nicht gewollt. Da können Sie drüber lachen, aber es ist so. Nehmen Sie es einfach mal zur Kenntnis und denken Sie mal drüber nach. Aber überzeugen w ich Sie ganz bestimmt",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_21",
+      "label": "Segment 09:42 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 582.9,
+      "end_sec": 612.2,
+      "timecode": "09:42",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "nicht. möchte gerne fortfahren. Ich habe gerade schon gesagt, was wir nicht wollen, will das noch mal ausdrücklich auch betont wissen, will aber damit auch mal sagen, was wir uns konkret vorstellen. Wir wollen ähm im Rahmen der Flexibilisierung, wenn wir auf die wöchentliche Höchstarbeitszeit gehen, sehr wohl berücksichtigen, dass der Arbeitsschutz und der Gesundheitsschutz weiterhin gewahrt bleibt. Und das muss auch gelten nicht nur für tarifgebundene",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_22",
+      "label": "Segment 10:16 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 616.0,
+      "end_sec": 639.7,
+      "timecode": "10:16",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Unternehmen, sondern für alle Arbeitsverhältnisse muss das gelten. Wir wollen im Rahmen der Reform des Arbeitszeitgesetzes auch bezüglich der Sonntagsarbeitzeit bei den Bäckereien mehr Möglichkeiten eröffnen. Und wir wollen vor allen Dingen auch, dass die Arbeitszeiterfassung, die ja auch im Koalitionsvertrag erwähnt ist, dass diese unbürokratisch erfolgt",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_23",
+      "label": "Segment 10:43 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 643.0,
+      "end_sec": 668.8,
+      "timecode": "10:43",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "und die Arbeitnehmerinnen und Arbeitnehmer, aber auch die Unternehmer nicht unnötig weiter belastend. Und da brauchen wir nach unserer Auffassung no Ausnahmen gerade für kleinere und mittlere Unternehmen und auch vor allen Dingen bei Personen, bei denen wir es für sinnvoll erachten, nicht unbedingt eine Zeiterfassung ermöglichen zu wollen. Und da komme ich zum Stichwort der Vertrauensarbeitzeit,",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_24",
+      "label": "Segment 11:10 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 670.5,
+      "end_sec": 694.2,
+      "timecode": "11:10",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "die ist uns sehr wichtig im Gesetz eben auch rechtssicher rechts sicher zu vereinbaren und dass es eben im beidseitigen Einvernehmen der Arbeitsvertragsparteien möglich sein muss, auch im Rahmen von Vertrauensarbeitzeit ähm arbeiten zu können. Das halten wir für unabdingbar. Lassen Sie mich abschließen. Der Antrag der Linken geht wieder mal komplett an der Wirklichkeit vorbei. Der Antrag der",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_25",
+      "label": "Segment 11:36 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 696.7,
+      "end_sec": 725.8,
+      "timecode": "11:36",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Grünen hat gute Ansätze, die aber dann letztlich zum denken, denken wir jedenfalls zum falschen Ergebnis führen, was weitere Ansprüche betrifft, die sie aufführen in ihrem Antrag. Aber unser Ansatz ist der, der den Wunsch nach Flexibilität eben auch nachkommt und dem Wunsch der Arbeitnehmerinnen und Arbeitnehmer nachkommt, sowie den Unternehmern nach mehr Rechtssicherheit und alles das ohne Arbeitsschutz aus dem Auge zu verlieren",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_26",
+      "label": "Segment 12:08 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 728.4,
+      "end_sec": 754.4,
+      "timecode": "12:08",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "und vor allen Dingen auch eins zu gewährleisten, Rechtssicherheit gewährleisten. Genau diese Abwägung und Berücksichtigung der gesamtenbreite der Belange im Rahmen der Flexibilität der Arbeitszeit wollen wir berücksichtigen und der kommen wir auch entsprechend im Koalitionsvertrag nach. Ich kann allen nur raten, dieses Thema nicht zu skandalisieren, sondern dem Wunsch der Wirklichkeit nachzukommen und damit auch den Wunsch der Arbeitnehmerinnen und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_27",
+      "label": "Segment 12:36 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 756.1,
+      "end_sec": 784.0,
+      "timecode": "12:36",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Arbeitnehmer sowie den Arbeitgebern nachzukommen. Herzlichen Dank. Die Möglichkeit für eine Kurzintervention hat Frau Abgeordnete Köcktürk aus der Fraktion Die Linke. Bitte. Ja, vielen Dank Herr Ölas. Es geht hier um Menschen, die hart arbeiten und vor allem Respekt verdienen. Statt über angeblich fehlende Arbeitsbereitschaft zu sprechen, wäre es ja eigentlich an der Zeit, konkrete politische Ergebnisse",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_28",
+      "label": "Segment 13:05 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 785.7,
+      "end_sec": 813.9,
+      "timecode": "13:05",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "zu liefern. Das tun sie nicht. Daher zweife ich aktuell an Ihre Arbeitsleistung. Konkret will ich aber von Ihnen wissen, erkennen Sie an, dass Sie mit Ihren Aussagen hartarbeitende Menschen pauschal abwerten und wann möchten Sie beleidigende Worte wie Menschen sein zu faul wieder zurücknehmen? Ich bitte Sie nicht hysterisch und laut zu antworten, sondern einfach sachlich zu bleiben. Herr, Sie haben die Möglichkeit zu",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_29",
+      "label": "Segment 13:35 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 815.0,
+      "end_sec": 844.0,
+      "timecode": "13:35",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "antworten und auch das Recht auf volle Aufmerksamkeit, bitte. Vielen Dank, Frau Vorsitzender, Frau Kollegin, vielen Dank für die Frage. Äh, zum einen will ich mal ausdrücklich zurückweisen, dass ich in meiner Rede ähm hier Leute als faul bezeichnet habe. Das habe ich nicht gemacht. Das habe ich bisher noch bei keiner Rede hier im deutschen Bundestag getan und das würde ich auch nie tun. Am zweiten Punkt denk beim zweiten Punkt",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_30",
+      "label": "Segment 14:06 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 846.2,
+      "end_sec": 871.6,
+      "timecode": "14:06",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "denke ich auch in meiner Art des Vortrages weiß ich nicht, wo ich hier rumgeschrieen habe. Also, ich finde, dass ich eigentlich sehr ruhig und sachlich geblieben bin. Ähm, von daher weiß ich auch nicht, was Sie da zu kritisieren haben. Zum dritten will ich Ihnen sagen, äh und das stelle ich persönlich jetzt schon häufiger fest, äh wenn Sie Zwischenfragen stellen, ähm dass Sie die regelmäßig ablesen und vorbereiten, dann",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_31",
+      "label": "Segment 14:33 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 873.6,
+      "end_sec": 900.6,
+      "timecode": "14:33",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "würde ich Ihnen erraten, vereinbaren Sie mit Ihrer Fraktion noch mal Redezeit zu diesen Themen. Das würde ich vielleicht auch mal ganz gerne singen. Und noch mal zum inhaltlichen zu kommen, ich habe in meiner Rede, denke ich, mehrfach deutlich gemacht, dass es darum geht, den Arbeitsschutz auf der einen Seite und den Wunsch nach Flexibilisierung auf der anderen Seite nachzukommen und hier eine entsprechende Abwägung hinzubekommen. Ich habe deutlich betont,",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_32",
+      "label": "Segment 15:03 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 903.1,
+      "end_sec": 926.0,
+      "timecode": "15:03",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "dass das Arbeitszeitgesetz ein Arbeitsschutzgesetz ist und ein Arbeitsschutzgesetz bleibt. Und wir müssen und da gebe ich Ihnen recht, da habe ich jetzt vielleicht ein bisschen zu wenig drüber gesagt, man muss natürlich auch anerkennen, wo passt das eben auch. Das habe ich aber auch in meiner Rede erwähnt, dass ich gesagt habe, es kann nicht Flexibilisierung um des Flexibilisierungswillens sein. Es muss dahinpassen und ähm da muss",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_33",
+      "label": "Segment 15:29 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 929.0,
+      "end_sec": 958.8,
+      "timecode": "15:29",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "natürlich auch die Gefahrgeneigt der Tätigkeit auch eine Berücksichtigung finden. Aber uns hier zu unterstellen und mir persönlich zu unterstellen, ich würde das komplett aus dem Auge lassen. Das weiß ich ausdrücklich zurück und ich empfehle Ihnen daher noch mal die Lektüre meiner Rede nachher im Protokoll. Für die Fraktion der AfD hat nun Herr Abgeordnete Robert Teske das Wort, bitte.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_34",
+      "label": "Segment 16:02 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 962.3,
+      "end_sec": 985.3,
+      "timecode": "16:02",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Frau Präsidentin, sehr verehrte Damen und Herren, der Antrag der Linksfraktion benennt zur Institution des 8 Stundentags manches richtig. Sie sprechen von Deregulierung der Arbeitszeit, Profite auf Kosten der beschäftigten Familien vor Zerreißproben und das alles sind reale Probleme einer entgrenzten Arbeitswelt. Aber zum einen ist es mir neu, dass die Linkspartei als Anwalt der Familie zu gelten hat und zum anderen verliert der Antrag wie immer",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_35",
+      "label": "Segment 16:26 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 986.8,
+      "end_sec": 1010.9,
+      "timecode": "16:26",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "nach wenigen Sätzen an Bodenhaftung. Wer ausgerechnet die Brüsseler Bürokratie mittels EU-Arbeitszeitrichtlinie darüber entscheiden lassen möchte, wann und wie deutsche Beschäftigte arbeiten, der hat die grundsätzlichen Probleme nicht erkannt, denn das übergriffige hineinregieren in unsere Verhältnisse findet in der Bevölkerung kaum noch Akzeptanz. Und so verzockt man dann die Chance auf ein soziales, identitätsbewusstes und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_36",
+      "label": "Segment 16:52 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1012.5,
+      "end_sec": 1035.8,
+      "timecode": "16:52",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "wirtschaftsstarkes Europa souveräner Nationen. Ein solches werden wir Europäischen Rechtsparteien jetzt wohl selber bauen müssen. Denn dass sie werte Genossen es ebenso wenig können wie die ominöse Mitte, das ist bekannt. Sie reden jetzt von anzustrebenden Standards auf EU-Ebene, wo doch ganz Europa anerkennt auf unsere Standards blickt. Standards, die die deutsche Arbeiterbewegung seit dem 19. Jahrhundert mit Erfolg erstritten hat",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_37",
+      "label": "Segment 17:17 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1037.8,
+      "end_sec": 1063.1,
+      "timecode": "17:17",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "vom Kampf um den 8 Stundentag bis zu den Themen Tarifautonomie, Mitbestimmung und Arbeitsschutz. Diese Tradition kennen sie aber nicht mehr. Wir als neue Arbeiterpartei kennen sie. Und gerade weil Deutschland also bereits hohe Schutzstandards besitzt, würden zusätzliche EUgaben wieder mal lediglich neue Bürokratie, neue Rechtsunsicherheit und neue wirtschaftliche Belastungen erzeugen. Statt immer neuer EU-Regulierung sollte daher die",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_38",
+      "label": "Segment 17:44 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1064.6,
+      "end_sec": 1088.2,
+      "timecode": "17:44",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "altbewährte, aber in der Praxis viel zu oft ignorierte Subsidiaritätsprinzip gelten. Was national besser geregelt werden kann, sollte national bleiben. Deutschland braucht keine Vereinheitlichung nach EU- Maßstab, sondern Vertrauen in die eigene Substanz und in die Stärke seiner gewachsenen Arbeitskultur. Diese beiden Dinge gibt es übrigens noch und das trotz der Misswirtschaft von Nochkanzler März und trotz der Ampelkatastrophe vor ihm. und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_39",
+      "label": "Segment 18:11 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1091.6,
+      "end_sec": 1111.9,
+      "timecode": "18:11",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Stichwort Ampelkatastrophe. Damit kommen wir zum Antrag der Grünen. Auch hier steht immerhin manches drinne, was vernünftig klingt. Verfügbarkeit statt Vereinbarkeit statt Verfügbarkeit, variable Homeoffice und Büroregelungen, mehr Zeitsouveränität, mehr Tarifbindung, außerdem wirksamer Kampf gegen die Schwarzarbeit. Ja, bei so vielen gutgemeinden und wohlklingenden Forderungen könnte man fast vergessen, dass Sie in den letzten Jahren auch an",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_40",
+      "label": "Segment 18:33 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1113.2,
+      "end_sec": 1136.0,
+      "timecode": "18:33",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "der Regierung waren. Aber statt konkrete Probleme zu lösen, haben sie in ihrer Zeit die Bevölkerung lieber gegängelt. Und damit kommen wir wieder zu ihrem grünen und blinden Fleck in der Regierung oder in der Opposition und der lautet wie folgt: \"Sie verstehen nicht, dass die Politik aktuell jetzt vor allen Dingen dafür sorgen müsste, dass sich Leistung endlich wieder lohnt.\" Und dafür bedarf es zuallererst geringerer Abgaben und einer fairen Steuerpolitik.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_41",
+      "label": "Segment 18:58 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1138.2,
+      "end_sec": 1159.0,
+      "timecode": "18:58",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Davon liest man in beiden Anträgen nichts. Sowohl zum Antrag der Linken als auch der Grünen ist daher festzuhalten. Sozialer Fortschritt, der entsteht nicht durch Überzentralisierung, sondern er wächst organisch aus. unternehmerischer Selbstbestimmung, solidarischer Organisation und nationaler Verantwortung. Und beim Schutz der arbeitenden Menschen muss Deutschland selbstbewusst bleiben, schon aus Respekt vor eben jenem historischen Werk, was",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_42",
+      "label": "Segment 19:21 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1161.0,
+      "end_sec": 1182.4,
+      "timecode": "19:21",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Generationen von deutschen Arbeitern und Unternehmern erbracht haben. Ferdinand Lassal, ein kluger Linker, wie es sie heute nicht mehr oder kaum noch gibt, das kenne ich Ihnen und ich zitiere, wusste und ich zitiere mit der Erlaubnis der Präsidentin: Nur auf dem Boden wirklicher Freiheit kann sich alles große entwickeln. Und das einzige, was sich mit Ihnen entwickelt, zu neuer Größe ist ein Verwaltungs und Bürokratenapparat. Ich danke für Ihre",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_43",
+      "label": "Segment 19:44 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1184.2,
+      "end_sec": 1218.1,
+      "timecode": "19:44",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Aufmerksamkeit. Für die Fraktion der SPD hat Herr Abgeordneter Jan Diren das Wort. Bitte. Vielen Dank, Frau Präsidentin, Werte Abgeordnete. Nein, Herr Teske, Sie sind nicht die Arbeiterpartei. Sie sind der Organisierte, der gewalttätige Angriff auf die Arbeiterinnenklasse und Kollegin Schwertner, ich freue mich über ihren Antrag. Ich freue mich darüber, dass wir hier über den 8 Stundentag diskutieren, aber ich möchte schon einmal kurz",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_44",
+      "label": "Segment 20:19 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1219.4,
+      "end_sec": 1241.0,
+      "timecode": "20:19",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "klarstellen, dass im Koalitionsvertrag nicht vereinbart ist, den 8 Stunden Tag abzuschaffen. Das steht da nicht. Kollege Ellers hat gerade vorgelesen, was im Koalitionsvertrag steht und bei manchen Wortmeldungen in der Debatte kann man ja aber das Gefühl bekommen, als wenn das vereinbart wäre. Und ich habe gestern z.B. noch einen ähm Papier gelesen aus einer Mittelstandsvereinigung, die sagt haben, super, der 8 Stunden Tag fällt weg,",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_45",
+      "label": "Segment 20:42 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1242.7,
+      "end_sec": 1266.5,
+      "timecode": "20:42",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "jetzt haben wir bald eine 60 Stunden Woche, aber das ist im Koalitionsvertrag so nicht vereinbart. Und ich finde das auch sehr richtig, dass das nicht vereinbart ist. Ich möchte das anhand eines Beispiels erklären. Ich habe vorgestern mit einer Person telefoniert, die in der Branche arbeitet, in der sie häufig schon über 8 Stunden hinausarbeitet und für die trotzdem die Abschaffung des 8 Stunden Tages enorme Auswirkung hätte. Tina arbeitet",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_46",
+      "label": "Segment 21:08 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1268.3,
+      "end_sec": 1289.0,
+      "timecode": "21:08",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "in dem Restaurant in meiner Heimatstadt Mörs ist da vor kurzem hingewechselt, damit sie geregeltere Arbeitszeiten hat, auch oft über 8 Stunden hinaus. Na klar, aber sie kann mit ihrer Chefin darüber reden, wann das geht und wann auch nicht, weil sie andere Bedürfnisse hat. Erst seitdem hat sie wieder Spaß an ihrem Beruf. Vorher hat sie in dem Hotel gearbeitet, hat da ihre Ausbildung gemacht. Der Chef da war weniger verständnisvoll, war häufig nachtragend.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_47",
+      "label": "Segment 21:31 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1291.3,
+      "end_sec": 1308.4,
+      "timecode": "21:31",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Geregelte Arbeitszeiten hatte sie sowieso nicht. Ihr Chef hat ständig gesagt, dass sie länger arbeiten müsste und Tina hat das oft gemacht. Sie hat oft gesagt, ja, okay, ich bleibe etwas länger, weil ich Verantwortung übernehmen will für meine Kollegin, für das Unternehmen, weil ich meinen Chef nicht im Stich lassen will. Und dann hat sie mir aber auch erzählt, einmal hat sie das nicht gemacht. Einmal hat sie sich geweigert und gesagt, nein, ich",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_48",
+      "label": "Segment 21:49 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1309.7,
+      "end_sec": 1330.5,
+      "timecode": "21:49",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "bleib jetzt nicht länger als 8 Stunden, weil ich ein Arzttermin habe. Ein anderes Mal hat sie gesagt: \"Nein, ich komme nicht an meinem freien Samstag, den du mir als freien Samstag eingetragen hast, ins Hotel, nur weil du mich Samstag früher anrufst. Das ist mein freier Tag.\" Jetzt können Sie sich vielleicht vorstellen, ich habe es Tina, auf jeden Fall angehört, wie viel Mut sie das gekostet hat, sich der Arbeitsanweisung ihres Chefs zu",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_49",
+      "label": "Segment 22:12 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1332.4,
+      "end_sec": 1356.2,
+      "timecode": "22:12",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "widersetzen. Sie wusste ja nicht, was dann passiert. Und genauso und genauso wie Tina geht es ja Millionen Beschäftigten in diesem Land, die jetzt schon häufig länger als 8 Stunden arbeiten, die aber genauso wie Tina wissen, sie müssten das gar nicht. Sie tun das aus Verantwortung für ihre Kolleginnen und Kollegen, Verantwortung für ihre Unternehmen. Sie müssten das aber nicht, sondern sondern tun das freiwillig. Und jetzt stellen Sie sich",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_50",
+      "label": "Segment 22:37 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1357.6,
+      "end_sec": 1378.3,
+      "timecode": "22:37",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "vor, wenn das nicht so wäre, wenn das also nicht freiwillig wäre, sondern wenn Tinas Chef damals hätte sagen können, dein Arzttermin ist mir egal, du bleibst länger als die 8 Stunden und wenn nicht, kriegst du die Abmahnung und danach die Kündigung hinterher. Klar, ob die Kündigung dann wirklich kommt, weiß man nicht, aber glauben Sie, Tina hätte den Mut gehabt, auch dann zu sagen, nein, der Arzttermin ist mir jetzt wichtiger oder nein, mein freier",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_51",
+      "label": "Segment 23:00 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1380.2,
+      "end_sec": 1404.1,
+      "timecode": "23:00",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Samstag mit Freundinnen oder Familie ist mir wichtiger und klar, es gibt Chefin so wie Tinas neue Chefin, die gute Kompromisse mit ihren Beschäftigten finden können, aber es gibt immer auch die, die das nicht wollen oder nicht können. Und ich finde, es darf nicht vom Zufall oder vom Glück bei der Chefin abhängen, ob man Arztstermine einhalten kann, ob man abends Schwimmunterricht geben kann, ob man mal einen freien Samstag hat, ob man Zeit hat, um die",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_52",
+      "label": "Segment 23:25 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1405.7,
+      "end_sec": 1428.8,
+      "timecode": "23:25",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Kinder von der Kita abzuholen, ob man Zeit für die Familie hat und beschäftigte übernehmen heute schon oft genug diese Verantwortung, tun das, während sie dabei eigene Bedürfnisse hin anstellen. Sie können das, da spricht das Arbeitszeitgesetz heute überhaupt nicht gegen, jetzt schon ohne Probleme, aber sie können das eben nicht immer. Und manchmal kommt das führt das zu Konflikten, wenn Beschäftigte, wenn die Kolleginnen",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_53",
+      "label": "Segment 23:50 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1430.8,
+      "end_sec": 1449.4,
+      "timecode": "23:50",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "dann sagen, nein, dieses Mal nicht, dieses Mal geht es wirklich nicht. Und genau in diesem Konfliktfall, in diesem Konfliktfall brauchen Sie das Recht sagen zu können, nein, jetzt dieses eine Mal ist mein Bedürfnis wichtiger. Dieses Mal sind die 8 Stunden genug, ich bleib zu Hause oder ich mache jetzt Feierabend. Und genau dieses Recht. Danke schön. Das ist der 8 Stundentag und deshalb tun",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_54",
+      "label": "Segment 24:11 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1451.1,
+      "end_sec": 1484.9,
+      "timecode": "24:11",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "wir gut daran, ihn nicht gleichfertig aufzugeben. Vielen Dank. Für Bündnis 90 die Grünen hat Frau Abgeordnete Ricarda Lang das Wort. Bitte. Sehr geehrte Frau Präsidentin, liebe Kolleginnen und Kollegen, ich bin einfach nur noch müde. Wir spüren die Belastung, aber wir werden nicht gesehen. Ich habe das Gefühl, beiben nicht gerecht zu werden, dem Job nicht, den Kindern nicht und für mich und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_55",
+      "label": "Segment 24:46 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1486.3,
+      "end_sec": 1504.8,
+      "timecode": "24:46",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "meinen Mann bleibt dann sowieso keine Zeit mehr. Wie geht es jungen Familien in diesem Land? Ich habe mal nachgefragt und das war ein Teil der Antworten. Du machst Karriere, als hättest du keine Kinder. Du kümmerst dich um die Kinder, als hättest du keinen Job. Nach der Abholung aus der Kita geht's zum Sport. Man muss ja auch was aus sich machen. Bei Instagram gibt's eine Mischung aus Hiopsbotschaften aus der Welt und Ratschlägen, warum man als Mutter eh",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_56",
+      "label": "Segment 25:06 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1506.1,
+      "end_sec": 1525.6,
+      "timecode": "25:06",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "schon versagt hat. Abends am Küchenstich streitest du über dein Partner darüber, wer zu viel und zu wenig gemacht hat und nachts hält ich die Angst über die nächste Mietrechnung wach. Das bestimmende Gefühl bei jungen Familien ist der Erschöpfung. Und dieses Problem haben wir viel zu lange individualisiert. Du kriegst es halt nicht auf die Reihe. Alle anderen schaffen es doch auch. Streng dich doch einfach mal ein bisschen mehr an. Aber",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_57",
+      "label": "Segment 25:28 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1528.0,
+      "end_sec": 1556.0,
+      "timecode": "25:28",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "diese Erschöpfung ist kein individuelles Versagen. Sie ist eine politische Aufgabe. Bezahlbare Mieten, ein Steuersystem, das die Miete entlastet, lässliche Kitaze. Wir können dafür sorgen, dass Familien ein bisschen mehr Luft zum Atmen haben und stattdessen sorgen Sie mit der als Flexibilität verkauften Entgrenzung für Arbeitszeiten für mehr Druck, mehr Stress und mehr Erschöpfung. Wir wollen mehr Vereinbarkeit statt mehr Verfügbarkeit.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_58",
+      "label": "Segment 26:00 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1560.2,
+      "end_sec": 1585.0,
+      "timecode": "26:00",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Und deshalb fordern wir in unserem Antrag drei Dinge. Erstens, der 8 Stundentag muss erhalten bleiben, denn er schützt die Gesundheit von Beschäftigten. Zweitens, es gibt den Wunsch nach mehr Zeitsouveränität. Deshalb wollen wir mehr Mitbestimmung bei Arbeitszeit und Arbeitsort statt mehr Zugriffsrechte auf Beschäftigte. Und drittens, wir wirken dem Fachkräftenangel, den es in einigen Branchen gibt, wirklich entgegen mit",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_59",
+      "label": "Segment 26:27 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1587.1,
+      "end_sec": 1609.2,
+      "timecode": "26:27",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "schnellerer Anerkennung von Berufsabschlüssen, mit verlässlichen Kitablätzen, mit einer funktionierenden Pflegeinfrastruktur, damit gerade Frauen so viel arbeiten können, wie sie es auch wirklich wollen. Denn strukturelle Probleme brauchen strukturelle Lösungen und kein Kanzler, der strukturell damit überfordert scheint, einen Funkenempathie für den Alltag von normalen hartarbeiten Menschen zu zeigen.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_60",
+      "label": "Segment 26:52 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1612.0,
+      "end_sec": 1633.9,
+      "timecode": "26:52",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Und bei dieser Regierung erleben wir aber das Gegenteil von strukturellen Lösungen, denn weil sie ihre Hausaufgaben nicht machen, man könnte sagen, ihre Arbeit nicht leisten, wird der Druck auf die einzelnen Beschäftigten abgeschoben. Und dann wundert man sich, dass es keine Jubelschrei über die Reformpläne gibt. Die Menschen wissen durchaus, dass sich vieles verändern muss, aber dafür braucht sein Ziel, dass darüber",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_61",
+      "label": "Segment 27:15 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1635.5,
+      "end_sec": 1660.6,
+      "timecode": "27:15",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "hinausgeht, die eigenen Haushaltslöcher zu stopfen. Dafür muss es gerecht zugehen und dafür braucht es ein Mindestmaß, ein Empathie und Respekt für die Menschen, die von allen Reformen viel mehr getroffen werden als alle von uns, die heute in diesem Blarsatz sitzen. Und was erleben wir stattdessen? Die Menschen werden nicht gesehen, dann werden sie zu Problem erklärt und dann wird Druck ausgeübt. Die Deutschen leisten im Jahr 1,2 Milliarden",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_62",
+      "label": "Segment 27:44 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1664.4,
+      "end_sec": 1692.4,
+      "timecode": "27:44",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Überstunden, mehr als die Hälfte davon unbezahlt. Und Carsten Lilmann findet, dass wir zu wenig Leistungsbereitschaft hätten. 76% der 20 bis 24-jährigen, also der so faulen Chens, arbeitet heute. Das ist ein Töchstand seit Jahrzehnten und der Kanzler sagt, dass wir mit der Worklife Balance das mit dem Wohlstand einfach nicht mehr erhalten können. Zwei Drittel aller Pflegekräfte machen regelmäßig Überstunden. Allein die Bundespolizisten",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_63",
+      "label": "Segment 28:14 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1694.6,
+      "end_sec": 1723.3,
+      "timecode": "28:14",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "haben im Jahr 2025 2,8 Millionen Überstunden angesammelt und Friedrich März ist der Meinung, dass wir einfach zu bequem geworden sind. Und dann erklärt er uns auch noch, dass wir uns diesen Sozialstaaten nicht mehr leisten können, während es in Deutschland die viisten Milliardäre weltweit gibt. Die Aufgaben, vor denen diese Bundesregierung steht, sie sind objektiv verdammt schwierig. Aber das mindeste, was sie tun können, das mindeste, was",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_64",
+      "label": "Segment 28:45 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1725.5,
+      "end_sec": 1755.6,
+      "timecode": "28:45",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Sie tun müssen, wenn Sie nicht noch mehr Vertrauen verlieren wollen, sehen Sie die Lebensrealität in diesem Land, zeigen Sie Respekt und Empathie für die Menschen, für die wir hier sitzen und nehmen Sie die inverantwortung, die Sie in den letzten Jahrzehnten ihre Gürtelschnallen haben, vergolden lassen, statt den Gürtel bei denen enger zu schnallen, die heute schon kaum atmen können. Vielen Dank. Für die CDU CSU Fraktion hat Frau",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_65",
+      "label": "Segment 29:18 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1758.7,
+      "end_sec": 1786.8,
+      "timecode": "29:18",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Abgeordnet Dr. Otilie Klein. Bitte. Sehr geehrte Frau Präsidentin, liebe Kolleginnen und Kollegen, damit die Arbeitszeit wirklich in das Leben der Menschenpass, bedarf es statt starrer Arbeitszeitmodelle mehr Beweglichkeit. Dieser Satz ist nicht von mir. Dieser Satz stammt aus dem vorliegenden Antrag der Grünen. Und da muss ich einfach sagen, dieser Satz ist richtig und ich freue mich, dass wir hier kein Erkenntnisproblem haben. Denn die",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_66",
+      "label": "Segment 29:48 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1788.9,
+      "end_sec": 1815.8,
+      "timecode": "29:48",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Menschen, die wollen mehr Flexibilität bei der Einteilung der Arbeitszeit. Laut einer aktuellen Vorsaumfrage sprechen sich fast 60% der Menschen in unserem Land konkret für eine wöchentliche Stadt eine tägliche Höchstarbeitszeit aus. Einerseits wünschen sich also viele Arbeitnehmer mehr Gestaltungsspielraum bei der Arbeitszeit für eine bessere Vereinbarkeit von Familie und Beruf, für eine effizientere Zeiteinteilung, für freie Ausgleichstage, fürs Ehrenamt oder",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_67",
+      "label": "Segment 30:18 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1818.2,
+      "end_sec": 1843.6,
+      "timecode": "30:18",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "anderes. Und andererseits brauchen aber auch Unternehmen die Möglichkeiten Auftragsspitzen aufzufangen, Schicht dabei zu organisieren, internationale Projekte vernünftig zu planen, egal ob kleine oder mittlere Betriebe, Dienstleister oder Industrie, Mittelständler oder Konzerne. Für eine moderne Arbeitszeitpolitik im Sinne der Sozialpartnerschaft gilt es beide Perspektiven zu berücksichtigen. Für uns als Union ist",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_68",
+      "label": "Segment 30:46 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1846.8,
+      "end_sec": 1873.7,
+      "timecode": "30:46",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "das der klareer Anspruch. Am Ende muss es für beide funktionieren, für Arbeitgeber und für Arbeitnehmer. an und genau an dieser Erkenntnis aber gelangt der wirtschaftspolitische Horizont der Grün an sein frühes und abruptes Ende. Und überhaupt das Misstrauen, das aus den Anträgen und auch aus den Redebeiträgen der Grünen und der Linken gegenüber Arbeitgebern zum Ausdruck kommt, ist nicht nur deplatziert. Ihre Vorstellungen von der",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_69",
+      "label": "Segment 31:16 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1876.6,
+      "end_sec": 1905.1,
+      "timecode": "31:16",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Arbeitswelt gehen inzwischen komplett an der Realität vorbei. Denn in vielen Bereichen gibt es schon lange keine a starren 8 Stunden Tage mehr. in der Logistik bei den Messebauern, im Gesundheitswesen, in der Kreativwirtschaft, in der Filmbranche. Schon heute gibt es übrigens viele, viele Tarifverträge, die flexible Arbeitszeiten ermöglichen. Und nicht nur an dieser Stelle ist die Debatte unehrlich, denn sie unterstellen uns.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_70",
+      "label": "Segment 31:50 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1910.8,
+      "end_sec": 1934.1,
+      "timecode": "31:50",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Nicht nur an dieser Stelle ist die Debatte unehrlich, denn sie unterstellen uns, wir wollen die Menschen zu mehr Arbeit verpflichten. Ja, aber ist das schlicht falsch und steht gar nicht zur Debatte. Es geht viel mehr darum, wie wir die Arbeitszeit innerhalb einer Woche verteilen, so wie es die europäische Arbeitszeitrichtlinie vorsieht mit maximal 48 Stunden pro Woche. Damit schaffen wir mehr Gestaltungsspielraum, keinen Zwang,",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_71",
+      "label": "Segment 32:16 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1936.3,
+      "end_sec": 1962.3,
+      "timecode": "32:16",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "keine Abschaffung des Arbeitsschutzes, sondern wichtige Erleichterung sowohl für Arbeitgeber und Arbeitnehmer. Und liebe Kolleginnen und Kollegen, anders als die Linken uns glauben machen wollen, ist die Wochenhöchstarbeitszeit in vielen EUändern bereitsgängige Praxis. Niederlande, Dänemark, Tschechien, Österreich, sie alle kennen eine wöchentliche höchste Arbeitszeit. die Wirtschaft profitiert, weil unter anderem Auftragslage und Arbeitseinsatz",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_72",
+      "label": "Segment 32:44 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1964.5,
+      "end_sec": 1984.7,
+      "timecode": "32:44",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "besser abgestimmt werden können. Die Beschäftigten profitieren, weil sie ihre Stunden flexibler gestalten können. Mehr Flexibilität bedeutet deshalb auch mehr Produktivität und damit auch mehr Sicherheit für Arbeitsplätze. Frau Abgeordnet, lassen Sie eine Zwischenfrage aus der Linksfraktion zu. Nein, danke. Und deshalb sollten wir den Arbeitnehmern und Arbeitgebern die Möglichkeiten der",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_73",
+      "label": "Segment 33:05 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1985.6,
+      "end_sec": 2010.0,
+      "timecode": "33:05",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "EU-Arbeitszeitrechtlinie auch in unserem Land nicht länger vorenthalten. Ganz besonders in einer Zeit, in der wir auf Wachstum und nicht auf Stillstand setzen sollten. Denn eine weitere Vorsauumfrage zeigt auch, dass mehr als 80% der Menschen in unserem Land die wirtschaftliche Lage für eines der größten Probleme halten. Die Lösung dieser Frage liegt nicht allein in der Flexibilisierung der Arbeitszeit, aber es ist ein wichtiger Schritt voran, um",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_74",
+      "label": "Segment 33:31 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2011.8,
+      "end_sec": 2046.6,
+      "timecode": "33:31",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Arbeitsplätze, die Wirtschaft und den Wohlstand unseres Landes zukunft zukunftsfest zu machen. Als Union wollen wir unser Land wieder nach vorne bringen und nicht die Grüne und Linke auf der Stelle verharren. Deshalb lehnen wir die Anträger ab. Vielen Dank. Für die Fraktion Die Linke hat Frau Abgeordnete Aneza die Möglichkeit zu einer Kurzintervention, bitte. Ja, vielen Dank für die Möglichkeit. Ähm, sie haben erwähnt, dass viele",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_75",
+      "label": "Segment 34:07 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2047.8,
+      "end_sec": 2073.0,
+      "timecode": "34:07",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Beschäftigte mehr Zeit Souveränität und Gestaltungsfreiraum wollen und das ist richtig, aber gleichzeitig wollen 98 von 100 Menschen nicht länger als 10 Stunden pro Tag arbeiten. Aber genau darum geht es ja bei der Abschaffung der täglichen Höchstarbeitszeit geht es eben genau um die 12. und die 13. Arbeitsstunde. Und wenn Sie wirklich Arbeitnehmende im Blick hätten, dann frage ich mich schon, warum finden wir bei Ihrer Fraktion immer wieder das gleiche Muster? Warum",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_76",
+      "label": "Segment 34:35 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2075.0,
+      "end_sec": 2098.6,
+      "timecode": "34:35",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "wird bei jeder ernsthaften Stärkung von Betriebsräten bei verbindlichen tariflichen Schutzregeln, bei echten Mitbestimmungsrechten und bei klarrenzen gegen betriebliche Überlastung immer gebremst von ihrer Fraktion. Aber wenn es um mehr Spielräume für Arbeitgeber geht, die ihr Weisungsrecht dazu nutzen können, die 12. oder die 13. Arbeitsstunde anzuordnen, dann sind Sie sofort ganz vorne mit dabei. Vielen Dank.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_77",
+      "label": "Segment 35:01 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2101.2,
+      "end_sec": 2126.9,
+      "timecode": "35:01",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Sie können genau antworten, bitte. Ja, vielen Dank, Frau Kollegin. Eine weitere abgelesene Frage der Linkspartei. Also, ich kann mich kann mich meinem Kollegen Wilfried Öllers da nur anschließen. Nutzen Sie doch Ihre Redezeit. Sie haben doch die Möglichkeit hier vorne am Podium zu sprechen. Nutzen Sie ihre Redezeit genauso wie wir alle anderen auch. Die Zahlen, die Sie vorgetragen haben, kann ich nicht bewerten. Ich habe mich auf",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_78",
+      "label": "Segment 35:28 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2128.4,
+      "end_sec": 2154.4,
+      "timecode": "35:28",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "eine Forsaumfrage bezogen. Da ist die Quelle klar. Ihre Quelle kann ich so einfach reingerufen, nicht verifizieren. Auf der Grundlage kann ich keinen Urteil fällen. In im übrigen muss ich sagen, dass Sie meiner Rede nicht zugehört haben. Ganz offensichtlich nicht zugehört haben, denn es geht eben nicht um eine Verpflichtung zu mehr Arbeit. Es geht eben nicht um einen Zwang. Es geht um sozialpartnerschaftliche Vereinbarungen, mehr Möglichkeiten, mehr",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_79",
+      "label": "Segment 35:56 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2156.6,
+      "end_sec": 2181.3,
+      "timecode": "35:56",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Flexibilität für beide Seiten. Und nur wenn beide Seiten stan kurz, ich kann es wirklich nicht nachvollziehen. Sie stellen eine Frage Vorbereitung und bekommen eine Antwort und aus Ihrer Fraktion wird ständig dazwischen gerufen. Können wir uns nicht mal auf ganz grundlegende Regeln hier einigen? Jetzt hat die Kollegin das Wort zur Antwort. Vielen Dank, Frau Präsidentin. Nur wenn",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_80",
+      "label": "Segment 36:23 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2183.1,
+      "end_sec": 2219.4,
+      "timecode": "36:23",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "beide Seiten profitieren, dann kommt es doch zu einer guten Lösung. Und genau das wollen wir ermöglichen. Genau darum geht's. Die Unterstellung, dass wir was anderes wollen, Frau Kollegin, die verbitte ich mir. Sehr gut. Wir fahren fort in der Debatte und für die AfD Fraktion hat Herr Abgeordneter Peter Bohnhof das Wort bitte. Frau Präsidentin, meine Damen und Herren, liebe Bürger, ja, die",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_81",
+      "label": "Segment 37:01 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2221.5,
+      "end_sec": 2246.5,
+      "timecode": "37:01",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Arbeitszeitgestaltung ist ein ganz ganz wichtiges Thema, aber der Antrag der Linken setzt mal wieder auf sozialistische Bürokratie statt Realpolitik. Jetzt soll die EU den 8 Stundentag für uns regeln. Aber wozu bitte brauchen wir diese Vorgaben aus Brüssel? Wir in Deutschland haben den 8 Stundentag schon lange. Er hat sich bewährt. Das Arbeitszeitgesetz schützt die Menschen und es lässt bei",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_82",
+      "label": "Segment 37:28 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2248.2,
+      "end_sec": 2271.5,
+      "timecode": "37:28",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Auftragsspitzen oder besonderen Situationen schon jetzt mannigfache Ausnahmen zu. Die Arbeitnehmer stimmen diesem Arbeitszeitgesetz auch durchaus zu. Es gibt dazu auch anders als Frau Kleingrade gesagt hat, auch andere Umfragen, die von wesentlich höheren Zustimmungswerten ausgehen. Es gibt einfach aktuell keinen Handlungsbedarf, außerdem der Linken, die gegen alles und jeden polemisieren. Wir hier in",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_83",
+      "label": "Segment 37:54 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2274.0,
+      "end_sec": 2296.6,
+      "timecode": "37:54",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Deutschland regeln unsere Arbeits selbst, ohne dass uns Brüssel vorschreibt, wie wir das machen müssen. Aber die Linke will natürlich wieder mehr Zentralismus. Das lehnen wir ab. Genauso wie den ergänzenden Vorschlag der Grünen. Folge der grünen Vorschläge ist mehr Bürokratie, ein höherer Verwaltungsaufwand etc. Ich werde nicht im Detail eingehen, das sind schon einige wichtige Sachen gesagt worden,",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_84",
+      "label": "Segment 38:19 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2299.0,
+      "end_sec": 2323.6,
+      "timecode": "38:19",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "aber den Verwaltungsaufwand können wir der Staat noch Unternehmen gebrauchen. Meine Damen und Herren, verabschieden wir uns vom linksgrünen Theaterdonner. Beide Anträge sind aus meiner Sicht chancenlos und das eigentliche Problem für derige Anträge ist ohne Ihnen ganz anderes. Diese Bundesregierung schafft es nicht vernünftige Politik für die Menschen zu machen. Stattdessen inszeniert sie Schaukämpfe",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_85",
+      "label": "Segment 38:45 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2325.6,
+      "end_sec": 2350.9,
+      "timecode": "38:45",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "mit den Gewerkschaften, mit den Arbeitgebern und auch mit sich selbst, damit die Medien was zu berichten haben und keiner merkt, was wirklich passiert. Schauen wir uns doch diesen unsäglichen Krampf an, der hier gerade abgeht. Kanzler März will mehr Flexibilität. Er redet von wöchentlicher Höchstarbeitszeit und wirft den Deutschen Faulheit und Lifestyle Teilzeit vor. Auf der anderen Seite steht die Arbeitsministerin Frau Bar.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_86",
+      "label": "Segment 39:13 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2353.7,
+      "end_sec": 2379.1,
+      "timecode": "39:13",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Der geht jegliche Realität gegen den Strich. Am liebsten träumt sie von linken ideologischen Märchenland. Sie glaubt sogar letzte Sitzung. Es gäbe keine Einwanderung in die Sozialsysteme, meine Damen und Herren. Dazu die Gewerkschaften und die Arbeitgeber, die drängen dann auf mehr Spielraum. Und was ist das Ergebnis dieser nutzlosen Politinszenierung? Der eine wird ausgelacht, der andere wird ausgeben",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_87",
+      "label": "Segment 39:42 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2382.4,
+      "end_sec": 2406.0,
+      "timecode": "39:42",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "halten alle Reformpläne für Bullshit, die anderen werfen den Menschen Faulheit vor. Am Ende ist es und bleibt es ein großes Theater. Vernünftige Politik für die Beschäftigten in diesem Land macht die Regierung und das Vorfeld jedenfalls gerade nicht. Die echten Probleme bleiben einfach liegen. Die industriefeindliche Energiepolitik, die erdrückende Bürokratie, die hohen Abgabenlasten und die Folgen der Masseneinwanderung. Meine Damen und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_88",
+      "label": "Segment 40:07 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2407.5,
+      "end_sec": 2434.8,
+      "timecode": "40:07",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Herren, und hier setzen wir als AfD an, statt Schaukämpfe und Symbolpolitik wollen wir diese Baustellen angehen, bezahlbare und sichere Energie für unsere Betriebe, damit die Industrie nicht weiter abwandert und Arbeitsplätze erhalten werden. Einen radikalen Bürokratieabbau, der den Mittelstand und das Handwerk endlich wieder atmen lässt. Weniger Abgaben und mehr Netto vom Brutto, damit die Menschen von ihrer harten Arbeit auch etwas haben. Nicht zu",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_89",
+      "label": "Segment 40:38 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2438.0,
+      "end_sec": 2463.0,
+      "timecode": "40:38",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "vergessen, eine strikte Begrenzung der Zuwanderung, um unsere Sozialsysteme zu entlassen und den Druck auf Löhne und Arbeitsplätzer für eigenen Bürge Bürger zu senken. Ja, nur so schaffen wir echte Sicherheit und Perspektiven für die Arbeitnehmer in diesem Land. nicht durch neue Vorschriften aus Brüssel oder ideologische Experimente, sondern durch eine starke Wirtschaft, die Jobs schafft und erhält. Und dazu gehört natürlich auch eine vernünftige Regelung der",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_90",
+      "label": "Segment 41:04 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2464.7,
+      "end_sec": 2491.2,
+      "timecode": "41:04",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Arbeitszeit, die wir mit dem Arbeitszeitgesetz auch haben. Aber rotschwarz streitet sich lieber über belanglose Symbole und schafft so jeden Tag neue Unsicherheit bei den Menschen. Nur wir von der AfD sagen, klar, was Sache ist. Wir verteidigen das Arbeitszeitgesetz und den Schutz der Arbeitnehmer. Keine Wild-Westzustände durch Abschaffung, aber auch keine Bevormundung aus Brüssel. Meine Damen und Herren",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_91",
+      "label": "Segment 41:32 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2492.6,
+      "end_sec": 2515.9,
+      "timecode": "41:32",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Vetirtschaft im eigenen Büro. Unterstellen Sie mir das persönlich, Herr Kollege, bitte. Unterstellen Sie mir das persönlich, Herr Kollege, ganze Fraktion, wenn ich ich frag Sie, ob Sie es machen. Machen Sie es oder machen Sie es nicht? Die wahren Gründe für die wirtschaftlichen Schwierigkeiten liegen, wie erwähnt ganz woanders. Wer das ignoriert, redet an den Menschen und an ihrer Wirklichkeit vorbei. Diese",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_92",
+      "label": "Segment 41:58 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2518.2,
+      "end_sec": 2548.0,
+      "timecode": "41:58",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Regierungspolitik stürzt unser Land immer tiefer ins Chaos. Deswegen sage ich heute voraus, diese Koalition aus CDU und SPD wird keine vier Jahre durchhalten, wenn sie überhaupt dieses Jahr noch überlebt. Meine Damen und Herren, die inneren Widersprüche sind zu groß, der Streit zu heftig und nach der nächsten vorzeitigen Bundestagswahl wird endlich die AfD Politik für unser Land machen. Politik, die die Menschen",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_93",
+      "label": "Segment 42:29 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2549.5,
+      "end_sec": 2586.4,
+      "timecode": "42:29",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "schützt, auch die Arbeitszeit, die Realität anerkennt und Deutschland wieder nach vorne bringt. Vielen Dank. Vielen Dank. Die nächste Rednerin ist Angelika Glöckner für die SPD. Sehr geehrter Herr Präsident, Kolleginnen und Kollegen, wenn man Debatten der letzten Wochen verfolgt, dann glaubt man, die Menschen in Deutschland hätten vor allem ein Problem, zu viele freie Zeit. Die",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_94",
+      "label": "Segment 43:10 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2590.0,
+      "end_sec": 2618.4,
+      "timecode": "43:10",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Realität sieht aber anders aus. Die Menschen stehen morgens früh auf, bringen ihre Kinder in die Kita, fahren zur Arbeit, springen für kranke Kolleginnen und Kollegen ein, machen Überstunden und beantworten abends oftmals eine E-Mail vom Sofa aus. Und genau diesen Menschen sagen wir, ihr arbeitet zu wenig, ihr müsst länger arbeiten. Ich halte das für den falschen Weg. Der 8 Stundentag ist keine verstaubte",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_95",
+      "label": "Segment 43:41 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2621.4,
+      "end_sec": 2649.0,
+      "timecode": "43:41",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Idee aus dem letzten Jahrhundert. Er ist eine Schutzmauer. Schutz gegen Überlastung, gegen Dauerstress, gegen die Vorstellung, dass Menschen rund um die Uhr funktionieren müssen. Aber Menschen sind keine Maschinen. Die Pflegekraft wird nach 10 Stunden auf Station nicht leistungsfähiger. Der Busfahrer im Frühdienst fährt nicht sicherer. Der Handwerker wird nicht belastbarer, nur weil er arbeitet und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_96",
+      "label": "Segment 44:11 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2651.9,
+      "end_sec": 2678.4,
+      "timecode": "44:11",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "tag um Tag länger arbeitet. Und der Müllwagenfahrer, der seit 10 Stunden unterwegs ist, wird nicht plötzlich bitter, wenn man ihn nach zehn Arbeitsstunden sagt, die letzte Tour schaffst du auch noch. Flexibilität klingt modern, aber wir müssen ehrlich fragen, Flexibilität für wen? für die Beschäftigten, die ihre Kinder nur noch schlafen sehen oder für den Arbeitgeber, der 5 Minuten vor aber Arbeit Feierabend noch eine Mail verschickt mit den",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_97",
+      "label": "Segment 44:40 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2680.6,
+      "end_sec": 2714.5,
+      "timecode": "44:40",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Worten, der Chef zu ihm sagt, ich legge dir was hin, bitte schafft das heute noch für mich. Flexibilität, die nur auf Druck auf besch den Druck auf Beschäftigte erhöht, ist nicht sozial und auch nicht modern. Und sie ist wirtschaftlich auch falsch, denn überlastete Beschäftigte werden häufiger krank, machen mehr Fehler und fallen länger aus und das schwächt Unternehmen und am Ende die gesamte Wirtschaft. Deshalb Arbeit braucht Grenzen und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_98",
+      "label": "Segment 45:18 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2718.6,
+      "end_sec": 2745.8,
+      "timecode": "45:18",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Menschen brauchen Zeit. Zeit für ihre Familie, Zeit für Erholung, Zeit fürinander. Ein Land wird nicht stärker, wenn Eltern ihre Kinder nur noch schlafen sehen. Ein Land wird auch nicht demokratischer, wenn keine Zeit mehr bleibt für Ehrenamt, für die Freiwillige Feuerwehr, für den Sportverein oder für den Gemeinderat. Gerade mit Blick auf den morgigen Tag des Ehrenamts und den Geburtstag unseres Grundgesetzes gilt doch Demokratie lebt davon, dass",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_99",
+      "label": "Segment 45:48 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2748.3,
+      "end_sec": 2776.9,
+      "timecode": "45:48",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Menschen Zeit haben, Zeit haben, sich einzubringen. Das Arbeits Zeitgesetz schützt genau das. Es schützt die Arbeitszeit, es schützt Lebenszeit und deshalb ist es kein Zufall, dass dieses Gesetz vor über 100 Jahren übrigens unter einer sozialdemokratisch geführten Regierung eingeführt wurde. Das Arbeitszeitgesetz hat sich bewährt. An diesen bewährten Maßstäden muss ich alles neue messen lassen. Liebe Kolleginnen und Kollegen, Fr. Klöckner,",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_100",
+      "label": "Segment 46:19 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2779.0,
+      "end_sec": 2802.0,
+      "timecode": "46:19",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "erlauben Sie eine Zwischenfrage vom abgeordneten Meiser von der von der Linken. Ja, bitte schön. Herr Meiser, bitte. Vielen Dank, Frau Kollegin Glöckner, dass Sie die Zwischenfrage äh zulassen. Ich kann bei dem, was Sie bisher ausgeführt haben, wirklich äh komplett zustimmen. Bin Ihnen dafür auch sehr, sehr dankbar, dass sie noch mal die Lebensralität der arbeiten Menschen hier",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_101",
+      "label": "Segment 46:43 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2803.7,
+      "end_sec": 2828.5,
+      "timecode": "46:43",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "in den Bundestag geholt haben. Ähm, ich habe ja auch äh anknüpfen an das, was Sie gesagt hab, äh vor geraumer Zeit schon mal das Bundesarbeitsministerium gefragt, äh was eigentlich überlange Arbeitszeiten mit Gesundheit und Arbeitsschutz machen und die Auskunft war sehr sehr eindeutig, ähm dass entsprechend auch äh damit äh Sicherheit und Gesundheit der Beschäftigten ähm sich verschlechtern, also auch deutlich ähm schon ab 8 Stunden, ab 10 Stunden",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_102",
+      "label": "Segment 47:10 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2830.6,
+      "end_sec": 2852.3,
+      "timecode": "47:10",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "tägliche Arbeitszeit. Ähm, können Sie mir da an dieser dann Stelle dann nach dem was Sie auskönen nicht zustimmen, dass eine Abschaffung der täglichen Höchstarbeitszeit, wie sie jetzt im Arbeitszeitgesetz drin ist, also 8 Stunden als Regelfall, aber die Erweiterung auf 10 Stunden ist ja, wenn es sagen über längere Zeit ausgeglichen wird, auch kein Problem, dass das fatal wäre für Gesundheit, für den Arbeitsschutz der Beschäftigten. Ähm",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_103",
+      "label": "Segment 47:35 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2855.0,
+      "end_sec": 2878.5,
+      "timecode": "47:35",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "oder zu welcher Konklusion kommen Sie an dieser Stelle? Eigentlich muss man doch zu dieser Schlussfolgerung kommen, nachdem was das Arbeitsministerium als gesicherten Stand der Arbeitswissenschaft mir geschrieben hat, nachdem, was Sie ausgeführt haben. Sehr geehrter Kollege Meiser, vielen Dank für die Zwischenfrage. Ich denke, wir sind in einem angehenden Gesetzbegebungsprozess aufgrund unseres Koalitionsvertrages.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_104",
+      "label": "Segment 48:01 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2881.3,
+      "end_sec": 2905.3,
+      "timecode": "48:01",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Und ich finde, wir als sozialdemokratische Partei Deutschlands, die schon immer an der Seite der Arbeitnehmerinnen und Arbeitnehmer in diesem Land gestanden hat, werden das auch in diesem Prozess tun. Und deswegen werden wir selbstverständlich alle wesentlichen Punkte in Erwägung ziehen. Und ich habe eben ausgeführt, was uns dabei wichtig ist und an welchen Standards sich das bisherige Arbeitszeitgesetz als Schutzgesetz",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_105",
+      "label": "Segment 48:27 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2907.9,
+      "end_sec": 2936.9,
+      "timecode": "48:27",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "messen lassen muss. Das ist das Wichtige. Und ich glaube, der große Unterschied zwischen der Fraktion der Linken und uns ist der, dass wir wahrscheinlich uns auch auf den Straßen sehen werden, wenn wir um den 8 Stunden Tag kämpfen, aber wir und das ist der erhebliche Unterschied uns der Verantwortung hier im Parlament stellen. Wir verbreiten nicht nur Parolen und Forderungen, sondern wir tragen Verantwortung. Und das ist der große",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_106",
+      "label": "Segment 48:59 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2939.0,
+      "end_sec": 2963.7,
+      "timecode": "48:59",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Unterschied. Kolleginnen und Kollegen, ich lass jetzt die Rätteit weiterlaufen. Frau Kollegin, bitte. Urlaub, das Arbeitszeitgesetz hat sich bewährt und ich hatte es eben ausgeführt. An diesen Maßstäben muss ich alles neue messen lassen. Und ehrlich gesagt, Kolleginnen und Kollegen der Linken, ihr Antrag, der darauf erweiß auf die europäische alles Ebene alles zu heben, macht aus meiner Sicht überhaupt keinen",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_107",
+      "label": "Segment 49:25 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2965.7,
+      "end_sec": 3003.5,
+      "timecode": "49:25",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Sinn. Ich finde, wir haben gute Regelungen auf europäischer Ebene regeln wir die wöchentliche Höchstarbeitszeit national ergänzend und völlig widerspruchslos dazu die technische Höchstarbeitszeit. Das ist eine gute Konstellation und alles andere weitere wird sich zeigen. Vielen Dank. Vielen Dank. Dr. Armin Grau spricht als nächster für die Fraktion Bünd die Grün. Sehr geehrter Präsident, Kolleginnen und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_108",
+      "label": "Segment 50:05 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3005.8,
+      "end_sec": 3031.3,
+      "timecode": "50:05",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Kollegen, zunst ein Dank an die Linke für das Aufsetzen dieses wichtigen Themas, den die geplante Aufweichung des Arbeitszeitgesetzes durch die Regierung, die darf so nicht kommen. Deutschland hat ein modernes Arbeitszeitgesetz, das flexible Lösungen ermöglicht. Wir haben im Krankenhaus komplizierte Arbeitszeitmodelle gehabt, um den Bedarfen der Patientin und der Mitarbeitenden gerecht zu werden. Das haben die gesetzlichen und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_109",
+      "label": "Segment 50:32 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3032.7,
+      "end_sec": 3055.5,
+      "timecode": "50:32",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "tarifvertraglichen Regelungen sehr gut ermöglicht. Trotzdem fordert die Regierung und mit ihr viele Wirtschaftsverwände mehr Flexibilität von den Beschäftigten. Bei etlichen Kritikpunkt muss man sagen, das geht heute alles schon. Daneben gibt es aber auch ganz dreiste Forderung auch einzelner Verbände, die auf die Belange der Beschäftigten keinerlei Rücksicht nehmen. Ihre komplette Verfügbarkeit verlangen, um selbst vor dem ungeteilten",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_110",
+      "label": "Segment 50:58 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3058.2,
+      "end_sec": 3085.8,
+      "timecode": "50:58",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "11 Stunden Ruhezeiten nicht mehr halb machen. Da braucht es ein ganz klares Neiden. Solche Forderungen konnten nur im Windschatten einer Regierung entstehen, in deren Kanzler die eigene Bevölkerung immer wieder als faul beschimpft und wo die Union die Menschen mit Slogans wie Lifestyle Teilzeit diskreditiert und das bei rund 1,2 Milliarden Überstunden pro Jahr die meisten davon im übrigen unbezahlt. Der Kanzler setzt auf die simple Losung. Wir",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_111",
+      "label": "Segment 51:28 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3088.7,
+      "end_sec": 3112.4,
+      "timecode": "51:28",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "müssten nur mehr arbeiten und weniger blau machen. Dann ging es der Wirtschaft schon besser quasi wie im Litext. Jetzt wird wieder in die Hände gespuckt. Wir steigen das Brutosozialprodukt. Dabei ist doch diese Regierung die Arbeitsverweigerung betreibt, die etwa viel zu wenig tut für die vielen jungen Frauen, die mehr arbeiten wollen, es aber nicht können, weil Kitas fehlen, weil die die äh weil Kitas fehlen, die nicht für eine bessere Vereinbartkeit",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_112",
+      "label": "Segment 51:54 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3114.1,
+      "end_sec": 3139.6,
+      "timecode": "51:54",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "von Beruf und Familie eben auch sorgt. Gerade junge Familien stehen oft unter großem Zeitdruck zwischen Kita, Schule und Beruf. Sie müssen im Alltag sehr flexibel sein und brauchen mehr Unterstützung. Ja, sie haben Ansprüche, Herr Örlos, definitiv. Zurecht mit unserem Antrag treten wir Grüne ein für ein Modell einer flexiblen Vollzeit im Bereich von 30 bis 40 Stunden pro Woche für mehr Mitgestaltung bei der Lage der Arbeitszeit, für ein Recht auf",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_113",
+      "label": "Segment 52:21 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3141.1,
+      "end_sec": 3166.4,
+      "timecode": "52:21",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Homeoffice und mobiles Arbeiten, sofern dem keine betrieblichen Gründe entgegenstehen. Das schafft mehr Zeitsuveränität und hilft allen Arbeitnehmenden und vor allem den Familien. All das hat die Regierung aber nicht auf dem Plan. Und wir treten entschlossen für den Erhalt des 8 Stundentags statt einer wöchentlichen Höchstarbeitszeit ein. Die Studienjage ist ja ganz klar, lange Arbeitszeiten höhen das Risiko für viele körperliche",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_114",
+      "label": "Segment 52:48 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3168.5,
+      "end_sec": 3192.5,
+      "timecode": "52:48",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Erkrankung wie Kopfschmerzen Herz, Kreislauferkrankung, ja sogar Krebs und für psychische Störung wie Depressionen, Angstzustände und Burnout, die ohnehin deutlich zunehmen. Das Arbeitsgesetz ist ein ganz zentrales Arbeitnehmer Schutzgesetz. ist wichtig für die Gesundheit der Menschen und gesunde Menschen sind auch wichtig für eine funktionierende Wirtschaft. Der 8 Stundentag ist ein entscheidender Eckpfeiler unseres Sozialstaats, an dem",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_115",
+      "label": "Segment 53:15 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3195.0,
+      "end_sec": 3232.5,
+      "timecode": "53:15",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "nicht gesägt werden darf. Vielen Dank. Vielen Dank. Vielen Dank. Die nächste Reder hält Anne Zar für die Fraktion Die Link. Herr Präsident, meine Damen und Herren, wir als Linke fordern den 8 Stundentag im EU-Recht zu verankern und Beschäftigte zu schützen. Immer wieder argumentieren Arbeitgeberverbände und ihre politischen Vertreterinnen, die Abschaffung der täglichen Höchstarbeitszeit sei notwendig, um",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_116",
+      "label": "Segment 53:54 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3234.8,
+      "end_sec": 3261.6,
+      "timecode": "53:54",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "international wettbewerbsfähig zu sein. Wettbewerbsfähigkeit bedeutet aber in diesem kaputten Wirtschaftssystem doch nichts anderes als die Frage, in welchem Land können Konzerne und Superreiche am ungehindersten Profit schlagen aus hart arbeitenden Menschen. Diese Wettbewerbsfähigkeit führt doch nur dazu, dass wenige Superreiche sich die Taschen füllen, während die Mehrheit am Ende nichts davon hat. Es führt dazu, dass wir ausbrennen und unsere Miete",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_117",
+      "label": "Segment 54:23 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3263.7,
+      "end_sec": 3288.4,
+      "timecode": "54:23",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "trotzdem kaum bezahlen können, sollen doch März Reiche und ihre Lobbyfreunde stattdessen den Gürtel mal enger schnallen. Die tägliche Höchstarbeitszeit schützt davor, dass Arbeitgeber uns gegen unseren Willen zu 12 13 Stunden Arbeit verdonnern können, wenn es ihnen gerade in den Kram passt. Und es schützt besonders diejenigen vor solcher Arbeitgeberwillkür, die eh schon wenig selbstbestimmt arbeiten. Die Kellnerin",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_118",
+      "label": "Segment 54:50 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3290.6,
+      "end_sec": 3314.2,
+      "timecode": "54:50",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "in der Lieblingskneipe, die Paketbotin, die Reinigungskraft. Auch in der Pflege oder in Verwaltungen und dort, wo es öfter Betriebsräte gibt, wird es schwieriger über lange Arbeitstage zu verhindern. Deswegen haben Beschäftigte und Gewerkschaften den 8 Stundentag als Schutzrecht erkämpft. Und wem will die SPD schützen? weiterhin eine Arbeitnehmerfeindliche Koalitionsvereinbarung oder endlich die Kolleginnen in den",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_119",
+      "label": "Segment 55:16 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3316.5,
+      "end_sec": 3341.7,
+      "timecode": "55:16",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Betrieben? Das ist die Entscheidungsfrage. Wir als Linke sagen nein zum Unterbietungswettbewerb beim Arbeitsschutz. Statt die Säge an Sozialstaat und Arbeitszeitgesetz zu setzen, will die Linke mit unserem Antrag heute europäische Schutzstandards verankern und morgen eine Arbeitszeitgestaltung, die zum Leben passt. Denn Arbeit, die Spaß macht und die sinnvoll ist, von der wir gut leben",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_120",
+      "label": "Segment 55:44 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3344.8,
+      "end_sec": 3372.5,
+      "timecode": "55:44",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "können, die mit dem Leben vereinbar ist und Luft zum Atmen für Freizeit, Freundschaften, Lernen, Ehrenamt und Hobbys lässt. All das ist möglich. Für gute Arbeit fehlt dieser Bundesregierung einzig und allein der politische Wille. Aber dabei hilft die Linke und alle, die sich diese Politik nicht mehr gefallen lassen wollen, gerne auf die Sprünge. Lasst uns endlich die Macht und Selbstbestimmung der Beschäftigten und nicht die ihrer Chefsstärken. Schluss",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_121",
+      "label": "Segment 56:15 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3375.2,
+      "end_sec": 3406.6,
+      "timecode": "56:15",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "mit der Verwaltunge von Ausbeutung und Krisenkapitalismus dieser Bundesregierung. höchste Zeit endlich das Leben der Menschen zu verbessern. Ausgebot, ausgeprififfen und ausgelacht. So beschreibt der Deutschlandfunk März Auftritt beim DGB-Kongress letzte Woche und ich finde, die Kolleginnen haben absolut recht. Vielen Dank. Für die nächste Rede erteile ich das",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_122",
+      "label": "Segment 56:48 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3408.0,
+      "end_sec": 3439.6,
+      "timecode": "56:48",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Wort Peter Aum von der CDUC. Sehr geehrte Damen und Herren, liebe Kolleginnen und Kollegen, ausgebot und ausgepfiffen, meine sehr geehrten Damen und Herren, ich glaube, was wir in dieser Debatte, ich habe das jetzt wie Sie alle ja mit beobachtet, ich glaube, wir kümmern uns nicht ausreichend um eine Analyse der Situation unseres Landes. Ich lade Sie ein, gehen Sie mit mir mal zu",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_123",
+      "label": "Segment 57:20 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3440.9,
+      "end_sec": 3462.2,
+      "timecode": "57:20",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Unternehmen in meinem Wahlkreis. Reden Sie mal mit den Unternehmern über die aktuelle wirtschaftliche Situation unseres Landes. Ich rede auch mit den Gewerkschaften, keine Angst. Ich versuche breit in der Bevölkerung meines Wahlkreis unterwegs zu sein und den Menschen zu reden und die haben vor anderen Dingen Angst als die sie heute beschreiben. Die haben Angst. Sind die Arbeitsplätze noch sicher? Muss ich auf die Arbeit muss ich auf die Straße Frau",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_124",
+      "label": "Segment 57:44 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3464.3,
+      "end_sec": 3485.0,
+      "timecode": "57:44",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Schwertner um zu demonstrieren und den Klassenkampf auszurufen, wie sie das in ihrer Rede gemacht haben? oder setze ich mich mit den wirklichen Problemen der Menschen in unserem Land auseinander? Und das, meine sehr geehrten Damen und Herren, das ist die Situation, die wir in unserem Land haben und damit müssen wir eine ernsthafte Diskussion einleiten. Und da bin ich vielleicht sogar ein bisschen dankbar für den Antrag, den Sie gestellt haben. Sie",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_125",
+      "label": "Segment 58:06 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3486.9,
+      "end_sec": 3507.1,
+      "timecode": "58:06",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "haben einen Antrag gestellt, den wir hier im Bundestag ja gar nicht lösen können. Sie haben gefordert, dass man auf europäischer Ebene eine Einschränkung der Arbeitszeitrichtlinie vornimmt. Haben Sie denn die europäische Debatte mal mitverfolgt? Die internationale Linke diskutiert es vielleicht, aber im Europaparlament sind die Debatten ja komplett anders. Die Debatten im Europaparlament sind genauso wie wir sie diskutieren. Die diskutieren",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_126",
+      "label": "Segment 58:30 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3510.2,
+      "end_sec": 3529.2,
+      "timecode": "58:30",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "mehr Flexibilität und keinen Einschränkung von Schutzrechten. Und genau das wollen wir in dieser Bundesregierung auch. Wir wollen flexiblere Arbeitszeiten und wir wollen die Schutzrechte der Arbeitnehmerin und Arbeitnehmer nicht einschränken. Das ist sicherlich eine Herausforderung und wir haben es ja schon gemerkt. Es wird auch in der Koalition sicherlich ein Punkt sein, wo wir eine Lösung finden müssen, die trägt. Aber wir beschäftigen uns",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_127",
+      "label": "Segment 58:51 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3531.6,
+      "end_sec": 3553.3,
+      "timecode": "58:51",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "verantwortungsvoll mit dem Problemen der Menschen in unserem Land. Und Frau Schwertner, wenn Sie in Ihrer Rede dann äh Friedrich März zitieren und sagen ähm wir wollen nicht mit der Motorsäge oder wir wollen die Menschen nicht verdummeln, dann ist es genau die Politik, die unser Land im Moment nicht braucht. Wir brauchen Verantwortungsvolle Debatten. Wir brauchen ganz klar lesen Sie sich doch die Äußerungen des Bundeskanzers mal",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_128",
+      "label": "Segment 59:14 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3554.7,
+      "end_sec": 3574.9,
+      "timecode": "59:14",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "durch. Sie verklappen das vielleicht genau in ihren Punkten. Ja, aber wenn er in der Analyse, wenn man die Dinge anschaut, dann hat er vollkommen recht und wir sind in der verantwortungsvollen Situation und da sind Sie eingeladen. Helfen Sie mit unser Land in eine gute Zukunft zu führen und hören Sie auf mit dieser Rhetorik. Hören Sie auf unser Land schlecht zu reden. Wir sind ein starkes Land und wir finden die Antworten, um noch stärker zu werden in",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_129",
+      "label": "Segment 59:36 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3576.6,
+      "end_sec": 3603.2,
+      "timecode": "59:36",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "der schwierigen Situation, die wir in Deutschland und in der Welt haben. Und ähm und meine sehr geehrten Damen und Herren, die Herausforderungen sind doch ganz klar. Wir stehen vor vor einschneidenden Veränderungen, Globalisierung, künstliche Intelligenz und viele Dinge fordern uns aufzuhandeln. Deswegen müssen wir die Arbeitszeit äh Gesetzgebung auch ändern, genauso wie das auf europäischer Ebene",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_130",
+      "label": "Segment 60:05 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3605.2,
+      "end_sec": 3624.4,
+      "timecode": "60:05",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "diskutiert wird. Und das, meine sehr geehrten Damen und Herren, ist sehr klar. Schauen wir uns den Arbeitsalltag von Mitarbeiterinnen und Mitarbeitern an. Der Jan Dieren hat er vorher schon ein Beispiel erwähnt. Ich möchte ein anderes sagen. Wenn ich in meinem Wahlkreis mit einem Ingenieur spreche, ähm der um 8 Uhr anfängt, 16:30 Uhr heim muss, seine Kinder abholen und dann um 22:30 Uhr vielleicht noch einen internationalen Termin hat, äh, um ähm",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_131",
+      "label": "Segment 60:27 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3627.0,
+      "end_sec": 3648.5,
+      "timecode": "60:27",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "arbeiten zu können, dann geht es mit dem aktuellen mit der aktuellen Arbeitszeitgesetzgebung nicht. Und deswegen, meine sehr geehrten Damen und Herren, wir wollen nicht an die Schutzrechte ran, sondern wir wollen ganz klar die Möglichkeit bieten, dass die Menschen Vereinbarkeit von Familie und Berufgewehr leisten können. Wir wollen eine Arbeitszeit, die den Menschen Chancen und Möglichkeiten gibt, in einer freien Welt auch frei zu",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_132",
+      "label": "Segment 60:51 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3651.0,
+      "end_sec": 3669.7,
+      "timecode": "60:51",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "handeln und ihre Dinge so umzusetzen, wie sie das wollen. Und dafür sind wir alle eingeladen, diese Debatte zu führen. Ich hoffe, wir schaffen eine konstruktive Debatte in unserer Koalition. Ich hoffe, dass Sie auch Ihren Beitrag leisten, unser Land voranzubringen und wir sehen uns sicherlich nicht auf der Straße. Helfen Sie mit, dass die Menschen nicht auf die Straße gehen müssen, dass die Arbeitsplätze gesichert werden, weil",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_133",
+      "label": "Segment 61:11 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3671.4,
+      "end_sec": 3695.6,
+      "timecode": "61:11",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "wenn Sie mal mit der Bundesagentur für Arbeit reden, dann sind die Herausforderungen ganz ganz andere. Wir haben Entlassungsankündigungen, die die Menschen in ihrer Existenz bedrohen. Und wenn Sie da nicht mithelfen, eine ernsthafte Debatte zu führen, dann tut mir das wirklich leid auch im unser Land. Herzlichen Dank für die Vielen Dank. Der nächste Redner ist Bernt Schattner für die AfDP.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_134",
+      "label": "Segment 61:44 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3704.0,
+      "end_sec": 3729.0,
+      "timecode": "61:44",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Herr Präsident, meine Damen und Herren, bei dieser Debatte zeigt sich wieder einmal sehr deutlich. Die einen wollen den 8 Stunden Tag aufweichen und die anderen wollen ihn ideologisch nach Brüssel tragen. Beides ist falsch. Die Regierung spricht von Flexibilisierung. Das klingt modern, freundlich, fast harmlos und am Ende bedeutet es für viele Beschäftigte mehr Verfügbarkeit, mehr Druck, längere Arbeitstage. Rechnerisch werden dann in einzelnen",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_135",
+      "label": "Segment 62:10 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3730.8,
+      "end_sec": 3755.2,
+      "timecode": "62:10",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Wochen bis zu 73,5 Stunden Arbeitszeit möglich. Das kann auch nur einem Kanzler einfallen, der schon seit Jahrzehnten jede Botenhaftung verloren hat. Das hält kein Handwerker auf der Baustelle lange durch und das wird es so mit uns auch niemals geben. Und die Linke, die Linke macht genau das, was sie immer macht. Sie erkennt ein Problem und beantwortet es noch mit mehr Staat, noch mehr Regulierung, noch mehr Zentralismus. Aber das kennen die",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_136",
+      "label": "Segment 62:37 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3757.5,
+      "end_sec": 3783.1,
+      "timecode": "62:37",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Kollegen ja noch aus ihren Tagen, als ihr Name noch SED war. Wir als AfD sagen klar, der 8 Stundentag hat sich bewehrt. Er schützt Arbeitnehmer, ergibt betrieben Planungssicherheit und er lässt bereits heute dort Spielräume zu, wo sie notwendig sind, etwa über Tarifverträge, Betriebsvereinbaren und bestehende Ausnahmen. Bereits heute sind ja z.B. in der Chemiebranche, bei der Polizei, im Gesundheitswesen und vielen anderen Bereichen Ausnahmen möglich.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_137",
+      "label": "Segment 63:05 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3785.7,
+      "end_sec": 3809.0,
+      "timecode": "63:05",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Überall, wo rund um die Uhr gearbeitet wird, gibt es gute tarifliche Lösungen und da sollte der Staat sich eben nicht eingestellen. Was diese Regierung hier versucht, ist doch durchschaubar. Sie bekommen die großen Probleme dieses Landes nicht in den Griff. Fachkräftemangel, Bürokratie, hohe Abgaben, Energiepreise, schlechte Standortbedingungen und das soll es am Ende ausbaden. Wieder einmal die arbeitenden Menschen. Weil sie die",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_138",
+      "label": "Segment 63:31 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3811.0,
+      "end_sec": 3832.7,
+      "timecode": "63:31",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Wirtschaft belasten, sollen die Beschäftigten flexibler werden. Weil sie Unternehmen mit Vorschriften überziehen, sollen Arbeitnehmer länger verfügbar sein. Und weil sie politisch versagen, soll nun der 8 Stundentag fallen. Das ist keine Modernisierung, das ist eine Bankrotterklärung. Wer glaubt, man könne den Fachkräftemangel lösen, indem die vorhandenen Arbeitskräfte einfach länger arbeiten, hat das Problem nicht",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_139",
+      "label": "Segment 63:54 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3834.0,
+      "end_sec": 3858.5,
+      "timecode": "63:54",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "verstanden. Aber das Problem haben sie an in vielen Politikfeldern. Da ist die Arbeitszeit keine Ausnahme. Die Menschen in diesem Land sind sich nicht zu faul, sie sind nicht zu unflexibel. Das Problem ist eine Politik, die Leistung bestraft, Arbeit verteuert und Betriebe stranguliert. Und deshalb sagen wir, der 8 Stundentag muss bleiben. Aber auch der Antrag der Linken ist abzulehnen, denn die Linke liefert keine pragmatischen Lösungen, sondern wieder einmal eine",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_140",
+      "label": "Segment 64:20 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3860.1,
+      "end_sec": 3883.4,
+      "timecode": "64:20",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "ideologische Inszenierung. Statt Vertrauen in Arbeitnehmer, Betriebe und Tarifpartner zu setzen, soll der 8 Stundentag europäisch festbetoniert werden. Das ist kein Schutz, das ist Bevormundung. Wer Arbeitnehmer wirklich schützen will, muss auch dafür sorgen, dass es Arbeitsplätze gibt. Wer Betriebe immer weiter belastet, schützt am Ende niemanden. Unsere Position ist deshalb eindeutig. Die aktuellen Regelungen sind gut, sie sollen bleiben. Über einselne",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_141",
+      "label": "Segment 64:46 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3886.2,
+      "end_sec": 3907.4,
+      "timecode": "64:46",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "punktuelle Flexibilisierung sollte man aber reden. Bei LKW-Fahrern z.B. Es kann nicht Ziel der Sache sein, dass ein Fahrer kurz vor der nächsten sicheren Rastplatz irgendwo auf einer Ausfahrt am Straßenrand oder auf einem ungeeigneten Parkplatz stehen bleiben muss. In einem engen Rahmen muss es möglich sein, dann den nächsten geeigneten Rastplatz zu erreichen. Das aber keine Aufweichung des Arbeitsschutzes, das ist praktische Vernunft. Und deshalb nein zur Auflösung",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_142",
+      "label": "Segment 65:10 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3910.1,
+      "end_sec": 3933.6,
+      "timecode": "65:10",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "des 8 Stundentages durch die Regierung. Nein zum ideologischen Antrag der Linken. Ja, zur bestehenden Regelung. Ja, zum Arbeitsschutz mit Augenmaß. Ja, zu gesunden Menschenverstand, den es offensichtlich weder in dieser Koalition noch bei den Linken gibt. Wer arbeitet, verdient Respekt. Wer Betriebe führt, verdient Verlässlichkeit. Und wer Politik macht, sollte endlich begreifen, nicht jede Reform ist Fortschritt. Manchmal ist es das Beste, eine bewährte",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_143",
+      "label": "Segment 65:35 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3935.8,
+      "end_sec": 3963.3,
+      "timecode": "65:35",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Regelung einfach so stehen zu lassen, wie sie steht. Vielen Dank. Vielen Dank. Als nächster spricht Börn Rutzel für die SPD. Sehr geehrter Herr Präsident, liebe Kolleginnen, liebe Kollegen, sehr geehrte Damen und Herren, wir lesen oft in der Zeitung, dass unser Arbeitszeitgesetz nicht mehr zeitgemäß sei. Und regelmäßig fühlen sich manche berufen, dieses Lied zu singen, dauerhaft zu singen. Und der erste",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_144",
+      "label": "Segment 66:05 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3965.5,
+      "end_sec": 3988.9,
+      "timecode": "66:05",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Schritt, den ich aber empfehlen kann über die Diskussion, ob unser Arbeitszeitgesetz noch zeitgemäß ist, ist, dass wir die Fakten beleuchten. Da lesen wir oft, es wäre doch ganz toll, wenn wir vier Tage in der Woche arbeiten, dann hätten wir drei Tage frei. Das wäre toll, das wäre zukünftig. Ich musste das auch letzte Woche in meiner Heimatzeitung lesen, aber ich empfehle einfach, warum in die Ferne zu schweifen, wenn das gute doch",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_145",
+      "label": "Segment 66:31 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3991.0,
+      "end_sec": 4016.4,
+      "timecode": "66:31",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "so nahe liegt, denn das ist ja alles möglich. Das funktioniert ja jetzt schon und viele Firmen machen das auch bereits und zwar dauerhaft und auch in meinem Wahlkreis. Ich bin sicher und überzeugt, dass meine Heimatzeitung darüber auch berichtet hat. Also unser Arbeitszeitgesetz ist flexibel und es hat die Debatte gezeigt, was alles möglich ist und diese Möglichkeiten, die wir haben, die nutzen wir bis heute noch nicht mal komplett aus. Und jetzt wird",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_146",
+      "label": "Segment 66:59 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4019.2,
+      "end_sec": 4043.6,
+      "timecode": "66:59",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "schon wieder gefordert, weitere Flexibilität zu schaffen. Was wünschen sich denn Beschäftigte? Mehr Flexibilität? Ja. Ja, klar. Warum denn nicht? mehr Flexibilität, da ist ja gar nichts dagegen zu sagen. Es ist auch nicht mehr zeitgemäß, frühs Punkt 7:30 Uhr in der Behörde anzufangen und Punkt 16 Uhr den Hammer fallen zu lassen und einer geht von der Tür zur nächsten Tür, um zu schauen, wer ist noch fleißig unterwegs",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_147",
+      "label": "Segment 67:25 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4045.3,
+      "end_sec": 4068.0,
+      "timecode": "67:25",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "und wer ist wohl schon zu Hause. Das ist irgendwas, was nicht mehr zeitgemäß ist. Gleitzeit, Vertrauensarbeitszeit, mobiles Arbeiten, Flexibilität, das gibt's heute schon. Dort, wo Tarifverträche sind, da wo Mitbestimmung ist, gibt's das noch viel mehr. Aber wenn wir diese Flexibilität brauchen, dann brauchen wir diese Flexibilität auch in den Kitas, in den Pflegeeinrichtungen, in der Schule. Denn wenn Arbeitnehmende",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_148",
+      "label": "Segment 67:51 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4071.2,
+      "end_sec": 4094.1,
+      "timecode": "67:51",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "diese Flexibilität haben müssen, dann müssen sie nämlich ihre Arbeit mit dem anderen, was sie auch noch alles zu tun haben, unter einen Hut bringen. Und das ist oftmals schwierig und ist kompliziert, deswegen gehört das zusammen. Die Frage ist auch, gibt es den Beschäftigten, den gibt's natürlich nicht. Das ist vielfältig. Es gibt ja auch nicht den Fußballbundestrainer. Es gibt 84 Millionen Bundestrainer in",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_149",
+      "label": "Segment 68:16 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4096.8,
+      "end_sec": 4124.2,
+      "timecode": "68:16",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Deutschland. Demnächst werden wir das auch wieder an den Fernseher ausdiskutieren. Aber was eine große Befragung des DGBs gesagt hat und liebe Grüne, habt es auch aufgenommen in eurem Antrag, das ist einfach, dass 72% der Beschäftigten sich Arbeitstage wünschen von maximal 8 Stunden. 72%, das ist gute Mehrheit. 98% die wollen weniger als 10 Stunden arbeiten. Wir haben vorhin gehört, wollen sie in einem Bus sitzen, äh der schon 10, 11, 12",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_150",
+      "label": "Segment 68:46 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4126.8,
+      "end_sec": 4152.4,
+      "timecode": "68:46",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Stunden betrieben wird oder von einem Arzt oder Krankenschwester oder sonst wie gepflegt werden, die 13 Stunden unterwegs ist und 95% die wollen um 18 Uhr spätestens Feierabend haben. Also, es sind deutliche Zahlen und das war eine große Befragung. Diese Woche rief bei mir ein Unternehmer an. Bei dir auch habe ich vorhin in deiner Rede gehört, lieber Jan Dieren. Und der sagte mir, das muss doch möglich sein, abends um 22 Uhr noch E-Mails zu",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_151",
+      "label": "Segment 69:15 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4155.0,
+      "end_sec": 4178.8,
+      "timecode": "69:15",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "checken. Da habe ich auch nichts dagegen. Es gibt ja auch die Flexibilität vielleicht um 12 Uhr äh zu Hause zu sein, abends noch einmal reinzugucken und deswegen brauchen wir das europäische Arbeitszeitrecht. Aber Obacht auch das ist mit dem Europäischen Arbeitszeitrecht nicht zu machen, denn wir brauchen hier auch 11 Stunden Pause in einem 24 Stunden Raum. Das kann man einmal tun, dann geht die Welt nicht unter, aber dauerhaft ist das auch nicht",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_152",
+      "label": "Segment 69:40 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4180.6,
+      "end_sec": 4203.1,
+      "timecode": "69:40",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "möglich. Das gefällt dem Unternehmer wieder nicht. Gesundheitsschutz ist angesprochen, Arbeitsschutz ist wichtig und weil bald Pfingsten ist, hier blinkt schon das Licht, will ich noch ein kurze Geschicht. Ja, ich ich aber die Pfingstgeschichte ist wichtig, denn ich vergleiche das Arbeitsleben, aber es gibt noch ein minus nehmen. Redezeitleben ist wie Brücke. Am Anfang trägt sie jeder. Lasst mühelos. Doch mit den",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_153",
+      "label": "Segment 70:05 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4205.4,
+      "end_sec": 4235.9,
+      "timecode": "70:05",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Jahren kommen Gewichtdruck und kleine Risse dazu. Die Brücke bicht sich, hält weiter niemand die Brücke geworden ist. In diesem Sinne viel Kraft für die Brücke, viel Kraft fürs Arbeitsleben. Schöne Pfingst. Vielen Dank. Die letzte Rede in dieser Aussprache hält Norseits für die Unionspun. Sehr geehrter Herr Präsident, liebe Kolleginnen und Kollegen, mit Beginn der Sommerzeit und den steigenden",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_154",
+      "label": "Segment 70:37 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4237.6,
+      "end_sec": 4262.2,
+      "timecode": "70:37",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Temperaturen startet auch die Festival und Konzertzeit in Deutschland. Gleichzeitig beginnt in wenigen Wochen eine Fußballweltmeisterschaft, die trotz Zeitumstellung und Public Viewings zu zahlreichen lokalen Veranstaltungen führen wird. Und wenn Sie nun glauben, dass Bühnen, Verkabelung und die gesamte Logistik dahinter in einem klassischen 95 Job organisiert werden kann, dann irren Sie sich und vor allem kennen Sie die Realität in der Kultur und",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_155",
+      "label": "Segment 71:03 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4263.7,
+      "end_sec": 4288.3,
+      "timecode": "71:03",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Kreativwirtschaft nicht. Gerade dort gehören unregelmäßige und mit unterlange Arbeitszeiten zur Realität. Immer verbunden mit anschließenden Ausgleichszeiten in strukturell schwächeren Zeiten wie z.B. dem Winter. Auch die häufig familieneführten KMUs, im übrigen über 90% der deutschen Wirtschaft, zeigen schon heute, wie ausgewogene und individuelle Lösungen bei der Arbeitszeitgestaltung gemeinsam zwischen Arbeitgebern und Arbeitnehmern",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_156",
+      "label": "Segment 71:30 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4290.7,
+      "end_sec": 4319.8,
+      "timecode": "71:30",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "gefunden werden können. Etwas anderes zu behaupten ist ein Erfranung gegenüber all jen, die unternehmerische Verantwortung übernehmen, Wertschöpfung schaffen und damit unseren Wohlstand sichern. Und genau solche ideologischen und überholten Narrative zur Arbeitszeit spalten und polarisieren leider unsere Gesellschaft immer weiter. Fakt ist doch, das derzeitige Arbeitszeitgesetz ist aus der Zeit",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_157",
+      "label": "Segment 72:01 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4321.5,
+      "end_sec": 4342.5,
+      "timecode": "72:01",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "gefallen. Es bildet die Lebensrealitäten einer modernen Arbeitswelt längst nicht mehr ab. Statt auf Eigenverantwortung und Effizienz setzt es auf starre Linien. Dies macht sich auch in den beiden vorliegenden Anträgen bemerkbar, die leider keinerlei Interesse an modernen Lösungen zeigen. Viele Beschäftigte wünschen sich heute selbstbestimmtere Arbeitszeitmodelle, mal längere Tage, um dafür an anderer Stelle mehr Freizeit zu haben. Meine",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_158",
+      "label": "Segment 72:24 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4344.0,
+      "end_sec": 4371.3,
+      "timecode": "72:24",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Damen und Herren, gerade deshalb brauchen wir eine wöchentliche Stadt einer täglichen Höchstarbeitszeit. Das schafft Freiräume bei der Einteilung der Arbeitszeit und verbessert wiederum die Vereinbarkeit von Familie, Beruf, im übrigen auch Gesundheit und persönlichem Leben. Diese Flexibilität kommt dabei Arbeitgebern und Arbeitnehmern zugute und das ist auch kein gegenseitiges Ausspielen, sondern professionelles Hand in Hand",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_159",
+      "label": "Segment 72:53 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4373.1,
+      "end_sec": 4397.0,
+      "timecode": "72:53",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "gehen, wo jeder jeden hilft und man sich aufeinander verlassen kann. Der Arbeitgeber hat doch auch ein gesteigertes Interesse daran, dass eine seine Belegschaft gesund bleibt. Und das sage ich Ihnen hier nicht nur als Abgeordnete, sondern auch als Handwerksmeisterin. Und deswegen brauchen wir auch eine Anpassung der Arbeitszeitregelung im Bäckereihandwerk und die ist dringend erforderlich. In der Praxis arbeiten",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_160",
+      "label": "Segment 73:19 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4399.0,
+      "end_sec": 4421.0,
+      "timecode": "73:19",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "viele Bäckereibetriebe in diesem Land an Sonnen und Feiertagen am Rande der Illegalität. nicht etwa, weil Arbeitgeber ihre Beschäftigten ausbeuten wollen, sondern weil die bestehenden Regelungen einfach nicht mehr in die Zeit passen und damit auch nicht zu den Anforderungen des Handwerks. Und umso mehr ist die im Koalitionsvertrag vorgesehene Erweiterung des Bäckereihandwerks im Ausnahmekalog nach Artikel 10 des Arbeitszeitgesetzes für",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_161",
+      "label": "Segment 73:43 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4423.0,
+      "end_sec": 4444.7,
+      "timecode": "73:43",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Sonnen und Feiertagsbeschäftigung von so großer Bedeutung. Dies würde nicht nur für mehr Rechtssicherheit sorgen, sondern auch die tatsächlichen Arbeitsabläufe im Bäckereihandwerk realistischer abbilden. Die EUArbeitszeitrichtlinie gibt uns im übrigen hier den nötigen Rahmen und hier ist das eine vielleicht eine kleine Korrektur. Die EU schafft mehr Freiheiten und bevormundet uns nicht. Liebe Kolleginnen und Kollegen",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_162",
+      "label": "Segment 74:07 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4447.4,
+      "end_sec": 4471.3,
+      "timecode": "74:07",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "der Linken und Grünen, sie verspannen sich leider immer noch den Realitäten in unseren Betrieben, dem Handwerk und Unternehmen in unserem Land. Statt Nebelkerzen brauchen wir jetzt praxisnah moderne Lösungen und endlich flexiblere Arbeitszeitmodelle. Wir müssen den Mut haben, unseren Unternehmern wieder mehr zu vertrauen. Die moderne Arbeitswelt braucht Praxisnahregeln mit Augenmaß statt starrer Ideologie und aus diesen Gründen lehnen wir beide Anträge ab.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_163",
+      "label": "Segment 74:32 (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4472.9,
+      "end_sec": 4499.9,
+      "timecode": "74:32",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Vielen Dank. Weitere Wortmeldungen in der Aussprache liegen mir nicht vor. Ich schließe sie interfraktionell. wird Überweisungen der Vorlagen auf den Drucksachen 5396 und 5781 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. Weitere Überweisungsvorschläge sehe ich nicht, dann verfahren wir wie vorgeschlagen. Ich rufe auf die Zusatzpunkte 10A und 10b. Zweite und dritte Berat.",
+      "audio_file": "CPa1rLMiv64.mp4",
+      "schicht": "provenienz"
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "sitzung_bt_yt_21_81",
+      "target_id": "top_1",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_0",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "faktencheck_0",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_0",
+      "target_id": "quelle_bundeszentrale_f_r_politische_bildung_die_novemberrevolution_1918_19",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_1",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "faktencheck_1",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_1",
+      "target_id": "quelle_bundeszentrale_f_r_politische_bildung_geschichte_der_arbeiterbewegung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_2",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "faktencheck_2",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_2",
+      "target_id": "quelle_oecd_employment_protection_legislation",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_3",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "faktencheck_3",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_3",
+      "target_id": "quelle_statistisches_bundesamt_destatis_berstunden_2022",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_4",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_4",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_4",
+      "target_id": "faktencheck_4",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_4",
+      "target_id": "quelle_statistisches_bundesamt_erwerbst_tigenquote_nach_altersgruppen",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_5",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_5",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_5",
+      "target_id": "faktencheck_5",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_5",
+      "target_id": "quelle_keine_amtliche_quelle_verf_gbar",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_6",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_6",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_6",
+      "target_id": "faktencheck_6",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_6",
+      "target_id": "quelle_keine_amtliche_quelle_verf_gbar",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_7",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_7",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_7",
+      "target_id": "faktencheck_7",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "irreführend"
+    },
+    {
+      "source_id": "faktencheck_7",
+      "target_id": "quelle_forbes_the_world_s_billionaires_list_2023",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_8",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_8",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_8",
+      "target_id": "faktencheck_8",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_8",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_9",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_9",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_9",
+      "target_id": "faktencheck_9",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_9",
+      "target_id": "quelle_richtlinie_2003_88_eg_des_europ_ischen_parlaments_und_des_rates_vom_4_november_2003_ber_bestimmte_aspekte_der_arbeitszeitgestaltung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_10",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_10",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_10",
+      "target_id": "faktencheck_10",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_10",
+      "target_id": "quelle_european_working_conditions_survey_ewcs_eurofound_vergleich_der_arbeitszeitregelungen_in_eu_l_ndern",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_11",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_11",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_11",
+      "target_id": "faktencheck_11",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_11",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_12",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_12",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_12",
+      "target_id": "faktencheck_12",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_12",
+      "target_id": "quelle_arbeitszeitgesetz_arbzg_3",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_13",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_13",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_13",
+      "target_id": "faktencheck_13",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_13",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_14",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_14",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_14",
+      "target_id": "faktencheck_14",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_14",
+      "target_id": "quelle_bundeszentrale_f_r_politische_bildung_geschichte_der_arbeitszeitregelungen",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_15",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_15",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_15",
+      "target_id": "faktencheck_15",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_15",
+      "target_id": "quelle_bundesanstalt_f_r_arbeitsschutz_und_arbeitsmedizin_baua_arbeitszeitreport_deutschland_2016",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_16",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_16",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_16",
+      "target_id": "faktencheck_16",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_16",
+      "target_id": "quelle_arbeitszeitgesetz_arbzg_3",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_17",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_17",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_17",
+      "target_id": "faktencheck_17",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_17",
+      "target_id": "quelle_iab_kurzbericht_10_2023_berstunden_in_deutschland",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_18",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_18",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_18",
+      "target_id": "faktencheck_18",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_18",
+      "target_id": "quelle_who_ilo_long_working_hours_increasing_deaths_from_heart_disease_and_stroke_2021",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_19",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_19",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_19",
+      "target_id": "faktencheck_19",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_19",
+      "target_id": "quelle_",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_20",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_20",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_20",
+      "target_id": "faktencheck_20",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_20",
+      "target_id": "quelle_",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_21",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_21",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_21",
+      "target_id": "faktencheck_21",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_21",
+      "target_id": "quelle_arbeitszeitgesetz_arbzg_3_arbeitszeit_der_arbeitnehmer",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_22",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_22",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_22",
+      "target_id": "faktencheck_22",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_22",
+      "target_id": "quelle_arbeitszeitgesetz_arbzg_7_abweichende_regelungen_14_au_ergew_hnliche_f_lle",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_23",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_23",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_23",
+      "target_id": "faktencheck_23",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_23",
+      "target_id": "quelle_dgb_index_gute_arbeit_report_2021",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_24",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_24",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_24",
+      "target_id": "faktencheck_24",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_24",
+      "target_id": "quelle_dgb_index_gute_arbeit_report_2021",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_25",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_25",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_25",
+      "target_id": "faktencheck_25",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_25",
+      "target_id": "quelle_dgb_index_gute_arbeit_report_2021",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_26",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_26",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_26",
+      "target_id": "faktencheck_26",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_26",
+      "target_id": "quelle_arbeitszeitgesetz_arbzg_5_ruhezeit",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "segment_33",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "segment_33",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "segment_55",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_4",
+      "target_id": "segment_55",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_5",
+      "target_id": "segment_55",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_6",
+      "target_id": "segment_55",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_7",
+      "target_id": "segment_55",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_8",
+      "target_id": "segment_66",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_9",
+      "target_id": "segment_66",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_10",
+      "target_id": "segment_66",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_11",
+      "target_id": "segment_66",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_12",
+      "target_id": "segment_77",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_13",
+      "target_id": "segment_77",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_14",
+      "target_id": "segment_99",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_15",
+      "target_id": "segment_99",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_16",
+      "target_id": "segment_99",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_17",
+      "target_id": "segment_110",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_18",
+      "target_id": "segment_110",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_19",
+      "target_id": "segment_110",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_20",
+      "target_id": "segment_110",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_21",
+      "target_id": "segment_132",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_22",
+      "target_id": "segment_132",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_23",
+      "target_id": "segment_143",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_24",
+      "target_id": "segment_143",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_25",
+      "target_id": "segment_143",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_26",
+      "target_id": "segment_143",
+      "relationship_type": "BELEGT_DURCH"
+    }
+  ]
+}

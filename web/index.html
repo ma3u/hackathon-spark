@@ -76,6 +76,8 @@
         <button class="tab" data-s="bundestag_xml">Bundestag (amtliches XML)</button>
         <button class="tab" data-s="bundestag_real"
           title="Echtes amtliches Plenarprotokoll WP20/214 (18.03.2025, gemeinfrei §5 UrhG). Faktencheck bewusst aus – keine automatischen Verdikte über reale Personen.">Bundestag (echt) 🟢</button>
+        <button class="tab" data-s="bundestag_yt"
+          title="YouTube-Mitschnitt (@bundestag, 81. Sitzung 22.05.2026, Arbeitszeitpolitik) mit Zeit-Deeplinks und KI-Faktencheck (Mistral, ungeprüfte Vorschläge).">Bundestag (YouTube) 🎬</button>
         <button class="tab" id="viewToggle">📊 Dashboard</button>
         <button class="tab" id="a11y" title="Barrierefreie Vorlesefassung (Screenreader/TTS)">♿ Vorlesefassung</button>
       </div>
@@ -120,6 +122,10 @@
           url: "https://www.bundestag.de/resource/blob/1057624/20214.xml",
           label: "Bundestag Open Data — Plenarprotokoll 20/214 (18.03.2025)",
           mediathek: "https://www.bundestag.de/mediathek",
+        },
+        bundestag_yt: {
+          url: "https://www.youtube.com/watch?v=CPa1rLMiv64",
+          label: "YouTube @bundestag — Arbeitszeitpolitik (81. Sitzung, 22.05.2026)",
         },
       };
       const partyColor = (f) => PARTY[(f || "").replace(/ /g, " ").trim()] || "#58a6ff";
@@ -240,13 +246,28 @@
           const r = data.relationships.find((r) => r.source_id === fcId && r.relationship_type === "BELEGT_MIT");
           return r ? byId[r.target_id] : null;
         };
-        box.innerHTML = "<h2>🔎 Faktencheck der Reden</h2>" + checks.map((fc) => {
-          const c = claimOf(fc.id), s = srcOf(fc.id);
-          return `<div class="fc ${fc.verdikt}">
+        const segOf = (claim) => {  // Aussage → Transkriptsegment (für Zeit-Deeplink)
+          if (!claim) return null;
+          const r = data.relationships.find((r) => r.source_id === claim.id && r.relationship_type === "BELEGT_DURCH");
+          return r ? byId[r.target_id] : null;
+        };
+        const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+        const src = SOURCE[current], disc = data.metadata && data.metadata.factcheck_disclaimer;
+        box.innerHTML = "<h2>🔎 Faktencheck der Reden</h2>"
+          + (disc ? `<div class="empty">⚠️ ${disc}</div>` : "")
+          + checks.map((fc) => {
+            const c = claimOf(fc.id), s = srcOf(fc.id), seg = segOf(c);
+            let deep = "";
+            if (src && seg && seg.start_sec != null) {
+              const t = Math.floor(seg.start_sec);
+              const url = /youtu/.test(src.url) ? `${src.url}${src.url.includes("?") ? "&" : "?"}t=${t}s` : src.url;
+              deep = ` · <a class="cite" href="${url}" target="_blank" rel="noopener">▶ im Video [${mmss(t)}]</a>`;
+            }
+            return `<div class="fc ${fc.verdikt}">
             <span class="verdikt">${fc.verdikt.toUpperCase()}</span> — ${c ? c.person : ""}<br/>
             „${c ? c.text : ""}"<br/>
-            <span class="src">${fc.begruendung || ""}${s ? ` · Quelle: ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.label}</a>` : s.label}${s.stand ? ` (Stand ${s.stand})` : ""}` : ""}</span></div>`;
-        }).join("");
+            <span class="src">${fc.begruendung || ""}${s ? ` · Quelle: ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.label}</a>` : s.label}${s.stand ? ` (Stand ${s.stand})` : ""}` : ""}${deep}</span></div>`;
+          }).join("");
       }
 
       async function load(scenario) {

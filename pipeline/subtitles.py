@@ -24,6 +24,38 @@ def _sec(h, m, s, ms) -> float:
     return int(h) * 3600 + int(m) * 60 + int(s) + int(ms) / 1000.0
 
 
+def youtube_segments(path: str | Path, *, lines_per_seg: int = 12) -> list[dict]:
+    """YouTube-Auto-Untertitel (rollende Captions) -> zeitgestempelte Segmente.
+
+    Auto-Captions wiederholen jede Zeile (rollende 2-Zeilen-Anzeige) und tragen Inline-
+    Wort-Tags `<00:00:01.4><c>Wort</c>`. Wir entfernen die Tags, deduplizieren aufeinander-
+    folgende identische Zeilen (das Rollen) und bündeln je `lines_per_seg` Zeilen zu einem
+    Segment mit dem Startzeitpunkt der ersten Zeile → Basis für `?t=<sek>`-Deeplinks.
+    """
+    raw = Path(path).read_text(encoding="utf-8", errors="ignore")
+    lines: list[tuple[float, str]] = []
+    last = None
+    for block in re.split(r"\n\s*\n", raw):
+        ts = list(_TS.finditer(block))
+        if not ts:
+            continue
+        start = _sec(*ts[0].groups())
+        for ln in block.splitlines():
+            if "-->" in ln or ln.strip().upper() == "WEBVTT" or ln.startswith(("Kind:", "Language:")):
+                continue
+            txt = re.sub(r"<[^>]+>", "", ln).strip()
+            if not txt or txt == last:
+                continue
+            lines.append((start, txt))
+            last = txt
+    segs: list[dict] = []
+    for i in range(0, len(lines), lines_per_seg):
+        chunk = lines[i:i + lines_per_seg]
+        segs.append({"start": round(chunk[0][0], 1), "end": round(chunk[-1][0], 1),
+                     "speaker": "UNBEKANNT", "text": " ".join(t for _, t in chunk)})
+    return segs
+
+
 def parse(path: str | Path) -> list[dict]:
     """VTT oder SRT -> [{start, end, speaker, text}] (speaker default 'UNBEKANNT')."""
     raw = Path(path).read_text(encoding="utf-8", errors="ignore")

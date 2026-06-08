@@ -1,0 +1,27 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag (YouTube-Mitschnitt)",
+    "datum": "22.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "81"
+  },
+  "kennzahlen": {
+    "reden": 0,
+    "schriftliche_beitraege": 0,
+    "woerter": 10593,
+    "tops": 1,
+    "saalreaktionen": 0,
+    "geprüfte_aussagen": 27
+  },
+  "top_themen": [],
+  "sprachanteil_fraktion": [],
+  "feedback_je_thema": [],
+  "feedback_gegeben_fraktion": [],
+  "feedback_erhalten_fraktion": [],
+  "faktencheck_bilanz": {
+    "teilweise": 7,
+    "bestätigt": 12,
+    "unbelegt": 7,
+    "irreführend": 1
+  }
+}
