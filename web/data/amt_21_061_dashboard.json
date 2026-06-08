@@ -1,0 +1,186 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "04.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "61"
+  },
+  "kennzahlen": {
+    "reden": 170,
+    "schriftliche_beitraege": 0,
+    "woerter": 37838,
+    "tops": 6,
+    "saalreaktionen": 508,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13536
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Die Lage im Iran und in der Region",
+      "woerter": 11972
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Mandy Eißing, Clara Bünger, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Demokratie fördern statt behindern",
+      "woerter": 4347
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Abgeordneten Dr. Michael Espendiller, Ulrich von Zons, Georg Schroeter, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Änderung de…",
+      "woerter": 4107
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Produkthaftungsrechts",
+      "woerter": 3876
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8148,
+      "prozent": 31.1
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 6110,
+      "prozent": 23.3
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4659,
+      "prozent": 17.8
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 3779,
+      "prozent": 14.4
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3519,
+      "prozent": 13.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Die Lage im Iran und in der Region",
+      "positiv": 105,
+      "negativ": 12
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Mandy Eißing, Clara Bünger, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Demokratie fördern statt behindern",
+      "positiv": 57,
+      "negativ": 27
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 50,
+      "negativ": 7
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Abgeordneten Dr. Michael Espendiller, Ulrich von Zons, Georg Schroeter, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Änderung de…",
+      "positiv": 44,
+      "negativ": 7
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Produkthaftungsrechts",
+      "positiv": 35,
+      "negativ": 3
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 21,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "Linken",
+      "positiv": 27,
+      "negativ": 10
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 35,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 29,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 13,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 53,
+      "negativ": 27
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 60,
+      "negativ": 12
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 51,
+      "negativ": 4
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 37,
+      "negativ": 8
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 35,
+      "negativ": 3
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

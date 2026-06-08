@@ -1,0 +1,208 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "14.11.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "41"
+  },
+  "kennzahlen": {
+    "reden": 90,
+    "schriftliche_beitraege": 0,
+    "woerter": 46969,
+    "tops": 9,
+    "saalreaktionen": 775,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Sarah Vollath, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Bundestagsabgeordnete vollumfänglich in die gesetzliche Rentenversicherung ei…",
+      "woerter": 9607
+    },
+    {
+      "top": 9,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimaschutz nicht schwächen – Bundesregierung muss Führungsrolle in der Klimapolitik einnehmen",
+      "woerter": 9314
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur steuerlichen Förderung von Arbeitnehmerinnen und Arbeitnehmern im Rentenalter (Aktivrentengesetz)",
+      "woerter": 8899
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Rebecca Lenhard, Dr. Konstantin von Notz, Dr. Anna Lührmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Strategie zur digitalen Souveränität – Für eine s…",
+      "woerter": 5085
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Gerrit Huy, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Dauerduldungen unattraktiver machen durch Abschaffung der Analogleistungen nach § 2 d…",
+      "woerter": 4435
+    },
+    {
+      "top": 4,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über den Zugang zu Schuldnerberatungsdiensten für Verbraucher (Schuldnerberatungsdienstegesetz – SchuBerDG)",
+      "woerter": 4023
+    },
+    {
+      "top": 6,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Reform und Erweiterung des Schutzes geografischer Angaben (Geoschutzreformgesetz)",
+      "woerter": 2803
+    },
+    {
+      "top": 8,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung einer elektronischen Präsenzbeurkundung",
+      "woerter": 2803
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 13600,
+      "prozent": 30.3
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 11153,
+      "prozent": 24.9
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 8575,
+      "prozent": 19.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6513,
+      "prozent": 14.5
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5013,
+      "prozent": 11.2
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 9,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimaschutz nicht schwächen – Bundesregierung muss Führungsrolle in der Klimapolitik einnehmen",
+      "positiv": 107,
+      "negativ": 21
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Sarah Vollath, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Bundestagsabgeordnete vollumfänglich in die gesetzliche Rentenversicherung ei…",
+      "positiv": 91,
+      "negativ": 15
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur steuerlichen Förderung von Arbeitnehmerinnen und Arbeitnehmern im Rentenalter (Aktivrentengesetz)",
+      "positiv": 93,
+      "negativ": 5
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Rebecca Lenhard, Dr. Konstantin von Notz, Dr. Anna Lührmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Strategie zur digitalen Souveränität – Für eine s…",
+      "positiv": 50,
+      "negativ": 20
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Gerrit Huy, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Dauerduldungen unattraktiver machen durch Abschaffung der Analogleistungen nach § 2 d…",
+      "positiv": 54,
+      "negativ": 8
+    },
+    {
+      "top": 4,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über den Zugang zu Schuldnerberatungsdiensten für Verbraucher (Schuldnerberatungsdienstegesetz – SchuBerDG)",
+      "positiv": 30,
+      "negativ": 7
+    },
+    {
+      "top": 6,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Reform und Erweiterung des Schutzes geografischer Angaben (Geoschutzreformgesetz)",
+      "positiv": 28,
+      "negativ": 0
+    },
+    {
+      "top": 8,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung einer elektronischen Präsenzbeurkundung",
+      "positiv": 19,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 97,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 61,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 44,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 23,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "LINKEN",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 119,
+      "negativ": 33
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 120,
+      "negativ": 27
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 76,
+      "negativ": 7
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 72,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 61,
+      "negativ": 2
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

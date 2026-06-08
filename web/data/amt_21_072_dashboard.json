@@ -1,0 +1,182 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "17.04.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "72"
+  },
+  "kennzahlen": {
+    "reden": 63,
+    "schriftliche_beitraege": 0,
+    "woerter": 36197,
+    "tops": 6,
+    "saalreaktionen": 433,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Militärische Eskalation und humanitäre Notlage im Libanon",
+      "woerter": 9715
+    },
+    {
+      "top": 2,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2225 über Verbraucherkreditverträge",
+      "woerter": 8852
+    },
+    {
+      "top": 3,
+      "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Landwirtschaft, Ernährung und Heimat zu dem Antrag der Abgeordneten Christian Reck, Stephan Protschka, Peter Felser, weiterer Abgeordneter und d…",
+      "woerter": 7940
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Julia-Christina Stange, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Zeitnahe Arzttermine für alle ermöglichen – Gute ambulante Versorgu…",
+      "woerter": 4895
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Robin Wagener, Agnieszka Brugger, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die russische Schattenflotte entschlossen bekämpfen",
+      "woerter": 4795
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 11274,
+      "prozent": 32.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 8249,
+      "prozent": 23.4
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6619,
+      "prozent": 18.8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5006,
+      "prozent": 14.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4091,
+      "prozent": 11.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2225 über Verbraucherkreditverträge",
+      "positiv": 81,
+      "negativ": 11
+    },
+    {
+      "top": 3,
+      "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Landwirtschaft, Ernährung und Heimat zu dem Antrag der Abgeordneten Christian Reck, Stephan Protschka, Peter Felser, weiterer Abgeordneter und d…",
+      "positiv": 79,
+      "negativ": 5
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Militärische Eskalation und humanitäre Notlage im Libanon",
+      "positiv": 70,
+      "negativ": 0
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Julia-Christina Stange, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Zeitnahe Arzttermine für alle ermöglichen – Gute ambulante Versorgu…",
+      "positiv": 46,
+      "negativ": 7
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Robin Wagener, Agnieszka Brugger, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die russische Schattenflotte entschlossen bekämpfen",
+      "positiv": 42,
+      "negativ": 7
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 55,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 31,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 31,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 27,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 78,
+      "negativ": 9
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 70,
+      "negativ": 12
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 66,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 57,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 35,
+      "negativ": 2
+    }
+  ],
+  "faktencheck_bilanz": {
+    "bestätigt": 1,
+    "unbelegt": 10,
+    "teilweise": 1
+  }
+}

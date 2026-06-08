@@ -1,0 +1,332 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "19.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "65"
+  },
+  "kennzahlen": {
+    "reden": 165,
+    "schriftliche_beitraege": 0,
+    "woerter": 88497,
+    "tops": 17,
+    "saalreaktionen": 1742,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Einführung eines Gesetzes zur Anpassung von Kraftstoffpreisen und zur Änderung des Gesetzes gegen W…",
+      "woerter": 10203
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dr. Paul Schmidt, Dr. Rainer Kraft, Andreas Bleck, weiterer Abgeordneter und der Fraktion der AfD: Wieder in die Kernkraft einsteigen und strategische Fehler korrigieren",
+      "woerter": 9485
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Leon Eckert, Dr. Konstantin von Notz, Dr. Irene Mihalic, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die Zeitenwende in der Zivilen Verteidigung umsetzen",
+      "woerter": 9443
+    },
+    {
+      "top": 2,
+      "titel": "Vereinbarte Debatte: Internationaler Frauentag",
+      "woerter": 8903
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Kernenergiegipfel in Paris – Widersprüche deutscher Energiepolitik auf europäischer und nationaler Ebene",
+      "woerter": 7800
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Kerstin Przygodda, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Frauen schützen – Im Namen der Familienehre versuchte und vollendete Mord…",
+      "woerter": 6299
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: 18. März – Tag der Demokratiegeschichte – Orte der Freiheit und Demokratie in Deutschland weiter stärken",
+      "woerter": 5463
+    },
+    {
+      "top": 15,
+      "titel": "a) Antrag der Abgeordneten Dr. Sandra Detzer, Julian Joswig, Ayse Asar, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wirtschaft 2045 – GreenTech als Wachstumstreiber nutzen, Technolo…",
+      "woerter": 5388
+    },
+    {
+      "top": 14,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Neunten Gesetzes zur Änderung des Steuerberatungsgesetzes und zur Änderung weiterer steuerrechtlicher Vorschriften",
+      "woerter": 4321
+    },
+    {
+      "top": 10,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Wissenschaftsfreiheitsgesetzes",
+      "woerter": 4246
+    },
+    {
+      "top": 12,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur weiteren Digitalisierung der Zwangsvollstreckung",
+      "woerter": 4025
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Ferat Koçak, Clara Bünger, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Institutionellen Rassismus bekämpfen – Handlungsempfehlungen der Studie „Institut…",
+      "woerter": 3888
+    },
+    {
+      "top": 13,
+      "titel": "Erste Beratung des von den Abgeordneten Steffen Janich, Dr. Gottfried Curio, Dr. Bernd Baumann, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Aufhebung des…",
+      "woerter": 3857
+    },
+    {
+      "top": 16,
+      "titel": "Unterrichtung durch die Bundesregierung: Neunter Bericht zur Lage der älteren Generation in der Bundesrepublik Deutschland – Alt werden in Deutschland – Vielfalt der Potenziale und Ungleichheit der T…",
+      "woerter": 2916
+    },
+    {
+      "top": 6,
+      "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz zu dem Streitverfahren vor dem Bundesverfassungsgericht 2 BvC 4/26",
+      "woerter": 1149
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Carolin Bachmann, Marc Bernhard, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung einer Enquete-Kommission „Evaluation der Finanzlage der Komm…",
+      "woerter": 1111
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 25880,
+      "prozent": 31.1
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 23049,
+      "prozent": 27.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 14261,
+      "prozent": 17.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11179,
+      "prozent": 13.4
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8876,
+      "prozent": 10.7
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Vereinbarte Debatte: Internationaler Frauentag",
+      "positiv": 133,
+      "negativ": 38
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dr. Paul Schmidt, Dr. Rainer Kraft, Andreas Bleck, weiterer Abgeordneter und der Fraktion der AfD: Wieder in die Kernkraft einsteigen und strategische Fehler korrigieren",
+      "positiv": 110,
+      "negativ": 41
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Einführung eines Gesetzes zur Anpassung von Kraftstoffpreisen und zur Änderung des Gesetzes gegen W…",
+      "positiv": 112,
+      "negativ": 19
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Kernenergiegipfel in Paris – Widersprüche deutscher Energiepolitik auf europäischer und nationaler Ebene",
+      "positiv": 92,
+      "negativ": 32
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Leon Eckert, Dr. Konstantin von Notz, Dr. Irene Mihalic, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die Zeitenwende in der Zivilen Verteidigung umsetzen",
+      "positiv": 89,
+      "negativ": 12
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Kerstin Przygodda, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Frauen schützen – Im Namen der Familienehre versuchte und vollendete Mord…",
+      "positiv": 76,
+      "negativ": 21
+    },
+    {
+      "top": 15,
+      "titel": "a) Antrag der Abgeordneten Dr. Sandra Detzer, Julian Joswig, Ayse Asar, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wirtschaft 2045 – GreenTech als Wachstumstreiber nutzen, Technolo…",
+      "positiv": 64,
+      "negativ": 16
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: 18. März – Tag der Demokratiegeschichte – Orte der Freiheit und Demokratie in Deutschland weiter stärken",
+      "positiv": 54,
+      "negativ": 6
+    },
+    {
+      "top": 13,
+      "titel": "Erste Beratung des von den Abgeordneten Steffen Janich, Dr. Gottfried Curio, Dr. Bernd Baumann, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Aufhebung des…",
+      "positiv": 47,
+      "negativ": 10
+    },
+    {
+      "top": 10,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Wissenschaftsfreiheitsgesetzes",
+      "positiv": 50,
+      "negativ": 5
+    },
+    {
+      "top": 14,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Neunten Gesetzes zur Änderung des Steuerberatungsgesetzes und zur Änderung weiterer steuerrechtlicher Vorschriften",
+      "positiv": 44,
+      "negativ": 6
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Ferat Koçak, Clara Bünger, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Institutionellen Rassismus bekämpfen – Handlungsempfehlungen der Studie „Institut…",
+      "positiv": 41,
+      "negativ": 8
+    },
+    {
+      "top": 12,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur weiteren Digitalisierung der Zwangsvollstreckung",
+      "positiv": 39,
+      "negativ": 0
+    },
+    {
+      "top": 16,
+      "titel": "Unterrichtung durch die Bundesregierung: Neunter Bericht zur Lage der älteren Generation in der Bundesrepublik Deutschland – Alt werden in Deutschland – Vielfalt der Potenziale und Ungleichheit der T…",
+      "positiv": 32,
+      "negativ": 1
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Carolin Bachmann, Marc Bernhard, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung einer Enquete-Kommission „Evaluation der Finanzlage der Komm…",
+      "positiv": 13,
+      "negativ": 3
+    },
+    {
+      "top": 6,
+      "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz zu dem Streitverfahren vor dem Bundesverfassungsgericht 2 BvC 4/26",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 211,
+      "negativ": 35
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 87,
+      "negativ": 18
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 100,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 51,
+      "negativ": 8
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 17,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 14,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 5,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Pendlerpauschale",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD meldet sich zu einer Zwischenfrage",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken und der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 268,
+      "negativ": 88
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 256,
+      "negativ": 55
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 156,
+      "negativ": 27
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 132,
+      "negativ": 16
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 117,
+      "negativ": 22
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "bestätigt": 2
+  }
+}

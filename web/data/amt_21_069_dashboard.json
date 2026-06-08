@@ -1,0 +1,186 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "27.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "69"
+  },
+  "kennzahlen": {
+    "reden": 84,
+    "schriftliche_beitraege": 0,
+    "woerter": 46131,
+    "tops": 6,
+    "saalreaktionen": 908,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Demokratie leben – Engagement schützen, Förderstrukturen erhalten",
+      "woerter": 11928
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Agnes Conrad, Jörg Cezanne, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Jetzt handeln – Die Zukunft der Automobilindustrie sozial und ökologisch gestalten",
+      "woerter": 10027
+    },
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Reform der steuerlich geförderten privaten Altersvorsorge (Altersvorsorgereformgesetz)",
+      "woerter": 9407
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Kay Gottschalk, Sebastian Münzenmaier, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Preisexplosion im Gastronomiegewerbe verhindern – Arbeitsplätze sichern –…",
+      "woerter": 5241
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Lisa Badum, Swantje Henrike Michaelsen, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimaschutzprogramm als Entlastungsprogramm",
+      "woerter": 5159
+    },
+    {
+      "top": 3,
+      "titel": "Unterrichtung durch die Bundesregierung: Siebter Armuts- und Reichtumsbericht der Bundesregierung – Lebenslagen in Deutschland",
+      "woerter": 4369
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 13621,
+      "prozent": 31.5
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 10860,
+      "prozent": 25.1
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6772,
+      "prozent": 15.7
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6144,
+      "prozent": 14.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5869,
+      "prozent": 13.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Demokratie leben – Engagement schützen, Förderstrukturen erhalten",
+      "positiv": 140,
+      "negativ": 48
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Agnes Conrad, Jörg Cezanne, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Jetzt handeln – Die Zukunft der Automobilindustrie sozial und ökologisch gestalten",
+      "positiv": 106,
+      "negativ": 27
+    },
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Reform der steuerlich geförderten privaten Altersvorsorge (Altersvorsorgereformgesetz)",
+      "positiv": 92,
+      "negativ": 16
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Lisa Badum, Swantje Henrike Michaelsen, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimaschutzprogramm als Entlastungsprogramm",
+      "positiv": 66,
+      "negativ": 25
+    },
+    {
+      "top": 3,
+      "titel": "Unterrichtung durch die Bundesregierung: Siebter Armuts- und Reichtumsbericht der Bundesregierung – Lebenslagen in Deutschland",
+      "positiv": 51,
+      "negativ": 8
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Kay Gottschalk, Sebastian Münzenmaier, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Preisexplosion im Gastronomiegewerbe verhindern – Arbeitsplätze sichern –…",
+      "positiv": 45,
+      "negativ": 3
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 100,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 44,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 40,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 15,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 13,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 4,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Behörden",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 136,
+      "negativ": 32
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 118,
+      "negativ": 42
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 85,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 68,
+      "negativ": 11
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 56,
+      "negativ": 16
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "bestätigt": 2
+  }
+}

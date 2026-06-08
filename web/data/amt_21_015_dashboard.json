@@ -1,0 +1,219 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "27.06.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "15"
+  },
+  "kennzahlen": {
+    "reden": 71,
+    "schriftliche_beitraege": 25,
+    "woerter": 37413,
+    "tops": 8,
+    "saalreaktionen": 686,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Aussetzung des Familiennachzugs zu subsidiär Schutzberechtigten",
+      "woerter": 9935
+    },
+    {
+      "top": 2,
+      "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zum Verbot der Fi…",
+      "woerter": 7703
+    },
+    {
+      "top": 3,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Staatsangehörigkeitsgesetzes",
+      "woerter": 4158
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Umsetzung von Vorgaben der Richtlinie (EU) 2023/2413 für Zulassungsverfahren nach dem Bundes-Immiss…",
+      "woerter": 4095
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Fraktion Die Linke: Mehrwertsteuer auf Grundnahrungsmittel, Hygieneprodukte und auf Bus und Bahn abschaffen",
+      "woerter": 4019
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Simone Fischer, Dr. Janosch Dahmen, Linda Heitmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Priorität für Pflege – Jetzt Sofortmaßnahmen ergreifen",
+      "woerter": 3785
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zum Vertrag über die Errichtung, den Betrieb und die Weiterentwicklung des Nationalen Once-Only-Technical-Systems (NOO…",
+      "woerter": 3718
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 10455,
+      "prozent": 30.4
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 8682,
+      "prozent": 25.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6017,
+      "prozent": 17.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5369,
+      "prozent": 15.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3830,
+      "prozent": 11.1
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Aussetzung des Familiennachzugs zu subsidiär Schutzberechtigten",
+      "positiv": 136,
+      "negativ": 34
+    },
+    {
+      "top": 2,
+      "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zum Verbot der Fi…",
+      "positiv": 100,
+      "negativ": 10
+    },
+    {
+      "top": 3,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Staatsangehörigkeitsgesetzes",
+      "positiv": 54,
+      "negativ": 11
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Umsetzung von Vorgaben der Richtlinie (EU) 2023/2413 für Zulassungsverfahren nach dem Bundes-Immiss…",
+      "positiv": 54,
+      "negativ": 5
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Simone Fischer, Dr. Janosch Dahmen, Linda Heitmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Priorität für Pflege – Jetzt Sofortmaßnahmen ergreifen",
+      "positiv": 57,
+      "negativ": 0
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Fraktion Die Linke: Mehrwertsteuer auf Grundnahrungsmittel, Hygieneprodukte und auf Bus und Bahn abschaffen",
+      "positiv": 47,
+      "negativ": 3
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zum Vertrag über die Errichtung, den Betrieb und die Weiterentwicklung des Nationalen Once-Only-Technical-Systems (NOO…",
+      "positiv": 34,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 92,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 44,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 36,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 22,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 12,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD erheben sich",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten im ganzen Hause",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 121,
+      "negativ": 23
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 105,
+      "negativ": 19
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 85,
+      "negativ": 4
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 59,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 63,
+      "negativ": 2
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 7,
+    "teilweise": 2,
+    "bestätigt": 2,
+    "irreführend": 1
+  }
+}

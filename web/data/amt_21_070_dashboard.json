@@ -1,0 +1,192 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "15.04.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "70"
+  },
+  "kennzahlen": {
+    "reden": 178,
+    "schriftliche_beitraege": 0,
+    "woerter": 35163,
+    "tops": 8,
+    "saalreaktionen": 494,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13840
+    },
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Entlastungen für die Bürgerinnen und Bürger – Zusätzliche Gewinne für Mineralölkonzerne verhindern",
+      "woerter": 9209
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Karoline Otte, Rebecca Lenhard, Dr. Anna Lührmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Big Tech fair besteuern – Digitalsteuer jetzt einführen",
+      "woerter": 4215
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Dr. Ingo Hahn, Nicole Höchst, Dr. Michael Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Wissenschafts- und Meinungsfreiheit an deutschen Universitäten und Hochschu…",
+      "woerter": 4055
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung der nationalen Umsetzung von europäischen Regelungen zum Ökodesign, zur Energieverbrauchskennzeichn…",
+      "woerter": 3844
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 7717,
+      "prozent": 29.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 6729,
+      "prozent": 25.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4805,
+      "prozent": 18.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4628,
+      "prozent": 17.4
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 2740,
+      "prozent": 10.3
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Entlastungen für die Bürgerinnen und Bürger – Zusätzliche Gewinne für Mineralölkonzerne verhindern",
+      "positiv": 82,
+      "negativ": 20
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Dr. Ingo Hahn, Nicole Höchst, Dr. Michael Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Wissenschafts- und Meinungsfreiheit an deutschen Universitäten und Hochschu…",
+      "positiv": 61,
+      "negativ": 18
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 49,
+      "negativ": 9
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Karoline Otte, Rebecca Lenhard, Dr. Anna Lührmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Big Tech fair besteuern – Digitalsteuer jetzt einführen",
+      "positiv": 48,
+      "negativ": 9
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung der nationalen Umsetzung von europäischen Regelungen zum Ökodesign, zur Energieverbrauchskennzeichn…",
+      "positiv": 38,
+      "negativ": 0
+    },
+    {
+      "top": 3,
+      "titel": "Fragestunde",
+      "positiv": 16,
+      "negativ": 2
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "top": 6,
+      "titel": "Einspruch gegen eine Ordnungsmaßnahme gemäß § 39 der Geschäftsordnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 51,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 28,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 19,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 8,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Parl. Staatssekretärin Rita Schwarzelühr-Sutter",
+      "positiv": 0,
+      "negativ": 1
+    },
+    {
+      "fraktion": "AfD sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 64,
+      "negativ": 21
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 60,
+      "negativ": 6
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 55,
+      "negativ": 10
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 39,
+      "negativ": 10
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 36,
+      "negativ": 4
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

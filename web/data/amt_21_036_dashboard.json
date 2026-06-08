@@ -1,0 +1,207 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "05.11.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "36"
+  },
+  "kennzahlen": {
+    "reden": 186,
+    "schriftliche_beitraege": 0,
+    "woerter": 42722,
+    "tops": 8,
+    "saalreaktionen": 665,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13837
+    },
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Auswirkungen des Verhältnisses der AfD zu Russland auf Deutschlands Sicherheitsinteressen – Kein Patriotismus, sondern mögliche Gefäh…",
+      "woerter": 10626
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Klimakonferenz in Belém – Neuer Schwung für den internationalen Klimaschutz",
+      "woerter": 5156
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Dr. Anna Lührmann, Karoline Otte, Misbah Khan, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Digitalabgabe für Werbeumsätze einführen – Medienvielfalt und K…",
+      "woerter": 5074
+    },
+    {
+      "top": 8,
+      "titel": "Beratung des Antrags der Abgeordneten Matthias Helferich, Ronald Gläser, Dr. Götz Frömming, weiterer Abgeordneter und der Fraktion der AfD: Den Deutschen Verlagspreis grundlegend reformieren – Keine…",
+      "woerter": 4318
+    },
+    {
+      "top": 7,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur effektiveren Ahndung und Bekämpfung von Straftaten im Zusammenhang mit explosionsgefährlichen Stoffen",
+      "woerter": 3711
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "AfD",
+      "woerter": 9096,
+      "prozent": 27.7
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8918,
+      "prozent": 27.2
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 5857,
+      "prozent": 17.8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5784,
+      "prozent": 17.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3164,
+      "prozent": 9.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Auswirkungen des Verhältnisses der AfD zu Russland auf Deutschlands Sicherheitsinteressen – Kein Patriotismus, sondern mögliche Gefäh…",
+      "positiv": 125,
+      "negativ": 54
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 56,
+      "negativ": 7
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Klimakonferenz in Belém – Neuer Schwung für den internationalen Klimaschutz",
+      "positiv": 53,
+      "negativ": 10
+    },
+    {
+      "top": 8,
+      "titel": "Beratung des Antrags der Abgeordneten Matthias Helferich, Ronald Gläser, Dr. Götz Frömming, weiterer Abgeordneter und der Fraktion der AfD: Den Deutschen Verlagspreis grundlegend reformieren – Keine…",
+      "positiv": 45,
+      "negativ": 9
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Dr. Anna Lührmann, Karoline Otte, Misbah Khan, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Digitalabgabe für Werbeumsätze einführen – Medienvielfalt und K…",
+      "positiv": 43,
+      "negativ": 5
+    },
+    {
+      "top": 7,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur effektiveren Ahndung und Bekämpfung von Straftaten im Zusammenhang mit explosionsgefährlichen Stoffen",
+      "positiv": 35,
+      "negativ": 0
+    },
+    {
+      "top": 3,
+      "titel": "Fragestunde",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 56,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 31,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 26,
+      "negativ": 3
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 22,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 8,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Besuchertribüne",
+      "positiv": 0,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 77,
+      "negativ": 38
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 73,
+      "negativ": 11
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 71,
+      "negativ": 9
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 57,
+      "negativ": 20
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 26,
+      "negativ": 4
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

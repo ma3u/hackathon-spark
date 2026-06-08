@@ -1,0 +1,170 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "06.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "63"
+  },
+  "kennzahlen": {
+    "reden": 72,
+    "schriftliche_beitraege": 0,
+    "woerter": 36239,
+    "tops": 6,
+    "saalreaktionen": 654,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Christian Görke, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Vermögensteuer wieder erheben – Länderfinanzen nachhaltig sichern",
+      "woerter": 8783
+    },
+    {
+      "top": 1,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung der Krankenhausreform (Krankenhausreformanpassungsgesetz – KHAG)",
+      "woerter": 8685
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Karoline Otte, Marlene Schönberger, Dr. Alaa Alhamwi, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Starke Kommunen, starke Demokratie – Für mehr Zusammenha…",
+      "woerter": 5946
+    },
+    {
+      "top": 5,
+      "titel": "a) Unterrichtung durch die Bundesregierung: Gutachten zu Forschung, Innovation und technologischer Leistungsfähigkeit Deutschlands 2026",
+      "woerter": 4477
+    },
+    {
+      "top": 3,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Angebote der Jugendarbeit im Ganztag während der Schulferien",
+      "woerter": 4317
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Stephan Brandner, Markus Frohnmaier, Lars Haise, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung des 1. Untersuchungsausschusses der 21. Wahlperiode („Stuttgart 21“)",
+      "woerter": 4031
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 10239,
+      "prozent": 29.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 7707,
+      "prozent": 22.2
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 7301,
+      "prozent": 21.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4878,
+      "prozent": 14.1
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4518,
+      "prozent": 13.0
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Christian Görke, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Vermögensteuer wieder erheben – Länderfinanzen nachhaltig sichern",
+      "positiv": 108,
+      "negativ": 26
+    },
+    {
+      "top": 1,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung der Krankenhausreform (Krankenhausreformanpassungsgesetz – KHAG)",
+      "positiv": 95,
+      "negativ": 17
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Karoline Otte, Marlene Schönberger, Dr. Alaa Alhamwi, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Starke Kommunen, starke Demokratie – Für mehr Zusammenha…",
+      "positiv": 58,
+      "negativ": 27
+    },
+    {
+      "top": 5,
+      "titel": "a) Unterrichtung durch die Bundesregierung: Gutachten zu Forschung, Innovation und technologischer Leistungsfähigkeit Deutschlands 2026",
+      "positiv": 59,
+      "negativ": 4
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Stephan Brandner, Markus Frohnmaier, Lars Haise, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung des 1. Untersuchungsausschusses der 21. Wahlperiode („Stuttgart 21“)",
+      "positiv": 50,
+      "negativ": 9
+    },
+    {
+      "top": 3,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Angebote der Jugendarbeit im Ganztag während der Schulferien",
+      "positiv": 46,
+      "negativ": 4
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 85,
+      "negativ": 8
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 42,
+      "negativ": 18
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 34,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 19,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 6,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 96,
+      "negativ": 31
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 94,
+      "negativ": 15
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 74,
+      "negativ": 23
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 73,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 56,
+      "negativ": 12
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

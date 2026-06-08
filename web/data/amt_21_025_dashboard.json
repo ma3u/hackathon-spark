@@ -1,0 +1,189 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "18.09.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "25"
+  },
+  "kennzahlen": {
+    "reden": 52,
+    "schriftliche_beitraege": 0,
+    "woerter": 34447,
+    "tops": 5,
+    "saalreaktionen": 592,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 5,
+      "titel": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Haushaltsbegleitgesetzes 2025",
+      "woerter": 12605
+    },
+    {
+      "top": 2,
+      "titel": "Einzelplan 06",
+      "woerter": 11085
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan 07",
+      "woerter": 10757
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 9047,
+      "prozent": 28.2
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 8513,
+      "prozent": 26.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4677,
+      "prozent": 14.6
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4552,
+      "prozent": 14.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4084,
+      "prozent": 12.7
+    },
+    {
+      "fraktion": "SPDSPD",
+      "woerter": 891,
+      "prozent": 2.8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 349,
+      "prozent": 1.1
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 5,
+      "titel": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Haushaltsbegleitgesetzes 2025",
+      "positiv": 153,
+      "negativ": 20
+    },
+    {
+      "top": 2,
+      "titel": "Einzelplan 06",
+      "positiv": 148,
+      "negativ": 21
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan 07",
+      "positiv": 104,
+      "negativ": 14
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 83,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 59,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 38,
+      "negativ": 2
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 19,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "LINKEN",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 108,
+      "negativ": 22
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 97,
+      "negativ": 6
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 56,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 49,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 52,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPDSPD",
+      "positiv": 10,
+      "negativ": 1
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

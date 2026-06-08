@@ -1,0 +1,307 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "15.01.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "53"
+  },
+  "kennzahlen": {
+    "reden": 165,
+    "schriftliche_beitraege": 0,
+    "woerter": 90449,
+    "tops": 17,
+    "saalreaktionen": 1511,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zukunftsperspektiven für Landwirtschaft und Weinbau in Deutschland schaffen – Attraktivität und Kulturgut ländlicher Räume erhalten",
+      "woerter": 11872
+    },
+    {
+      "top": 3,
+      "titel": "a) Antrag der Abgeordneten Sandra Stein, Dr. Alaa Alhamwi, Katharina Beck, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mittelstand jetzt stärken",
+      "woerter": 9028
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Politische Chancengleichheit auch im digitalen Raum – Aufhebung der Verordnung (E…",
+      "woerter": 8778
+    },
+    {
+      "top": 4,
+      "titel": "Unterrichtung durch die Bundesregierung: Bericht der Bundesregierung über Maßnahmen der Bundesregierung für Bürokratierückbau",
+      "woerter": 8633
+    },
+    {
+      "top": 2,
+      "titel": "Tagesordnungspunkt",
+      "woerter": 8280
+    },
+    {
+      "top": 10,
+      "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Landwirtschaft, Ernährung und Heimat zu dem Antrag der Abgeordneten Stephan Protschka, Peter Felser, Danny Meiners, weiterer Abgeordneter und de…",
+      "woerter": 4709
+    },
+    {
+      "top": 14,
+      "titel": "a) Antrag der Abgeordneten Sven Lehmann, Katrin Göring-Eckardt, Misbah Khan, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Film- und Kinostandort Deutschland stärken",
+      "woerter": 4594
+    },
+    {
+      "top": 13,
+      "titel": "Beratung der Dritten Beschlussempfehlung des Wahlprüfungsausschusses zu Einsprüchen anlässlich der Wahl zum 21. Deutschen Bundestag am 23. Februar 2025",
+      "woerter": 4574
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Caren Lay, Luigi Pantisano, Marcel Bauer, weiterer Abgeordneter und der Fraktion Die Linke: Mieterinnen und Mieter besser schützen – Erste Mietrechtsnovelle sofort umsetzen",
+      "woerter": 4453
+    },
+    {
+      "top": 16,
+      "titel": "Beschlussempfehlung und Bericht des Innenausschusses zu dem Antrag der Abgeordneten Martin Hess, Stephan Brandner, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Inneren Frieden…",
+      "woerter": 4404
+    },
+    {
+      "top": 7,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur beschleunigten Planung und Beschaffung für die Bundeswehr",
+      "woerter": 4194
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Arne Raue, Alexander Arpaschi, Dr. Christina Baum, weiterer Abgeordneter und der Fraktion der AfD: Stärkung des Katastrophenschutzes und der Resistenz kritischer Infrastruktur…",
+      "woerter": 4013
+    },
+    {
+      "top": 9,
+      "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Tierhaltungskennzeichnungsgesetzes",
+      "woerter": 3848
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung von Straftatbeständen und Sanktionen bei Verstößen gegen restriktive Maßnahmen der Europäisc…",
+      "woerter": 3670
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über den Informationsaustausch zwischen den Strafverfolgungsbehörden der Mitgliedstaaten der Europäischen…",
+      "woerter": 2772
+    },
+    {
+      "top": 17,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Begrenzung der Risiken durch Investmentfonds und zur Umsetzung der Richtlinie (EU) 2024/927 im Hinblick auf Übertr…",
+      "woerter": 2627
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 26415,
+      "prozent": 31.2
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 20396,
+      "prozent": 24.1
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 16220,
+      "prozent": 19.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 12851,
+      "prozent": 15.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8874,
+      "prozent": 10.5
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Tagesordnungspunkt",
+      "positiv": 125,
+      "negativ": 22
+    },
+    {
+      "top": 3,
+      "titel": "a) Antrag der Abgeordneten Sandra Stein, Dr. Alaa Alhamwi, Katharina Beck, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mittelstand jetzt stärken",
+      "positiv": 122,
+      "negativ": 23
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Politische Chancengleichheit auch im digitalen Raum – Aufhebung der Verordnung (E…",
+      "positiv": 92,
+      "negativ": 27
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zukunftsperspektiven für Landwirtschaft und Weinbau in Deutschland schaffen – Attraktivität und Kulturgut ländlicher Räume erhalten",
+      "positiv": 104,
+      "negativ": 10
+    },
+    {
+      "top": 4,
+      "titel": "Unterrichtung durch die Bundesregierung: Bericht der Bundesregierung über Maßnahmen der Bundesregierung für Bürokratierückbau",
+      "positiv": 84,
+      "negativ": 11
+    },
+    {
+      "top": 16,
+      "titel": "Beschlussempfehlung und Bericht des Innenausschusses zu dem Antrag der Abgeordneten Martin Hess, Stephan Brandner, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Inneren Frieden…",
+      "positiv": 48,
+      "negativ": 18
+    },
+    {
+      "top": 10,
+      "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Landwirtschaft, Ernährung und Heimat zu dem Antrag der Abgeordneten Stephan Protschka, Peter Felser, Danny Meiners, weiterer Abgeordneter und de…",
+      "positiv": 47,
+      "negativ": 11
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Arne Raue, Alexander Arpaschi, Dr. Christina Baum, weiterer Abgeordneter und der Fraktion der AfD: Stärkung des Katastrophenschutzes und der Resistenz kritischer Infrastruktur…",
+      "positiv": 48,
+      "negativ": 5
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Caren Lay, Luigi Pantisano, Marcel Bauer, weiterer Abgeordneter und der Fraktion Die Linke: Mieterinnen und Mieter besser schützen – Erste Mietrechtsnovelle sofort umsetzen",
+      "positiv": 47,
+      "negativ": 2
+    },
+    {
+      "top": 7,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur beschleunigten Planung und Beschaffung für die Bundeswehr",
+      "positiv": 45,
+      "negativ": 2
+    },
+    {
+      "top": 14,
+      "titel": "a) Antrag der Abgeordneten Sven Lehmann, Katrin Göring-Eckardt, Misbah Khan, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Film- und Kinostandort Deutschland stärken",
+      "positiv": 44,
+      "negativ": 3
+    },
+    {
+      "top": 9,
+      "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Tierhaltungskennzeichnungsgesetzes",
+      "positiv": 44,
+      "negativ": 0
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung von Straftatbeständen und Sanktionen bei Verstößen gegen restriktive Maßnahmen der Europäisc…",
+      "positiv": 41,
+      "negativ": 0
+    },
+    {
+      "top": 13,
+      "titel": "Beratung der Dritten Beschlussempfehlung des Wahlprüfungsausschusses zu Einsprüchen anlässlich der Wahl zum 21. Deutschen Bundestag am 23. Februar 2025",
+      "positiv": 36,
+      "negativ": 2
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über den Informationsaustausch zwischen den Strafverfolgungsbehörden der Mitgliedstaaten der Europäischen…",
+      "positiv": 30,
+      "negativ": 6
+    },
+    {
+      "top": 17,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Begrenzung der Risiken durch Investmentfonds und zur Umsetzung der Richtlinie (EU) 2024/927 im Hinblick auf Übertr…",
+      "positiv": 26,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 8,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 161,
+      "negativ": 26
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 146,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 90,
+      "negativ": 9
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 33,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 15,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 8,
+      "negativ": 2
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 271,
+      "negativ": 54
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 199,
+      "negativ": 48
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 175,
+      "negativ": 18
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 165,
+      "negativ": 16
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 105,
+      "negativ": 2
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "falsch": 1
+  }
+}

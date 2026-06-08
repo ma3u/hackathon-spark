@@ -1,0 +1,244 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "19.12.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "51"
+  },
+  "kennzahlen": {
+    "reden": 94,
+    "schriftliche_beitraege": 0,
+    "woerter": 51717,
+    "tops": 10,
+    "saalreaktionen": 919,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung privater Investitionen und des Finanzstandorts (Standortfördergesetz – StoFöG)",
+      "woerter": 10152
+    },
+    {
+      "top": 10,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Digital Services Act abschaffen – Keine Einschränkung der Meinungsfreiheit im digitalen Raum durch die EU",
+      "woerter": 9727
+    },
+    {
+      "top": 4,
+      "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Abgeordneten Christian Görke, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Steuerprivileg…",
+      "woerter": 8117
+    },
+    {
+      "top": 8,
+      "titel": "a) Antrag der Abgeordneten Markus Frohnmaier, Jan Wenzel Schmidt, Udo Theodor Hemmelgarn, weiterer Abgeordneter und der Fraktion der AfD: Die neue sicherheitspolitische Vision der USA als Chance wahr…",
+      "woerter": 4766
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Luise Amtsberg, Schahina Gambir, Agnieszka Brugger, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Syrien ein Jahr nach Sturz des Assad-Regimes – Gerechtigke…",
+      "woerter": 4273
+    },
+    {
+      "top": 5,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Gesetzes gegen den unlauteren Wettbewerb",
+      "woerter": 4252
+    },
+    {
+      "top": 9,
+      "titel": "Unterrichtung durch die Bundesregierung: Bericht über das deutsche Engagement beim Einsatz von Polizistinnen und Polizisten in internationalen Polizeimissionen 2024",
+      "woerter": 4058
+    },
+    {
+      "top": 7,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2017/541 zur Terrorismusbekämpfung und zur Anpassung des Strafrahmens bei geheimd…",
+      "woerter": 4004
+    },
+    {
+      "top": 2,
+      "titel": "Beratung der Beschlussempfehlung des Ausschusses nach Artikel 77 des Grundgesetzes (Vermittlungsausschuss) zu dem Gesetz zur Befugniserweiterung und Entbürokratisierung in der Pflege",
+      "woerter": 2368
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 15191,
+      "prozent": 30.3
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 12469,
+      "prozent": 24.9
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 9806,
+      "prozent": 19.6
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 7589,
+      "prozent": 15.1
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5093,
+      "prozent": 10.2
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 10,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Digital Services Act abschaffen – Keine Einschränkung der Meinungsfreiheit im digitalen Raum durch die EU",
+      "positiv": 96,
+      "negativ": 41
+    },
+    {
+      "top": 4,
+      "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Abgeordneten Christian Görke, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Steuerprivileg…",
+      "positiv": 90,
+      "negativ": 18
+    },
+    {
+      "top": 3,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung privater Investitionen und des Finanzstandorts (Standortfördergesetz – StoFöG)",
+      "positiv": 84,
+      "negativ": 22
+    },
+    {
+      "top": 8,
+      "titel": "a) Antrag der Abgeordneten Markus Frohnmaier, Jan Wenzel Schmidt, Udo Theodor Hemmelgarn, weiterer Abgeordneter und der Fraktion der AfD: Die neue sicherheitspolitische Vision der USA als Chance wahr…",
+      "positiv": 56,
+      "negativ": 9
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Luise Amtsberg, Schahina Gambir, Agnieszka Brugger, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Syrien ein Jahr nach Sturz des Assad-Regimes – Gerechtigke…",
+      "positiv": 41,
+      "negativ": 10
+    },
+    {
+      "top": 7,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2017/541 zur Terrorismusbekämpfung und zur Anpassung des Strafrahmens bei geheimd…",
+      "positiv": 42,
+      "negativ": 2
+    },
+    {
+      "top": 5,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Gesetzes gegen den unlauteren Wettbewerb",
+      "positiv": 39,
+      "negativ": 3
+    },
+    {
+      "top": 9,
+      "titel": "Unterrichtung durch die Bundesregierung: Bericht über das deutsche Engagement beim Einsatz von Polizistinnen und Polizisten in internationalen Polizeimissionen 2024",
+      "positiv": 39,
+      "negativ": 3
+    },
+    {
+      "top": 2,
+      "titel": "Beratung der Beschlussempfehlung des Ausschusses nach Artikel 77 des Grundgesetzes (Vermittlungsausschuss) zu dem Gesetz zur Befugniserweiterung und Entbürokratisierung in der Pflege",
+      "positiv": 24,
+      "negativ": 8
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 3,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 98,
+      "negativ": 20
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 55,
+      "negativ": 11
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 50,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 22,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 3,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der Linken",
+      "positiv": 0,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 123,
+      "negativ": 50
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 132,
+      "negativ": 19
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 98,
+      "negativ": 24
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 84,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 53,
+      "negativ": 11
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

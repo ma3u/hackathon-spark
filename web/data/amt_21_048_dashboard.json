@@ -1,0 +1,206 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "05.12.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "48"
+  },
+  "kennzahlen": {
+    "reden": 86,
+    "schriftliche_beitraege": 26,
+    "woerter": 44368,
+    "tops": 8,
+    "saalreaktionen": 851,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stabilisierung des Rentenniveaus und zur vollständigen Gleichstellung der Kindererziehungszeiten",
+      "woerter": 10620
+    },
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Wehrdienstes (Wehrdienst-Modernisierungsgesetz – WDModG)",
+      "woerter": 8094
+    },
+    {
+      "top": 2,
+      "titel": "a) Antrag der Abgeordneten Jörn König, Peter Boehringer, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Bargeld ist gedruckte Freiheit – Vorhaben der Europäischen Zentralbank für dig…",
+      "woerter": 7861
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Pascal Meiser, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Paketzustellerinnen und Paketzusteller wirksam vor Überlastung und Ausbeutung…",
+      "woerter": 4855
+    },
+    {
+      "top": 5,
+      "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Bestimmung sicherer Herkunftsstaaten durch Rechtsverordnung und Abschaffung des anwaltl…",
+      "woerter": 4812
+    },
+    {
+      "top": 6,
+      "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Abgeordneten Robin Wagener, Dr. Sebastian Schäfer, Claudia Roth, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN:…",
+      "woerter": 4186
+    },
+    {
+      "top": 7,
+      "titel": "Vereinbarte Debatte: 30. Jahrestag des Vertrags von Dayton",
+      "woerter": 3940
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 12317,
+      "prozent": 29.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 9527,
+      "prozent": 22.4
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 8735,
+      "prozent": 20.6
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6881,
+      "prozent": 16.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4991,
+      "prozent": 11.8
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stabilisierung des Rentenniveaus und zur vollständigen Gleichstellung der Kindererziehungszeiten",
+      "positiv": 164,
+      "negativ": 42
+    },
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Wehrdienstes (Wehrdienst-Modernisierungsgesetz – WDModG)",
+      "positiv": 116,
+      "negativ": 18
+    },
+    {
+      "top": 2,
+      "titel": "a) Antrag der Abgeordneten Jörn König, Peter Boehringer, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Bargeld ist gedruckte Freiheit – Vorhaben der Europäischen Zentralbank für dig…",
+      "positiv": 97,
+      "negativ": 12
+    },
+    {
+      "top": 5,
+      "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Bestimmung sicherer Herkunftsstaaten durch Rechtsverordnung und Abschaffung des anwaltl…",
+      "positiv": 57,
+      "negativ": 6
+    },
+    {
+      "top": 6,
+      "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Abgeordneten Robin Wagener, Dr. Sebastian Schäfer, Claudia Roth, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN:…",
+      "positiv": 50,
+      "negativ": 8
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Pascal Meiser, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Paketzustellerinnen und Paketzusteller wirksam vor Überlastung und Ausbeutung…",
+      "positiv": 52,
+      "negativ": 2
+    },
+    {
+      "top": 7,
+      "titel": "Vereinbarte Debatte: 30. Jahrestag des Vertrags von Dayton",
+      "positiv": 33,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "Linken",
+      "positiv": 70,
+      "negativ": 24
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 76,
+      "negativ": 13
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 55,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 38,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 136,
+      "negativ": 22
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 116,
+      "negativ": 19
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 106,
+      "negativ": 24
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 102,
+      "negativ": 12
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 81,
+      "negativ": 10
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "23.04.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "74"
+  },
+  "kennzahlen": {
+    "reden": 148,
+    "schriftliche_beitraege": 0,
+    "woerter": 83945,
+    "tops": 15,
+    "saalreaktionen": 1471,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 5,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Vorfälle bei einem von der Amadeu Antonio Stiftung geförderten Schulprojekt",
+      "woerter": 9491
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Kommunales Vetorecht gegen Zwangszuweisungen von Flüchtlingen",
+      "woerter": 9208
+    },
+    {
+      "top": 1,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Vergabe öffentlicher Aufträge",
+      "woerter": 8952
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Abgeordneten Dr. Lena Gumnior, Ulle Schauws, Helge Limburg, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines … Gesetzes zur Änderun…",
+      "woerter": 8826
+    },
+    {
+      "top": 3,
+      "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Deutschlands maritime Wirtschaft stärken – Sicherheit, Resilienz und Innovation vom Hinterland über die Küste bis zur Hohen See",
+      "woerter": 8059
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Ates Gürpinar, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Krankenversicherte entlasten, nicht belasten",
+      "woerter": 6234
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Erwin Renner, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Konsequenzen aus dem Gerichtsurteil zur Correctiv-Berichterstattung zieh…",
+      "woerter": 4457
+    },
+    {
+      "top": 8,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Weiterentwicklung der Treibhausgasminderungs-Quote",
+      "woerter": 4330
+    },
+    {
+      "top": 6,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung einer Verordnung der Europäischen Union zum Datenaustausch bei Kurzzeitvermietungen sowie…",
+      "woerter": 3956
+    },
+    {
+      "top": 12,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung und Modernisierung des Anwaltsnotariats",
+      "woerter": 3903
+    },
+    {
+      "top": 10,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Energiewirtschaftsgesetzes und weiterer energierechtlicher Vorschriften zur Umsetzung des Europäische…",
+      "woerter": 3818
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Christian Douglas, Diana Zimmer, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Rechts- und Planungssicherheit herstellen – Vermögensteuer abschaffen",
+      "woerter": 3741
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Harald Ebner, Dr. Julia Verlinden, Dr. Jan-Niclas Gesenhues, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: 40 Jahre Tschernobyl – Atomkraft und ihre Folgen",
+      "woerter": 3610
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Mobilfunklücken schließen – Nationale Netzabdeckung für alle Bürger",
+      "woerter": 2755
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von den Abgeordneten Dr. Michael Espendiller, Ulrich von Zons, Georg Schroeter, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur…",
+      "woerter": 2605
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 28314,
+      "prozent": 34.1
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 18661,
+      "prozent": 22.5
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 15924,
+      "prozent": 19.2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11782,
+      "prozent": 14.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8382,
+      "prozent": 10.1
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Kommunales Vetorecht gegen Zwangszuweisungen von Flüchtlingen",
+      "positiv": 104,
+      "negativ": 24
+    },
+    {
+      "top": 5,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Vorfälle bei einem von der Amadeu Antonio Stiftung geförderten Schulprojekt",
+      "positiv": 94,
+      "negativ": 30
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Abgeordneten Dr. Lena Gumnior, Ulle Schauws, Helge Limburg, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines … Gesetzes zur Änderun…",
+      "positiv": 87,
+      "negativ": 23
+    },
+    {
+      "top": 1,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Vergabe öffentlicher Aufträge",
+      "positiv": 88,
+      "negativ": 7
+    },
+    {
+      "top": 3,
+      "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Deutschlands maritime Wirtschaft stärken – Sicherheit, Resilienz und Innovation vom Hinterland über die Küste bis zur Hohen See",
+      "positiv": 83,
+      "negativ": 8
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Ates Gürpinar, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Krankenversicherte entlasten, nicht belasten",
+      "positiv": 48,
+      "negativ": 22
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Erwin Renner, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Konsequenzen aus dem Gerichtsurteil zur Correctiv-Berichterstattung zieh…",
+      "positiv": 52,
+      "negativ": 10
+    },
+    {
+      "top": 8,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Weiterentwicklung der Treibhausgasminderungs-Quote",
+      "positiv": 46,
+      "negativ": 11
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Christian Douglas, Diana Zimmer, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Rechts- und Planungssicherheit herstellen – Vermögensteuer abschaffen",
+      "positiv": 41,
+      "negativ": 8
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Harald Ebner, Dr. Julia Verlinden, Dr. Jan-Niclas Gesenhues, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: 40 Jahre Tschernobyl – Atomkraft und ihre Folgen",
+      "positiv": 40,
+      "negativ": 7
+    },
+    {
+      "top": 10,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Energiewirtschaftsgesetzes und weiterer energierechtlicher Vorschriften zur Umsetzung des Europäische…",
+      "positiv": 39,
+      "negativ": 3
+    },
+    {
+      "top": 6,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung einer Verordnung der Europäischen Union zum Datenaustausch bei Kurzzeitvermietungen sowie…",
+      "positiv": 32,
+      "negativ": 6
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von den Abgeordneten Dr. Michael Espendiller, Ulrich von Zons, Georg Schroeter, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur…",
+      "positiv": 32,
+      "negativ": 2
+    },
+    {
+      "top": 12,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung und Modernisierung des Anwaltsnotariats",
+      "positiv": 29,
+      "negativ": 0
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Mobilfunklücken schließen – Nationale Netzabdeckung für alle Bürger",
+      "positiv": 23,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 177,
+      "negativ": 41
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 92,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 76,
+      "negativ": 16
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 45,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 15,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 5,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 237,
+      "negativ": 58
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 191,
+      "negativ": 49
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 142,
+      "negativ": 22
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 135,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 109,
+      "negativ": 13
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "irreführend": 1
+  }
+}

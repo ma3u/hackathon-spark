@@ -1,0 +1,211 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "27.11.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "44"
+  },
+  "kennzahlen": {
+    "reden": 117,
+    "schriftliche_beitraege": 0,
+    "woerter": 79194,
+    "tops": 6,
+    "saalreaktionen": 1266,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 4,
+      "titel": "Einzelplan I.16",
+      "woerter": 13956
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan I.15",
+      "woerter": 13926
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan I.17",
+      "woerter": 13384
+    },
+    {
+      "top": 1,
+      "titel": "Einzelplan I.13",
+      "woerter": 12819
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan I.18",
+      "woerter": 12806
+    },
+    {
+      "top": 2,
+      "titel": "Einzelplan I.14",
+      "woerter": 12303
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 22269,
+      "prozent": 30.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 17557,
+      "prozent": 24.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 12534,
+      "prozent": 17.4
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 10762,
+      "prozent": 14.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 7198,
+      "prozent": 10.0
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 1373,
+      "prozent": 1.9
+    },
+    {
+      "fraktion": "SPDSPD",
+      "woerter": 537,
+      "prozent": 0.7
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "Einzelplan I.13",
+      "positiv": 139,
+      "negativ": 34
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan I.17",
+      "positiv": 149,
+      "negativ": 23
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan I.15",
+      "positiv": 150,
+      "negativ": 15
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan I.16",
+      "positiv": 137,
+      "negativ": 20
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan I.18",
+      "positiv": 139,
+      "negativ": 18
+    },
+    {
+      "top": 2,
+      "titel": "Einzelplan I.14",
+      "positiv": 130,
+      "negativ": 10
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 180,
+      "negativ": 11
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 87,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 72,
+      "negativ": 11
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 63,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 15,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 7,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 206,
+      "negativ": 34
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 200,
+      "negativ": 39
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 136,
+      "negativ": 12
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 127,
+      "negativ": 16
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 84,
+      "negativ": 10
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 10,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPDSPD",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

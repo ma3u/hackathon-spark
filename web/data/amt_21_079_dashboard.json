@@ -1,0 +1,186 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "20.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "79"
+  },
+  "kennzahlen": {
+    "reden": 174,
+    "schriftliche_beitraege": 0,
+    "woerter": 40978,
+    "tops": 7,
+    "saalreaktionen": 624,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 14332
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Extremes Szenario zur Erderwärmung laut Forschern des IPCC weggefallen – Konsequenzen für die Klimapolitik der Bundesregierung",
+      "woerter": 8589
+    },
+    {
+      "top": 6,
+      "titel": "Vereinbarte Debatte: Zur Situation im Sudan und zur Verständigung auf die Berliner Prinzipien",
+      "woerter": 4936
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Ulrich Thoden, Desiree Becker, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Keine Stationierung von Mittelstreckenraketen in Deutschland",
+      "woerter": 4631
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Sascha Lensing, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Paralleljustiz bekämpfen – Bundesweites Lagebild schaffen",
+      "woerter": 4281
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1799 zur Förderung der Reparatur von Waren",
+      "woerter": 4209
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8180,
+      "prozent": 27.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 7318,
+      "prozent": 24.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6425,
+      "prozent": 21.2
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4846,
+      "prozent": 16.0
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3576,
+      "prozent": 11.8
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Extremes Szenario zur Erderwärmung laut Forschern des IPCC weggefallen – Konsequenzen für die Klimapolitik der Bundesregierung",
+      "positiv": 89,
+      "negativ": 45
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 88,
+      "negativ": 14
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Ulrich Thoden, Desiree Becker, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Keine Stationierung von Mittelstreckenraketen in Deutschland",
+      "positiv": 37,
+      "negativ": 13
+    },
+    {
+      "top": 6,
+      "titel": "Vereinbarte Debatte: Zur Situation im Sudan und zur Verständigung auf die Berliner Prinzipien",
+      "positiv": 46,
+      "negativ": 3
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Sascha Lensing, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Paralleljustiz bekämpfen – Bundesweites Lagebild schaffen",
+      "positiv": 42,
+      "negativ": 5
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1799 zur Förderung der Reparatur von Waren",
+      "positiv": 42,
+      "negativ": 0
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 14,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 65,
+      "negativ": 12
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 31,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 28,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 26,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 4,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 70,
+      "negativ": 17
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 64,
+      "negativ": 11
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 54,
+      "negativ": 20
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 41,
+      "negativ": 9
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 33,
+      "negativ": 11
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

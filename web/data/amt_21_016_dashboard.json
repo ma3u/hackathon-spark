@@ -1,0 +1,216 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "08.07.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "16"
+  },
+  "kennzahlen": {
+    "reden": 126,
+    "schriftliche_beitraege": 0,
+    "woerter": 83312,
+    "tops": 7,
+    "saalreaktionen": 1341,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 4,
+      "titel": "Einzelplan 25",
+      "woerter": 13235
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 12",
+      "woerter": 13170
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan 09",
+      "woerter": 13145
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan 16",
+      "woerter": 12978
+    },
+    {
+      "top": 7,
+      "titel": "Einzelplan 10",
+      "woerter": 12479
+    },
+    {
+      "top": 2,
+      "titel": "Einzelplan 08",
+      "woerter": 12328
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2025 (Haushaltsgesetz 2025 – HG 2025)",
+      "woerter": 5977
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 19536,
+      "prozent": 27.5
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 18114,
+      "prozent": 25.5
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 13454,
+      "prozent": 18.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11227,
+      "prozent": 15.8
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 7940,
+      "prozent": 11.2
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 764,
+      "prozent": 1.1
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 6,
+      "titel": "Einzelplan 16",
+      "positiv": 161,
+      "negativ": 21
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan 09",
+      "positiv": 160,
+      "negativ": 19
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 25",
+      "positiv": 150,
+      "negativ": 20
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 12",
+      "positiv": 156,
+      "negativ": 12
+    },
+    {
+      "top": 2,
+      "titel": "Einzelplan 08",
+      "positiv": 145,
+      "negativ": 17
+    },
+    {
+      "top": 7,
+      "titel": "Einzelplan 10",
+      "positiv": 137,
+      "negativ": 21
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2025 (Haushaltsgesetz 2025 – HG 2025)",
+      "positiv": 36,
+      "negativ": 10
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 190,
+      "negativ": 25
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 122,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 80,
+      "negativ": 10
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 41,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 7,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Koalition",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 250,
+      "negativ": 37
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 198,
+      "negativ": 14
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 135,
+      "negativ": 28
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 146,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 107,
+      "negativ": 7
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 7,
+      "negativ": 1
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

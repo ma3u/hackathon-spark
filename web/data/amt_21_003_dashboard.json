@@ -1,0 +1,203 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "14.05.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "3"
+  },
+  "kennzahlen": {
+    "reden": 153,
+    "schriftliche_beitraege": 0,
+    "woerter": 61186,
+    "tops": 4,
+    "saalreaktionen": 939,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler",
+      "woerter": 24471
+    },
+    {
+      "top": 2,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler",
+      "woerter": 23875
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 12840
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 11476,
+      "prozent": 27.4
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 10334,
+      "prozent": 24.7
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 7528,
+      "prozent": 18.0
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6634,
+      "prozent": 15.8
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5537,
+      "prozent": 13.2
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 409,
+      "prozent": 1.0
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler",
+      "positiv": 305,
+      "negativ": 36
+    },
+    {
+      "top": 3,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler",
+      "positiv": 289,
+      "negativ": 21
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 84,
+      "negativ": 6
+    },
+    {
+      "top": 4,
+      "titel": "Fragestunde",
+      "positiv": 41,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 100,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 88,
+      "negativ": 12
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 82,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 61,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 14,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Beifall bei der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 131,
+      "negativ": 22
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 118,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 92,
+      "negativ": 2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 88,
+      "negativ": 5
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 72,
+      "negativ": 3
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 5,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

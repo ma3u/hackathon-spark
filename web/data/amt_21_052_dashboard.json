@@ -1,0 +1,187 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "14.01.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "52"
+  },
+  "kennzahlen": {
+    "reden": 164,
+    "schriftliche_beitraege": 0,
+    "woerter": 35532,
+    "tops": 7,
+    "saalreaktionen": 574,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 12249
+    },
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Mutmaßlich linksextremistischer Terroranschlag auf die Stromversorgung in Berlin – Krisenmanagement und mögliches Versagen untersuchen",
+      "woerter": 10885
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Sebastian Maack, Martin Reichardt, Gereon Bollmann, weiterer Abgeordneter und der Fraktion der AfD: Elternschaft und Existenzgründung ermöglichen – Schutz von selbstständigen…",
+      "woerter": 4648
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Dr. Ophelia Nick, Dr. Zoe Mayer, Niklas Wagener, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Landwirtschaft und Ernährung zukunftsfähig gestalten",
+      "woerter": 4062
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Bundesjagdgesetzes und zur Änderung des Bundesnaturschutzgesetzes",
+      "woerter": 3688
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 7974,
+      "prozent": 28.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 6887,
+      "prozent": 24.7
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5429,
+      "prozent": 19.5
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4708,
+      "prozent": 16.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 2893,
+      "prozent": 10.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Mutmaßlich linksextremistischer Terroranschlag auf die Stromversorgung in Berlin – Krisenmanagement und mögliches Versagen untersuchen",
+      "positiv": 120,
+      "negativ": 43
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 74,
+      "negativ": 11
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Dr. Ophelia Nick, Dr. Zoe Mayer, Niklas Wagener, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Landwirtschaft und Ernährung zukunftsfähig gestalten",
+      "positiv": 48,
+      "negativ": 4
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Sebastian Maack, Martin Reichardt, Gereon Bollmann, weiterer Abgeordneter und der Fraktion der AfD: Elternschaft und Existenzgründung ermöglichen – Schutz von selbstständigen…",
+      "positiv": 48,
+      "negativ": 4
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Bundesjagdgesetzes und zur Änderung des Bundesnaturschutzgesetzes",
+      "positiv": 41,
+      "negativ": 4
+    },
+    {
+      "top": 3,
+      "titel": "Fragestunde",
+      "positiv": 17,
+      "negativ": 2
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 63,
+      "negativ": 23
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 34,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 21,
+      "negativ": 3
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 13,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Dobrindt gewandt",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 71,
+      "negativ": 26
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 68,
+      "negativ": 11
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 61,
+      "negativ": 7
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 45,
+      "negativ": 6
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 25,
+      "negativ": 11
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

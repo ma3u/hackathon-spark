@@ -1,0 +1,176 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "06.05.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "2"
+  },
+  "kennzahlen": {
+    "reden": 24,
+    "schriftliche_beitraege": 0,
+    "woerter": 1828,
+    "tops": 7,
+    "saalreaktionen": 112,
+    "geprüfte_aussagen": 5
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Zur Geschäftsordnung",
+      "woerter": 1637
+    },
+    {
+      "top": 7,
+      "titel": "Eidesleistung der Bundesministerinnen und Bundesminister",
+      "woerter": 123
+    },
+    {
+      "top": 5,
+      "titel": "Eidesleistung des Bundeskanzlers",
+      "woerter": 54
+    },
+    {
+      "top": 4,
+      "titel": "Wahl des Bundeskanzlers",
+      "woerter": 14
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 367,
+      "prozent": 22.2
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 338,
+      "prozent": 20.5
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 335,
+      "prozent": 20.3
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 316,
+      "prozent": 19.1
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 295,
+      "prozent": 17.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Zur Geschäftsordnung",
+      "positiv": 27,
+      "negativ": 7
+    },
+    {
+      "top": 7,
+      "titel": "Eidesleistung der Bundesministerinnen und Bundesminister",
+      "positiv": 18,
+      "negativ": 0
+    },
+    {
+      "top": 6,
+      "titel": "Bekanntgabe der Bildung der Bundesregierung",
+      "positiv": 17,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 13,
+      "negativ": 0
+    },
+    {
+      "top": 2,
+      "titel": "Wahl des Bundeskanzlers",
+      "positiv": 3,
+      "negativ": 1
+    },
+    {
+      "top": 4,
+      "titel": "Wahl des Bundeskanzlers",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "top": 5,
+      "titel": "Eidesleistung des Bundeskanzlers",
+      "positiv": 2,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "SPD",
+      "positiv": 13,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 6,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 7,
+      "negativ": 1
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 6,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 4,
+      "negativ": 3
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 4,
+      "negativ": 2
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 5
+  }
+}

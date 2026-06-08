@@ -1,0 +1,218 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "23.09.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "26"
+  },
+  "kennzahlen": {
+    "reden": 103,
+    "schriftliche_beitraege": 0,
+    "woerter": 71021,
+    "tops": 8,
+    "saalreaktionen": 1095,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 7,
+      "titel": "Einzelplan 15",
+      "woerter": 13450
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 12",
+      "woerter": 12860
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan 25",
+      "woerter": 12745
+    },
+    {
+      "top": 8,
+      "titel": "Einzelplan 10",
+      "woerter": 12508
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 08",
+      "woerter": 12041
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2026 (Haushaltsgesetz 2026 – HG 2026)",
+      "woerter": 5587
+    },
+    {
+      "top": 1,
+      "titel": "Feststellung der Tagesordnung",
+      "woerter": 1830
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 17393,
+      "prozent": 28.4
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 15232,
+      "prozent": 24.8
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 11201,
+      "prozent": 18.3
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 9834,
+      "prozent": 16.0
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 6907,
+      "prozent": 11.3
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 744,
+      "prozent": 1.2
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 6,
+      "titel": "Einzelplan 25",
+      "positiv": 135,
+      "negativ": 30
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 08",
+      "positiv": 139,
+      "negativ": 15
+    },
+    {
+      "top": 7,
+      "titel": "Einzelplan 15",
+      "positiv": 134,
+      "negativ": 11
+    },
+    {
+      "top": 8,
+      "titel": "Einzelplan 10",
+      "positiv": 138,
+      "negativ": 5
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 12",
+      "positiv": 133,
+      "negativ": 7
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2026 (Haushaltsgesetz 2026 – HG 2026)",
+      "positiv": 33,
+      "negativ": 10
+    },
+    {
+      "top": 1,
+      "titel": "Feststellung der Tagesordnung",
+      "positiv": 34,
+      "negativ": 4
+    },
+    {
+      "top": 3,
+      "titel": "Einspruch gegen eine Ordnungsmaßnahme gemäß § 39 der Geschäftsordnung",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 151,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 96,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 63,
+      "negativ": 9
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 21,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 188,
+      "negativ": 22
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 177,
+      "negativ": 29
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 109,
+      "negativ": 8
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 108,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 80,
+      "negativ": 4
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 6,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "falsch": 1
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "30.01.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "57"
+  },
+  "kennzahlen": {
+    "reden": 76,
+    "schriftliche_beitraege": 0,
+    "woerter": 44001,
+    "tops": 7,
+    "saalreaktionen": 776,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "a) Abgabe einer Regierungserklärung durch die Bundesministerin für Wirtschaft und Energie: Zum Jahreswirtschaftsbericht 2026",
+      "woerter": 11144
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Energiesouveränität stärken – Klimaziele umsetzen",
+      "woerter": 9529
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Luigi Pantisano, Marcel Bauer, Lorenz Gösta Beutin, weiterer Abgeordneter und der Fraktion Die Linke: Mobilitätsgarantie einführen – Produktionskapazitäten für die Verkehrswen…",
+      "woerter": 8204
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Hauke Finger, Kay Gottschalk, Torben Braga, weiterer Abgeordneter und der Fraktion der AfD: Steuerfairness fördern – Erbschaft- und Schenkungsteuer abschaffen",
+      "woerter": 3926
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Luise Amtsberg, Omid Nouripour, Deborah Düring, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Freiheit für die Menschen in Iran – Solidarität mit der Zivilgese…",
+      "woerter": 3867
+    },
+    {
+      "top": 3,
+      "titel": "Tagesordnungspunkt",
+      "woerter": 3691
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Transplantationsgesetzes – Novellierung der Regelungen zur Lebendorganspende und weitere Ände…",
+      "woerter": 3640
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 12565,
+      "prozent": 30.9
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 9583,
+      "prozent": 23.6
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 7825,
+      "prozent": 19.2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6448,
+      "prozent": 15.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4248,
+      "prozent": 10.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "a) Abgabe einer Regierungserklärung durch die Bundesministerin für Wirtschaft und Energie: Zum Jahreswirtschaftsbericht 2026",
+      "positiv": 122,
+      "negativ": 18
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Energiesouveränität stärken – Klimaziele umsetzen",
+      "positiv": 97,
+      "negativ": 29
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Luigi Pantisano, Marcel Bauer, Lorenz Gösta Beutin, weiterer Abgeordneter und der Fraktion Die Linke: Mobilitätsgarantie einführen – Produktionskapazitäten für die Verkehrswen…",
+      "positiv": 105,
+      "negativ": 16
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Luise Amtsberg, Omid Nouripour, Deborah Düring, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Freiheit für die Menschen in Iran – Solidarität mit der Zivilgese…",
+      "positiv": 44,
+      "negativ": 8
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Hauke Finger, Kay Gottschalk, Torben Braga, weiterer Abgeordneter und der Fraktion der AfD: Steuerfairness fördern – Erbschaft- und Schenkungsteuer abschaffen",
+      "positiv": 43,
+      "negativ": 7
+    },
+    {
+      "top": 3,
+      "titel": "Tagesordnungspunkt",
+      "positiv": 38,
+      "negativ": 3
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Transplantationsgesetzes – Novellierung der Regelungen zur Lebendorganspende und weitere Ände…",
+      "positiv": 35,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 87,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 55,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 35,
+      "negativ": 7
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 24,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Whatsapp-Gruppe",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 129,
+      "negativ": 26
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 114,
+      "negativ": 26
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 95,
+      "negativ": 10
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 63,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 51,
+      "negativ": 8
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

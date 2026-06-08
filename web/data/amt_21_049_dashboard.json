@@ -1,0 +1,193 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "17.12.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "49"
+  },
+  "kennzahlen": {
+    "reden": 132,
+    "schriftliche_beitraege": 0,
+    "woerter": 47584,
+    "tops": 8,
+    "saalreaktionen": 799,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 18. und 19. Dezember 2025 in Brüssel",
+      "woerter": 16302
+    },
+    {
+      "top": 5,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Lehren aus dem Siebten Armuts- und Reichtumsbericht ziehen – Armut bekämpfen, Reichtum besteuern",
+      "woerter": 10505
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 8432
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Keine digitale Überwachung – Gegen jede Form einer Chatkontrolle",
+      "woerter": 4313
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Bundesregierung: Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte – Stabilisierung sichern, Wiedererstarken des IS verhindern, Versöhnung in Irak fördern",
+      "woerter": 4313
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Mandy Eißing, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: 28 Tage Elternschutz für den zweiten Elternteil ab Geburt des Kindes einführen",
+      "woerter": 3719
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 9835,
+      "prozent": 26.9
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 8838,
+      "prozent": 24.2
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6339,
+      "prozent": 17.4
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5948,
+      "prozent": 16.3
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5556,
+      "prozent": 15.2
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 18. und 19. Dezember 2025 in Brüssel",
+      "positiv": 173,
+      "negativ": 37
+    },
+    {
+      "top": 5,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Lehren aus dem Siebten Armuts- und Reichtumsbericht ziehen – Armut bekämpfen, Reichtum besteuern",
+      "positiv": 101,
+      "negativ": 23
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 66,
+      "negativ": 4
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Keine digitale Überwachung – Gegen jede Form einer Chatkontrolle",
+      "positiv": 50,
+      "negativ": 10
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Bundesregierung: Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte – Stabilisierung sichern, Wiedererstarken des IS verhindern, Versöhnung in Irak fördern",
+      "positiv": 41,
+      "negativ": 2
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Mandy Eißing, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: 28 Tage Elternschutz für den zweiten Elternteil ab Geburt des Kindes einführen",
+      "positiv": 36,
+      "negativ": 5
+    },
+    {
+      "top": 4,
+      "titel": "Fragestunde",
+      "positiv": 18,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 72,
+      "negativ": 11
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 60,
+      "negativ": 17
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 53,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 24,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 8,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Extremisten übernehmen",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 95,
+      "negativ": 31
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 88,
+      "negativ": 32
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 70,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 62,
+      "negativ": 5
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 62,
+      "negativ": 3
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "irreführend": 1
+  }
+}

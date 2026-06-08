@@ -1,0 +1,278 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "29.01.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "56"
+  },
+  "kennzahlen": {
+    "reden": 141,
+    "schriftliche_beitraege": 0,
+    "woerter": 89072,
+    "tops": 14,
+    "saalreaktionen": 1571,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zu den Ergebnissen des informellen Europäischen Rates am 22. Januar 2026 und zur aktuellen außenpolitischen Lage",
+      "woerter": 16731
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Mercosur-Abkommen zügig anwenden – Europas Souveränität und Handlungsfähigkeit durch Freihandel stärken",
+      "woerter": 10041
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Dr. Bernd Baumann, Dr. Gottfried Curio, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Clankriminalität entschieden bekämpfen – Bürger und Rechtsstaat sc…",
+      "woerter": 9887
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Deborah Düring, Agnieszka Brugger, Sara Nanni, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die transatlantischen Beziehungen neu denken",
+      "woerter": 8440
+    },
+    {
+      "top": 4,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "woerter": 8412
+    },
+    {
+      "top": 12,
+      "titel": "Zweite und dritte Beratung des von den Abgeordneten Stephan Brandner, Thomas Fetsch, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung…",
+      "woerter": 5997
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Dr. Alexander Wolf, Gerold Otten, weiterer Abgeordneter und der Fraktion der AfD: Realistische Friedensziele formulieren – Deutsche Leistungen an die Ukrain…",
+      "woerter": 5222
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Pascal Meiser, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Beschäftigte plattformgebundener Essenslieferdienste vor Ausbeutung schützen…",
+      "woerter": 4616
+    },
+    {
+      "top": 7,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1619 des Europäischen Parlaments und des Rates vom 31. Mai 2024 zur…",
+      "woerter": 4511
+    },
+    {
+      "top": 11,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/1544 und zur Durchführung der Verordnung (EU) 2023/1543 über die…",
+      "woerter": 4182
+    },
+    {
+      "top": 9,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte – Stabilisierung sichern, Wiedererstarken…",
+      "woerter": 4112
+    },
+    {
+      "top": 13,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes für den Bürokratierückbau im Bereich des Bundesministeriums des Innern",
+      "woerter": 3823
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Max Lucks, Katharina Beck, Marcel Emmerich, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Finanzkriminalität bekämpfen – Geldwäsche und organisierte Steuerhint…",
+      "woerter": 3098
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 24783,
+      "prozent": 29.7
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 19108,
+      "prozent": 22.9
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 16975,
+      "prozent": 20.3
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 12237,
+      "prozent": 14.7
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 9989,
+      "prozent": 12.0
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 348,
+      "prozent": 0.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zu den Ergebnissen des informellen Europäischen Rates am 22. Januar 2026 und zur aktuellen außenpolitischen Lage",
+      "positiv": 156,
+      "negativ": 45
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Mercosur-Abkommen zügig anwenden – Europas Souveränität und Handlungsfähigkeit durch Freihandel stärken",
+      "positiv": 105,
+      "negativ": 28
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Dr. Bernd Baumann, Dr. Gottfried Curio, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Clankriminalität entschieden bekämpfen – Bürger und Rechtsstaat sc…",
+      "positiv": 95,
+      "negativ": 21
+    },
+    {
+      "top": 12,
+      "titel": "Zweite und dritte Beratung des von den Abgeordneten Stephan Brandner, Thomas Fetsch, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung…",
+      "positiv": 69,
+      "negativ": 34
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Dr. Alexander Wolf, Gerold Otten, weiterer Abgeordneter und der Fraktion der AfD: Realistische Friedensziele formulieren – Deutsche Leistungen an die Ukrain…",
+      "positiv": 74,
+      "negativ": 21
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Deborah Düring, Agnieszka Brugger, Sara Nanni, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die transatlantischen Beziehungen neu denken",
+      "positiv": 78,
+      "negativ": 6
+    },
+    {
+      "top": 4,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "positiv": 62,
+      "negativ": 12
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Pascal Meiser, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Beschäftigte plattformgebundener Essenslieferdienste vor Ausbeutung schützen…",
+      "positiv": 51,
+      "negativ": 9
+    },
+    {
+      "top": 11,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/1544 und zur Durchführung der Verordnung (EU) 2023/1543 über die…",
+      "positiv": 45,
+      "negativ": 6
+    },
+    {
+      "top": 7,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1619 des Europäischen Parlaments und des Rates vom 31. Mai 2024 zur…",
+      "positiv": 48,
+      "negativ": 2
+    },
+    {
+      "top": 9,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte – Stabilisierung sichern, Wiedererstarken…",
+      "positiv": 42,
+      "negativ": 3
+    },
+    {
+      "top": 13,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes für den Bürokratierückbau im Bereich des Bundesministeriums des Innern",
+      "positiv": 37,
+      "negativ": 1
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Max Lucks, Katharina Beck, Marcel Emmerich, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Finanzkriminalität bekämpfen – Geldwäsche und organisierte Steuerhint…",
+      "positiv": 27,
+      "negativ": 5
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 4,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 170,
+      "negativ": 42
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 104,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 74,
+      "negativ": 5
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 65,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Beifall bei der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 224,
+      "negativ": 57
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 204,
+      "negativ": 54
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 162,
+      "negativ": 25
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 140,
+      "negativ": 31
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 100,
+      "negativ": 20
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

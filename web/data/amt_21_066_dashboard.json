@@ -1,0 +1,202 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "20.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "66"
+  },
+  "kennzahlen": {
+    "reden": 83,
+    "schriftliche_beitraege": 0,
+    "woerter": 44306,
+    "tops": 7,
+    "saalreaktionen": 813,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Kunst-, Kultur- und Meinungsfreiheit verteidigen – Einschränkungen durch den Beauftragten der Bundesregierung für Kultur und Medien beenden",
+      "woerter": 9889
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Corinna Rüffer, Michael Brand (Fulda), Simone Fischer und weiterer Abgeordneter: Kassenzulassung des nicht-invasiven Pränataltests – Monitoring der Konsequenzen und Einrichtun…",
+      "woerter": 8481
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Fest…",
+      "woerter": 8406
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Dr. Alexander Wolf, Stefan Keuter, Rocco Kever, weiterer Abgeordneter und der Fraktion der AfD: Für eine Revision der Genfer Flüchtlingskonvention – Kriegsflüchtlinge prioritä…",
+      "woerter": 7937
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Dr. Jan-Niclas Gesenhues, Dr. Julia Verlinden, Steffi Lemke, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Natur, Klima und Zivilgesellschaft schützen – Einsch…",
+      "woerter": 4871
+    },
+    {
+      "top": 5,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Jörg Cezanne, Dr. Fabian Fahl, Janine Wissler, weiterer Abg…",
+      "woerter": 4722
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 12483,
+      "prozent": 29.2
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 10032,
+      "prozent": 23.4
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 7746,
+      "prozent": 18.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6748,
+      "prozent": 15.8
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5802,
+      "prozent": 13.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Kunst-, Kultur- und Meinungsfreiheit verteidigen – Einschränkungen durch den Beauftragten der Bundesregierung für Kultur und Medien beenden",
+      "positiv": 120,
+      "negativ": 34
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Dr. Alexander Wolf, Stefan Keuter, Rocco Kever, weiterer Abgeordneter und der Fraktion der AfD: Für eine Revision der Genfer Flüchtlingskonvention – Kriegsflüchtlinge prioritä…",
+      "positiv": 78,
+      "negativ": 16
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Dr. Jan-Niclas Gesenhues, Dr. Julia Verlinden, Steffi Lemke, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Natur, Klima und Zivilgesellschaft schützen – Einsch…",
+      "positiv": 82,
+      "negativ": 10
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Corinna Rüffer, Michael Brand (Fulda), Simone Fischer und weiterer Abgeordneter: Kassenzulassung des nicht-invasiven Pränataltests – Monitoring der Konsequenzen und Einrichtun…",
+      "positiv": 81,
+      "negativ": 9
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Fest…",
+      "positiv": 76,
+      "negativ": 13
+    },
+    {
+      "top": 5,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Jörg Cezanne, Dr. Fabian Fahl, Janine Wissler, weiterer Abg…",
+      "positiv": 46,
+      "negativ": 12
+    },
+    {
+      "top": 3,
+      "titel": "Einspruch gegen eine Ordnungsmaßnahme gemäß § 39 der Geschäftsordnung",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 79,
+      "negativ": 12
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 50,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 36,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 16,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 8,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 130,
+      "negativ": 36
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 102,
+      "negativ": 28
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 89,
+      "negativ": 12
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 67,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 74,
+      "negativ": 3
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

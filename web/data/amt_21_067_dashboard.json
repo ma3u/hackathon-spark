@@ -1,0 +1,208 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "25.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "67"
+  },
+  "kennzahlen": {
+    "reden": 114,
+    "schriftliche_beitraege": 0,
+    "woerter": 35324,
+    "tops": 8,
+    "saalreaktionen": 526,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen CDU/CSU und SPD: Jegliche Gewalt gegen Frauen und Mädchen bekämpfen – Staatliche Aufgabe und gesellschaftliche Verantwortung",
+      "woerter": 9989
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 9045
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Ausweitung der notariellen Online-Verfahren im Gesellschafts- und Registerrecht, zur Digitalisierung des Führungsz…",
+      "woerter": 4203
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Neuordnung aufsichtsrechtlicher Verfahren und zur Änderung weiterer Vorschriften im Bereich der rechtsberatenden B…",
+      "woerter": 4150
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Mareike Hermeier, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Unterhaltsvorschuss reformieren – Chancen für Kinder Alleinerziehender ve…",
+      "woerter": 3990
+    },
+    {
+      "top": 6,
+      "titel": "Beschlussempfehlung und Bericht des Innenausschusses zu dem Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Eine w…",
+      "woerter": 3947
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8384,
+      "prozent": 30.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 6576,
+      "prozent": 24.0
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4411,
+      "prozent": 16.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4340,
+      "prozent": 15.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3473,
+      "prozent": 12.7
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 172,
+      "prozent": 0.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen CDU/CSU und SPD: Jegliche Gewalt gegen Frauen und Mädchen bekämpfen – Staatliche Aufgabe und gesellschaftliche Verantwortung",
+      "positiv": 115,
+      "negativ": 14
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 77,
+      "negativ": 26
+    },
+    {
+      "top": 6,
+      "titel": "Beschlussempfehlung und Bericht des Innenausschusses zu dem Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Eine w…",
+      "positiv": 42,
+      "negativ": 16
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Mareike Hermeier, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Unterhaltsvorschuss reformieren – Chancen für Kinder Alleinerziehender ve…",
+      "positiv": 39,
+      "negativ": 11
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Neuordnung aufsichtsrechtlicher Verfahren und zur Änderung weiterer Vorschriften im Bereich der rechtsberatenden B…",
+      "positiv": 39,
+      "negativ": 0
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Ausweitung der notariellen Online-Verfahren im Gesellschafts- und Registerrecht, zur Digitalisierung des Führungsz…",
+      "positiv": 32,
+      "negativ": 0
+    },
+    {
+      "top": 3,
+      "titel": "Fragestunde",
+      "positiv": 15,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 55,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 38,
+      "negativ": 10
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 43,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 14,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 78,
+      "negativ": 16
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 62,
+      "negativ": 22
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 50,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 37,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 33,
+      "negativ": 0
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "irreführend": 1,
+    "unbelegt": 10,
+    "teilweise": 1
+  }
+}

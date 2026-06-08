@@ -1,0 +1,198 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "24.04.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "75"
+  },
+  "kennzahlen": {
+    "reden": 77,
+    "schriftliche_beitraege": 0,
+    "woerter": 42557,
+    "tops": 6,
+    "saalreaktionen": 788,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Energiesteuergesetzes zur temporären Absenkung der Energieste…",
+      "woerter": 10118
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kein Sozialabbau auf Kosten von Kindern, Jugendlichen, Familien und Menschen mit Behinderungen",
+      "woerter": 9713
+    },
+    {
+      "top": 2,
+      "titel": "a) Antrag der Abgeordneten Luigi Pantisano, Marcel Bauer, Lorenz Gösta Beutin, weiterer Abgeordneter und der Fraktion Die Linke: Mit dem Neun-Euro-Ticket private Haushalte entlasten",
+      "woerter": 9521
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Dr. Armin Grau, Corinna Rüffer, Ricarda Lang, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gesund länger arbeiten und die Erwerbsminderungsrente verbessern",
+      "woerter": 4971
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Steffen Kotré, Leif-Erik Holm, Dr. Malte Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Preisexplosion bei den Gasnetzentgelten verhindern – Rückbau und Stilllegung…",
+      "woerter": 4176
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des Verpackungsrechts und anderer Rechtsbereiche an die Verordnung (EU) 2025/40",
+      "woerter": 4058
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 14031,
+      "prozent": 33.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 9528,
+      "prozent": 22.4
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 7675,
+      "prozent": 18.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6818,
+      "prozent": 16.0
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4218,
+      "prozent": 9.9
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 287,
+      "prozent": 0.7
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Energiesteuergesetzes zur temporären Absenkung der Energieste…",
+      "positiv": 124,
+      "negativ": 28
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kein Sozialabbau auf Kosten von Kindern, Jugendlichen, Familien und Menschen mit Behinderungen",
+      "positiv": 108,
+      "negativ": 39
+    },
+    {
+      "top": 2,
+      "titel": "a) Antrag der Abgeordneten Luigi Pantisano, Marcel Bauer, Lorenz Gösta Beutin, weiterer Abgeordneter und der Fraktion Die Linke: Mit dem Neun-Euro-Ticket private Haushalte entlasten",
+      "positiv": 100,
+      "negativ": 28
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Steffen Kotré, Leif-Erik Holm, Dr. Malte Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Preisexplosion bei den Gasnetzentgelten verhindern – Rückbau und Stilllegung…",
+      "positiv": 46,
+      "negativ": 10
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Dr. Armin Grau, Corinna Rüffer, Ricarda Lang, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gesund länger arbeiten und die Erwerbsminderungsrente verbessern",
+      "positiv": 52,
+      "negativ": 1
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des Verpackungsrechts und anderer Rechtsbereiche an die Verordnung (EU) 2025/40",
+      "positiv": 44,
+      "negativ": 7
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 89,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 52,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 28,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 17,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der Linken",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 117,
+      "negativ": 42
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 109,
+      "negativ": 30
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 97,
+      "negativ": 19
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 76,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 65,
+      "negativ": 8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 4,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 9,
+    "falsch": 1,
+    "irreführend": 1,
+    "teilweise": 1
+  }
+}

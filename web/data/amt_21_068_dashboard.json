@@ -1,0 +1,300 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "26.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "68"
+  },
+  "kennzahlen": {
+    "reden": 164,
+    "schriftliche_beitraege": 0,
+    "woerter": 88039,
+    "tops": 16,
+    "saalreaktionen": 1573,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Einführung eines Gesetzes zur Anpassung von Kraftstoffpreisen und zur Änderung des G…",
+      "woerter": 10874
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Reichardt, Birgit Bessin, weiterer Abgeordneter und der Fraktion der AfD: Gewalt und andere Formen schwerwiegender Übergriffe an Schulen systematisch…",
+      "woerter": 10636
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Mitversicherung von Familienangehörigen in der gesetzlichen Krankenversicherung",
+      "woerter": 10097
+    },
+    {
+      "top": 4,
+      "titel": "Beratung der Unterrichtung durch den Wehrbeauftragten: Jahresbericht 2025 (67. Bericht)",
+      "woerter": 10032
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Abgeordneten Dr. Lena Gumnior, Helge Limburg, Dr. Till Steffen, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änder…",
+      "woerter": 9015
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Stephan Brandner, Dr. Michael Espendiller, Marcus Bühl, weiterer Abgeordneter und der Fraktion der AfD: Antrag auf abstrakte Normenkontrolle beim Bundesverfassungsgericht gemä…",
+      "woerter": 5259
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Lamya Kaddor, Dr. Konstantin von Notz, Schahina Gambir, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Vielfältiges muslimisches Leben in Deutschland fördern",
+      "woerter": 4865
+    },
+    {
+      "top": 8,
+      "titel": "a) Beratung der Antwort der Bundesregierung auf die Große Anfrage der Abgeordneten Beatrix von Storch, Markus Frohnmaier, René Springer, weiterer Abgeordneter und der Fraktion der AfD: Förderung sowi…",
+      "woerter": 4324
+    },
+    {
+      "top": 10,
+      "titel": "a) Antrag der Abgeordneten Sahra Mirow, Kathrin Gebel, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Wohnungslose Frauen besser schützen – Geschlechterspezifische Bedarfe in der…",
+      "woerter": 4111
+    },
+    {
+      "top": 9,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2023/2854 des Europäischen Parlaments und des Rates vom 13. Deze…",
+      "woerter": 4096
+    },
+    {
+      "top": 13,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Anerkennungsverfahren ausländischer Berufsqualifikationen in Heilberufen",
+      "woerter": 4070
+    },
+    {
+      "top": 11,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Neuregelung des Rechtsrahmens für intelligente Verkehrssysteme im Straßenverkehr und deren Schnittst…",
+      "woerter": 3699
+    },
+    {
+      "top": 7,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Transplantationsgesetzes – Novellierung der Regelungen zur Lebendorganspende u…",
+      "woerter": 3226
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/2748 zu Notfallverfahren aufgrund eines Binnenmarkt-Notfalls bei…",
+      "woerter": 2717
+    },
+    {
+      "top": 16,
+      "titel": "Erste Beratung des von den Abgeordneten Fabian Jacobi, Tobias Matthias Peterka, Peter Bohnhof, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Ächtung politis…",
+      "woerter": 1018
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 28185,
+      "prozent": 32.7
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 21023,
+      "prozent": 24.4
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 15535,
+      "prozent": 18.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 12608,
+      "prozent": 14.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8846,
+      "prozent": 10.3
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Einführung eines Gesetzes zur Anpassung von Kraftstoffpreisen und zur Änderung des G…",
+      "positiv": 133,
+      "negativ": 32
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Mitversicherung von Familienangehörigen in der gesetzlichen Krankenversicherung",
+      "positiv": 109,
+      "negativ": 17
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Abgeordneten Dr. Lena Gumnior, Helge Limburg, Dr. Till Steffen, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änder…",
+      "positiv": 100,
+      "negativ": 18
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Reichardt, Birgit Bessin, weiterer Abgeordneter und der Fraktion der AfD: Gewalt und andere Formen schwerwiegender Übergriffe an Schulen systematisch…",
+      "positiv": 93,
+      "negativ": 19
+    },
+    {
+      "top": 4,
+      "titel": "Beratung der Unterrichtung durch den Wehrbeauftragten: Jahresbericht 2025 (67. Bericht)",
+      "positiv": 94,
+      "negativ": 9
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Lamya Kaddor, Dr. Konstantin von Notz, Schahina Gambir, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Vielfältiges muslimisches Leben in Deutschland fördern",
+      "positiv": 59,
+      "negativ": 19
+    },
+    {
+      "top": 8,
+      "titel": "a) Beratung der Antwort der Bundesregierung auf die Große Anfrage der Abgeordneten Beatrix von Storch, Markus Frohnmaier, René Springer, weiterer Abgeordneter und der Fraktion der AfD: Förderung sowi…",
+      "positiv": 63,
+      "negativ": 14
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Stephan Brandner, Dr. Michael Espendiller, Marcus Bühl, weiterer Abgeordneter und der Fraktion der AfD: Antrag auf abstrakte Normenkontrolle beim Bundesverfassungsgericht gemä…",
+      "positiv": 51,
+      "negativ": 11
+    },
+    {
+      "top": 13,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Anerkennungsverfahren ausländischer Berufsqualifikationen in Heilberufen",
+      "positiv": 46,
+      "negativ": 3
+    },
+    {
+      "top": 9,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2023/2854 des Europäischen Parlaments und des Rates vom 13. Deze…",
+      "positiv": 44,
+      "negativ": 2
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/2748 zu Notfallverfahren aufgrund eines Binnenmarkt-Notfalls bei…",
+      "positiv": 44,
+      "negativ": 0
+    },
+    {
+      "top": 10,
+      "titel": "a) Antrag der Abgeordneten Sahra Mirow, Kathrin Gebel, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Wohnungslose Frauen besser schützen – Geschlechterspezifische Bedarfe in der…",
+      "positiv": 36,
+      "negativ": 2
+    },
+    {
+      "top": 11,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Neuregelung des Rechtsrahmens für intelligente Verkehrssysteme im Straßenverkehr und deren Schnittst…",
+      "positiv": 35,
+      "negativ": 0
+    },
+    {
+      "top": 7,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Transplantationsgesetzes – Novellierung der Regelungen zur Lebendorganspende u…",
+      "positiv": 32,
+      "negativ": 0
+    },
+    {
+      "top": 16,
+      "titel": "Erste Beratung des von den Abgeordneten Fabian Jacobi, Tobias Matthias Peterka, Peter Bohnhof, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Ächtung politis…",
+      "positiv": 15,
+      "negativ": 2
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 171,
+      "negativ": 32
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 87,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 79,
+      "negativ": 5
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 25,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 30,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 12,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten im ganzen Hause",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 279,
+      "negativ": 39
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 208,
+      "negativ": 61
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 158,
+      "negativ": 18
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 153,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 126,
+      "negativ": 11
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

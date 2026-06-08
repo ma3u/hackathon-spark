@@ -1,0 +1,310 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "16.10.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "34"
+  },
+  "kennzahlen": {
+    "reden": 137,
+    "schriftliche_beitraege": 0,
+    "woerter": 86929,
+    "tops": 15,
+    "saalreaktionen": 1618,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 23. und 24. Oktober 2025 in Brüssel",
+      "woerter": 16709
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Martin Hess, Stephan Brandner, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Inneren Frieden in Deutschland bewahren – Antifa-Verbote umsetzen sowie Lin…",
+      "woerter": 10002
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stabilisierung des Rentenniveaus und zur vollständigen Gleichstellung der Kindererziehungszeiten",
+      "woerter": 8808
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Wirtschaftskrise in Deutschland stoppen, Warnsignale von Bosch und Lufthansa ernst nehmen",
+      "woerter": 8677
+    },
+    {
+      "top": 4,
+      "titel": "a) Erste Beratung des von den Abgeordneten Dr. Janosch Dahmen, Dr. Kirsten Kappert-Gonther, Dr. Armin Grau, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines G…",
+      "woerter": 7886
+    },
+    {
+      "top": 10,
+      "titel": "Bericht des Petitionsausschusses: Bitten und Beschwerden an den Deutschen Bundestag – Die Tätigkeit des Petitionsausschusses des Deutschen Bundestages im Jahr 2024",
+      "woerter": 5344
+    },
+    {
+      "top": 8,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Wehrdienstes – Wehrdienst-Modernisierungsgesetz (WDModG)",
+      "woerter": 4784
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Nicole Gohlke, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Bildungsfinanzierung dauerhaft sichern – Kooperationsverbot abschaffen",
+      "woerter": 4645
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten René Springer, Peter Bohnhof, Gerrit Huy, weiterer Abgeordneter und der Fraktion der AfD: Bürgergeldleistungen stoppen bei Haftbefehlen – Keine Unterstützung für gesuchte Stra…",
+      "woerter": 4232
+    },
+    {
+      "top": 13,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wirtschaft und Energie zu dem Antrag der Abgeordneten Leif-Erik Holm, Marc Bernhard, Peter Boehringer, weiterer Abgeordneter und der Fraktion der A…",
+      "woerter": 4092
+    },
+    {
+      "top": 12,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "woerter": 3957
+    },
+    {
+      "top": 15,
+      "titel": "a) Antrag der Abgeordneten Felix Banaszak, Dr. Sandra Detzer, Katrin Uhlig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Stahlstandorte stärken – wettbewerbsfähig und klimaneutral",
+      "woerter": 3816
+    },
+    {
+      "top": 14,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Mission der Vereinten Nationen i…",
+      "woerter": 3565
+    },
+    {
+      "top": 5,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Finanzausgleichsgesetzes 2025 (FAG-Änderungsgesetz 2025)",
+      "woerter": 412
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 28667,
+      "prozent": 34.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 18528,
+      "prozent": 22.5
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 14007,
+      "prozent": 17.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 12093,
+      "prozent": 14.7
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 9005,
+      "prozent": 10.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 23. und 24. Oktober 2025 in Brüssel",
+      "positiv": 178,
+      "negativ": 28
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Martin Hess, Stephan Brandner, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Inneren Frieden in Deutschland bewahren – Antifa-Verbote umsetzen sowie Lin…",
+      "positiv": 120,
+      "negativ": 32
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Wirtschaftskrise in Deutschland stoppen, Warnsignale von Bosch und Lufthansa ernst nehmen",
+      "positiv": 96,
+      "negativ": 12
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stabilisierung des Rentenniveaus und zur vollständigen Gleichstellung der Kindererziehungszeiten",
+      "positiv": 98,
+      "negativ": 8
+    },
+    {
+      "top": 8,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Wehrdienstes – Wehrdienst-Modernisierungsgesetz (WDModG)",
+      "positiv": 63,
+      "negativ": 27
+    },
+    {
+      "top": 13,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wirtschaft und Energie zu dem Antrag der Abgeordneten Leif-Erik Holm, Marc Bernhard, Peter Boehringer, weiterer Abgeordneter und der Fraktion der A…",
+      "positiv": 69,
+      "negativ": 13
+    },
+    {
+      "top": 4,
+      "titel": "a) Erste Beratung des von den Abgeordneten Dr. Janosch Dahmen, Dr. Kirsten Kappert-Gonther, Dr. Armin Grau, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines G…",
+      "positiv": 71,
+      "negativ": 10
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten René Springer, Peter Bohnhof, Gerrit Huy, weiterer Abgeordneter und der Fraktion der AfD: Bürgergeldleistungen stoppen bei Haftbefehlen – Keine Unterstützung für gesuchte Stra…",
+      "positiv": 54,
+      "negativ": 15
+    },
+    {
+      "top": 15,
+      "titel": "a) Antrag der Abgeordneten Felix Banaszak, Dr. Sandra Detzer, Katrin Uhlig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Stahlstandorte stärken – wettbewerbsfähig und klimaneutral",
+      "positiv": 52,
+      "negativ": 16
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Nicole Gohlke, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Bildungsfinanzierung dauerhaft sichern – Kooperationsverbot abschaffen",
+      "positiv": 51,
+      "negativ": 9
+    },
+    {
+      "top": 14,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Mission der Vereinten Nationen i…",
+      "positiv": 51,
+      "negativ": 7
+    },
+    {
+      "top": 10,
+      "titel": "Bericht des Petitionsausschusses: Bitten und Beschwerden an den Deutschen Bundestag – Die Tätigkeit des Petitionsausschusses des Deutschen Bundestages im Jahr 2024",
+      "positiv": 55,
+      "negativ": 2
+    },
+    {
+      "top": 12,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "positiv": 49,
+      "negativ": 0
+    },
+    {
+      "top": 5,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Finanzausgleichsgesetzes 2025 (FAG-Änderungsgesetz 2025)",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "top": 6,
+      "titel": "Wahlvorschläge der Fraktionen der CDU/CSU und SPD, der Fraktion der AfD, der Fraktion BÜNDNIS 90/DIE GRÜNEN und der Fraktion Die Linke: Wahl von Mitgliedern des Beirates bei der Koordinierungsstelle…",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 189,
+      "negativ": 43
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 114,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 94,
+      "negativ": 8
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 48,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 16,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 3,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten im ganzen Hause",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Beifall bei der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Platz nehmen",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 304,
+      "negativ": 62
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 218,
+      "negativ": 46
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 155,
+      "negativ": 24
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 154,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 118,
+      "negativ": 24
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "teilweise": 2
+  }
+}

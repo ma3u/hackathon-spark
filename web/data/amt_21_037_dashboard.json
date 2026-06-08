@@ -1,0 +1,333 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "06.11.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "37"
+  },
+  "kennzahlen": {
+    "reden": 146,
+    "schriftliche_beitraege": 1,
+    "woerter": 80513,
+    "tops": 19,
+    "saalreaktionen": 1452,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Agnieszka Brugger, Deborah Düring, Claudia Roth, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: 25 Jahre UN-Resolution 1325 „Frauen, Frieden und Sicherheit“ – F…",
+      "woerter": 9872
+    },
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Innere Sicherheit erhöhen, konsequent zurückführen und deutsche Leitkultur stärken – Konkrete Maßnahmen für ein besseres Stadtbild",
+      "woerter": 8985
+    },
+    {
+      "top": 5,
+      "titel": "Tagesordnungspunkt 9a",
+      "woerter": 8563
+    },
+    {
+      "top": 6,
+      "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Abgeordneten Jörn König, Kay Gottschalk, Jan Wenzel Schmidt, weiterer Abgeordneter und der Fraktion der AfD: Programm für Deuts…",
+      "woerter": 8127
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur besseren Bekämpfung überhöhter Mieten (Mietwuchergesetz)",
+      "woerter": 6053
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "woerter": 5514
+    },
+    {
+      "top": 15,
+      "titel": "a) Antrag der Abgeordneten Stefan Keuter, René Springer, Jan Wenzel Schmidt, weiterer Abgeordneter und der Fraktion der AfD: Afghanistan – Für eine neue Realpolitik",
+      "woerter": 4660
+    },
+    {
+      "top": 12,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Kohlendioxid-Speicherungsgesetzes",
+      "woerter": 4420
+    },
+    {
+      "top": 14,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Aufhebung der Freizone Cuxhaven und zur Änderung weiterer Vorschriften",
+      "woerter": 4158
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Dr. Zoe Mayer, Karl Bär, Dr. Ophelia Nick, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Frei benennen, klar erkennen – Bezeichnungsverbote für Fleischalternat…",
+      "woerter": 3924
+    },
+    {
+      "top": 13,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit zu dem Antrag der Abgeordneten Martin Sichert, Dr. Christina Baum, Carina Schießl, weiterer Abgeordneter und der Fraktion der AfD: Zuwan…",
+      "woerter": 3742
+    },
+    {
+      "top": 16,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Verfügbarkeit von Wasserstoff und zur Änderung weiterer rechtlicher Rahmenbedingungen für den W…",
+      "woerter": 3653
+    },
+    {
+      "top": 1,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "woerter": 2883
+    },
+    {
+      "top": 9,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "woerter": 2510
+    },
+    {
+      "top": 18,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2226",
+      "woerter": 2048
+    },
+    {
+      "top": 10,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "woerter": 1401
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 24394,
+      "prozent": 31.3
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 18180,
+      "prozent": 23.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 15496,
+      "prozent": 19.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11763,
+      "prozent": 15.1
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 7870,
+      "prozent": 10.1
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 238,
+      "prozent": 0.3
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Agnieszka Brugger, Deborah Düring, Claudia Roth, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: 25 Jahre UN-Resolution 1325 „Frauen, Frieden und Sicherheit“ – F…",
+      "positiv": 98,
+      "negativ": 26
+    },
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Innere Sicherheit erhöhen, konsequent zurückführen und deutsche Leitkultur stärken – Konkrete Maßnahmen für ein besseres Stadtbild",
+      "positiv": 102,
+      "negativ": 20
+    },
+    {
+      "top": 6,
+      "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Abgeordneten Jörn König, Kay Gottschalk, Jan Wenzel Schmidt, weiterer Abgeordneter und der Fraktion der AfD: Programm für Deuts…",
+      "positiv": 76,
+      "negativ": 32
+    },
+    {
+      "top": 5,
+      "titel": "Tagesordnungspunkt 9a",
+      "positiv": 98,
+      "negativ": 5
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur besseren Bekämpfung überhöhter Mieten (Mietwuchergesetz)",
+      "positiv": 58,
+      "negativ": 13
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "positiv": 54,
+      "negativ": 12
+    },
+    {
+      "top": 14,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Aufhebung der Freizone Cuxhaven und zur Änderung weiterer Vorschriften",
+      "positiv": 56,
+      "negativ": 8
+    },
+    {
+      "top": 13,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit zu dem Antrag der Abgeordneten Martin Sichert, Dr. Christina Baum, Carina Schießl, weiterer Abgeordneter und der Fraktion der AfD: Zuwan…",
+      "positiv": 50,
+      "negativ": 10
+    },
+    {
+      "top": 15,
+      "titel": "a) Antrag der Abgeordneten Stefan Keuter, René Springer, Jan Wenzel Schmidt, weiterer Abgeordneter und der Fraktion der AfD: Afghanistan – Für eine neue Realpolitik",
+      "positiv": 48,
+      "negativ": 3
+    },
+    {
+      "top": 12,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Kohlendioxid-Speicherungsgesetzes",
+      "positiv": 45,
+      "negativ": 5
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Dr. Zoe Mayer, Karl Bär, Dr. Ophelia Nick, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Frei benennen, klar erkennen – Bezeichnungsverbote für Fleischalternat…",
+      "positiv": 44,
+      "negativ": 5
+    },
+    {
+      "top": 16,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Verfügbarkeit von Wasserstoff und zur Änderung weiterer rechtlicher Rahmenbedingungen für den W…",
+      "positiv": 36,
+      "negativ": 4
+    },
+    {
+      "top": 1,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "positiv": 30,
+      "negativ": 1
+    },
+    {
+      "top": 9,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "positiv": 30,
+      "negativ": 0
+    },
+    {
+      "top": 18,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2226",
+      "positiv": 22,
+      "negativ": 4
+    },
+    {
+      "top": 10,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "positiv": 18,
+      "negativ": 0
+    },
+    {
+      "top": 7,
+      "titel": "a) Zweite Beratung und Schlussabstimmung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Vertrag vom 24. Oktober 2024 zwischen der Bundesrepublik Deutschland und der Republik…",
+      "positiv": 1,
+      "negativ": 1
+    },
+    {
+      "top": 2,
+      "titel": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss): Antrag auf Genehmigung zum Vollzug gerichtlicher Durchsuchungs- und Beschlagnahmebesch…",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 175,
+      "negativ": 25
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 92,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 66,
+      "negativ": 8
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 31,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 9,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Bundesministerin Katherina Reiche",
+      "positiv": 0,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD und der AfD",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 228,
+      "negativ": 57
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 210,
+      "negativ": 36
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 145,
+      "negativ": 28
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 139,
+      "negativ": 18
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 95,
+      "negativ": 8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 4,
+      "negativ": 1
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "falsch": 1
+  }
+}

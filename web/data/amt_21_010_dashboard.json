@@ -1,0 +1,333 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "05.06.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "10"
+  },
+  "kennzahlen": {
+    "reden": 152,
+    "schriftliche_beitraege": 3,
+    "woerter": 84294,
+    "tops": 20,
+    "saalreaktionen": 1569,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung der Regelungen über die zulässige Miethöhe bei Mietbeginn",
+      "woerter": 9615
+    },
+    {
+      "top": 9,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Zur humanitären Katastrophe in Gaza",
+      "woerter": 8806
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Marcel Emmerich, Dr. Irene Mihalic, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Europarecht einhalten, Schutzbedürftige schützen,…",
+      "woerter": 8803
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für ein steuerliches Investitionssofortprogramm zur Stärkung des Wirtschaftsstandorts Deutschland",
+      "woerter": 8751
+    },
+    {
+      "top": 4,
+      "titel": "a) Erste Beratung des von den Abgeordneten Dr. Malte Kaufmann, Leif-Erik Holm, Enrico Komning, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des…",
+      "woerter": 7615
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Ates Gürpinar, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Leistungskürzungen und Beitragsexplosion in Gesundheit und Pflege verhinde…",
+      "woerter": 6175
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Steffi Lemke, Dr. Jan-Niclas Gesenhues, Julia Schneider, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Frühjahrsdürre und Hitzeprognosen ernst nehmen – Jetzt e…",
+      "woerter": 4728
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Kay Gottschalk, Jan Wenzel Schmidt, Jörn König, weiterer Abgeordneter und der Fraktion der AfD: Standort Deutschland stärken – Solidaritätszuschlag abschaffen",
+      "woerter": 4680
+    },
+    {
+      "top": 14,
+      "titel": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Allgemeinen Eisenbahngesetzes",
+      "woerter": 4288
+    },
+    {
+      "top": 15,
+      "titel": "Antrag der Abgeordneten Gerold Otten, Uwe Schulz, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD: Nationalen Sicherheitsrat einrichten – Nationale Sicherheitsstrategie entwerfen und ko…",
+      "woerter": 3911
+    },
+    {
+      "top": 12,
+      "titel": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Anpassung von Regelungen über den polizeilichen Informationsverbund im Bundeskriminalamtgesetz",
+      "woerter": 3897
+    },
+    {
+      "top": 10,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des Telekommunikationsgesetzes und zur Feststellung des überragenden öffentlichen Interess…",
+      "woerter": 3563
+    },
+    {
+      "top": 16,
+      "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Anpassungsverfahren gemäß § 11 Absatz 4 des Abgeordnetengesetzes",
+      "woerter": 3192
+    },
+    {
+      "top": 18,
+      "titel": "Erste Beratung des von den Abgeordneten Stephan Brandner, Adam Balten, Marc Bernhard, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Einführung der Haftung v…",
+      "woerter": 2752
+    },
+    {
+      "top": 19,
+      "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Erwin Renner, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Schwarz-Rot-Gold als identitätsstiftendes Symbol für unsere Demokratie k…",
+      "woerter": 2560
+    },
+    {
+      "top": 7,
+      "titel": "Bericht des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung zur Auslegung der Geschäftsordnung – hier: Verteilung des Vorschlagsrechts für die Vorsitze und stellvertretenden Vorsitze der…",
+      "woerter": 869
+    },
+    {
+      "top": 2,
+      "titel": "Eidesleistung des Wehrbeauftragten",
+      "woerter": 49
+    },
+    {
+      "top": 8,
+      "titel": "Zur Geschäftsordnung",
+      "woerter": 40
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 25527,
+      "prozent": 31.1
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 19125,
+      "prozent": 23.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 15502,
+      "prozent": 18.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 12406,
+      "prozent": 15.1
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 9007,
+      "prozent": 11.0
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 513,
+      "prozent": 0.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Marcel Emmerich, Dr. Irene Mihalic, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Europarecht einhalten, Schutzbedürftige schützen,…",
+      "positiv": 113,
+      "negativ": 27
+    },
+    {
+      "top": 4,
+      "titel": "a) Erste Beratung des von den Abgeordneten Dr. Malte Kaufmann, Leif-Erik Holm, Enrico Komning, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des…",
+      "positiv": 116,
+      "negativ": 19
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung der Regelungen über die zulässige Miethöhe bei Mietbeginn",
+      "positiv": 110,
+      "negativ": 15
+    },
+    {
+      "top": 9,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Zur humanitären Katastrophe in Gaza",
+      "positiv": 91,
+      "negativ": 32
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für ein steuerliches Investitionssofortprogramm zur Stärkung des Wirtschaftsstandorts Deutschland",
+      "positiv": 90,
+      "negativ": 8
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Ates Gürpinar, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Leistungskürzungen und Beitragsexplosion in Gesundheit und Pflege verhinde…",
+      "positiv": 69,
+      "negativ": 7
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Steffi Lemke, Dr. Jan-Niclas Gesenhues, Julia Schneider, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Frühjahrsdürre und Hitzeprognosen ernst nehmen – Jetzt e…",
+      "positiv": 49,
+      "negativ": 18
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Kay Gottschalk, Jan Wenzel Schmidt, Jörn König, weiterer Abgeordneter und der Fraktion der AfD: Standort Deutschland stärken – Solidaritätszuschlag abschaffen",
+      "positiv": 49,
+      "negativ": 7
+    },
+    {
+      "top": 14,
+      "titel": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Allgemeinen Eisenbahngesetzes",
+      "positiv": 49,
+      "negativ": 5
+    },
+    {
+      "top": 15,
+      "titel": "Antrag der Abgeordneten Gerold Otten, Uwe Schulz, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD: Nationalen Sicherheitsrat einrichten – Nationale Sicherheitsstrategie entwerfen und ko…",
+      "positiv": 40,
+      "negativ": 14
+    },
+    {
+      "top": 19,
+      "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Erwin Renner, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Schwarz-Rot-Gold als identitätsstiftendes Symbol für unsere Demokratie k…",
+      "positiv": 41,
+      "negativ": 9
+    },
+    {
+      "top": 10,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des Telekommunikationsgesetzes und zur Feststellung des überragenden öffentlichen Interess…",
+      "positiv": 38,
+      "negativ": 2
+    },
+    {
+      "top": 16,
+      "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Anpassungsverfahren gemäß § 11 Absatz 4 des Abgeordnetengesetzes",
+      "positiv": 30,
+      "negativ": 8
+    },
+    {
+      "top": 18,
+      "titel": "Erste Beratung des von den Abgeordneten Stephan Brandner, Adam Balten, Marc Bernhard, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Einführung der Haftung v…",
+      "positiv": 31,
+      "negativ": 3
+    },
+    {
+      "top": 12,
+      "titel": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Anpassung von Regelungen über den polizeilichen Informationsverbund im Bundeskriminalamtgesetz",
+      "positiv": 29,
+      "negativ": 1
+    },
+    {
+      "top": 7,
+      "titel": "Bericht des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung zur Auslegung der Geschäftsordnung – hier: Verteilung des Vorschlagsrechts für die Vorsitze und stellvertretenden Vorsitze der…",
+      "positiv": 12,
+      "negativ": 4
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "top": 2,
+      "titel": "Eidesleistung des Wehrbeauftragten",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 173,
+      "negativ": 31
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 109,
+      "negativ": 22
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 112,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 37,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 15,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 8,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 266,
+      "negativ": 54
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 210,
+      "negativ": 65
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 153,
+      "negativ": 26
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 151,
+      "negativ": 21
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 130,
+      "negativ": 13
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 11,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

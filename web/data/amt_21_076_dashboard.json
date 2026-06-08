@@ -1,0 +1,205 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "06.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "76"
+  },
+  "kennzahlen": {
+    "reden": 169,
+    "schriftliche_beitraege": 0,
+    "woerter": 37845,
+    "tops": 6,
+    "saalreaktionen": 670,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13281
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Ein Jahr Regierung unter Bundeskanzler Merz – Auswirkungen auf Deutschland als führende Industrienation",
+      "woerter": 10431
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Martin Hess, Dr. Gottfried Curio, Dr. Bernd Baumann, weiterer Abgeordneter und der Fraktion der AfD: Polizeiliche Kriminalstatistik sowie Berichtswesen zur Ausländerkriminalit…",
+      "woerter": 5326
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Marcel Emmerich, Dr. Irene Mihalic, Agnieszka Brugger, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Rechtsstaatlichkeit wieder garantieren – Rechtswidrige Zur…",
+      "woerter": 4819
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Eckpfeiler einer wirksamen und strategischen Kabeldiplomatie",
+      "woerter": 3988
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 9107,
+      "prozent": 31.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 6732,
+      "prozent": 23.4
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4858,
+      "prozent": 16.9
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4483,
+      "prozent": 15.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3403,
+      "prozent": 11.8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 232,
+      "prozent": 0.8
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Ein Jahr Regierung unter Bundeskanzler Merz – Auswirkungen auf Deutschland als führende Industrienation",
+      "positiv": 134,
+      "negativ": 31
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 69,
+      "negativ": 8
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Marcel Emmerich, Dr. Irene Mihalic, Agnieszka Brugger, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Rechtsstaatlichkeit wieder garantieren – Rechtswidrige Zur…",
+      "positiv": 56,
+      "negativ": 20
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Martin Hess, Dr. Gottfried Curio, Dr. Bernd Baumann, weiterer Abgeordneter und der Fraktion der AfD: Polizeiliche Kriminalstatistik sowie Berichtswesen zur Ausländerkriminalit…",
+      "positiv": 60,
+      "negativ": 9
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Eckpfeiler einer wirksamen und strategischen Kabeldiplomatie",
+      "positiv": 47,
+      "negativ": 2
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 21,
+      "negativ": 7
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 80,
+      "negativ": 25
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 29,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 27,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 19,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und von der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 98,
+      "negativ": 26
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 69,
+      "negativ": 13
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 63,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 41,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 36,
+      "negativ": 11
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 4,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

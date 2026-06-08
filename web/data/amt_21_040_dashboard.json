@@ -1,0 +1,333 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "13.11.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "40"
+  },
+  "kennzahlen": {
+    "reden": 153,
+    "schriftliche_beitraege": 0,
+    "woerter": 84857,
+    "tops": 18,
+    "saalreaktionen": 1584,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Unterrichtung durch die Bundesregierung: Hightech Agenda Deutschland",
+      "woerter": 9423
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Wettbewerbsfähige Industrie – Entlastung durch Netzentgeltsenkung und Industriestrompreis",
+      "woerter": 9227
+    },
+    {
+      "top": 4,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung und Digitalisierung der Schwarzarbeitsbekämpfung",
+      "woerter": 8398
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Dr. Sandra Detzer, Andreas Audretsch, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wirtschaft 2045 – Innovationen stärken, Zukunftstec…",
+      "woerter": 8358
+    },
+    {
+      "top": 3,
+      "titel": "– Zweite und dritte Beratung des von den Abgeordneten Karsten Hilse, Steffen Kotré, Dr. Rainer Kraft, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Beseitig…",
+      "woerter": 7583
+    },
+    {
+      "top": 11,
+      "titel": "a) Erste Beratung des von den Abgeordneten Luke Hoß, Clara Bünger, Violetta Bock, weiteren Abgeordneten und der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur Änderung des Strafgesetzbu…",
+      "woerter": 5198
+    },
+    {
+      "top": 8,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der NIS-2-Richtlinie und zur Regelung wesentlicher Grundzüge des Informationssicherheit…",
+      "woerter": 4265
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Bernd Schattner, Marc Bernhard, René Springer, weiterer Abgeordneter und der Fraktion der AfD: Abwanderung der deutschen Industrie ins Ausland stoppen",
+      "woerter": 4097
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Dr. Malte Kaufmann, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Marktbasierte Resilienz – Versorgung mit kritischen Rohstoffen durch wirtsch…",
+      "woerter": 4031
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Einsetzung einer Kommission zur Überprüfung der sicherheitsrelevanten Wirtschaftsbeziehungen zwischen Deutschland und China",
+      "woerter": 3974
+    },
+    {
+      "top": 10,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "woerter": 3941
+    },
+    {
+      "top": 15,
+      "titel": "Erste Beratung des von den Abgeordneten Max Lucks, Filiz Polat, Deborah Düring, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änderung des Auf…",
+      "woerter": 3899
+    },
+    {
+      "top": 12,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der NATO-geführten Maritimen Sicherh…",
+      "woerter": 3798
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Kay Gottschalk, Jan Wenzel Schmidt, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Politisch motivierte Kontokündigungen durch Banken verbieten",
+      "woerter": 2986
+    },
+    {
+      "top": 18,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Abmilderung des Trassenentgeltanstiegs bei den Eisenbahnen des Bundes",
+      "woerter": 2648
+    },
+    {
+      "top": 16,
+      "titel": "Zusatzpunkt 5 und 6",
+      "woerter": 2632
+    },
+    {
+      "top": 6,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Überleitung öffentlicher Aufgaben bei Umwandlungsmaßnahmen der Deutsche Post AG sowie zur Änderung…",
+      "woerter": 399
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 24472,
+      "prozent": 30.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 19795,
+      "prozent": 24.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 15953,
+      "prozent": 19.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11543,
+      "prozent": 14.4
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8231,
+      "prozent": 10.3
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "– Zweite und dritte Beratung des von den Abgeordneten Karsten Hilse, Steffen Kotré, Dr. Rainer Kraft, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Beseitig…",
+      "positiv": 114,
+      "negativ": 31
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Dr. Sandra Detzer, Andreas Audretsch, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wirtschaft 2045 – Innovationen stärken, Zukunftstec…",
+      "positiv": 104,
+      "negativ": 12
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Wettbewerbsfähige Industrie – Entlastung durch Netzentgeltsenkung und Industriestrompreis",
+      "positiv": 105,
+      "negativ": 10
+    },
+    {
+      "top": 2,
+      "titel": "Unterrichtung durch die Bundesregierung: Hightech Agenda Deutschland",
+      "positiv": 106,
+      "negativ": 7
+    },
+    {
+      "top": 4,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung und Digitalisierung der Schwarzarbeitsbekämpfung",
+      "positiv": 95,
+      "negativ": 12
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Bernd Schattner, Marc Bernhard, René Springer, weiterer Abgeordneter und der Fraktion der AfD: Abwanderung der deutschen Industrie ins Ausland stoppen",
+      "positiv": 54,
+      "negativ": 19
+    },
+    {
+      "top": 11,
+      "titel": "a) Erste Beratung des von den Abgeordneten Luke Hoß, Clara Bünger, Violetta Bock, weiteren Abgeordneten und der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur Änderung des Strafgesetzbu…",
+      "positiv": 61,
+      "negativ": 12
+    },
+    {
+      "top": 8,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der NIS-2-Richtlinie und zur Regelung wesentlicher Grundzüge des Informationssicherheit…",
+      "positiv": 48,
+      "negativ": 8
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Kay Gottschalk, Jan Wenzel Schmidt, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Politisch motivierte Kontokündigungen durch Banken verbieten",
+      "positiv": 42,
+      "negativ": 12
+    },
+    {
+      "top": 10,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "positiv": 39,
+      "negativ": 11
+    },
+    {
+      "top": 12,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der NATO-geführten Maritimen Sicherh…",
+      "positiv": 47,
+      "negativ": 2
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Einsetzung einer Kommission zur Überprüfung der sicherheitsrelevanten Wirtschaftsbeziehungen zwischen Deutschland und China",
+      "positiv": 41,
+      "negativ": 7
+    },
+    {
+      "top": 15,
+      "titel": "Erste Beratung des von den Abgeordneten Max Lucks, Filiz Polat, Deborah Düring, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änderung des Auf…",
+      "positiv": 39,
+      "negativ": 9
+    },
+    {
+      "top": 16,
+      "titel": "Zusatzpunkt 5 und 6",
+      "positiv": 35,
+      "negativ": 3
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Dr. Malte Kaufmann, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Marktbasierte Resilienz – Versorgung mit kritischen Rohstoffen durch wirtsch…",
+      "positiv": 32,
+      "negativ": 5
+    },
+    {
+      "top": 18,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Abmilderung des Trassenentgeltanstiegs bei den Eisenbahnen des Bundes",
+      "positiv": 34,
+      "negativ": 2
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "top": 6,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Überleitung öffentlicher Aufgaben bei Umwandlungsmaßnahmen der Deutsche Post AG sowie zur Änderung…",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 184,
+      "negativ": 34
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 125,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 78,
+      "negativ": 5
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 36,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 8,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 246,
+      "negativ": 56
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 233,
+      "negativ": 42
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 195,
+      "negativ": 23
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 160,
+      "negativ": 27
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 108,
+      "negativ": 9
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

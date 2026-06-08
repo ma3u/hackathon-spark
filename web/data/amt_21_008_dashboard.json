@@ -1,0 +1,196 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "23.05.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "8"
+  },
+  "kennzahlen": {
+    "reden": 75,
+    "schriftliche_beitraege": 0,
+    "woerter": 44133,
+    "tops": 7,
+    "saalreaktionen": 852,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Dürre in Deutschland – Bedrohung für Mensch, Wirtschaft und Natur nicht aussitzen, Klimaschutz konsequent umsetzen",
+      "woerter": 9512
+    },
+    {
+      "top": 1,
+      "titel": "Vereinbarte Debatte: 75 Jahre Mitgliedschaft Deutschlands im Europarat",
+      "woerter": 8282
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Kein Heizungsgesetz durch die Hintertür – CO2-Bepreisung abschaffen",
+      "woerter": 8090
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Abgeordneten Dr. Till Steffen, Hanna Steinmüller, Lukas Benner, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Faire-Mieten-Geset…",
+      "woerter": 5408
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Rahmenbedingungen für die Erprobung von Innovationen in Reallaboren und zur Förder…",
+      "woerter": 4362
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Fraktion Die Linke: Ein Tierschutzgesetz, das Tiere wirksam schützt",
+      "woerter": 4350
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der internationalen Sicherheitspräsenz in Kosovo (KFOR)",
+      "woerter": 4129
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 13044,
+      "prozent": 31.5
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 9676,
+      "prozent": 23.4
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 8201,
+      "prozent": 19.8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6419,
+      "prozent": 15.5
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4035,
+      "prozent": 9.8
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Dürre in Deutschland – Bedrohung für Mensch, Wirtschaft und Natur nicht aussitzen, Klimaschutz konsequent umsetzen",
+      "positiv": 125,
+      "negativ": 29
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Kein Heizungsgesetz durch die Hintertür – CO2-Bepreisung abschaffen",
+      "positiv": 120,
+      "negativ": 18
+    },
+    {
+      "top": 1,
+      "titel": "Vereinbarte Debatte: 75 Jahre Mitgliedschaft Deutschlands im Europarat",
+      "positiv": 89,
+      "negativ": 18
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Fraktion Die Linke: Ein Tierschutzgesetz, das Tiere wirksam schützt",
+      "positiv": 65,
+      "negativ": 6
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Abgeordneten Dr. Till Steffen, Hanna Steinmüller, Lukas Benner, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Faire-Mieten-Geset…",
+      "positiv": 63,
+      "negativ": 6
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Rahmenbedingungen für die Erprobung von Innovationen in Reallaboren und zur Förder…",
+      "positiv": 48,
+      "negativ": 2
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der internationalen Sicherheitspräsenz in Kosovo (KFOR)",
+      "positiv": 43,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 107,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 61,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 61,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 29,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 147,
+      "negativ": 29
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 137,
+      "negativ": 32
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 85,
+      "negativ": 8
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 89,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 63,
+      "negativ": 6
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

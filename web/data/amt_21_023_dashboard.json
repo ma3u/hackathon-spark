@@ -1,0 +1,218 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "16.09.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "23"
+  },
+  "kennzahlen": {
+    "reden": 148,
+    "schriftliche_beitraege": 0,
+    "woerter": 88221,
+    "tops": 10,
+    "saalreaktionen": 1382,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Einzelplan 08",
+      "woerter": 12894
+    },
+    {
+      "top": 7,
+      "titel": "Einzelplan 16",
+      "woerter": 11203
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 25",
+      "woerter": 10975
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 09",
+      "woerter": 10781
+    },
+    {
+      "top": 9,
+      "titel": "Einzelplan 17",
+      "woerter": 10591
+    },
+    {
+      "top": 10,
+      "titel": "Einzelplan 12",
+      "woerter": 10533
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan 24",
+      "woerter": 10411
+    },
+    {
+      "top": 8,
+      "titel": "Einzelplan 10",
+      "woerter": 9944
+    },
+    {
+      "top": 2,
+      "titel": "Feststellung der Tagesordnung",
+      "woerter": 889
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 27283,
+      "prozent": 32.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 20220,
+      "prozent": 23.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 15381,
+      "prozent": 18.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 12735,
+      "prozent": 14.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 9315,
+      "prozent": 10.9
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 367,
+      "prozent": 0.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 9,
+      "titel": "Einzelplan 17",
+      "positiv": 129,
+      "negativ": 25
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 09",
+      "positiv": 138,
+      "negativ": 13
+    },
+    {
+      "top": 7,
+      "titel": "Einzelplan 16",
+      "positiv": 119,
+      "negativ": 20
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan 08",
+      "positiv": 129,
+      "negativ": 9
+    },
+    {
+      "top": 10,
+      "titel": "Einzelplan 12",
+      "positiv": 119,
+      "negativ": 7
+    },
+    {
+      "top": 8,
+      "titel": "Einzelplan 10",
+      "positiv": 116,
+      "negativ": 7
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 25",
+      "positiv": 105,
+      "negativ": 14
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan 24",
+      "positiv": 93,
+      "negativ": 10
+    },
+    {
+      "top": 2,
+      "titel": "Feststellung der Tagesordnung",
+      "positiv": 13,
+      "negativ": 4
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 212,
+      "negativ": 25
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 111,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 90,
+      "negativ": 14
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 40,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 7,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 267,
+      "negativ": 33
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 247,
+      "negativ": 30
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 160,
+      "negativ": 21
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 138,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 105,
+      "negativ": 13
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 5,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "22.05.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "7"
+  },
+  "kennzahlen": {
+    "reden": 109,
+    "schriftliche_beitraege": 0,
+    "woerter": 58629,
+    "tops": 14,
+    "saalreaktionen": 968,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 9,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Freiheitlichen Rechtsstaat schützen – Gewalt gegen Sicherheitskräfte konsequent entgegentreten",
+      "woerter": 8367
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Agnieszka Brugger, Dr. Julia Verlinden, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Sicherheit stärken, Energieabhängigkeiten durch…",
+      "woerter": 5377
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur besseren Bekämpfung überhöhter Mieten (Mietwuchergesetz)",
+      "woerter": 4816
+    },
+    {
+      "top": 1,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verlängerung der Fristen im Investitionsprogramm Ganztagsausbau",
+      "woerter": 4451
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Reform der Einbürgerungspolitik als Voraussetzung einer wirklichen…",
+      "woerter": 4422
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in Lebanon“ (UNIFIL)",
+      "woerter": 4292
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Katharina Beck, Dr. Moritz Heuberger, Max Lucks, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Organisierte Steuerhinterziehung wie Cum-Cum-Deals aufklären, St…",
+      "woerter": 4286
+    },
+    {
+      "top": 14,
+      "titel": "Erste Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur Änderung des Grundgesetzes (Artikel 143i)",
+      "woerter": 4212
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUFOR ALTHEA in Bosnien und Herzegowina",
+      "woerter": 4145
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Leif-Erik Holm, Marc Bernhard, Peter Boehringer, weiterer Abgeordneter und der Fraktion der AfD: Deindustrialisierung stoppen – Verbrenner-Verbot aufheben",
+      "woerter": 4077
+    },
+    {
+      "top": 12,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zu dem Vierten Protokoll vom 18. September 2023 zur Änderung des Vertrags vom 27. Oktober 1956 zwischen…",
+      "woerter": 3929
+    },
+    {
+      "top": 10,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Kulturgutschutzgesetzes (1. KGSGÄndG)",
+      "woerter": 3918
+    },
+    {
+      "top": 8,
+      "titel": "Beratung der Beschlussempfehlung des Ältestenrates: Zeitplan des Deutschen Bundestages für das Jahr 2025 ab Juni 2025",
+      "woerter": 2337
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 17692,
+      "prozent": 31.9
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 13246,
+      "prozent": 23.9
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 10518,
+      "prozent": 19.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 8087,
+      "prozent": 14.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5912,
+      "prozent": 10.7
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 9,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Freiheitlichen Rechtsstaat schützen – Gewalt gegen Sicherheitskräfte konsequent entgegentreten",
+      "positiv": 83,
+      "negativ": 8
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Reform der Einbürgerungspolitik als Voraussetzung einer wirklichen…",
+      "positiv": 67,
+      "negativ": 20
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Agnieszka Brugger, Dr. Julia Verlinden, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Sicherheit stärken, Energieabhängigkeiten durch…",
+      "positiv": 70,
+      "negativ": 13
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Leif-Erik Holm, Marc Bernhard, Peter Boehringer, weiterer Abgeordneter und der Fraktion der AfD: Deindustrialisierung stoppen – Verbrenner-Verbot aufheben",
+      "positiv": 66,
+      "negativ": 7
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur besseren Bekämpfung überhöhter Mieten (Mietwuchergesetz)",
+      "positiv": 54,
+      "negativ": 10
+    },
+    {
+      "top": 1,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verlängerung der Fristen im Investitionsprogramm Ganztagsausbau",
+      "positiv": 60,
+      "negativ": 3
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Katharina Beck, Dr. Moritz Heuberger, Max Lucks, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Organisierte Steuerhinterziehung wie Cum-Cum-Deals aufklären, St…",
+      "positiv": 50,
+      "negativ": 6
+    },
+    {
+      "top": 14,
+      "titel": "Erste Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur Änderung des Grundgesetzes (Artikel 143i)",
+      "positiv": 50,
+      "negativ": 6
+    },
+    {
+      "top": 12,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zu dem Vierten Protokoll vom 18. September 2023 zur Änderung des Vertrags vom 27. Oktober 1956 zwischen…",
+      "positiv": 48,
+      "negativ": 1
+    },
+    {
+      "top": 10,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Kulturgutschutzgesetzes (1. KGSGÄndG)",
+      "positiv": 47,
+      "negativ": 1
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUFOR ALTHEA in Bosnien und Herzegowina",
+      "positiv": 44,
+      "negativ": 0
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in Lebanon“ (UNIFIL)",
+      "positiv": 42,
+      "negativ": 0
+    },
+    {
+      "top": 8,
+      "titel": "Beratung der Beschlussempfehlung des Ältestenrates: Zeitplan des Deutschen Bundestages für das Jahr 2025 ab Juni 2025",
+      "positiv": 22,
+      "negativ": 2
+    },
+    {
+      "top": 7,
+      "titel": "Wahlvorschläge der Fraktionen CDU/CSU, AfD, SPD, BÜNDNIS 90/DIE GRÜNEN und Die Linke: Wahl der Schriftführerinnen und Schriftführer gemäß § 3 der Geschäftsordnung",
+      "positiv": 2,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 140,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 82,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 74,
+      "negativ": 7
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 39,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 14,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der AfD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten im ganzen Hause",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 209,
+      "negativ": 31
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 157,
+      "negativ": 24
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 111,
+      "negativ": 8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 95,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 88,
+      "negativ": 5
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 9,
+    "bestätigt": 1,
+    "teilweise": 2
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "12.09.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "22"
+  },
+  "kennzahlen": {
+    "reden": 85,
+    "schriftliche_beitraege": 0,
+    "woerter": 50518,
+    "tops": 8,
+    "saalreaktionen": 876,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Herbst des Klimaschutzes",
+      "woerter": 9043
+    },
+    {
+      "top": 2,
+      "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Fraktion Die Linke: Mehrwertsteuer auf Grundnahrungsmittel, Hygieneprodukte und auf Bus und Bahn abschaffen",
+      "woerter": 8810
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundes-regierung eingebrachten Entwurfs eines Gesetzes zur Finanzierung von Infrastrukturinvestitionen von Ländern und Kommunen (Länder-und-Kommunal-Infrastrukturfinanzi…",
+      "woerter": 8158
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von den Abgeordneten Stephan Brandner, Thomas Fetsch, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des § 188 d…",
+      "woerter": 5803
+    },
+    {
+      "top": 3,
+      "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Neufassung der Geschäftsordnung des Deutschen Bundestages",
+      "woerter": 5304
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Entwicklung und Erprobung eines Online-Verfahrens in der Zivilgerichtsbarkeit",
+      "woerter": 4696
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Dr. Julia Verlinden, Lisa Badum, Felix Banaszak, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gasbohrungen in Deutschland beenden – Energiewende konsequent…",
+      "woerter": 4638
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Gesetzes über den unmittelbaren Zwang bei Ausübung öffentlicher Gewalt durch Vollzugsbeamte de…",
+      "woerter": 4066
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 15577,
+      "prozent": 32.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 11296,
+      "prozent": 23.8
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 8799,
+      "prozent": 18.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 7084,
+      "prozent": 14.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4547,
+      "prozent": 9.6
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 228,
+      "prozent": 0.5
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Herbst des Klimaschutzes",
+      "positiv": 102,
+      "negativ": 20
+    },
+    {
+      "top": 2,
+      "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Fraktion Die Linke: Mehrwertsteuer auf Grundnahrungsmittel, Hygieneprodukte und auf Bus und Bahn abschaffen",
+      "positiv": 93,
+      "negativ": 28
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundes-regierung eingebrachten Entwurfs eines Gesetzes zur Finanzierung von Infrastrukturinvestitionen von Ländern und Kommunen (Länder-und-Kommunal-Infrastrukturfinanzi…",
+      "positiv": 94,
+      "negativ": 1
+    },
+    {
+      "top": 3,
+      "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Neufassung der Geschäftsordnung des Deutschen Bundestages",
+      "positiv": 48,
+      "negativ": 14
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Dr. Julia Verlinden, Lisa Badum, Felix Banaszak, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gasbohrungen in Deutschland beenden – Energiewende konsequent…",
+      "positiv": 45,
+      "negativ": 9
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von den Abgeordneten Stephan Brandner, Thomas Fetsch, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des § 188 d…",
+      "positiv": 44,
+      "negativ": 9
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Gesetzes über den unmittelbaren Zwang bei Ausübung öffentlicher Gewalt durch Vollzugsbeamte de…",
+      "positiv": 43,
+      "negativ": 4
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Entwicklung und Erprobung eines Online-Verfahrens in der Zivilgerichtsbarkeit",
+      "positiv": 34,
+      "negativ": 4
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 117,
+      "negativ": 20
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 48,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 41,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 26,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 8,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 0,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "LINKEN",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Dobrindt",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 138,
+      "negativ": 41
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 137,
+      "negativ": 19
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 75,
+      "negativ": 13
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 70,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 50,
+      "negativ": 4
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 1,
+      "negativ": 1
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "03.12.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "46"
+  },
+  "kennzahlen": {
+    "reden": 181,
+    "schriftliche_beitraege": 16,
+    "woerter": 41101,
+    "tops": 9,
+    "saalreaktionen": 729,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 14214
+    },
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Linksextreme Gewalt und die Geschehnisse um die Neugründung des AfD-Jugendverbandes in Gießen",
+      "woerter": 9423
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Errichtung des Gedenkorts für die polnischen Opfer des Zweiten Weltkrieges und die Opfer der deutschen Besatzungsherrschaft in Polen",
+      "woerter": 4681
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Schahina Gambir, Marcel Emmerich, Luise Amtsberg, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wort halten, Leben schützen – Visa für afghanische Staatsang…",
+      "woerter": 4563
+    },
+    {
+      "top": 7,
+      "titel": "a) Unterrichtung durch die Bundesregierung: Konzeption des Bundes für die Gedenkstätten zur Aufarbeitung der NS-Terrorherrschaft und der SED-Diktatur",
+      "woerter": 4152
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Organisierten Betrug im Einbürgerungsverfahren verhindern – Das Ve…",
+      "woerter": 4068
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8810,
+      "prozent": 27.7
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 8790,
+      "prozent": 27.6
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5531,
+      "prozent": 17.4
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 5360,
+      "prozent": 16.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3317,
+      "prozent": 10.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Linksextreme Gewalt und die Geschehnisse um die Neugründung des AfD-Jugendverbandes in Gießen",
+      "positiv": 136,
+      "negativ": 61
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 80,
+      "negativ": 10
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Schahina Gambir, Marcel Emmerich, Luise Amtsberg, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wort halten, Leben schützen – Visa für afghanische Staatsang…",
+      "positiv": 64,
+      "negativ": 16
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Organisierten Betrug im Einbürgerungsverfahren verhindern – Das Ve…",
+      "positiv": 49,
+      "negativ": 12
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Errichtung des Gedenkorts für die polnischen Opfer des Zweiten Weltkrieges und die Opfer der deutschen Besatzungsherrschaft in Polen",
+      "positiv": 40,
+      "negativ": 6
+    },
+    {
+      "top": 7,
+      "titel": "a) Unterrichtung durch die Bundesregierung: Konzeption des Bundes für die Gedenkstätten zur Aufarbeitung der NS-Terrorherrschaft und der SED-Diktatur",
+      "positiv": 42,
+      "negativ": 2
+    },
+    {
+      "top": 3,
+      "titel": "Fragestunde",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 60,
+      "negativ": 32
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 27,
+      "negativ": 13
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 37,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 20,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 107,
+      "negativ": 24
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 63,
+      "negativ": 40
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 72,
+      "negativ": 17
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 64,
+      "negativ": 11
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 43,
+      "negativ": 9
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

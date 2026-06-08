@@ -1,0 +1,327 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "11.09.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "21"
+  },
+  "kennzahlen": {
+    "reden": 161,
+    "schriftliche_beitraege": 0,
+    "woerter": 85981,
+    "tops": 18,
+    "saalreaktionen": 1405,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Hightech Agenda Deutschland – Mit Höchstleistungen in Forschung und Innovation Deutschland voranbringen",
+      "woerter": 9266
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Schahina Gambir, Marcel Emmerich, Luise Amtsberg, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Aufnahmezusagen einhalten – Schutz für gefährdete Afghaninnen u…",
+      "woerter": 9232
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Dr. Bernd Baumann, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Effektive Grenzkontrollen und Zurückweisung aller asylsuchenden Pe…",
+      "woerter": 9059
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der NIS-2-Richtlinie und zur Regelung wesentlicher Grundzüge des Informationssicherheitsmanagements in d…",
+      "woerter": 8236
+    },
+    {
+      "top": 15,
+      "titel": "Antrag der Abgeordneten Victoria Broßart, Tarek Al-Wazir, Matthias Gastel, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Deutschlandticket weiterentwickeln und langfristig sichern",
+      "woerter": 5010
+    },
+    {
+      "top": 3,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Befugniserweiterung und Entbürokratisierung in der Pflege",
+      "woerter": 4672
+    },
+    {
+      "top": 14,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Kohlendioxid-Speicherungsgesetzes",
+      "woerter": 4484
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Martin Reichardt, Alexander Arpaschi, Carolin Bachmann, weiterer Abgeordneter und der Fraktion der AfD: Gesetz über die Selbstbestimmung in Bezug auf den Geschlechtseintrag au…",
+      "woerter": 4328
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Desiree Becker, Gökay Akbulut, Janina Böttger, weiterer Abgeordneter und der Fraktion Die Linke: Streichung der Wehrpflicht aus dem Grundgesetz",
+      "woerter": 4264
+    },
+    {
+      "top": 9,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Andreas Bleck, Dr. Michael Blos, Dr. Ingo Hahn, weiterer Ab…",
+      "woerter": 4213
+    },
+    {
+      "top": 12,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Abmilderung des Trassenentgeltanstiegs bei den Eisenbahnen des Bundes",
+      "woerter": 3999
+    },
+    {
+      "top": 10,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Elften Gesetzes zur Änderung des Regionalisierungsgesetzes",
+      "woerter": 3898
+    },
+    {
+      "top": 8,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "woerter": 3734
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Befugniserweiterung und Entbürokratisierung in der Pflege",
+      "woerter": 3081
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Gerold Otten, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Umbenennung des Bismarck-Zimmers im Auswärtigen Amt zurücknehmen",
+      "woerter": 2925
+    },
+    {
+      "top": 18,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Kultur und Medien zu dem Antrag der Fraktionen der CDU/CSU und SPD: Volksbund Deutsche Kriegsgräberfürsorge – Arbeit für Frieden und Versöhnung sic…",
+      "woerter": 2869
+    },
+    {
+      "top": 16,
+      "titel": "– Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Anpassung des Batterierechts an die Verordnung (EU) 2023/1542 (Batterierecht-EU-Anpas…",
+      "woerter": 2711
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 26890,
+      "prozent": 32.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 18695,
+      "prozent": 22.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 17075,
+      "prozent": 20.7
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11195,
+      "prozent": 13.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8182,
+      "prozent": 9.9
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 480,
+      "prozent": 0.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Dr. Bernd Baumann, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Effektive Grenzkontrollen und Zurückweisung aller asylsuchenden Pe…",
+      "positiv": 89,
+      "negativ": 26
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Hightech Agenda Deutschland – Mit Höchstleistungen in Forschung und Innovation Deutschland voranbringen",
+      "positiv": 82,
+      "negativ": 10
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Schahina Gambir, Marcel Emmerich, Luise Amtsberg, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Aufnahmezusagen einhalten – Schutz für gefährdete Afghaninnen u…",
+      "positiv": 74,
+      "negativ": 17
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Martin Reichardt, Alexander Arpaschi, Carolin Bachmann, weiterer Abgeordneter und der Fraktion der AfD: Gesetz über die Selbstbestimmung in Bezug auf den Geschlechtseintrag au…",
+      "positiv": 63,
+      "negativ": 14
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Desiree Becker, Gökay Akbulut, Janina Böttger, weiterer Abgeordneter und der Fraktion Die Linke: Streichung der Wehrpflicht aus dem Grundgesetz",
+      "positiv": 57,
+      "negativ": 19
+    },
+    {
+      "top": 15,
+      "titel": "Antrag der Abgeordneten Victoria Broßart, Tarek Al-Wazir, Matthias Gastel, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Deutschlandticket weiterentwickeln und langfristig sichern",
+      "positiv": 56,
+      "negativ": 17
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der NIS-2-Richtlinie und zur Regelung wesentlicher Grundzüge des Informationssicherheitsmanagements in d…",
+      "positiv": 63,
+      "negativ": 6
+    },
+    {
+      "top": 3,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Befugniserweiterung und Entbürokratisierung in der Pflege",
+      "positiv": 58,
+      "negativ": 4
+    },
+    {
+      "top": 9,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Andreas Bleck, Dr. Michael Blos, Dr. Ingo Hahn, weiterer Ab…",
+      "positiv": 49,
+      "negativ": 11
+    },
+    {
+      "top": 14,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Kohlendioxid-Speicherungsgesetzes",
+      "positiv": 51,
+      "negativ": 4
+    },
+    {
+      "top": 8,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "positiv": 47,
+      "negativ": 6
+    },
+    {
+      "top": 10,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Elften Gesetzes zur Änderung des Regionalisierungsgesetzes",
+      "positiv": 49,
+      "negativ": 2
+    },
+    {
+      "top": 17,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Gerold Otten, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Umbenennung des Bismarck-Zimmers im Auswärtigen Amt zurücknehmen",
+      "positiv": 40,
+      "negativ": 7
+    },
+    {
+      "top": 12,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Abmilderung des Trassenentgeltanstiegs bei den Eisenbahnen des Bundes",
+      "positiv": 37,
+      "negativ": 4
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Befugniserweiterung und Entbürokratisierung in der Pflege",
+      "positiv": 36,
+      "negativ": 0
+    },
+    {
+      "top": 16,
+      "titel": "– Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Anpassung des Batterierechts an die Verordnung (EU) 2023/1542 (Batterierecht-EU-Anpas…",
+      "positiv": 26,
+      "negativ": 2
+    },
+    {
+      "top": 18,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Kultur und Medien zu dem Antrag der Fraktionen der CDU/CSU und SPD: Volksbund Deutsche Kriegsgräberfürsorge – Arbeit für Frieden und Versöhnung sic…",
+      "positiv": 27,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 182,
+      "negativ": 25
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 113,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 91,
+      "negativ": 11
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 20,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 248,
+      "negativ": 69
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 222,
+      "negativ": 39
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 146,
+      "negativ": 16
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 143,
+      "negativ": 12
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 99,
+      "negativ": 13
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 6,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

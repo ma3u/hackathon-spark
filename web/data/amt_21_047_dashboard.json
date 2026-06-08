@@ -1,0 +1,295 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "04.12.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "47"
+  },
+  "kennzahlen": {
+    "reden": 167,
+    "schriftliche_beitraege": 0,
+    "woerter": 87043,
+    "tops": 15,
+    "saalreaktionen": 1673,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 5,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Einen gerechten und dauerhaften Frieden für die Ukraine erreichen",
+      "woerter": 12459
+    },
+    {
+      "top": 2,
+      "titel": "a) Antrag der Abgeordneten Lisa Badum, Dr. Jan-Niclas Gesenhues, Julia Schneider, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Rückbau der EU-Klimapolitik stoppen – Deutschlands Klim…",
+      "woerter": 9833
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Martin Erwin Renner, Dr. Götz Frömming, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Entlassung des Staatsministers für Kultur und Medien",
+      "woerter": 9396
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Fraktionen CDU/CSU, SPD und BÜNDNIS 90/DIE GRÜNEN: Olympische und Paralympische Sommerspiele – Volle Unterstützung einer deutschen Bewerbung",
+      "woerter": 8924
+    },
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Steueränderungsgesetzes 2025",
+      "woerter": 8273
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Ulle Schauws, Helge Limburg, Marcel Emmerich, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gewaltschutz ganzheitlich denken – Istanbul-Konvention vollständig…",
+      "woerter": 4489
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Jan Feser, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Schutz vor Gewalt und bessere Arbeitsbedingungen für Mitarbeiter der Jobcenter",
+      "woerter": 4359
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Für eine sichere Rente unserer Kinder – Junior-Spardepot",
+      "woerter": 4341
+    },
+    {
+      "top": 6,
+      "titel": "Vereinbarte Debatte: Tag der Menschenrechte",
+      "woerter": 4275
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Maren Kaminski, Cansu Özdemir, Vinzenz Glaser, weiterer Abgeordneter und der Fraktion Die Linke: Für eine Friedensperspektive im Sudan – Humanitäre Hilfe ausbauen, Waffenliefe…",
+      "woerter": 4252
+    },
+    {
+      "top": 10,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Militärischen Sicherheit in der Bundeswehr",
+      "woerter": 3990
+    },
+    {
+      "top": 12,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Sicherheitsüberprüfungsgesetzes und zur Änderung beamtenrechtlicher Vorschriften",
+      "woerter": 3919
+    },
+    {
+      "top": 8,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Ausbaus von Geothermieanlagen, Wärmepumpen und Wärmespeichern sowie zur Änderung we…",
+      "woerter": 3625
+    },
+    {
+      "top": 14,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der EU-Erneuerbaren-Richtlinie in den Bereichen Windenergie auf See und Stromnetze",
+      "woerter": 2466
+    },
+    {
+      "top": 15,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, wei…",
+      "woerter": 2442
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 25890,
+      "prozent": 31.3
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 18997,
+      "prozent": 23.0
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 17527,
+      "prozent": 21.2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11576,
+      "prozent": 14.0
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8674,
+      "prozent": 10.5
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "a) Antrag der Abgeordneten Lisa Badum, Dr. Jan-Niclas Gesenhues, Julia Schneider, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Rückbau der EU-Klimapolitik stoppen – Deutschlands Klim…",
+      "positiv": 113,
+      "negativ": 38
+    },
+    {
+      "top": 1,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Steueränderungsgesetzes 2025",
+      "positiv": 105,
+      "negativ": 30
+    },
+    {
+      "top": 5,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Einen gerechten und dauerhaften Frieden für die Ukraine erreichen",
+      "positiv": 112,
+      "negativ": 21
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Martin Erwin Renner, Dr. Götz Frömming, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Entlassung des Staatsministers für Kultur und Medien",
+      "positiv": 103,
+      "negativ": 21
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Fraktionen CDU/CSU, SPD und BÜNDNIS 90/DIE GRÜNEN: Olympische und Paralympische Sommerspiele – Volle Unterstützung einer deutschen Bewerbung",
+      "positiv": 90,
+      "negativ": 9
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Ulle Schauws, Helge Limburg, Marcel Emmerich, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gewaltschutz ganzheitlich denken – Istanbul-Konvention vollständig…",
+      "positiv": 64,
+      "negativ": 11
+    },
+    {
+      "top": 6,
+      "titel": "Vereinbarte Debatte: Tag der Menschenrechte",
+      "positiv": 57,
+      "negativ": 7
+    },
+    {
+      "top": 15,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, wei…",
+      "positiv": 46,
+      "negativ": 14
+    },
+    {
+      "top": 8,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Ausbaus von Geothermieanlagen, Wärmepumpen und Wärmespeichern sowie zur Änderung we…",
+      "positiv": 55,
+      "negativ": 3
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Für eine sichere Rente unserer Kinder – Junior-Spardepot",
+      "positiv": 47,
+      "negativ": 9
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Jan Feser, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Schutz vor Gewalt und bessere Arbeitsbedingungen für Mitarbeiter der Jobcenter",
+      "positiv": 50,
+      "negativ": 5
+    },
+    {
+      "top": 10,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Militärischen Sicherheit in der Bundeswehr",
+      "positiv": 39,
+      "negativ": 5
+    },
+    {
+      "top": 12,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Sicherheitsüberprüfungsgesetzes und zur Änderung beamtenrechtlicher Vorschriften",
+      "positiv": 44,
+      "negativ": 0
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Maren Kaminski, Cansu Özdemir, Vinzenz Glaser, weiterer Abgeordneter und der Fraktion Die Linke: Für eine Friedensperspektive im Sudan – Humanitäre Hilfe ausbauen, Waffenliefe…",
+      "positiv": 39,
+      "negativ": 4
+    },
+    {
+      "top": 14,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der EU-Erneuerbaren-Richtlinie in den Bereichen Windenergie auf See und Stromnetze",
+      "positiv": 27,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 158,
+      "negativ": 33
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 103,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 72,
+      "negativ": 6
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 71,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 13,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 282,
+      "negativ": 59
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 213,
+      "negativ": 62
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 183,
+      "negativ": 24
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 167,
+      "negativ": 16
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 97,
+      "negativ": 17
+    }
+  ],
+  "faktencheck_bilanz": {
+    "bestätigt": 1,
+    "unbelegt": 11
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "11.07.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "19"
+  },
+  "kennzahlen": {
+    "reden": 59,
+    "schriftliche_beitraege": 0,
+    "woerter": 34842,
+    "tops": 4,
+    "saalreaktionen": 561,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Einzelplan 11",
+      "woerter": 12688
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Errichtung eines Sondervermögens Infrastruktur und Klimaneutralität (SVIKG)",
+      "woerter": 11884
+    },
+    {
+      "top": 1,
+      "titel": "Vereinbarte Debatte: aus Anlass des 30. Jahrestages des Völkermords von Srebrenica",
+      "woerter": 8374
+    },
+    {
+      "top": 2,
+      "titel": "Zur Geschäftsordnung",
+      "woerter": 1896
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 9913,
+      "prozent": 30.9
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 8749,
+      "prozent": 27.3
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4843,
+      "prozent": 15.1
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4758,
+      "prozent": 14.8
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3797,
+      "prozent": 11.8
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Einzelplan 11",
+      "positiv": 140,
+      "negativ": 17
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Errichtung eines Sondervermögens Infrastruktur und Klimaneutralität (SVIKG)",
+      "positiv": 129,
+      "negativ": 16
+    },
+    {
+      "top": 1,
+      "titel": "Vereinbarte Debatte: aus Anlass des 30. Jahrestages des Völkermords von Srebrenica",
+      "positiv": 74,
+      "negativ": 22
+    },
+    {
+      "top": 2,
+      "titel": "Zur Geschäftsordnung",
+      "positiv": 41,
+      "negativ": 15
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 72,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 41,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 29,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 11,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 97,
+      "negativ": 31
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 96,
+      "negativ": 16
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 51,
+      "negativ": 9
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 56,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 44,
+      "negativ": 9
+    }
+  ],
+  "faktencheck_bilanz": {
+    "teilweise": 6,
+    "unbelegt": 4,
+    "bestätigt": 2
+  }
+}

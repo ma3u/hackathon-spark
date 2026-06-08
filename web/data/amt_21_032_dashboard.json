@@ -1,0 +1,229 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "10.10.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "32"
+  },
+  "kennzahlen": {
+    "reden": 79,
+    "schriftliche_beitraege": 0,
+    "woerter": 46000,
+    "tops": 8,
+    "saalreaktionen": 840,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Soziale und ökologische Industriepolitik – Arbeitsplätze schützen, Zukunft gerecht gestalten",
+      "woerter": 8750
+    },
+    {
+      "top": 1,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Tarifautonomie durch die Sicherung von Tariftreue bei der Vergabe öffentlicher Aufträge des Bundes (T…",
+      "woerter": 8564
+    },
+    {
+      "top": 2,
+      "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Stefan Möller, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Stärkung der…",
+      "woerter": 8252
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: 35 Jahre Deutsche Einheit – Freiheit in Deutschland und Europa festigen",
+      "woerter": 4539
+    },
+    {
+      "top": 6,
+      "titel": "Zusatzpunkt 8, TOP 37, ZP 9",
+      "woerter": 4486
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Mandy Eißing, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Mindestbetrag des Elterngelds erhöhen – Familien und ihre Kinder stärken",
+      "woerter": 3957
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes für einen Zuschuss zu den Übertragungsnetzkosten für das Jahr 2026",
+      "woerter": 3790
+    },
+    {
+      "top": 5,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Interims-Wirtschaftspartnerschaftsabkommen vom 26. November 2008 zwischen Côte d’Ivoire einerseits und der E…",
+      "woerter": 3662
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 13519,
+      "prozent": 31.4
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 10421,
+      "prozent": 24.2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6965,
+      "prozent": 16.2
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6886,
+      "prozent": 16.0
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5222,
+      "prozent": 12.1
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Stefan Möller, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Stärkung der…",
+      "positiv": 88,
+      "negativ": 35
+    },
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Soziale und ökologische Industriepolitik – Arbeitsplätze schützen, Zukunft gerecht gestalten",
+      "positiv": 102,
+      "negativ": 12
+    },
+    {
+      "top": 1,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Tarifautonomie durch die Sicherung von Tariftreue bei der Vergabe öffentlicher Aufträge des Bundes (T…",
+      "positiv": 99,
+      "negativ": 7
+    },
+    {
+      "top": 6,
+      "titel": "Zusatzpunkt 8, TOP 37, ZP 9",
+      "positiv": 55,
+      "negativ": 7
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: 35 Jahre Deutsche Einheit – Freiheit in Deutschland und Europa festigen",
+      "positiv": 51,
+      "negativ": 9
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes für einen Zuschuss zu den Übertragungsnetzkosten für das Jahr 2026",
+      "positiv": 49,
+      "negativ": 3
+    },
+    {
+      "top": 5,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Interims-Wirtschaftspartnerschaftsabkommen vom 26. November 2008 zwischen Côte d’Ivoire einerseits und der E…",
+      "positiv": 48,
+      "negativ": 1
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Mandy Eißing, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Mindestbetrag des Elterngelds erhöhen – Familien und ihre Kinder stärken",
+      "positiv": 33,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 107,
+      "negativ": 17
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 54,
+      "negativ": 6
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 47,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 21,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Praxis",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 137,
+      "negativ": 28
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 131,
+      "negativ": 29
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 74,
+      "negativ": 8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 75,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 65,
+      "negativ": 6
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "teilweise": 1,
+    "bestätigt": 1
+  }
+}

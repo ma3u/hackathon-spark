@@ -1,0 +1,211 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "17.10.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "35"
+  },
+  "kennzahlen": {
+    "reden": 83,
+    "schriftliche_beitraege": 0,
+    "woerter": 43451,
+    "tops": 7,
+    "saalreaktionen": 769,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales zu dem Antrag der Abgeordneten Anne Zerr, Doris Achelwilm, Dr. Dietmar Bartsch, weiterer Abgeordneter und der Fraktion Die Link…",
+      "woerter": 9179
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Erster Klimakipppunkt laut internationaler Studie überschritten – Konsequenzen für das Handeln der Bundesregierung",
+      "woerter": 8706
+    },
+    {
+      "top": 1,
+      "titel": "Unterrichtung durch die Bundesregierung: Modernisierungsagenda für Staat und Verwaltung (Bund) – Für ein schnelles, digitales und handlungsfähiges Deutschland",
+      "woerter": 8147
+    },
+    {
+      "top": 3,
+      "titel": "Unterrichtung durch die Bundesregierung: Bericht der Beauftragten der Bundesregierung für Ostdeutschland 2025 35 Jahre: Aufgewachsen in Einheit?",
+      "woerter": 5308
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Ayse Asar, Dr. Andrea Lübcke, Claudia Müller, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Bildung bezahlbar machen – BAföG-Reform jetzt",
+      "woerter": 4643
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Pierre Lamely, Ruben Rupp, Tobias Teich, weiterer Abgeordneter und der Fraktion der AfD: Privatsphäre schützen – Nein zur EU-Chatkontrolle",
+      "woerter": 3878
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Gesetzes gegen den unlauteren Wettbewerb",
+      "woerter": 3590
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 12276,
+      "prozent": 30.7
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 9802,
+      "prozent": 24.5
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 7722,
+      "prozent": 19.3
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5784,
+      "prozent": 14.5
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4390,
+      "prozent": 11.0
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales zu dem Antrag der Abgeordneten Anne Zerr, Doris Achelwilm, Dr. Dietmar Bartsch, weiterer Abgeordneter und der Fraktion Die Link…",
+      "positiv": 104,
+      "negativ": 29
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Erster Klimakipppunkt laut internationaler Studie überschritten – Konsequenzen für das Handeln der Bundesregierung",
+      "positiv": 94,
+      "negativ": 26
+    },
+    {
+      "top": 1,
+      "titel": "Unterrichtung durch die Bundesregierung: Modernisierungsagenda für Staat und Verwaltung (Bund) – Für ein schnelles, digitales und handlungsfähiges Deutschland",
+      "positiv": 85,
+      "negativ": 4
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Pierre Lamely, Ruben Rupp, Tobias Teich, weiterer Abgeordneter und der Fraktion der AfD: Privatsphäre schützen – Nein zur EU-Chatkontrolle",
+      "positiv": 50,
+      "negativ": 16
+    },
+    {
+      "top": 3,
+      "titel": "Unterrichtung durch die Bundesregierung: Bericht der Beauftragten der Bundesregierung für Ostdeutschland 2025 35 Jahre: Aufgewachsen in Einheit?",
+      "positiv": 52,
+      "negativ": 8
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Ayse Asar, Dr. Andrea Lübcke, Claudia Müller, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Bildung bezahlbar machen – BAföG-Reform jetzt",
+      "positiv": 48,
+      "negativ": 6
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Gesetzes gegen den unlauteren Wettbewerb",
+      "positiv": 33,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 84,
+      "negativ": 17
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 46,
+      "negativ": 8
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 50,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 19,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten im ganzen Hause",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AdD",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 124,
+      "negativ": 22
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 109,
+      "negativ": 33
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 77,
+      "negativ": 5
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 60,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 52,
+      "negativ": 12
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

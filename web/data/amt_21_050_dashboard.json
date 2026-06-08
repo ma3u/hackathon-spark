@@ -1,0 +1,322 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "18.12.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "50"
+  },
+  "kennzahlen": {
+    "reden": 159,
+    "schriftliche_beitraege": 0,
+    "woerter": 87138,
+    "tops": 16,
+    "saalreaktionen": 1638,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Knuth Meyer-Soltau, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung des … Untersuchungsausschusses der 21. Wahlperiode („…",
+      "woerter": 11479
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zu den Ergebnissen des Berliner Ukrainegipfels",
+      "woerter": 10929
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Schahina Gambir, Misbah Khan, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mit einem Demokratiefördergesetz Demokratie stärken und…",
+      "woerter": 10379
+    },
+    {
+      "top": 3,
+      "titel": "Vereinbarte Debatte: 35. Jahrestag der Konstituierung des ersten gesamtdeutschen Bundestages",
+      "woerter": 8347
+    },
+    {
+      "top": 1,
+      "titel": "Tagesordnungspunkt 7 und Zusatzpunkt 9",
+      "woerter": 7999
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Dr. Paula Piechotta, Dr. Janosch Dahmen, Simone Fischer, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kosten für hochpreisige Arzneimittel bezahlbar halten –…",
+      "woerter": 4801
+    },
+    {
+      "top": 9,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Angebote der Jugendarbeit im Ganztag während der Schulferien",
+      "woerter": 4571
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Dr. Rainer Kraft, Andreas Bleck, Dr. Michael Blos, weiterer Abgeordneter und der Fraktion der AfD: Beitritt Deutschlands zur europäischen Nuklearallianz",
+      "woerter": 4313
+    },
+    {
+      "top": 10,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Mareike Hermeier, Dr. Fabian Fahl, Luigi Pantisano, weitere…",
+      "woerter": 4288
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftsicherheitsgesetzes",
+      "woerter": 4124
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Produktsicherheitsgesetzes und weiterer produktsicherheitsrechtlicher Vorschriften",
+      "woerter": 4082
+    },
+    {
+      "top": 13,
+      "titel": "Beratung der Zweiten Beschlussempfehlung des Wahlprüfungsausschusses zu Einsprüchen anlässlich der Wahl zum 21. Deutschen Bundestag am 23. Februar 2025",
+      "woerter": 3986
+    },
+    {
+      "top": 8,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales zu dem Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion de…",
+      "woerter": 3829
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Europol-Gesetzes",
+      "woerter": 2596
+    },
+    {
+      "top": 16,
+      "titel": "Erste Beratung des von den Abgeordneten Gereon Bollmann, Manfred Schiller und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Stärkung der Bürgerbeteiligung durch die Behandlung von Pe…",
+      "woerter": 1277
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag des Bundesministeriums der Finanzen: Vorzeitige Teilrückzahlung Portugals von Krediten des Europäischen Finanzstabilisierungsmechanismus – Antrag auf Einholung eines zustimmenden Beschlusse…",
+      "woerter": 138
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 23294,
+      "prozent": 28.7
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 20921,
+      "prozent": 25.8
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 16146,
+      "prozent": 19.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 12359,
+      "prozent": 15.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8465,
+      "prozent": 10.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Knuth Meyer-Soltau, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung des … Untersuchungsausschusses der 21. Wahlperiode („…",
+      "positiv": 127,
+      "negativ": 52
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Schahina Gambir, Misbah Khan, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mit einem Demokratiefördergesetz Demokratie stärken und…",
+      "positiv": 122,
+      "negativ": 30
+    },
+    {
+      "top": 1,
+      "titel": "Tagesordnungspunkt 7 und Zusatzpunkt 9",
+      "positiv": 95,
+      "negativ": 36
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zu den Ergebnissen des Berliner Ukrainegipfels",
+      "positiv": 97,
+      "negativ": 27
+    },
+    {
+      "top": 3,
+      "titel": "Vereinbarte Debatte: 35. Jahrestag der Konstituierung des ersten gesamtdeutschen Bundestages",
+      "positiv": 92,
+      "negativ": 9
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Dr. Rainer Kraft, Andreas Bleck, Dr. Michael Blos, weiterer Abgeordneter und der Fraktion der AfD: Beitritt Deutschlands zur europäischen Nuklearallianz",
+      "positiv": 53,
+      "negativ": 7
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Dr. Paula Piechotta, Dr. Janosch Dahmen, Simone Fischer, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kosten für hochpreisige Arzneimittel bezahlbar halten –…",
+      "positiv": 46,
+      "negativ": 6
+    },
+    {
+      "top": 9,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Angebote der Jugendarbeit im Ganztag während der Schulferien",
+      "positiv": 47,
+      "negativ": 3
+    },
+    {
+      "top": 10,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Mareike Hermeier, Dr. Fabian Fahl, Luigi Pantisano, weitere…",
+      "positiv": 36,
+      "negativ": 8
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftsicherheitsgesetzes",
+      "positiv": 39,
+      "negativ": 4
+    },
+    {
+      "top": 8,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales zu dem Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion de…",
+      "positiv": 40,
+      "negativ": 3
+    },
+    {
+      "top": 13,
+      "titel": "Beratung der Zweiten Beschlussempfehlung des Wahlprüfungsausschusses zu Einsprüchen anlässlich der Wahl zum 21. Deutschen Bundestag am 23. Februar 2025",
+      "positiv": 40,
+      "negativ": 2
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Produktsicherheitsgesetzes und weiterer produktsicherheitsrechtlicher Vorschriften",
+      "positiv": 38,
+      "negativ": 3
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Europol-Gesetzes",
+      "positiv": 27,
+      "negativ": 0
+    },
+    {
+      "top": 16,
+      "titel": "Erste Beratung des von den Abgeordneten Gereon Bollmann, Manfred Schiller und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Stärkung der Bürgerbeteiligung durch die Behandlung von Pe…",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag des Bundesministeriums der Finanzen: Vorzeitige Teilrückzahlung Portugals von Krediten des Europäischen Finanzstabilisierungsmechanismus – Antrag auf Einholung eines zustimmenden Beschlusse…",
+      "positiv": 4,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 160,
+      "negativ": 26
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 100,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 80,
+      "negativ": 12
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 52,
+      "negativ": 6
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 12,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 3,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Platz",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Dissens",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 214,
+      "negativ": 84
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 219,
+      "negativ": 36
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 166,
+      "negativ": 29
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 151,
+      "negativ": 18
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 96,
+      "negativ": 12
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 9,
+    "bestätigt": 2,
+    "irreführend": 1
+  }
+}

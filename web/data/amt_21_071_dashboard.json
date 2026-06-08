@@ -1,0 +1,271 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "16.04.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "71"
+  },
+  "kennzahlen": {
+    "reden": 136,
+    "schriftliche_beitraege": 0,
+    "woerter": 72489,
+    "tops": 12,
+    "saalreaktionen": 1333,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Energiesteuergesetzes zur temporären Absenkung der Energiesteuer für Kraftstof…",
+      "woerter": 11526
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Ungarn nach der Wahl – Neue Chance für Europa",
+      "woerter": 9442
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Karsten Hilse, Dr. Ingo Hahn, Andreas Bleck, weiterer Abgeordneter und der Fraktion der AfD: Sofortige Senkung der Energiekosten – Beendigung aller deutschen Klimaschutzmaßnah…",
+      "woerter": 9165
+    },
+    {
+      "top": 4,
+      "titel": "Unterrichtung durch die Bundesregierung: Rechenzentrumsstrategie",
+      "woerter": 8913
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von den Abgeordneten Sascha Müller, Katharina Beck, Dr. Moritz Heuberger, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änd…",
+      "woerter": 8200
+    },
+    {
+      "top": 7,
+      "titel": "– Zweite und dritte Beratung des von den Abgeordneten Dr. Lena Gumnior, Lukas Benner, Helge Limburg, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines … Gesetz…",
+      "woerter": 4986
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Kerstin Przygodda, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Mädchen schützen – Tragen des Kinderkopftuchs in öffentlichen vorschulisc…",
+      "woerter": 4926
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Dr. Zoe Mayer, Karl Bär, Dr. Ophelia Nick, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Tierschutz und Forschung Hand in Hand – Versuchstiere wirksam schützen",
+      "woerter": 4609
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Adam Balten, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Kleine modulare Reaktoren ermöglichen – Rechenzentren fördern und Stromversorgung s…",
+      "woerter": 4389
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Katalin Gennburg, Caren Lay, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Rekommunalisierung statt Ausverkauf – Für ein Vorkaufsrecht, das Mieterinnen un…",
+      "woerter": 3272
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Peter Bohnhof, René Springer, Carsten Becker, weiterer Abgeordneter und der Fraktion der AfD: Berufsfreiheit für Selbstständige sicherstellen – Abgrenzung zu abhängiger Beschä…",
+      "woerter": 3061
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 21804,
+      "prozent": 31.2
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 15902,
+      "prozent": 22.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 12720,
+      "prozent": 18.2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11148,
+      "prozent": 15.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8106,
+      "prozent": 11.6
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 258,
+      "prozent": 0.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Energiesteuergesetzes zur temporären Absenkung der Energiesteuer für Kraftstof…",
+      "positiv": 129,
+      "negativ": 12
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Karsten Hilse, Dr. Ingo Hahn, Andreas Bleck, weiterer Abgeordneter und der Fraktion der AfD: Sofortige Senkung der Energiekosten – Beendigung aller deutschen Klimaschutzmaßnah…",
+      "positiv": 111,
+      "negativ": 28
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Ungarn nach der Wahl – Neue Chance für Europa",
+      "positiv": 114,
+      "negativ": 18
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von den Abgeordneten Sascha Müller, Katharina Beck, Dr. Moritz Heuberger, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änd…",
+      "positiv": 84,
+      "negativ": 33
+    },
+    {
+      "top": 4,
+      "titel": "Unterrichtung durch die Bundesregierung: Rechenzentrumsstrategie",
+      "positiv": 79,
+      "negativ": 7
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Kerstin Przygodda, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Mädchen schützen – Tragen des Kinderkopftuchs in öffentlichen vorschulisc…",
+      "positiv": 50,
+      "negativ": 26
+    },
+    {
+      "top": 7,
+      "titel": "– Zweite und dritte Beratung des von den Abgeordneten Dr. Lena Gumnior, Lukas Benner, Helge Limburg, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines … Gesetz…",
+      "positiv": 47,
+      "negativ": 19
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Abgeordneten Adam Balten, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Kleine modulare Reaktoren ermöglichen – Rechenzentren fördern und Stromversorgung s…",
+      "positiv": 41,
+      "negativ": 16
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Dr. Zoe Mayer, Karl Bär, Dr. Ophelia Nick, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Tierschutz und Forschung Hand in Hand – Versuchstiere wirksam schützen",
+      "positiv": 39,
+      "negativ": 5
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Katalin Gennburg, Caren Lay, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Rekommunalisierung statt Ausverkauf – Für ein Vorkaufsrecht, das Mieterinnen un…",
+      "positiv": 31,
+      "negativ": 11
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Peter Bohnhof, René Springer, Carsten Becker, weiterer Abgeordneter und der Fraktion der AfD: Berufsfreiheit für Selbstständige sicherstellen – Abgrenzung zu abhängiger Beschä…",
+      "positiv": 30,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 154,
+      "negativ": 37
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 71,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 64,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 47,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Mehrwertsteuer",
+      "positiv": 0,
+      "negativ": 1
+    },
+    {
+      "fraktion": "AfD und der Linken",
+      "positiv": 0,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 193,
+      "negativ": 52
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 175,
+      "negativ": 50
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 132,
+      "negativ": 26
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 117,
+      "negativ": 24
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 99,
+      "negativ": 19
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 6,
+      "negativ": 1
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "irreführend": 1
+  }
+}

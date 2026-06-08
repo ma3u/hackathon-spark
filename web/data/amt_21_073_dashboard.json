@@ -1,0 +1,170 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "22.04.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "73"
+  },
+  "kennzahlen": {
+    "reden": 165,
+    "schriftliche_beitraege": 0,
+    "woerter": 36273,
+    "tops": 6,
+    "saalreaktionen": 533,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13766
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Raumfahrtnation Deutschland – Mit Forschung und Innovation made in Germany neue wissenschaftliche Durchbrüche schaffen",
+      "woerter": 10186
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Andreas Bleck, Carolin Bachmann, Dr. Michael Blos, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung einer Expertenkommission zur Prüfung der Wiederinbetriebnahme abg…",
+      "woerter": 4385
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Charlotte Antonia Neuhäuser, Maren Kaminski, Desiree Becker, weiterer Abgeordneter und der Fraktion Die Linke: Einfluss von Milliardären weltweit zurückdrängen – Globale Gerec…",
+      "woerter": 4246
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Änderungen der Richtlinie (EU) 2014/30 und der Richtlinie (EU) 2014/53 durch die Richtlinie (EU) 202…",
+      "woerter": 3690
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8364,
+      "prozent": 32.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 5916,
+      "prozent": 23.2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4061,
+      "prozent": 15.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3589,
+      "prozent": 14.1
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 3557,
+      "prozent": 14.0
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Raumfahrtnation Deutschland – Mit Forschung und Innovation made in Germany neue wissenschaftliche Durchbrüche schaffen",
+      "positiv": 87,
+      "negativ": 8
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Andreas Bleck, Carolin Bachmann, Dr. Michael Blos, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung einer Expertenkommission zur Prüfung der Wiederinbetriebnahme abg…",
+      "positiv": 62,
+      "negativ": 24
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 74,
+      "negativ": 6
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Charlotte Antonia Neuhäuser, Maren Kaminski, Desiree Becker, weiterer Abgeordneter und der Fraktion Die Linke: Einfluss von Milliardären weltweit zurückdrängen – Globale Gerec…",
+      "positiv": 50,
+      "negativ": 19
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Änderungen der Richtlinie (EU) 2014/30 und der Richtlinie (EU) 2014/53 durch die Richtlinie (EU) 202…",
+      "positiv": 38,
+      "negativ": 1
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 15,
+      "negativ": 4
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 51,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 34,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 18,
+      "negativ": 7
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 6,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 76,
+      "negativ": 22
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 58,
+      "negativ": 18
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 56,
+      "negativ": 8
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 26,
+      "negativ": 3
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 25,
+      "negativ": 1
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

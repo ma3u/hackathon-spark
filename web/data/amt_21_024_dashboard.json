@@ -1,0 +1,233 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "17.09.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "24"
+  },
+  "kennzahlen": {
+    "reden": 147,
+    "schriftliche_beitraege": 0,
+    "woerter": 95107,
+    "tops": 8,
+    "saalreaktionen": 1659,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Einzelplan 04",
+      "woerter": 30380
+    },
+    {
+      "top": 8,
+      "titel": "Einzelplan 15",
+      "woerter": 11219
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 14",
+      "woerter": 11099
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan 05",
+      "woerter": 11029
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan 30",
+      "woerter": 10872
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 23",
+      "woerter": 10493
+    },
+    {
+      "top": 7,
+      "titel": "Einzelplan 11",
+      "woerter": 10015
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 23140,
+      "prozent": 26.9
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 20921,
+      "prozent": 24.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 15411,
+      "prozent": 17.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 13604,
+      "prozent": 15.8
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 11846,
+      "prozent": 13.8
+    },
+    {
+      "fraktion": "SPDSPD",
+      "woerter": 553,
+      "prozent": 0.6
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 453,
+      "prozent": 0.5
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Einzelplan 04",
+      "positiv": 369,
+      "negativ": 60
+    },
+    {
+      "top": 7,
+      "titel": "Einzelplan 11",
+      "positiv": 136,
+      "negativ": 18
+    },
+    {
+      "top": 8,
+      "titel": "Einzelplan 15",
+      "positiv": 136,
+      "negativ": 12
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 23",
+      "positiv": 130,
+      "negativ": 12
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan 30",
+      "positiv": 123,
+      "negativ": 13
+    },
+    {
+      "top": 3,
+      "titel": "Einzelplan 05",
+      "positiv": 126,
+      "negativ": 7
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 14",
+      "positiv": 106,
+      "negativ": 12
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 199,
+      "negativ": 29
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 135,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 99,
+      "negativ": 12
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 46,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 13,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 10,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Beifall bei der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 268,
+      "negativ": 35
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 263,
+      "negativ": 36
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 175,
+      "negativ": 20
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 163,
+      "negativ": 10
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 128,
+      "negativ": 16
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPDSPD",
+      "positiv": 5,
+      "negativ": 2
+    }
+  ],
+  "faktencheck_bilanz": {
+    "teilweise": 1,
+    "unbelegt": 11
+  }
+}

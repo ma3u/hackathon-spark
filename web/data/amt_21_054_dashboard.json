@@ -1,0 +1,213 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "16.01.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "54"
+  },
+  "kennzahlen": {
+    "reden": 92,
+    "schriftliche_beitraege": 0,
+    "woerter": 50270,
+    "tops": 8,
+    "saalreaktionen": 826,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Deutschlands Rolle bei der Verteidigung der internationalen Ordnung",
+      "woerter": 10681
+    },
+    {
+      "top": 2,
+      "titel": "a) Antrag der Abgeordneten Carolin Bachmann, Marc Bernhard, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Kommunen, Landschaft und Natur schützen – Keine Sonderrechte für Win…",
+      "woerter": 8980
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2023/2854 des Europäischen Parlaments und des Rates vom 13. Dezember 2023 über…",
+      "woerter": 8425
+    },
+    {
+      "top": 5,
+      "titel": "Zusatzpunkt 9-11",
+      "woerter": 4762
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Sylvia Rietenberg, Hanna Steinmüller, Kassem Taher Saleh, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wirksame Instrumente gegen Schrottimmobilien",
+      "woerter": 4610
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Cansu Özdemir, Desiree Becker, Gökay Akbulut, weiterer Abgeordneter und der Fraktion Die Linke: Solidarität mit den Menschen in Iran – Menschenrechte und Demokratie stärken, h…",
+      "woerter": 4556
+    },
+    {
+      "top": 3,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Fünften Gesetzes zur Änderung des Straßenverkehrsgesetzes und anderer straßenverkehrsrechtlicher Vorschriften",
+      "woerter": 4316
+    },
+    {
+      "top": 7,
+      "titel": "Unterrichtung durch die Bundesregierung: Bericht der Bundesregierung zur internationalen Kooperation in Bildung, Wissenschaft und Forschung 2023 bis 2024",
+      "woerter": 3940
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 13994,
+      "prozent": 30.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 10515,
+      "prozent": 23.0
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 8980,
+      "prozent": 19.6
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6836,
+      "prozent": 15.0
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5380,
+      "prozent": 11.8
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "a) Antrag der Abgeordneten Carolin Bachmann, Marc Bernhard, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Kommunen, Landschaft und Natur schützen – Keine Sonderrechte für Win…",
+      "positiv": 116,
+      "negativ": 47
+    },
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Deutschlands Rolle bei der Verteidigung der internationalen Ordnung",
+      "positiv": 97,
+      "negativ": 23
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2023/2854 des Europäischen Parlaments und des Rates vom 13. Dezember 2023 über…",
+      "positiv": 76,
+      "negativ": 11
+    },
+    {
+      "top": 5,
+      "titel": "Zusatzpunkt 9-11",
+      "positiv": 47,
+      "negativ": 5
+    },
+    {
+      "top": 3,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Fünften Gesetzes zur Änderung des Straßenverkehrsgesetzes und anderer straßenverkehrsrechtlicher Vorschriften",
+      "positiv": 46,
+      "negativ": 5
+    },
+    {
+      "top": 7,
+      "titel": "Unterrichtung durch die Bundesregierung: Bericht der Bundesregierung zur internationalen Kooperation in Bildung, Wissenschaft und Forschung 2023 bis 2024",
+      "positiv": 47,
+      "negativ": 4
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Cansu Özdemir, Desiree Becker, Gökay Akbulut, weiterer Abgeordneter und der Fraktion Die Linke: Solidarität mit den Menschen in Iran – Menschenrechte und Demokratie stärken, h…",
+      "positiv": 43,
+      "negativ": 6
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Sylvia Rietenberg, Hanna Steinmüller, Kassem Taher Saleh, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wirksame Instrumente gegen Schrottimmobilien",
+      "positiv": 40,
+      "negativ": 4
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 93,
+      "negativ": 18
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 57,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 58,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 19,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 127,
+      "negativ": 40
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 114,
+      "negativ": 36
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 94,
+      "negativ": 4
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 79,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 62,
+      "negativ": 10
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "irreführend": 1
+  }
+}

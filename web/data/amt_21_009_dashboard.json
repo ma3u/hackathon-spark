@@ -1,0 +1,195 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "04.06.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "9"
+  },
+  "kennzahlen": {
+    "reden": 153,
+    "schriftliche_beitraege": 0,
+    "woerter": 34259,
+    "tops": 6,
+    "saalreaktionen": 503,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 12239
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zur Lage der transatlantischen Beziehungen vor dem USA-Besuch des Bundeskanzlers",
+      "woerter": 8907
+    },
+    {
+      "top": 4,
+      "titel": "Vereinbarte Debatte aus Anlass des Nationalen Gedenktages an den Volksaufstand in der DDR von 1953",
+      "woerter": 4505
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Anne Zerr, Doris Achelwilm, Dr. Dietmar Bartsch, weiterer Abgeordneter und der Fraktion Die Linke: Den Achtstundentag erhalten – Wöchentliche Höchstarbeitszeit absenken",
+      "woerter": 4489
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Ausreisegewahrsam und Abschiebehaft für ausreisepflichtige Personen, insbe…",
+      "woerter": 4119
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 7031,
+      "prozent": 26.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 5714,
+      "prozent": 21.6
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 5540,
+      "prozent": 21.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5243,
+      "prozent": 19.8
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 2911,
+      "prozent": 11.0
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 95,
+      "negativ": 15
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zur Lage der transatlantischen Beziehungen vor dem USA-Besuch des Bundeskanzlers",
+      "positiv": 88,
+      "negativ": 17
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Ausreisegewahrsam und Abschiebehaft für ausreisepflichtige Personen, insbe…",
+      "positiv": 57,
+      "negativ": 11
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Anne Zerr, Doris Achelwilm, Dr. Dietmar Bartsch, weiterer Abgeordneter und der Fraktion Die Linke: Den Achtstundentag erhalten – Wöchentliche Höchstarbeitszeit absenken",
+      "positiv": 53,
+      "negativ": 7
+    },
+    {
+      "top": 4,
+      "titel": "Vereinbarte Debatte aus Anlass des Nationalen Gedenktages an den Volksaufstand in der DDR von 1953",
+      "positiv": 45,
+      "negativ": 3
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 16,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 49,
+      "negativ": 8
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 43,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 23,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 17,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 14,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Tribüne",
+      "positiv": 1,
+      "negativ": 2
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 71,
+      "negativ": 10
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 65,
+      "negativ": 13
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 55,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 43,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 29,
+      "negativ": 10
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

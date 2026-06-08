@@ -1,0 +1,208 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "07.11.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "38"
+  },
+  "kennzahlen": {
+    "reden": 88,
+    "schriftliche_beitraege": 0,
+    "woerter": 50334,
+    "tops": 8,
+    "saalreaktionen": 864,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Lage im Sudan",
+      "woerter": 11033
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung privater Investitionen und des Finanzstandorts (Standortfördergesetz – StoFöG)",
+      "woerter": 9393
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Marc Bernhard, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: 180-Grad-Wende bei Windindustrie und Photovoltaik einleiten",
+      "woerter": 8922
+    },
+    {
+      "top": 5,
+      "titel": "Vereinbarte Debatte: 80 Jahre Vereinte Nationen",
+      "woerter": 4587
+    },
+    {
+      "top": 6,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wohnen, Stadtentwicklung, Bauwesen und Kommunen zu dem Antrag der Abgeordneten Karoline Otte, Dr. Julia Verlinden, Andreas Audretsch, weiterer Abge…",
+      "woerter": 4355
+    },
+    {
+      "top": 3,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Elften Gesetzes zur Änderung des Regionalisierungsgesetzes",
+      "woerter": 4232
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Charlotte Antonia Neuhäuser, Doris Achelwilm, Desiree Becker, weiterer Abgeordneter und der Fraktion Die Linke: Den zweiten UN-Weltgipfel für soziale Entwicklung stark machen…",
+      "woerter": 3943
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Produktsicherheitsgesetzes und weiterer produktsicherheitsrechtlicher Vorschriften",
+      "woerter": 3869
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 14343,
+      "prozent": 30.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 12119,
+      "prozent": 26.0
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 8519,
+      "prozent": 18.3
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 7010,
+      "prozent": 15.0
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4590,
+      "prozent": 9.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Marc Bernhard, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: 180-Grad-Wende bei Windindustrie und Photovoltaik einleiten",
+      "positiv": 112,
+      "negativ": 58
+    },
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung privater Investitionen und des Finanzstandorts (Standortfördergesetz – StoFöG)",
+      "positiv": 79,
+      "negativ": 8
+    },
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Lage im Sudan",
+      "positiv": 80,
+      "negativ": 4
+    },
+    {
+      "top": 6,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wohnen, Stadtentwicklung, Bauwesen und Kommunen zu dem Antrag der Abgeordneten Karoline Otte, Dr. Julia Verlinden, Andreas Audretsch, weiterer Abge…",
+      "positiv": 54,
+      "negativ": 9
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Charlotte Antonia Neuhäuser, Doris Achelwilm, Desiree Becker, weiterer Abgeordneter und der Fraktion Die Linke: Den zweiten UN-Weltgipfel für soziale Entwicklung stark machen…",
+      "positiv": 50,
+      "negativ": 10
+    },
+    {
+      "top": 5,
+      "titel": "Vereinbarte Debatte: 80 Jahre Vereinte Nationen",
+      "positiv": 45,
+      "negativ": 8
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Produktsicherheitsgesetzes und weiterer produktsicherheitsrechtlicher Vorschriften",
+      "positiv": 47,
+      "negativ": 3
+    },
+    {
+      "top": 3,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Elften Gesetzes zur Änderung des Regionalisierungsgesetzes",
+      "positiv": 46,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 90,
+      "negativ": 37
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 53,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 43,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 30,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 5,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 147,
+      "negativ": 37
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 120,
+      "negativ": 26
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 89,
+      "negativ": 18
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 69,
+      "negativ": 17
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 52,
+      "negativ": 4
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "teilweise": 2
+  }
+}

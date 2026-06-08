@@ -1,0 +1,197 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "28.01.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "55"
+  },
+  "kennzahlen": {
+    "reden": 156,
+    "schriftliche_beitraege": 0,
+    "woerter": 38862,
+    "tops": 7,
+    "saalreaktionen": 528,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13050
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Krankheitstage, Teilzeit, Achtstundentag – Aushöhlung von Beschäftigtenrechten verhindern",
+      "woerter": 9112
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dirk Brandes, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Bürokratie- und Steuerbelastung für kleine und mittlere Unternehmen unverzüglich s…",
+      "woerter": 4567
+    },
+    {
+      "top": 4,
+      "titel": "Vereinbarte Debatte: Sieben Jahre Vertrag von Aachen – Gemeinsam Zukunft gestalten",
+      "woerter": 4431
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Maik Brückner, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Die „vergessenen“ queeren Opfer der nationalsozialistischen Verfolgung",
+      "woerter": 4024
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zum Bürokratierückbau in der Gewerbeordnung und dem Energieverbrauchskennzeichnungsgesetz sowie anderer Rechtsvorschri…",
+      "woerter": 3678
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8547,
+      "prozent": 28.1
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 6916,
+      "prozent": 22.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 5715,
+      "prozent": 18.8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5294,
+      "prozent": 17.4
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3931,
+      "prozent": 12.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Krankheitstage, Teilzeit, Achtstundentag – Aushöhlung von Beschäftigtenrechten verhindern",
+      "positiv": 114,
+      "negativ": 22
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 75,
+      "negativ": 8
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dirk Brandes, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Bürokratie- und Steuerbelastung für kleine und mittlere Unternehmen unverzüglich s…",
+      "positiv": 44,
+      "negativ": 5
+    },
+    {
+      "top": 4,
+      "titel": "Vereinbarte Debatte: Sieben Jahre Vertrag von Aachen – Gemeinsam Zukunft gestalten",
+      "positiv": 47,
+      "negativ": 0
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Maik Brückner, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Die „vergessenen“ queeren Opfer der nationalsozialistischen Verfolgung",
+      "positiv": 33,
+      "negativ": 5
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zum Bürokratierückbau in der Gewerbeordnung und dem Energieverbrauchskennzeichnungsgesetz sowie anderer Rechtsvorschri…",
+      "positiv": 37,
+      "negativ": 0
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 9,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 50,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 39,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 32,
+      "negativ": 2
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 16,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 8,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 74,
+      "negativ": 10
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 60,
+      "negativ": 11
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 62,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 47,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 39,
+      "negativ": 8
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "15.10.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "33"
+  },
+  "kennzahlen": {
+    "reden": 189,
+    "schriftliche_beitraege": 0,
+    "woerter": 44031,
+    "tops": 8,
+    "saalreaktionen": 561,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 14378
+    },
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Bedrohungslage Deutschlands ernst nehmen",
+      "woerter": 9999
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Dr. Alexander Wolf, Rocco Kever, weiterer Abgeordneter und der Fraktion der AfD: Für Transparenz und Aufklärung sorgen – Der Öffentlichkeit einen vollständi…",
+      "woerter": 4931
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Evelyn Schötz, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Keine Leistungskürzungen in der Pflege",
+      "woerter": 4751
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUNAVFOR MED IRINI",
+      "woerter": 4286
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der NATO-geführten Maritimen Sicherheitsoperation SEA GUARDIAN",
+      "woerter": 3607
+    },
+    {
+      "top": 1,
+      "titel": "Feststellung der Tagesordnung",
+      "woerter": 2079
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 9000,
+      "prozent": 28.4
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 8515,
+      "prozent": 26.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6309,
+      "prozent": 19.9
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4258,
+      "prozent": 13.4
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3504,
+      "prozent": 11.1
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 98,
+      "prozent": 0.3
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Bedrohungslage Deutschlands ernst nehmen",
+      "positiv": 94,
+      "negativ": 5
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 59,
+      "negativ": 7
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Evelyn Schötz, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Keine Leistungskürzungen in der Pflege",
+      "positiv": 57,
+      "negativ": 5
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Dr. Alexander Wolf, Rocco Kever, weiterer Abgeordneter und der Fraktion der AfD: Für Transparenz und Aufklärung sorgen – Der Öffentlichkeit einen vollständi…",
+      "positiv": 41,
+      "negativ": 20
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUNAVFOR MED IRINI",
+      "positiv": 36,
+      "negativ": 5
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der NATO-geführten Maritimen Sicherheitsoperation SEA GUARDIAN",
+      "positiv": 33,
+      "negativ": 1
+    },
+    {
+      "top": 1,
+      "titel": "Feststellung der Tagesordnung",
+      "positiv": 22,
+      "negativ": 10
+    },
+    {
+      "top": 3,
+      "titel": "Fragestunde",
+      "positiv": 21,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 54,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 34,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 27,
+      "negativ": 4
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 26,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der LINKEN",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 62,
+      "negativ": 22
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 71,
+      "negativ": 8
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 63,
+      "negativ": 8
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 47,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 30,
+      "negativ": 5
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "irreführend": 1,
+    "teilweise": 1
+  }
+}

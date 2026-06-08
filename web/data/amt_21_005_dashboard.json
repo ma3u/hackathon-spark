@@ -1,0 +1,156 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "16.05.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "5"
+  },
+  "kennzahlen": {
+    "reden": 60,
+    "schriftliche_beitraege": 0,
+    "woerter": 36489,
+    "tops": 3,
+    "saalreaktionen": 611,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler (Fortsetzung der Aussprache)",
+      "woerter": 19602
+    },
+    {
+      "top": 3,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler (Fortsetzung der Aussprache)",
+      "woerter": 16887
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "AfD",
+      "woerter": 8101,
+      "prozent": 25.4
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 7877,
+      "prozent": 24.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6548,
+      "prozent": 20.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5301,
+      "prozent": 16.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3792,
+      "prozent": 11.9
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 291,
+      "prozent": 0.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler (Fortsetzung der Aussprache)",
+      "positiv": 254,
+      "negativ": 33
+    },
+    {
+      "top": 3,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler (Fortsetzung der Aussprache)",
+      "positiv": 200,
+      "negativ": 16
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 94,
+      "negativ": 11
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 64,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 57,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 15,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 13,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 101,
+      "negativ": 12
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 77,
+      "negativ": 20
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 83,
+      "negativ": 8
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 79,
+      "negativ": 4
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 62,
+      "negativ": 1
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 7,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

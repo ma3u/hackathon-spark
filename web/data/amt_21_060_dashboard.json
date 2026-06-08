@@ -1,0 +1,233 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "27.02.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "60"
+  },
+  "kennzahlen": {
+    "reden": 85,
+    "schriftliche_beitraege": 0,
+    "woerter": 48393,
+    "tops": 8,
+    "saalreaktionen": 922,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des nationalen Rechts an die Reform des Gemeinsamen Europäischen Asylsystems (GEAS-Anpassu…",
+      "woerter": 10126
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Jan Wenzel Schmidt, Dr. Rainer Rothfuß, weiterer Abgeordneter und der Fraktion der AfD: Deutsche Rohstoffinteressen durchsetzen – Rohstoffpolitik zur Priori…",
+      "woerter": 9391
+    },
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kein Wegschauen auf Kosten der Betroffenen – Gewalt gegen Frauen, sexuellen Missbrauch und Netzwerke des Machtmissbrauchs aufklären u…",
+      "woerter": 8073
+    },
+    {
+      "top": 3,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung der elektronischen Aufenthaltsüberwachung und der Täterarbeit im Gewaltschutzgesetz",
+      "woerter": 4478
+    },
+    {
+      "top": 5,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Weiterentwicklung der Apothekenversorgung (Apothekenversorgung-Weiterentwicklungsgesetz – ApoVWG)",
+      "woerter": 4177
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/900 über die Transparenz und das Targeting politischer Werbung (Politische-W…",
+      "woerter": 4148
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Dr. Kirsten Kappert-Gonther, Ulle Schauws, Dr. Janosch Dahmen, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN sowie des Abgeordneten Stefan Seidler: Versorgung b…",
+      "woerter": 4147
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Violetta Bock, Jörg Cezanne, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Für das Recht auf Heizen – Bezahlbar und erneuerbar",
+      "woerter": 3853
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 13625,
+      "prozent": 30.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 10606,
+      "prozent": 23.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 9591,
+      "prozent": 21.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6646,
+      "prozent": 14.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4796,
+      "prozent": 10.5
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 219,
+      "prozent": 0.5
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des nationalen Rechts an die Reform des Gemeinsamen Europäischen Asylsystems (GEAS-Anpassu…",
+      "positiv": 117,
+      "negativ": 41
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Jan Wenzel Schmidt, Dr. Rainer Rothfuß, weiterer Abgeordneter und der Fraktion der AfD: Deutsche Rohstoffinteressen durchsetzen – Rohstoffpolitik zur Priori…",
+      "positiv": 103,
+      "negativ": 24
+    },
+    {
+      "top": 8,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kein Wegschauen auf Kosten der Betroffenen – Gewalt gegen Frauen, sexuellen Missbrauch und Netzwerke des Machtmissbrauchs aufklären u…",
+      "positiv": 83,
+      "negativ": 17
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Dr. Kirsten Kappert-Gonther, Ulle Schauws, Dr. Janosch Dahmen, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN sowie des Abgeordneten Stefan Seidler: Versorgung b…",
+      "positiv": 57,
+      "negativ": 28
+    },
+    {
+      "top": 3,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung der elektronischen Aufenthaltsüberwachung und der Täterarbeit im Gewaltschutzgesetz",
+      "positiv": 50,
+      "negativ": 4
+    },
+    {
+      "top": 5,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Weiterentwicklung der Apothekenversorgung (Apothekenversorgung-Weiterentwicklungsgesetz – ApoVWG)",
+      "positiv": 52,
+      "negativ": 2
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Violetta Bock, Jörg Cezanne, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Für das Recht auf Heizen – Bezahlbar und erneuerbar",
+      "positiv": 46,
+      "negativ": 6
+    },
+    {
+      "top": 7,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/900 über die Transparenz und das Targeting politischer Werbung (Politische-W…",
+      "positiv": 40,
+      "negativ": 8
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 90,
+      "negativ": 21
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 47,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 56,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 37,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Dobrindt gewandt",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 127,
+      "negativ": 38
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 125,
+      "negativ": 32
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 111,
+      "negativ": 27
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 90,
+      "negativ": 20
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 51,
+      "negativ": 5
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 5,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "teilweise": 2
+  }
+}

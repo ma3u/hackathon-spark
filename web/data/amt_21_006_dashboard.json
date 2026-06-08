@@ -1,0 +1,196 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "21.05.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "6"
+  },
+  "kennzahlen": {
+    "reden": 160,
+    "schriftliche_beitraege": 0,
+    "woerter": 35920,
+    "tops": 6,
+    "saalreaktionen": 649,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13130
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Zahl der Messerangriffe in Deutschland steigt stark – Ursachen klar benennen und entschlossen handeln",
+      "woerter": 8041
+    },
+    {
+      "top": 4,
+      "titel": "Beratung der Unterrichtung durch die Wehrbeauftragte: Jahresbericht 2024 (66. Bericht)",
+      "woerter": 6108
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Fraktion BÜNDNIS 90/DIE GRÜNEN zu dem Vorschlag für eine Verordnung des Europäischen Parlaments und des Rates über mit bestimmten neuen genomischen Techniken gewonnene Pflanzen und die aus…",
+      "woerter": 4324
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Andreas Bleck, Dr. Michael Blos, Dr. Ingo Hahn, weiterer Abgeordneter und der Fraktion der AfD: Moratorium für den Rückbau abgeschalteter Kernkraftwerke",
+      "woerter": 4317
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8278,
+      "prozent": 32.1
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 5897,
+      "prozent": 22.8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4432,
+      "prozent": 17.2
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 3894,
+      "prozent": 15.1
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3042,
+      "prozent": 11.8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 276,
+      "prozent": 1.1
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Zahl der Messerangriffe in Deutschland steigt stark – Ursachen klar benennen und entschlossen handeln",
+      "positiv": 103,
+      "negativ": 27
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 118,
+      "negativ": 11
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Andreas Bleck, Dr. Michael Blos, Dr. Ingo Hahn, weiterer Abgeordneter und der Fraktion der AfD: Moratorium für den Rückbau abgeschalteter Kernkraftwerke",
+      "positiv": 71,
+      "negativ": 12
+    },
+    {
+      "top": 4,
+      "titel": "Beratung der Unterrichtung durch die Wehrbeauftragte: Jahresbericht 2024 (66. Bericht)",
+      "positiv": 68,
+      "negativ": 7
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Fraktion BÜNDNIS 90/DIE GRÜNEN zu dem Vorschlag für eine Verordnung des Europäischen Parlaments und des Rates über mit bestimmten neuen genomischen Techniken gewonnene Pflanzen und die aus…",
+      "positiv": 55,
+      "negativ": 11
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 16,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 68,
+      "negativ": 30
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 37,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 33,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 15,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 14,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 84,
+      "negativ": 20
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 64,
+      "negativ": 12
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 65,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 48,
+      "negativ": 12
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 46,
+      "negativ": 8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "teilweise": 1
+  }
+}

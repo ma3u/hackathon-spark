@@ -1,0 +1,196 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "08.10.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "30"
+  },
+  "kennzahlen": {
+    "reden": 173,
+    "schriftliche_beitraege": 0,
+    "woerter": 41548,
+    "tops": 7,
+    "saalreaktionen": 605,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13207
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zwei Jahre nach dem Hamasterror und Kriegsbeginn in Gaza – Chance auf Frieden in Nahost ergreifen",
+      "woerter": 10307
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Reform der Politikerpensionen – Bundestagsabgeordnete in die gesetzliche…",
+      "woerter": 6160
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Katharina Beck, Dr. Moritz Heuberger, Max Lucks, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gerechtigkeitslücken im Steuersystem schließen –Ausnahmen bei…",
+      "woerter": 4524
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Steueränderungsgesetzes 2025",
+      "woerter": 3712
+    },
+    {
+      "top": 4,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Staatsangehörigkeitsgesetzes",
+      "woerter": 3638
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8999,
+      "prozent": 29.5
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 7687,
+      "prozent": 25.2
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5414,
+      "prozent": 17.7
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 5106,
+      "prozent": 16.7
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3318,
+      "prozent": 10.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zwei Jahre nach dem Hamasterror und Kriegsbeginn in Gaza – Chance auf Frieden in Nahost ergreifen",
+      "positiv": 86,
+      "negativ": 14
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 55,
+      "negativ": 8
+    },
+    {
+      "top": 4,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Staatsangehörigkeitsgesetzes",
+      "positiv": 53,
+      "negativ": 6
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Reform der Politikerpensionen – Bundestagsabgeordnete in die gesetzliche…",
+      "positiv": 47,
+      "negativ": 8
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Katharina Beck, Dr. Moritz Heuberger, Max Lucks, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gerechtigkeitslücken im Steuersystem schließen –Ausnahmen bei…",
+      "positiv": 45,
+      "negativ": 3
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Steueränderungsgesetzes 2025",
+      "positiv": 36,
+      "negativ": 4
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 30,
+      "negativ": 2
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 67,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 38,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 28,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 12,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 73,
+      "negativ": 20
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 64,
+      "negativ": 7
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 48,
+      "negativ": 2
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 34,
+      "negativ": 6
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 36,
+      "negativ": 3
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

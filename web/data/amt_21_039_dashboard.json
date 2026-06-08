@@ -1,0 +1,196 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "12.11.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "39"
+  },
+  "kennzahlen": {
+    "reden": 169,
+    "schriftliche_beitraege": 0,
+    "woerter": 39780,
+    "tops": 7,
+    "saalreaktionen": 673,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13332
+    },
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Mögliche Urheberrechtsverletzungen und Interessenskonflikte des Bundesbeauftragten für Kultur und Medien",
+      "woerter": 9207
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Stephan Brandner, Tobias Matthias Peterka, Thomas Fetsch, weiterer Abgeordneter und der Fraktion der AfD: Staatliche Finanzierung der Amadeu Antonio Stiftung aus Bundesmitteln…",
+      "woerter": 4693
+    },
+    {
+      "top": 6,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung der Krankenhausreform (Krankenhausreformanpassungsgesetz – KHAG)",
+      "woerter": 4590
+    },
+    {
+      "top": 3,
+      "titel": "Vereinbarte Debatte: 70. Gründungsjubiläum der Bundeswehr",
+      "woerter": 4093
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Maik Brückner, Clara Bünger, Nicole Gohlke, weiterer Abgeordneter und der Fraktion Die Linke: Queeres Leben stärken – Christopher-Street-Days schützen",
+      "woerter": 3865
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 9235,
+      "prozent": 30.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 7793,
+      "prozent": 25.3
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5123,
+      "prozent": 16.6
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4984,
+      "prozent": 16.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3654,
+      "prozent": 11.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Mögliche Urheberrechtsverletzungen und Interessenskonflikte des Bundesbeauftragten für Kultur und Medien",
+      "positiv": 98,
+      "negativ": 41
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 72,
+      "negativ": 3
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Stephan Brandner, Tobias Matthias Peterka, Thomas Fetsch, weiterer Abgeordneter und der Fraktion der AfD: Staatliche Finanzierung der Amadeu Antonio Stiftung aus Bundesmitteln…",
+      "positiv": 54,
+      "negativ": 20
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Maik Brückner, Clara Bünger, Nicole Gohlke, weiterer Abgeordneter und der Fraktion Die Linke: Queeres Leben stärken – Christopher-Street-Days schützen",
+      "positiv": 56,
+      "negativ": 15
+    },
+    {
+      "top": 6,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung der Krankenhausreform (Krankenhausreformanpassungsgesetz – KHAG)",
+      "positiv": 57,
+      "negativ": 5
+    },
+    {
+      "top": 3,
+      "titel": "Vereinbarte Debatte: 70. Gründungsjubiläum der Bundeswehr",
+      "positiv": 41,
+      "negativ": 3
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 8,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 58,
+      "negativ": 19
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 32,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 34,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 20,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 4,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 81,
+      "negativ": 26
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 74,
+      "negativ": 24
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 65,
+      "negativ": 15
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 56,
+      "negativ": 17
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 41,
+      "negativ": 5
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

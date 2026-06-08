@@ -1,0 +1,202 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "18.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "64"
+  },
+  "kennzahlen": {
+    "reden": 171,
+    "schriftliche_beitraege": 0,
+    "woerter": 45466,
+    "tops": 7,
+    "saalreaktionen": 748,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 19./20. März 2026",
+      "woerter": 14459
+    },
+    {
+      "top": 3,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13250
+    },
+    {
+      "top": 5,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Wettbewerb an der Tankstelle durchsetzen – Verbraucher und Unternehmen stärken",
+      "woerter": 10372
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Peter Boehringer, Kay Gottschalk, Torben Braga, weiterer Abgeordneter und der Fraktion der AfD: Deutsches Staatsgold vollständig nach Deutschland holen",
+      "woerter": 3709
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Dr. Armin Grau, Dr. Janosch Dahmen, Dr. Kirsten Kappert-Gonther, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Primärversorgung gesetzlich verankern – Die V…",
+      "woerter": 3676
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 9825,
+      "prozent": 29.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 7216,
+      "prozent": 21.9
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6277,
+      "prozent": 19.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5667,
+      "prozent": 17.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3874,
+      "prozent": 11.8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 108,
+      "prozent": 0.3
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 19./20. März 2026",
+      "positiv": 149,
+      "negativ": 39
+    },
+    {
+      "top": 5,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Wettbewerb an der Tankstelle durchsetzen – Verbraucher und Unternehmen stärken",
+      "positiv": 96,
+      "negativ": 28
+    },
+    {
+      "top": 3,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 82,
+      "negativ": 19
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Peter Boehringer, Kay Gottschalk, Torben Braga, weiterer Abgeordneter und der Fraktion der AfD: Deutsches Staatsgold vollständig nach Deutschland holen",
+      "positiv": 46,
+      "negativ": 11
+    },
+    {
+      "top": 6,
+      "titel": "a) Antrag der Abgeordneten Dr. Armin Grau, Dr. Janosch Dahmen, Dr. Kirsten Kappert-Gonther, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Primärversorgung gesetzlich verankern – Die V…",
+      "positiv": 47,
+      "negativ": 0
+    },
+    {
+      "top": 4,
+      "titel": "Fragestunde",
+      "positiv": 13,
+      "negativ": 1
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 8,
+      "negativ": 1
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 59,
+      "negativ": 21
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 49,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 35,
+      "negativ": 6
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 19,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 86,
+      "negativ": 25
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 68,
+      "negativ": 22
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 73,
+      "negativ": 11
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 46,
+      "negativ": 12
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 53,
+      "negativ": 3
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "bestätigt": 1
+  }
+}

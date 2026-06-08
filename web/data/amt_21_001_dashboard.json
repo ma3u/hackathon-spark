@@ -1,0 +1,228 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "25.03.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "1"
+  },
+  "kennzahlen": {
+    "reden": 17,
+    "schriftliche_beitraege": 0,
+    "woerter": 4366,
+    "tops": 9,
+    "saalreaktionen": 260,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 4,
+      "titel": "Beschlussfassung über die",
+      "woerter": 2518
+    },
+    {
+      "top": 2,
+      "titel": "Zur Geschäftsordnung",
+      "woerter": 1717
+    },
+    {
+      "top": 8,
+      "titel": "Wahl der Stellvertreterinnen und Stellvertreter der Präsidentin/des Präsidenten",
+      "woerter": 87
+    },
+    {
+      "top": 5,
+      "titel": "Wahl der Präsidentin/des Präsidenten verbunden mit Namensaufruf und Feststellung der Beschlussfähigkeit",
+      "woerter": 44
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "AfD",
+      "woerter": 981,
+      "prozent": 22.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 809,
+      "prozent": 18.5
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 807,
+      "prozent": 18.5
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 780,
+      "prozent": 17.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 732,
+      "prozent": 16.8
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 257,
+      "prozent": 5.9
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Eröffnung der Sitzung durch den Alterspräsidenten",
+      "positiv": 49,
+      "negativ": 4
+    },
+    {
+      "top": 2,
+      "titel": "Zur Geschäftsordnung",
+      "positiv": 38,
+      "negativ": 7
+    },
+    {
+      "top": 4,
+      "titel": "Beschlussfassung über die",
+      "positiv": 37,
+      "negativ": 8
+    },
+    {
+      "top": 6,
+      "titel": "Amtsübernahme durch die Präsidentin/den Präsidenten mit Ansprache",
+      "positiv": 28,
+      "negativ": 1
+    },
+    {
+      "top": 8,
+      "titel": "Wahl der Stellvertreterinnen und Stellvertreter der Präsidentin/des Präsidenten",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "top": 5,
+      "titel": "Wahl der Präsidentin/des Präsidenten verbunden mit Namensaufruf und Feststellung der Beschlussfähigkeit",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 0,
+      "negativ": 1
+    },
+    {
+      "top": 7,
+      "titel": "Festlegung der Zahl der Stellvertreterinnen und Stellvertreter der Präsidentin/des Präsidenten",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "top": 9,
+      "titel": "Nationalhymne",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "Linken",
+      "positiv": 41,
+      "negativ": 1
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 20,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 3,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Präsidentin und überreichen Blumensträuße",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 22,
+      "negativ": 4
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 16,
+      "negativ": 4
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 15,
+      "negativ": 2
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 15,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 13,
+      "negativ": 3
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 3,
+      "negativ": 1
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

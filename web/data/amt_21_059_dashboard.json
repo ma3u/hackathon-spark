@@ -1,0 +1,337 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "26.02.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "59"
+  },
+  "kennzahlen": {
+    "reden": 165,
+    "schriftliche_beitraege": 3,
+    "woerter": 88470,
+    "tops": 19,
+    "saalreaktionen": 1654,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Lisa Badum, Swantje Henrike Michaelsen, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Nach Urteil des Bundesverwaltungsgerichts – Ein Klim…",
+      "woerter": 10616
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Verwandtenbeschäftigung bei AfD-Abgeordneten – Bereicherung auf Staatskosten vermeiden, rechtliche Konsequenzen ziehen",
+      "woerter": 8513
+    },
+    {
+      "top": 2,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Tarifautonomie durch die Sicherung von Tariftreue bei der Vergabe öffentlicher Aufträge…",
+      "woerter": 8468
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dr. Christian Wirth, Dr. Gottfried Curio, Martin Hess, weiterer Abgeordneter und der Fraktion der AfD: Effektive Kontrollen und Zurückweisungen an der Grenze durch Schaffung e…",
+      "woerter": 8437
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Infrastruktur-Zukunftsgesetzes",
+      "woerter": 8116
+    },
+    {
+      "top": 14,
+      "titel": "a) Erste Beratung des von den Abgeordneten Dr. Till Steffen, Hanna Steinmüller, Lukas Benner, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur St…",
+      "woerter": 5924
+    },
+    {
+      "top": 7,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Reform der steuerlich geförderten privaten Altersvorsorge (Altersvorsorgereformgesetz)",
+      "woerter": 4748
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Nicole Gohlke, Maren Kaminski, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Demokratische Schule schützen, Lehrkräfte stärken",
+      "woerter": 4331
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Diana Zimmer, Christian Douglas, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Grundsteuer vollständig abschaffen – Eigentum schützen, Mieter entlasten",
+      "woerter": 4309
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten René Springer, Peter Bohnhof, Gerrit Huy, weiterer Abgeordneter und der Fraktion der AfD: Technisierung statt Zuwanderung – Für einen leistungsfähigen Arbeitsmarkt",
+      "woerter": 4147
+    },
+    {
+      "top": 9,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Verfügbarkeit von Wasserstoff und zur Änderung weiterer rechtlicher Rahmenbedingung…",
+      "woerter": 4141
+    },
+    {
+      "top": 13,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1069 über den Schutz von Personen, die sich öffentlich beteiligen, vor offen…",
+      "woerter": 3825
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftsicherheitsgesetzes",
+      "woerter": 3699
+    },
+    {
+      "top": 16,
+      "titel": "Antrag der Abgeordneten Beatrix von Storch, Jörn König, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Verbot der Islamischen Revolutionsgarde des Iran in Deutschland",
+      "woerter": 3032
+    },
+    {
+      "top": 18,
+      "titel": "Antrag der Abgeordneten Lea Reisner, Sören Pellmann, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Faire Entschuldung für die Ukraine – Für Souveränität, sozialen Wiederaufbau und…",
+      "woerter": 2426
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung des Urteils des Bundesverfassungsgerichts zur Vaterschaftsanfechtung",
+      "woerter": 1942
+    },
+    {
+      "top": 17,
+      "titel": "Zweite Beratung und Schlussabstimmung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Abkommen vom 9. Dezember 2022 zwischen der Regierung der Bundesrepublik Deutschland und…",
+      "woerter": 1796
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 29069,
+      "prozent": 34.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 19034,
+      "prozent": 22.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 16456,
+      "prozent": 19.3
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 12008,
+      "prozent": 14.0
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8591,
+      "prozent": 10.1
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 315,
+      "prozent": 0.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Verwandtenbeschäftigung bei AfD-Abgeordneten – Bereicherung auf Staatskosten vermeiden, rechtliche Konsequenzen ziehen",
+      "positiv": 105,
+      "negativ": 49
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Lisa Badum, Swantje Henrike Michaelsen, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Nach Urteil des Bundesverwaltungsgerichts – Ein Klim…",
+      "positiv": 114,
+      "negativ": 31
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Infrastruktur-Zukunftsgesetzes",
+      "positiv": 110,
+      "negativ": 24
+    },
+    {
+      "top": 2,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Tarifautonomie durch die Sicherung von Tariftreue bei der Vergabe öffentlicher Aufträge…",
+      "positiv": 96,
+      "negativ": 15
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dr. Christian Wirth, Dr. Gottfried Curio, Martin Hess, weiterer Abgeordneter und der Fraktion der AfD: Effektive Kontrollen und Zurückweisungen an der Grenze durch Schaffung e…",
+      "positiv": 83,
+      "negativ": 21
+    },
+    {
+      "top": 14,
+      "titel": "a) Erste Beratung des von den Abgeordneten Dr. Till Steffen, Hanna Steinmüller, Lukas Benner, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur St…",
+      "positiv": 65,
+      "negativ": 7
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten René Springer, Peter Bohnhof, Gerrit Huy, weiterer Abgeordneter und der Fraktion der AfD: Technisierung statt Zuwanderung – Für einen leistungsfähigen Arbeitsmarkt",
+      "positiv": 60,
+      "negativ": 3
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Nicole Gohlke, Maren Kaminski, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Demokratische Schule schützen, Lehrkräfte stärken",
+      "positiv": 41,
+      "negativ": 21
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Diana Zimmer, Christian Douglas, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Grundsteuer vollständig abschaffen – Eigentum schützen, Mieter entlasten",
+      "positiv": 48,
+      "negativ": 5
+    },
+    {
+      "top": 9,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Verfügbarkeit von Wasserstoff und zur Änderung weiterer rechtlicher Rahmenbedingung…",
+      "positiv": 42,
+      "negativ": 7
+    },
+    {
+      "top": 18,
+      "titel": "Antrag der Abgeordneten Lea Reisner, Sören Pellmann, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Faire Entschuldung für die Ukraine – Für Souveränität, sozialen Wiederaufbau und…",
+      "positiv": 29,
+      "negativ": 11
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftsicherheitsgesetzes",
+      "positiv": 35,
+      "negativ": 3
+    },
+    {
+      "top": 13,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1069 über den Schutz von Personen, die sich öffentlich beteiligen, vor offen…",
+      "positiv": 35,
+      "negativ": 3
+    },
+    {
+      "top": 7,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Reform der steuerlich geförderten privaten Altersvorsorge (Altersvorsorgereformgesetz)",
+      "positiv": 37,
+      "negativ": 0
+    },
+    {
+      "top": 16,
+      "titel": "Antrag der Abgeordneten Beatrix von Storch, Jörn König, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Verbot der Islamischen Revolutionsgarde des Iran in Deutschland",
+      "positiv": 34,
+      "negativ": 2
+    },
+    {
+      "top": 15,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung des Urteils des Bundesverfassungsgerichts zur Vaterschaftsanfechtung",
+      "positiv": 21,
+      "negativ": 0
+    },
+    {
+      "top": 17,
+      "titel": "Zweite Beratung und Schlussabstimmung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Abkommen vom 9. Dezember 2022 zwischen der Regierung der Bundesrepublik Deutschland und…",
+      "positiv": 16,
+      "negativ": 1
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 5,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 181,
+      "negativ": 47
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 116,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 81,
+      "negativ": 12
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 39,
+      "negativ": 9
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 278,
+      "negativ": 78
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 225,
+      "negativ": 53
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 147,
+      "negativ": 37
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 158,
+      "negativ": 17
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 110,
+      "negativ": 14
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 4,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-08T06:14:33Z",
+  "generated": "2026-06-08T20:22:41Z",
   "wahlperiode": "21",
-  "count": 2,
+  "count": 81,
   "sessions": [
     {
       "wp": "21",
@@ -14,6 +14,29 @@
         "protokoll": "yt_21_081_protokoll.html",
         "nodes": 448,
         "checks": 43
+      },
+      "amtlich": {
+        "name": "amt_21_081",
+        "pdf": "https://dserver.bundestag.de/btp/21/21081.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21081.xml",
+        "dashboard": "amt_21_081_dashboard.json",
+        "nodes": 1431
+      },
+      "gap": {
+        "file": "gap_21_081.json",
+        "wer": 0.212
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 80,
+      "datum": "21.05.2026",
+      "amtlich": {
+        "name": "amt_21_080",
+        "pdf": "https://dserver.bundestag.de/btp/21/21080.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21080.xml",
+        "dashboard": "amt_21_080_dashboard.json",
+        "nodes": 2528
       }
     },
     {
@@ -27,6 +50,953 @@
         "protokoll": "yt_21_079_protokoll.html",
         "nodes": 477,
         "checks": 53
+      },
+      "amtlich": {
+        "name": "amt_21_079",
+        "pdf": "https://dserver.bundestag.de/btp/21/21079.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21079.xml",
+        "dashboard": "amt_21_079_dashboard.json",
+        "nodes": 1361
+      },
+      "gap": {
+        "file": "gap_21_079.json",
+        "wer": 0.411
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 78,
+      "datum": "08.05.2026",
+      "amtlich": {
+        "name": "amt_21_078",
+        "pdf": "https://dserver.bundestag.de/btp/21/21078.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21078.xml",
+        "dashboard": "amt_21_078_dashboard.json",
+        "nodes": 1295
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 77,
+      "datum": "07.05.2026",
+      "amtlich": {
+        "name": "amt_21_077",
+        "pdf": "https://dserver.bundestag.de/btp/21/21077.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21077.xml",
+        "dashboard": "amt_21_077_dashboard.json",
+        "nodes": 2466
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 76,
+      "datum": "06.05.2026",
+      "amtlich": {
+        "name": "amt_21_076",
+        "pdf": "https://dserver.bundestag.de/btp/21/21076.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21076.xml",
+        "dashboard": "amt_21_076_dashboard.json",
+        "nodes": 1313
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 75,
+      "datum": "24.04.2026",
+      "amtlich": {
+        "name": "amt_21_075",
+        "pdf": "https://dserver.bundestag.de/btp/21/21075.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21075.xml",
+        "dashboard": "amt_21_075_dashboard.json",
+        "nodes": 1335
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 74,
+      "datum": "23.04.2026",
+      "amtlich": {
+        "name": "amt_21_074",
+        "pdf": "https://dserver.bundestag.de/btp/21/21074.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21074.xml",
+        "dashboard": "amt_21_074_dashboard.json",
+        "nodes": 2387
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 73,
+      "datum": "22.04.2026",
+      "amtlich": {
+        "name": "amt_21_073",
+        "pdf": "https://dserver.bundestag.de/btp/21/21073.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21073.xml",
+        "dashboard": "amt_21_073_dashboard.json",
+        "nodes": 1166
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 72,
+      "datum": "17.04.2026",
+      "amtlich": {
+        "name": "amt_21_072",
+        "pdf": "https://dserver.bundestag.de/btp/21/21072.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21072.xml",
+        "dashboard": "amt_21_072_dashboard.json",
+        "nodes": 812
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 71,
+      "datum": "16.04.2026",
+      "amtlich": {
+        "name": "amt_21_071",
+        "pdf": "https://dserver.bundestag.de/btp/21/21071.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21071.xml",
+        "dashboard": "amt_21_071_dashboard.json",
+        "nodes": 2231
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 70,
+      "datum": "15.04.2026",
+      "amtlich": {
+        "name": "amt_21_070",
+        "pdf": "https://dserver.bundestag.de/btp/21/21070.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21070.xml",
+        "dashboard": "amt_21_070_dashboard.json",
+        "nodes": 1166
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 69,
+      "datum": "27.03.2026",
+      "amtlich": {
+        "name": "amt_21_069",
+        "pdf": "https://dserver.bundestag.de/btp/21/21069.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21069.xml",
+        "dashboard": "amt_21_069_dashboard.json",
+        "nodes": 1434
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 68,
+      "datum": "26.03.2026",
+      "amtlich": {
+        "name": "amt_21_068",
+        "pdf": "https://dserver.bundestag.de/btp/21/21068.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21068.xml",
+        "dashboard": "amt_21_068_dashboard.json",
+        "nodes": 2518
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 67,
+      "datum": "25.03.2026",
+      "amtlich": {
+        "name": "amt_21_067",
+        "pdf": "https://dserver.bundestag.de/btp/21/21067.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21067.xml",
+        "dashboard": "amt_21_067_dashboard.json",
+        "nodes": 1021
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 66,
+      "datum": "20.03.2026",
+      "amtlich": {
+        "name": "amt_21_066",
+        "pdf": "https://dserver.bundestag.de/btp/21/21066.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21066.xml",
+        "dashboard": "amt_21_066_dashboard.json",
+        "nodes": 1280
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 65,
+      "datum": "19.03.2026",
+      "amtlich": {
+        "name": "amt_21_065",
+        "pdf": "https://dserver.bundestag.de/btp/21/21065.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21065.xml",
+        "dashboard": "amt_21_065_dashboard.json",
+        "nodes": 2749
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 64,
+      "datum": "18.03.2026",
+      "amtlich": {
+        "name": "amt_21_064",
+        "pdf": "https://dserver.bundestag.de/btp/21/21064.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21064.xml",
+        "dashboard": "amt_21_064_dashboard.json",
+        "nodes": 1491
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 63,
+      "datum": "06.03.2026",
+      "amtlich": {
+        "name": "amt_21_063",
+        "pdf": "https://dserver.bundestag.de/btp/21/21063.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21063.xml",
+        "dashboard": "amt_21_063_dashboard.json",
+        "nodes": 1096
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 62,
+      "datum": "05.03.2026",
+      "amtlich": {
+        "name": "amt_21_062",
+        "pdf": "https://dserver.bundestag.de/btp/21/21062.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21062.xml",
+        "dashboard": "amt_21_062_dashboard.json",
+        "nodes": 2511
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 61,
+      "datum": "04.03.2026",
+      "amtlich": {
+        "name": "amt_21_061",
+        "pdf": "https://dserver.bundestag.de/btp/21/21061.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21061.xml",
+        "dashboard": "amt_21_061_dashboard.json",
+        "nodes": 1137
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 60,
+      "datum": "27.02.2026",
+      "amtlich": {
+        "name": "amt_21_060",
+        "pdf": "https://dserver.bundestag.de/btp/21/21060.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21060.xml",
+        "dashboard": "amt_21_060_dashboard.json",
+        "nodes": 1422
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 59,
+      "datum": "26.02.2026",
+      "amtlich": {
+        "name": "amt_21_059",
+        "pdf": "https://dserver.bundestag.de/btp/21/21059.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21059.xml",
+        "dashboard": "amt_21_059_dashboard.json",
+        "nodes": 2620
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 58,
+      "datum": "25.02.2026",
+      "amtlich": {
+        "name": "amt_21_058",
+        "pdf": "https://dserver.bundestag.de/btp/21/21058.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21058.xml",
+        "dashboard": "amt_21_058_dashboard.json",
+        "nodes": 1221
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 57,
+      "datum": "30.01.2026",
+      "amtlich": {
+        "name": "amt_21_057",
+        "pdf": "https://dserver.bundestag.de/btp/21/21057.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21057.xml",
+        "dashboard": "amt_21_057_dashboard.json",
+        "nodes": 1321
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 56,
+      "datum": "29.01.2026",
+      "amtlich": {
+        "name": "amt_21_056",
+        "pdf": "https://dserver.bundestag.de/btp/21/21056.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21056.xml",
+        "dashboard": "amt_21_056_dashboard.json",
+        "nodes": 2361
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 55,
+      "datum": "28.01.2026",
+      "amtlich": {
+        "name": "amt_21_055",
+        "pdf": "https://dserver.bundestag.de/btp/21/21055.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21055.xml",
+        "dashboard": "amt_21_055_dashboard.json",
+        "nodes": 1170
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 54,
+      "datum": "16.01.2026",
+      "amtlich": {
+        "name": "amt_21_054",
+        "pdf": "https://dserver.bundestag.de/btp/21/21054.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21054.xml",
+        "dashboard": "amt_21_054_dashboard.json",
+        "nodes": 1330
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 53,
+      "datum": "15.01.2026",
+      "amtlich": {
+        "name": "amt_21_053",
+        "pdf": "https://dserver.bundestag.de/btp/21/21053.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21053.xml",
+        "dashboard": "amt_21_053_dashboard.json",
+        "nodes": 2437
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 52,
+      "datum": "14.01.2026",
+      "amtlich": {
+        "name": "amt_21_052",
+        "pdf": "https://dserver.bundestag.de/btp/21/21052.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21052.xml",
+        "dashboard": "amt_21_052_dashboard.json",
+        "nodes": 1149
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 51,
+      "datum": "19.12.2025",
+      "amtlich": {
+        "name": "amt_21_051",
+        "pdf": "https://dserver.bundestag.de/btp/21/21051.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21051.xml",
+        "dashboard": "amt_21_051_dashboard.json",
+        "nodes": 1481
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 50,
+      "datum": "18.12.2025",
+      "amtlich": {
+        "name": "amt_21_050",
+        "pdf": "https://dserver.bundestag.de/btp/21/21050.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21050.xml",
+        "dashboard": "amt_21_050_dashboard.json",
+        "nodes": 2560
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 49,
+      "datum": "17.12.2025",
+      "amtlich": {
+        "name": "amt_21_049",
+        "pdf": "https://dserver.bundestag.de/btp/21/21049.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21049.xml",
+        "dashboard": "amt_21_049_dashboard.json",
+        "nodes": 1395
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 48,
+      "datum": "05.12.2025",
+      "amtlich": {
+        "name": "amt_21_048",
+        "pdf": "https://dserver.bundestag.de/btp/21/21048.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21048.xml",
+        "dashboard": "amt_21_048_dashboard.json",
+        "nodes": 1552
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 47,
+      "datum": "04.12.2025",
+      "amtlich": {
+        "name": "amt_21_047",
+        "pdf": "https://dserver.bundestag.de/btp/21/21047.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21047.xml",
+        "dashboard": "amt_21_047_dashboard.json",
+        "nodes": 2692
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 46,
+      "datum": "03.12.2025",
+      "amtlich": {
+        "name": "amt_21_046",
+        "pdf": "https://dserver.bundestag.de/btp/21/21046.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21046.xml",
+        "dashboard": "amt_21_046_dashboard.json",
+        "nodes": 1593
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 45,
+      "datum": "28.11.2025",
+      "amtlich": {
+        "name": "amt_21_045",
+        "pdf": "https://dserver.bundestag.de/btp/21/21045.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21045.xml",
+        "dashboard": "amt_21_045_dashboard.json",
+        "nodes": 1255
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 44,
+      "datum": "27.11.2025",
+      "amtlich": {
+        "name": "amt_21_044",
+        "pdf": "https://dserver.bundestag.de/btp/21/21044.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21044.xml",
+        "dashboard": "amt_21_044_dashboard.json",
+        "nodes": 2266
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 43,
+      "datum": "26.11.2025",
+      "amtlich": {
+        "name": "amt_21_043",
+        "pdf": "https://dserver.bundestag.de/btp/21/21043.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21043.xml",
+        "dashboard": "amt_21_043_dashboard.json",
+        "nodes": 2127
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 42,
+      "datum": "25.11.2025",
+      "amtlich": {
+        "name": "amt_21_042",
+        "pdf": "https://dserver.bundestag.de/btp/21/21042.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21042.xml",
+        "dashboard": "amt_21_042_dashboard.json",
+        "nodes": 1891
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 41,
+      "datum": "14.11.2025",
+      "amtlich": {
+        "name": "amt_21_041",
+        "pdf": "https://dserver.bundestag.de/btp/21/21041.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21041.xml",
+        "dashboard": "amt_21_041_dashboard.json",
+        "nodes": 1325
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 40,
+      "datum": "13.11.2025",
+      "amtlich": {
+        "name": "amt_21_040",
+        "pdf": "https://dserver.bundestag.de/btp/21/21040.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21040.xml",
+        "dashboard": "amt_21_040_dashboard.json",
+        "nodes": 2565
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 39,
+      "datum": "12.11.2025",
+      "amtlich": {
+        "name": "amt_21_039",
+        "pdf": "https://dserver.bundestag.de/btp/21/21039.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21039.xml",
+        "dashboard": "amt_21_039_dashboard.json",
+        "nodes": 1335
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 38,
+      "datum": "07.11.2025",
+      "amtlich": {
+        "name": "amt_21_038",
+        "pdf": "https://dserver.bundestag.de/btp/21/21038.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21038.xml",
+        "dashboard": "amt_21_038_dashboard.json",
+        "nodes": 1506
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 37,
+      "datum": "06.11.2025",
+      "amtlich": {
+        "name": "amt_21_037",
+        "pdf": "https://dserver.bundestag.de/btp/21/21037.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21037.xml",
+        "dashboard": "amt_21_037_dashboard.json",
+        "nodes": 2442
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 36,
+      "datum": "05.11.2025",
+      "amtlich": {
+        "name": "amt_21_036",
+        "pdf": "https://dserver.bundestag.de/btp/21/21036.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21036.xml",
+        "dashboard": "amt_21_036_dashboard.json",
+        "nodes": 1369
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 35,
+      "datum": "17.10.2025",
+      "amtlich": {
+        "name": "amt_21_035",
+        "pdf": "https://dserver.bundestag.de/btp/21/21035.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21035.xml",
+        "dashboard": "amt_21_035_dashboard.json",
+        "nodes": 1275
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 34,
+      "datum": "16.10.2025",
+      "amtlich": {
+        "name": "amt_21_034",
+        "pdf": "https://dserver.bundestag.de/btp/21/21034.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21034.xml",
+        "dashboard": "amt_21_034_dashboard.json",
+        "nodes": 2528
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 33,
+      "datum": "15.10.2025",
+      "amtlich": {
+        "name": "amt_21_033",
+        "pdf": "https://dserver.bundestag.de/btp/21/21033.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21033.xml",
+        "dashboard": "amt_21_033_dashboard.json",
+        "nodes": 1294
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 32,
+      "datum": "10.10.2025",
+      "amtlich": {
+        "name": "amt_21_032",
+        "pdf": "https://dserver.bundestag.de/btp/21/21032.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21032.xml",
+        "dashboard": "amt_21_032_dashboard.json",
+        "nodes": 1384
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 31,
+      "datum": "09.10.2025",
+      "amtlich": {
+        "name": "amt_21_031",
+        "pdf": "https://dserver.bundestag.de/btp/21/21031.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21031.xml",
+        "dashboard": "amt_21_031_dashboard.json",
+        "nodes": 2597
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 30,
+      "datum": "08.10.2025",
+      "amtlich": {
+        "name": "amt_21_030",
+        "pdf": "https://dserver.bundestag.de/btp/21/21030.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21030.xml",
+        "dashboard": "amt_21_030_dashboard.json",
+        "nodes": 1387
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 29,
+      "datum": "26.09.2025",
+      "amtlich": {
+        "name": "amt_21_029",
+        "pdf": "https://dserver.bundestag.de/btp/21/21029.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21029.xml",
+        "dashboard": "amt_21_029_dashboard.json",
+        "nodes": 1210
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 28,
+      "datum": "25.09.2025",
+      "amtlich": {
+        "name": "amt_21_028",
+        "pdf": "https://dserver.bundestag.de/btp/21/21028.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21028.xml",
+        "dashboard": "amt_21_028_dashboard.json",
+        "nodes": 2182
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 27,
+      "datum": "24.09.2025",
+      "amtlich": {
+        "name": "amt_21_027",
+        "pdf": "https://dserver.bundestag.de/btp/21/21027.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21027.xml",
+        "dashboard": "amt_21_027_dashboard.json",
+        "nodes": 1963
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 26,
+      "datum": "23.09.2025",
+      "amtlich": {
+        "name": "amt_21_026",
+        "pdf": "https://dserver.bundestag.de/btp/21/21026.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21026.xml",
+        "dashboard": "amt_21_026_dashboard.json",
+        "nodes": 2054
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 25,
+      "datum": "18.09.2025",
+      "amtlich": {
+        "name": "amt_21_025",
+        "pdf": "https://dserver.bundestag.de/btp/21/21025.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21025.xml",
+        "dashboard": "amt_21_025_dashboard.json",
+        "nodes": 1046
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 24,
+      "datum": "17.09.2025",
+      "amtlich": {
+        "name": "amt_21_024",
+        "pdf": "https://dserver.bundestag.de/btp/21/21024.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21024.xml",
+        "dashboard": "amt_21_024_dashboard.json",
+        "nodes": 2817
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 23,
+      "datum": "16.09.2025",
+      "amtlich": {
+        "name": "amt_21_023",
+        "pdf": "https://dserver.bundestag.de/btp/21/21023.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21023.xml",
+        "dashboard": "amt_21_023_dashboard.json",
+        "nodes": 2689
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 22,
+      "datum": "12.09.2025",
+      "amtlich": {
+        "name": "amt_21_022",
+        "pdf": "https://dserver.bundestag.de/btp/21/21022.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21022.xml",
+        "dashboard": "amt_21_022_dashboard.json",
+        "nodes": 1463
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 21,
+      "datum": "11.09.2025",
+      "amtlich": {
+        "name": "amt_21_021",
+        "pdf": "https://dserver.bundestag.de/btp/21/21021.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21021.xml",
+        "dashboard": "amt_21_021_dashboard.json",
+        "nodes": 2399
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 20,
+      "datum": "10.09.2025",
+      "amtlich": {
+        "name": "amt_21_020",
+        "pdf": "https://dserver.bundestag.de/btp/21/21020.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21020.xml",
+        "dashboard": "amt_21_020_dashboard.json",
+        "nodes": 1278
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 19,
+      "datum": "11.07.2025",
+      "amtlich": {
+        "name": "amt_21_019",
+        "pdf": "https://dserver.bundestag.de/btp/21/21019.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21019.xml",
+        "dashboard": "amt_21_019_dashboard.json",
+        "nodes": 1021
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 18,
+      "datum": "10.07.2025",
+      "amtlich": {
+        "name": "amt_21_018",
+        "pdf": "https://dserver.bundestag.de/btp/21/21018.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21018.xml",
+        "dashboard": "amt_21_018_dashboard.json",
+        "nodes": 2594
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 17,
+      "datum": "09.07.2025",
+      "amtlich": {
+        "name": "amt_21_017",
+        "pdf": "https://dserver.bundestag.de/btp/21/21017.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21017.xml",
+        "dashboard": "amt_21_017_dashboard.json",
+        "nodes": 2246
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 16,
+      "datum": "08.07.2025",
+      "amtlich": {
+        "name": "amt_21_016",
+        "pdf": "https://dserver.bundestag.de/btp/21/21016.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21016.xml",
+        "dashboard": "amt_21_016_dashboard.json",
+        "nodes": 2533
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 15,
+      "datum": "27.06.2025",
+      "amtlich": {
+        "name": "amt_21_015",
+        "pdf": "https://dserver.bundestag.de/btp/21/21015.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21015.xml",
+        "dashboard": "amt_21_015_dashboard.json",
+        "nodes": 1240
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 14,
+      "datum": "26.06.2025",
+      "amtlich": {
+        "name": "amt_21_014",
+        "pdf": "https://dserver.bundestag.de/btp/21/21014.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21014.xml",
+        "dashboard": "amt_21_014_dashboard.json",
+        "nodes": 2357
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 13,
+      "datum": "25.06.2025",
+      "amtlich": {
+        "name": "amt_21_013",
+        "pdf": "https://dserver.bundestag.de/btp/21/21013.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21013.xml",
+        "dashboard": "amt_21_013_dashboard.json",
+        "nodes": 1279
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 12,
+      "datum": "24.06.2025",
+      "amtlich": {
+        "name": "amt_21_012",
+        "pdf": "https://dserver.bundestag.de/btp/21/21012.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21012.xml",
+        "dashboard": "amt_21_012_dashboard.json",
+        "nodes": 313
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 11,
+      "datum": "06.06.2025",
+      "amtlich": {
+        "name": "amt_21_011",
+        "pdf": "https://dserver.bundestag.de/btp/21/21011.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21011.xml",
+        "dashboard": "amt_21_011_dashboard.json",
+        "nodes": 1309
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 10,
+      "datum": "05.06.2025",
+      "amtlich": {
+        "name": "amt_21_010",
+        "pdf": "https://dserver.bundestag.de/btp/21/21010.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21010.xml",
+        "dashboard": "amt_21_010_dashboard.json",
+        "nodes": 2586
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 9,
+      "datum": "04.06.2025",
+      "amtlich": {
+        "name": "amt_21_009",
+        "pdf": "https://dserver.bundestag.de/btp/21/21009.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21009.xml",
+        "dashboard": "amt_21_009_dashboard.json",
+        "nodes": 1131
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 8,
+      "datum": "23.05.2025",
+      "amtlich": {
+        "name": "amt_21_008",
+        "pdf": "https://dserver.bundestag.de/btp/21/21008.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21008.xml",
+        "dashboard": "amt_21_008_dashboard.json",
+        "nodes": 1419
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 7,
+      "datum": "22.05.2025",
+      "amtlich": {
+        "name": "amt_21_007",
+        "pdf": "https://dserver.bundestag.de/btp/21/21007.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21007.xml",
+        "dashboard": "amt_21_007_dashboard.json",
+        "nodes": 1676
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 6,
+      "datum": "21.05.2025",
+      "amtlich": {
+        "name": "amt_21_006",
+        "pdf": "https://dserver.bundestag.de/btp/21/21006.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21006.xml",
+        "dashboard": "amt_21_006_dashboard.json",
+        "nodes": 1325
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 5,
+      "datum": "16.05.2025",
+      "amtlich": {
+        "name": "amt_21_005",
+        "pdf": "https://dserver.bundestag.de/btp/21/21005.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21005.xml",
+        "dashboard": "amt_21_005_dashboard.json",
+        "nodes": 972
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 4,
+      "datum": "15.05.2025",
+      "amtlich": {
+        "name": "amt_21_004",
+        "pdf": "https://dserver.bundestag.de/btp/21/21004.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21004.xml",
+        "dashboard": "amt_21_004_dashboard.json",
+        "nodes": 2316
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 3,
+      "datum": "14.05.2025",
+      "amtlich": {
+        "name": "amt_21_003",
+        "pdf": "https://dserver.bundestag.de/btp/21/21003.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21003.xml",
+        "dashboard": "amt_21_003_dashboard.json",
+        "nodes": 1612
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 2,
+      "datum": "06.05.2025",
+      "amtlich": {
+        "name": "amt_21_002",
+        "pdf": "https://dserver.bundestag.de/btp/21/21002.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21002.xml",
+        "dashboard": "amt_21_002_dashboard.json",
+        "nodes": 232
+      }
+    },
+    {
+      "wp": "21",
+      "nr": 1,
+      "datum": "25.03.2025",
+      "amtlich": {
+        "name": "amt_21_001",
+        "pdf": "https://dserver.bundestag.de/btp/21/21001.pdf",
+        "xml": "https://dserver.bundestag.de/btp/21/21001.xml",
+        "dashboard": "amt_21_001_dashboard.json",
+        "nodes": 377
       }
     }
   ]

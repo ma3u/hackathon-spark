@@ -1,0 +1,267 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "10.07.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "18"
+  },
+  "kennzahlen": {
+    "reden": 156,
+    "schriftliche_beitraege": 0,
+    "woerter": 91897,
+    "tops": 11,
+    "saalreaktionen": 1534,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Einzelplan 07",
+      "woerter": 13318
+    },
+    {
+      "top": 1,
+      "titel": "Einzelplan 06",
+      "woerter": 13038
+    },
+    {
+      "top": 9,
+      "titel": "Einzelplan 24",
+      "woerter": 12808
+    },
+    {
+      "top": 8,
+      "titel": "Einzelplan 30",
+      "woerter": 12406
+    },
+    {
+      "top": 11,
+      "titel": "Einzelplan 15",
+      "woerter": 12381
+    },
+    {
+      "top": 10,
+      "titel": "Einzelplan 17",
+      "woerter": 12266
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Wohnungsbaus und zur Wohnraumsicherung",
+      "woerter": 4841
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Bestimmung sicherer Herkunftsstaaten durch Rechtsverordnung und zur Abschaffung des anwaltlichen Ve…",
+      "woerter": 4340
+    },
+    {
+      "top": 7,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung",
+      "woerter": 3356
+    },
+    {
+      "top": 6,
+      "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Umsetzung von Vorgaben der Richtlinie (EU) 2023/2413 für Zulassungsverfahren nach dem B…",
+      "woerter": 2750
+    },
+    {
+      "top": 3,
+      "titel": "a)–f) Beratung der Beschlussempfehlungen des Petitionsausschusses: Sammelübersichten 8, 9, 10, 11, 12 und 13 zu Petitionen",
+      "woerter": 393
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 23982,
+      "prozent": 28.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 20264,
+      "prozent": 24.2
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 14966,
+      "prozent": 17.8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 13090,
+      "prozent": 15.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 9959,
+      "prozent": 11.9
+    },
+    {
+      "fraktion": "SPDSPD",
+      "woerter": 1170,
+      "prozent": 1.4
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 465,
+      "prozent": 0.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 10,
+      "titel": "Einzelplan 17",
+      "positiv": 162,
+      "negativ": 14
+    },
+    {
+      "top": 11,
+      "titel": "Einzelplan 15",
+      "positiv": 157,
+      "negativ": 18
+    },
+    {
+      "top": 8,
+      "titel": "Einzelplan 30",
+      "positiv": 143,
+      "negativ": 29
+    },
+    {
+      "top": 1,
+      "titel": "Einzelplan 06",
+      "positiv": 147,
+      "negativ": 24
+    },
+    {
+      "top": 9,
+      "titel": "Einzelplan 24",
+      "positiv": 136,
+      "negativ": 12
+    },
+    {
+      "top": 2,
+      "titel": "Einzelplan 07",
+      "positiv": 129,
+      "negativ": 18
+    },
+    {
+      "top": 7,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung",
+      "positiv": 48,
+      "negativ": 10
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Wohnungsbaus und zur Wohnraumsicherung",
+      "positiv": 42,
+      "negativ": 11
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Bestimmung sicherer Herkunftsstaaten durch Rechtsverordnung und zur Abschaffung des anwaltlichen Ve…",
+      "positiv": 44,
+      "negativ": 5
+    },
+    {
+      "top": 6,
+      "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Umsetzung von Vorgaben der Richtlinie (EU) 2023/2413 für Zulassungsverfahren nach dem B…",
+      "positiv": 39,
+      "negativ": 9
+    },
+    {
+      "top": 3,
+      "titel": "a)–f) Beratung der Beschlussempfehlungen des Petitionsausschusses: Sammelübersichten 8, 9, 10, 11, 12 und 13 zu Petitionen",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 196,
+      "negativ": 23
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 134,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 91,
+      "negativ": 7
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 71,
+      "negativ": 10
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 9,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "LINKEN",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 249,
+      "negativ": 50
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 243,
+      "negativ": 30
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 168,
+      "negativ": 27
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 162,
+      "negativ": 20
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 124,
+      "negativ": 18
+    },
+    {
+      "fraktion": "SPDSPD",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 5,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "teilweise": 1,
+    "bestätigt": 1
+  }
+}

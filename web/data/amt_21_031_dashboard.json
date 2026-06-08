@@ -1,0 +1,332 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "09.10.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "31"
+  },
+  "kennzahlen": {
+    "reden": 154,
+    "schriftliche_beitraege": 1,
+    "woerter": 87470,
+    "tops": 18,
+    "saalreaktionen": 1604,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von den Abgeordneten Helge Limburg, Nyke Slawik, Dr. Till Steffen, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änderung d…",
+      "woerter": 9859
+    },
+    {
+      "top": 4,
+      "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Wohnungsbaus und zur Wohnraumsicherung",
+      "woerter": 9321
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des nationalen Rechts an die Reform des Gemeinsamen Europäischen Asylsystems (GEAS-Anpassungsgesetz)",
+      "woerter": 8974
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Die Migrationswende hinsichtlich Syriens umsetzen – Die weitere Au…",
+      "woerter": 8821
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Deutsches Nein zur EU-Chatkontrolle",
+      "woerter": 7878
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Jörn König, Thomas Korell, Lars Schieske, weiterer Abgeordneter und der Fraktion der AfD: Bundesweite Sanierung von Sportstätten muss zeitnah durchgeführt werden",
+      "woerter": 4831
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Birgit Bessin, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Dem deutschen Volke – Unsere Zukunft gestalten und durch geeignete Familienpo…",
+      "woerter": 4581
+    },
+    {
+      "top": 11,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2225 über Verbraucherkreditverträge",
+      "woerter": 4512
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Mandy Eißing, Zada Salihović, Ina Latendorf, weiterer Abgeordneter und der Fraktion Die Linke: 35 Jahre Deutsche Einheit – Gleichwertige Lebensverhältnisse in Ost wie West jet…",
+      "woerter": 4341
+    },
+    {
+      "top": 7,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Einführung einer bundeseinheitlichen Pflegefachassistenzausbildung",
+      "woerter": 4234
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Corinna Rüffer, Timon Dzienus, Leon Eckert, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Selbstbestimmung sichern und Teilhabe stärken – Die Fortschritte des…",
+      "woerter": 4229
+    },
+    {
+      "top": 13,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Ausführung von Artikel 109 Absatz 3 Satz 6 und Satz 7 des Grundgesetzes und zur Änderung anderer Ges…",
+      "woerter": 4200
+    },
+    {
+      "top": 9,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Vergabe öffentlicher Aufträge",
+      "woerter": 4165
+    },
+    {
+      "top": 15,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Energiesteuer- und des Stromsteuergesetzes",
+      "woerter": 2802
+    },
+    {
+      "top": 16,
+      "titel": "Antrag der Abgeordneten Martin Sichert, Dr. Christina Baum, Carina Schießl, weiterer Abgeordneter und der Fraktion der AfD: Akute Not der gesetzlichen Krankenversicherung lindern – Vollständige Finan…",
+      "woerter": 2578
+    },
+    {
+      "top": 17,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Militärischen Sicherheit in der Bundeswehr",
+      "woerter": 2144
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 26467,
+      "prozent": 31.9
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 20213,
+      "prozent": 24.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 16139,
+      "prozent": 19.4
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11283,
+      "prozent": 13.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8626,
+      "prozent": 10.4
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 299,
+      "prozent": 0.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von den Abgeordneten Helge Limburg, Nyke Slawik, Dr. Till Steffen, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änderung d…",
+      "positiv": 123,
+      "negativ": 44
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Die Migrationswende hinsichtlich Syriens umsetzen – Die weitere Au…",
+      "positiv": 103,
+      "negativ": 37
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des nationalen Rechts an die Reform des Gemeinsamen Europäischen Asylsystems (GEAS-Anpassungsgesetz)",
+      "positiv": 93,
+      "negativ": 28
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Deutsches Nein zur EU-Chatkontrolle",
+      "positiv": 96,
+      "negativ": 20
+    },
+    {
+      "top": 4,
+      "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Wohnungsbaus und zur Wohnraumsicherung",
+      "positiv": 92,
+      "negativ": 11
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Birgit Bessin, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Dem deutschen Volke – Unsere Zukunft gestalten und durch geeignete Familienpo…",
+      "positiv": 57,
+      "negativ": 5
+    },
+    {
+      "top": 7,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Einführung einer bundeseinheitlichen Pflegefachassistenzausbildung",
+      "positiv": 55,
+      "negativ": 4
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Corinna Rüffer, Timon Dzienus, Leon Eckert, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Selbstbestimmung sichern und Teilhabe stärken – Die Fortschritte des…",
+      "positiv": 51,
+      "negativ": 7
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Mandy Eißing, Zada Salihović, Ina Latendorf, weiterer Abgeordneter und der Fraktion Die Linke: 35 Jahre Deutsche Einheit – Gleichwertige Lebensverhältnisse in Ost wie West jet…",
+      "positiv": 49,
+      "negativ": 6
+    },
+    {
+      "top": 13,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Ausführung von Artikel 109 Absatz 3 Satz 6 und Satz 7 des Grundgesetzes und zur Änderung anderer Ges…",
+      "positiv": 49,
+      "negativ": 4
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Jörn König, Thomas Korell, Lars Schieske, weiterer Abgeordneter und der Fraktion der AfD: Bundesweite Sanierung von Sportstätten muss zeitnah durchgeführt werden",
+      "positiv": 46,
+      "negativ": 6
+    },
+    {
+      "top": 11,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2225 über Verbraucherkreditverträge",
+      "positiv": 43,
+      "negativ": 2
+    },
+    {
+      "top": 9,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Vergabe öffentlicher Aufträge",
+      "positiv": 44,
+      "negativ": 0
+    },
+    {
+      "top": 15,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Energiesteuer- und des Stromsteuergesetzes",
+      "positiv": 34,
+      "negativ": 1
+    },
+    {
+      "top": 16,
+      "titel": "Antrag der Abgeordneten Martin Sichert, Dr. Christina Baum, Carina Schießl, weiterer Abgeordneter und der Fraktion der AfD: Akute Not der gesetzlichen Krankenversicherung lindern – Vollständige Finan…",
+      "positiv": 28,
+      "negativ": 4
+    },
+    {
+      "top": 17,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Militärischen Sicherheit in der Bundeswehr",
+      "positiv": 28,
+      "negativ": 3
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 177,
+      "negativ": 36
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 98,
+      "negativ": 12
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 102,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 43,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 20,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der Linken",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 254,
+      "negativ": 66
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 228,
+      "negativ": 50
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 172,
+      "negativ": 40
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 155,
+      "negativ": 10
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 119,
+      "negativ": 11
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 4,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "irreführend": 1
+  }
+}

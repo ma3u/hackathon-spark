@@ -1,0 +1,209 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "06.06.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "11"
+  },
+  "kennzahlen": {
+    "reden": 66,
+    "schriftliche_beitraege": 0,
+    "woerter": 43395,
+    "tops": 7,
+    "saalreaktionen": 766,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimakrise spitzt sich zu – Bundesregierung darf Klimaschutz nicht hintenanstellen",
+      "woerter": 10024
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Fraktion Die Linke: Gaza – Völkerrecht verteidigen, Waffenlieferungen stoppen, humanitäre Hilfe ermöglichen",
+      "woerter": 8252
+    },
+    {
+      "top": 1,
+      "titel": "Tagesordnungspunkt 22, ZP 9",
+      "woerter": 7551
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Ricarda Lang, Lisa Paus, Andreas Audretsch, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mindestlohngesetz reformieren – 15 Euro pro Stunde sicherstellen",
+      "woerter": 4755
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Ulrich von Zons, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur besseren B…",
+      "woerter": 4631
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Tierhaltungskennzeichnungsgesetzes",
+      "woerter": 4162
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des GAP-Direktzahlungen-Gesetzes",
+      "woerter": 4020
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 11744,
+      "prozent": 29.0
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 9646,
+      "prozent": 23.8
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 8482,
+      "prozent": 20.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6556,
+      "prozent": 16.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4121,
+      "prozent": 10.2
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimakrise spitzt sich zu – Bundesregierung darf Klimaschutz nicht hintenanstellen",
+      "positiv": 109,
+      "negativ": 26
+    },
+    {
+      "top": 1,
+      "titel": "Tagesordnungspunkt 22, ZP 9",
+      "positiv": 98,
+      "negativ": 16
+    },
+    {
+      "top": 2,
+      "titel": "Antrag der Fraktion Die Linke: Gaza – Völkerrecht verteidigen, Waffenlieferungen stoppen, humanitäre Hilfe ermöglichen",
+      "positiv": 76,
+      "negativ": 9
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Ricarda Lang, Lisa Paus, Andreas Audretsch, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mindestlohngesetz reformieren – 15 Euro pro Stunde sicherstellen",
+      "positiv": 62,
+      "negativ": 4
+    },
+    {
+      "top": 5,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des GAP-Direktzahlungen-Gesetzes",
+      "positiv": 50,
+      "negativ": 4
+    },
+    {
+      "top": 6,
+      "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Ulrich von Zons, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur besseren B…",
+      "positiv": 39,
+      "negativ": 9
+    },
+    {
+      "top": 3,
+      "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Tierhaltungskennzeichnungsgesetzes",
+      "positiv": 41,
+      "negativ": 4
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 88,
+      "negativ": 10
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 48,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 35,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 19,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 10,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten im ganzen Hause",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 109,
+      "negativ": 25
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 104,
+      "negativ": 18
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 85,
+      "negativ": 17
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 81,
+      "negativ": 6
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 64,
+      "negativ": 3
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 9,
+    "teilweise": 1,
+    "irreführend": 1,
+    "bestätigt": 1
+  }
+}

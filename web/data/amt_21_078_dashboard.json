@@ -1,0 +1,190 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "08.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "78"
+  },
+  "kennzahlen": {
+    "reden": 78,
+    "schriftliche_beitraege": 0,
+    "woerter": 42555,
+    "tops": 6,
+    "saalreaktionen": 814,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Tagesordnungspunkt 12",
+      "woerter": 10393
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von den Abgeordneten Christian Reck, Leif-Erik Holm, Steffen Kotré, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des Wind…",
+      "woerter": 10086
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Ein Jahr schwarz-rote Energiepolitik – Energieversorgung jetzt unabhängig, erneuerbar und sicher ausbauen",
+      "woerter": 9013
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Cem Ince, Janine Wissler, Jörg Cezanne, weiterer Abgeordneter und der Fraktion Die Linke: Zwingende Mitbestimmungsrechte des Betriebsrats ausbauen",
+      "woerter": 5201
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Chantal Kopf, Ayse Asar, Julian Joswig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN zu den Verhandlungen zum Mehrjährigen Finanzrahmen der Europäischen Uni…",
+      "woerter": 4103
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Tag der Städtebauförderung 2026 – Motor für starke Städte und Gemeinden",
+      "woerter": 3759
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 14277,
+      "prozent": 34.9
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 8990,
+      "prozent": 22.0
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 7388,
+      "prozent": 18.1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6214,
+      "prozent": 15.2
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3999,
+      "prozent": 9.8
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von den Abgeordneten Christian Reck, Leif-Erik Holm, Steffen Kotré, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des Wind…",
+      "positiv": 113,
+      "negativ": 33
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Ein Jahr schwarz-rote Energiepolitik – Energieversorgung jetzt unabhängig, erneuerbar und sicher ausbauen",
+      "positiv": 104,
+      "negativ": 20
+    },
+    {
+      "top": 1,
+      "titel": "Tagesordnungspunkt 12",
+      "positiv": 111,
+      "negativ": 9
+    },
+    {
+      "top": 4,
+      "titel": "a) Antrag der Abgeordneten Cem Ince, Janine Wissler, Jörg Cezanne, weiterer Abgeordneter und der Fraktion Die Linke: Zwingende Mitbestimmungsrechte des Betriebsrats ausbauen",
+      "positiv": 62,
+      "negativ": 9
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Chantal Kopf, Ayse Asar, Julian Joswig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN zu den Verhandlungen zum Mehrjährigen Finanzrahmen der Europäischen Uni…",
+      "positiv": 56,
+      "negativ": 4
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Tag der Städtebauförderung 2026 – Motor für starke Städte und Gemeinden",
+      "positiv": 41,
+      "negativ": 3
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 84,
+      "negativ": 17
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 48,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 36,
+      "negativ": 2
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 22,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 17,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 6,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 132,
+      "negativ": 16
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 102,
+      "negativ": 27
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 92,
+      "negativ": 14
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 88,
+      "negativ": 12
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 48,
+      "negativ": 5
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

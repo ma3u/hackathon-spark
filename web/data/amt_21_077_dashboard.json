@@ -1,0 +1,317 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "07.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "77"
+  },
+  "kennzahlen": {
+    "reden": 170,
+    "schriftliche_beitraege": 0,
+    "woerter": 87662,
+    "tops": 16,
+    "saalreaktionen": 1454,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Martin Reichardt, Sebastian Maack, Gereon Bollmann, weiterer Abgeordneter und der Fraktion der AfD: Deutschland braucht mehr Kinder – Neuausrichtung des Bundesinstituts für…",
+      "woerter": 10551
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Dr. Janosch Dahmen, Simone Fischer, Linda Heitmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Entlastung statt Belastung für Beitragszahlende und Betriebe…",
+      "woerter": 10408
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Erste Zwischenbilanz des neuen Bundesministeriums für Digitales und Staatsmodernisierung nach einem Jahr",
+      "woerter": 9852
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftverkehrsteuergesetzes",
+      "woerter": 7979
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Behindertengleichstellungsgesetzes",
+      "woerter": 7624
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Dr. Christoph Birghan, Nicole Höchst, Dr. Michael Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Wissenschaftsstandort Deutschland stärken – Exzellenzstrategie eval…",
+      "woerter": 5427
+    },
+    {
+      "top": 7,
+      "titel": "Vereinbarte Debatte: Meinungsvielfalt und Bürgerbeteiligung – Lokalmedien als unverzichtbarer Baustein unserer Demokratie",
+      "woerter": 5223
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Martin Sichert, Dr. Christina Baum, Carina Schießl, weiterer Abgeordneter und der Fraktion der AfD: Gesundheitssystem stärken statt Versicherte belasten – Echte Reformen für e…",
+      "woerter": 4945
+    },
+    {
+      "top": 14,
+      "titel": "a) Antrag der Abgeordneten Karl Bär, Dr. Zoe Mayer, Dr. Ophelia Nick, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Verschmutzung von Trinkwasser mit Ewigkeitschemikalien verhindern –…",
+      "woerter": 4209
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUFOR ALTHEA in Bosnien und Herzegowina",
+      "woerter": 4177
+    },
+    {
+      "top": 8,
+      "titel": "Erste Beratung des von den Abgeordneten Mandy Eißing, Nicole Gohlke, Dr. Michael Arndt, weiteren Abgeordneten und der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Ver…",
+      "woerter": 4172
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der internationalen Sicherheitspräsenz in Kosovo (KFOR)",
+      "woerter": 4095
+    },
+    {
+      "top": 13,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Digitalisierung des Vollzugs von Immobilienverträgen, der gerichtlichen Genehmigungen von notarielle…",
+      "woerter": 3564
+    },
+    {
+      "top": 15,
+      "titel": "Antrag der Abgeordneten Kay Gottschalk, Hauke Finger, Christian Douglas, weiterer Abgeordneter und der Fraktion der AfD: Solidaritätszuschlag abschaffen – Bürger und Wirtschaft entlasten",
+      "woerter": 2819
+    },
+    {
+      "top": 16,
+      "titel": "Beschlussempfehlung und Bericht des Haushaltsausschusses zu dem Antrag der Abgeordneten Christian Görke, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Bundeskadera…",
+      "woerter": 2617
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 25466,
+      "prozent": 30.4
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 19795,
+      "prozent": 23.6
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 16252,
+      "prozent": 19.4
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 13085,
+      "prozent": 15.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8857,
+      "prozent": 10.6
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 255,
+      "prozent": 0.3
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Martin Reichardt, Sebastian Maack, Gereon Bollmann, weiterer Abgeordneter und der Fraktion der AfD: Deutschland braucht mehr Kinder – Neuausrichtung des Bundesinstituts für…",
+      "positiv": 105,
+      "negativ": 29
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Dr. Janosch Dahmen, Simone Fischer, Linda Heitmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Entlastung statt Belastung für Beitragszahlende und Betriebe…",
+      "positiv": 97,
+      "negativ": 29
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Behindertengleichstellungsgesetzes",
+      "positiv": 95,
+      "negativ": 6
+    },
+    {
+      "top": 4,
+      "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftverkehrsteuergesetzes",
+      "positiv": 89,
+      "negativ": 12
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Erste Zwischenbilanz des neuen Bundesministeriums für Digitales und Staatsmodernisierung nach einem Jahr",
+      "positiv": 89,
+      "negativ": 4
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Dr. Christoph Birghan, Nicole Höchst, Dr. Michael Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Wissenschaftsstandort Deutschland stärken – Exzellenzstrategie eval…",
+      "positiv": 73,
+      "negativ": 7
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Martin Sichert, Dr. Christina Baum, Carina Schießl, weiterer Abgeordneter und der Fraktion der AfD: Gesundheitssystem stärken statt Versicherte belasten – Echte Reformen für e…",
+      "positiv": 60,
+      "negativ": 19
+    },
+    {
+      "top": 7,
+      "titel": "Vereinbarte Debatte: Meinungsvielfalt und Bürgerbeteiligung – Lokalmedien als unverzichtbarer Baustein unserer Demokratie",
+      "positiv": 53,
+      "negativ": 3
+    },
+    {
+      "top": 8,
+      "titel": "Erste Beratung des von den Abgeordneten Mandy Eißing, Nicole Gohlke, Dr. Michael Arndt, weiteren Abgeordneten und der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Ver…",
+      "positiv": 47,
+      "negativ": 4
+    },
+    {
+      "top": 14,
+      "titel": "a) Antrag der Abgeordneten Karl Bär, Dr. Zoe Mayer, Dr. Ophelia Nick, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Verschmutzung von Trinkwasser mit Ewigkeitschemikalien verhindern –…",
+      "positiv": 46,
+      "negativ": 5
+    },
+    {
+      "top": 16,
+      "titel": "Beschlussempfehlung und Bericht des Haushaltsausschusses zu dem Antrag der Abgeordneten Christian Görke, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Bundeskadera…",
+      "positiv": 36,
+      "negativ": 10
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der internationalen Sicherheitspräsenz in Kosovo (KFOR)",
+      "positiv": 41,
+      "negativ": 4
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUFOR ALTHEA in Bosnien und Herzegowina",
+      "positiv": 36,
+      "negativ": 0
+    },
+    {
+      "top": 13,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Digitalisierung des Vollzugs von Immobilienverträgen, der gerichtlichen Genehmigungen von notarielle…",
+      "positiv": 28,
+      "negativ": 3
+    },
+    {
+      "top": 15,
+      "titel": "Antrag der Abgeordneten Kay Gottschalk, Hauke Finger, Christian Douglas, weiterer Abgeordneter und der Fraktion der AfD: Solidaritätszuschlag abschaffen – Bürger und Wirtschaft entlasten",
+      "positiv": 29,
+      "negativ": 2
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 2,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 168,
+      "negativ": 26
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 114,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 80,
+      "negativ": 11
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 46,
+      "negativ": 6
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 19,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 4,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken und der SPD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 232,
+      "negativ": 42
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 206,
+      "negativ": 35
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 165,
+      "negativ": 29
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 161,
+      "negativ": 20
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 107,
+      "negativ": 10
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 4,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 10,
+    "irreführend": 1,
+    "bestätigt": 1
+  }
+}

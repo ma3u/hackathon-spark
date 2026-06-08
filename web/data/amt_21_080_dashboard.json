@@ -1,0 +1,321 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "21.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "80"
+  },
+  "kennzahlen": {
+    "reden": 151,
+    "schriftliche_beitraege": 3,
+    "woerter": 86920,
+    "tops": 17,
+    "saalreaktionen": 1514,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Bevölkerungsschutz neu denken – Gemeinsam für ein krisenfestes Deutschland",
+      "woerter": 12391
+    },
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Dr. Alaa Alhamwi, Kassem Taher Saleh, Katrin Uhlig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Sanierungsoffensive für Deutschland – Heizkostensenkung du…",
+      "woerter": 10601
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Tobias Teich, Stefan Keuter, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung eines 1. Untersuchungsausschusses der 21. Wahlperiode zum Angriff au…",
+      "woerter": 10553
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Regelung der Förderung des Spitzensports und weiterer Maßnahmen gesamtstaatlicher Bedeutung im Sport sowie zur…",
+      "woerter": 8070
+    },
+    {
+      "top": 4,
+      "titel": "Vereinbarte Debatte: Zusammenhalt durch Engagement – Das Ehrenamt als Rückgrat unserer Gesellschaft",
+      "woerter": 7659
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Micha Fehre, Kay Gottschalk, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Wettbewerbsfähigkeit und Wohlstand stärken – Abschaffung des CO2-Emissionshandelssy…",
+      "woerter": 5023
+    },
+    {
+      "top": 13,
+      "titel": "a) Beschlussempfehlung und Bericht des Verkehrsausschusses zu der Unterrichtung durch die Bundesregierung: Bericht über das Ergebnis der Vorplanung und der frühen Öffentlichkeitsbeteiligung Neubaustr…",
+      "woerter": 4702
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in Lebanon“ (UNIFIL)",
+      "woerter": 4138
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Sandra Stein, Dr. Ophelia Nick, Dr. Anja Reinalter, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Für ein Handwerk mit Zukunft",
+      "woerter": 4123
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung der nationalen Umsetzung von europäischen Regelungen zum Ökodesign, zur Energieverbrauc…",
+      "woerter": 4094
+    },
+    {
+      "top": 7,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung und Modernisierung des Anwaltsnotariats",
+      "woerter": 4051
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Ina Latendorf, Marcel Bauer, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Kostenfreies, gesundes und leckeres Mittagessen in allen Schulen und Kitas",
+      "woerter": 3702
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Christian Douglas, Reinhard Mixl, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Bis zur Abschaffung des Rundfunkbeitrags die Bürger bei Zahlung dieser Zwangs…",
+      "woerter": 3637
+    },
+    {
+      "top": 15,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftverkehrsteuergesetzes",
+      "woerter": 2876
+    },
+    {
+      "top": 16,
+      "titel": "Antrag der Abgeordneten Andreas Paul, Jan Ralf Nolte, Mirco Hanker, weiterer Abgeordneter und der Fraktion der AfD: Zulagen für spezialisierte Kräfte und für besonders befähigte Unterstützungskräfte…",
+      "woerter": 1300
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 24422,
+      "prozent": 30.5
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 19415,
+      "prozent": 24.2
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 16459,
+      "prozent": 20.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11556,
+      "prozent": 14.4
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 7983,
+      "prozent": 10.0
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 309,
+      "prozent": 0.4
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 5,
+      "titel": "a) Antrag der Abgeordneten Dr. Alaa Alhamwi, Kassem Taher Saleh, Katrin Uhlig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Sanierungsoffensive für Deutschland – Heizkostensenkung du…",
+      "positiv": 112,
+      "negativ": 34
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Markus Frohnmaier, Tobias Teich, Stefan Keuter, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung eines 1. Untersuchungsausschusses der 21. Wahlperiode zum Angriff au…",
+      "positiv": 127,
+      "negativ": 18
+    },
+    {
+      "top": 6,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Bevölkerungsschutz neu denken – Gemeinsam für ein krisenfestes Deutschland",
+      "positiv": 107,
+      "negativ": 8
+    },
+    {
+      "top": 4,
+      "titel": "Vereinbarte Debatte: Zusammenhalt durch Engagement – Das Ehrenamt als Rückgrat unserer Gesellschaft",
+      "positiv": 91,
+      "negativ": 7
+    },
+    {
+      "top": 2,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Regelung der Förderung des Spitzensports und weiterer Maßnahmen gesamtstaatlicher Bedeutung im Sport sowie zur…",
+      "positiv": 78,
+      "negativ": 6
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Micha Fehre, Kay Gottschalk, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Wettbewerbsfähigkeit und Wohlstand stärken – Abschaffung des CO2-Emissionshandelssy…",
+      "positiv": 52,
+      "negativ": 16
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Sandra Stein, Dr. Ophelia Nick, Dr. Anja Reinalter, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Für ein Handwerk mit Zukunft",
+      "positiv": 61,
+      "negativ": 7
+    },
+    {
+      "top": 12,
+      "titel": "Antrag der Abgeordneten Christian Douglas, Reinhard Mixl, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Bis zur Abschaffung des Rundfunkbeitrags die Bürger bei Zahlung dieser Zwangs…",
+      "positiv": 40,
+      "negativ": 22
+    },
+    {
+      "top": 13,
+      "titel": "a) Beschlussempfehlung und Bericht des Verkehrsausschusses zu der Unterrichtung durch die Bundesregierung: Bericht über das Ergebnis der Vorplanung und der frühen Öffentlichkeitsbeteiligung Neubaustr…",
+      "positiv": 46,
+      "negativ": 5
+    },
+    {
+      "top": 10,
+      "titel": "Antrag der Abgeordneten Ina Latendorf, Marcel Bauer, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Kostenfreies, gesundes und leckeres Mittagessen in allen Schulen und Kitas",
+      "positiv": 30,
+      "negativ": 18
+    },
+    {
+      "top": 11,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung der nationalen Umsetzung von europäischen Regelungen zum Ökodesign, zur Energieverbrauc…",
+      "positiv": 40,
+      "negativ": 3
+    },
+    {
+      "top": 15,
+      "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftverkehrsteuergesetzes",
+      "positiv": 32,
+      "negativ": 8
+    },
+    {
+      "top": 9,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in Lebanon“ (UNIFIL)",
+      "positiv": 38,
+      "negativ": 1
+    },
+    {
+      "top": 7,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung und Modernisierung des Anwaltsnotariats",
+      "positiv": 34,
+      "negativ": 0
+    },
+    {
+      "top": 16,
+      "titel": "Antrag der Abgeordneten Andreas Paul, Jan Ralf Nolte, Mirco Hanker, weiterer Abgeordneter und der Fraktion der AfD: Zulagen für spezialisierte Kräfte und für besonders befähigte Unterstützungskräfte…",
+      "positiv": 18,
+      "negativ": 5
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 4,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 184,
+      "negativ": 23
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 102,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 78,
+      "negativ": 11
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 48,
+      "negativ": 6
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 19,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 11,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Beifall bei der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 0,
+      "negativ": 1
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 221,
+      "negativ": 51
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 215,
+      "negativ": 40
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 155,
+      "negativ": 18
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 134,
+      "negativ": 24
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 109,
+      "negativ": 19
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 3,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 11,
+    "irreführend": 1
+  }
+}

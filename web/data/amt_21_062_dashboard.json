@@ -1,0 +1,300 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "05.03.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "62"
+  },
+  "kennzahlen": {
+    "reden": 162,
+    "schriftliche_beitraege": 0,
+    "woerter": 85044,
+    "tops": 16,
+    "saalreaktionen": 1623,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 4,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dreizehnten Gesetzes zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze",
+      "woerter": 11064
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Gefährdungen der digitalen Teilhabe entgegentreten – Einschränkungen des digitalen Raums, EUDI-Wallet und Social-Media-Verbote verhindern",
+      "woerter": 10916
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Stephan Brandner, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Anhaltspunkte für deutsche Bezüge zu den Epstein-Akten systematisch untersu…",
+      "woerter": 9825
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dr. Alaa Alhamwi, Katrin Uhlig, Michael Kellner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die Sonne ihren Job machen lassen – Für ein zukunftsfestes Netzp…",
+      "woerter": 8502
+    },
+    {
+      "top": 2,
+      "titel": "Zweite Beratung und Schlussabstimmung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Vertrag vom 17. Juli 2025 zwischen der Bundesrepublik Deutschland und dem Vereinigten Kö…",
+      "woerter": 7893
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Nicole Gohlke, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Keine Kooperation zwischen Bundeswehr und Schulen – Einsatz von Jugendoffi…",
+      "woerter": 5137
+    },
+    {
+      "top": 9,
+      "titel": "a) Antrag der Abgeordneten Dr. Paul Schmidt, Stefan Henze, Dr. Malte Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Anzahl staatlich subventioniert neu zu errichtender Gaskraftwerke durch…",
+      "woerter": 4709
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Sascha Lensing, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Offensive gegen Organisierte Kriminalität – Staat stärken, Strukturen…",
+      "woerter": 4452
+    },
+    {
+      "top": 10,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Begrenzung der Risiken durch Investmentfonds und zur Umsetzung der Richtlinie (EU) 2024/927 im Hinblic…",
+      "woerter": 4423
+    },
+    {
+      "top": 12,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wohnen, Stadtentwicklung, Bauwesen und Kommunen zu der Unterrichtung durch die Bundesregierung: Baukulturbericht 2024/25 der Bundesstiftung Baukult…",
+      "woerter": 4234
+    },
+    {
+      "top": 8,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Bundesjagdgesetzes und zur Änderung des Bundesnaturschutzgesetzes",
+      "woerter": 3967
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Matthias Gastel, Tarek Al-Wazir, Victoria Broßart, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Infrastrukturvorhaben im Schienennetz effektiv beschleunigen",
+      "woerter": 3823
+    },
+    {
+      "top": 16,
+      "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Schlanker Staat statt Kostenexplosion – Beamtenzahl und Pensionslasten s…",
+      "woerter": 2989
+    },
+    {
+      "top": 15,
+      "titel": "Antrag der Abgeordneten Dr. Ingo Hahn, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Beendigung der Mitwirkung der Bundesrepublik Deutschland am Zwischenstaatlichen A…",
+      "woerter": 2669
+    },
+    {
+      "top": 6,
+      "titel": "a)–m) Beratung der Beschlussempfehlungen des Petitionsausschusses: Sammelübersichten 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 und 183 zu Petitionen",
+      "woerter": 441
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 26791,
+      "prozent": 32.9
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 18355,
+      "prozent": 22.6
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 16222,
+      "prozent": 19.9
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11081,
+      "prozent": 13.6
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 8910,
+      "prozent": 11.0
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dreizehnten Gesetzes zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze",
+      "positiv": 159,
+      "negativ": 27
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Dr. Alaa Alhamwi, Katrin Uhlig, Michael Kellner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die Sonne ihren Job machen lassen – Für ein zukunftsfestes Netzp…",
+      "positiv": 120,
+      "negativ": 29
+    },
+    {
+      "top": 3,
+      "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Stephan Brandner, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Anhaltspunkte für deutsche Bezüge zu den Epstein-Akten systematisch untersu…",
+      "positiv": 107,
+      "negativ": 24
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Gefährdungen der digitalen Teilhabe entgegentreten – Einschränkungen des digitalen Raums, EUDI-Wallet und Social-Media-Verbote verhindern",
+      "positiv": 101,
+      "negativ": 13
+    },
+    {
+      "top": 2,
+      "titel": "Zweite Beratung und Schlussabstimmung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Vertrag vom 17. Juli 2025 zwischen der Bundesrepublik Deutschland und dem Vereinigten Kö…",
+      "positiv": 86,
+      "negativ": 9
+    },
+    {
+      "top": 11,
+      "titel": "Antrag der Abgeordneten Nicole Gohlke, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Keine Kooperation zwischen Bundeswehr und Schulen – Einsatz von Jugendoffi…",
+      "positiv": 63,
+      "negativ": 11
+    },
+    {
+      "top": 9,
+      "titel": "a) Antrag der Abgeordneten Dr. Paul Schmidt, Stefan Henze, Dr. Malte Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Anzahl staatlich subventioniert neu zu errichtender Gaskraftwerke durch…",
+      "positiv": 53,
+      "negativ": 19
+    },
+    {
+      "top": 13,
+      "titel": "Antrag der Abgeordneten Sascha Lensing, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Offensive gegen Organisierte Kriminalität – Staat stärken, Strukturen…",
+      "positiv": 50,
+      "negativ": 12
+    },
+    {
+      "top": 12,
+      "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wohnen, Stadtentwicklung, Bauwesen und Kommunen zu der Unterrichtung durch die Bundesregierung: Baukulturbericht 2024/25 der Bundesstiftung Baukult…",
+      "positiv": 44,
+      "negativ": 10
+    },
+    {
+      "top": 14,
+      "titel": "Antrag der Abgeordneten Matthias Gastel, Tarek Al-Wazir, Victoria Broßart, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Infrastrukturvorhaben im Schienennetz effektiv beschleunigen",
+      "positiv": 51,
+      "negativ": 0
+    },
+    {
+      "top": 8,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Bundesjagdgesetzes und zur Änderung des Bundesnaturschutzgesetzes",
+      "positiv": 41,
+      "negativ": 6
+    },
+    {
+      "top": 15,
+      "titel": "Antrag der Abgeordneten Dr. Ingo Hahn, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Beendigung der Mitwirkung der Bundesrepublik Deutschland am Zwischenstaatlichen A…",
+      "positiv": 42,
+      "negativ": 4
+    },
+    {
+      "top": 10,
+      "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Begrenzung der Risiken durch Investmentfonds und zur Umsetzung der Richtlinie (EU) 2024/927 im Hinblic…",
+      "positiv": 37,
+      "negativ": 4
+    },
+    {
+      "top": 16,
+      "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Schlanker Staat statt Kostenexplosion – Beamtenzahl und Pensionslasten s…",
+      "positiv": 27,
+      "negativ": 3
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "top": 6,
+      "titel": "a)–m) Beratung der Beschlussempfehlungen des Petitionsausschusses: Sammelübersichten 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 und 183 zu Petitionen",
+      "positiv": 2,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 173,
+      "negativ": 24
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 112,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 85,
+      "negativ": 18
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 53,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 16,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 7,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 292,
+      "negativ": 55
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 214,
+      "negativ": 60
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 165,
+      "negativ": 25
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 159,
+      "negativ": 15
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 106,
+      "negativ": 14
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "09.07.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "17"
+  },
+  "kennzahlen": {
+    "reden": 155,
+    "schriftliche_beitraege": 0,
+    "woerter": 76793,
+    "tops": 6,
+    "saalreaktionen": 1301,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Einzelplan 04",
+      "woerter": 31313
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 05",
+      "woerter": 13141
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 14",
+      "woerter": 12570
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan 23",
+      "woerter": 11746
+    },
+    {
+      "top": 3,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 8023
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 17769,
+      "prozent": 27.6
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 14891,
+      "prozent": 23.1
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 11898,
+      "prozent": 18.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 11107,
+      "prozent": 17.3
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 7977,
+      "prozent": 12.4
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 708,
+      "prozent": 1.1
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 2,
+      "titel": "Einzelplan 04",
+      "positiv": 355,
+      "negativ": 83
+    },
+    {
+      "top": 4,
+      "titel": "Einzelplan 05",
+      "positiv": 135,
+      "negativ": 26
+    },
+    {
+      "top": 6,
+      "titel": "Einzelplan 23",
+      "positiv": 132,
+      "negativ": 20
+    },
+    {
+      "top": 5,
+      "titel": "Einzelplan 14",
+      "positiv": 111,
+      "negativ": 11
+    },
+    {
+      "top": 3,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 67,
+      "negativ": 7
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 5,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 116,
+      "negativ": 25
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 82,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 76,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 42,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 16,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 14,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Beifall bei der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "AfD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Leistung der Rede würde ich sagen",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 167,
+      "negativ": 52
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 177,
+      "negativ": 31
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 135,
+      "negativ": 16
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 109,
+      "negativ": 20
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 85,
+      "negativ": 14
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 5,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

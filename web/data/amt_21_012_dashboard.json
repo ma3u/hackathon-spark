@@ -1,0 +1,115 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "24.06.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "12"
+  },
+  "kennzahlen": {
+    "reden": 16,
+    "schriftliche_beitraege": 0,
+    "woerter": 15354,
+    "tops": 1,
+    "saalreaktionen": 190,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum NATO-Gipfel am 24. und 25. Juni in Den Haag und zum Europäischen Rat am 26. und 27. Juni 2025 in Brüssel",
+      "woerter": 15354
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 3880,
+      "prozent": 31.5
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 2773,
+      "prozent": 22.5
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 2465,
+      "prozent": 20.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 1614,
+      "prozent": 13.1
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 1581,
+      "prozent": 12.8
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum NATO-Gipfel am 24. und 25. Juni in Den Haag und zum Europäischen Rat am 26. und 27. Juni 2025 in Brüssel",
+      "positiv": 154,
+      "negativ": 19
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 27,
+      "negativ": 3
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 19,
+      "negativ": 8
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 26,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 12,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 35,
+      "negativ": 7
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 31,
+      "negativ": 10
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 26,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 20,
+      "negativ": 1
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 19,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

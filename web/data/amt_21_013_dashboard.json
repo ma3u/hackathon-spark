@@ -1,0 +1,207 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "25.06.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "13"
+  },
+  "kennzahlen": {
+    "reden": 172,
+    "schriftliche_beitraege": 0,
+    "woerter": 38700,
+    "tops": 8,
+    "saalreaktionen": 577,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 12378
+    },
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Bericht der Sonderbeauftragten für die Maskenbeschaffung – Volle Transparenz und Aufklärung jetzt",
+      "woerter": 9036
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Einsetzung einer Enquete-Kommission „Aufarbeitung der Corona-Pandemie und Lehren für zukünftige pandemische Ereignisse“",
+      "woerter": 5294
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Robin Wagener, Dr. Sebastian Schäfer, Claudia Roth (Augsburg), weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Eingefrorene russische Staatsvermögen der Ukraine…",
+      "woerter": 4193
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Carolin Bachmann, Marc Bernhard, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Keine planungsrechtlichen Sonderrechte für Flüchtlingsunterkünfte",
+      "woerter": 4038
+    },
+    {
+      "top": 7,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "woerter": 3761
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 9645,
+      "prozent": 30.4
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 6969,
+      "prozent": 22.0
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5521,
+      "prozent": 17.4
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 5235,
+      "prozent": 16.5
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 4176,
+      "prozent": 13.2
+    },
+    {
+      "fraktion": "fraktionslos",
+      "woerter": 192,
+      "prozent": 0.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 4,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Bericht der Sonderbeauftragten für die Maskenbeschaffung – Volle Transparenz und Aufklärung jetzt",
+      "positiv": 101,
+      "negativ": 32
+    },
+    {
+      "top": 2,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 64,
+      "negativ": 4
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Einsetzung einer Enquete-Kommission „Aufarbeitung der Corona-Pandemie und Lehren für zukünftige pandemische Ereignisse“",
+      "positiv": 56,
+      "negativ": 6
+    },
+    {
+      "top": 8,
+      "titel": "Antrag der Abgeordneten Carolin Bachmann, Marc Bernhard, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Keine planungsrechtlichen Sonderrechte für Flüchtlingsunterkünfte",
+      "positiv": 45,
+      "negativ": 8
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Robin Wagener, Dr. Sebastian Schäfer, Claudia Roth (Augsburg), weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Eingefrorene russische Staatsvermögen der Ukraine…",
+      "positiv": 40,
+      "negativ": 7
+    },
+    {
+      "top": 7,
+      "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "positiv": 42,
+      "negativ": 1
+    },
+    {
+      "top": 3,
+      "titel": "Fragestunde",
+      "positiv": 1,
+      "negativ": 3
+    },
+    {
+      "top": 1,
+      "titel": "Sitzungseröffnung",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 56,
+      "negativ": 4
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 30,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 23,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 10,
+      "negativ": 1
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 6,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 92,
+      "negativ": 25
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 65,
+      "negativ": 13
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 65,
+      "negativ": 5
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 41,
+      "negativ": 10
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 38,
+      "negativ": 3
+    },
+    {
+      "fraktion": "fraktionslos",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

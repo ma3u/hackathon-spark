@@ -1,0 +1,191 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "10.09.2025",
+    "wahlperiode": "21",
+    "sitzung_nr": "20"
+  },
+  "kennzahlen": {
+    "reden": 183,
+    "schriftliche_beitraege": 0,
+    "woerter": 38937,
+    "tops": 7,
+    "saalreaktionen": 504,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13895
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Zehn Jahre „Wir schaffen das“",
+      "woerter": 8756
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Leif-Erik Holm, Alexander Arpaschi, Carolin Bachmann, weiterer Abgeordneter und der Fraktion der AfD: Anstieg der Arbeitslosenzahlen ernst nehmen – Sofortige Wirtschaftswende…",
+      "woerter": 4327
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Mission der Vereinten Nationen in Südsudan (UNMISS)",
+      "woerter": 4143
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUNAVFOR ASPIDES",
+      "woerter": 4118
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Jörg Cezanne, Dr. Fabian Fahl, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Klimageld – Sofort und sozial gerecht",
+      "woerter": 3698
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8242,
+      "prozent": 28.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 7586,
+      "prozent": 26.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5259,
+      "prozent": 18.3
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 4273,
+      "prozent": 14.9
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3306,
+      "prozent": 11.5
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Zehn Jahre „Wir schaffen das“",
+      "positiv": 91,
+      "negativ": 34
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Leif-Erik Holm, Alexander Arpaschi, Carolin Bachmann, weiterer Abgeordneter und der Fraktion der AfD: Anstieg der Arbeitslosenzahlen ernst nehmen – Sofortige Wirtschaftswende…",
+      "positiv": 55,
+      "negativ": 5
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Jörg Cezanne, Dr. Fabian Fahl, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Klimageld – Sofort und sozial gerecht",
+      "positiv": 44,
+      "negativ": 10
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 40,
+      "negativ": 4
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUNAVFOR ASPIDES",
+      "positiv": 35,
+      "negativ": 0
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 24,
+      "negativ": 2
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Mission der Vereinten Nationen in Südsudan (UNMISS)",
+      "positiv": 24,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 63,
+      "negativ": 14
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 35,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 22,
+      "negativ": 8
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 4,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 5,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken sowie bei Abgeordneten der SPD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 67,
+      "negativ": 20
+    },
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 66,
+      "negativ": 14
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 38,
+      "negativ": 7
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 37,
+      "negativ": 7
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 28,
+      "negativ": 4
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}

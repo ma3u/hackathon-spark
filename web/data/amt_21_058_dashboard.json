@@ -1,0 +1,186 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "25.02.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "58"
+  },
+  "kennzahlen": {
+    "reden": 180,
+    "schriftliche_beitraege": 0,
+    "woerter": 40978,
+    "tops": 7,
+    "saalreaktionen": 562,
+    "geprüfte_aussagen": 12
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "woerter": 13590
+    },
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Schwerwiegende Fehler bei der Berichterstattung durch den öffentlich-rechtlichen Rundfunk",
+      "woerter": 8610
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Katharina Beck, Julian Joswig, Sascha Müller, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Groß denken bei Skalierung und Zukunftsinnovationen – Finanzierungs…",
+      "woerter": 5397
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Olaf Hilmer, weiterer Abgeordneter und der Fraktion der AfD: Wahlversprechen einhalten – Heizungsgesetz abschaffen",
+      "woerter": 4761
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Frieden und Sicherheit in Europa verteidigen – Solidarität mit der Ukraine zum Jahrestag des russischen Angriffskrieges",
+      "woerter": 4660
+    },
+    {
+      "top": 6,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur besseren Verhinderung missbräuchlicher Anerkennungen der Vaterschaft",
+      "woerter": 3960
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 8551,
+      "prozent": 26.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 7576,
+      "prozent": 23.8
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 6303,
+      "prozent": 19.8
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 5907,
+      "prozent": 18.5
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 3542,
+      "prozent": 11.1
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 3,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Schwerwiegende Fehler bei der Berichterstattung durch den öffentlich-rechtlichen Rundfunk",
+      "positiv": 78,
+      "negativ": 22
+    },
+    {
+      "top": 5,
+      "titel": "Antrag der Abgeordneten Katharina Beck, Julian Joswig, Sascha Müller, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Groß denken bei Skalierung und Zukunftsinnovationen – Finanzierungs…",
+      "positiv": 59,
+      "negativ": 14
+    },
+    {
+      "top": 1,
+      "titel": "Befragung der Bundesregierung",
+      "positiv": 67,
+      "negativ": 4
+    },
+    {
+      "top": 7,
+      "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Olaf Hilmer, weiterer Abgeordneter und der Fraktion der AfD: Wahlversprechen einhalten – Heizungsgesetz abschaffen",
+      "positiv": 50,
+      "negativ": 14
+    },
+    {
+      "top": 6,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur besseren Verhinderung missbräuchlicher Anerkennungen der Vaterschaft",
+      "positiv": 38,
+      "negativ": 17
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Frieden und Sicherheit in Europa verteidigen – Solidarität mit der Ukraine zum Jahrestag des russischen Angriffskrieges",
+      "positiv": 42,
+      "negativ": 4
+    },
+    {
+      "top": 2,
+      "titel": "Fragestunde",
+      "positiv": 2,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "AfD",
+      "positiv": 50,
+      "negativ": 11
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 38,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Linken",
+      "positiv": 16,
+      "negativ": 2
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 16,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 3,
+      "negativ": 0
+    },
+    {
+      "fraktion": "Abgeordneten der AfD",
+      "positiv": 2,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 72,
+      "negativ": 32
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 59,
+      "negativ": 19
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 51,
+      "negativ": 7
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 51,
+      "negativ": 5
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 34,
+      "negativ": 6
+    }
+  ],
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
+}
