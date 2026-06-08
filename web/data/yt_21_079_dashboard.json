@@ -1,0 +1,28 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag (YouTube-Mitschnitt)",
+    "datum": "20.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "79"
+  },
+  "kennzahlen": {
+    "reden": 0,
+    "schriftliche_beitraege": 0,
+    "woerter": 50744,
+    "tops": 1,
+    "saalreaktionen": 0,
+    "geprüfte_aussagen": 53
+  },
+  "top_themen": [],
+  "sprachanteil_fraktion": [],
+  "feedback_je_thema": [],
+  "feedback_gegeben_fraktion": [],
+  "feedback_erhalten_fraktion": [],
+  "faktencheck_bilanz": {
+    "bestätigt": 21,
+    "irreführend": 4,
+    "teilweise": 15,
+    "unbelegt": 12,
+    "falsch": 1
+  }
+}

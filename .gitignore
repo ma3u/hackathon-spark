@@ -13,6 +13,11 @@ output/
 neo4j/data/
 neo4j/logs/
 
+# Inkrementell heruntergeladene Rohquellen (re-downloadbar via scripts/sync_sessions.py;
+# zu groß für das Repo). Der Status (sessions_state.json) + die web/data-Ausgaben sind getrackt.
+data/real/yt/
+data/real/amt/
+
 # OS / editor
 .DS_Store
 *.swp

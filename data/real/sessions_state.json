@@ -1,0 +1,26 @@
+{
+  "youtube": {
+    "21-081": {
+      "video_id": "P6FznE18Q5E",
+      "datum": "22.05.2026",
+      "titel": "81. Sitzung (Gesamtmitschnitt)",
+      "nodes": 448,
+      "rels": 540,
+      "segmente": 324,
+      "checks": 43,
+      "ts": "2026-06-08T06:12:32Z"
+    },
+    "21-079": {
+      "video_id": "gKVcxNfIdCQ",
+      "datum": "20.05.2026",
+      "titel": "79. Sitzung (Gesamtmitschnitt)",
+      "nodes": 477,
+      "rels": 587,
+      "segmente": 321,
+      "checks": 53,
+      "ts": "2026-06-08T06:14:33Z"
+    }
+  },
+  "official": {},
+  "gap": {}
+}

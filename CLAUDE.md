@@ -122,7 +122,11 @@ See `.claude/rules/code-style.md` and `.claude/rules/api-conventions.md` for det
    regex and data is passed as **parameters** (never string-interpolated) — keep it that way to
    avoid Cypher injection. On data: `data/sample/` + `data/evidence/` are **fictional** (never
    fabricate real-looking people/quotes/numbers there); `data/real/` is **real & gemeinfrei**.
-   Hard rule: **never run the fact-checker on real, named people for publication** — real
-   sessions are ingested with `--no-factcheck` (no `Faktencheck`/`Quelle`/`GEPRUEFT_ALS` on real
-   persons). The fact-check invariant in gotcha #2 still holds for the fictional scenario.
-   See `docs/spark-und-echtdaten.md`.
+   **Fact-check runs only against REAL content** (never the fictional corpus for real sessions):
+   real sessions (YouTube + amtliches XML) are checked by the **LLM verifier** (Azure Mistral),
+   and every verdict on a real, named person is explicitly a **KI-Vorschlag (ungeprüft)** — it
+   carries the `_LLM_DISCLAIMER` and the graph sets `metadata.factcheck_disclaimer` (shown as a
+   banner in the UI / HTML protocol). Quelle stays mandatory (gotcha #2). The deterministic
+   `factcheck_rule_based` against the fictional `evidenz.json` is for the **fictional demo
+   scenarios only**. (Policy updated 2026-06: previously real sessions ran `--no-factcheck`;
+   now real content is LLM-checked with a disclaimer.) See `docs/spark-und-echtdaten.md`.

@@ -1,0 +1,189 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag",
+    "datum": "22.05.2026",
+    "wahlperiode": "21",
+    "sitzung_nr": "81"
+  },
+  "kennzahlen": {
+    "reden": 85,
+    "schriftliche_beitraege": 0,
+    "woerter": 47803,
+    "tops": 7,
+    "saalreaktionen": 890,
+    "geprüfte_aussagen": 0
+  },
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung eines antragslosen Kindergeldes",
+      "woerter": 10590
+    },
+    {
+      "top": 2,
+      "titel": "Zusatzpunkt 8 und 9",
+      "woerter": 10093
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Geschäftsmodelle der großen Immobilienkonzerne bekämpfen – Mieterinnen und Mieter konsequent schützen",
+      "woerter": 9125
+    },
+    {
+      "top": 3,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Weiterentwicklung der Apothekenversorgung (Apothekenversorgung-Weiterentwicklungsgesetz – ApoVWG)",
+      "woerter": 4928
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Dr. Michael Espendiller, Ulrike Schielke-Ziesing, Marcus Bühl, weiterer Abgeordneter und der Fraktion der AfD: Erhalt des Gaskraftwerks am Standort Lubmin und Integration in d…",
+      "woerter": 4629
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Schahina Gambir, Dr. Ophelia Nick, Jamila Schäfer, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Ernährungssouveränität herstellen – Globale Hungerkrise bekämp…",
+      "woerter": 4567
+    },
+    {
+      "top": 5,
+      "titel": "Tagesordnungspunkt 28, ZP 12",
+      "woerter": 3871
+    }
+  ],
+  "sprachanteil_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "woerter": 15066,
+      "prozent": 32.8
+    },
+    {
+      "fraktion": "AfD",
+      "woerter": 11395,
+      "prozent": 24.8
+    },
+    {
+      "fraktion": "SPD",
+      "woerter": 7559,
+      "prozent": 16.5
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 6585,
+      "prozent": 14.3
+    },
+    {
+      "fraktion": "Die Linke",
+      "woerter": 5326,
+      "prozent": 11.6
+    }
+  ],
+  "feedback_je_thema": [
+    {
+      "top": 1,
+      "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung eines antragslosen Kindergeldes",
+      "positiv": 118,
+      "negativ": 22
+    },
+    {
+      "top": 7,
+      "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Geschäftsmodelle der großen Immobilienkonzerne bekämpfen – Mieterinnen und Mieter konsequent schützen",
+      "positiv": 98,
+      "negativ": 42
+    },
+    {
+      "top": 2,
+      "titel": "Zusatzpunkt 8 und 9",
+      "positiv": 103,
+      "negativ": 18
+    },
+    {
+      "top": 6,
+      "titel": "Antrag der Abgeordneten Dr. Michael Espendiller, Ulrike Schielke-Ziesing, Marcus Bühl, weiterer Abgeordneter und der Fraktion der AfD: Erhalt des Gaskraftwerks am Standort Lubmin und Integration in d…",
+      "positiv": 49,
+      "negativ": 32
+    },
+    {
+      "top": 3,
+      "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Weiterentwicklung der Apothekenversorgung (Apothekenversorgung-Weiterentwicklungsgesetz – ApoVWG)",
+      "positiv": 50,
+      "negativ": 3
+    },
+    {
+      "top": 4,
+      "titel": "Antrag der Abgeordneten Schahina Gambir, Dr. Ophelia Nick, Jamila Schäfer, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Ernährungssouveränität herstellen – Globale Hungerkrise bekämp…",
+      "positiv": 43,
+      "negativ": 8
+    },
+    {
+      "top": 5,
+      "titel": "Tagesordnungspunkt 28, ZP 12",
+      "positiv": 31,
+      "negativ": 0
+    }
+  ],
+  "feedback_gegeben_fraktion": [
+    {
+      "fraktion": "Linken",
+      "positiv": 71,
+      "negativ": 33
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 75,
+      "negativ": 18
+    },
+    {
+      "fraktion": "Abgeordneten der SPD",
+      "positiv": 41,
+      "negativ": 1
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 22,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der Linken",
+      "positiv": 5,
+      "negativ": 2
+    },
+    {
+      "fraktion": "Abgeordneten der SPD und der Linken",
+      "positiv": 1,
+      "negativ": 0
+    },
+    {
+      "fraktion": "SPD sowie bei Abgeordneten der Linken",
+      "positiv": 1,
+      "negativ": 0
+    }
+  ],
+  "feedback_erhalten_fraktion": [
+    {
+      "fraktion": "CDU/CSU",
+      "positiv": 144,
+      "negativ": 43
+    },
+    {
+      "fraktion": "AfD",
+      "positiv": 101,
+      "negativ": 53
+    },
+    {
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 77,
+      "negativ": 10
+    },
+    {
+      "fraktion": "SPD",
+      "positiv": 73,
+      "negativ": 13
+    },
+    {
+      "fraktion": "Die Linke",
+      "positiv": 77,
+      "negativ": 6
+    }
+  ],
+  "faktencheck_bilanz": {}
+}

@@ -78,6 +78,7 @@
           title="Echtes amtliches Plenarprotokoll WP20/214 (18.03.2025, gemeinfrei §5 UrhG). Faktencheck bewusst aus – keine automatischen Verdikte über reale Personen.">Bundestag (echt) 🟢</button>
         <button class="tab" data-s="bundestag_yt"
           title="YouTube-Mitschnitt (@bundestag, 81. Sitzung 22.05.2026, Arbeitszeitpolitik) mit Zeit-Deeplinks und KI-Faktencheck (Mistral, ungeprüfte Vorschläge).">Bundestag (YouTube) 🎬</button>
+        <select class="tab" id="sessions" title="Reale Sitzungen — YouTube-Mitschnitt (🎬) bzw. amtliches Protokoll (🟢)"><option value="">📺 Reale Sitzung…</option></select>
         <button class="tab" id="viewToggle">📊 Dashboard</button>
         <button class="tab" id="a11y" title="Barrierefreie Vorlesefassung (Screenreader/TTS)">♿ Vorlesefassung</button>
       </div>
@@ -129,6 +130,21 @@
         },
       };
       const partyColor = (f) => PARTY[(f || "").replace(/ /g, " ").trim()] || "#58a6ff";
+
+      // Reale Sitzungen (web/data/sessions.json) + aktuell geladener Graph.
+      let curData = null, SESSIONS = [];
+      const entryFor = (sc) => SESSIONS.find(
+        (e) => (e.youtube && e.youtube.name === sc) || (e.amtlich && e.amtlich.name === sc));
+      // Quelle/Deeplink-Infos: zuerst aus den Graph-Metadaten (skaliert über alle Sitzungen),
+      // sonst aus der statischen SOURCE-Tabelle (Legacy-Demos).
+      function srcInfo(data) {
+        const m = (data && data.metadata) || {};
+        if (m.quelle_url || m.video_id) return {
+          url: m.quelle_url, label: m.quelle_label || m.quelle_url, video_id: m.video_id,
+          pdf: m.amtliches_pdf, xml: m.amtliches_xml, typ: m.quelle_typ };
+        return SOURCE[current] || null;
+      }
+      const ytLink = (vid, sec) => `https://www.youtube.com/watch?v=${vid}&t=${Math.floor(sec || 0)}s`;
 
       // 3D-Graph braucht WebGL (3d-force-graph → THREE.js). Ist WebGL aus (Hardware-
       // beschleunigung deaktiviert/sandboxed), darf die Init NICHT die ganze Seite lahmlegen:
@@ -203,11 +219,12 @@
           }
           html += `<div class="prop"><b>${k}:</b> ${v}</div>`;
         }
-        const src = SOURCE[current];
+        const src = srcInfo(curData);
         if (n.type === "Transkriptsegment" && src) {  // Deeplink in die echte Quelle
           const t = Math.floor(n.start_sec || 0);
-          const link = /youtu/.test(src.url) ? `${src.url}${src.url.includes("?") ? "&" : "?"}t=${t}s` : src.url;
-          html += `<div class="prop"><a class="cite" href="${link}" target="_blank" rel="noopener">▶ Quelle ansehen (${n.timecode}${t ? ", " + t + "s" : ""})</a></div>`;
+          const link = src.video_id ? ytLink(src.video_id, t)
+            : (src.url ? `${src.url}${src.url.includes("?") ? "&" : "?"}t=${t}s` : null);
+          if (link) html += `<div class="prop"><a class="cite" href="${link}" target="_blank" rel="noopener">▶ Quelle ansehen (${n.timecode}${t ? ", " + t + "s" : ""})</a></div>`;
         }
         if (n.type === "Transkriptsegment" && /\.(mp3|wav|m4a)$/i.test(n.audio_file || "")) {
           html += `<audio controls preload="none" src="./audio/${n.audio_file}#t=${Math.floor(n.start_sec || 0)}"></audio>`;
@@ -216,14 +233,21 @@
       }
 
       function renderMeta(data) {
-        const m = data.metadata, src = SOURCE[current];
-        const quelle = src
-          ? `<a href="${src.url}" target="_blank" rel="noopener">${src.label}</a>`
-            + (src.mediathek ? ` · <a href="${src.mediathek}" target="_blank" rel="noopener">Mediathek</a>` : "")
-          : (m.source_audio || "—");
+        const m = (data && data.metadata) || {}, src = srcInfo(data), e = entryFor(current);
+        const links = [];
+        if (src && src.url) links.push(`<a href="${src.url}" target="_blank" rel="noopener">${src.label || src.url}</a>`);
+        else if (src && src.mediathek) links.push(`<a href="${src.mediathek}" target="_blank" rel="noopener">Mediathek</a>`);
+        if (src && src.pdf) links.push(`<a href="${src.pdf}" target="_blank" rel="noopener">amtliches PDF</a>`);
+        if (src && src.xml) links.push(`<a href="${src.xml}" target="_blank" rel="noopener">amtl. XML</a>`);
+        if (e && e.youtube && e.youtube.protokoll) links.push(`<a href="./data/${e.youtube.protokoll}" target="_blank" rel="noopener">📄 Protokoll (HTML)</a>`);
+        if (e && e.gap) links.push(`<a href="./data/${e.gap.file}" target="_blank" rel="noopener">🔀 Gap-Analyse (WER ${Math.round(e.gap.wer * 100)}%)</a>`);
+        const quelle = links.length ? links.join(" · ") : (m.source_audio || "—");
+        const herk = m.herkunft === "youtube" ? "🎬 YouTube-Mitschnitt (mit Zeit-Deeplinks)"
+          : m.herkunft === "amtlich" ? "🟢 amtliches Plenarprotokoll" : null;
         $("meta").innerHTML = `<h2>${m.title || "Protokoll-Graph"}</h2>
           <div class="prop"><b>Quelle:</b> ${quelle}</div>
-          <div class="prop"><b>Knoten:</b> ${m.node_count} · <b>Beziehungen:</b> ${m.relationship_count}</div>`;
+          ${herk ? `<div class="prop"><b>Herkunft:</b> ${herk}</div>` : ""}
+          <div class="prop"><b>Knoten:</b> ${m.node_count || 0} · <b>Beziehungen:</b> ${m.relationship_count || 0}</div>`;
       }
 
       function renderLegend() {
@@ -252,16 +276,15 @@
           return r ? byId[r.target_id] : null;
         };
         const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
-        const src = SOURCE[current], disc = data.metadata && data.metadata.factcheck_disclaimer;
+        const src = srcInfo(data), disc = data.metadata && data.metadata.factcheck_disclaimer;
         box.innerHTML = "<h2>🔎 Faktencheck der Reden</h2>"
           + (disc ? `<div class="empty">⚠️ ${disc}</div>` : "")
           + checks.map((fc) => {
             const c = claimOf(fc.id), s = srcOf(fc.id), seg = segOf(c);
             let deep = "";
-            if (src && seg && seg.start_sec != null) {
+            if (src && seg && seg.start_sec != null && src.video_id) {
               const t = Math.floor(seg.start_sec);
-              const url = /youtu/.test(src.url) ? `${src.url}${src.url.includes("?") ? "&" : "?"}t=${t}s` : src.url;
-              deep = ` · <a class="cite" href="${url}" target="_blank" rel="noopener">▶ im Video [${mmss(t)}]</a>`;
+              deep = ` · <a class="cite" href="${ytLink(src.video_id, t)}" target="_blank" rel="noopener">▶ im Video [${mmss(t)}]</a>`;
             }
             return `<div class="fc ${fc.verdikt}">
             <span class="verdikt">${fc.verdikt.toUpperCase()}</span> — ${c ? c.person : ""}<br/>
@@ -272,7 +295,22 @@
 
       async function load(scenario) {
         current = scenario;
-        const data = await (await fetch(`./data/${scenario}.json`)).json();
+        let data;
+        try { data = await (await fetch(`./data/${scenario}.json`)).json(); }
+        catch {
+          // Amtliche Sitzungen liegen als Vollgraph nur in Neo4j (zu groß für Pages) —
+          // Quelle + Kennzahlen aus dem Index zeigen, Graph leeren.
+          curData = null;
+          const e = entryFor(scenario), m = { title: e ? `${e.nr}. Sitzung (amtlich)` : scenario };
+          renderMeta({ metadata: { ...m, herkunft: "amtlich",
+            amtliches_pdf: e && e.amtlich && e.amtlich.pdf, amtliches_xml: e && e.amtlich && e.amtlich.xml,
+            quelle_url: e && e.amtlich && e.amtlich.pdf, quelle_label: "Bundestag Open Data (PDF)" } });
+          if (Graph) Graph.graphData({ nodes: [], links: [] });
+          $("factcheck").style.display = "none";
+          $("detail").innerHTML = '<h2>Knoten</h2><div class="empty">Vollständiger Graph dieser amtlichen Sitzung liegt in Neo4j (zu groß für die Pages-Demo). Quelle &amp; Dashboard oben; Gap-Analyse vergleicht ihn mit dem YouTube-Mitschnitt.</div>';
+          return;
+        }
+        curData = data;
         renderMeta(data); renderFactcheck(data);
         if (Graph) Graph.graphData(toGraph(data));
         $("detail").innerHTML = '<h2>Knoten</h2><div class="muted">Knoten anklicken…</div>';
@@ -353,15 +391,44 @@
         t.addEventListener("click", () => {
           document.querySelectorAll(".tab[data-s]").forEach((x) => x.classList.remove("active"));
           t.classList.add("active");
+          $("sessions").value = "";
           current = t.dataset.s;
           dashOn ? loadDash(current) : load(current);
         }));
       $("viewToggle").addEventListener("click", () => { dashOn = !dashOn; setView(); });
-      $("a11y").addEventListener("click", () => window.open(`./data/${current}_barrierefrei.txt`, "_blank"));
+      // Vorlesefassung/Protokoll: YouTube-Sitzung → HTML-Protokoll (Transkript + Deeplinks,
+      // korrekte Umlaute); amtliche Sitzung → amtliches PDF; Legacy-Demo → TTS-Textfassung.
+      $("a11y").addEventListener("click", () => {
+        const e = entryFor(current), m = (curData && curData.metadata) || {};
+        if (m.quelle_typ === "youtube" || (e && e.youtube && e.youtube.name === current))
+          window.open(`./data/${current}_protokoll.html`, "_blank");
+        else if (e && e.amtlich && e.amtlich.pdf) window.open(e.amtlich.pdf, "_blank");
+        else window.open(`./data/${current}_barrierefrei.txt`, "_blank");
+      });
+
+      // Reale Sitzungen aus dem Index in den Auswahlknopf füllen.
+      async function loadSessions() {
+        try { const idx = await (await fetch("./data/sessions.json")).json(); SESSIONS = idx.sessions || []; }
+        catch { SESSIONS = []; }
+        const sel = $("sessions");
+        if (!SESSIONS.length) { sel.style.display = "none"; return; }
+        sel.innerHTML = `<option value="">📺 Reale Sitzung… (${SESSIONS.length})</option>` +
+          SESSIONS.map((e) => {
+            const sc = (e.youtube && e.youtube.name) || (e.amtlich && e.amtlich.name);
+            return `<option value="${sc}">${e.youtube ? "🎬" : "🟢"} ${e.nr}. Sitzung${e.datum ? " (" + e.datum + ")" : ""}</option>`;
+          }).join("");
+        sel.addEventListener("change", () => {
+          if (!sel.value) return;
+          document.querySelectorAll(".tab[data-s]").forEach((x) => x.classList.remove("active"));
+          current = sel.value;
+          dashOn ? loadDash(current) : load(current);
+        });
+      }
 
       window.addEventListener("resize", sizeGraph);
       initGraph();
       renderLegend();
+      loadSessions();
       load("gemeinderat");
       requestAnimationFrame(sizeGraph);
     </script>
