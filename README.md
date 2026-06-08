@@ -243,17 +243,31 @@ Welche Quelle erzeugt welche Graph-Elemente — und ist sie tatsächlich geladen
 ✅ geladen · ⚠️ funktionsfähig, (noch) nicht in Neo4j · ⬜ offen. Die `landed`-Spalte wird von
 der E2E-Test-Suite (s. u.) automatisch geprüft.
 
+Zwei **klar getrennte, quellenmarkierte** Graphen pro Sitzung (`metadata.herkunft`,
+`metadata.quelle_url`): `herkunft=youtube` (`yt_<wp>_<nr>`, Zeit-Deeplinks) vs.
+`herkunft=amtlich` (`amt_<wp>_<nr>`). `Person`/`Fraktion` bleiben global → derselbe Mensch
+in beiden Graphen. Inkrementeller Import + Status: `scripts/sync_sessions.py`.
+
 | # | Quelle | Format | Loader / Modul | Erzeugte Knoten (Auswahl) | Art | landed |
 |---|--------|--------|----------------|---------------------------|-----|--------|
-| 1 | **Amtliches Plenarprotokoll** (Bundestag Open Data, DTD `dbtplenarprotokoll`) | XML | `pipeline/bundestag_xml.py` → `graph_build` → `neo4j_loader` | `Sitzung, Tagesordnungspunkt, Person, Fraktion, Redebeitrag, Aussage, AkustischesEreignis, Transkriptsegment` | **echt** | ✅ 3 Sitzungen WP21/79–81 in Neo4j; WP20/214 als Pages-Szenario |
+| 1 | **Amtliches Plenarprotokoll** — ALLE WP21-Sitzungen (`dserver.bundestag.de/btp/21/21NNN.xml`, DTD `dbtplenarprotokoll`) | XML | `sync_sessions --official` → `bundestag_xml` → `graph_build` → `neo4j_loader` (`amt_`-Namespace) | `Sitzung, Tagesordnungspunkt, Person, Fraktion, Redebeitrag, Aussage, AkustischesEreignis, Transkriptsegment` | **echt** | ✅ alle verfügbaren WP21-Sitzungen in Neo4j; Dashboards je Sitzung auf Pages |
 | 2 | **Inhaltsverzeichnis** (im selben XML) | XML | `bundestag_xml._ivz_titles` | TOP-Titel (Property) | echt | ✅ |
 | 3 | **Anlagen** „zu Protokoll gegebene Reden" / §31-GO (im selben XML) | XML | `bundestag_xml` (anlagen) | `Redebeitrag` (`schriftlich=true`) | echt | ✅ |
-| 4 | **Diarisierte Audio-Mitschnitte** | JSON | `asr`/`align`/`extract` → `graph_build` | + `Beschluss, Abstimmung, Antrag, Befangenheit, Aufgabe` | **fiktiv** | ✅ Pages-Demo (gemeinderat/bundestag) |
-| 5 | **YouTube/Mediathek-Untertitel** | VTT/SRT | `pipeline/subtitles.py` → `align` → `extract` | wie Audio-Pfad | echt (Auto-ASR) | ⚠️ Pipeline ok; Demo-VTT fiktiv, nicht in Neo4j |
+| 4 | **YouTube-Gesamtmitschnitte** (`@bundestag/streams`, Auto-Untertitel) | VTT | `sync_sessions --youtube` → `subtitles.youtube_segments` → `graph_build` (`yt_`-Namespace) | `Sitzung, Transkriptsegment` (mit Startsekunde → Deeplink), `Aussage, Faktencheck, Quelle` | **echt** | ✅ Sitzung 79 + 81 in Neo4j + Pages (Graph, Dashboard, HTML-Protokoll) |
+| 5 | **Diarisierte Audio-Mitschnitte** | JSON | `asr`/`align`/`extract` → `graph_build` | + `Beschluss, Abstimmung, Antrag, Befangenheit, Aufgabe` | **fiktiv** | ✅ Pages-Demo (gemeinderat/bundestag) |
 | 6 | **Sound-Event-Detection** (PANNs/AudioSet) | JSON/Audio | `pipeline/sound_events.py` | `AkustischesEreignis` (`herkunft=audio-SED`) | fiktiv (Sample) | ✅ Pages-Demo |
-| 7 | **Evidenz-Korpus** (Faktencheck) | JSON | `pipeline/factcheck.py` | `Faktencheck, Quelle` | **fiktiv** | ✅ nur fiktives Szenario — **bewusst NICHT** auf reale Personen |
-| 8 | **DIP-API** (Vorgänge/Drucksachen/Metadaten) | REST/JSON | `scripts/fetch-session.sh` (Key) | — (nur Fetch/Metadaten) | echt | ⬜ noch nicht in den Graph importiert |
-| 9 | **Embeddings** (Azure `text-embedding-3-large`) | Vektor | `scripts/vector_search.py` | `Transkriptsegment.embedding` + Vektor-Index | echt | ✅ 449 in Neo4j |
+| 7 | **LLM-Faktencheck** (Azure Mistral-Large-3) — **reale Inhalte** | REST | `factcheck.factcheck_with_llm` / `factcheck_transcript_llm` | `Faktencheck, Quelle` (+ `metadata.factcheck_disclaimer`) | **echt** | ✅ KI-Vorschlag (ungeprüft) mit Disclaimer auf YT- + amtl. Sitzungen |
+| 8 | **Evidenz-Korpus** (Faktencheck) | JSON | `pipeline/factcheck.factcheck_rule_based` | `Faktencheck, Quelle` | **fiktiv** | ✅ nur fiktive Demo-Szenarien (dep-frei, CI) |
+| 9 | **Gap-Analyse** YouTube ↔ amtlich | — | `sync_sessions --gap` → `gap_analysis` | — (`web/data/gap_<wp>_<nr>.json`: WER, Reaktions-Recall) | echt | ✅ Sitzung 79 + 81 |
+| 10 | **DIP-API** (Vorgänge/Drucksachen/Metadaten) | REST/JSON | `scripts/fetch-session.sh` (Key) | — (nur Fetch/Metadaten) | echt | ⬜ noch nicht in den Graph importiert |
+| 11 | **Embeddings** (Azure `text-embedding-3-large`) | Vektor | `scripts/vector_search.py` | `Transkriptsegment.embedding` + Vektor-Index | echt | ✅ in Neo4j |
+
+```bash
+# Inkrementell ALLE noch nicht importierten Sitzungen laden (überspringt Vorhandenes):
+python scripts/sync_sessions.py --youtube --load              # neue YouTube-Gesamtmitschnitte
+python scripts/sync_sessions.py --official --from 1 --to 81 --load   # alle amtlichen WP21-XML
+python scripts/sync_sessions.py --gap                         # Lückenanalyse YT ↔ amtlich
+```
 
 ## SPARK: Was wir nutzen — und was wir erweitern
 

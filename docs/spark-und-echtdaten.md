@@ -181,19 +181,37 @@ einem `@bundestag`-Video (14 Min., TOP 20). Die rohen Auto-Captions haben drei h
    den Abstand Entwurf ↔ Gold — und respektiert das **Korrekturrecht** (Differenz = Diff,
    nicht „falsch").
 
-### ⚠️ Faktencheck mit echten Personen — Vorsicht (real belegt)
+### ⚠️ Faktencheck mit echten Personen — Policy (Stand 2026-06)
 
-Der Demo-Faktencheck (`factcheck_rule_based`) gleicht per Schlüsselwort gegen den **fiktiven**
-`evidenz.json` ab. Auf das **echte** Protokoll WP20/214 angewandt erzeugte er **1× „falsch"**
-auf die Aussage einer **realen, namentlich genannten Abgeordneten** — ein **Fehlurteil**
-(Keyword-Zufallstreffer gegen erfundene Evidenz). Daraus folgt:
+Der **rule-based** Demo-Faktencheck (`factcheck_rule_based`, Schlüsselwort gegen den
+**fiktiven** `evidenz.json`) bleibt **ausschließlich den fiktiven Demo-Szenarien** vorbehalten —
+auf reale Sitzungen angewandt erzeugte er nachweislich ein **Fehlurteil** („falsch" per
+Keyword-Zufallstreffer gegen erfundene Evidenz). Reale Sitzungen werden daher **nie** gegen den
+fiktiven Korpus geprüft.
 
-- Automatisierte „falsch/irreführend"-Verdikte über **reale Personen** öffentlich (GitHub
-  Pages) zu publizieren ist **rechtlich/ethisch heikel** (Persönlichkeitsrecht) und mit dem
-  Demo-Checker **sachlich unzuverlässig**.
-- Produktiv nötig: ein **echter Evidenzkorpus** (Destatis/Bundesregierung/Drucksachen via
-  DIP-API) + LLM-NLI-Verifizierer **mit Zitatpflicht** + **Mensch-im-Loop/Widerspruchspfad**.
-- Empfehlung: Echtdaten gern für **Transkript, Graph, Saalreaktionen, Dashboard,
-  Barrierefreiheit** — den **Faktencheck auf reale Namen** aber nicht ungeprüft veröffentlichen,
-  bis Korpus + Verifizierer + Freigabeprozess stehen (Grundsatz „Quelle immer", `unbelegt ≠
-  falsch` bleibt erhalten).
+**Aktuelle Regel (vom Betreiber bewusst entschieden):** Reale Inhalte (YouTube + amtliches XML)
+werden vom **LLM-Verifizierer** (`factcheck_with_llm` / `factcheck_transcript_llm`, Azure
+Mistral-Large-3) geprüft. Jedes Verdikt über eine reale, namentlich genannte Person ist
+ausdrücklich ein **KI-Vorschlag (ungeprüft)**:
+
+- Jede `begruendung` trägt den `_LLM_DISCLAIMER` („Automatische KI-Einschätzung (ungeprüft) —
+  Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen.").
+- Der Graph setzt `metadata.factcheck_disclaimer`; Frontend **und** HTML-Protokoll zeigen ihn
+  als Banner an.
+- **Grundsatz bleibt:** jeder `Faktencheck` trägt eine `Quelle`; `unbelegt ≠ falsch`.
+- Produktiv-Ausbau weiterhin empfohlen: echter Evidenzkorpus (Destatis/Bundesregierung/
+  Drucksachen via DIP-API) + NLI-Verifizierer **mit Zitatpflicht** + **Mensch-im-Loop/
+  Widerspruchspfad** vor verbindlicher Veröffentlichung.
+
+### Zwei getrennte Graphen + stabile Quellen (Stand 2026-06)
+
+- **Stabile XML-URL für ALLE Sitzungen:** `https://dserver.bundestag.de/btp/<wp>/<wp><nnn>.xml`
+  (z. B. `…/21/21081.xml`) — kein Blob-Resolver/DIP-Key nötig. So sind alle WP21-Protokolle
+  vollständig ladbar (`scripts/sync_sessions.py --official`).
+- **YouTube-Gesamtmitschnitte:** `@bundestag/streams` führt die kompletten Sitzungen
+  („NN. Sitzung des Bundestages – LIVE"); pro-TOP-Clips liegen unter `/videos`. YouTube hält nur
+  die **jüngsten** Gesamt-Streams vor → nicht jede Altsitzung ist als Video verfügbar (die
+  amtlichen XML dagegen vollständig).
+- **Unterscheidung:** zwei Graphen je Sitzung mit `metadata.herkunft` (`youtube`/`amtlich`) und
+  Namespaces `yt_<wp>_<nr>` / `amt_<wp>_<nr>`; `Person`/`Fraktion` global → derselbe Mensch in
+  beiden. `scripts/sync_sessions.py --gap` quantifiziert die Differenz (WER, Reaktions-Recall).

@@ -152,9 +152,13 @@ def sync_youtube(st, *, wp, load, az, force, limit) -> None:
         titel = f"{nr}. Sitzung (Gesamtmitschnitt)"
         if az:
             print(f"  🔎 LLM-Faktencheck {key} via {az['model']} …")
-        res = session_ingest.ingest_youtube(
-            vtt, wp=wp, nr=nr, video_id=vid, titel=titel, datum=datum,
-            az=az, load=load, neo4j=neo4j_cfg())
+        try:
+            res = session_ingest.ingest_youtube(
+                vtt, wp=wp, nr=nr, video_id=vid, titel=titel, datum=datum,
+                az=az, load=load, neo4j=neo4j_cfg())
+        except Exception as e:  # eine kaputte Sitzung darf den Batch nicht abbrechen
+            print(f"  ✗ {key}: Ingest fehlgeschlagen ({type(e).__name__}: {e}) — übersprungen.")
+            continue
         st["youtube"][key] = {"video_id": vid, "datum": datum, "titel": titel,
                               "nodes": res["nodes"], "rels": res["rels"],
                               "segmente": res["segmente"], "checks": res["checks"], "ts": _now()}
@@ -199,8 +203,12 @@ def sync_official(st, *, wp, lo, hi, load, az, force, limit) -> None:
             continue
         if az:
             print(f"  🔎 LLM-Faktencheck {key} (max 12 Aussagen) …")
-        res = session_ingest.ingest_official(
-            xml, wp=wp, nr=nr, az=az, load=load, neo4j=neo4j_cfg())
+        try:
+            res = session_ingest.ingest_official(
+                xml, wp=wp, nr=nr, az=az, load=load, neo4j=neo4j_cfg())
+        except Exception as e:  # eine kaputte Sitzung darf den Batch nicht abbrechen
+            print(f"  ✗ {key}: Ingest fehlgeschlagen ({type(e).__name__}: {e}) — übersprungen.")
+            continue
         st["official"][key] = {"datum": res["datum"], "nodes": res["nodes"], "rels": res["rels"],
                                "reden": res["reden"], "aussagen": res["aussagen"],
                                "saalreaktionen": res["saalreaktionen"], "checks": res["checks"],

@@ -118,6 +118,14 @@ def _extract_json_list(text: str) -> list:
     return json.loads(m.group(0)) if m else []
 
 
+def _as_text(v, default: str = "") -> str:
+    """LLM-Felder robust zu Text machen — das Modell liefert quelle_titel/-url/begruendung
+    gelegentlich als Liste/Zahl statt String; sonst crasht z. B. der Slug im graph_build."""
+    if isinstance(v, list):
+        return ", ".join(str(x) for x in v if x)
+    return str(v) if v not in (None, "") else default
+
+
 _EXTRACT_SYS = (
     "Du bist ein vorsichtiger, neutraler Faktenchecker für Bundestagsreden. Finde im folgenden "
     "Redeausschnitt ÜBERPRÜFBARE quantitative Tatsachenbehauptungen (konkrete Zahlen, "
@@ -154,12 +162,12 @@ def factcheck_transcript_llm(passages: list[dict], *, model: str, base_url: str,
             claim = (item.get("aussage") or "").strip()
             if not claim:
                 continue
-            v = item.get("verdikt", "unbelegt")
+            v = _as_text(item.get("verdikt"), "unbelegt")
             out.append({
                 "aussage": claim, "verdikt": v if v in VERDIKTE else "unbelegt",
-                "begruendung": f"{_LLM_DISCLAIMER} {(item.get('begruendung') or '').strip()}".strip(),
-                "quelle": {"titel": item.get("quelle_titel") or "KI-Einschätzung (Mistral), ungeprüft",
-                           "url": item.get("quelle_url", "") or "", "stand": ""},
+                "begruendung": f"{_LLM_DISCLAIMER} {_as_text(item.get('begruendung'))}".strip(),
+                "quelle": {"titel": _as_text(item.get("quelle_titel"), "KI-Einschätzung (Mistral), ungeprüft"),
+                           "url": _as_text(item.get("quelle_url")), "stand": ""},
                 "utt_index": pas["utt_index"], "start": pas.get("start", 0.0)})
     return out
 
@@ -181,12 +189,12 @@ def factcheck_with_llm(aussagen: list[dict], *, model: str, base_url: str, api_k
                 messages=[{"role": "system", "content": _LLM_SYS},
                           {"role": "user", "content": f'Aussage: "{a["text"]}"'}])
             data = _extract_json(resp.choices[0].message.content or "")
-            verdikt = data.get("verdikt", "unbelegt")
+            verdikt = _as_text(data.get("verdikt"), "unbelegt")
             if verdikt not in VERDIKTE:
                 verdikt = "unbelegt"
-            quelle = {"titel": data.get("quelle_titel") or "KI-Einschätzung (Mistral), ungeprüft",
-                      "url": data.get("quelle_url", "") or "", "stand": ""}
-            begr = f"{_LLM_DISCLAIMER} {data.get('begruendung', '').strip()}".strip()
+            quelle = {"titel": _as_text(data.get("quelle_titel"), "KI-Einschätzung (Mistral), ungeprüft"),
+                      "url": _as_text(data.get("quelle_url")), "stand": ""}
+            begr = f"{_LLM_DISCLAIMER} {_as_text(data.get('begruendung'))}".strip()
         except Exception as e:  # robuste Degradierung: nie ohne Quelle, nie Crash
             verdikt = "unbelegt"
             quelle = {"titel": "KI-Faktencheck nicht möglich", "url": "", "stand": ""}

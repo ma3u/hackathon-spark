@@ -166,9 +166,10 @@ def build_graph(p: Protocol, *, audio_file: str, sitzung_id: str, factchecks=Non
             rel(aid, cid, "GEPRUEFT_ALS", verdikt=fc.verdikt)
             # Grundsatz: JEDER Faktencheck hat eine Quelle (auch 'unbelegt' → Korpus-Referenz).
             q = fc.quelle or {"titel": "Quelle fehlt", "stand": "", "url": ""}
-            qid = "quelle_" + _slug(q.get("titel", "quelle"))
-            node(qid, q.get("titel", "Quelle"), "Quelle", q.get("stand", ""),
-                 url=q.get("url", ""), stand=q.get("stand", ""), schicht="faktencheck")
+            qtitel = str(q.get("titel", "Quelle") or "Quelle")  # robust: nie Liste/None → Slug-Crash
+            qid = "quelle_" + (_slug(qtitel) or "quelle")
+            node(qid, qtitel, "Quelle", str(q.get("stand", "")),
+                 url=str(q.get("url", "")), stand=str(q.get("stand", "")), schicht="faktencheck")
             rel(cid, qid, "BELEGT_MIT")
 
     # ── Saalreaktionen aus dem amtlichen XML: Beifall/Zwischenruf/Lachen ─────
