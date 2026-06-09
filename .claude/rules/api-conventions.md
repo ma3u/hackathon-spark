@@ -39,8 +39,14 @@ deliberately.
   `source_id, target_id, relationship_type`. CSV/Cypher export and Neo4j depend on them
   (`export._RESERVED`, `neo4j_loader` reserved sets).
 - `type` becomes the **Neo4j node label**; `relationship_type` becomes the **rel type**.
-- `schicht` ∈ {`normativ, zeitlich, prozedural, fallbezug, provenienz, faktencheck`} drives
-  frontend coloring (`web/index.html` `LAYER`). Set it on every node.
+- `schicht` ∈ {`normativ, zeitlich, prozedural, fallbezug, reaktion, faktencheck, provenienz`}
+  drives frontend coloring (`web/index.html` `LAYER`, **dynamische Legende** — zeigt nur
+  vorhandene Schichten). Set it on EVERY node (`Sitzung`→zeitlich, `Person/Fraktion/Redebeitrag/
+  Aussage`→fallbezug, `AkustischesEreignis`/Saalreaktion→reaktion, `Norm`→normativ nur kommunal).
+- **Pages-Projektion vs. Neo4j:** der committete Web-Graph der amtlichen Sitzungen ist eine
+  schlanke STRUKTUR-Projektion (ohne `Transkriptsegment`-Knoten); der Vollgraph mit Provenienz
+  liegt in Neo4j. Der **offizielle** Graph = amtliches XML + Mediathek-Video-Deeplink je Rede
+  (`Redebeitrag.video_url`); YouTube ist ein separater Graph.
 - **IDs are stable slugs** via `_slug`: `person_<slug>`, `top_<nummer>`, `beschluss_<nr>`,
   `aussage_<i>`, `faktencheck_<i>`, `quelle_<slug>`, `segment_<idx>`. Segment/redebeitrag IDs
   are pinned to the utterance index so reactions/provenance line up — don't renumber them.
