@@ -68,19 +68,14 @@
     <header>
       <div>
         <h1>🎙️ graph-protokoll</h1>
-        <div class="sub">Audiomitschnitt → Protokoll-Knowledge-Graph + Faktencheck · SPARK Challenge 2</div>
+        <div class="sub">Bundestags-Plenarprotokoll → Knowledge Graph + Faktencheck · echte Daten · SPARK Challenge 2</div>
       </div>
       <div class="tabs">
-        <button class="tab active" data-s="gemeinderat">Gemeinderat</button>
-        <button class="tab" data-s="bundestag">Bundestag (Audio)</button>
-        <button class="tab" data-s="bundestag_xml">Bundestag (amtliches XML)</button>
-        <button class="tab" data-s="bundestag_real"
-          title="Echtes amtliches Plenarprotokoll WP20/214 (18.03.2025, gemeinfrei §5 UrhG). Faktencheck bewusst aus – keine automatischen Verdikte über reale Personen.">Bundestag (echt) 🟢</button>
-        <button class="tab" data-s="bundestag_yt"
-          title="YouTube-Mitschnitt (@bundestag, 81. Sitzung 22.05.2026, Arbeitszeitpolitik) mit Zeit-Deeplinks und KI-Faktencheck (Mistral, ungeprüfte Vorschläge).">Bundestag (YouTube) 🎬</button>
-        <select class="tab" id="sessions" title="Reale Sitzungen — YouTube-Mitschnitt (🎬) bzw. amtliches Protokoll (🟢)"><option value="">📺 Reale Sitzung…</option></select>
+        <select class="tab" id="sessions" title="Reale Bundestagssitzung wählen"><option value="">📺 Sitzung wählen…</option></select>
+        <button class="tab" id="srcOff" title="Offiziell: amtliches Plenarprotokoll-XML (Struktur, Volltext, Saalreaktionen, Faktencheck) + Mediathek-Video je Rede">🟢 Offiziell</button>
+        <button class="tab" id="srcYt" title="YouTube-Gesamtmitschnitt (Zeit-Deeplinks)">🎬 YouTube</button>
         <button class="tab" id="viewToggle">📊 Dashboard</button>
-        <button class="tab" id="a11y" title="Barrierefreie Vorlesefassung (Screenreader/TTS)">♿ Vorlesefassung</button>
+        <button class="tab" id="a11y" title="Protokoll als HTML — Transkript, Quellen, Deeplinks">♿ Protokoll</button>
       </div>
     </header>
     <div id="dash" style="display:none"></div>
@@ -97,12 +92,13 @@
     <script src="https://cdn.jsdelivr.net/npm/3d-force-graph@1.73.4/dist/3d-force-graph.min.js"></script>
     <script>
       const LAYER = {
-        normativ:    { c: "#7d3c98", label: "L1 Normativ (Normen)" },
-        zeitlich:    { c: "#2471a3", label: "L2 Zeitlich (Sitzung/Fristen)" },
-        prozedural:  { c: "#1e8449", label: "L3 Prozedural (TOP→Beschluss)" },
-        fallbezug:   { c: "#ca6f1e", label: "L4 Fallbezug (Person/Aussage)" },
+        normativ:    { c: "#a569bd", label: "L1 Normativ (Normen)" },
+        zeitlich:    { c: "#2471a3", label: "L2 Zeitlich (Sitzung)" },
+        prozedural:  { c: "#1e8449", label: "L3 Prozedural (TOP/Beschluss)" },
+        fallbezug:   { c: "#ca6f1e", label: "L4 Fallbezug (Person/Fraktion/Rede/Aussage)" },
+        reaktion:    { c: "#16a085", label: "Saalreaktion (Beifall/Zwischenruf)" },
         faktencheck: { c: "#c0392b", label: "Faktencheck (Verdikt/Quelle)" },
-        provenienz:  { c: "#566573", label: "Provenienz (Audiosegment)" },
+        provenienz:  { c: "#566573", label: "Provenienz (Transkriptsegment)" },
       };
       const color = (n) => (LAYER[n.schicht] || { c: "#999" }).c;
       const $ = (id) => document.getElementById(id);
@@ -117,33 +113,19 @@
         "bestätigt": "#3fb950", "teilweise": "#d29922", "irreführend": "#d29922",
         "falsch": "#f85149", "unbelegt": "#8b949e",
       };
-      // Echte Quelle je Szenario (Deeplink). Fiktive Szenarien: keine externe Quelle.
-      const SOURCE = {
-        bundestag_real: {
-          url: "https://www.bundestag.de/resource/blob/1057624/20214.xml",
-          label: "Bundestag Open Data — Plenarprotokoll 20/214 (18.03.2025)",
-          mediathek: "https://www.bundestag.de/mediathek",
-        },
-        bundestag_yt: {
-          url: "https://www.youtube.com/watch?v=CPa1rLMiv64",
-          label: "YouTube @bundestag — Arbeitszeitpolitik (81. Sitzung, 22.05.2026)",
-        },
-      };
       const partyColor = (f) => PARTY[(f || "").replace(/ /g, " ").trim()] || "#58a6ff";
 
-      // Reale Sitzungen (web/data/sessions.json) + aktuell geladener Graph.
-      let curData = null, SESSIONS = [];
+      // Reale Sitzungen (web/data/sessions.json) + aktuell geladener Graph + Quelle.
+      let curData = null, SESSIONS = [], curSession = null, curSrc = "off";
       const entryFor = (sc) => SESSIONS.find(
-        (e) => (e.youtube && e.youtube.name === sc) || (e.mediathek && e.mediathek.name === sc)
-            || (e.amtlich && e.amtlich.name === sc));
-      // Quelle/Deeplink-Infos: zuerst aus den Graph-Metadaten (skaliert über alle Sitzungen),
-      // sonst aus der statischen SOURCE-Tabelle (Legacy-Demos).
+        (e) => (e.youtube && e.youtube.name === sc) || (e.amtlich && e.amtlich.name === sc));
+      // Quelle/Deeplink-Infos aus den Graph-Metadaten (jede reale Sitzung trägt quelle_url).
       function srcInfo(data) {
         const m = (data && data.metadata) || {};
         if (m.quelle_url || m.video_id) return {
           url: m.quelle_url, label: m.quelle_label || m.quelle_url, video_id: m.video_id,
           pdf: m.amtliches_pdf, xml: m.amtliches_xml, typ: m.quelle_typ };
-        return SOURCE[current] || null;
+        return null;
       }
       const ytLink = (vid, sec) => `https://www.youtube.com/watch?v=${vid}&t=${Math.floor(sec || 0)}s`;
 
@@ -218,6 +200,10 @@
             html += `<div class="prop"><b>url:</b> <a href="${v}" target="_blank" rel="noopener">${v}</a></div>`;
             continue;
           }
+          if (k === "video_url" && /^https?:/.test(v)) {  // Redebeitrag: Mediathek-Video je Rede
+            html += `<div class="prop"><a class="cite" href="${v}" target="_blank" rel="noopener">▶ Rede im Video (Mediathek)</a></div>`;
+            continue;
+          }
           html += `<div class="prop"><b>${k}:</b> ${v}</div>`;
         }
         const src = srcInfo(curData);
@@ -240,7 +226,8 @@
         else if (src && src.mediathek) links.push(`<a href="${src.mediathek}" target="_blank" rel="noopener">Mediathek</a>`);
         if (src && src.pdf) links.push(`<a href="${src.pdf}" target="_blank" rel="noopener">amtliches PDF</a>`);
         if (src && src.xml) links.push(`<a href="${src.xml}" target="_blank" rel="noopener">amtl. XML</a>`);
-        const prot = (e && e.youtube && e.youtube.protokoll) || (e && e.mediathek && e.mediathek.protokoll);
+        const prot = curSrc === "yt" ? (e && e.youtube && e.youtube.protokoll)
+                                     : (e && e.amtlich && e.amtlich.protokoll);
         if (prot) links.push(`<a href="./data/${prot}" target="_blank" rel="noopener">📄 Protokoll (HTML)</a>`);
         if (e && e.gap) links.push(`<a href="./data/${e.gap.file}" target="_blank" rel="noopener">🔀 Gap-Analyse (WER ${Math.round(e.gap.wer * 100)}%)</a>`);
         const quelle = links.length ? links.join(" · ") : (m.source_audio || "—");
@@ -253,10 +240,15 @@
           <div class="prop"><b>Knoten:</b> ${m.node_count || 0} · <b>Beziehungen:</b> ${m.relationship_count || 0}</div>`;
       }
 
-      function renderLegend() {
-        $("legend").innerHTML = "<h2>Ontologie-Schichten</h2>" +
-          Object.values(LAYER).map((l) =>
-            `<span><span class="dot" style="background:${l.c}"></span>${l.label}</span>`).join("");
+      // Legende DYNAMISCH: nur Schichten zeigen, die im aktuellen Graph wirklich vorkommen
+      // (+ Anzahl) — so „passt" die Ontologie zu den Daten (keine leeren L1-Normen etc.).
+      function renderLegend(data) {
+        const present = {};
+        ((data && data.nodes) || []).forEach((n) => { if (n.schicht) present[n.schicht] = (present[n.schicht] || 0) + 1; });
+        const keys = Object.keys(LAYER).filter((k) => present[k]);
+        $("legend").innerHTML = "<h2>Ontologie-Schichten</h2>" + (keys.length
+          ? keys.map((k) => `<span><span class="dot" style="background:${LAYER[k].c}"></span>${LAYER[k].label} <span style="color:var(--muted)">· ${present[k]}</span></span>`).join("")
+          : '<div class="empty">Graph wählen…</div>');
       }
 
       function renderFactcheck(data) {
@@ -314,12 +306,12 @@
           return;
         }
         curData = data;
-        renderMeta(data); renderFactcheck(data);
+        renderMeta(data); renderFactcheck(data); renderLegend(data);
         if (Graph) Graph.graphData(toGraph(data));
         $("detail").innerHTML = '<h2>Knoten</h2><div class="muted">Knoten anklicken…</div>';
       }
 
-      let current = "gemeinderat", dashOn = false;
+      let current = null, dashOn = false;
 
       function card(title, inner) {
         return `<div class="card"><h2>${title}</h2>${inner}</div>`;
@@ -390,51 +382,55 @@
         else requestAnimationFrame(sizeGraph);  // beim Zurückschalten Canvas neu vermessen
       }
 
-      document.querySelectorAll(".tab[data-s]").forEach((t) =>
-        t.addEventListener("click", () => {
-          document.querySelectorAll(".tab[data-s]").forEach((x) => x.classList.remove("active"));
-          t.classList.add("active");
-          $("sessions").value = "";
-          current = t.dataset.s;
-          dashOn ? loadDash(current) : load(current);
-        }));
+      // Quelle umschalten: 🟢 Offiziell (amtliches XML + Mediathek-Video) ↔ 🎬 YouTube.
+      function setSrcButtons() {
+        const e = curSession || {};
+        const off = $("srcOff"), yt = $("srcYt");
+        off.disabled = !e.amtlich; yt.disabled = !e.youtube;
+        off.style.opacity = e.amtlich ? "1" : ".4"; yt.style.opacity = e.youtube ? "1" : ".4";
+        off.classList.toggle("active", curSrc === "off"); yt.classList.toggle("active", curSrc === "yt");
+      }
+      function loadSession(e, src) {
+        if (!e) return;
+        curSession = e;
+        curSrc = (src === "yt" && e.youtube) ? "yt" : "off";
+        current = curSrc === "yt" ? e.youtube.name : (e.amtlich && e.amtlich.name);
+        setSrcButtons();
+        dashOn ? loadDash(current) : load(current);
+      }
+      $("srcOff").addEventListener("click", () => curSession && curSession.amtlich && loadSession(curSession, "off"));
+      $("srcYt").addEventListener("click", () => curSession && curSession.youtube && loadSession(curSession, "yt"));
       $("viewToggle").addEventListener("click", () => { dashOn = !dashOn; setView(); });
-      // Vorlesefassung/Protokoll: YouTube-Sitzung → HTML-Protokoll (Transkript + Deeplinks,
-      // korrekte Umlaute); amtliche Sitzung → amtliches PDF; Legacy-Demo → TTS-Textfassung.
+
+      // Protokoll: HTML-Protokoll der aktuellen Quelle (Transkript + Quellen + Deeplinks,
+      // korrekte Umlaute); sonst amtliches PDF; sonst TTS-Textfassung.
       $("a11y").addEventListener("click", () => {
-        const e = entryFor(current), m = (curData && curData.metadata) || {};
-        const hasProt = m.quelle_typ === "youtube" || m.quelle_typ === "mediathek"
-          || (e && ((e.youtube && e.youtube.name === current) || (e.mediathek && e.mediathek.name === current)));
-        if (hasProt) window.open(`./data/${current}_protokoll.html`, "_blank");
-        else if (e && e.amtlich && e.amtlich.pdf) window.open(e.amtlich.pdf, "_blank");
-        else window.open(`./data/${current}_barrierefrei.txt`, "_blank");
+        const e = curSession || {};
+        const prot = curSrc === "yt" ? (e.youtube && e.youtube.protokoll) : (e.amtlich && e.amtlich.protokoll);
+        if (prot) window.open(`./data/${prot}`, "_blank");
+        else if (e.amtlich && e.amtlich.pdf) window.open(e.amtlich.pdf, "_blank");
+        else if (current) window.open(`./data/${current}_barrierefrei.txt`, "_blank");
       });
 
-      // Reale Sitzungen aus dem Index in den Auswahlknopf füllen.
+      // Reale Sitzungen aus dem Index in den Auswahlknopf füllen + neueste laden.
       async function loadSessions() {
         try { const idx = await (await fetch("./data/sessions.json")).json(); SESSIONS = idx.sessions || []; }
         catch { SESSIONS = []; }
         const sel = $("sessions");
         if (!SESSIONS.length) { sel.style.display = "none"; return; }
-        sel.innerHTML = `<option value="">📺 Reale Sitzung… (${SESSIONS.length})</option>` +
-          SESSIONS.map((e) => {
-            const sc = (e.youtube && e.youtube.name) || (e.mediathek && e.mediathek.name) || (e.amtlich && e.amtlich.name);
-            const tag = e.youtube ? "🎬" : e.mediathek ? "📺" : "🟢";
-            return `<option value="${sc}">${tag} ${e.nr}. Sitzung${e.datum ? " (" + e.datum + ")" : ""}</option>`;
-          }).join("");
-        sel.addEventListener("change", () => {
-          if (!sel.value) return;
-          document.querySelectorAll(".tab[data-s]").forEach((x) => x.classList.remove("active"));
-          current = sel.value;
-          dashOn ? loadDash(current) : load(current);
-        });
+        sel.innerHTML = SESSIONS.map((e) => {
+          const tags = (e.youtube ? "🎬" : "") + (e.amtlich ? "🟢" : "");
+          return `<option value="${e.wp}-${e.nr}">${tags} ${e.nr}. Sitzung${e.datum ? " · " + e.datum : ""}</option>`;
+        }).join("");
+        sel.addEventListener("change", () =>
+          loadSession(SESSIONS.find((x) => `${x.wp}-${x.nr}` === sel.value), "off"));
+        loadSession(SESSIONS[0], "off");  // neueste Sitzung, offiziell
       }
 
       window.addEventListener("resize", sizeGraph);
       initGraph();
-      renderLegend();
+      renderLegend(null);
       loadSessions();
-      load("gemeinderat");
       requestAnimationFrame(sizeGraph);
     </script>
   </body>

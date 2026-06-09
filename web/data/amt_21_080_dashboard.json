@@ -315,7 +315,8 @@
     }
   ],
   "faktencheck_bilanz": {
-    "unbelegt": 11,
+    "unbelegt": 10,
+    "teilweise": 1,
     "irreführend": 1
   }
 }

@@ -1,8 +1,23 @@
 {
-  "generated": "2026-06-08T20:22:41Z",
-  "wahlperiode": "21",
-  "count": 81,
+  "generated": "2026-06-09T06:49:57Z",
+  "wahlperiode": "20",
+  "count": 82,
   "sessions": [
+    {
+      "wp": "20",
+      "nr": 214,
+      "datum": "18.03.2025",
+      "amtlich": {
+        "name": "amt_20_214",
+        "pdf": "https://dserver.bundestag.de/btp/20/20214.pdf",
+        "xml": "https://dserver.bundestag.de/btp/20/20214.xml",
+        "dashboard": "amt_20_214_dashboard.json",
+        "nodes": 1243,
+        "graph": "amt_20_214.json",
+        "protokoll": "amt_20_214_protokoll.html",
+        "mediathek_verlinkt": 0
+      }
+    },
     {
       "wp": "21",
       "nr": 81,
@@ -20,7 +35,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21081.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21081.xml",
         "dashboard": "amt_21_081_dashboard.json",
-        "nodes": 1431
+        "nodes": 1429,
+        "graph": "amt_21_081.json",
+        "protokoll": "amt_21_081_protokoll.html",
+        "mediathek_verlinkt": 85
       },
       "gap": {
         "file": "gap_21_081.json",
@@ -36,7 +54,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21080.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21080.xml",
         "dashboard": "amt_21_080_dashboard.json",
-        "nodes": 2528
+        "nodes": 2527,
+        "graph": "amt_21_080.json",
+        "protokoll": "amt_21_080_protokoll.html",
+        "mediathek_verlinkt": 151
       }
     },
     {
@@ -56,7 +77,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21079.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21079.xml",
         "dashboard": "amt_21_079_dashboard.json",
-        "nodes": 1361
+        "nodes": 1360,
+        "graph": "amt_21_079.json",
+        "protokoll": "amt_21_079_protokoll.html",
+        "mediathek_verlinkt": 52
       },
       "gap": {
         "file": "gap_21_079.json",

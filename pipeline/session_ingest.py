@@ -42,6 +42,61 @@ def _ids(wp, nr) -> dict:
     }
 
 
+import re as _re
+from collections import defaultdict as _dd
+
+_TITLES = _re.compile(r"\b(dr|prof|h\.?c|mdb|bundesminister(in)?|staatsminister(in)?|"
+                      r"parl|staatssekretär(in)?)\b\.?", _re.I)
+
+
+def _norm_name(s: str) -> str:
+    s = _TITLES.sub("", s or "")
+    s = _re.sub(r"[^a-zäöüß ]", " ", s.lower())
+    return " ".join(s.split())
+
+
+def _attach_video_links(p, clips) -> int:
+    """Mediathek-Clips (Sprecher→Clip-URL) den XML-Redebeiträgen zuordnen (Name, in Reihenfolge).
+
+    Verschmilzt die zwei amtlichen Quellen: das XML liefert Struktur/Volltext/Saalreaktionen,
+    die Mediathek den Video-Deeplink JE REDE (r['video_url'] → dbtg.tv/fvid). Best-effort über
+    normalisierten Namen (mit Nachnamen-Fallback). Gibt die Trefferzahl zurück.
+    """
+    q = _dd(list)
+    for c in clips:
+        q[_norm_name(c["speaker"])].append(c["url"])
+    matched = 0
+    for r in p.redebeitraege:
+        key = _norm_name(r["person"])
+        if q.get(key):
+            r["video_url"] = q[key].pop(0)
+            matched += 1
+            continue
+        surn = key.split()[-1] if key.split() else ""
+        for k2 in list(q):  # Nachnamen-Fallback (XML „Dr. X" ↔ Mediathek „X")
+            if q[k2] and k2.split() and k2.split()[-1] == surn:
+                r["video_url"] = q[k2].pop(0)
+                matched += 1
+                break
+    return matched
+
+
+def _structural(graph: dict) -> dict:
+    """Pages-Projektion: ohne Transkriptsegment-Knoten (Provenienz bleibt vollständig in Neo4j).
+
+    Macht den committeten Graph klein UND zeigt die offizielle Struktur sauber (Sitzung→TOP→
+    Redebeitrag→Person/Fraktion + Saalreaktion + Faktencheck) statt eines Provenienz-Halos.
+    """
+    drop = {n["id"] for n in graph["nodes"] if n["type"] == "Transkriptsegment"}
+    nodes = [n for n in graph["nodes"] if n["id"] not in drop]
+    rels = [r for r in graph["relationships"]
+            if r["source_id"] not in drop and r["target_id"] not in drop]
+    md = dict(graph["metadata"])
+    md["node_count"], md["relationship_count"] = len(nodes), len(rels)
+    md["pages_projektion"] = "ohne Transkriptsegmente (Provenienz vollständig in Neo4j)"
+    return {"metadata": md, "nodes": nodes, "relationships": rels}
+
+
 # ── Protokoll-Konstruktion ──────────────────────────────────────────────────────
 
 def youtube_protocol(vtt_path, *, wp, nr, video_id, titel, datum,
@@ -231,10 +286,18 @@ def ingest_youtube(vtt_path, *, wp, nr, video_id, titel, datum, az=None, factche
 
 
 def ingest_official(xml_path, *, wp, nr, az=None, factchecks=None, load=False,
-                    write_web_graph=False, neo4j=None) -> dict:
-    """Komplett: amtliches XML → Protocol → (LLM-Faktencheck) → Dashboard(web) + Neo4j (amt_)."""
+                    write_web_graph=False, mediathek_match=False, neo4j=None) -> dict:
+    """Offizieller Graph: amtliches XML (Struktur/Volltext/Saalreaktionen/Faktencheck) +
+    optional Mediathek-Video-Deeplink je Rede. Vollgraph (mit Provenienz) → Neo4j/output;
+    schlanke strukturelle Projektion → web/ (Pages)."""
     ids = _ids(wp, nr)
     p = official_protocol(xml_path)
+    matched = 0
+    if mediathek_match:
+        try:
+            matched = _attach_video_links(p, mediathek.collect_session(nr))  # nur Sprecher+URL
+        except Exception:
+            matched = 0
     if factchecks is not None:
         checks = factchecks
     elif az:
@@ -244,23 +307,36 @@ def ingest_official(xml_path, *, wp, nr, az=None, factchecks=None, load=False,
     graph = graph_build.build_graph(p, audio_file=Path(xml_path).name,
                                     sitzung_id=ids["sid_amt"], factchecks=checks)
     _decorate(graph, herkunft="amtlich", quelle_typ="amtlich", quelle_url=ids["pdf"],
-              quelle_label=f"Bundestag Open Data — Plenarprotokoll {wp}/{int(nr)}",
+              quelle_label=f"Bundestag Open Data — Plenarprotokoll {wp}/{int(nr)}"
+                           + (f" · Mediathek-Video je Rede ({matched})" if matched else ""),
               official_pdf=ids["pdf"], official_xml=ids["xml"],
               disclaimer=_FC_DISCLAIMER if checks else None)
+    graph["metadata"]["mediathek_verlinkt"] = matched
     OUT.mkdir(parents=True, exist_ok=True)
-    export.write_json(graph, OUT / f"{ids['amt_name']}_graph_data.json")
+    export.write_json(graph, OUT / f"{ids['amt_name']}_graph_data.json")  # Vollgraph (Provenienz)
     WEB.mkdir(parents=True, exist_ok=True)
-    # Dashboards (klein) für ALLE amtlichen Sitzungen committen; Vollgraph nur in Neo4j/output.
     export.write_json(dashboard.compute_dashboard(p, checks), WEB / f"{ids['amt_name']}_dashboard.json")
-    if write_web_graph:
-        export.write_json(graph, WEB / f"{ids['amt_name']}.json")
+    if write_web_graph:  # Pages: strukturelle Projektion (klein, ohne Segment-Halo)
+        export.write_json(_structural(graph), WEB / f"{ids['amt_name']}.json")
+        rede_links = {r["quelle_utterances"][0]: r["video_url"] for r in p.redebeitraege
+                      if r.get("video_url") and r.get("quelle_utterances")}
+        html = protocol_html.render(
+            p, factchecks=checks, quelle_url=ids["pdf"], rede_links=rede_links,
+            quelle_label=f"amtliches Plenarprotokoll {wp}/{int(nr)}",
+            official_pdf=ids["pdf"], official_xml=ids["xml"],
+            disclaimer=_FC_DISCLAIMER if checks else None,
+            title=f"Deutscher Bundestag — {int(nr)}. Sitzung, {p.meeting.get('datum','')} "
+                  f"(amtliches Protokoll + Mediathek-Video)")
+        (WEB / f"{ids['amt_name']}_protokoll.html").write_text(html, encoding="utf-8")
+        (WEB / f"{ids['amt_name']}_barrierefrei.txt").write_text(
+            accessible.summarize(p, checks), encoding="utf-8")
     if neo4j is not None or load:
-        to_neo4j(graph, prefix=ids["amt_prefix"], load=load, **(neo4j or {}))
+        to_neo4j(graph, prefix=ids["amt_prefix"], load=load, **(neo4j or {}))  # Vollgraph
     return {"name": ids["amt_name"], "nodes": graph["metadata"]["node_count"],
             "rels": graph["metadata"]["relationship_count"], "datum": p.meeting.get("datum", ""),
             "reden": len(p.redebeitraege), "aussagen": len(p.aussagen),
-            "saalreaktionen": len(p.kommentare), "checks": len(checks),
-            "quelle_url": ids["pdf"], "protocol": p}
+            "saalreaktionen": len(p.kommentare), "checks": len(checks), "mediathek_verlinkt": matched,
+            "has_graph": write_web_graph, "quelle_url": ids["pdf"], "protocol": p}
 
 
 def ingest_mediathek(*, wp, nr, az=None, load=False, write_web=True, neo4j=None,

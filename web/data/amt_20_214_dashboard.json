@@ -11,7 +11,7 @@
     "woerter": 32803,
     "tops": 4,
     "saalreaktionen": 643,
-    "geprüfte_aussagen": 0
+    "geprüfte_aussagen": 12
   },
   "top_themen": [
     {
@@ -206,5 +206,7 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {}
+  "faktencheck_bilanz": {
+    "unbelegt": 12
+  }
 }

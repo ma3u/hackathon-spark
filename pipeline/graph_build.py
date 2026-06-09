@@ -38,17 +38,20 @@ def build_graph(p: Protocol, *, audio_file: str, sitzung_id: str, factchecks=Non
     def rel(src, tgt, rtype, **props):
         rels.append({"source_id": src, "target_id": tgt, "relationship_type": rtype, **props})
 
-    # ── L2: Sitzung ──────────────────────────────────────────────────────────
+    # ── L2: Sitzung (zeitliche Schicht) ──────────────────────────────────────
     m = p.meeting
-    node(sitzung_id, f"Sitzung {m.get('datum','')}", "Sitzung", "Öffentliche Gemeinderatssitzung",
+    node(sitzung_id, f"Sitzung {m.get('datum','')}", "Sitzung", m.get("gremium", "Sitzung"),
          gremium=m.get("gremium", ""), datum=m.get("datum", ""), ort=m.get("ort", ""),
          wahlperiode=str(m.get("wahlperiode", "")), sitzung_nr=str(m.get("sitzung_nr", "")),
-         beschlussfaehig=str(m.get("beschlussfaehig", "")), audio_file=audio_file)
+         beschlussfaehig=str(m.get("beschlussfaehig", "")), audio_file=audio_file,
+         schicht="zeitlich")
 
-    # ── L1: Normen (referenziert aus Beschlussfähigkeit + Befangenheit) ──────
-    norm_bf = node("gemo_37", "GemO §37 Beschlussfähigkeit", "Norm", "Gemeindeordnung",
-                   schicht="normativ")
+    # ── L1: Normen — NUR kommunale Sitzungen tragen die GemO-Beschlussfähigkeit (§37).
+    # Amtliche Bundestags-Protokolle haben keine solche Norm → KEIN Fake-Knoten (sonst
+    # erscheint im Bundestag-Graph fälschlich eine Gemeindeordnung).
     if m.get("beschlussfaehig"):
+        norm_bf = node("gemo_37", "GemO §37 Beschlussfähigkeit", "Norm", "Gemeindeordnung",
+                       schicht="normativ")
         rel(sitzung_id, norm_bf, "BESCHLUSSFAEHIG_NACH")
 
     # ── L4: Personen + Fraktionen (aus Sprechern der Utterances) ─────────────
@@ -57,7 +60,7 @@ def build_graph(p: Protocol, *, audio_file: str, sitzung_id: str, factchecks=Non
         persons.setdefault(u.speaker_name, {"rolle": u.rolle, "fraktion": u.fraktion})
     for name, info in persons.items():
         pid = "person_" + _slug(name)
-        node(pid, name, "Person", info["rolle"])
+        node(pid, name, "Person", info["rolle"], schicht="fallbezug")
         if info["fraktion"]:
             fid = "fraktion_" + _slug(info["fraktion"])
             node(fid, info["fraktion"], "Fraktion", "Ratsfraktion", schicht="fallbezug")
@@ -132,9 +135,16 @@ def build_graph(p: Protocol, *, audio_file: str, sitzung_id: str, factchecks=Non
         return f"redebeitrag_{q[0]}"
     for r in p.redebeitraege:
         rid = rede_id(r)
+        q = r.get("quelle_utterances") or []
+        rtext = p.utterances[q[0]].text if (q and q[0] < len(p.utterances)) else ""
+        extra = {}
+        if r.get("video_url"):       # Mediathek-Deeplink (ein Video pro Rede)
+            extra["video_url"] = r["video_url"]
+        if r.get("schriftlich"):     # zu Protokoll gegebene Rede (Anlage)
+            extra["schriftlich"] = "ja"
         node(rid, f"Redebeitrag {r['person']} (TOP {r['top_nummer']}, {r['timecode']})",
              "Redebeitrag", r.get("fraktion") or "", timecode=r["timecode"],
-             start_sec=r["start"], schicht="fallbezug")
+             start_sec=r["start"], text=rtext[:600], schicht="fallbezug", **extra)
         rel(person_id(r["person"]), rid, "HAT_REDEBEITRAG")
         if r["top_nummer"] in top_id:
             rel(rid, top_id[r["top_nummer"]], "ZU_TOP")
@@ -181,7 +191,7 @@ def build_graph(p: Protocol, *, audio_file: str, sitzung_id: str, factchecks=Non
         node(kid, label, "AkustischesEreignis", k["typ"], text=k["text"][:240],
              urheber=k.get("urheber") or "", intensitaet=k.get("intensitaet") or "",
              start_sec=k.get("start_sec", ""), herkunft=k.get("herkunft", "protokoll"),
-             schicht="fallbezug")
+             schicht="reaktion")
         if k["top_nummer"] in top_id:
             rel(top_id[k["top_nummer"]], kid, "HAT_REAKTION")
         if k.get("rede_index", -1) >= 0:
@@ -216,7 +226,8 @@ def build_graph(p: Protocol, *, audio_file: str, sitzung_id: str, factchecks=Non
                  + (f", {m.get('datum')}" if m.get("datum") else ""),
         "source_audio": audio_file,
         "generated_by": "graph-protokoll pipeline (SPARK Challenge 2 prototype)",
-        "ontology_layers": ["normativ", "zeitlich", "prozedural", "fallbezug", "provenienz"],
+        "ontology_layers": ["normativ", "zeitlich", "prozedural", "fallbezug", "reaktion",
+                            "faktencheck", "provenienz"],
         "node_count": len(nodes),
         "relationship_count": len(rels),
     }

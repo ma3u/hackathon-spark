@@ -8,6 +8,8 @@
       "zeitlich",
       "prozedural",
       "fallbezug",
+      "reaktion",
+      "faktencheck",
       "provenienz"
     ],
     "node_count": 46,
@@ -18,14 +20,15 @@
       "id": "sitzung_gemeinderat",
       "label": "Sitzung 12. Mai 2026",
       "type": "Sitzung",
-      "subtype": "Öffentliche Gemeinderatssitzung",
+      "subtype": "Gemeinderat Musterbach",
       "gremium": "Gemeinderat Musterbach",
       "datum": "12. Mai 2026",
       "ort": "Rathaus Musterbach, Sitzungssaal",
       "wahlperiode": "",
       "sitzung_nr": "",
       "beschlussfaehig": "True",
-      "audio_file": "sitzung_2026-05-12.mp3"
+      "audio_file": "sitzung_2026-05-12.mp3",
+      "schicht": "zeitlich"
     },
     {
       "id": "gemo_37",
@@ -38,13 +41,15 @@
       "id": "person_dr_petra_hoffmann",
       "label": "Dr. Petra Hoffmann",
       "type": "Person",
-      "subtype": "Bürgermeisterin (Vorsitz)"
+      "subtype": "Bürgermeisterin (Vorsitz)",
+      "schicht": "fallbezug"
     },
     {
       "id": "person_klaus_brandt",
       "label": "Klaus Brandt",
       "type": "Person",
-      "subtype": "Ratsmitglied"
+      "subtype": "Ratsmitglied",
+      "schicht": "fallbezug"
     },
     {
       "id": "fraktion_gr_n_liste_musterbach",
@@ -57,7 +62,8 @@
       "id": "person_sabine_wagner",
       "label": "Sabine Wagner",
       "type": "Person",
-      "subtype": "Ratsmitglied"
+      "subtype": "Ratsmitglied",
+      "schicht": "fallbezug"
     },
     {
       "id": "fraktion_b_rgerfraktion_musterbach",
@@ -70,13 +76,15 @@
       "id": "person_markus_lang",
       "label": "Markus Lang",
       "type": "Person",
-      "subtype": "Schriftführer"
+      "subtype": "Schriftführer",
+      "schicht": "fallbezug"
     },
     {
       "id": "person_thomas_keller",
       "label": "Thomas Keller",
       "type": "Person",
-      "subtype": "Ratsmitglied"
+      "subtype": "Ratsmitglied",
+      "schicht": "fallbezug"
     },
     {
       "id": "fraktion_freie_w_hler_musterbach",
@@ -188,6 +196,7 @@
       "subtype": "GRÜN-Liste Musterbach",
       "timecode": "00:33",
       "start_sec": 33.0,
+      "text": "Die GRÜN-Liste begrüßt das ausdrücklich. Die Wartezeiten im Bürgerbüro sind zu lang. Wichtig ist uns aber, dass auch ältere Bürgerinnen und Bürger ohne Internet weiterhin telefonisch einen Termin bekommen. Das muss im Beschluss festgehalten werden.",
       "schicht": "fallbezug"
     },
     {
@@ -197,6 +206,7 @@
       "subtype": "Bürgerfraktion Musterbach",
       "timecode": "00:58",
       "start_sec": 58.2,
+      "text": "Dem stimmt die Bürgerfraktion zu. Wir beantragen die Ergänzung, dass eine telefonische Terminvergabe als gleichwertiger Zugang erhalten bleibt.",
       "schicht": "fallbezug"
     },
     {
@@ -206,6 +216,7 @@
       "subtype": "Freie Wähler Musterbach",
       "timecode": "02:20",
       "start_sec": 140.3,
+      "text": "Das ist richtig. Ich erkläre mich nach Paragraph 18 der Gemeindeordnung für befangen und werde an der Beratung und Abstimmung zu diesem Punkt nicht teilnehmen. Ich verlasse für diesen Tagesordnungspunkt meinen Platz.",
       "schicht": "fallbezug"
     },
     {
@@ -215,6 +226,7 @@
       "subtype": "Bürgerfraktion Musterbach",
       "timecode": "02:36",
       "start_sec": 156.7,
+      "text": "Die Bürgerfraktion unterstützt den Bücherbus. Gerade die Ortsteile ohne eigene Bücherei profitieren davon. Wir sehen aber die jährlichen Betriebskosten von geschätzt 60.000 Euro kritisch und beantragen, dass die Verwaltung bis zur nächsten Sitzung ein Finanzierungskonzept vorlegt.",
       "schicht": "fallbezug"
     },
     {
@@ -224,6 +236,7 @@
       "subtype": "GRÜN-Liste Musterbach",
       "timecode": "02:59",
       "start_sec": 179.9,
+      "text": "Die GRÜN-Liste teilt die Sorge um die Betriebskosten nicht in dem Maße, unterstützt aber den Antrag auf ein Finanzierungskonzept. Bildung in der Fläche ist uns das wert.",
       "schicht": "fallbezug"
     },
     {

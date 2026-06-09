@@ -804,33 +804,51 @@
     },
     "21-079": {
       "datum": "20.05.2026",
-      "nodes": 1361,
+      "nodes": 1360,
       "rels": 3117,
       "reden": 174,
       "aussagen": 227,
       "saalreaktionen": 624,
       "checks": 12,
-      "ts": "2026-06-08T19:33:45Z"
+      "has_graph": true,
+      "mediathek_verlinkt": 52,
+      "ts": "2026-06-09T06:16:08Z"
     },
     "21-080": {
       "datum": "21.05.2026",
-      "nodes": 2528,
+      "nodes": 2527,
       "rels": 6643,
       "reden": 154,
       "aussagen": 508,
       "saalreaktionen": 1514,
       "checks": 12,
-      "ts": "2026-06-08T19:49:56Z"
+      "has_graph": true,
+      "mediathek_verlinkt": 151,
+      "ts": "2026-06-09T06:31:57Z"
     },
     "21-081": {
       "datum": "22.05.2026",
-      "nodes": 1431,
+      "nodes": 1429,
       "rels": 3760,
       "reden": 85,
       "aussagen": 249,
       "saalreaktionen": 890,
       "checks": 12,
-      "ts": "2026-06-08T19:59:39Z"
+      "has_graph": true,
+      "mediathek_verlinkt": 85,
+      "ts": "2026-06-09T06:41:32Z"
+    },
+    "20-214": {
+      "datum": "18.03.2025",
+      "nodes": 1243,
+      "rels": 3205,
+      "reden": 83,
+      "aussagen": 312,
+      "saalreaktionen": 643,
+      "checks": 12,
+      "has_graph": true,
+      "mediathek_verlinkt": 0,
+      "ts": "2026-06-09T06:49:57Z"
     }
   },
   "gap": {
@@ -845,6 +863,28 @@
       "ref_woerter": 47679,
       "reaktionen": 890,
       "ts": "2026-06-08T20:22:41Z"
+    }
+  },
+  "mediathek": {
+    "21-081": {
+      "datum": "22.05.2026",
+      "nodes": 443,
+      "rels": 758,
+      "reden": 104,
+      "tops": 9,
+      "checks": 51,
+      "quelle_url": "https://dbtg.tv/fvid/7653686",
+      "ts": "2026-06-09T05:43:00Z"
+    },
+    "21-080": {
+      "datum": "21.05.2026",
+      "nodes": 756,
+      "rels": 1296,
+      "reden": 223,
+      "tops": 25,
+      "checks": 47,
+      "quelle_url": "https://dbtg.tv/fvid/7653355",
+      "ts": "2026-06-09T05:48:57Z"
     }
   }
 }

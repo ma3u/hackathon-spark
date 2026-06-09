@@ -189,7 +189,7 @@ def fetch_official_xml(wp: str, nr: int) -> Path | None:
         return None
 
 
-def sync_official(st, *, wp, lo, hi, load, az, force, limit) -> None:
+def sync_official(st, *, wp, lo, hi, load, az, force, limit, web_graph=False) -> None:
     print(f"── Amtliche Plenarprotokolle (dserver, WP {wp}, {lo}–{hi}) ──")
     done = 0
     for nr in range(lo, hi + 1):
@@ -206,17 +206,19 @@ def sync_official(st, *, wp, lo, hi, load, az, force, limit) -> None:
             print(f"  🔎 LLM-Faktencheck {key} (max 12 Aussagen) …")
         try:
             res = session_ingest.ingest_official(
-                xml, wp=wp, nr=nr, az=az, load=load, neo4j=neo4j_cfg())
+                xml, wp=wp, nr=nr, az=az, load=load, write_web_graph=web_graph,
+                mediathek_match=web_graph, neo4j=neo4j_cfg())
         except Exception as e:  # eine kaputte Sitzung darf den Batch nicht abbrechen
             print(f"  ✗ {key}: Ingest fehlgeschlagen ({type(e).__name__}: {e}) — übersprungen.")
             continue
         st["official"][key] = {"datum": res["datum"], "nodes": res["nodes"], "rels": res["rels"],
                                "reden": res["reden"], "aussagen": res["aussagen"],
                                "saalreaktionen": res["saalreaktionen"], "checks": res["checks"],
-                               "ts": _now()}
+                               "has_graph": res.get("has_graph", False),
+                               "mediathek_verlinkt": res.get("mediathek_verlinkt", 0), "ts": _now()}
         save_state(st)
         print(f"  ✓ {key} ({res['datum']}): {res['nodes']} Knoten, {res['reden']} Reden, "
-              f"{res['saalreaktionen']} Saalreaktionen → {res['name']}")
+              f"{res['saalreaktionen']} Saalreaktionen, {res['mediathek_verlinkt']} Video-Deeplinks → {res['name']}")
         done += 1
 
 
@@ -289,32 +291,31 @@ def sync_gap(st, *, wp, force) -> None:
 # ── Index für die UI ──────────────────────────────────────────────────────────────
 
 def write_index(st, *, wp) -> None:
-    keys = sorted(set(st["youtube"]) | set(st["official"]) | set(st["mediathek"]),
+    keys = sorted(set(st["youtube"]) | set(st["official"]),
                   key=lambda k: int(k.split("-")[1]), reverse=True)
     sessions = []
     for key in keys:
         wp_, nr_s = key.split("-")
         nr = int(nr_s)
         yt = st["youtube"].get(key)
-        md = st["mediathek"].get(key)
         amt = st["official"].get(key)
         gap = st["gap"].get(key)
-        entry = {"wp": wp_, "nr": nr, "datum": (yt or md or amt or {}).get("datum", "")}
+        entry = {"wp": wp_, "nr": nr, "datum": (yt or amt or {}).get("datum", "")}
         if yt:
             entry["youtube"] = {"name": f"yt_{wp_}_{nr:03d}", "video_id": yt["video_id"],
                                 "url": f"https://www.youtube.com/watch?v={yt['video_id']}",
                                 "protokoll": f"yt_{wp_}_{nr:03d}_protokoll.html",
                                 "nodes": yt["nodes"], "checks": yt["checks"]}
-        if md:
-            entry["mediathek"] = {"name": f"md_{wp_}_{nr:03d}", "url": md.get("quelle_url", ""),
-                                  "protokoll": f"md_{wp_}_{nr:03d}_protokoll.html",
-                                  "dashboard": f"md_{wp_}_{nr:03d}_dashboard.json",
-                                  "nodes": md["nodes"], "reden": md["reden"], "checks": md["checks"]}
         if amt:
-            entry["amtlich"] = {"name": f"amt_{wp_}_{nr:03d}",
-                                "pdf": session_ingest.DSERVER_PDF.format(wp=wp_, nnn=f"{nr:03d}"),
-                                "xml": session_ingest.DSERVER_XML.format(wp=wp_, nnn=f"{nr:03d}"),
-                                "dashboard": f"amt_{wp_}_{nr:03d}_dashboard.json", "nodes": amt["nodes"]}
+            a = {"name": f"amt_{wp_}_{nr:03d}",
+                 "pdf": session_ingest.DSERVER_PDF.format(wp=wp_, nnn=f"{nr:03d}"),
+                 "xml": session_ingest.DSERVER_XML.format(wp=wp_, nnn=f"{nr:03d}"),
+                 "dashboard": f"amt_{wp_}_{nr:03d}_dashboard.json", "nodes": amt["nodes"]}
+            if amt.get("has_graph"):  # strukturgraph + Protokoll-HTML auf Pages vorhanden
+                a["graph"] = f"amt_{wp_}_{nr:03d}.json"
+                a["protokoll"] = f"amt_{wp_}_{nr:03d}_protokoll.html"
+                a["mediathek_verlinkt"] = amt.get("mediathek_verlinkt", 0)
+            entry["amtlich"] = a
         if gap:
             entry["gap"] = {"file": f"gap_{wp_}_{nr:03d}.json", "wer": gap["wer"]}
         sessions.append(entry)
@@ -339,6 +340,8 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0, help="max. neue Sitzungen pro Lauf (0=alle)")
     ap.add_argument("--load", action="store_true", help="echt nach Neo4j laden (sonst dry-run)")
     ap.add_argument("--no-factcheck", action="store_true", help="ohne LLM-Faktencheck")
+    ap.add_argument("--web-graph", action="store_true",
+                    help="amtlich: strukturellen Graph + Protokoll-HTML + Mediathek-Deeplinks für Pages schreiben")
     ap.add_argument("--force", action="store_true", help="bereits importierte neu importieren")
     args = ap.parse_args()
 
@@ -357,7 +360,7 @@ def main() -> int:
                        force=args.force, limit=args.limit)
     if args.official or args.all:
         sync_official(st, wp=args.wp, lo=args.lo, hi=args.hi, load=args.load, az=az,
-                      force=args.force, limit=args.limit)
+                      force=args.force, limit=args.limit, web_graph=args.web_graph)
     if args.gap or args.all:
         sync_gap(st, wp=args.wp, force=args.force)
 

@@ -8,9 +8,11 @@
       "zeitlich",
       "prozedural",
       "fallbezug",
+      "reaktion",
+      "faktencheck",
       "provenienz"
     ],
-    "node_count": 38,
+    "node_count": 37,
     "relationship_count": 54
   },
   "nodes": [
@@ -18,33 +20,29 @@
       "id": "sitzung_bundestag",
       "label": "Sitzung 14. Mai 2026",
       "type": "Sitzung",
-      "subtype": "Öffentliche Gemeinderatssitzung",
+      "subtype": "Deutscher Bundestag (fiktiv)",
       "gremium": "Deutscher Bundestag (fiktiv)",
       "datum": "14. Mai 2026",
       "ort": "Plenarsaal (fiktiv)",
       "wahlperiode": "",
       "sitzung_nr": "",
       "beschlussfaehig": "",
-      "audio_file": "bundestag_2026-05-14.mp3"
-    },
-    {
-      "id": "gemo_37",
-      "label": "GemO §37 Beschlussfähigkeit",
-      "type": "Norm",
-      "subtype": "Gemeindeordnung",
-      "schicht": "normativ"
+      "audio_file": "bundestag_2026-05-14.mp3",
+      "schicht": "zeitlich"
     },
     {
       "id": "person_dr_karin_brandt",
       "label": "Dr. Karin Brandt",
       "type": "Person",
-      "subtype": "Vizepräsidentin (Sitzungsleitung)"
+      "subtype": "Vizepräsidentin (Sitzungsleitung)",
+      "schicht": "fallbezug"
     },
     {
       "id": "person_stefan_m_ller",
       "label": "Stefan Möller",
       "type": "Person",
-      "subtype": "Abgeordneter"
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
     },
     {
       "id": "fraktion_fraktion_fortschritt",
@@ -57,7 +55,8 @@
       "id": "person_dr_lena_vossberg",
       "label": "Dr. Lena Vossberg",
       "type": "Person",
-      "subtype": "Abgeordnete"
+      "subtype": "Abgeordnete",
+      "schicht": "fallbezug"
     },
     {
       "id": "fraktion_fraktion_mitte",
@@ -70,7 +69,8 @@
       "id": "person_jonas_reuter",
       "label": "Jonas Reuter",
       "type": "Person",
-      "subtype": "Staatssekretär (Bundesregierung)"
+      "subtype": "Staatssekretär (Bundesregierung)",
+      "schicht": "fallbezug"
     },
     {
       "id": "top_7",
@@ -96,6 +96,7 @@
       "subtype": "Fraktion Fortschritt",
       "timecode": "00:18",
       "start_sec": 18.0,
+      "text": "Vielen Dank. Der Ausbau kommt voran. In Deutschland gibt es inzwischen über 150.000 öffentliche Ladepunkte. Drei von vier Ladevorgängen finden ohnehin zu Hause statt, deshalb setzen wir den Schwerpunkt richtig auf private Wallboxen.",
       "schicht": "fallbezug"
     },
     {
@@ -105,6 +106,7 @@
       "subtype": "Fraktion Mitte",
       "timecode": "00:47",
       "start_sec": 47.5,
+      "text": "Frau Präsidentin, das ist Schönfärberei. Die Zahl der öffentlichen Ladepunkte hat sich seit 2021 nicht erhöht. Während die Bundesregierung sich feiert, stehen die Menschen im ländlichen Raum ohne Lademöglichkeit da. Ich frage die Bundesregierung: Bis wann legen Sie einen verbindlichen Ausbauplan für die Landkreise vor?",
       "schicht": "fallbezug"
     },
     {
@@ -114,6 +116,7 @@
       "subtype": "",
       "timecode": "01:18",
       "start_sec": 78.2,
+      "text": "Frau Abgeordnete Vossberg, die Bundesregierung wird dem Ausschuss bis zum 30. Juni 2026 einen regionalisierten Ausbauplan schriftlich vorlegen. Ich weise zugleich die Behauptung zurück, der Bestand habe stagniert; die Zahlen zeigen ein deutliches Wachstum.",
       "schicht": "fallbezug"
     },
     {
@@ -123,6 +126,7 @@
       "subtype": "Fraktion Mitte",
       "timecode": "01:44",
       "start_sec": 104.6,
+      "text": "Dann nennen Sie die Zahlen. Mein Eindruck ist, dass über 40 Prozent der Ladesäulen regelmäßig defekt sind. Das müssen Sie widerlegen.",
       "schicht": "fallbezug"
     },
     {
@@ -251,7 +255,7 @@
       "intensitaet": "stark",
       "start_sec": 46.5,
       "herkunft": "audio-SED",
-      "schicht": "fallbezug"
+      "schicht": "reaktion"
     },
     {
       "id": "ereignis_1",
@@ -263,7 +267,7 @@
       "intensitaet": "mittel",
       "start_sec": 58.0,
       "herkunft": "audio-SED",
-      "schicht": "fallbezug"
+      "schicht": "reaktion"
     },
     {
       "id": "ereignis_2",
@@ -275,7 +279,7 @@
       "intensitaet": "stark",
       "start_sec": 77.0,
       "herkunft": "audio-SED",
-      "schicht": "fallbezug"
+      "schicht": "reaktion"
     },
     {
       "id": "ereignis_3",
@@ -287,7 +291,7 @@
       "intensitaet": "mittel",
       "start_sec": 103.5,
       "herkunft": "audio-SED",
-      "schicht": "fallbezug"
+      "schicht": "reaktion"
     },
     {
       "id": "ereignis_4",
@@ -299,7 +303,7 @@
       "intensitaet": "mittel",
       "start_sec": 124.5,
       "herkunft": "audio-SED",
-      "schicht": "fallbezug"
+      "schicht": "reaktion"
     },
     {
       "id": "segment_0",
