@@ -42,9 +42,15 @@ _VERDICT_COLOR = {
 
 def render(protocol, *, factchecks=None, quelle_url: str | None = None,
            quelle_label: str | None = None, video_id: str | None = None,
-           official_pdf: str | None = None, official_xml: str | None = None,
-           disclaimer: str | None = None, title: str | None = None) -> str:
-    """Protocol → eigenständige HTML-Seite (PDF-ähnliches Plenarprotokoll)."""
+           rede_links: dict | None = None, official_pdf: str | None = None,
+           official_xml: str | None = None, disclaimer: str | None = None,
+           title: str | None = None) -> str:
+    """Protocol → eigenständige HTML-Seite (PDF-ähnliches Plenarprotokoll).
+
+    Deeplink-Modus: `video_id` → ein Video, `&t=`-Sekundenlinks (YouTube). `rede_links`
+    ({utterance_index: clip_url}) → ein Video PRO Rede (Mediathek, dbtg.tv/fvid).
+    """
+    rede_links = rede_links or {}
     m = protocol.meeting
     fc = factchecks or []
     kopf = title or (f"{m.get('gremium', 'Sitzung')}"
@@ -145,11 +151,15 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;
             L.append(f'<h3 id="top{t["nummer"]}">TOP {t["nummer"]}: {_esc(t["titel"])}</h3>')
             for r in reden_by_top.get(t["nummer"], []):
                 q = (r.get("quelle_utterances") or [None])[0]
+                clip = rede_links.get(q) if q is not None else None
                 sec = start_of_utt.get(q) if q is not None else None
-                dl = _deeplink(video_id, sec) if sec is not None else None
                 frak = f' · {_esc(r["fraktion"])}' if r.get("fraktion") else ""
-                tag = (f'<a class="t" href="{dl}" target="_blank" rel="noopener">▶ {_mmss(sec)}</a>'
-                       if dl else "")
+                if clip:  # Mediathek: ein Video pro Rede
+                    tag = f'<a class="t" href="{_esc(clip)}" target="_blank" rel="noopener">▶ Video</a>'
+                elif video_id and sec is not None:  # YouTube: ein Video, Sekunden-Deeplink
+                    tag = f'<a class="t" href="{_deeplink(video_id, sec)}" target="_blank" rel="noopener">▶ {_mmss(sec)}</a>'
+                else:
+                    tag = ""
                 L.append('<div class="rede">')
                 L.append(f'<div class="meta">{tag}{_esc(r["person"])}{frak}</div>')
                 # Text der zugehörigen Utterances
@@ -167,10 +177,14 @@ footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;
         for c in fc:
             col = _VERDICT_COLOR.get(c.verdikt, "#5a636e")
             q = (c.quelle_utterances or [None])[0]
+            clip = rede_links.get(q) if q is not None else None
             sec = start_of_utt.get(q) if q is not None else None
-            dl = _deeplink(video_id, sec) if sec is not None else None
-            deep = (f' · <a href="{dl}" target="_blank" rel="noopener">▶ im Video [{_mmss(sec)}]</a>'
-                    if dl else "")
+            if clip:
+                deep = f' · <a href="{_esc(clip)}" target="_blank" rel="noopener">▶ zum Redebeitrag (Video)</a>'
+            elif video_id and sec is not None:
+                deep = f' · <a href="{_deeplink(video_id, sec)}" target="_blank" rel="noopener">▶ im Video [{_mmss(sec)}]</a>'
+            else:
+                deep = ""
             quelle = ""
             if c.quelle:
                 qt = _esc(c.quelle.get("titel", "Quelle"))

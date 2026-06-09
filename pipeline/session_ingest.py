@@ -17,7 +17,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from . import bundestag_xml, graph_build, export, dashboard, accessible, factcheck, subtitles, protocol_html
+from . import (bundestag_xml, graph_build, export, dashboard, accessible, factcheck,
+               subtitles, protocol_html, mediathek)
 from .align import Utterance
 
 REPO = Path(__file__).resolve().parent.parent
@@ -33,9 +34,10 @@ def _ids(wp, nr) -> dict:
     nnn = f"{int(nr):03d}"
     return {
         "wp": str(wp), "nr": str(int(nr)), "nnn": nnn,
-        "yt_name": f"yt_{wp}_{nnn}", "amt_name": f"amt_{wp}_{nnn}",
-        "yt_prefix": f"yt_{wp}_{nnn}", "amt_prefix": f"amt_{wp}_{nnn}",
+        "yt_name": f"yt_{wp}_{nnn}", "amt_name": f"amt_{wp}_{nnn}", "md_name": f"md_{wp}_{nnn}",
+        "yt_prefix": f"yt_{wp}_{nnn}", "amt_prefix": f"amt_{wp}_{nnn}", "md_prefix": f"md_{wp}_{nnn}",
         "sid_yt": f"sitzung_yt_{wp}_{nnn}", "sid_amt": f"sitzung_amt_{wp}_{nnn}",
+        "sid_md": f"sitzung_md_{wp}_{nnn}",
         "pdf": DSERVER_PDF.format(wp=wp, nnn=nnn), "xml": DSERVER_XML.format(wp=wp, nnn=nnn),
     }
 
@@ -63,6 +65,59 @@ def youtube_protocol(vtt_path, *, wp, nr, video_id, titel, datum,
 def official_protocol(xml_path):
     """Amtliches Plenarprotokoll-XML → Protocol."""
     return bundestag_xml.parse_plenarprotokoll(Path(xml_path))
+
+
+def mediathek_protocol(clips, *, wp, nr):
+    """Mediathek-Clips (mit clip['text']) → Protocol (SPRECHER-attribuiert) + Deeplinks je Rede.
+
+    Jede Rede ist ein eigener Clip → ein Redebeitrag + eine Utterance; der Deeplink ist die
+    Clip-URL (dbtg.tv/fvid/<id>), kein Sekunden-Offset. Liefert (Protocol, rede_links:
+    {utterance_index: clip_url}).
+    """
+    p = extract_protocol()
+    datum = clips[0]["datum"] if clips else ""
+    p.meeting = {"gremium": "Deutscher Bundestag (Mediathek-Mitschnitt)", "datum": datum,
+                 "wahlperiode": str(wp), "sitzung_nr": str(int(nr)), "ort": "Berlin"}
+    top_nr: dict[str, int] = {}
+    rede_links: dict[int, str] = {}
+    for i, c in enumerate(clips):
+        if c["top"] not in top_nr:
+            top_nr[c["top"]] = len(top_nr) + 1
+        tn = top_nr[c["top"]]
+        p.utterances.append(Utterance(
+            start=float(i), end=float(i), speaker_label=c["fvid"], speaker_name=c["speaker"],
+            rolle=c["role"], fraktion=c["fraktion"], text=c["text"], herkunft="protokoll"))
+        p.redebeitraege.append({"person": c["speaker"], "fraktion": c["fraktion"],
+                                "top_nummer": tn, "timecode": c["uhr"], "start": 0.0,
+                                "quelle_utterances": [i]})
+        rede_links[i] = c["url"]
+    p.tops = [{"nummer": n, "titel": t, "quelle_utterances": [i for i, c in enumerate(clips)
+                                                              if top_nr[c["top"]] == n]}
+              for t, n in top_nr.items()]
+    return p, rede_links
+
+
+def llm_factcheck_mediathek(p, *, model, base_url, api_key, max_passages: int = 16):
+    """LLM extrahiert+prüft echte Claims aus den Reden; Aussagen tragen den echten Sprecher."""
+    n = len(p.utterances)
+    step = max(1, n // max_passages)
+    passages = [{"text": " ".join(u.text for u in p.utterances[i:i + step])[:6000],
+                 "utt_index": i, "start": 0.0} for i in range(0, n, step)]
+    res = factcheck.factcheck_transcript_llm(
+        passages, model=model, base_url=base_url, api_key=api_key, max_passages=max_passages)
+    p.aussagen, checks = [], []
+    for i, r in enumerate(res):
+        ui = r["utt_index"]
+        u = p.utterances[ui] if 0 <= ui < n else None
+        person = u.speaker_name if u else "Redner:in"
+        fraktion = u.fraktion if u else None
+        p.aussagen.append({"text": r["aussage"], "person": person, "fraktion": fraktion,
+                           "top_nummer": 1, "quelle_utterances": [ui]})
+        checks.append(factcheck.FactCheck(
+            aussage_index=i, text=r["aussage"], person=person, fraktion=fraktion,
+            top_nummer=1, verdikt=r["verdikt"], begruendung=r["begruendung"], quelle=r["quelle"],
+            quelle_utterances=[ui], score=0.0))
+    return checks
 
 
 def extract_protocol():
@@ -206,3 +261,46 @@ def ingest_official(xml_path, *, wp, nr, az=None, factchecks=None, load=False,
             "reden": len(p.redebeitraege), "aussagen": len(p.aussagen),
             "saalreaktionen": len(p.kommentare), "checks": len(checks),
             "quelle_url": ids["pdf"], "protocol": p}
+
+
+def ingest_mediathek(*, wp, nr, az=None, load=False, write_web=True, neo4j=None,
+                     max_pages: int = 60) -> dict | None:
+    """Komplett: Mediathek-Clips → SPRECHER-attribuiertes Protocol → Graph + web/ + Neo4j (md_).
+
+    Füllt YouTube-Lücken mit korrigierten amtlichen Untertiteln; Deeplink je Rede (dbtg.tv).
+    Gibt None zurück, wenn die Sitzung (noch) keine Clips/Untertitel hat.
+    """
+    ids = _ids(wp, nr)
+    clips = mediathek.fetch_srts(mediathek.collect_session(nr, max_pages=max_pages))
+    if not clips:
+        return None
+    p, rede_links = mediathek_protocol(clips, wp=wp, nr=nr)
+    checks = llm_factcheck_mediathek(p, **az) if az else []
+    graph = graph_build.build_graph(p, audio_file=f"mediathek_{wp}_{ids['nnn']}",
+                                    sitzung_id=ids["sid_md"], factchecks=checks)
+    quelle_url = clips[0]["url"]
+    _decorate(graph, herkunft="mediathek", quelle_typ="mediathek", quelle_url=quelle_url,
+              quelle_label=f"Bundestag-Mediathek — {nr}. Sitzung ({p.meeting['datum']}), korrigierte Untertitel",
+              official_pdf=ids["pdf"], official_xml=ids["xml"],
+              disclaimer=_FC_DISCLAIMER if checks else None)
+    OUT.mkdir(parents=True, exist_ok=True)
+    export.write_json(graph, OUT / f"{ids['md_name']}_graph_data.json")
+    if write_web:
+        WEB.mkdir(parents=True, exist_ok=True)
+        export.write_json(graph, WEB / f"{ids['md_name']}.json")
+        export.write_json(dashboard.compute_dashboard(p, checks), WEB / f"{ids['md_name']}_dashboard.json")
+        html = protocol_html.render(
+            p, factchecks=checks, quelle_url=quelle_url, rede_links=rede_links,
+            quelle_label="Bundestag-Mediathek (korrigierte Untertitel)",
+            official_pdf=ids["pdf"], official_xml=ids["xml"],
+            disclaimer=_FC_DISCLAIMER if checks else None,
+            title=f"Deutscher Bundestag — {nr}. Sitzung, {p.meeting['datum']} (Mediathek)")
+        (WEB / f"{ids['md_name']}_protokoll.html").write_text(html, encoding="utf-8")
+        (WEB / f"{ids['md_name']}_barrierefrei.txt").write_text(
+            accessible.summarize(p, checks), encoding="utf-8")
+    if neo4j is not None or load:
+        to_neo4j(graph, prefix=ids["md_prefix"], load=load, **(neo4j or {}))
+    return {"name": ids["md_name"], "nodes": graph["metadata"]["node_count"],
+            "rels": graph["metadata"]["relationship_count"], "reden": len(clips),
+            "datum": p.meeting["datum"], "tops": len(p.tops), "checks": len(checks),
+            "quelle_url": quelle_url, "protocol": p}

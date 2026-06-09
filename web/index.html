@@ -134,7 +134,8 @@
       // Reale Sitzungen (web/data/sessions.json) + aktuell geladener Graph.
       let curData = null, SESSIONS = [];
       const entryFor = (sc) => SESSIONS.find(
-        (e) => (e.youtube && e.youtube.name === sc) || (e.amtlich && e.amtlich.name === sc));
+        (e) => (e.youtube && e.youtube.name === sc) || (e.mediathek && e.mediathek.name === sc)
+            || (e.amtlich && e.amtlich.name === sc));
       // Quelle/Deeplink-Infos: zuerst aus den Graph-Metadaten (skaliert über alle Sitzungen),
       // sonst aus der statischen SOURCE-Tabelle (Legacy-Demos).
       function srcInfo(data) {
@@ -239,10 +240,12 @@
         else if (src && src.mediathek) links.push(`<a href="${src.mediathek}" target="_blank" rel="noopener">Mediathek</a>`);
         if (src && src.pdf) links.push(`<a href="${src.pdf}" target="_blank" rel="noopener">amtliches PDF</a>`);
         if (src && src.xml) links.push(`<a href="${src.xml}" target="_blank" rel="noopener">amtl. XML</a>`);
-        if (e && e.youtube && e.youtube.protokoll) links.push(`<a href="./data/${e.youtube.protokoll}" target="_blank" rel="noopener">📄 Protokoll (HTML)</a>`);
+        const prot = (e && e.youtube && e.youtube.protokoll) || (e && e.mediathek && e.mediathek.protokoll);
+        if (prot) links.push(`<a href="./data/${prot}" target="_blank" rel="noopener">📄 Protokoll (HTML)</a>`);
         if (e && e.gap) links.push(`<a href="./data/${e.gap.file}" target="_blank" rel="noopener">🔀 Gap-Analyse (WER ${Math.round(e.gap.wer * 100)}%)</a>`);
         const quelle = links.length ? links.join(" · ") : (m.source_audio || "—");
         const herk = m.herkunft === "youtube" ? "🎬 YouTube-Mitschnitt (mit Zeit-Deeplinks)"
+          : m.herkunft === "mediathek" ? "📺 Bundestag-Mediathek (korrigierte Untertitel, sprecher-attribuiert)"
           : m.herkunft === "amtlich" ? "🟢 amtliches Plenarprotokoll" : null;
         $("meta").innerHTML = `<h2>${m.title || "Protokoll-Graph"}</h2>
           <div class="prop"><b>Quelle:</b> ${quelle}</div>
@@ -400,8 +403,9 @@
       // korrekte Umlaute); amtliche Sitzung → amtliches PDF; Legacy-Demo → TTS-Textfassung.
       $("a11y").addEventListener("click", () => {
         const e = entryFor(current), m = (curData && curData.metadata) || {};
-        if (m.quelle_typ === "youtube" || (e && e.youtube && e.youtube.name === current))
-          window.open(`./data/${current}_protokoll.html`, "_blank");
+        const hasProt = m.quelle_typ === "youtube" || m.quelle_typ === "mediathek"
+          || (e && ((e.youtube && e.youtube.name === current) || (e.mediathek && e.mediathek.name === current)));
+        if (hasProt) window.open(`./data/${current}_protokoll.html`, "_blank");
         else if (e && e.amtlich && e.amtlich.pdf) window.open(e.amtlich.pdf, "_blank");
         else window.open(`./data/${current}_barrierefrei.txt`, "_blank");
       });
@@ -414,8 +418,9 @@
         if (!SESSIONS.length) { sel.style.display = "none"; return; }
         sel.innerHTML = `<option value="">📺 Reale Sitzung… (${SESSIONS.length})</option>` +
           SESSIONS.map((e) => {
-            const sc = (e.youtube && e.youtube.name) || (e.amtlich && e.amtlich.name);
-            return `<option value="${sc}">${e.youtube ? "🎬" : "🟢"} ${e.nr}. Sitzung${e.datum ? " (" + e.datum + ")" : ""}</option>`;
+            const sc = (e.youtube && e.youtube.name) || (e.mediathek && e.mediathek.name) || (e.amtlich && e.amtlich.name);
+            const tag = e.youtube ? "🎬" : e.mediathek ? "📺" : "🟢";
+            return `<option value="${sc}">${tag} ${e.nr}. Sitzung${e.datum ? " (" + e.datum + ")" : ""}</option>`;
           }).join("");
         sel.addEventListener("change", () => {
           if (!sel.value) return;

@@ -53,9 +53,10 @@ def _now() -> str:
 
 
 def load_state() -> dict:
-    if STATE.exists():
-        return json.loads(STATE.read_text(encoding="utf-8"))
-    return {"youtube": {}, "official": {}, "gap": {}}
+    st = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
+    for k in ("youtube", "official", "mediathek", "gap"):
+        st.setdefault(k, {})
+    return st
 
 
 def save_state(st: dict) -> None:
@@ -219,6 +220,37 @@ def sync_official(st, *, wp, lo, hi, load, az, force, limit) -> None:
         done += 1
 
 
+# ── Mediathek (Bundestag-Clips: korrigierte Untertitel, sprecher-attribuiert) ──────
+
+def sync_mediathek(st, *, wp, lo, hi, load, az, force, limit) -> None:
+    print(f"── Bundestag-Mediathek (korrigierte Untertitel, WP {wp}, {lo}–{hi}) ──")
+    done = 0
+    # neueste zuerst (Feed ist newest-first → wenig Paging für aktuelle Sitzungen)
+    for nr in range(hi, lo - 1, -1):
+        key = f"{wp}-{nr:03d}"
+        if key in st["mediathek"] and not force:
+            continue
+        if limit and done >= limit:
+            break
+        if az:
+            print(f"  🔎 {key}: Clips holen + LLM-Faktencheck …")
+        try:
+            res = session_ingest.ingest_mediathek(wp=wp, nr=nr, az=az, load=load, neo4j=neo4j_cfg())
+        except Exception as e:
+            print(f"  ✗ {key}: fehlgeschlagen ({type(e).__name__}: {e}) — übersprungen.")
+            continue
+        if not res:
+            print(f"  • {key}: keine Mediathek-Clips/Untertitel (zu alt im Feed?) — übersprungen.")
+            continue
+        st["mediathek"][key] = {"datum": res["datum"], "nodes": res["nodes"], "rels": res["rels"],
+                                "reden": res["reden"], "tops": res["tops"], "checks": res["checks"],
+                                "quelle_url": res["quelle_url"], "ts": _now()}
+        save_state(st)
+        print(f"  ✓ {key} ({res['datum']}): {res['reden']} Reden, {res['nodes']} Knoten, "
+              f"{res['checks']} Faktenchecks → {res['name']}")
+        done += 1
+
+
 # ── Gap-Analyse YouTube ↔ amtlich ─────────────────────────────────────────────────
 
 def sync_gap(st, *, wp, force) -> None:
@@ -257,21 +289,27 @@ def sync_gap(st, *, wp, force) -> None:
 # ── Index für die UI ──────────────────────────────────────────────────────────────
 
 def write_index(st, *, wp) -> None:
-    keys = sorted(set(st["youtube"]) | set(st["official"]), key=lambda k: int(k.split("-")[1]),
-                  reverse=True)
+    keys = sorted(set(st["youtube"]) | set(st["official"]) | set(st["mediathek"]),
+                  key=lambda k: int(k.split("-")[1]), reverse=True)
     sessions = []
     for key in keys:
         wp_, nr_s = key.split("-")
         nr = int(nr_s)
         yt = st["youtube"].get(key)
+        md = st["mediathek"].get(key)
         amt = st["official"].get(key)
         gap = st["gap"].get(key)
-        entry = {"wp": wp_, "nr": nr, "datum": (yt or amt or {}).get("datum", "")}
+        entry = {"wp": wp_, "nr": nr, "datum": (yt or md or amt or {}).get("datum", "")}
         if yt:
             entry["youtube"] = {"name": f"yt_{wp_}_{nr:03d}", "video_id": yt["video_id"],
                                 "url": f"https://www.youtube.com/watch?v={yt['video_id']}",
                                 "protokoll": f"yt_{wp_}_{nr:03d}_protokoll.html",
                                 "nodes": yt["nodes"], "checks": yt["checks"]}
+        if md:
+            entry["mediathek"] = {"name": f"md_{wp_}_{nr:03d}", "url": md.get("quelle_url", ""),
+                                  "protokoll": f"md_{wp_}_{nr:03d}_protokoll.html",
+                                  "dashboard": f"md_{wp_}_{nr:03d}_dashboard.json",
+                                  "nodes": md["nodes"], "reden": md["reden"], "checks": md["checks"]}
         if amt:
             entry["amtlich"] = {"name": f"amt_{wp_}_{nr:03d}",
                                 "pdf": session_ingest.DSERVER_PDF.format(wp=wp_, nnn=f"{nr:03d}"),
@@ -290,9 +328,11 @@ def write_index(st, *, wp) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Inkrementelle Bundestags-Sitzungs-Ingestion")
     ap.add_argument("--youtube", action="store_true", help="neue YouTube-Streams importieren")
+    ap.add_argument("--mediathek", action="store_true",
+                    help="Bundestag-Mediathek (korrigierte Untertitel, sprecher-attribuiert)")
     ap.add_argument("--official", action="store_true", help="amtliche XML importieren")
     ap.add_argument("--gap", action="store_true", help="Gap-Analyse YT↔amtlich")
-    ap.add_argument("--all", action="store_true", help="youtube + official + gap")
+    ap.add_argument("--all", action="store_true", help="youtube + mediathek + official + gap")
     ap.add_argument("--wp", default="21", help="Wahlperiode (Default 21)")
     ap.add_argument("--from", dest="lo", type=int, default=1, help="erste Sitzungsnr (official)")
     ap.add_argument("--to", dest="hi", type=int, default=81, help="letzte Sitzungsnr (official)")
@@ -302,8 +342,8 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="bereits importierte neu importieren")
     args = ap.parse_args()
 
-    if not (args.youtube or args.official or args.gap or args.all):
-        ap.error("Mindestens eine Aktion: --youtube / --official / --gap / --all")
+    if not (args.youtube or args.mediathek or args.official or args.gap or args.all):
+        ap.error("Mindestens eine Aktion: --youtube / --mediathek / --official / --gap / --all")
 
     st = load_state()
     az = azure_cfg(args.no_factcheck)
@@ -312,6 +352,9 @@ def main() -> int:
 
     if args.youtube or args.all:
         sync_youtube(st, wp=args.wp, load=args.load, az=az, force=args.force, limit=args.limit)
+    if args.mediathek or args.all:
+        sync_mediathek(st, wp=args.wp, lo=args.lo, hi=args.hi, load=args.load, az=az,
+                       force=args.force, limit=args.limit)
     if args.official or args.all:
         sync_official(st, wp=args.wp, lo=args.lo, hi=args.hi, load=args.load, az=az,
                       force=args.force, limit=args.limit)
