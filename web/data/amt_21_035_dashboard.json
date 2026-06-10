@@ -9,44 +9,166 @@
     "reden": 83,
     "schriftliche_beitraege": 0,
     "woerter": 43451,
+    "gesamtzeit_min": 334,
     "tops": 7,
     "saalreaktionen": 769,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Carolin Wagner",
+      "woerter": 1269,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Lina Seitzl",
+      "woerter": 1179,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Peter Bohnhof",
+      "woerter": 1149,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jan Dieren",
+      "woerter": 1049,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Ruben Rupp",
+      "woerter": 1043,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Carsten Träger",
+      "woerter": 1026,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Karsten Wildberger",
+      "woerter": 906,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Wilhelm Gebhard",
+      "woerter": 901,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Christoph Birghan",
+      "woerter": 893,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Hans-Jürgen Goßner",
+      "woerter": 839,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sven Schulze",
+      "woerter": 771,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Ralph Brinkhaus",
+      "woerter": 762,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Julia Verlinden",
+      "woerter": 755,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Fabian Fahl",
+      "woerter": 738,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Karsten Hilse",
+      "woerter": 736,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 14487
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 12296
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 8147
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4643
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 3878
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales zu dem Antrag der Abgeordneten Anne Zerr, Doris Achelwilm, Dr. Dietmar Bartsch, weiterer Abgeordneter und der Fraktion Die Link…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 9179
     },
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Erster Klimakipppunkt laut internationaler Studie überschritten – Konsequenzen für das Handeln der Bundesregierung",
+      "thema": "Energie & Klima",
       "woerter": 8706
     },
     {
       "top": 1,
       "titel": "Unterrichtung durch die Bundesregierung: Modernisierungsagenda für Staat und Verwaltung (Bund) – Für ein schnelles, digitales und handlungsfähiges Deutschland",
+      "thema": "Digitalisierung",
       "woerter": 8147
     },
     {
       "top": 3,
       "titel": "Unterrichtung durch die Bundesregierung: Bericht der Beauftragten der Bundesregierung für Ostdeutschland 2025 35 Jahre: Aufgewachsen in Einheit?",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 5308
     },
     {
       "top": 4,
       "titel": "a) Antrag der Abgeordneten Ayse Asar, Dr. Andrea Lübcke, Claudia Müller, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Bildung bezahlbar machen – BAföG-Reform jetzt",
+      "thema": "Bildung & Forschung",
       "woerter": 4643
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Pierre Lamely, Ruben Rupp, Tobias Teich, weiterer Abgeordneter und der Fraktion der AfD: Privatsphäre schützen – Nein zur EU-Chatkontrolle",
+      "thema": "Krieg in der Ukraine",
       "woerter": 3878
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Gesetzes gegen den unlauteren Wettbewerb",
+      "thema": "Energie & Klima",
       "woerter": 3590
     }
   ],
@@ -67,7 +189,7 @@
       "prozent": 19.3
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5784,
       "prozent": 14.5
     },
@@ -190,7 +312,7 @@
       "negativ": 33
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 77,
       "negativ": 5
     },
@@ -205,7 +327,5 @@
       "negativ": 12
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

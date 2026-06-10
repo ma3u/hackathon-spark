@@ -9,44 +9,170 @@
     "reden": 71,
     "schriftliche_beitraege": 25,
     "woerter": 37413,
+    "gesamtzeit_min": 288,
     "tops": 8,
     "saalreaktionen": 686,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Sebastian Maack",
+      "woerter": 1547,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 1485,
+      "reden": 3,
+      "fraktion": null
+    },
+    {
+      "name": "Alexander Throm",
+      "woerter": 1438,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Annalena Baerbock",
+      "woerter": 1290,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Christian Wirth",
+      "woerter": 1048,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Gottfried Curio",
+      "woerter": 934,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Tobias Matthias Peterka",
+      "woerter": 891,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Arne Raue",
+      "woerter": 864,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Lukas Krieger",
+      "woerter": 851,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Clara Bünger",
+      "woerter": 808,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Cornell-Anette Babendererde",
+      "woerter": 795,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tamara Mazzi",
+      "woerter": 790,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Emmi Zeulner",
+      "woerter": 733,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Florian Oest",
+      "woerter": 723,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 687,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 14093
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 7703
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 4095
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 4019
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 3785
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 3718
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Aussetzung des Familiennachzugs zu subsidiär Schutzberechtigten",
+      "thema": "Migration & Asyl",
       "woerter": 9935
     },
     {
       "top": 2,
       "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zum Verbot der Fi…",
+      "thema": "Bildung & Forschung",
       "woerter": 7703
     },
     {
       "top": 3,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Staatsangehörigkeitsgesetzes",
+      "thema": "Migration & Asyl",
       "woerter": 4158
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Umsetzung von Vorgaben der Richtlinie (EU) 2023/2413 für Zulassungsverfahren nach dem Bundes-Immiss…",
+      "thema": "Energie & Klima",
       "woerter": 4095
     },
     {
       "top": 4,
       "titel": "Antrag der Fraktion Die Linke: Mehrwertsteuer auf Grundnahrungsmittel, Hygieneprodukte und auf Bus und Bahn abschaffen",
+      "thema": "Steuern & Finanzen",
       "woerter": 4019
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Simone Fischer, Dr. Janosch Dahmen, Linda Heitmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Priorität für Pflege – Jetzt Sofortmaßnahmen ergreifen",
+      "thema": "Gesundheit & Pflege",
       "woerter": 3785
     },
     {
       "top": 7,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zum Vertrag über die Errichtung, den Betrieb und die Weiterentwicklung des Nationalen Once-Only-Technical-Systems (NOO…",
+      "thema": "Digitalisierung",
       "woerter": 3718
     }
   ],
@@ -67,7 +193,7 @@
       "prozent": 17.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5369,
       "prozent": 15.6
     },
@@ -195,7 +321,7 @@
       "negativ": 19
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 85,
       "negativ": 4
     },
@@ -210,10 +336,5 @@
       "negativ": 2
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 7,
-    "teilweise": 2,
-    "bestätigt": 2,
-    "irreführend": 1
-  }
+  "faktencheck_bilanz": {}
 }

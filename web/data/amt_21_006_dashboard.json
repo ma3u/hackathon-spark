@@ -9,34 +9,150 @@
     "reden": 160,
     "schriftliche_beitraege": 0,
     "woerter": 35920,
+    "gesamtzeit_min": 276,
     "tops": 6,
     "saalreaktionen": 649,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 4356,
+      "reden": 34,
+      "fraktion": null
+    },
+    {
+      "name": "Verena Hubertz",
+      "woerter": 3475,
+      "reden": 28,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Eva Högl",
+      "woerter": 1701,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Alexander Engelhard",
+      "woerter": 1425,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Hess",
+      "woerter": 1008,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Marc Henrichmann",
+      "woerter": 983,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Christoph Frauenpreiß",
+      "woerter": 878,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Isabel Mackensen-Geis",
+      "woerter": 877,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Hannes Gnauck",
+      "woerter": 853,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jakob Blankenburg",
+      "woerter": 846,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Ingo Vogel",
+      "woerter": 764,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Christian Wirth",
+      "woerter": 755,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 733,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Rasha Nasr",
+      "woerter": 722,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Karl Bär",
+      "woerter": 680,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 21171
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 6108
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 4324
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 4317
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Innere Sicherheit",
       "woerter": 13130
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Zahl der Messerangriffe in Deutschland steigt stark – Ursachen klar benennen und entschlossen handeln",
+      "thema": "Innere Sicherheit",
       "woerter": 8041
     },
     {
       "top": 4,
       "titel": "Beratung der Unterrichtung durch die Wehrbeauftragte: Jahresbericht 2024 (66. Bericht)",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 6108
     },
     {
       "top": 6,
       "titel": "Antrag der Fraktion BÜNDNIS 90/DIE GRÜNEN zu dem Vorschlag für eine Verordnung des Europäischen Parlaments und des Rates über mit bestimmten neuen genomischen Techniken gewonnene Pflanzen und die aus…",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 4324
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Andreas Bleck, Dr. Michael Blos, Dr. Ingo Hahn, weiterer Abgeordneter und der Fraktion der AfD: Moratorium für den Rückbau abgeschalteter Kernkraftwerke",
+      "thema": "Energie & Klima",
       "woerter": 4317
     }
   ],
@@ -52,7 +168,7 @@
       "prozent": 22.8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4432,
       "prozent": 17.2
     },
@@ -164,7 +280,7 @@
       "negativ": 20
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 64,
       "negativ": 12
     },
@@ -189,8 +305,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

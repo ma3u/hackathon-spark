@@ -9,79 +9,232 @@
     "reden": 147,
     "schriftliche_beitraege": 1,
     "woerter": 80042,
+    "gesamtzeit_min": 616,
     "tops": 17,
     "saalreaktionen": 1407,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 3384,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Carsten Müller",
+      "woerter": 1660,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Nina Scheer",
+      "woerter": 1319,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 1273,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Cansu Özdemir",
+      "woerter": 1264,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Saskia Ludwig",
+      "woerter": 1213,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1202,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Kai Whittaker",
+      "woerter": 1178,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 1106,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dunja Kreiser",
+      "woerter": 1025,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Hakan Demir",
+      "woerter": 975,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Heiko Hain",
+      "woerter": 974,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sandra Carstensen",
+      "woerter": 972,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Carmen Wegge",
+      "woerter": 931,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Karsten Hilse",
+      "woerter": 920,
+      "reden": 2,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 20045
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 12430
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 10119
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 9441
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 8580
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 5532
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4529
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 3710
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 3616
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 1133
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 907
+    }
+  ],
   "top_themen": [
     {
       "top": 4,
       "titel": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung der Regelungen über die zulässige Miethöhe bei Mietbeginn",
+      "thema": "Wohnen & Bau",
       "woerter": 10119
     },
     {
       "top": 8,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Lage im Nahen und Mittleren Osten",
+      "thema": "Innere Sicherheit",
       "woerter": 10070
     },
     {
       "top": 3,
       "titel": "Antrag der Abgeordneten Nyke Slawik, Ulle Schauws, Helge Limburg, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Queerfeindliche Hasskriminalität wirksam bekämpfen und die rechtliche D…",
+      "thema": "Innere Sicherheit",
       "woerter": 9975
     },
     {
       "top": 5,
       "titel": "a) Erste Beratung des von den Abgeordneten Karsten Hilse, Steffen Kotré, Dr. Rainer Kraft, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Änderung des Grundg…",
+      "thema": "Energie & Klima",
       "woerter": 9441
     },
     {
       "top": 2,
       "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für ein steuerliches Investitionssofortprogramm zur Stärkung des Wirtschaftsstandorts…",
+      "thema": "Steuern & Finanzen",
       "woerter": 8467
     },
     {
       "top": 12,
       "titel": "Antrag der Abgeordneten René Springer, Peter Bohnhof, Gerrit Huy, weiterer Abgeordneter und der Fraktion der AfD: Bürgergeldbezug für Kriegsflüchtlinge aus der Ukraine beenden",
+      "thema": "Krieg in der Ukraine",
       "woerter": 5532
     },
     {
       "top": 10,
       "titel": "Antrag der Abgeordneten Pascal Meiser, Doris Achelwilm, Dr. Dietmar Bartsch, weiterer Abgeordneter und der Fraktion Die Linke: Aktionsplan zur Stärkung der Tarifbindung – Bessere Arbeitsbedingungen u…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4529
     },
     {
       "top": 9,
       "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der internationalen Sicherheitspräse…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4307
     },
     {
       "top": 11,
       "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4273
     },
     {
       "top": 14,
       "titel": "Antrag der Abgeordneten Jörn König, Kay Gottschalk, Jan Wenzel Schmidt, weiterer Abgeordneter und der Fraktion der AfD: Programm für Deutschland – Ein neuer Weg für die Ertragsteuern – Grundlegende S…",
+      "thema": "Steuern & Finanzen",
       "woerter": 3963
     },
     {
       "top": 13,
       "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des Telekommunikationsgesetzes und zur Feststellung des überragenden öffentlic…",
+      "thema": "Digitalisierung",
       "woerter": 3710
     },
     {
       "top": 15,
       "titel": "– Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verlängerung der Fristen im Investitionsprogramm Ganztagsausbau",
+      "thema": "Bildung & Forschung",
       "woerter": 3616
     },
     {
       "top": 16,
       "titel": "Antrag der Abgeordneten Matthias Gastel, Swantje Henrike Michaelsen, Tarek Al-Wazir, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die Bahn zum Rückgrat klima- und familienfreundliche…",
+      "thema": "Verkehr & Mobilität",
       "woerter": 1133
     },
     {
       "top": 6,
       "titel": "a) – Zweite Beratung und Schlussabstimmung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zu dem Vierten Protokoll vom 18. September 2023 zur Änderung des Vertrags v…",
+      "thema": null,
       "woerter": 907
     }
   ],
@@ -102,7 +255,7 @@
       "prozent": 17.8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11689,
       "prozent": 15.1
     },
@@ -279,7 +432,7 @@
       "negativ": 51
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 156,
       "negativ": 15
     },
@@ -294,7 +447,5 @@
       "negativ": 8
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

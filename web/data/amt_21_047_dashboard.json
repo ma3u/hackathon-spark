@@ -9,84 +9,230 @@
     "reden": 167,
     "schriftliche_beitraege": 0,
     "woerter": 87043,
+    "gesamtzeit_min": 670,
     "tops": 15,
     "saalreaktionen": 1673,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Ralf Stegner",
+      "woerter": 2109,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 1499,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Christian Görke",
+      "woerter": 1434,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Christiane Schenderlein",
+      "woerter": 1393,
+      "reden": 3,
+      "fraktion": null
+    },
+    {
+      "name": "Agnieszka Brugger",
+      "woerter": 1379,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Florian Hahn",
+      "woerter": 1296,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Christoph Ploß",
+      "woerter": 1278,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 1215,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Markus Frohnmaier",
+      "woerter": 1079,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Marc Bernhard",
+      "woerter": 1062,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Lars Rohwer",
+      "woerter": 996,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Jan Feser",
+      "woerter": 956,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 946,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Norbert Röttgen",
+      "woerter": 943,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ingo Vogel",
+      "woerter": 929,
+      "reden": 2,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 18366
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 16711
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 13315
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 8924
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 8700
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 8273
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 4489
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4275
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 3990
+    }
+  ],
   "top_themen": [
     {
       "top": 5,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Einen gerechten und dauerhaften Frieden für die Ukraine erreichen",
+      "thema": "Krieg in der Ukraine",
       "woerter": 12459
     },
     {
       "top": 2,
       "titel": "a) Antrag der Abgeordneten Lisa Badum, Dr. Jan-Niclas Gesenhues, Julia Schneider, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Rückbau der EU-Klimapolitik stoppen – Deutschlands Klim…",
+      "thema": "Energie & Klima",
       "woerter": 9833
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Martin Erwin Renner, Dr. Götz Frömming, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Entlassung des Staatsministers für Kultur und Medien",
+      "thema": "Digitalisierung",
       "woerter": 9396
     },
     {
       "top": 3,
       "titel": "Antrag der Fraktionen CDU/CSU, SPD und BÜNDNIS 90/DIE GRÜNEN: Olympische und Paralympische Sommerspiele – Volle Unterstützung einer deutschen Bewerbung",
+      "thema": "Verkehr & Mobilität",
       "woerter": 8924
     },
     {
       "top": 1,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Steueränderungsgesetzes 2025",
+      "thema": "Steuern & Finanzen",
       "woerter": 8273
     },
     {
       "top": 13,
       "titel": "Antrag der Abgeordneten Ulle Schauws, Helge Limburg, Marcel Emmerich, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gewaltschutz ganzheitlich denken – Istanbul-Konvention vollständig…",
+      "thema": "Migration & Asyl",
       "woerter": 4489
     },
     {
       "top": 9,
       "titel": "Antrag der Abgeordneten Jan Feser, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Schutz vor Gewalt und bessere Arbeitsbedingungen für Mitarbeiter der Jobcenter",
+      "thema": "Rente & Soziales",
       "woerter": 4359
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Für eine sichere Rente unserer Kinder – Junior-Spardepot",
+      "thema": "Rente & Soziales",
       "woerter": 4341
     },
     {
       "top": 6,
       "titel": "Vereinbarte Debatte: Tag der Menschenrechte",
+      "thema": "Bildung & Forschung",
       "woerter": 4275
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Maren Kaminski, Cansu Özdemir, Vinzenz Glaser, weiterer Abgeordneter und der Fraktion Die Linke: Für eine Friedensperspektive im Sudan – Humanitäre Hilfe ausbauen, Waffenliefe…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4252
     },
     {
       "top": 10,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Militärischen Sicherheit in der Bundeswehr",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 3990
     },
     {
       "top": 12,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Sicherheitsüberprüfungsgesetzes und zur Änderung beamtenrechtlicher Vorschriften",
+      "thema": "Digitalisierung",
       "woerter": 3919
     },
     {
       "top": 8,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Ausbaus von Geothermieanlagen, Wärmepumpen und Wärmespeichern sowie zur Änderung we…",
+      "thema": "Energie & Klima",
       "woerter": 3625
     },
     {
       "top": 14,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der EU-Erneuerbaren-Richtlinie in den Bereichen Windenergie auf See und Stromnetze",
+      "thema": "Energie & Klima",
       "woerter": 2466
     },
     {
       "top": 15,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, wei…",
+      "thema": "Energie & Klima",
       "woerter": 2442
     }
   ],
@@ -107,7 +253,7 @@
       "prozent": 21.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11576,
       "prozent": 14.0
     },
@@ -278,7 +424,7 @@
       "negativ": 24
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 167,
       "negativ": 16
     },
@@ -288,8 +434,5 @@
       "negativ": 17
     }
   ],
-  "faktencheck_bilanz": {
-    "bestätigt": 1,
-    "unbelegt": 11
-  }
+  "faktencheck_bilanz": {}
 }

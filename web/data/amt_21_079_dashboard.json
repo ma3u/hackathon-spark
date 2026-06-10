@@ -9,39 +9,156 @@
     "reden": 174,
     "schriftliche_beitraege": 0,
     "woerter": 40978,
+    "gesamtzeit_min": 315,
     "tops": 7,
     "saalreaktionen": 624,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 5641,
+      "reden": 38,
+      "fraktion": null
+    },
+    {
+      "name": "Verena Hubertz",
+      "woerter": 2910,
+      "reden": 25,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 1286,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Christian Moser",
+      "woerter": 987,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Julia Schneider",
+      "woerter": 955,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Jakob Blankenburg",
+      "woerter": 873,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 855,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Anna Aeikens",
+      "woerter": 830,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Boris Mijatović",
+      "woerter": 812,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Karsten Hilse",
+      "woerter": 788,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Michael Kellner",
+      "woerter": 780,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Rainer Kraft",
+      "woerter": 753,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Fabian Fahl",
+      "woerter": 721,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Sascha van Beek",
+      "woerter": 684,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sara Nanni",
+      "woerter": 666,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 22921
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 9567
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 4281
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4209
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Energie & Klima",
       "woerter": 14332
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Extremes Szenario zur Erderwärmung laut Forschern des IPCC weggefallen – Konsequenzen für die Klimapolitik der Bundesregierung",
+      "thema": "Energie & Klima",
       "woerter": 8589
     },
     {
       "top": 6,
       "titel": "Vereinbarte Debatte: Zur Situation im Sudan und zur Verständigung auf die Berliner Prinzipien",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4936
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Ulrich Thoden, Desiree Becker, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Keine Stationierung von Mittelstreckenraketen in Deutschland",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4631
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Sascha Lensing, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Paralleljustiz bekämpfen – Bundesweites Lagebild schaffen",
+      "thema": "Innere Sicherheit",
       "woerter": 4281
     },
     {
       "top": 4,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1799 zur Förderung der Reparatur von Waren",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4209
     }
   ],
@@ -57,7 +174,7 @@
       "prozent": 24.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6425,
       "prozent": 21.2
     },
@@ -160,7 +277,7 @@
       "negativ": 17
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 64,
       "negativ": 11
     },

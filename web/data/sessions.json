@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T06:49:57Z",
-  "wahlperiode": "20",
+  "generated": "2026-06-10T06:09:28Z",
+  "wahlperiode": "21",
   "count": 82,
   "sessions": [
     {
@@ -77,7 +77,7 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21079.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21079.xml",
         "dashboard": "amt_21_079_dashboard.json",
-        "nodes": 1360,
+        "nodes": 1363,
         "graph": "amt_21_079.json",
         "protokoll": "amt_21_079_protokoll.html",
         "mediathek_verlinkt": 52
@@ -96,7 +96,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21078.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21078.xml",
         "dashboard": "amt_21_078_dashboard.json",
-        "nodes": 1295
+        "nodes": 1295,
+        "graph": "amt_21_078.json",
+        "protokoll": "amt_21_078_protokoll.html",
+        "mediathek_verlinkt": 78
       }
     },
     {
@@ -108,7 +111,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21077.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21077.xml",
         "dashboard": "amt_21_077_dashboard.json",
-        "nodes": 2466
+        "nodes": 2465,
+        "graph": "amt_21_077.json",
+        "protokoll": "amt_21_077_protokoll.html",
+        "mediathek_verlinkt": 170
       }
     },
     {
@@ -120,7 +126,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21076.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21076.xml",
         "dashboard": "amt_21_076_dashboard.json",
-        "nodes": 1313
+        "nodes": 1312,
+        "graph": "amt_21_076.json",
+        "protokoll": "amt_21_076_protokoll.html",
+        "mediathek_verlinkt": 49
       }
     },
     {
@@ -132,7 +141,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21075.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21075.xml",
         "dashboard": "amt_21_075_dashboard.json",
-        "nodes": 1335
+        "nodes": 1333,
+        "graph": "amt_21_075.json",
+        "protokoll": "amt_21_075_protokoll.html",
+        "mediathek_verlinkt": 77
       }
     },
     {
@@ -144,7 +156,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21074.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21074.xml",
         "dashboard": "amt_21_074_dashboard.json",
-        "nodes": 2387
+        "nodes": 2387,
+        "graph": "amt_21_074.json",
+        "protokoll": "amt_21_074_protokoll.html",
+        "mediathek_verlinkt": 148
       }
     },
     {
@@ -156,7 +171,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21073.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21073.xml",
         "dashboard": "amt_21_073_dashboard.json",
-        "nodes": 1166
+        "nodes": 1165,
+        "graph": "amt_21_073.json",
+        "protokoll": "amt_21_073_protokoll.html",
+        "mediathek_verlinkt": 39
       }
     },
     {
@@ -168,7 +186,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21072.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21072.xml",
         "dashboard": "amt_21_072_dashboard.json",
-        "nodes": 812
+        "nodes": 811,
+        "graph": "amt_21_072.json",
+        "protokoll": "amt_21_072_protokoll.html",
+        "mediathek_verlinkt": 61
       }
     },
     {
@@ -180,7 +201,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21071.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21071.xml",
         "dashboard": "amt_21_071_dashboard.json",
-        "nodes": 2231
+        "nodes": 2230,
+        "graph": "amt_21_071.json",
+        "protokoll": "amt_21_071_protokoll.html",
+        "mediathek_verlinkt": 136
       }
     },
     {
@@ -192,7 +216,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21070.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21070.xml",
         "dashboard": "amt_21_070_dashboard.json",
-        "nodes": 1166
+        "nodes": 1165,
+        "graph": "amt_21_070.json",
+        "protokoll": "amt_21_070_protokoll.html",
+        "mediathek_verlinkt": 45
       }
     },
     {

@@ -9,34 +9,150 @@
     "reden": 165,
     "schriftliche_beitraege": 0,
     "woerter": 36273,
+    "gesamtzeit_min": 279,
     "tops": 6,
     "saalreaktionen": 533,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Dorothee Bär",
+      "woerter": 6052,
+      "reden": 30,
+      "fraktion": null
+    },
+    {
+      "name": "Thorsten Frei",
+      "woerter": 4024,
+      "reden": 36,
+      "fraktion": null
+    },
+    {
+      "name": "Lars Rohwer",
+      "woerter": 1096,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Florian Müller",
+      "woerter": 986,
+      "reden": 4,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Uwe Schulz",
+      "woerter": 902,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sonja Lemke",
+      "woerter": 881,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Andreas Mayer",
+      "woerter": 865,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 859,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Inge Gräßle",
+      "woerter": 844,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Carolin Wagner",
+      "woerter": 831,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Ayse Asar",
+      "woerter": 816,
+      "reden": 4,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Oliver Kaczmarek",
+      "woerter": 802,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Nina Scheer",
+      "woerter": 801,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 787,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Albani",
+      "woerter": 751,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 23952
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 4385
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 4246
+    },
+    {
+      "thema": "Europa & EU",
+      "woerter": 3690
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Bildung & Forschung",
       "woerter": 13766
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Raumfahrtnation Deutschland – Mit Forschung und Innovation made in Germany neue wissenschaftliche Durchbrüche schaffen",
+      "thema": "Bildung & Forschung",
       "woerter": 10186
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Andreas Bleck, Carolin Bachmann, Dr. Michael Blos, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung einer Expertenkommission zur Prüfung der Wiederinbetriebnahme abg…",
+      "thema": "Energie & Klima",
       "woerter": 4385
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Charlotte Antonia Neuhäuser, Maren Kaminski, Desiree Becker, weiterer Abgeordneter und der Fraktion Die Linke: Einfluss von Milliardären weltweit zurückdrängen – Globale Gerec…",
+      "thema": "Steuern & Finanzen",
       "woerter": 4246
     },
     {
       "top": 4,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Änderungen der Richtlinie (EU) 2014/30 und der Richtlinie (EU) 2014/53 durch die Richtlinie (EU) 202…",
+      "thema": "Europa & EU",
       "woerter": 3690
     }
   ],
@@ -52,7 +168,7 @@
       "prozent": 23.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4061,
       "prozent": 15.9
     },
@@ -149,7 +265,7 @@
       "negativ": 18
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 56,
       "negativ": 8
     },

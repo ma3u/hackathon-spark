@@ -9,39 +9,156 @@
     "reden": 72,
     "schriftliche_beitraege": 0,
     "woerter": 36239,
+    "gesamtzeit_min": 279,
     "tops": 6,
     "saalreaktionen": 654,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Michael Kießling",
+      "woerter": 1517,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Matthias Hiller",
+      "woerter": 1097,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ates Gürpinar",
+      "woerter": 997,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Axel Müller",
+      "woerter": 900,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Nina Warken",
+      "woerter": 894,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Christoph Birghan",
+      "woerter": 893,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Karoline Otte",
+      "woerter": 890,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Martin Kröber",
+      "woerter": 883,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Christos Pantazis",
+      "woerter": 845,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jürgen Coße",
+      "woerter": 845,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 821,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sebastian Münzenmaier",
+      "woerter": 765,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Frauke Heiligenstadt",
+      "woerter": 764,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Christian Görke",
+      "woerter": 738,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 718,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 14729
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 8794
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 8685
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 4031
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Christian Görke, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Vermögensteuer wieder erheben – Länderfinanzen nachhaltig sichern",
+      "thema": "Steuern & Finanzen",
       "woerter": 8783
     },
     {
       "top": 1,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung der Krankenhausreform (Krankenhausreformanpassungsgesetz – KHAG)",
+      "thema": "Gesundheit & Pflege",
       "woerter": 8685
     },
     {
       "top": 4,
       "titel": "a) Antrag der Abgeordneten Karoline Otte, Marlene Schönberger, Dr. Alaa Alhamwi, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Starke Kommunen, starke Demokratie – Für mehr Zusammenha…",
+      "thema": "Steuern & Finanzen",
       "woerter": 5946
     },
     {
       "top": 5,
       "titel": "a) Unterrichtung durch die Bundesregierung: Gutachten zu Forschung, Innovation und technologischer Leistungsfähigkeit Deutschlands 2026",
+      "thema": "Bildung & Forschung",
       "woerter": 4477
     },
     {
       "top": 3,
       "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Angebote der Jugendarbeit im Ganztag während der Schulferien",
+      "thema": "Bildung & Forschung",
       "woerter": 4317
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Stephan Brandner, Markus Frohnmaier, Lars Haise, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung des 1. Untersuchungsausschusses der 21. Wahlperiode („Stuttgart 21“)",
+      "thema": "Verkehr & Mobilität",
       "woerter": 4031
     }
   ],
@@ -62,7 +179,7 @@
       "prozent": 21.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4878,
       "prozent": 14.1
     },
@@ -154,7 +271,7 @@
       "negativ": 23
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 73,
       "negativ": 4
     },
@@ -164,7 +281,5 @@
       "negativ": 12
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,39 +9,160 @@
     "reden": 181,
     "schriftliche_beitraege": 16,
     "woerter": 41101,
+    "gesamtzeit_min": 316,
     "tops": 9,
     "saalreaktionen": 729,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 6010,
+      "reden": 39,
+      "fraktion": null
+    },
+    {
+      "name": "Thorsten Frei",
+      "woerter": 2776,
+      "reden": 26,
+      "fraktion": null
+    },
+    {
+      "name": "Siegfried Walch",
+      "woerter": 1384,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Götz Frömming",
+      "woerter": 1268,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Tijen Ataoğlu",
+      "woerter": 1210,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Frederik Bouffier",
+      "woerter": 965,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Markus Frohnmaier",
+      "woerter": 869,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Marcel Emmerich",
+      "woerter": 864,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Felix Döring",
+      "woerter": 862,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Marc Henrichmann",
+      "woerter": 814,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Ottilie Klein",
+      "woerter": 791,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ingo Vogel",
+      "woerter": 755,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Hakan Demir",
+      "woerter": 745,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Robin Jünger",
+      "woerter": 715,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Uwe Schulz",
+      "woerter": 709,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 14214
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 9423
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 8631
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 4681
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4152
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Steuern & Finanzen",
       "woerter": 14214
     },
     {
       "top": 4,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Linksextreme Gewalt und die Geschehnisse um die Neugründung des AfD-Jugendverbandes in Gießen",
+      "thema": "Innere Sicherheit",
       "woerter": 9423
     },
     {
       "top": 5,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Errichtung des Gedenkorts für die polnischen Opfer des Zweiten Weltkrieges und die Opfer der deutschen Besatzungsherrschaft in Polen",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4681
     },
     {
       "top": 6,
       "titel": "a) Antrag der Abgeordneten Schahina Gambir, Marcel Emmerich, Luise Amtsberg, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wort halten, Leben schützen – Visa für afghanische Staatsang…",
+      "thema": "Migration & Asyl",
       "woerter": 4563
     },
     {
       "top": 7,
       "titel": "a) Unterrichtung durch die Bundesregierung: Konzeption des Bundes für die Gedenkstätten zur Aufarbeitung der NS-Terrorherrschaft und der SED-Diktatur",
+      "thema": "Bildung & Forschung",
       "woerter": 4152
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Organisierten Betrug im Einbürgerungsverfahren verhindern – Das Ve…",
+      "thema": "Migration & Asyl",
       "woerter": 4068
     }
   ],
@@ -57,7 +178,7 @@
       "prozent": 27.6
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5531,
       "prozent": 17.4
     },
@@ -176,7 +297,7 @@
       "negativ": 40
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 72,
       "negativ": 17
     },
@@ -191,8 +312,5 @@
       "negativ": 9
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

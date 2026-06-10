@@ -9,39 +9,160 @@
     "reden": 173,
     "schriftliche_beitraege": 0,
     "woerter": 41548,
+    "gesamtzeit_min": 320,
     "tops": 7,
     "saalreaktionen": 605,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Carsten Schneider",
+      "woerter": 4518,
+      "reden": 35,
+      "fraktion": null
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 3693,
+      "reden": 29,
+      "fraktion": null
+    },
+    {
+      "name": "Fritz Güntzler",
+      "woerter": 1891,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Jan Dieren",
+      "woerter": 1411,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 1031,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Luise Amtsberg",
+      "woerter": 901,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 801,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 794,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Parsa Marvi",
+      "woerter": 790,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Falko Droßmann",
+      "woerter": 773,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jan van Aken",
+      "woerter": 767,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Ulrike Schielke-Ziesing",
+      "woerter": 761,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Stefan Keuter",
+      "woerter": 695,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Siemtje Möller",
+      "woerter": 680,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Reem Alabali Radovan",
+      "woerter": 676,
+      "reden": 1,
+      "fraktion": null
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 13207
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 10307
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 8236
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 6160
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 3638
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Energie & Klima",
       "woerter": 13207
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zwei Jahre nach dem Hamasterror und Kriegsbeginn in Gaza – Chance auf Frieden in Nahost ergreifen",
+      "thema": "Innere Sicherheit",
       "woerter": 10307
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Reform der Politikerpensionen – Bundestagsabgeordnete in die gesetzliche…",
+      "thema": "Rente & Soziales",
       "woerter": 6160
     },
     {
       "top": 5,
       "titel": "a) Antrag der Abgeordneten Katharina Beck, Dr. Moritz Heuberger, Max Lucks, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gerechtigkeitslücken im Steuersystem schließen –Ausnahmen bei…",
+      "thema": "Steuern & Finanzen",
       "woerter": 4524
     },
     {
       "top": 6,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Steueränderungsgesetzes 2025",
+      "thema": "Steuern & Finanzen",
       "woerter": 3712
     },
     {
       "top": 4,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Staatsangehörigkeitsgesetzes",
+      "thema": "Migration & Asyl",
       "woerter": 3638
     }
   ],
@@ -57,7 +178,7 @@
       "prozent": 25.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5414,
       "prozent": 17.7
     },
@@ -175,7 +296,7 @@
       "negativ": 7
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 48,
       "negativ": 2
     },
@@ -190,7 +311,5 @@
       "negativ": 3
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

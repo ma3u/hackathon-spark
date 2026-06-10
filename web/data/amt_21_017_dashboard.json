@@ -9,34 +9,146 @@
     "reden": 155,
     "schriftliche_beitraege": 0,
     "woerter": 76793,
+    "gesamtzeit_min": 591,
     "tops": 6,
     "saalreaktionen": 1301,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 8024,
+      "reden": 33,
+      "fraktion": null
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 3820,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 2522,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Alice Weidel",
+      "woerter": 2186,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Inge Gräßle",
+      "woerter": 2135,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 1968,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1805,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Agnieszka Brugger",
+      "woerter": 1777,
+      "reden": 4,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Andreas Mattfeldt",
+      "woerter": 1762,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mirco Hanker",
+      "woerter": 1753,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Matthias Miersch",
+      "woerter": 1571,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 1454,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Ines Schwerdtner",
+      "woerter": 1395,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Jamila Schäfer",
+      "woerter": 1354,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 1292,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 56200
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 12570
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 8023
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Einzelplan 04",
+      "thema": "Haushalt & Schulden",
       "woerter": 31313
     },
     {
       "top": 4,
       "titel": "Einzelplan 05",
+      "thema": "Haushalt & Schulden",
       "woerter": 13141
     },
     {
       "top": 5,
       "titel": "Einzelplan 14",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 12570
     },
     {
       "top": 6,
       "titel": "Einzelplan 23",
+      "thema": "Haushalt & Schulden",
       "woerter": 11746
     },
     {
       "top": 3,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8023
     }
   ],
@@ -57,7 +169,7 @@
       "prozent": 18.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11107,
       "prozent": 17.3
     },
@@ -174,7 +286,7 @@
       "negativ": 31
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 135,
       "negativ": 16
     },
@@ -194,7 +306,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,34 +9,154 @@
     "reden": 104,
     "schriftliche_beitraege": 0,
     "woerter": 63298,
+    "gesamtzeit_min": 487,
     "tops": 6,
     "saalreaktionen": 963,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Michael Espendiller",
+      "woerter": 1507,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jamila Schäfer",
+      "woerter": 1407,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Wolfgang Wiehle",
+      "woerter": 1289,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Ricarda Lang",
+      "woerter": 1266,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sebastian Maack",
+      "woerter": 1249,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Bettina Hagedorn",
+      "woerter": 1211,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1210,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Armand Zorn",
+      "woerter": 1181,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Georg Schroeter",
+      "woerter": 1167,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Uwe Feiler",
+      "woerter": 1109,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Dietmar Bartsch",
+      "woerter": 1008,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Mathias Middelberg",
+      "woerter": 1005,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Katherina Reiche",
+      "woerter": 985,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 974,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Claudia Müller",
+      "woerter": 962,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 13268
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 12996
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 12705
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 12349
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 11980
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "I.4 Einzelplan 08",
+      "thema": "Haushalt & Schulden",
       "woerter": 13268
     },
     {
       "top": 4,
       "titel": "Einzelplan I.6",
+      "thema": "Energie & Klima",
       "woerter": 12996
     },
     {
       "top": 6,
       "titel": "Einzelplan I.8",
+      "thema": "Digitalisierung",
       "woerter": 12705
     },
     {
       "top": 3,
       "titel": "Einzelplan I.5",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 12349
     },
     {
       "top": 5,
       "titel": "Einzelplan 1.7",
+      "thema": "Bildung & Forschung",
       "woerter": 11980
     }
   ],
@@ -57,7 +177,7 @@
       "prozent": 19.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 8929,
       "prozent": 15.2
     },
@@ -169,7 +289,7 @@
       "negativ": 11
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 114,
       "negativ": 3
     },
@@ -179,7 +299,5 @@
       "negativ": 13
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

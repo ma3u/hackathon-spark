@@ -9,94 +9,246 @@
     "reden": 153,
     "schriftliche_beitraege": 0,
     "woerter": 84857,
+    "gesamtzeit_min": 653,
     "tops": 18,
     "saalreaktionen": 1584,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 2170,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Sebastian Roloff",
+      "woerter": 1904,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 1870,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1857,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Saskia Ludwig",
+      "woerter": 1602,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Fabian Gramling",
+      "woerter": 1542,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Helmut Kleebank",
+      "woerter": 1521,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 1473,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dunja Kreiser",
+      "woerter": 1457,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Florian Dorn",
+      "woerter": 1292,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Bernd Schattner",
+      "woerter": 1278,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jörg Cezanne",
+      "woerter": 1244,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Nicklas Kappe",
+      "woerter": 1234,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Sandra Detzer",
+      "woerter": 1231,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Enrico Komning",
+      "woerter": 1184,
+      "reden": 2,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 29687
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 11030
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 9423
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 7846
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 7739
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 7583
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 4265
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 3899
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 2986
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 399
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Unterrichtung durch die Bundesregierung: Hightech Agenda Deutschland",
+      "thema": "Bildung & Forschung",
       "woerter": 9423
     },
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Wettbewerbsfähige Industrie – Entlastung durch Netzentgeltsenkung und Industriestrompreis",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 9227
     },
     {
       "top": 4,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung und Digitalisierung der Schwarzarbeitsbekämpfung",
+      "thema": "Steuern & Finanzen",
       "woerter": 8398
     },
     {
       "top": 5,
       "titel": "a) Antrag der Abgeordneten Dr. Sandra Detzer, Andreas Audretsch, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wirtschaft 2045 – Innovationen stärken, Zukunftstec…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8358
     },
     {
       "top": 3,
       "titel": "– Zweite und dritte Beratung des von den Abgeordneten Karsten Hilse, Steffen Kotré, Dr. Rainer Kraft, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Beseitig…",
+      "thema": "Energie & Klima",
       "woerter": 7583
     },
     {
       "top": 11,
       "titel": "a) Erste Beratung des von den Abgeordneten Luke Hoß, Clara Bünger, Violetta Bock, weiteren Abgeordneten und der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur Änderung des Strafgesetzbu…",
+      "thema": "Verkehr & Mobilität",
       "woerter": 5198
     },
     {
       "top": 8,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der NIS-2-Richtlinie und zur Regelung wesentlicher Grundzüge des Informationssicherheit…",
+      "thema": "Digitalisierung",
       "woerter": 4265
     },
     {
       "top": 9,
       "titel": "Antrag der Abgeordneten Bernd Schattner, Marc Bernhard, René Springer, weiterer Abgeordneter und der Fraktion der AfD: Abwanderung der deutschen Industrie ins Ausland stoppen",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4097
     },
     {
       "top": 13,
       "titel": "Antrag der Abgeordneten Dr. Malte Kaufmann, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Marktbasierte Resilienz – Versorgung mit kritischen Rohstoffen durch wirtsch…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4031
     },
     {
       "top": 14,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Einsetzung einer Kommission zur Überprüfung der sicherheitsrelevanten Wirtschaftsbeziehungen zwischen Deutschland und China",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3974
     },
     {
       "top": 10,
       "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 3941
     },
     {
       "top": 15,
       "titel": "Erste Beratung des von den Abgeordneten Max Lucks, Filiz Polat, Deborah Düring, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änderung des Auf…",
+      "thema": "Migration & Asyl",
       "woerter": 3899
     },
     {
       "top": 12,
       "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der NATO-geführten Maritimen Sicherh…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 3798
     },
     {
       "top": 17,
       "titel": "Antrag der Abgeordneten Kay Gottschalk, Jan Wenzel Schmidt, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Politisch motivierte Kontokündigungen durch Banken verbieten",
+      "thema": "Innere Sicherheit",
       "woerter": 2986
     },
     {
       "top": 18,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Abmilderung des Trassenentgeltanstiegs bei den Eisenbahnen des Bundes",
+      "thema": "Verkehr & Mobilität",
       "woerter": 2648
     },
     {
       "top": 16,
       "titel": "Zusatzpunkt 5 und 6",
+      "thema": "Steuern & Finanzen",
       "woerter": 2632
     },
     {
       "top": 6,
       "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Überleitung öffentlicher Aufgaben bei Umwandlungsmaßnahmen der Deutsche Post AG sowie zur Änderung…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 399
     }
   ],
@@ -117,7 +269,7 @@
       "prozent": 19.9
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11543,
       "prozent": 14.4
     },
@@ -311,7 +463,7 @@
       "negativ": 42
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 195,
       "negativ": 23
     },
@@ -326,8 +478,5 @@
       "negativ": 9
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

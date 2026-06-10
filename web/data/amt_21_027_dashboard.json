@@ -9,29 +9,136 @@
     "reden": 87,
     "schriftliche_beitraege": 0,
     "woerter": 66265,
+    "gesamtzeit_min": 510,
     "tops": 4,
     "saalreaktionen": 1204,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 3302,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 2471,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Inge Gräßle",
+      "woerter": 2349,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 2099,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Britta Haßelmann",
+      "woerter": 1941,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Alice Weidel",
+      "woerter": 1941,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1893,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 1364,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Jamila Schäfer",
+      "woerter": 1244,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 1147,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 1132,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Roland Theis",
+      "woerter": 1121,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 1094,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ines Schwerdtner",
+      "woerter": 1089,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Mirco Hanker",
+      "woerter": 1034,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 53667
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 12598
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Einzelplan 04",
+      "thema": "Haushalt & Schulden",
       "woerter": 27735
     },
     {
       "top": 2,
       "titel": "Einzelplan 05",
+      "thema": "Haushalt & Schulden",
       "woerter": 14030
     },
     {
       "top": 3,
       "titel": "Einzelplan 14",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 12598
     },
     {
       "top": 4,
       "titel": "Einzelplan 23",
+      "thema": "Haushalt & Schulden",
       "woerter": 11902
     }
   ],
@@ -52,7 +159,7 @@
       "prozent": 17.6
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 8613,
       "prozent": 14.6
     },
@@ -172,7 +279,7 @@
       "negativ": 36
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 133,
       "negativ": 19
     },
@@ -192,7 +299,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,49 +9,172 @@
     "reden": 85,
     "schriftliche_beitraege": 0,
     "woerter": 50518,
+    "gesamtzeit_min": 389,
     "tops": 8,
     "saalreaktionen": 876,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Stephan Brandner",
+      "woerter": 1916,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 1782,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dunja Kreiser",
+      "woerter": 1454,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Julia Verlinden",
+      "woerter": 1338,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Ingo Vogel",
+      "woerter": 1331,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Irene Mihalic",
+      "woerter": 1248,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1117,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Johannes Fechner",
+      "woerter": 1104,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Christian Moser",
+      "woerter": 1076,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Florian Dorn",
+      "woerter": 1002,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Carsten Müller",
+      "woerter": 920,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Michael Thews",
+      "woerter": 909,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Hendrik Hoppenstedt",
+      "woerter": 891,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Michael Kellner",
+      "woerter": 842,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Katharina Beck",
+      "woerter": 831,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 16968
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 13681
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 10499
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 5304
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 4066
+    }
+  ],
   "top_themen": [
     {
       "top": 8,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Herbst des Klimaschutzes",
+      "thema": "Energie & Klima",
       "woerter": 9043
     },
     {
       "top": 2,
       "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Fraktion Die Linke: Mehrwertsteuer auf Grundnahrungsmittel, Hygieneprodukte und auf Bus und Bahn abschaffen",
+      "thema": "Steuern & Finanzen",
       "woerter": 8810
     },
     {
       "top": 1,
       "titel": "a) Erste Beratung des von der Bundes-regierung eingebrachten Entwurfs eines Gesetzes zur Finanzierung von Infrastrukturinvestitionen von Ländern und Kommunen (Länder-und-Kommunal-Infrastrukturfinanzi…",
+      "thema": "Steuern & Finanzen",
       "woerter": 8158
     },
     {
       "top": 6,
       "titel": "Erste Beratung des von den Abgeordneten Stephan Brandner, Thomas Fetsch, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des § 188 d…",
+      "thema": "Digitalisierung",
       "woerter": 5803
     },
     {
       "top": 3,
       "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Neufassung der Geschäftsordnung des Deutschen Bundestages",
+      "thema": "Migration & Asyl",
       "woerter": 5304
     },
     {
       "top": 7,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Entwicklung und Erprobung eines Online-Verfahrens in der Zivilgerichtsbarkeit",
+      "thema": "Digitalisierung",
       "woerter": 4696
     },
     {
       "top": 4,
       "titel": "a) Antrag der Abgeordneten Dr. Julia Verlinden, Lisa Badum, Felix Banaszak, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gasbohrungen in Deutschland beenden – Energiewende konsequent…",
+      "thema": "Energie & Klima",
       "woerter": 4638
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Gesetzes über den unmittelbaren Zwang bei Ausübung öffentlicher Gewalt durch Vollzugsbeamte de…",
+      "thema": "Innere Sicherheit",
       "woerter": 4066
     }
   ],
@@ -72,7 +195,7 @@
       "prozent": 18.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 7084,
       "prozent": 14.9
     },
@@ -206,7 +329,7 @@
       "negativ": 13
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 70,
       "negativ": 9
     },
@@ -221,7 +344,5 @@
       "negativ": 1
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

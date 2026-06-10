@@ -9,89 +9,228 @@
     "reden": 165,
     "schriftliche_beitraege": 0,
     "woerter": 90449,
+    "gesamtzeit_min": 696,
     "tops": 17,
     "saalreaktionen": 1511,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Stephan Brandner",
+      "woerter": 2086,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Daniel Bettermann",
+      "woerter": 1487,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sandra Stein",
+      "woerter": 1292,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Manuela Schwesig",
+      "woerter": 1286,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1273,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Protschka",
+      "woerter": 1267,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Lars Rohwer",
+      "woerter": 1208,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Artur Auernhammer",
+      "woerter": 1196,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 1171,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Marcel Bauer",
+      "woerter": 1108,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Ralph Brinkhaus",
+      "woerter": 1081,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Thomas Silberhorn",
+      "woerter": 1075,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Maja Wallstein",
+      "woerter": 1056,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1048,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Franziska Kersten",
+      "woerter": 1032,
+      "reden": 2,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 28552
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 20429
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 12854
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 11189
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 8778
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 4453
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4194
+    }
+  ],
   "top_themen": [
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zukunftsperspektiven für Landwirtschaft und Weinbau in Deutschland schaffen – Attraktivität und Kulturgut ländlicher Räume erhalten",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 11872
     },
     {
       "top": 3,
       "titel": "a) Antrag der Abgeordneten Sandra Stein, Dr. Alaa Alhamwi, Katharina Beck, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mittelstand jetzt stärken",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 9028
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Politische Chancengleichheit auch im digitalen Raum – Aufhebung der Verordnung (E…",
+      "thema": "Digitalisierung",
       "woerter": 8778
     },
     {
       "top": 4,
       "titel": "Unterrichtung durch die Bundesregierung: Bericht der Bundesregierung über Maßnahmen der Bundesregierung für Bürokratierückbau",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8633
     },
     {
       "top": 2,
       "titel": "Tagesordnungspunkt",
+      "thema": "Rente & Soziales",
       "woerter": 8280
     },
     {
       "top": 10,
       "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Landwirtschaft, Ernährung und Heimat zu dem Antrag der Abgeordneten Stephan Protschka, Peter Felser, Danny Meiners, weiterer Abgeordneter und de…",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 4709
     },
     {
       "top": 14,
       "titel": "a) Antrag der Abgeordneten Sven Lehmann, Katrin Göring-Eckardt, Misbah Khan, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Film- und Kinostandort Deutschland stärken",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4594
     },
     {
       "top": 13,
       "titel": "Beratung der Dritten Beschlussempfehlung des Wahlprüfungsausschusses zu Einsprüchen anlässlich der Wahl zum 21. Deutschen Bundestag am 23. Februar 2025",
+      "thema": "Rente & Soziales",
       "woerter": 4574
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Caren Lay, Luigi Pantisano, Marcel Bauer, weiterer Abgeordneter und der Fraktion Die Linke: Mieterinnen und Mieter besser schützen – Erste Mietrechtsnovelle sofort umsetzen",
+      "thema": "Wohnen & Bau",
       "woerter": 4453
     },
     {
       "top": 16,
       "titel": "Beschlussempfehlung und Bericht des Innenausschusses zu dem Antrag der Abgeordneten Martin Hess, Stephan Brandner, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Inneren Frieden…",
+      "thema": "Innere Sicherheit",
       "woerter": 4404
     },
     {
       "top": 7,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur beschleunigten Planung und Beschaffung für die Bundeswehr",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4194
     },
     {
       "top": 12,
       "titel": "Antrag der Abgeordneten Arne Raue, Alexander Arpaschi, Dr. Christina Baum, weiterer Abgeordneter und der Fraktion der AfD: Stärkung des Katastrophenschutzes und der Resistenz kritischer Infrastruktur…",
+      "thema": "Innere Sicherheit",
       "woerter": 4013
     },
     {
       "top": 9,
       "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Tierhaltungskennzeichnungsgesetzes",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 3848
     },
     {
       "top": 11,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung von Straftatbeständen und Sanktionen bei Verstößen gegen restriktive Maßnahmen der Europäisc…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3670
     },
     {
       "top": 15,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über den Informationsaustausch zwischen den Strafverfolgungsbehörden der Mitgliedstaaten der Europäischen…",
+      "thema": "Innere Sicherheit",
       "woerter": 2772
     },
     {
       "top": 17,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Begrenzung der Risiken durch Investmentfonds und zur Umsetzung der Richtlinie (EU) 2024/927 im Hinblick auf Übertr…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 2627
     }
   ],
@@ -112,7 +251,7 @@
       "prozent": 19.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12851,
       "prozent": 15.2
     },
@@ -285,7 +424,7 @@
       "negativ": 48
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 175,
       "negativ": 18
     },
@@ -300,8 +439,5 @@
       "negativ": 2
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "falsch": 1
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,19 +9,120 @@
     "reden": 45,
     "schriftliche_beitraege": 38,
     "woerter": 32803,
+    "gesamtzeit_min": 252,
     "tops": 4,
     "saalreaktionen": 643,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Christian Dürr",
+      "woerter": 1770,
+      "reden": 1,
+      "fraktion": "FDP"
+    },
+    {
+      "name": "Friedrich Merz",
+      "woerter": 1752,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Schweitzer",
+      "woerter": 1697,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 1692,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Britta Haßelmann",
+      "woerter": 1577,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1564,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Thorsten Frei",
+      "woerter": 1535,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 1488,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Otto Fricke",
+      "woerter": 1385,
+      "reden": 1,
+      "fraktion": "FDP"
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 1319,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Sören Pellmann",
+      "woerter": 1226,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Franziska Brantner",
+      "woerter": 961,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Ingeborg Gräßle",
+      "woerter": 825,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sven-Christian Kindler",
+      "woerter": 817,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dennis Rohde",
+      "woerter": 743,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 32803
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "a) Zweite und dritte Beratung des von den Fraktionen der SPD und CDU/CSU eingebrachten Entwurfs eines Gesetzes zur Änderung des Grundgesetzes (Artikel 109, 115 und 143h)",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 29545
     },
     {
       "top": 2,
       "titel": "Zur Geschäftsordnung",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 3258
     }
   ],
@@ -42,7 +143,7 @@
       "prozent": 16.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4648,
       "prozent": 16.0
     },
@@ -176,7 +277,7 @@
       "negativ": 23
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 73,
       "negativ": 9
     },

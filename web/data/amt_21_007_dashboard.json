@@ -9,74 +9,226 @@
     "reden": 109,
     "schriftliche_beitraege": 0,
     "woerter": 58629,
+    "gesamtzeit_min": 451,
     "tops": 14,
     "saalreaktionen": 968,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Andreas Lenz",
+      "woerter": 1309,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 1293,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 1042,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Anja Weisgerber",
+      "woerter": 989,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Gottfried Curio",
+      "woerter": 981,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Tilman Kuban",
+      "woerter": 955,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 916,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Christian Haase",
+      "woerter": 892,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Detlef Seif",
+      "woerter": 851,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "René Bochmann",
+      "woerter": 840,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Nils Schmid",
+      "woerter": 833,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Nina Scheer",
+      "woerter": 828,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dunja Kreiser",
+      "woerter": 822,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 801,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jan Köstering",
+      "woerter": 793,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 8367
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 7995
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 6549
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 5377
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 4816
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4451
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 4422
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4292
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 4286
+    },
+    {
+      "thema": "Europa & EU",
+      "woerter": 4145
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 3929
+    }
+  ],
   "top_themen": [
     {
       "top": 9,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Freiheitlichen Rechtsstaat schützen – Gewalt gegen Sicherheitskräfte konsequent entgegentreten",
+      "thema": "Innere Sicherheit",
       "woerter": 8367
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Agnieszka Brugger, Dr. Julia Verlinden, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Sicherheit stärken, Energieabhängigkeiten durch…",
+      "thema": "Energie & Klima",
       "woerter": 5377
     },
     {
       "top": 6,
       "titel": "Erste Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur besseren Bekämpfung überhöhter Mieten (Mietwuchergesetz)",
+      "thema": "Wohnen & Bau",
       "woerter": 4816
     },
     {
       "top": 1,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verlängerung der Fristen im Investitionsprogramm Ganztagsausbau",
+      "thema": "Bildung & Forschung",
       "woerter": 4451
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Reform der Einbürgerungspolitik als Voraussetzung einer wirklichen…",
+      "thema": "Migration & Asyl",
       "woerter": 4422
     },
     {
       "top": 5,
       "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in Lebanon“ (UNIFIL)",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4292
     },
     {
       "top": 13,
       "titel": "Antrag der Abgeordneten Katharina Beck, Dr. Moritz Heuberger, Max Lucks, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Organisierte Steuerhinterziehung wie Cum-Cum-Deals aufklären, St…",
+      "thema": "Steuern & Finanzen",
       "woerter": 4286
     },
     {
       "top": 14,
       "titel": "Erste Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur Änderung des Grundgesetzes (Artikel 143i)",
+      "thema": "Haushalt & Schulden",
       "woerter": 4212
     },
     {
       "top": 3,
       "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUFOR ALTHEA in Bosnien und Herzegowina",
+      "thema": "Europa & EU",
       "woerter": 4145
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Leif-Erik Holm, Marc Bernhard, Peter Boehringer, weiterer Abgeordneter und der Fraktion der AfD: Deindustrialisierung stoppen – Verbrenner-Verbot aufheben",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4077
     },
     {
       "top": 12,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zu dem Vierten Protokoll vom 18. September 2023 zur Änderung des Vertrags vom 27. Oktober 1956 zwischen…",
+      "thema": "Verkehr & Mobilität",
       "woerter": 3929
     },
     {
       "top": 10,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Kulturgutschutzgesetzes (1. KGSGÄndG)",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3918
     },
     {
       "top": 8,
       "titel": "Beratung der Beschlussempfehlung des Ältestenrates: Zeitplan des Deutschen Bundestages für das Jahr 2025 ab Juni 2025",
+      "thema": "Haushalt & Schulden",
       "woerter": 2337
     }
   ],
@@ -97,7 +249,7 @@
       "prozent": 19.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 8087,
       "prozent": 14.6
     },
@@ -287,7 +439,7 @@
       "negativ": 8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 95,
       "negativ": 9
     },
@@ -297,9 +449,5 @@
       "negativ": 5
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 9,
-    "bestätigt": 1,
-    "teilweise": 2
-  }
+  "faktencheck_bilanz": {}
 }

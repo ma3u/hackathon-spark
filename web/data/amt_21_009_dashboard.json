@@ -9,34 +9,150 @@
     "reden": 153,
     "schriftliche_beitraege": 0,
     "woerter": 34259,
+    "gesamtzeit_min": 264,
     "tops": 6,
     "saalreaktionen": 503,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 5305,
+      "reden": 43,
+      "fraktion": null
+    },
+    {
+      "name": "Reem Alabali-Radovan",
+      "woerter": 1936,
+      "reden": 16,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Ralf Stegner",
+      "woerter": 1135,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 1001,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Markus Frohnmaier",
+      "woerter": 899,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 887,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Deborah Düring",
+      "woerter": 869,
+      "reden": 4,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 827,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Agnieszka Brugger",
+      "woerter": 811,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Ricarda Lang",
+      "woerter": 797,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Norbert Röttgen",
+      "woerter": 701,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sören Pellmann",
+      "woerter": 681,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Marc Henrichmann",
+      "woerter": 675,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Nora Seitz",
+      "woerter": 667,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Alexander Wolf",
+      "woerter": 662,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 16744
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 8907
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4489
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 4119
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Krieg in der Ukraine",
       "woerter": 12239
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zur Lage der transatlantischen Beziehungen vor dem USA-Besuch des Bundeskanzlers",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 8907
     },
     {
       "top": 4,
       "titel": "Vereinbarte Debatte aus Anlass des Nationalen Gedenktages an den Volksaufstand in der DDR von 1953",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4505
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Anne Zerr, Doris Achelwilm, Dr. Dietmar Bartsch, weiterer Abgeordneter und der Fraktion Die Linke: Den Achtstundentag erhalten – Wöchentliche Höchstarbeitszeit absenken",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4489
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Ausreisegewahrsam und Abschiebehaft für ausreisepflichtige Personen, insbe…",
+      "thema": "Migration & Asyl",
       "woerter": 4119
     }
   ],
@@ -57,7 +173,7 @@
       "prozent": 21.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5243,
       "prozent": 19.8
     },
@@ -174,7 +290,7 @@
       "negativ": 13
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 55,
       "negativ": 6
     },
@@ -189,7 +305,5 @@
       "negativ": 10
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

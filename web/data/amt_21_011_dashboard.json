@@ -9,44 +9,166 @@
     "reden": 66,
     "schriftliche_beitraege": 0,
     "woerter": 43395,
+    "gesamtzeit_min": 334,
     "tops": 7,
     "saalreaktionen": 766,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Luise Amtsberg",
+      "woerter": 1413,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1292,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Bernd Baumann",
+      "woerter": 1282,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Christian Moser",
+      "woerter": 1257,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mahmut Özdemir",
+      "woerter": 1148,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Rasha Nasr",
+      "woerter": 1078,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Bernd Rützel",
+      "woerter": 986,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Clara Bünger",
+      "woerter": 975,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 960,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 953,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Johannes Steiniger",
+      "woerter": 919,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Axel Müller",
+      "woerter": 918,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Felix Banaszak",
+      "woerter": 874,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Alexander Gauland",
+      "woerter": 846,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Jan-Niclas Gesenhues",
+      "woerter": 831,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 12883
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 10024
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 8182
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 7551
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4755
+    }
+  ],
   "top_themen": [
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimakrise spitzt sich zu – Bundesregierung darf Klimaschutz nicht hintenanstellen",
+      "thema": "Energie & Klima",
       "woerter": 10024
     },
     {
       "top": 2,
       "titel": "Antrag der Fraktion Die Linke: Gaza – Völkerrecht verteidigen, Waffenlieferungen stoppen, humanitäre Hilfe ermöglichen",
+      "thema": "Innere Sicherheit",
       "woerter": 8252
     },
     {
       "top": 1,
       "titel": "Tagesordnungspunkt 22, ZP 9",
+      "thema": "Migration & Asyl",
       "woerter": 7551
     },
     {
       "top": 4,
       "titel": "a) Antrag der Abgeordneten Ricarda Lang, Lisa Paus, Andreas Audretsch, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mindestlohngesetz reformieren – 15 Euro pro Stunde sicherstellen",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4755
     },
     {
       "top": 6,
       "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Ulrich von Zons, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur besseren B…",
+      "thema": "Innere Sicherheit",
       "woerter": 4631
     },
     {
       "top": 3,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Tierhaltungskennzeichnungsgesetzes",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 4162
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des GAP-Direktzahlungen-Gesetzes",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 4020
     }
   ],
@@ -67,7 +189,7 @@
       "prozent": 20.9
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6556,
       "prozent": 16.2
     },
@@ -190,7 +312,7 @@
       "negativ": 17
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 81,
       "negativ": 6
     },
@@ -200,10 +322,5 @@
       "negativ": 3
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 9,
-    "teilweise": 1,
-    "irreführend": 1,
-    "bestätigt": 1
-  }
+  "faktencheck_bilanz": {}
 }

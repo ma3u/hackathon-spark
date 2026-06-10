@@ -202,12 +202,14 @@ def llm_factcheck_youtube(p, *, model, base_url, api_key, max_passages: int = 16
     return checks
 
 
-def llm_factcheck_official(p, *, model, base_url, api_key, max_claims: int = 12):
-    """Prüft die aus dem amtlichen XML extrahierten realen Aussagen per LLM (Disclaimer)."""
+def llm_factcheck_official(p, *, model, base_url, api_key, max_claims: int = 12,
+                           retrieval: bool = False):
+    """Prüft die realen Aussagen per LLM. retrieval=True → mit Quellen-Retrieval (Wikipedia →
+    belastbare Verdikte mit echter Quelle); sonst LLM-only (meist 'unbelegt')."""
     if not p.aussagen:
         return []
-    return factcheck.factcheck_with_llm(
-        p.aussagen, model=model, base_url=base_url, api_key=api_key, max_claims=max_claims)
+    fn = factcheck.factcheck_with_retrieval if retrieval else factcheck.factcheck_with_llm
+    return fn(p.aussagen, model=model, base_url=base_url, api_key=api_key, max_claims=max_claims)
 
 
 # ── Graph + Ausgaben ────────────────────────────────────────────────────────────
@@ -286,7 +288,7 @@ def ingest_youtube(vtt_path, *, wp, nr, video_id, titel, datum, az=None, factche
 
 
 def ingest_official(xml_path, *, wp, nr, az=None, factchecks=None, load=False,
-                    write_web_graph=False, mediathek_match=False, neo4j=None) -> dict:
+                    write_web_graph=False, mediathek_match=False, retrieval=False, neo4j=None) -> dict:
     """Offizieller Graph: amtliches XML (Struktur/Volltext/Saalreaktionen/Faktencheck) +
     optional Mediathek-Video-Deeplink je Rede. Vollgraph (mit Provenienz) → Neo4j/output;
     schlanke strukturelle Projektion → web/ (Pages)."""
@@ -301,7 +303,7 @@ def ingest_official(xml_path, *, wp, nr, az=None, factchecks=None, load=False,
     if factchecks is not None:
         checks = factchecks
     elif az:
-        checks = llm_factcheck_official(p, **az)
+        checks = llm_factcheck_official(p, **az, retrieval=retrieval)
     else:
         checks = []
     graph = graph_build.build_graph(p, audio_file=Path(xml_path).name,

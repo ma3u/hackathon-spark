@@ -9,89 +9,236 @@
     "reden": 165,
     "schriftliche_beitraege": 0,
     "woerter": 88497,
+    "gesamtzeit_min": 681,
     "tops": 17,
     "saalreaktionen": 1742,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Birgit Bessin",
+      "woerter": 2294,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Andreas Lenz",
+      "woerter": 1726,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Lars Rohwer",
+      "woerter": 1532,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Fabian Gramling",
+      "woerter": 1518,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Arne Raue",
+      "woerter": 1388,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Nina Scheer",
+      "woerter": 1383,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Irene Mihalic",
+      "woerter": 1340,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Steffen Kotré",
+      "woerter": 1339,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 1336,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1334,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Siegfried Walch",
+      "woerter": 1289,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Steffen Janich",
+      "woerter": 1235,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Martin Reichardt",
+      "woerter": 1221,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Harald Ebner",
+      "woerter": 1163,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Katharina Beck",
+      "woerter": 1101,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 27488
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 14291
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 11762
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 9443
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 7745
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 5432
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 5174
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4246
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 2916
+    }
+  ],
   "top_themen": [
     {
       "top": 4,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Einführung eines Gesetzes zur Anpassung von Kraftstoffpreisen und zur Änderung des Gesetzes gegen W…",
+      "thema": "Energie & Klima",
       "woerter": 10203
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Dr. Paul Schmidt, Dr. Rainer Kraft, Andreas Bleck, weiterer Abgeordneter und der Fraktion der AfD: Wieder in die Kernkraft einsteigen und strategische Fehler korrigieren",
+      "thema": "Energie & Klima",
       "woerter": 9485
     },
     {
       "top": 3,
       "titel": "Antrag der Abgeordneten Leon Eckert, Dr. Konstantin von Notz, Dr. Irene Mihalic, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die Zeitenwende in der Zivilen Verteidigung umsetzen",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 9443
     },
     {
       "top": 2,
       "titel": "Vereinbarte Debatte: Internationaler Frauentag",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8903
     },
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Kernenergiegipfel in Paris – Widersprüche deutscher Energiepolitik auf europäischer und nationaler Ebene",
+      "thema": "Energie & Klima",
       "woerter": 7800
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Kerstin Przygodda, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Frauen schützen – Im Namen der Familienehre versuchte und vollendete Mord…",
+      "thema": "Migration & Asyl",
       "woerter": 6299
     },
     {
       "top": 8,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: 18. März – Tag der Demokratiegeschichte – Orte der Freiheit und Demokratie in Deutschland weiter stärken",
+      "thema": "Migration & Asyl",
       "woerter": 5463
     },
     {
       "top": 15,
       "titel": "a) Antrag der Abgeordneten Dr. Sandra Detzer, Julian Joswig, Ayse Asar, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Wirtschaft 2045 – GreenTech als Wachstumstreiber nutzen, Technolo…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 5388
     },
     {
       "top": 14,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Neunten Gesetzes zur Änderung des Steuerberatungsgesetzes und zur Änderung weiterer steuerrechtlicher Vorschriften",
+      "thema": "Steuern & Finanzen",
       "woerter": 4321
     },
     {
       "top": 10,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Ersten Gesetzes zur Änderung des Wissenschaftsfreiheitsgesetzes",
+      "thema": "Bildung & Forschung",
       "woerter": 4246
     },
     {
       "top": 12,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur weiteren Digitalisierung der Zwangsvollstreckung",
+      "thema": "Digitalisierung",
       "woerter": 4025
     },
     {
       "top": 9,
       "titel": "Antrag der Abgeordneten Ferat Koçak, Clara Bünger, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Institutionellen Rassismus bekämpfen – Handlungsempfehlungen der Studie „Institut…",
+      "thema": "Innere Sicherheit",
       "woerter": 3888
     },
     {
       "top": 13,
       "titel": "Erste Beratung des von den Abgeordneten Steffen Janich, Dr. Gottfried Curio, Dr. Bernd Baumann, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Aufhebung des…",
+      "thema": "Innere Sicherheit",
       "woerter": 3857
     },
     {
       "top": 16,
       "titel": "Unterrichtung durch die Bundesregierung: Neunter Bericht zur Lage der älteren Generation in der Bundesrepublik Deutschland – Alt werden in Deutschland – Vielfalt der Potenziale und Ungleichheit der T…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 2916
     },
     {
       "top": 6,
       "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz zu dem Streitverfahren vor dem Bundesverfassungsgericht 2 BvC 4/26",
+      "thema": "Digitalisierung",
       "woerter": 1149
     },
     {
       "top": 17,
       "titel": "Antrag der Abgeordneten Carolin Bachmann, Marc Bernhard, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung einer Enquete-Kommission „Evaluation der Finanzlage der Komm…",
+      "thema": "Steuern & Finanzen",
       "woerter": 1111
     }
   ],
@@ -112,7 +259,7 @@
       "prozent": 17.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11179,
       "prozent": 13.4
     },
@@ -310,7 +457,7 @@
       "negativ": 55
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 156,
       "negativ": 27
     },
@@ -325,8 +472,5 @@
       "negativ": 22
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "bestätigt": 2
-  }
+  "faktencheck_bilanz": {}
 }

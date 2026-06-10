@@ -9,39 +9,160 @@
     "reden": 169,
     "schriftliche_beitraege": 0,
     "woerter": 39780,
+    "gesamtzeit_min": 306,
     "tops": 7,
     "saalreaktionen": 673,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Bärbel Bas",
+      "woerter": 4639,
+      "reden": 33,
+      "fraktion": null
+    },
+    {
+      "name": "Verena Hubertz",
+      "woerter": 3364,
+      "reden": 28,
+      "fraktion": null
+    },
+    {
+      "name": "Johannes Volkmann",
+      "woerter": 1159,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Holger Mann",
+      "woerter": 1048,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Pascal Reddig",
+      "woerter": 941,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Hannes Gnauck",
+      "woerter": 923,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Axel Müller",
+      "woerter": 892,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 870,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 858,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Ronald Gläser",
+      "woerter": 841,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 783,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "David Schliesing",
+      "woerter": 754,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Anna Lührmann",
+      "woerter": 719,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Götz Frömming",
+      "woerter": 683,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Norbert Röttgen",
+      "woerter": 680,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 13332
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 9207
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 8558
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 4590
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4093
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 13332
     },
     {
       "top": 4,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Mögliche Urheberrechtsverletzungen und Interessenskonflikte des Bundesbeauftragten für Kultur und Medien",
+      "thema": "Digitalisierung",
       "woerter": 9207
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Stephan Brandner, Tobias Matthias Peterka, Thomas Fetsch, weiterer Abgeordneter und der Fraktion der AfD: Staatliche Finanzierung der Amadeu Antonio Stiftung aus Bundesmitteln…",
+      "thema": "Innere Sicherheit",
       "woerter": 4693
     },
     {
       "top": 6,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung der Krankenhausreform (Krankenhausreformanpassungsgesetz – KHAG)",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4590
     },
     {
       "top": 3,
       "titel": "Vereinbarte Debatte: 70. Gründungsjubiläum der Bundeswehr",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4093
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Maik Brückner, Clara Bünger, Nicole Gohlke, weiterer Abgeordneter und der Fraktion Die Linke: Queeres Leben stärken – Christopher-Street-Days schützen",
+      "thema": "Innere Sicherheit",
       "woerter": 3865
     }
   ],
@@ -57,7 +178,7 @@
       "prozent": 25.3
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5123,
       "prozent": 16.6
     },
@@ -175,7 +296,7 @@
       "negativ": 24
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 65,
       "negativ": 15
     },
@@ -190,7 +311,5 @@
       "negativ": 5
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

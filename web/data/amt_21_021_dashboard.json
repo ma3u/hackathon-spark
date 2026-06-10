@@ -9,94 +9,242 @@
     "reden": 161,
     "schriftliche_beitraege": 0,
     "woerter": 85981,
+    "gesamtzeit_min": 661,
     "tops": 18,
     "saalreaktionen": 1405,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Detlef Seif",
+      "woerter": 2112,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Bernd Baumann",
+      "woerter": 1585,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Wolfgang Wiehle",
+      "woerter": 1556,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 1448,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 1445,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 1334,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Michael Donth",
+      "woerter": 1231,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Helmut Kleebank",
+      "woerter": 1217,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Clara Bünger",
+      "woerter": 1198,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Hakan Demir",
+      "woerter": 1155,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Markus Frohnmaier",
+      "woerter": 1131,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Philipp Amthor",
+      "woerter": 1111,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Reichardt",
+      "woerter": 1110,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Luigi Pantisano",
+      "woerter": 1107,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Victoria Broßart",
+      "woerter": 1096,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 21216
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 13594
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 12907
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 12431
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 8236
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 7753
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4264
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 2869
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 2711
+    }
+  ],
   "top_themen": [
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Hightech Agenda Deutschland – Mit Höchstleistungen in Forschung und Innovation Deutschland voranbringen",
+      "thema": "Bildung & Forschung",
       "woerter": 9266
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Schahina Gambir, Marcel Emmerich, Luise Amtsberg, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Aufnahmezusagen einhalten – Schutz für gefährdete Afghaninnen u…",
+      "thema": "Migration & Asyl",
       "woerter": 9232
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Dr. Bernd Baumann, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Effektive Grenzkontrollen und Zurückweisung aller asylsuchenden Pe…",
+      "thema": "Migration & Asyl",
       "woerter": 9059
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der NIS-2-Richtlinie und zur Regelung wesentlicher Grundzüge des Informationssicherheitsmanagements in d…",
+      "thema": "Digitalisierung",
       "woerter": 8236
     },
     {
       "top": 15,
       "titel": "Antrag der Abgeordneten Victoria Broßart, Tarek Al-Wazir, Matthias Gastel, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Deutschlandticket weiterentwickeln und langfristig sichern",
+      "thema": "Verkehr & Mobilität",
       "woerter": 5010
     },
     {
       "top": 3,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Befugniserweiterung und Entbürokratisierung in der Pflege",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4672
     },
     {
       "top": 14,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Kohlendioxid-Speicherungsgesetzes",
+      "thema": "Energie & Klima",
       "woerter": 4484
     },
     {
       "top": 13,
       "titel": "Antrag der Abgeordneten Martin Reichardt, Alexander Arpaschi, Carolin Bachmann, weiterer Abgeordneter und der Fraktion der AfD: Gesetz über die Selbstbestimmung in Bezug auf den Geschlechtseintrag au…",
+      "thema": "Bildung & Forschung",
       "woerter": 4328
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Desiree Becker, Gökay Akbulut, Janina Böttger, weiterer Abgeordneter und der Fraktion Die Linke: Streichung der Wehrpflicht aus dem Grundgesetz",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4264
     },
     {
       "top": 9,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Andreas Bleck, Dr. Michael Blos, Dr. Ingo Hahn, weiterer Ab…",
+      "thema": "Energie & Klima",
       "woerter": 4213
     },
     {
       "top": 12,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Abmilderung des Trassenentgeltanstiegs bei den Eisenbahnen des Bundes",
+      "thema": "Verkehr & Mobilität",
       "woerter": 3999
     },
     {
       "top": 10,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Elften Gesetzes zur Änderung des Regionalisierungsgesetzes",
+      "thema": "Verkehr & Mobilität",
       "woerter": 3898
     },
     {
       "top": 8,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "thema": "Energie & Klima",
       "woerter": 3734
     },
     {
       "top": 2,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Befugniserweiterung und Entbürokratisierung in der Pflege",
+      "thema": "Gesundheit & Pflege",
       "woerter": 3081
     },
     {
       "top": 17,
       "titel": "Antrag der Abgeordneten Markus Frohnmaier, Gerold Otten, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Umbenennung des Bismarck-Zimmers im Auswärtigen Amt zurücknehmen",
+      "thema": "Migration & Asyl",
       "woerter": 2925
     },
     {
       "top": 18,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Kultur und Medien zu dem Antrag der Fraktionen der CDU/CSU und SPD: Volksbund Deutsche Kriegsgräberfürsorge – Arbeit für Frieden und Versöhnung sic…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 2869
     },
     {
       "top": 16,
       "titel": "– Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Anpassung des Batterierechts an die Verordnung (EU) 2023/1542 (Batterierecht-EU-Anpas…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 2711
     }
   ],
@@ -117,7 +265,7 @@
       "prozent": 20.7
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11195,
       "prozent": 13.6
     },
@@ -301,7 +449,7 @@
       "negativ": 39
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 146,
       "negativ": 16
     },
@@ -321,7 +469,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

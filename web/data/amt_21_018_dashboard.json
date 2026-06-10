@@ -9,64 +9,202 @@
     "reden": 156,
     "schriftliche_beitraege": 0,
     "woerter": 91897,
+    "gesamtzeit_min": 707,
     "tops": 11,
     "saalreaktionen": 1534,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Paula Piechotta",
+      "woerter": 1944,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Franziska Hoppermann",
+      "woerter": 1740,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Gerster",
+      "woerter": 1660,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Dietmar Bartsch",
+      "woerter": 1569,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 1556,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Tamara Mazzi",
+      "woerter": 1512,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 1489,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Christian Wirth",
+      "woerter": 1450,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 1408,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Karin Prien",
+      "woerter": 1307,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 1303,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Nina Warken",
+      "woerter": 1275,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Svenja Stadler",
+      "woerter": 1204,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Michael Kießling",
+      "woerter": 1187,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Helge Limburg",
+      "woerter": 1175,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 26356
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 24672
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 15737
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 12808
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 4841
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 4340
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 2750
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 393
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Einzelplan 07",
+      "thema": "Haushalt & Schulden",
       "woerter": 13318
     },
     {
       "top": 1,
       "titel": "Einzelplan 06",
+      "thema": "Haushalt & Schulden",
       "woerter": 13038
     },
     {
       "top": 9,
       "titel": "Einzelplan 24",
+      "thema": "Digitalisierung",
       "woerter": 12808
     },
     {
       "top": 8,
       "titel": "Einzelplan 30",
+      "thema": "Bildung & Forschung",
       "woerter": 12406
     },
     {
       "top": 11,
       "titel": "Einzelplan 15",
+      "thema": "Gesundheit & Pflege",
       "woerter": 12381
     },
     {
       "top": 10,
       "titel": "Einzelplan 17",
+      "thema": "Bildung & Forschung",
       "woerter": 12266
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Wohnungsbaus und zur Wohnraumsicherung",
+      "thema": "Wohnen & Bau",
       "woerter": 4841
     },
     {
       "top": 4,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Bestimmung sicherer Herkunftsstaaten durch Rechtsverordnung und zur Abschaffung des anwaltlichen Ve…",
+      "thema": "Migration & Asyl",
       "woerter": 4340
     },
     {
       "top": 7,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung",
+      "thema": "Gesundheit & Pflege",
       "woerter": 3356
     },
     {
       "top": 6,
       "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Umsetzung von Vorgaben der Richtlinie (EU) 2023/2413 für Zulassungsverfahren nach dem B…",
+      "thema": "Energie & Klima",
       "woerter": 2750
     },
     {
       "top": 3,
       "titel": "a)–f) Beratung der Beschlussempfehlungen des Petitionsausschusses: Sammelübersichten 8, 9, 10, 11, 12 und 13 zu Petitionen",
+      "thema": null,
       "woerter": 393
     }
   ],
@@ -83,11 +221,11 @@
     },
     {
       "fraktion": "SPD",
-      "woerter": 14966,
-      "prozent": 17.8
+      "woerter": 16136,
+      "prozent": 19.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 13090,
       "prozent": 15.6
     },
@@ -95,11 +233,6 @@
       "fraktion": "Die Linke",
       "woerter": 9959,
       "prozent": 11.9
-    },
-    {
-      "fraktion": "SPDSPD",
-      "woerter": 1170,
-      "prozent": 1.4
     },
     {
       "fraktion": "fraktionslos",
@@ -234,13 +367,13 @@
       "negativ": 30
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 168,
       "negativ": 27
     },
     {
       "fraktion": "SPD",
-      "positiv": 162,
+      "positiv": 172,
       "negativ": 20
     },
     {
@@ -249,19 +382,10 @@
       "negativ": 18
     },
     {
-      "fraktion": "SPDSPD",
-      "positiv": 10,
-      "negativ": 0
-    },
-    {
       "fraktion": "fraktionslos",
       "positiv": 5,
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "teilweise": 1,
-    "bestätigt": 1
-  }
+  "faktencheck_bilanz": {}
 }

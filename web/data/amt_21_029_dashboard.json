@@ -9,24 +9,134 @@
     "reden": 60,
     "schriftliche_beitraege": 0,
     "woerter": 37587,
+    "gesamtzeit_min": 289,
     "tops": 3,
     "saalreaktionen": 682,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Yannick Bury",
+      "woerter": 1570,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Bärbel Bas",
+      "woerter": 1231,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Katrin Uhlig",
+      "woerter": 1182,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Ulrike Schielke-Ziesing",
+      "woerter": 1095,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Leon Eckert",
+      "woerter": 1002,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "René Springer",
+      "woerter": 953,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Dietmar Bartsch",
+      "woerter": 928,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Andreas Lenz",
+      "woerter": 887,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Katherina Reiche",
+      "woerter": 885,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Janine Wissler",
+      "woerter": 884,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 880,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Michael Espendiller",
+      "woerter": 860,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 858,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Thomas Bareiß",
+      "woerter": 842,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Pascal Reddig",
+      "woerter": 805,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 12994
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 12632
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 11961
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Einzelplan 11",
+      "thema": "Rente & Soziales",
       "woerter": 12994
     },
     {
       "top": 3,
       "titel": "Tagesordnungspunkt 1",
+      "thema": "Haushalt & Schulden",
       "woerter": 12632
     },
     {
       "top": 2,
       "titel": "Einzelplan",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 11961
     }
   ],
@@ -47,7 +157,7 @@
       "prozent": 15.6
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4845,
       "prozent": 14.0
     },
@@ -126,7 +236,7 @@
       "negativ": 8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 76,
       "negativ": 5
     },
@@ -141,7 +251,5 @@
       "negativ": 8
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,54 +9,186 @@
     "reden": 148,
     "schriftliche_beitraege": 0,
     "woerter": 88221,
+    "gesamtzeit_min": 679,
     "tops": 10,
     "saalreaktionen": 1382,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Michael Espendiller",
+      "woerter": 2343,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 2156,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Armand Zorn",
+      "woerter": 1883,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sascha Wagner",
+      "woerter": 1560,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Jamila Schäfer",
+      "woerter": 1501,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Georg Schroeter",
+      "woerter": 1379,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Andreas Jung",
+      "woerter": 1340,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sahra Mirow",
+      "woerter": 1213,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Michael Kießling",
+      "woerter": 1167,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ricarda Lang",
+      "woerter": 1131,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Fritz Güntzler",
+      "woerter": 1126,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Wolfgang Wiehle",
+      "woerter": 1051,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Christian Haase",
+      "woerter": 1024,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Thomas Bareiß",
+      "woerter": 1015,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1001,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 23727
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 11203
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 10975
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 10781
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 10591
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 10533
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 10411
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Einzelplan 08",
+      "thema": "Haushalt & Schulden",
       "woerter": 12894
     },
     {
       "top": 7,
       "titel": "Einzelplan 16",
+      "thema": "Energie & Klima",
       "woerter": 11203
     },
     {
       "top": 5,
       "titel": "Einzelplan 25",
+      "thema": "Wohnen & Bau",
       "woerter": 10975
     },
     {
       "top": 4,
       "titel": "Einzelplan 09",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 10781
     },
     {
       "top": 9,
       "titel": "Einzelplan 17",
+      "thema": "Bildung & Forschung",
       "woerter": 10591
     },
     {
       "top": 10,
       "titel": "Einzelplan 12",
+      "thema": "Verkehr & Mobilität",
       "woerter": 10533
     },
     {
       "top": 6,
       "titel": "Einzelplan 24",
+      "thema": "Digitalisierung",
       "woerter": 10411
     },
     {
       "top": 8,
       "titel": "Einzelplan 10",
+      "thema": "Haushalt & Schulden",
       "woerter": 9944
     },
     {
       "top": 2,
       "titel": "Feststellung der Tagesordnung",
+      "thema": "Haushalt & Schulden",
       "woerter": 889
     }
   ],
@@ -77,7 +209,7 @@
       "prozent": 18.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12735,
       "prozent": 14.9
     },
@@ -192,7 +324,7 @@
       "negativ": 30
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 160,
       "negativ": 21
     },
@@ -212,7 +344,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

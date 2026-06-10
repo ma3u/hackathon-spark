@@ -9,49 +9,172 @@
     "reden": 90,
     "schriftliche_beitraege": 0,
     "woerter": 46969,
+    "gesamtzeit_min": 361,
     "tops": 9,
     "saalreaktionen": 775,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1538,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mahmut Özdemir",
+      "woerter": 1427,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Ansgar Heveling",
+      "woerter": 1392,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Hülya Düber",
+      "woerter": 1319,
+      "reden": 4,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Gerrit Huy",
+      "woerter": 1275,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Rita Schwarzelühr-Sutter",
+      "woerter": 1251,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 1173,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sarah Vollath",
+      "woerter": 1134,
+      "reden": 4,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Armin Grau",
+      "woerter": 1129,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Ulrike Schielke-Ziesing",
+      "woerter": 1087,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Helge Limburg",
+      "woerter": 1013,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sören Pellmann",
+      "woerter": 995,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Stefan Möller",
+      "woerter": 982,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Timon Dzienus",
+      "woerter": 961,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Ruben Rupp",
+      "woerter": 874,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 18506
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 9314
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 7888
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 6826
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 4435
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Antrag der Abgeordneten Sarah Vollath, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Bundestagsabgeordnete vollumfänglich in die gesetzliche Rentenversicherung ei…",
+      "thema": "Rente & Soziales",
       "woerter": 9607
     },
     {
       "top": 9,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimaschutz nicht schwächen – Bundesregierung muss Führungsrolle in der Klimapolitik einnehmen",
+      "thema": "Energie & Klima",
       "woerter": 9314
     },
     {
       "top": 2,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur steuerlichen Förderung von Arbeitnehmerinnen und Arbeitnehmern im Rentenalter (Aktivrentengesetz)",
+      "thema": "Rente & Soziales",
       "woerter": 8899
     },
     {
       "top": 5,
       "titel": "a) Antrag der Abgeordneten Rebecca Lenhard, Dr. Konstantin von Notz, Dr. Anna Lührmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Strategie zur digitalen Souveränität – Für eine s…",
+      "thema": "Digitalisierung",
       "woerter": 5085
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Gerrit Huy, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Dauerduldungen unattraktiver machen durch Abschaffung der Analogleistungen nach § 2 d…",
+      "thema": "Migration & Asyl",
       "woerter": 4435
     },
     {
       "top": 4,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über den Zugang zu Schuldnerberatungsdiensten für Verbraucher (Schuldnerberatungsdienstegesetz – SchuBerDG)",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4023
     },
     {
       "top": 6,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Reform und Erweiterung des Schutzes geografischer Angaben (Geoschutzreformgesetz)",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 2803
     },
     {
       "top": 8,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung einer elektronischen Präsenzbeurkundung",
+      "thema": "Digitalisierung",
       "woerter": 2803
     }
   ],
@@ -72,7 +195,7 @@
       "prozent": 19.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6513,
       "prozent": 14.5
     },
@@ -187,7 +310,7 @@
       "negativ": 27
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 76,
       "negativ": 7
     },
@@ -202,7 +325,5 @@
       "negativ": 2
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

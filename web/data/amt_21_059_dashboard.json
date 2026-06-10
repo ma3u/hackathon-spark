@@ -9,94 +9,254 @@
     "reden": 165,
     "schriftliche_beitraege": 3,
     "woerter": 88470,
+    "gesamtzeit_min": 681,
     "tops": 19,
     "saalreaktionen": 1654,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 1840,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Jakob Blankenburg",
+      "woerter": 1651,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Tijen Ataoğlu",
+      "woerter": 1440,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Martin Plum",
+      "woerter": 1426,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Andreas Jung",
+      "woerter": 1322,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Pascal Meiser",
+      "woerter": 1307,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 1250,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Siegfried Walch",
+      "woerter": 1194,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Peter Bohnhof",
+      "woerter": 1134,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1100,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1072,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Michael Hose",
+      "woerter": 1002,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Patrick Schnieder",
+      "woerter": 970,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Christian Wirth",
+      "woerter": 967,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 934,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 16756
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 12822
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 10616
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 8437
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 8156
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 8116
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 6731
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 5924
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 4748
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 2426
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 1942
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 1796
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Antrag der Abgeordneten Lisa Badum, Swantje Henrike Michaelsen, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Nach Urteil des Bundesverwaltungsgerichts – Ein Klim…",
+      "thema": "Energie & Klima",
       "woerter": 10616
     },
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Verwandtenbeschäftigung bei AfD-Abgeordneten – Bereicherung auf Staatskosten vermeiden, rechtliche Konsequenzen ziehen",
+      "thema": "Steuern & Finanzen",
       "woerter": 8513
     },
     {
       "top": 2,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Tarifautonomie durch die Sicherung von Tariftreue bei der Vergabe öffentlicher Aufträge…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8468
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Dr. Christian Wirth, Dr. Gottfried Curio, Martin Hess, weiterer Abgeordneter und der Fraktion der AfD: Effektive Kontrollen und Zurückweisungen an der Grenze durch Schaffung e…",
+      "thema": "Migration & Asyl",
       "woerter": 8437
     },
     {
       "top": 4,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Infrastruktur-Zukunftsgesetzes",
+      "thema": "Verkehr & Mobilität",
       "woerter": 8116
     },
     {
       "top": 14,
       "titel": "a) Erste Beratung des von den Abgeordneten Dr. Till Steffen, Hanna Steinmüller, Lukas Benner, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur St…",
+      "thema": "Wohnen & Bau",
       "woerter": 5924
     },
     {
       "top": 7,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Reform der steuerlich geförderten privaten Altersvorsorge (Altersvorsorgereformgesetz)",
+      "thema": "Rente & Soziales",
       "woerter": 4748
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Nicole Gohlke, Maren Kaminski, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Demokratische Schule schützen, Lehrkräfte stärken",
+      "thema": "Bildung & Forschung",
       "woerter": 4331
     },
     {
       "top": 10,
       "titel": "Antrag der Abgeordneten Diana Zimmer, Christian Douglas, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Grundsteuer vollständig abschaffen – Eigentum schützen, Mieter entlasten",
+      "thema": "Steuern & Finanzen",
       "woerter": 4309
     },
     {
       "top": 12,
       "titel": "Antrag der Abgeordneten René Springer, Peter Bohnhof, Gerrit Huy, weiterer Abgeordneter und der Fraktion der AfD: Technisierung statt Zuwanderung – Für einen leistungsfähigen Arbeitsmarkt",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4147
     },
     {
       "top": 9,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Verfügbarkeit von Wasserstoff und zur Änderung weiterer rechtlicher Rahmenbedingung…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4141
     },
     {
       "top": 13,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1069 über den Schutz von Personen, die sich öffentlich beteiligen, vor offen…",
+      "thema": "Bildung & Forschung",
       "woerter": 3825
     },
     {
       "top": 11,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftsicherheitsgesetzes",
+      "thema": "Innere Sicherheit",
       "woerter": 3699
     },
     {
       "top": 16,
       "titel": "Antrag der Abgeordneten Beatrix von Storch, Jörn König, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Verbot der Islamischen Revolutionsgarde des Iran in Deutschland",
+      "thema": "Innere Sicherheit",
       "woerter": 3032
     },
     {
       "top": 18,
       "titel": "Antrag der Abgeordneten Lea Reisner, Sören Pellmann, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Faire Entschuldung für die Ukraine – Für Souveränität, sozialen Wiederaufbau und…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 2426
     },
     {
       "top": 15,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung des Urteils des Bundesverfassungsgerichts zur Vaterschaftsanfechtung",
+      "thema": null,
       "woerter": 1942
     },
     {
       "top": 17,
       "titel": "Zweite Beratung und Schlussabstimmung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Abkommen vom 9. Dezember 2022 zwischen der Regierung der Bundesrepublik Deutschland und…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 1796
     }
   ],
@@ -117,7 +277,7 @@
       "prozent": 19.3
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12008,
       "prozent": 14.0
     },
@@ -316,7 +476,7 @@
       "negativ": 37
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 158,
       "negativ": 17
     },
@@ -331,7 +491,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

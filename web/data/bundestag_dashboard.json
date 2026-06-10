@@ -9,14 +9,42 @@
     "reden": 4,
     "schriftliche_beitraege": 0,
     "woerter": 168,
+    "gesamtzeit_min": 1,
     "tops": 1,
     "saalreaktionen": 5,
     "geprüfte_aussagen": 4
   },
+  "redner": [
+    {
+      "name": "Dr. Lena Vossberg",
+      "woerter": 66,
+      "reden": 2,
+      "fraktion": "Fraktion Mitte"
+    },
+    {
+      "name": "Jonas Reuter",
+      "woerter": 34,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Stefan Möller",
+      "woerter": 33,
+      "reden": 1,
+      "fraktion": "Fraktion Fortschritt"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 133
+    }
+  ],
   "top_themen": [
     {
       "top": 7,
       "titel": "Beratung über den Ausbau der Ladeinfrastruktur für die Elektromobilität",
+      "thema": null,
       "woerter": 133
     }
   ],

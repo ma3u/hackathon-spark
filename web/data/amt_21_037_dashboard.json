@@ -9,89 +9,232 @@
     "reden": 146,
     "schriftliche_beitraege": 1,
     "woerter": 80513,
+    "gesamtzeit_min": 619,
     "tops": 19,
     "saalreaktionen": 1452,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Stephan Mayer",
+      "woerter": 2633,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tijen Ataoğlu",
+      "woerter": 1546,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 1519,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 1326,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 1260,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Derya Türk-Nachbaur",
+      "woerter": 1232,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Agnieszka Brugger",
+      "woerter": 1225,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Georg Günther",
+      "woerter": 1185,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Markus Frohnmaier",
+      "woerter": 1131,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jörn König",
+      "woerter": 1072,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jörg Cezanne",
+      "woerter": 1038,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Florian Dorn",
+      "woerter": 1029,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Anna Rathert",
+      "woerter": 967,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Cansu Özdemir",
+      "woerter": 966,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Simone Borchardt",
+      "woerter": 960,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 17498
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 17387
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 10175
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 9872
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 8563
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 6807
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 6053
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 4158
+    }
+  ],
   "top_themen": [
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Agnieszka Brugger, Deborah Düring, Claudia Roth, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: 25 Jahre UN-Resolution 1325 „Frauen, Frieden und Sicherheit“ – F…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 9872
     },
     {
       "top": 8,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Innere Sicherheit erhöhen, konsequent zurückführen und deutsche Leitkultur stärken – Konkrete Maßnahmen für ein besseres Stadtbild",
+      "thema": "Migration & Asyl",
       "woerter": 8985
     },
     {
       "top": 5,
       "titel": "Tagesordnungspunkt 9a",
+      "thema": "Gesundheit & Pflege",
       "woerter": 8563
     },
     {
       "top": 6,
       "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Abgeordneten Jörn König, Kay Gottschalk, Jan Wenzel Schmidt, weiterer Abgeordneter und der Fraktion der AfD: Programm für Deuts…",
+      "thema": "Steuern & Finanzen",
       "woerter": 8127
     },
     {
       "top": 11,
       "titel": "Zweite und dritte Beratung des von der Fraktion Die Linke eingebrachten Entwurfs eines Gesetzes zur besseren Bekämpfung überhöhter Mieten (Mietwuchergesetz)",
+      "thema": "Wohnen & Bau",
       "woerter": 6053
     },
     {
       "top": 3,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "thema": "Energie & Klima",
       "woerter": 5514
     },
     {
       "top": 15,
       "titel": "a) Antrag der Abgeordneten Stefan Keuter, René Springer, Jan Wenzel Schmidt, weiterer Abgeordneter und der Fraktion der AfD: Afghanistan – Für eine neue Realpolitik",
+      "thema": "Migration & Asyl",
       "woerter": 4660
     },
     {
       "top": 12,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Kohlendioxid-Speicherungsgesetzes",
+      "thema": "Energie & Klima",
       "woerter": 4420
     },
     {
       "top": 14,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Aufhebung der Freizone Cuxhaven und zur Änderung weiterer Vorschriften",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 4158
     },
     {
       "top": 17,
       "titel": "Antrag der Abgeordneten Dr. Zoe Mayer, Karl Bär, Dr. Ophelia Nick, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Frei benennen, klar erkennen – Bezeichnungsverbote für Fleischalternat…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3924
     },
     {
       "top": 13,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit zu dem Antrag der Abgeordneten Martin Sichert, Dr. Christina Baum, Carina Schießl, weiterer Abgeordneter und der Fraktion der AfD: Zuwan…",
+      "thema": "Migration & Asyl",
       "woerter": 3742
     },
     {
       "top": 16,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Verfügbarkeit von Wasserstoff und zur Änderung weiterer rechtlicher Rahmenbedingungen für den W…",
+      "thema": "Energie & Klima",
       "woerter": 3653
     },
     {
       "top": 1,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 2883
     },
     {
       "top": 9,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "thema": "Energie & Klima",
       "woerter": 2510
     },
     {
       "top": 18,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2226",
+      "thema": "Steuern & Finanzen",
       "woerter": 2048
     },
     {
       "top": 10,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes zur Änderung des Energiewirtschaftsgesetzes",
+      "thema": "Energie & Klima",
       "woerter": 1401
     }
   ],
@@ -112,7 +255,7 @@
       "prozent": 19.9
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11763,
       "prozent": 15.1
     },
@@ -306,7 +449,7 @@
       "negativ": 36
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 145,
       "negativ": 28
     },
@@ -326,8 +469,5 @@
       "negativ": 1
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "falsch": 1
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,19 +9,124 @@
     "reden": 60,
     "schriftliche_beitraege": 0,
     "woerter": 36489,
+    "gesamtzeit_min": 281,
     "tops": 3,
     "saalreaktionen": 611,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Günter Krings",
+      "woerter": 2119,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 1250,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Armand Zorn",
+      "woerter": 1236,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Karsten Wildberger",
+      "woerter": 1218,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Katherina Reiche",
+      "woerter": 1202,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Gottfried Curio",
+      "woerter": 1164,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sonja Eichwede",
+      "woerter": 1021,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Andreas Audretsch",
+      "woerter": 931,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Janine Wissler",
+      "woerter": 913,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 909,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Ralph Brinkhaus",
+      "woerter": 880,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Carsten Müller",
+      "woerter": 802,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 774,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Helge Limburg",
+      "woerter": 763,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Alexander Throm",
+      "woerter": 743,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 19602
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 16887
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler (Fortsetzung der Aussprache)",
+      "thema": "Migration & Asyl",
       "woerter": 19602
     },
     {
       "top": 3,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler (Fortsetzung der Aussprache)",
+      "thema": "Digitalisierung",
       "woerter": 16887
     }
   ],
@@ -42,7 +147,7 @@
       "prozent": 20.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5301,
       "prozent": 16.6
     },
@@ -130,7 +235,7 @@
       "negativ": 20
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 83,
       "negativ": 8
     },
@@ -150,7 +255,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,44 +9,166 @@
     "reden": 103,
     "schriftliche_beitraege": 0,
     "woerter": 71021,
+    "gesamtzeit_min": 546,
     "tops": 8,
     "saalreaktionen": 1095,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 5587,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Paula Piechotta",
+      "woerter": 2911,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Michael Espendiller",
+      "woerter": 2216,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Florian Oßner",
+      "woerter": 1536,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Patrick Schnieder",
+      "woerter": 1364,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Julian Schmidt",
+      "woerter": 1344,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Wolfgang Wiehle",
+      "woerter": 1255,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 1238,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Oliver Vogt",
+      "woerter": 1220,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 1179,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Peter Aumer",
+      "woerter": 1152,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Svenja Stadler",
+      "woerter": 1130,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Nina Warken",
+      "woerter": 1095,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Benedikt Büdenbender",
+      "woerter": 1085,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Albert Stegemann",
+      "woerter": 999,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 19458
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 13450
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 12860
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 12745
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 12508
+    }
+  ],
   "top_themen": [
     {
       "top": 7,
       "titel": "Einzelplan 15",
+      "thema": "Gesundheit & Pflege",
       "woerter": 13450
     },
     {
       "top": 5,
       "titel": "Einzelplan 12",
+      "thema": "Verkehr & Mobilität",
       "woerter": 12860
     },
     {
       "top": 6,
       "titel": "Einzelplan 25",
+      "thema": "Wohnen & Bau",
       "woerter": 12745
     },
     {
       "top": 8,
       "titel": "Einzelplan 10",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 12508
     },
     {
       "top": 4,
       "titel": "Einzelplan 08",
+      "thema": "Haushalt & Schulden",
       "woerter": 12041
     },
     {
       "top": 2,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2026 (Haushaltsgesetz 2026 – HG 2026)",
+      "thema": "Haushalt & Schulden",
       "woerter": 5587
     },
     {
       "top": 1,
       "titel": "Feststellung der Tagesordnung",
+      "thema": "Haushalt & Schulden",
       "woerter": 1830
     }
   ],
@@ -67,7 +189,7 @@
       "prozent": 18.3
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 9834,
       "prozent": 16.0
     },
@@ -191,7 +313,7 @@
       "negativ": 29
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 109,
       "negativ": 8
     },
@@ -211,8 +333,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "falsch": 1
-  }
+  "faktencheck_bilanz": {}
 }

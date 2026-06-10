@@ -189,7 +189,7 @@ def fetch_official_xml(wp: str, nr: int) -> Path | None:
         return None
 
 
-def sync_official(st, *, wp, lo, hi, load, az, force, limit, web_graph=False) -> None:
+def sync_official(st, *, wp, lo, hi, load, az, force, limit, web_graph=False, retrieval=False) -> None:
     print(f"── Amtliche Plenarprotokolle (dserver, WP {wp}, {lo}–{hi}) ──")
     done = 0
     for nr in range(lo, hi + 1):
@@ -207,7 +207,7 @@ def sync_official(st, *, wp, lo, hi, load, az, force, limit, web_graph=False) ->
         try:
             res = session_ingest.ingest_official(
                 xml, wp=wp, nr=nr, az=az, load=load, write_web_graph=web_graph,
-                mediathek_match=web_graph, neo4j=neo4j_cfg())
+                mediathek_match=web_graph, retrieval=retrieval, neo4j=neo4j_cfg())
         except Exception as e:  # eine kaputte Sitzung darf den Batch nicht abbrechen
             print(f"  ✗ {key}: Ingest fehlgeschlagen ({type(e).__name__}: {e}) — übersprungen.")
             continue
@@ -342,6 +342,8 @@ def main() -> int:
     ap.add_argument("--no-factcheck", action="store_true", help="ohne LLM-Faktencheck")
     ap.add_argument("--web-graph", action="store_true",
                     help="amtlich: strukturellen Graph + Protokoll-HTML + Mediathek-Deeplinks für Pages schreiben")
+    ap.add_argument("--retrieval", action="store_true",
+                    help="Faktencheck mit Quellen-Retrieval (Wikipedia) statt LLM-only → belastbare Verdikte")
     ap.add_argument("--force", action="store_true", help="bereits importierte neu importieren")
     args = ap.parse_args()
 
@@ -360,7 +362,8 @@ def main() -> int:
                        force=args.force, limit=args.limit)
     if args.official or args.all:
         sync_official(st, wp=args.wp, lo=args.lo, hi=args.hi, load=args.load, az=az,
-                      force=args.force, limit=args.limit, web_graph=args.web_graph)
+                      force=args.force, limit=args.limit, web_graph=args.web_graph,
+                      retrieval=args.retrieval)
     if args.gap or args.all:
         sync_gap(st, wp=args.wp, force=args.force)
 

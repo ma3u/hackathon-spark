@@ -9,39 +9,156 @@
     "reden": 172,
     "schriftliche_beitraege": 0,
     "woerter": 38700,
+    "gesamtzeit_min": 298,
     "tops": 8,
     "saalreaktionen": 577,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Katherina Reiche",
+      "woerter": 3584,
+      "reden": 32,
+      "fraktion": null
+    },
+    {
+      "name": "Alois Rainer",
+      "woerter": 3378,
+      "reden": 31,
+      "fraktion": null
+    },
+    {
+      "name": "Ates Gürpinar",
+      "woerter": 1273,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Albert Stegemann",
+      "woerter": 952,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Paula Piechotta",
+      "woerter": 838,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sascha van Beek",
+      "woerter": 837,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Andreas Audretsch",
+      "woerter": 833,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Wilhelm Gebhard",
+      "woerter": 780,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Stephan Pilsinger",
+      "woerter": 778,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ines Schwerdtner",
+      "woerter": 767,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 758,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 754,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Philipp Rottwilm",
+      "woerter": 746,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Simone Borchardt",
+      "woerter": 695,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Lina Seitzl",
+      "woerter": 676,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 14330
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 12378
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 7954
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 4038
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 12378
     },
     {
       "top": 4,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Bericht der Sonderbeauftragten für die Maskenbeschaffung – Volle Transparenz und Aufklärung jetzt",
+      "thema": "Gesundheit & Pflege",
       "woerter": 9036
     },
     {
       "top": 5,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Einsetzung einer Enquete-Kommission „Aufarbeitung der Corona-Pandemie und Lehren für zukünftige pandemische Ereignisse“",
+      "thema": "Gesundheit & Pflege",
       "woerter": 5294
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Robin Wagener, Dr. Sebastian Schäfer, Claudia Roth (Augsburg), weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Eingefrorene russische Staatsvermögen der Ukraine…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4193
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Carolin Bachmann, Marc Bernhard, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Keine planungsrechtlichen Sonderrechte für Flüchtlingsunterkünfte",
+      "thema": "Migration & Asyl",
       "woerter": 4038
     },
     {
       "top": 7,
       "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 3761
     }
   ],
@@ -57,7 +174,7 @@
       "prozent": 22.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5521,
       "prozent": 17.4
     },
@@ -181,7 +298,7 @@
       "negativ": 13
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 65,
       "negativ": 5
     },
@@ -201,7 +318,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,39 +9,160 @@
     "reden": 83,
     "schriftliche_beitraege": 0,
     "woerter": 44306,
+    "gesamtzeit_min": 341,
     "tops": 7,
     "saalreaktionen": 813,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Johannes Volkmann",
+      "woerter": 1461,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Wiebke Esdar",
+      "woerter": 1186,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Robin Jünger",
+      "woerter": 993,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Mareike Hermeier",
+      "woerter": 984,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Jakob Blankenburg",
+      "woerter": 952,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Alexander Wolf",
+      "woerter": 948,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sonja Lemke",
+      "woerter": 937,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Lorenz Gösta Beutin",
+      "woerter": 935,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Pascal Reddig",
+      "woerter": 935,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 928,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Karsten Wildberger",
+      "woerter": 890,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Katrin Göring-Eckardt",
+      "woerter": 879,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Ronald Gläser",
+      "woerter": 836,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Fabian Fahl",
+      "woerter": 830,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 827,
+      "reden": 2,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 9889
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 9593
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 8481
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 8406
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 7937
+    }
+  ],
   "top_themen": [
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Kunst-, Kultur- und Meinungsfreiheit verteidigen – Einschränkungen durch den Beauftragten der Bundesregierung für Kultur und Medien beenden",
+      "thema": "Innere Sicherheit",
       "woerter": 9889
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Corinna Rüffer, Michael Brand (Fulda), Simone Fischer und weiterer Abgeordneter: Kassenzulassung des nicht-invasiven Pränataltests – Monitoring der Konsequenzen und Einrichtun…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 8481
     },
     {
       "top": 1,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Fest…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8406
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Dr. Alexander Wolf, Stefan Keuter, Rocco Kever, weiterer Abgeordneter und der Fraktion der AfD: Für eine Revision der Genfer Flüchtlingskonvention – Kriegsflüchtlinge prioritä…",
+      "thema": "Migration & Asyl",
       "woerter": 7937
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Dr. Jan-Niclas Gesenhues, Dr. Julia Verlinden, Steffi Lemke, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Natur, Klima und Zivilgesellschaft schützen – Einsch…",
+      "thema": "Energie & Klima",
       "woerter": 4871
     },
     {
       "top": 5,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Jörg Cezanne, Dr. Fabian Fahl, Janine Wissler, weiterer Abg…",
+      "thema": "Energie & Klima",
       "woerter": 4722
     }
   ],
@@ -62,7 +183,7 @@
       "prozent": 18.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6748,
       "prozent": 15.8
     },
@@ -180,7 +301,7 @@
       "negativ": 28
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 89,
       "negativ": 12
     },
@@ -195,8 +316,5 @@
       "negativ": 3
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

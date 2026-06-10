@@ -9,84 +9,234 @@
     "reden": 162,
     "schriftliche_beitraege": 0,
     "woerter": 85044,
+    "gesamtzeit_min": 654,
     "tops": 16,
     "saalreaktionen": 1623,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Nina Scheer",
+      "woerter": 2195,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Karin Prien",
+      "woerter": 1838,
+      "reden": 3,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Hülya Düber",
+      "woerter": 1465,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Lars Rohwer",
+      "woerter": 1449,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Manuela Schwesig",
+      "woerter": 1418,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Philipp Rottwilm",
+      "woerter": 1308,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Ruben Rupp",
+      "woerter": 1236,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Ralf Stegner",
+      "woerter": 1180,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Denise Loop",
+      "woerter": 1148,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 1087,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Götz Frömming",
+      "woerter": 1070,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Tijen Ataoğlu",
+      "woerter": 1023,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Timon Dzienus",
+      "woerter": 1022,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sascha Lensing",
+      "woerter": 1007,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 991,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 20114
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 11064
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 10916
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 9825
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 7893
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 7853
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 5137
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 4452
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 3967
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 3823
+    }
+  ],
   "top_themen": [
     {
       "top": 4,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dreizehnten Gesetzes zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze",
+      "thema": "Rente & Soziales",
       "woerter": 11064
     },
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Gefährdungen der digitalen Teilhabe entgegentreten – Einschränkungen des digitalen Raums, EUDI-Wallet und Social-Media-Verbote verhindern",
+      "thema": "Digitalisierung",
       "woerter": 10916
     },
     {
       "top": 3,
       "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Stephan Brandner, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Anhaltspunkte für deutsche Bezüge zu den Epstein-Akten systematisch untersu…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 9825
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Dr. Alaa Alhamwi, Katrin Uhlig, Michael Kellner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die Sonne ihren Job machen lassen – Für ein zukunftsfestes Netzp…",
+      "thema": "Energie & Klima",
       "woerter": 8502
     },
     {
       "top": 2,
       "titel": "Zweite Beratung und Schlussabstimmung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Vertrag vom 17. Juli 2025 zwischen der Bundesrepublik Deutschland und dem Vereinigten Kö…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 7893
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Nicole Gohlke, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Keine Kooperation zwischen Bundeswehr und Schulen – Einsatz von Jugendoffi…",
+      "thema": "Bildung & Forschung",
       "woerter": 5137
     },
     {
       "top": 9,
       "titel": "a) Antrag der Abgeordneten Dr. Paul Schmidt, Stefan Henze, Dr. Malte Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Anzahl staatlich subventioniert neu zu errichtender Gaskraftwerke durch…",
+      "thema": "Energie & Klima",
       "woerter": 4709
     },
     {
       "top": 13,
       "titel": "Antrag der Abgeordneten Sascha Lensing, Dr. Gottfried Curio, Dr. Christian Wirth, weiterer Abgeordneter und der Fraktion der AfD: Offensive gegen Organisierte Kriminalität – Staat stärken, Strukturen…",
+      "thema": "Innere Sicherheit",
       "woerter": 4452
     },
     {
       "top": 10,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Begrenzung der Risiken durch Investmentfonds und zur Umsetzung der Richtlinie (EU) 2024/927 im Hinblic…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4423
     },
     {
       "top": 12,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wohnen, Stadtentwicklung, Bauwesen und Kommunen zu der Unterrichtung durch die Bundesregierung: Baukulturbericht 2024/25 der Bundesstiftung Baukult…",
+      "thema": "Energie & Klima",
       "woerter": 4234
     },
     {
       "top": 8,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Bundesjagdgesetzes und zur Änderung des Bundesnaturschutzgesetzes",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 3967
     },
     {
       "top": 14,
       "titel": "Antrag der Abgeordneten Matthias Gastel, Tarek Al-Wazir, Victoria Broßart, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Infrastrukturvorhaben im Schienennetz effektiv beschleunigen",
+      "thema": "Verkehr & Mobilität",
       "woerter": 3823
     },
     {
       "top": 16,
       "titel": "Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion der AfD: Schlanker Staat statt Kostenexplosion – Beamtenzahl und Pensionslasten s…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 2989
     },
     {
       "top": 15,
       "titel": "Antrag der Abgeordneten Dr. Ingo Hahn, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Beendigung der Mitwirkung der Bundesrepublik Deutschland am Zwischenstaatlichen A…",
+      "thema": "Energie & Klima",
       "woerter": 2669
     },
     {
       "top": 6,
       "titel": "a)–m) Beratung der Beschlussempfehlungen des Petitionsausschusses: Sammelübersichten 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 und 183 zu Petitionen",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 441
     }
   ],
@@ -107,7 +257,7 @@
       "prozent": 19.9
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11081,
       "prozent": 13.6
     },
@@ -284,7 +434,7 @@
       "negativ": 25
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 159,
       "negativ": 15
     },
@@ -294,7 +444,5 @@
       "negativ": 14
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

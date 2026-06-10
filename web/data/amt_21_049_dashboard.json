@@ -9,39 +9,160 @@
     "reden": 132,
     "schriftliche_beitraege": 0,
     "woerter": 47584,
+    "gesamtzeit_min": 366,
     "tops": 8,
     "saalreaktionen": 799,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 8365,
+      "reden": 39,
+      "fraktion": null
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1969,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Kerstin Griese",
+      "woerter": 1757,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 1607,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 1605,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 1148,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 1097,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1026,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Matthias Miersch",
+      "woerter": 960,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sara Nanni",
+      "woerter": 902,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Timon Dzienus",
+      "woerter": 883,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Ines Schwerdtner",
+      "woerter": 875,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Anne-Mieke Bremer",
+      "woerter": 867,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Jens Peick",
+      "woerter": 835,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Truels Reichardt",
+      "woerter": 779,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 16302
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 12151
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 10505
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 4313
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4313
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 18. und 19. Dezember 2025 in Brüssel",
+      "thema": "Krieg in der Ukraine",
       "woerter": 16302
     },
     {
       "top": 5,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Lehren aus dem Siebten Armuts- und Reichtumsbericht ziehen – Armut bekämpfen, Reichtum besteuern",
+      "thema": "Rente & Soziales",
       "woerter": 10505
     },
     {
       "top": 2,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8432
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Keine digitale Überwachung – Gegen jede Form einer Chatkontrolle",
+      "thema": "Digitalisierung",
       "woerter": 4313
     },
     {
       "top": 7,
       "titel": "Antrag der Bundesregierung: Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte – Stabilisierung sichern, Wiedererstarken des IS verhindern, Versöhnung in Irak fördern",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4313
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Mandy Eißing, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: 28 Tage Elternschutz für den zweiten Elternteil ab Geburt des Kindes einführen",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3719
     }
   ],
@@ -62,7 +183,7 @@
       "prozent": 17.4
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5948,
       "prozent": 16.3
     },
@@ -171,7 +292,7 @@
       "negativ": 32
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 70,
       "negativ": 5
     },
@@ -186,8 +307,5 @@
       "negativ": 3
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "irreführend": 1
-  }
+  "faktencheck_bilanz": {}
 }

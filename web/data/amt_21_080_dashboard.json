@@ -9,84 +9,226 @@
     "reden": 151,
     "schriftliche_beitraege": 3,
     "woerter": 86920,
+    "gesamtzeit_min": 669,
     "tops": 17,
     "saalreaktionen": 1514,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Bettina Lugk",
+      "woerter": 2610,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Helmut Kleebank",
+      "woerter": 2307,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Thomas Silberhorn",
+      "woerter": 1748,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 1509,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Leon Eckert",
+      "woerter": 1423,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 1397,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Arne Raue",
+      "woerter": 1391,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1318,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Julian Joswig",
+      "woerter": 1294,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sebastian Hartmann",
+      "woerter": 1283,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jörn König",
+      "woerter": 1259,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Mahmut Özdemir",
+      "woerter": 1252,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 1187,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jan Köstering",
+      "woerter": 1186,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Christiane Schenderlein",
+      "woerter": 1179,
+      "reden": 2,
+      "fraktion": null
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 19366
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 13691
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 11963
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 10601
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 10553
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 9117
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 7578
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 4051
+    }
+  ],
   "top_themen": [
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Bevölkerungsschutz neu denken – Gemeinsam für ein krisenfestes Deutschland",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 12391
     },
     {
       "top": 5,
       "titel": "a) Antrag der Abgeordneten Dr. Alaa Alhamwi, Kassem Taher Saleh, Katrin Uhlig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Sanierungsoffensive für Deutschland – Heizkostensenkung du…",
+      "thema": "Energie & Klima",
       "woerter": 10601
     },
     {
       "top": 3,
       "titel": "Antrag der Abgeordneten Markus Frohnmaier, Tobias Teich, Stefan Keuter, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung eines 1. Untersuchungsausschusses der 21. Wahlperiode zum Angriff au…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 10553
     },
     {
       "top": 2,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Regelung der Förderung des Spitzensports und weiterer Maßnahmen gesamtstaatlicher Bedeutung im Sport sowie zur…",
+      "thema": "Steuern & Finanzen",
       "woerter": 8070
     },
     {
       "top": 4,
       "titel": "Vereinbarte Debatte: Zusammenhalt durch Engagement – Das Ehrenamt als Rückgrat unserer Gesellschaft",
+      "thema": "Steuern & Finanzen",
       "woerter": 7659
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Micha Fehre, Kay Gottschalk, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Wettbewerbsfähigkeit und Wohlstand stärken – Abschaffung des CO2-Emissionshandelssy…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 5023
     },
     {
       "top": 13,
       "titel": "a) Beschlussempfehlung und Bericht des Verkehrsausschusses zu der Unterrichtung durch die Bundesregierung: Bericht über das Ergebnis der Vorplanung und der frühen Öffentlichkeitsbeteiligung Neubaustr…",
+      "thema": "Verkehr & Mobilität",
       "woerter": 4702
     },
     {
       "top": 9,
       "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in Lebanon“ (UNIFIL)",
+      "thema": "Bildung & Forschung",
       "woerter": 4138
     },
     {
       "top": 14,
       "titel": "Antrag der Abgeordneten Sandra Stein, Dr. Ophelia Nick, Dr. Anja Reinalter, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Für ein Handwerk mit Zukunft",
+      "thema": "Bildung & Forschung",
       "woerter": 4123
     },
     {
       "top": 11,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung der nationalen Umsetzung von europäischen Regelungen zum Ökodesign, zur Energieverbrauc…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4094
     },
     {
       "top": 7,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung und Modernisierung des Anwaltsnotariats",
+      "thema": "Digitalisierung",
       "woerter": 4051
     },
     {
       "top": 10,
       "titel": "Antrag der Abgeordneten Ina Latendorf, Marcel Bauer, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Kostenfreies, gesundes und leckeres Mittagessen in allen Schulen und Kitas",
+      "thema": "Bildung & Forschung",
       "woerter": 3702
     },
     {
       "top": 12,
       "titel": "Antrag der Abgeordneten Christian Douglas, Reinhard Mixl, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Bis zur Abschaffung des Rundfunkbeitrags die Bürger bei Zahlung dieser Zwangs…",
+      "thema": "Steuern & Finanzen",
       "woerter": 3637
     },
     {
       "top": 15,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftverkehrsteuergesetzes",
+      "thema": "Verkehr & Mobilität",
       "woerter": 2876
     },
     {
       "top": 16,
       "titel": "Antrag der Abgeordneten Andreas Paul, Jan Ralf Nolte, Mirco Hanker, weiterer Abgeordneter und der Fraktion der AfD: Zulagen für spezialisierte Kräfte und für besonders befähigte Unterstützungskräfte…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 1300
     }
   ],
@@ -107,7 +249,7 @@
       "prozent": 20.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11556,
       "prozent": 14.4
     },
@@ -294,7 +436,7 @@
       "negativ": 40
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 155,
       "negativ": 18
     },
@@ -315,8 +457,6 @@
     }
   ],
   "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "teilweise": 1,
-    "irreführend": 1
+    "unbelegt": 12
   }
 }

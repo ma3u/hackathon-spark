@@ -9,89 +9,244 @@
     "reden": 159,
     "schriftliche_beitraege": 0,
     "woerter": 87138,
+    "gesamtzeit_min": 670,
     "tops": 16,
     "saalreaktionen": 1638,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Stephan Brandner",
+      "woerter": 2065,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 1817,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sebastian Maack",
+      "woerter": 1706,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Carsten Müller",
+      "woerter": 1545,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Marcel Emmerich",
+      "woerter": 1472,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Maja Wallstein",
+      "woerter": 1431,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1425,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Clara Bünger",
+      "woerter": 1423,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Marc Henrichmann",
+      "woerter": 1406,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Florian Hahn",
+      "woerter": 1283,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jan Köstering",
+      "woerter": 1266,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Anja Weisgerber",
+      "woerter": 1261,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Irene Mihalic",
+      "woerter": 1260,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 1151,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Felix Döring",
+      "woerter": 1151,
+      "reden": 2,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 20974
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 19276
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 11479
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 8601
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 5263
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 4801
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4571
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4124
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4082
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 3829
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 138
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Knuth Meyer-Soltau, weiterer Abgeordneter und der Fraktion der AfD: Einsetzung des … Untersuchungsausschusses der 21. Wahlperiode („…",
+      "thema": "Steuern & Finanzen",
       "woerter": 11479
     },
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Zu den Ergebnissen des Berliner Ukrainegipfels",
+      "thema": "Krieg in der Ukraine",
       "woerter": 10929
     },
     {
       "top": 4,
       "titel": "a) Antrag der Abgeordneten Schahina Gambir, Misbah Khan, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Mit einem Demokratiefördergesetz Demokratie stärken und…",
+      "thema": "Innere Sicherheit",
       "woerter": 10379
     },
     {
       "top": 3,
       "titel": "Vereinbarte Debatte: 35. Jahrestag der Konstituierung des ersten gesamtdeutschen Bundestages",
+      "thema": "Krieg in der Ukraine",
       "woerter": 8347
     },
     {
       "top": 1,
       "titel": "Tagesordnungspunkt 7 und Zusatzpunkt 9",
+      "thema": "Innere Sicherheit",
       "woerter": 7999
     },
     {
       "top": 14,
       "titel": "Antrag der Abgeordneten Dr. Paula Piechotta, Dr. Janosch Dahmen, Simone Fischer, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kosten für hochpreisige Arzneimittel bezahlbar halten –…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4801
     },
     {
       "top": 9,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Angebote der Jugendarbeit im Ganztag während der Schulferien",
+      "thema": "Bildung & Forschung",
       "woerter": 4571
     },
     {
       "top": 12,
       "titel": "Antrag der Abgeordneten Dr. Rainer Kraft, Andreas Bleck, Dr. Michael Blos, weiterer Abgeordneter und der Fraktion der AfD: Beitritt Deutschlands zur europäischen Nuklearallianz",
+      "thema": "Energie & Klima",
       "woerter": 4313
     },
     {
       "top": 10,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit zu dem Antrag der Abgeordneten Mareike Hermeier, Dr. Fabian Fahl, Luigi Pantisano, weitere…",
+      "thema": "Energie & Klima",
       "woerter": 4288
     },
     {
       "top": 7,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Luftsicherheitsgesetzes",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4124
     },
     {
       "top": 11,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Produktsicherheitsgesetzes und weiterer produktsicherheitsrechtlicher Vorschriften",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4082
     },
     {
       "top": 13,
       "titel": "Beratung der Zweiten Beschlussempfehlung des Wahlprüfungsausschusses zu Einsprüchen anlässlich der Wahl zum 21. Deutschen Bundestag am 23. Februar 2025",
+      "thema": null,
       "woerter": 3986
     },
     {
       "top": 8,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales zu dem Antrag der Abgeordneten Ulrike Schielke-Ziesing, René Springer, Peter Bohnhof, weiterer Abgeordneter und der Fraktion de…",
+      "thema": "Rente & Soziales",
       "woerter": 3829
     },
     {
       "top": 15,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Europol-Gesetzes",
+      "thema": "Innere Sicherheit",
       "woerter": 2596
     },
     {
       "top": 16,
       "titel": "Erste Beratung des von den Abgeordneten Gereon Bollmann, Manfred Schiller und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Stärkung der Bürgerbeteiligung durch die Behandlung von Pe…",
+      "thema": null,
       "woerter": 1277
     },
     {
       "top": 5,
       "titel": "a) Antrag des Bundesministeriums der Finanzen: Vorzeitige Teilrückzahlung Portugals von Krediten des Europäischen Finanzstabilisierungsmechanismus – Antrag auf Einholung eines zustimmenden Beschlusse…",
+      "thema": "Migration & Asyl",
       "woerter": 138
     }
   ],
@@ -112,7 +267,7 @@
       "prozent": 19.9
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12359,
       "prozent": 15.2
     },
@@ -304,7 +459,7 @@
       "negativ": 29
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 151,
       "negativ": 18
     },
@@ -314,9 +469,5 @@
       "negativ": 12
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 9,
-    "bestätigt": 2,
-    "irreführend": 1
-  }
+  "faktencheck_bilanz": {}
 }

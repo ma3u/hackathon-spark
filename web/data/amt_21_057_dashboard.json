@@ -9,44 +9,170 @@
     "reden": 76,
     "schriftliche_beitraege": 0,
     "woerter": 44001,
+    "gesamtzeit_min": 338,
     "tops": 7,
     "saalreaktionen": 776,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Katherina Reiche",
+      "woerter": 1488,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1279,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Parsa Marvi",
+      "woerter": 1125,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dunja Kreiser",
+      "woerter": 1113,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Fabian Gramling",
+      "woerter": 1112,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tilman Kuban",
+      "woerter": 1044,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Marc Bernhard",
+      "woerter": 1042,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Michael Kellner",
+      "woerter": 969,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Günter Baumgartner",
+      "woerter": 934,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Luigi Pantisano",
+      "woerter": 887,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 800,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Armand Zorn",
+      "woerter": 795,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Tanja Machalet",
+      "woerter": 754,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Victoria Broßart",
+      "woerter": 749,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Leif-Erik Holm",
+      "woerter": 747,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 14835
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 9529
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 8204
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 3926
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 3867
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 3640
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "a) Abgabe einer Regierungserklärung durch die Bundesministerin für Wirtschaft und Energie: Zum Jahreswirtschaftsbericht 2026",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 11144
     },
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Energiesouveränität stärken – Klimaziele umsetzen",
+      "thema": "Energie & Klima",
       "woerter": 9529
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Luigi Pantisano, Marcel Bauer, Lorenz Gösta Beutin, weiterer Abgeordneter und der Fraktion Die Linke: Mobilitätsgarantie einführen – Produktionskapazitäten für die Verkehrswen…",
+      "thema": "Verkehr & Mobilität",
       "woerter": 8204
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Hauke Finger, Kay Gottschalk, Torben Braga, weiterer Abgeordneter und der Fraktion der AfD: Steuerfairness fördern – Erbschaft- und Schenkungsteuer abschaffen",
+      "thema": "Steuern & Finanzen",
       "woerter": 3926
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Luise Amtsberg, Omid Nouripour, Deborah Düring, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Freiheit für die Menschen in Iran – Solidarität mit der Zivilgese…",
+      "thema": "Innere Sicherheit",
       "woerter": 3867
     },
     {
       "top": 3,
       "titel": "Tagesordnungspunkt",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3691
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Transplantationsgesetzes – Novellierung der Regelungen zur Lebendorganspende und weitere Ände…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 3640
     }
   ],
@@ -67,7 +193,7 @@
       "prozent": 19.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6448,
       "prozent": 15.9
     },
@@ -170,7 +296,7 @@
       "negativ": 26
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 95,
       "negativ": 10
     },
@@ -185,7 +311,5 @@
       "negativ": 8
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

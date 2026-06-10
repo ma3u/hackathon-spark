@@ -9,39 +9,156 @@
     "reden": 77,
     "schriftliche_beitraege": 0,
     "woerter": 42557,
+    "gesamtzeit_min": 327,
     "tops": 6,
     "saalreaktionen": 788,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Fritz Güntzler",
+      "woerter": 1620,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Michael Thews",
+      "woerter": 1422,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 1168,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Pascal Reddig",
+      "woerter": 1146,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ralph Edelhäußer",
+      "woerter": 1130,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tarek Al-Wazir",
+      "woerter": 1100,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Maximilian Kneller",
+      "woerter": 1078,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Frauke Heiligenstadt",
+      "woerter": 1014,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 995,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Lars Rohwer",
+      "woerter": 910,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Kröber",
+      "woerter": 845,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Henning Rehbaum",
+      "woerter": 845,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Jan Feser",
+      "woerter": 824,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Lars Haise",
+      "woerter": 823,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 821,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 14684
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 10118
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 9521
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 8234
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Energiesteuergesetzes zur temporären Absenkung der Energieste…",
+      "thema": "Steuern & Finanzen",
       "woerter": 10118
     },
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kein Sozialabbau auf Kosten von Kindern, Jugendlichen, Familien und Menschen mit Behinderungen",
+      "thema": "Rente & Soziales",
       "woerter": 9713
     },
     {
       "top": 2,
       "titel": "a) Antrag der Abgeordneten Luigi Pantisano, Marcel Bauer, Lorenz Gösta Beutin, weiterer Abgeordneter und der Fraktion Die Linke: Mit dem Neun-Euro-Ticket private Haushalte entlasten",
+      "thema": "Verkehr & Mobilität",
       "woerter": 9521
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Dr. Armin Grau, Corinna Rüffer, Ricarda Lang, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Gesund länger arbeiten und die Erwerbsminderungsrente verbessern",
+      "thema": "Rente & Soziales",
       "woerter": 4971
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Steffen Kotré, Leif-Erik Holm, Dr. Malte Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Preisexplosion bei den Gasnetzentgelten verhindern – Rückbau und Stilllegung…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4176
     },
     {
       "top": 3,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des Verpackungsrechts und anderer Rechtsbereiche an die Verordnung (EU) 2025/40",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4058
     }
   ],
@@ -62,7 +179,7 @@
       "prozent": 18.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6818,
       "prozent": 16.0
     },
@@ -169,7 +286,7 @@
       "negativ": 30
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 97,
       "negativ": 19
     },
@@ -192,7 +309,6 @@
   "faktencheck_bilanz": {
     "unbelegt": 9,
     "falsch": 1,
-    "irreführend": 1,
-    "teilweise": 1
+    "teilweise": 2
   }
 }

@@ -9,89 +9,244 @@
     "reden": 154,
     "schriftliche_beitraege": 1,
     "woerter": 87470,
+    "gesamtzeit_min": 673,
     "tops": 18,
     "saalreaktionen": 1604,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Detlef Seif",
+      "woerter": 2128,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 1892,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Carmen Wegge",
+      "woerter": 1661,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Clara Bünger",
+      "woerter": 1634,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Bernd Baumann",
+      "woerter": 1567,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Birgit Bessin",
+      "woerter": 1405,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Fabian Jacobi",
+      "woerter": 1391,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 1273,
+      "reden": 3,
+      "fraktion": null
+    },
+    {
+      "name": "Stefan Möller",
+      "woerter": 1242,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Tijen Ataoğlu",
+      "woerter": 1227,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 1214,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Michael Kießling",
+      "woerter": 1181,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1176,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Gottfried Curio",
+      "woerter": 1103,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Philipp Rottwilm",
+      "woerter": 1083,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 17795
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 9859
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 9321
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 9031
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 8853
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 7878
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 7383
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 6309
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4234
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 4229
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 2578
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Erste Beratung des von den Abgeordneten Helge Limburg, Nyke Slawik, Dr. Till Steffen, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änderung d…",
+      "thema": "Energie & Klima",
       "woerter": 9859
     },
     {
       "top": 4,
       "titel": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Beschleunigung des Wohnungsbaus und zur Wohnraumsicherung",
+      "thema": "Wohnen & Bau",
       "woerter": 9321
     },
     {
       "top": 2,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des nationalen Rechts an die Reform des Gemeinsamen Europäischen Asylsystems (GEAS-Anpassungsgesetz)",
+      "thema": "Migration & Asyl",
       "woerter": 8974
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Die Migrationswende hinsichtlich Syriens umsetzen – Die weitere Au…",
+      "thema": "Migration & Asyl",
       "woerter": 8821
     },
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Deutsches Nein zur EU-Chatkontrolle",
+      "thema": "Digitalisierung",
       "woerter": 7878
     },
     {
       "top": 10,
       "titel": "Antrag der Abgeordneten Jörn König, Thomas Korell, Lars Schieske, weiterer Abgeordneter und der Fraktion der AfD: Bundesweite Sanierung von Sportstätten muss zeitnah durchgeführt werden",
+      "thema": "Haushalt & Schulden",
       "woerter": 4831
     },
     {
       "top": 12,
       "titel": "Antrag der Abgeordneten Birgit Bessin, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Dem deutschen Volke – Unsere Zukunft gestalten und durch geeignete Familienpo…",
+      "thema": "Steuern & Finanzen",
       "woerter": 4581
     },
     {
       "top": 11,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2225 über Verbraucherkreditverträge",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4512
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Mandy Eißing, Zada Salihović, Ina Latendorf, weiterer Abgeordneter und der Fraktion Die Linke: 35 Jahre Deutsche Einheit – Gleichwertige Lebensverhältnisse in Ost wie West jet…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4341
     },
     {
       "top": 7,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Einführung einer bundeseinheitlichen Pflegefachassistenzausbildung",
+      "thema": "Bildung & Forschung",
       "woerter": 4234
     },
     {
       "top": 14,
       "titel": "Antrag der Abgeordneten Corinna Rüffer, Timon Dzienus, Leon Eckert, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Selbstbestimmung sichern und Teilhabe stärken – Die Fortschritte des…",
+      "thema": "Rente & Soziales",
       "woerter": 4229
     },
     {
       "top": 13,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Ausführung von Artikel 109 Absatz 3 Satz 6 und Satz 7 des Grundgesetzes und zur Änderung anderer Ges…",
+      "thema": "Haushalt & Schulden",
       "woerter": 4200
     },
     {
       "top": 9,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Vergabe öffentlicher Aufträge",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4165
     },
     {
       "top": 15,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Energiesteuer- und des Stromsteuergesetzes",
+      "thema": "Steuern & Finanzen",
       "woerter": 2802
     },
     {
       "top": 16,
       "titel": "Antrag der Abgeordneten Martin Sichert, Dr. Christina Baum, Carina Schießl, weiterer Abgeordneter und der Fraktion der AfD: Akute Not der gesetzlichen Krankenversicherung lindern – Vollständige Finan…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 2578
     },
     {
       "top": 17,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Militärischen Sicherheit in der Bundeswehr",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 2144
     }
   ],
@@ -112,7 +267,7 @@
       "prozent": 19.4
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11283,
       "prozent": 13.6
     },
@@ -310,7 +465,7 @@
       "negativ": 40
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 155,
       "negativ": 10
     },
@@ -325,8 +480,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "irreführend": 1
-  }
+  "faktencheck_bilanz": {}
 }

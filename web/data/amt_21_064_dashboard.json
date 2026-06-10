@@ -9,34 +9,150 @@
     "reden": 171,
     "schriftliche_beitraege": 0,
     "woerter": 45466,
+    "gesamtzeit_min": 350,
     "tops": 7,
     "saalreaktionen": 748,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Katherina Reiche",
+      "woerter": 4379,
+      "reden": 38,
+      "fraktion": null
+    },
+    {
+      "name": "Friedrich Merz",
+      "woerter": 3832,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Patrick Schnieder",
+      "woerter": 3127,
+      "reden": 27,
+      "fraktion": null
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 1739,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 1572,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 1391,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 1161,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 1129,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Isabel Cademartori",
+      "woerter": 1125,
+      "reden": 4,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Andreas Audretsch",
+      "woerter": 1120,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sebastian Roloff",
+      "woerter": 976,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Alice Weidel",
+      "woerter": 945,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Sandra Detzer",
+      "woerter": 939,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Andreas Lenz",
+      "woerter": 928,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Peter Boehringer",
+      "woerter": 909,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 14459
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 14081
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 13250
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 3676
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 19./20. März 2026",
+      "thema": "Krieg in der Ukraine",
       "woerter": 14459
     },
     {
       "top": 3,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Energie & Klima",
       "woerter": 13250
     },
     {
       "top": 5,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Wettbewerb an der Tankstelle durchsetzen – Verbraucher und Unternehmen stärken",
+      "thema": "Steuern & Finanzen",
       "woerter": 10372
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Peter Boehringer, Kay Gottschalk, Torben Braga, weiterer Abgeordneter und der Fraktion der AfD: Deutsches Staatsgold vollständig nach Deutschland holen",
+      "thema": "Steuern & Finanzen",
       "woerter": 3709
     },
     {
       "top": 6,
       "titel": "a) Antrag der Abgeordneten Dr. Armin Grau, Dr. Janosch Dahmen, Dr. Kirsten Kappert-Gonther, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Primärversorgung gesetzlich verankern – Die V…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 3676
     }
   ],
@@ -57,7 +173,7 @@
       "prozent": 19.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5667,
       "prozent": 17.2
     },
@@ -175,7 +291,7 @@
       "negativ": 22
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 73,
       "negativ": 11
     },
@@ -195,8 +311,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "bestätigt": 1
-  }
+  "faktencheck_bilanz": {}
 }

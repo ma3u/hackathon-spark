@@ -9,44 +9,170 @@
     "reden": 75,
     "schriftliche_beitraege": 0,
     "woerter": 44133,
+    "gesamtzeit_min": 339,
     "tops": 7,
     "saalreaktionen": 852,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Christian Moser",
+      "woerter": 1479,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 1319,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 1191,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Anna Aeikens",
+      "woerter": 1186,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Julian Joswig",
+      "woerter": 1121,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1114,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Nicole Höchst",
+      "woerter": 1040,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Knut Abraham",
+      "woerter": 988,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Manuel Krauthausen",
+      "woerter": 853,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Zoe Mayer",
+      "woerter": 808,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Julia Schneider",
+      "woerter": 806,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Isabel Mackensen-Geis",
+      "woerter": 802,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Julia Verlinden",
+      "woerter": 776,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sascha van Beek",
+      "woerter": 765,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Ingo Hahn",
+      "woerter": 750,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 17602
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 8282
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 5408
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4362
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 4350
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4129
+    }
+  ],
   "top_themen": [
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Dürre in Deutschland – Bedrohung für Mensch, Wirtschaft und Natur nicht aussitzen, Klimaschutz konsequent umsetzen",
+      "thema": "Energie & Klima",
       "woerter": 9512
     },
     {
       "top": 1,
       "titel": "Vereinbarte Debatte: 75 Jahre Mitgliedschaft Deutschlands im Europarat",
+      "thema": "Krieg in der Ukraine",
       "woerter": 8282
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Kein Heizungsgesetz durch die Hintertür – CO2-Bepreisung abschaffen",
+      "thema": "Energie & Klima",
       "woerter": 8090
     },
     {
       "top": 4,
       "titel": "Erste Beratung des von den Abgeordneten Dr. Till Steffen, Hanna Steinmüller, Lukas Benner, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Faire-Mieten-Geset…",
+      "thema": "Wohnen & Bau",
       "woerter": 5408
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Rahmenbedingungen für die Erprobung von Innovationen in Reallaboren und zur Förder…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4362
     },
     {
       "top": 6,
       "titel": "Antrag der Fraktion Die Linke: Ein Tierschutzgesetz, das Tiere wirksam schützt",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 4350
     },
     {
       "top": 3,
       "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der internationalen Sicherheitspräsenz in Kosovo (KFOR)",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4129
     }
   ],
@@ -67,7 +193,7 @@
       "prozent": 19.8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6419,
       "prozent": 15.5
     },
@@ -175,7 +301,7 @@
       "negativ": 32
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 85,
       "negativ": 8
     },
@@ -190,7 +316,5 @@
       "negativ": 6
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

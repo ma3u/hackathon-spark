@@ -9,24 +9,130 @@
     "reden": 52,
     "schriftliche_beitraege": 0,
     "woerter": 34447,
+    "gesamtzeit_min": 265,
     "tops": 5,
     "saalreaktionen": 592,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 1494,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Ines Schwerdtner",
+      "woerter": 1494,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Dietmar Bartsch",
+      "woerter": 1339,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 1220,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Klaus-Peter Willsch",
+      "woerter": 1195,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 914,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "SvenjaSvenja SchulzeSchulze",
+      "woerter": 891,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Helge Limburg",
+      "woerter": 848,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 840,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Michael Espendiller",
+      "woerter": 818,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Daniel Baldy",
+      "woerter": 774,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Marcel Emmerich",
+      "woerter": 769,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Thorsten Rudolph",
+      "woerter": 768,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Martin Plum",
+      "woerter": 759,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Uwe Feiler",
+      "woerter": 740,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 23362
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 11085
+    }
+  ],
   "top_themen": [
     {
       "top": 5,
       "titel": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Haushaltsbegleitgesetzes 2025",
+      "thema": "Haushalt & Schulden",
       "woerter": 12605
     },
     {
       "top": 2,
       "titel": "Einzelplan 06",
+      "thema": "Migration & Asyl",
       "woerter": 11085
     },
     {
       "top": 3,
       "titel": "Einzelplan 07",
+      "thema": "Haushalt & Schulden",
       "woerter": 10757
     }
   ],
@@ -42,24 +148,19 @@
       "prozent": 26.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
-      "woerter": 4677,
-      "prozent": 14.6
+      "fraktion": "SPD",
+      "woerter": 5443,
+      "prozent": 16.9
     },
     {
-      "fraktion": "SPD",
-      "woerter": 4552,
-      "prozent": 14.2
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "woerter": 4677,
+      "prozent": 14.6
     },
     {
       "fraktion": "Die Linke",
       "woerter": 4084,
       "prozent": 12.7
-    },
-    {
-      "fraktion": "SPDSPD",
-      "woerter": 891,
-      "prozent": 2.8
     },
     {
       "fraktion": "fraktionslos",
@@ -157,14 +258,14 @@
       "negativ": 6
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
-      "positiv": 56,
-      "negativ": 6
+      "fraktion": "SPD",
+      "positiv": 59,
+      "negativ": 10
     },
     {
-      "fraktion": "SPD",
-      "positiv": 49,
-      "negativ": 9
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "positiv": 56,
+      "negativ": 6
     },
     {
       "fraktion": "Die Linke",
@@ -172,18 +273,10 @@
       "negativ": 0
     },
     {
-      "fraktion": "SPDSPD",
-      "positiv": 10,
-      "negativ": 1
-    },
-    {
       "fraktion": "fraktionslos",
       "positiv": 3,
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

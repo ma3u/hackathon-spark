@@ -9,99 +9,256 @@
     "reden": 152,
     "schriftliche_beitraege": 3,
     "woerter": 84294,
+    "gesamtzeit_min": 648,
     "tops": 20,
     "saalreaktionen": 1569,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 1879,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 1832,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 1679,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Clara Bünger",
+      "woerter": 1391,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Christos Pantazis",
+      "woerter": 1383,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 1287,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jan Wenzel Schmidt",
+      "woerter": 1180,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 1180,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Angelika Glöckner",
+      "woerter": 1111,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Till Steffen",
+      "woerter": 1079,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Thomas Silberhorn",
+      "woerter": 1041,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Gerold Otten",
+      "woerter": 1019,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Christian Wirth",
+      "woerter": 948,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Lukas Benner",
+      "woerter": 943,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Caren Lay",
+      "woerter": 912,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 13431
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 12703
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 11236
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 9615
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 8803
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 8639
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 6175
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 4288
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 3563
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 3192
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 2649
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung der Regelungen über die zulässige Miethöhe bei Mietbeginn",
+      "thema": "Wohnen & Bau",
       "woerter": 9615
     },
     {
       "top": 9,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Zur humanitären Katastrophe in Gaza",
+      "thema": "Innere Sicherheit",
       "woerter": 8806
     },
     {
       "top": 6,
       "titel": "a) Antrag der Abgeordneten Marcel Emmerich, Dr. Irene Mihalic, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Europarecht einhalten, Schutzbedürftige schützen,…",
+      "thema": "Migration & Asyl",
       "woerter": 8803
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für ein steuerliches Investitionssofortprogramm zur Stärkung des Wirtschaftsstandorts Deutschland",
+      "thema": "Steuern & Finanzen",
       "woerter": 8751
     },
     {
       "top": 4,
       "titel": "a) Erste Beratung des von den Abgeordneten Dr. Malte Kaufmann, Leif-Erik Holm, Enrico Komning, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 7615
     },
     {
       "top": 13,
       "titel": "Antrag der Abgeordneten Ates Gürpinar, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Leistungskürzungen und Beitragsexplosion in Gesundheit und Pflege verhinde…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 6175
     },
     {
       "top": 17,
       "titel": "Antrag der Abgeordneten Steffi Lemke, Dr. Jan-Niclas Gesenhues, Julia Schneider, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Frühjahrsdürre und Hitzeprognosen ernst nehmen – Jetzt e…",
+      "thema": "Energie & Klima",
       "woerter": 4728
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Kay Gottschalk, Jan Wenzel Schmidt, Jörn König, weiterer Abgeordneter und der Fraktion der AfD: Standort Deutschland stärken – Solidaritätszuschlag abschaffen",
+      "thema": "Steuern & Finanzen",
       "woerter": 4680
     },
     {
       "top": 14,
       "titel": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Sechsten Gesetzes zur Änderung des Allgemeinen Eisenbahngesetzes",
+      "thema": "Verkehr & Mobilität",
       "woerter": 4288
     },
     {
       "top": 15,
       "titel": "Antrag der Abgeordneten Gerold Otten, Uwe Schulz, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD: Nationalen Sicherheitsrat einrichten – Nationale Sicherheitsstrategie entwerfen und ko…",
+      "thema": "Energie & Klima",
       "woerter": 3911
     },
     {
       "top": 12,
       "titel": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Anpassung von Regelungen über den polizeilichen Informationsverbund im Bundeskriminalamtgesetz",
+      "thema": "Innere Sicherheit",
       "woerter": 3897
     },
     {
       "top": 10,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des Telekommunikationsgesetzes und zur Feststellung des überragenden öffentlichen Interess…",
+      "thema": "Digitalisierung",
       "woerter": 3563
     },
     {
       "top": 16,
       "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Anpassungsverfahren gemäß § 11 Absatz 4 des Abgeordnetengesetzes",
+      "thema": "Rente & Soziales",
       "woerter": 3192
     },
     {
       "top": 18,
       "titel": "Erste Beratung des von den Abgeordneten Stephan Brandner, Adam Balten, Marc Bernhard, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Einführung der Haftung v…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 2752
     },
     {
       "top": 19,
       "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Erwin Renner, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Schwarz-Rot-Gold als identitätsstiftendes Symbol für unsere Demokratie k…",
+      "thema": null,
       "woerter": 2560
     },
     {
       "top": 7,
       "titel": "Bericht des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung zur Auslegung der Geschäftsordnung – hier: Verteilung des Vorschlagsrechts für die Vorsitze und stellvertretenden Vorsitze der…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 869
     },
     {
       "top": 2,
       "titel": "Eidesleistung des Wehrbeauftragten",
+      "thema": null,
       "woerter": 49
     },
     {
       "top": 8,
       "titel": "Zur Geschäftsordnung",
+      "thema": null,
       "woerter": 40
     }
   ],
@@ -122,7 +279,7 @@
       "prozent": 18.9
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12406,
       "prozent": 15.1
     },
@@ -306,7 +463,7 @@
       "negativ": 65
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 153,
       "negativ": 26
     },
@@ -326,8 +483,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

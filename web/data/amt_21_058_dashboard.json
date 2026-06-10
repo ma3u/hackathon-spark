@@ -9,39 +9,164 @@
     "reden": 180,
     "schriftliche_beitraege": 0,
     "woerter": 40978,
+    "gesamtzeit_min": 315,
     "tops": 7,
     "saalreaktionen": 562,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Nina Warken",
+      "woerter": 4174,
+      "reden": 34,
+      "fraktion": null
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 3787,
+      "reden": 32,
+      "fraktion": null
+    },
+    {
+      "name": "Lars Rohwer",
+      "woerter": 1332,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Holger Mann",
+      "woerter": 1174,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Helmut Kleebank",
+      "woerter": 1041,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 1039,
+      "reden": 4,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Udo Theodor Hemmelgarn",
+      "woerter": 949,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Agnieszka Brugger",
+      "woerter": 866,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Katharina Beck",
+      "woerter": 864,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 859,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Ellen Demuth",
+      "woerter": 839,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ronald Gläser",
+      "woerter": 793,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Philipp Rottwilm",
+      "woerter": 777,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sven Lehmann",
+      "woerter": 763,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Pascal Reddig",
+      "woerter": 752,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 13590
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 8610
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 5397
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 4761
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 4660
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 3960
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Gesundheit & Pflege",
       "woerter": 13590
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Schwerwiegende Fehler bei der Berichterstattung durch den öffentlich-rechtlichen Rundfunk",
+      "thema": "Digitalisierung",
       "woerter": 8610
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Katharina Beck, Julian Joswig, Sascha Müller, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Groß denken bei Skalierung und Zukunftsinnovationen – Finanzierungs…",
+      "thema": "Bildung & Forschung",
       "woerter": 5397
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Olaf Hilmer, weiterer Abgeordneter und der Fraktion der AfD: Wahlversprechen einhalten – Heizungsgesetz abschaffen",
+      "thema": "Energie & Klima",
       "woerter": 4761
     },
     {
       "top": 4,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Frieden und Sicherheit in Europa verteidigen – Solidarität mit der Ukraine zum Jahrestag des russischen Angriffskrieges",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4660
     },
     {
       "top": 6,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur besseren Verhinderung missbräuchlicher Anerkennungen der Vaterschaft",
+      "thema": "Migration & Asyl",
       "woerter": 3960
     }
   ],
@@ -62,7 +187,7 @@
       "prozent": 19.8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5907,
       "prozent": 18.5
     },
@@ -170,7 +295,7 @@
       "negativ": 7
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 51,
       "negativ": 5
     },
@@ -180,7 +305,5 @@
       "negativ": 6
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

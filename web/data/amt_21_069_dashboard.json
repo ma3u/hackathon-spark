@@ -9,39 +9,160 @@
     "reden": 84,
     "schriftliche_beitraege": 0,
     "woerter": 46131,
+    "gesamtzeit_min": 355,
     "tops": 6,
     "saalreaktionen": 908,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 2256,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Tilman Kuban",
+      "woerter": 1359,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Jens Peick",
+      "woerter": 1234,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1229,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Karin Prien",
+      "woerter": 1100,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Agnes Conrad",
+      "woerter": 1054,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Anja Weisgerber",
+      "woerter": 1036,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Carsten Brodesser",
+      "woerter": 984,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ingo Vogel",
+      "woerter": 980,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Stefan Schmidt",
+      "woerter": 966,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Frauke Heiligenstadt",
+      "woerter": 932,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Karsten Hilse",
+      "woerter": 914,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Saskia Esken",
+      "woerter": 891,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 859,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Fritz Güntzler",
+      "woerter": 852,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 13776
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 11928
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 10027
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 5241
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 5159
+    }
+  ],
   "top_themen": [
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Demokratie leben – Engagement schützen, Förderstrukturen erhalten",
+      "thema": "Bildung & Forschung",
       "woerter": 11928
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Agnes Conrad, Jörg Cezanne, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Jetzt handeln – Die Zukunft der Automobilindustrie sozial und ökologisch gestalten",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 10027
     },
     {
       "top": 1,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Reform der steuerlich geförderten privaten Altersvorsorge (Altersvorsorgereformgesetz)",
+      "thema": "Rente & Soziales",
       "woerter": 9407
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Kay Gottschalk, Sebastian Münzenmaier, Hauke Finger, weiterer Abgeordneter und der Fraktion der AfD: Preisexplosion im Gastronomiegewerbe verhindern – Arbeitsplätze sichern –…",
+      "thema": "Steuern & Finanzen",
       "woerter": 5241
     },
     {
       "top": 4,
       "titel": "a) Antrag der Abgeordneten Lisa Badum, Swantje Henrike Michaelsen, Dr. Julia Verlinden, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Klimaschutzprogramm als Entlastungsprogramm",
+      "thema": "Energie & Klima",
       "woerter": 5159
     },
     {
       "top": 3,
       "titel": "Unterrichtung durch die Bundesregierung: Siebter Armuts- und Reichtumsbericht der Bundesregierung – Lebenslagen in Deutschland",
+      "thema": "Rente & Soziales",
       "woerter": 4369
     }
   ],
@@ -62,7 +183,7 @@
       "prozent": 15.7
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6144,
       "prozent": 14.2
     },
@@ -164,7 +285,7 @@
       "negativ": 42
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 85,
       "negativ": 9
     },
@@ -179,8 +300,5 @@
       "negativ": 16
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "bestätigt": 2
-  }
+  "faktencheck_bilanz": {}
 }

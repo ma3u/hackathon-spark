@@ -9,29 +9,136 @@
     "reden": 17,
     "schriftliche_beitraege": 0,
     "woerter": 4366,
+    "gesamtzeit_min": 34,
     "tops": 9,
     "saalreaktionen": 260,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Irene Mihalic",
+      "woerter": 787,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Christian Görke",
+      "woerter": 701,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 536,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Johannes Fechner",
+      "woerter": 510,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Bernd Baumann",
+      "woerter": 445,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 384,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Thorsten Frei",
+      "woerter": 336,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Katja Mast",
+      "woerter": 279,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Stefan Seidler",
+      "woerter": 257,
+      "reden": 1,
+      "fraktion": "fraktionslos"
+    },
+    {
+      "name": "Bodo Ramelow",
+      "woerter": 31,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Friedrich Merz",
+      "woerter": 24,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Omid Nouripour",
+      "woerter": 22,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Julia Klöckner",
+      "woerter": 20,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Josephine Ortleb",
+      "woerter": 18,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Andrea Lindholz",
+      "woerter": 16,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 2518
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 1848
+    }
+  ],
   "top_themen": [
     {
       "top": 4,
       "titel": "Beschlussfassung über die",
+      "thema": "Innere Sicherheit",
       "woerter": 2518
     },
     {
       "top": 2,
       "titel": "Zur Geschäftsordnung",
+      "thema": null,
       "woerter": 1717
     },
     {
       "top": 8,
       "titel": "Wahl der Stellvertreterinnen und Stellvertreter der Präsidentin/des Präsidenten",
+      "thema": null,
       "woerter": 87
     },
     {
       "top": 5,
       "titel": "Wahl der Präsidentin/des Präsidenten verbunden mit Namensaufruf und Feststellung der Beschlussfähigkeit",
+      "thema": null,
       "woerter": 44
     }
   ],
@@ -42,7 +149,7 @@
       "prozent": 22.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 809,
       "prozent": 18.5
     },
@@ -202,7 +309,7 @@
       "negativ": 4
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 15,
       "negativ": 2
     },
@@ -222,7 +329,5 @@
       "negativ": 1
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

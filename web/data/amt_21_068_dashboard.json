@@ -9,84 +9,230 @@
     "reden": 164,
     "schriftliche_beitraege": 0,
     "woerter": 88039,
+    "gesamtzeit_min": 677,
     "tops": 16,
     "saalreaktionen": 1573,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Paula Piechotta",
+      "woerter": 2564,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Simone Borchardt",
+      "woerter": 2262,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1523,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mathias Weiser",
+      "woerter": 1376,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Lamya Kaddor",
+      "woerter": 1357,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Martin Reichardt",
+      "woerter": 1315,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Thomas Pauls",
+      "woerter": 1244,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 1238,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Christos Pantazis",
+      "woerter": 1230,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Birgit Bessin",
+      "woerter": 1215,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Tilman Kuban",
+      "woerter": 1214,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ates Gürpinar",
+      "woerter": 1189,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Henning Otte",
+      "woerter": 1182,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Joachim Bloch",
+      "woerter": 1160,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Maria-Lena Weiss",
+      "woerter": 1110,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 21717
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 15501
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 10874
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 10032
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 9015
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 7831
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 5259
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 4111
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 3699
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Einführung eines Gesetzes zur Anpassung von Kraftstoffpreisen und zur Änderung des G…",
+      "thema": "Steuern & Finanzen",
       "woerter": 10874
     },
     {
       "top": 3,
       "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Reichardt, Birgit Bessin, weiterer Abgeordneter und der Fraktion der AfD: Gewalt und andere Formen schwerwiegender Übergriffe an Schulen systematisch…",
+      "thema": "Bildung & Forschung",
       "woerter": 10636
     },
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Mitversicherung von Familienangehörigen in der gesetzlichen Krankenversicherung",
+      "thema": "Gesundheit & Pflege",
       "woerter": 10097
     },
     {
       "top": 4,
       "titel": "Beratung der Unterrichtung durch den Wehrbeauftragten: Jahresbericht 2025 (67. Bericht)",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 10032
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von den Abgeordneten Dr. Lena Gumnior, Helge Limburg, Dr. Till Steffen, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änder…",
+      "thema": "Digitalisierung",
       "woerter": 9015
     },
     {
       "top": 12,
       "titel": "Antrag der Abgeordneten Stephan Brandner, Dr. Michael Espendiller, Marcus Bühl, weiterer Abgeordneter und der Fraktion der AfD: Antrag auf abstrakte Normenkontrolle beim Bundesverfassungsgericht gemä…",
+      "thema": "Haushalt & Schulden",
       "woerter": 5259
     },
     {
       "top": 14,
       "titel": "Antrag der Abgeordneten Lamya Kaddor, Dr. Konstantin von Notz, Schahina Gambir, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Vielfältiges muslimisches Leben in Deutschland fördern",
+      "thema": "Bildung & Forschung",
       "woerter": 4865
     },
     {
       "top": 8,
       "titel": "a) Beratung der Antwort der Bundesregierung auf die Große Anfrage der Abgeordneten Beatrix von Storch, Markus Frohnmaier, René Springer, weiterer Abgeordneter und der Fraktion der AfD: Förderung sowi…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4324
     },
     {
       "top": 10,
       "titel": "a) Antrag der Abgeordneten Sahra Mirow, Kathrin Gebel, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Wohnungslose Frauen besser schützen – Geschlechterspezifische Bedarfe in der…",
+      "thema": "Wohnen & Bau",
       "woerter": 4111
     },
     {
       "top": 9,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2023/2854 des Europäischen Parlaments und des Rates vom 13. Deze…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4096
     },
     {
       "top": 13,
       "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Anerkennungsverfahren ausländischer Berufsqualifikationen in Heilberufen",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4070
     },
     {
       "top": 11,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Neuregelung des Rechtsrahmens für intelligente Verkehrssysteme im Straßenverkehr und deren Schnittst…",
+      "thema": "Verkehr & Mobilität",
       "woerter": 3699
     },
     {
       "top": 7,
       "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Dritten Gesetzes zur Änderung des Transplantationsgesetzes – Novellierung der Regelungen zur Lebendorganspende u…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 3226
     },
     {
       "top": 15,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/2748 zu Notfallverfahren aufgrund eines Binnenmarkt-Notfalls bei…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 2717
     },
     {
       "top": 16,
       "titel": "Erste Beratung des von den Abgeordneten Fabian Jacobi, Tobias Matthias Peterka, Peter Bohnhof, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Ächtung politis…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 1018
     }
   ],
@@ -107,7 +253,7 @@
       "prozent": 18.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12608,
       "prozent": 14.6
     },
@@ -279,7 +425,7 @@
       "negativ": 61
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 158,
       "negativ": 18
     },
@@ -294,7 +440,5 @@
       "negativ": 11
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

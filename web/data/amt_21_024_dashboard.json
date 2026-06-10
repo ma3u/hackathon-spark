@@ -9,44 +9,166 @@
     "reden": 147,
     "schriftliche_beitraege": 0,
     "woerter": 95107,
+    "gesamtzeit_min": 732,
     "tops": 8,
     "saalreaktionen": 1659,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 2823,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 2704,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 2593,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 2433,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1891,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Inge Gräßle",
+      "woerter": 1775,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 1666,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Paula Piechotta",
+      "woerter": 1560,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Alice Weidel",
+      "woerter": 1427,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dirk Wiese",
+      "woerter": 1421,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 1329,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mirco Hanker",
+      "woerter": 1288,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Dietmar Bartsch",
+      "woerter": 1230,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Matthias Miersch",
+      "woerter": 1200,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 1132,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 51902
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 11219
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 11099
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 10872
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 10015
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Einzelplan 04",
+      "thema": "Haushalt & Schulden",
       "woerter": 30380
     },
     {
       "top": 8,
       "titel": "Einzelplan 15",
+      "thema": "Gesundheit & Pflege",
       "woerter": 11219
     },
     {
       "top": 4,
       "titel": "Einzelplan 14",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 11099
     },
     {
       "top": 3,
       "titel": "Einzelplan 05",
+      "thema": "Haushalt & Schulden",
       "woerter": 11029
     },
     {
       "top": 6,
       "titel": "Einzelplan 30",
+      "thema": "Bildung & Forschung",
       "woerter": 10872
     },
     {
       "top": 5,
       "titel": "Einzelplan 23",
+      "thema": "Haushalt & Schulden",
       "woerter": 10493
     },
     {
       "top": 7,
       "titel": "Einzelplan 11",
+      "thema": "Rente & Soziales",
       "woerter": 10015
     }
   ],
@@ -63,11 +185,11 @@
     },
     {
       "fraktion": "SPD",
-      "woerter": 15411,
-      "prozent": 17.9
+      "woerter": 15964,
+      "prozent": 18.6
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 13604,
       "prozent": 15.8
     },
@@ -75,11 +197,6 @@
       "fraktion": "Die Linke",
       "woerter": 11846,
       "prozent": 13.8
-    },
-    {
-      "fraktion": "SPDSPD",
-      "woerter": 553,
-      "prozent": 0.6
     },
     {
       "fraktion": "fraktionslos",
@@ -201,14 +318,14 @@
       "negativ": 36
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 175,
       "negativ": 20
     },
     {
       "fraktion": "SPD",
-      "positiv": 163,
-      "negativ": 10
+      "positiv": 168,
+      "negativ": 12
     },
     {
       "fraktion": "Die Linke",
@@ -219,15 +336,7 @@
       "fraktion": "fraktionslos",
       "positiv": 7,
       "negativ": 0
-    },
-    {
-      "fraktion": "SPDSPD",
-      "positiv": 5,
-      "negativ": 2
     }
   ],
-  "faktencheck_bilanz": {
-    "teilweise": 1,
-    "unbelegt": 11
-  }
+  "faktencheck_bilanz": {}
 }

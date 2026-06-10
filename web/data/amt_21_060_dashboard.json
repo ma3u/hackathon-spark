@@ -9,49 +9,180 @@
     "reden": 85,
     "schriftliche_beitraege": 0,
     "woerter": 48393,
+    "gesamtzeit_min": 372,
     "tops": 8,
     "saalreaktionen": 922,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Kathrin Gebel",
+      "woerter": 1646,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Alexander Throm",
+      "woerter": 1402,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Anna Rathert",
+      "woerter": 1247,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Carmen Wegge",
+      "woerter": 1236,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Ralf Stegner",
+      "woerter": 1224,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 1157,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Günter Krings",
+      "woerter": 1114,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Maximilian Krah",
+      "woerter": 1045,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Detlef Seif",
+      "woerter": 1037,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tobias Winkler",
+      "woerter": 1035,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Clara Bünger",
+      "woerter": 970,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Susanne Hierl",
+      "woerter": 961,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ruben Rupp",
+      "woerter": 944,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Lina Seitzl",
+      "woerter": 863,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Birgit Bessin",
+      "woerter": 860,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 10126
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 9391
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 8324
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 8073
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 4478
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 4148
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 3853
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Anpassung des nationalen Rechts an die Reform des Gemeinsamen Europäischen Asylsystems (GEAS-Anpassu…",
+      "thema": "Migration & Asyl",
       "woerter": 10126
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Markus Frohnmaier, Jan Wenzel Schmidt, Dr. Rainer Rothfuß, weiterer Abgeordneter und der Fraktion der AfD: Deutsche Rohstoffinteressen durchsetzen – Rohstoffpolitik zur Priori…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 9391
     },
     {
       "top": 8,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Kein Wegschauen auf Kosten der Betroffenen – Gewalt gegen Frauen, sexuellen Missbrauch und Netzwerke des Machtmissbrauchs aufklären u…",
+      "thema": "Bildung & Forschung",
       "woerter": 8073
     },
     {
       "top": 3,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung der elektronischen Aufenthaltsüberwachung und der Täterarbeit im Gewaltschutzgesetz",
+      "thema": "Innere Sicherheit",
       "woerter": 4478
     },
     {
       "top": 5,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Weiterentwicklung der Apothekenversorgung (Apothekenversorgung-Weiterentwicklungsgesetz – ApoVWG)",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4177
     },
     {
       "top": 7,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung der Verordnung (EU) 2024/900 über die Transparenz und das Targeting politischer Werbung (Politische-W…",
+      "thema": "Digitalisierung",
       "woerter": 4148
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Dr. Kirsten Kappert-Gonther, Ulle Schauws, Dr. Janosch Dahmen, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN sowie des Abgeordneten Stefan Seidler: Versorgung b…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4147
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Violetta Bock, Jörg Cezanne, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Für das Recht auf Heizen – Bezahlbar und erneuerbar",
+      "thema": "Energie & Klima",
       "woerter": 3853
     }
   ],
@@ -72,7 +203,7 @@
       "prozent": 21.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6646,
       "prozent": 14.6
     },
@@ -211,7 +342,7 @@
       "negativ": 27
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 90,
       "negativ": 20
     },
@@ -226,8 +357,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "teilweise": 2
-  }
+  "faktencheck_bilanz": {}
 }

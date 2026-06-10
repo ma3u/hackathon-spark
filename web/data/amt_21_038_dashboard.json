@@ -9,49 +9,172 @@
     "reden": 88,
     "schriftliche_beitraege": 0,
     "woerter": 50334,
+    "gesamtzeit_min": 387,
     "tops": 8,
     "saalreaktionen": 864,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 2181,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Boris Mijatović",
+      "woerter": 1755,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Johannes Volkmann",
+      "woerter": 1411,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Isabel Cademartori",
+      "woerter": 1357,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Serap Güler",
+      "woerter": 1113,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Nina Scheer",
+      "woerter": 1109,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Vinzenz Glaser",
+      "woerter": 1067,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Markus Koob",
+      "woerter": 1017,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 994,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sepp Müller",
+      "woerter": 979,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 975,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jürgen Coße",
+      "woerter": 929,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Janine Wissler",
+      "woerter": 912,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Anna Rathert",
+      "woerter": 806,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Katharina Beck",
+      "woerter": 802,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 15620
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 13336
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 13277
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 4232
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 3869
+    }
+  ],
   "top_themen": [
     {
       "top": 8,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Lage im Sudan",
+      "thema": "Krieg in der Ukraine",
       "woerter": 11033
     },
     {
       "top": 1,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung privater Investitionen und des Finanzstandorts (Standortfördergesetz – StoFöG)",
+      "thema": "Steuern & Finanzen",
       "woerter": 9393
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Marc Bernhard, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: 180-Grad-Wende bei Windindustrie und Photovoltaik einleiten",
+      "thema": "Energie & Klima",
       "woerter": 8922
     },
     {
       "top": 5,
       "titel": "Vereinbarte Debatte: 80 Jahre Vereinte Nationen",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4587
     },
     {
       "top": 6,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wohnen, Stadtentwicklung, Bauwesen und Kommunen zu dem Antrag der Abgeordneten Karoline Otte, Dr. Julia Verlinden, Andreas Audretsch, weiterer Abge…",
+      "thema": "Energie & Klima",
       "woerter": 4355
     },
     {
       "top": 3,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Elften Gesetzes zur Änderung des Regionalisierungsgesetzes",
+      "thema": "Verkehr & Mobilität",
       "woerter": 4232
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Charlotte Antonia Neuhäuser, Doris Achelwilm, Desiree Becker, weiterer Abgeordneter und der Fraktion Die Linke: Den zweiten UN-Weltgipfel für soziale Entwicklung stark machen…",
+      "thema": "Steuern & Finanzen",
       "woerter": 3943
     },
     {
       "top": 7,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Produktsicherheitsgesetzes und weiterer produktsicherheitsrechtlicher Vorschriften",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3869
     }
   ],
@@ -72,7 +195,7 @@
       "prozent": 18.3
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 7010,
       "prozent": 15.0
     },
@@ -186,7 +309,7 @@
       "negativ": 26
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 89,
       "negativ": 18
     },
@@ -201,8 +324,5 @@
       "negativ": 4
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "teilweise": 2
-  }
+  "faktencheck_bilanz": {}
 }

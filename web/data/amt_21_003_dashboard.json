@@ -9,24 +9,130 @@
     "reden": 153,
     "schriftliche_beitraege": 0,
     "woerter": 61186,
+    "gesamtzeit_min": 471,
     "tops": 4,
     "saalreaktionen": 939,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 5956,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 4568,
+      "reden": 26,
+      "fraktion": null
+    },
+    {
+      "name": "Thorsten Frei",
+      "woerter": 3654,
+      "reden": 23,
+      "fraktion": null
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 2187,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 1710,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Norbert Röttgen",
+      "woerter": 1569,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Alice Weidel",
+      "woerter": 1495,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Markus Frohnmaier",
+      "woerter": 1468,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 1439,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1431,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Johann Wadephul",
+      "woerter": 1355,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 1261,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Matthias Miersch",
+      "woerter": 1240,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 1012,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Siemtje Möller",
+      "woerter": 1006,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 36715
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 24471
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 24471
     },
     {
       "top": 2,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 23875
     },
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 12840
     }
   ],
@@ -42,7 +148,7 @@
       "prozent": 24.7
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 7528,
       "prozent": 18.0
     },
@@ -182,7 +288,7 @@
       "negativ": 2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 88,
       "negativ": 5
     },
@@ -197,7 +303,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

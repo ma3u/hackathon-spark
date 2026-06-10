@@ -9,34 +9,150 @@
     "reden": 170,
     "schriftliche_beitraege": 0,
     "woerter": 37838,
+    "gesamtzeit_min": 291,
     "tops": 6,
     "saalreaktionen": 508,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Karin Prien",
+      "woerter": 4396,
+      "reden": 40,
+      "fraktion": null
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 3678,
+      "reden": 26,
+      "fraktion": null
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 1179,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Serap Güler",
+      "woerter": 1156,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1094,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 1058,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ulrich von Zons",
+      "woerter": 1043,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Marvin Schulz",
+      "woerter": 957,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Torben Braga",
+      "woerter": 863,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Misbah Khan",
+      "woerter": 851,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Reem Alabali Radovan",
+      "woerter": 849,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Sebastian Maack",
+      "woerter": 803,
+      "reden": 4,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Omid Nouripour",
+      "woerter": 803,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Agnieszka Brugger",
+      "woerter": 759,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Norbert Röttgen",
+      "woerter": 749,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 16319
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 13536
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 4107
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 3876
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Energie & Klima",
       "woerter": 13536
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Die Lage im Iran und in der Region",
+      "thema": "Innere Sicherheit",
       "woerter": 11972
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Mandy Eißing, Clara Bünger, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Demokratie fördern statt behindern",
+      "thema": "Innere Sicherheit",
       "woerter": 4347
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von den Abgeordneten Dr. Michael Espendiller, Ulrich von Zons, Georg Schroeter, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Änderung de…",
+      "thema": "Haushalt & Schulden",
       "woerter": 4107
     },
     {
       "top": 4,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Produkthaftungsrechts",
+      "thema": "Digitalisierung",
       "woerter": 3876
     }
   ],
@@ -52,7 +168,7 @@
       "prozent": 23.3
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4659,
       "prozent": 17.8
     },
@@ -164,7 +280,7 @@
       "negativ": 12
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 51,
       "negativ": 4
     },
@@ -179,8 +295,5 @@
       "negativ": 3
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,39 +9,156 @@
     "reden": 115,
     "schriftliche_beitraege": 0,
     "woerter": 75675,
+    "gesamtzeit_min": 582,
     "tops": 7,
     "saalreaktionen": 1226,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Uwe Feiler",
+      "woerter": 1927,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Günter Krings",
+      "woerter": 1881,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 1757,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 1568,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Dietmar Bartsch",
+      "woerter": 1542,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Carolin Wagner",
+      "woerter": 1372,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Karsten Wildberger",
+      "woerter": 1364,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Sergej Minich",
+      "woerter": 1343,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Karin Prien",
+      "woerter": 1273,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1225,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Maja Wallstein",
+      "woerter": 1210,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 1164,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Martin Gerster",
+      "woerter": 1123,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Donata Vogtschmidt",
+      "woerter": 1066,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Nicole Gohlke",
+      "woerter": 1060,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 24748
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 24351
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 13902
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 12674
+    }
+  ],
   "top_themen": [
     {
       "top": 4,
       "titel": "Einzelplan 24",
+      "thema": "Digitalisierung",
       "woerter": 13902
     },
     {
       "top": 7,
       "titel": "Einzelplan 30",
+      "thema": "Bildung & Forschung",
       "woerter": 12869
     },
     {
       "top": 5,
       "titel": "Einzelplan 16",
+      "thema": "Energie & Klima",
       "woerter": 12674
     },
     {
       "top": 3,
       "titel": "Einzelplan 07",
+      "thema": "Haushalt & Schulden",
       "woerter": 12524
     },
     {
       "top": 2,
       "titel": "Einzelplan 06",
+      "thema": "Haushalt & Schulden",
       "woerter": 12224
     },
     {
       "top": 6,
       "titel": "Einzelplan 17",
+      "thema": "Bildung & Forschung",
       "woerter": 11482
     }
   ],
@@ -58,11 +175,11 @@
     },
     {
       "fraktion": "SPD",
-      "woerter": 11515,
-      "prozent": 17.0
+      "woerter": 12506,
+      "prozent": 18.4
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 10606,
       "prozent": 15.6
     },
@@ -70,11 +187,6 @@
       "fraktion": "Die Linke",
       "woerter": 8513,
       "prozent": 12.5
-    },
-    {
-      "fraktion": "SPDSPD",
-      "woerter": 991,
-      "prozent": 1.5
     },
     {
       "fraktion": "fraktionslos",
@@ -196,11 +308,11 @@
     },
     {
       "fraktion": "SPD",
-      "positiv": 117,
-      "negativ": 10
+      "positiv": 125,
+      "negativ": 12
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 108,
       "negativ": 12
     },
@@ -210,17 +322,10 @@
       "negativ": 5
     },
     {
-      "fraktion": "SPDSPD",
-      "positiv": 8,
-      "negativ": 2
-    },
-    {
       "fraktion": "fraktionslos",
       "positiv": 3,
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

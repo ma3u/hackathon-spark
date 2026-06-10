@@ -9,44 +9,174 @@
     "reden": 85,
     "schriftliche_beitraege": 0,
     "woerter": 47803,
+    "gesamtzeit_min": 368,
     "tops": 7,
     "saalreaktionen": 890,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 1564,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Wilfried Oellers",
+      "woerter": 1364,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Johann Saathoff",
+      "woerter": 1333,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 1245,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "René Springer",
+      "woerter": 1206,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Philipp Amthor",
+      "woerter": 1103,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 1075,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 962,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Gerold Otten",
+      "woerter": 944,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Angelika Glöckner",
+      "woerter": 862,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 829,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Johannes Volkmann",
+      "woerter": 821,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Hanna Steinmüller",
+      "woerter": 809,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Frauke Heiligenstadt",
+      "woerter": 808,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Ottilie Klein",
+      "woerter": 807,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Digitalisierung",
+      "woerter": 10590
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 10093
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 9125
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 4928
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 4629
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 4567
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 3871
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einführung eines antragslosen Kindergeldes",
+      "thema": "Digitalisierung",
       "woerter": 10590
     },
     {
       "top": 2,
       "titel": "Zusatzpunkt 8 und 9",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 10093
     },
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Geschäftsmodelle der großen Immobilienkonzerne bekämpfen – Mieterinnen und Mieter konsequent schützen",
+      "thema": "Wohnen & Bau",
       "woerter": 9125
     },
     {
       "top": 3,
       "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Weiterentwicklung der Apothekenversorgung (Apothekenversorgung-Weiterentwicklungsgesetz – ApoVWG)",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4928
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Dr. Michael Espendiller, Ulrike Schielke-Ziesing, Marcus Bühl, weiterer Abgeordneter und der Fraktion der AfD: Erhalt des Gaskraftwerks am Standort Lubmin und Integration in d…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4629
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Schahina Gambir, Dr. Ophelia Nick, Jamila Schäfer, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Ernährungssouveränität herstellen – Globale Hungerkrise bekämp…",
+      "thema": "Energie & Klima",
       "woerter": 4567
     },
     {
       "top": 5,
       "titel": "Tagesordnungspunkt 28, ZP 12",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 3871
     }
   ],
@@ -67,7 +197,7 @@
       "prozent": 16.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6585,
       "prozent": 14.3
     },
@@ -170,7 +300,7 @@
       "negativ": 53
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 77,
       "negativ": 10
     },
@@ -186,8 +316,6 @@
     }
   ],
   "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "bestätigt": 1,
-    "irreführend": 1
+    "unbelegt": 12
   }
 }

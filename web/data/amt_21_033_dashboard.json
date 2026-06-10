@@ -9,44 +9,170 @@
     "reden": 189,
     "schriftliche_beitraege": 0,
     "woerter": 44031,
+    "gesamtzeit_min": 339,
     "tops": 8,
     "saalreaktionen": 561,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Patrick Schnieder",
+      "woerter": 4662,
+      "reden": 39,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 3673,
+      "reden": 28,
+      "fraktion": null
+    },
+    {
+      "name": "Florian Hahn",
+      "woerter": 1568,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Emmi Zeulner",
+      "woerter": 1115,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Nils Schmid",
+      "woerter": 1102,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Simone Borchardt",
+      "woerter": 1054,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Peter Beyer",
+      "woerter": 1029,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Kurt Kleinschmidt",
+      "woerter": 873,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 868,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Agnieszka Brugger",
+      "woerter": 852,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Marc Henrichmann",
+      "woerter": 839,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 814,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jan Köstering",
+      "woerter": 797,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Cansu Özdemir",
+      "woerter": 769,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 744,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 14378
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 9999
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 7893
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 4931
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 4751
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 2079
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Verkehr & Mobilität",
       "woerter": 14378
     },
     {
       "top": 4,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Bedrohungslage Deutschlands ernst nehmen",
+      "thema": "Krieg in der Ukraine",
       "woerter": 9999
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Markus Frohnmaier, Dr. Alexander Wolf, Rocco Kever, weiterer Abgeordneter und der Fraktion der AfD: Für Transparenz und Aufklärung sorgen – Der Öffentlichkeit einen vollständi…",
+      "thema": "Steuern & Finanzen",
       "woerter": 4931
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Evelyn Schötz, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Keine Leistungskürzungen in der Pflege",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4751
     },
     {
       "top": 5,
       "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUNAVFOR MED IRINI",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4286
     },
     {
       "top": 7,
       "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der NATO-geführten Maritimen Sicherheitsoperation SEA GUARDIAN",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 3607
     },
     {
       "top": 1,
       "titel": "Feststellung der Tagesordnung",
+      "thema": null,
       "woerter": 2079
     }
   ],
@@ -62,7 +188,7 @@
       "prozent": 26.9
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6309,
       "prozent": 19.9
     },
@@ -176,7 +302,7 @@
       "negativ": 22
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 71,
       "negativ": 8
     },
@@ -196,9 +322,5 @@
       "negativ": 5
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "irreführend": 1,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

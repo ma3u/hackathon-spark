@@ -9,39 +9,160 @@
     "reden": 186,
     "schriftliche_beitraege": 0,
     "woerter": 42722,
+    "gesamtzeit_min": 329,
     "tops": 8,
     "saalreaktionen": 665,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Karin Prien",
+      "woerter": 5681,
+      "reden": 43,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Karsten Wildberger",
+      "woerter": 3051,
+      "reden": 19,
+      "fraktion": null
+    },
+    {
+      "name": "Hubertus Heil",
+      "woerter": 1209,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Marc Henrichmann",
+      "woerter": 1150,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Irene Mihalic",
+      "woerter": 1146,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 1112,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Pascal Reddig",
+      "woerter": 1090,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ronald Gläser",
+      "woerter": 1024,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "David Gregosz",
+      "woerter": 989,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Robin Wagener",
+      "woerter": 835,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Karsten Hilse",
+      "woerter": 795,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Anna Lührmann",
+      "woerter": 771,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Markus Frohnmaier",
+      "woerter": 749,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Holger Mann",
+      "woerter": 724,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 720,
+      "reden": 1,
+      "fraktion": null
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 13837
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 10626
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 8029
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 5156
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 5074
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Bildung & Forschung",
       "woerter": 13837
     },
     {
       "top": 4,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Auswirkungen des Verhältnisses der AfD zu Russland auf Deutschlands Sicherheitsinteressen – Kein Patriotismus, sondern mögliche Gefäh…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 10626
     },
     {
       "top": 5,
       "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Klimakonferenz in Belém – Neuer Schwung für den internationalen Klimaschutz",
+      "thema": "Energie & Klima",
       "woerter": 5156
     },
     {
       "top": 6,
       "titel": "a) Antrag der Abgeordneten Dr. Anna Lührmann, Karoline Otte, Misbah Khan, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Digitalabgabe für Werbeumsätze einführen – Medienvielfalt und K…",
+      "thema": "Steuern & Finanzen",
       "woerter": 5074
     },
     {
       "top": 8,
       "titel": "Beratung des Antrags der Abgeordneten Matthias Helferich, Ronald Gläser, Dr. Götz Frömming, weiterer Abgeordneter und der Fraktion der AfD: Den Deutschen Verlagspreis grundlegend reformieren – Keine…",
+      "thema": "Innere Sicherheit",
       "woerter": 4318
     },
     {
       "top": 7,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur effektiveren Ahndung und Bekämpfung von Straftaten im Zusammenhang mit explosionsgefährlichen Stoffen",
+      "thema": "Innere Sicherheit",
       "woerter": 3711
     }
   ],
@@ -62,7 +183,7 @@
       "prozent": 17.8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5784,
       "prozent": 17.6
     },
@@ -181,7 +302,7 @@
       "negativ": 38
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 73,
       "negativ": 11
     },
@@ -201,7 +322,5 @@
       "negativ": 4
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

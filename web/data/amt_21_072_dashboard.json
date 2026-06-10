@@ -9,34 +9,154 @@
     "reden": 63,
     "schriftliche_beitraege": 0,
     "woerter": 36197,
+    "gesamtzeit_min": 278,
     "tops": 6,
     "saalreaktionen": 433,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Adis Ahmetovic",
+      "woerter": 1312,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Roderich Kiesewetter",
+      "woerter": 1220,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Franziska Kersten",
+      "woerter": 1121,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sebastian Steineke",
+      "woerter": 1116,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Serdar Yüksel",
+      "woerter": 1085,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Axel Müller",
+      "woerter": 1001,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Johann Saathoff",
+      "woerter": 958,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 942,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 852,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Christin Willnat",
+      "woerter": 837,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Bernd Schuhmann",
+      "woerter": 822,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Luise Amtsberg",
+      "woerter": 817,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Stefan Möller",
+      "woerter": 802,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Gerold Otten",
+      "woerter": 772,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Christoph Frauenpreiß",
+      "woerter": 757,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 9715
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 8852
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 7940
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 4895
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 4795
+    }
+  ],
   "top_themen": [
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Militärische Eskalation und humanitäre Notlage im Libanon",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 9715
     },
     {
       "top": 2,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/2225 über Verbraucherkreditverträge",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8852
     },
     {
       "top": 3,
       "titel": "a) Beschlussempfehlung und Bericht des Ausschusses für Landwirtschaft, Ernährung und Heimat zu dem Antrag der Abgeordneten Christian Reck, Stephan Protschka, Peter Felser, weiterer Abgeordneter und d…",
+      "thema": "Landwirtschaft & Umwelt",
       "woerter": 7940
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Julia-Christina Stange, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Zeitnahe Arzttermine für alle ermöglichen – Gute ambulante Versorgu…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 4895
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Robin Wagener, Agnieszka Brugger, Dr. Konstantin von Notz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die russische Schattenflotte entschlossen bekämpfen",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4795
     }
   ],
@@ -57,7 +177,7 @@
       "prozent": 18.8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5006,
       "prozent": 14.2
     },
@@ -159,7 +279,7 @@
       "negativ": 12
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 66,
       "negativ": 6
     },

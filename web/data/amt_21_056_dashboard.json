@@ -9,74 +9,206 @@
     "reden": 141,
     "schriftliche_beitraege": 0,
     "woerter": 89072,
+    "gesamtzeit_min": 685,
     "tops": 14,
     "saalreaktionen": 1571,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 2854,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 2574,
+      "reden": 4,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 2098,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 1796,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Carsten Müller",
+      "woerter": 1692,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Ralf Stegner",
+      "woerter": 1605,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sören Pellmann",
+      "woerter": 1598,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1561,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jürgen Hardt",
+      "woerter": 1510,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Bernd Baumann",
+      "woerter": 1385,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Adis Ahmetovic",
+      "woerter": 1371,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Ferat Koçak",
+      "woerter": 1358,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 1352,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 1324,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Andreas Audretsch",
+      "woerter": 1275,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 28478
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 27608
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 21953
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4112
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 3823
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 3098
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zu den Ergebnissen des informellen Europäischen Rates am 22. Januar 2026 und zur aktuellen außenpolitischen Lage",
+      "thema": "Krieg in der Ukraine",
       "woerter": 16731
     },
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Mercosur-Abkommen zügig anwenden – Europas Souveränität und Handlungsfähigkeit durch Freihandel stärken",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 10041
     },
     {
       "top": 3,
       "titel": "Antrag der Abgeordneten Dr. Bernd Baumann, Dr. Gottfried Curio, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Clankriminalität entschieden bekämpfen – Bürger und Rechtsstaat sc…",
+      "thema": "Innere Sicherheit",
       "woerter": 9887
     },
     {
       "top": 5,
       "titel": "a) Antrag der Abgeordneten Deborah Düring, Agnieszka Brugger, Sara Nanni, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Die transatlantischen Beziehungen neu denken",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8440
     },
     {
       "top": 4,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2022/2557 und zur Stärkung der Resilienz kritischer Anlagen",
+      "thema": "Innere Sicherheit",
       "woerter": 8412
     },
     {
       "top": 12,
       "titel": "Zweite und dritte Beratung des von den Abgeordneten Stephan Brandner, Thomas Fetsch, Rainer Galla, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung…",
+      "thema": "Innere Sicherheit",
       "woerter": 5997
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Markus Frohnmaier, Dr. Alexander Wolf, Gerold Otten, weiterer Abgeordneter und der Fraktion der AfD: Realistische Friedensziele formulieren – Deutsche Leistungen an die Ukrain…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 5222
     },
     {
       "top": 10,
       "titel": "Antrag der Abgeordneten Pascal Meiser, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Beschäftigte plattformgebundener Essenslieferdienste vor Ausbeutung schützen…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4616
     },
     {
       "top": 7,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2024/1619 des Europäischen Parlaments und des Rates vom 31. Mai 2024 zur…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4511
     },
     {
       "top": 11,
       "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Umsetzung der Richtlinie (EU) 2023/1544 und zur Durchführung der Verordnung (EU) 2023/1543 über die…",
+      "thema": "Innere Sicherheit",
       "woerter": 4182
     },
     {
       "top": 9,
       "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte – Stabilisierung sichern, Wiedererstarken…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4112
     },
     {
       "top": 13,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes für den Bürokratierückbau im Bereich des Bundesministeriums des Innern",
+      "thema": "Digitalisierung",
       "woerter": 3823
     },
     {
       "top": 14,
       "titel": "Antrag der Abgeordneten Max Lucks, Katharina Beck, Marcel Emmerich, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Finanzkriminalität bekämpfen – Geldwäsche und organisierte Steuerhint…",
+      "thema": "Steuern & Finanzen",
       "woerter": 3098
     }
   ],
@@ -97,7 +229,7 @@
       "prozent": 20.3
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12237,
       "prozent": 14.7
     },
@@ -257,7 +389,7 @@
       "negativ": 25
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 140,
       "negativ": 31
     },
@@ -272,7 +404,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

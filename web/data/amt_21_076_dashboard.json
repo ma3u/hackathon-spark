@@ -9,34 +9,150 @@
     "reden": 169,
     "schriftliche_beitraege": 0,
     "woerter": 37845,
+    "gesamtzeit_min": 291,
     "tops": 6,
     "saalreaktionen": 670,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Bärbel Bas",
+      "woerter": 5568,
+      "reden": 38,
+      "fraktion": null
+    },
+    {
+      "name": "Reem Alabali Radovan",
+      "woerter": 2846,
+      "reden": 24,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1118,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Felix Schreiner",
+      "woerter": 1021,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Hess",
+      "woerter": 945,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jan Köstering",
+      "woerter": 884,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Tilman Kuban",
+      "woerter": 873,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 856,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Julian Joswig",
+      "woerter": 828,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Leif-Erik Holm",
+      "woerter": 812,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sebastian Roloff",
+      "woerter": 774,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Mahmut Özdemir",
+      "woerter": 746,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Deborah Düring",
+      "woerter": 725,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Mirze Edis",
+      "woerter": 699,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Detlef Seif",
+      "woerter": 667,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 23712
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 5326
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 4819
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 3988
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 13281
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Ein Jahr Regierung unter Bundeskanzler Merz – Auswirkungen auf Deutschland als führende Industrienation",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 10431
     },
     {
       "top": 6,
       "titel": "Antrag der Abgeordneten Martin Hess, Dr. Gottfried Curio, Dr. Bernd Baumann, weiterer Abgeordneter und der Fraktion der AfD: Polizeiliche Kriminalstatistik sowie Berichtswesen zur Ausländerkriminalit…",
+      "thema": "Innere Sicherheit",
       "woerter": 5326
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Marcel Emmerich, Dr. Irene Mihalic, Agnieszka Brugger, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Rechtsstaatlichkeit wieder garantieren – Rechtswidrige Zur…",
+      "thema": "Migration & Asyl",
       "woerter": 4819
     },
     {
       "top": 4,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Eckpfeiler einer wirksamen und strategischen Kabeldiplomatie",
+      "thema": "Energie & Klima",
       "woerter": 3988
     }
   ],
@@ -52,7 +168,7 @@
       "prozent": 23.4
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4858,
       "prozent": 16.9
     },
@@ -179,7 +295,7 @@
       "negativ": 13
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 63,
       "negativ": 6
     },

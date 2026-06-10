@@ -9,19 +9,52 @@
     "reden": 5,
     "schriftliche_beitraege": 0,
     "woerter": 402,
+    "gesamtzeit_min": 3,
     "tops": 3,
     "saalreaktionen": 0,
     "geprüfte_aussagen": 2
   },
+  "redner": [
+    {
+      "name": "Klaus Brandt",
+      "woerter": 62,
+      "reden": 2,
+      "fraktion": "GRÜN-Liste Musterbach"
+    },
+    {
+      "name": "Sabine Wagner",
+      "woerter": 54,
+      "reden": 2,
+      "fraktion": "Bürgerfraktion Musterbach"
+    },
+    {
+      "name": "Thomas Keller",
+      "woerter": 32,
+      "reden": 1,
+      "fraktion": "Freie Wähler Musterbach"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 95
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 53
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Anschaffung eines Bücherbusses für die Ortsteile Musterbach-Süd und Talheim",
+      "thema": null,
       "woerter": 95
     },
     {
       "top": 2,
       "titel": "Einführung digitaler Terminvergabe im Bürgerbüro",
+      "thema": "Digitalisierung",
       "woerter": 53
     }
   ],

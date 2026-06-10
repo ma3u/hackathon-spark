@@ -9,39 +9,160 @@
     "reden": 183,
     "schriftliche_beitraege": 0,
     "woerter": 38937,
+    "gesamtzeit_min": 300,
     "tops": 7,
     "saalreaktionen": 504,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Nina Warken",
+      "woerter": 4620,
+      "reden": 36,
+      "fraktion": null
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 4141,
+      "reden": 34,
+      "fraktion": null
+    },
+    {
+      "name": "Lamya Kaddor",
+      "woerter": 1196,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sebastian Roloff",
+      "woerter": 944,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Caroline Bosbach",
+      "woerter": 903,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 854,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 848,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sandra Stein",
+      "woerter": 815,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Gottfried Curio",
+      "woerter": 800,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Martin Hess",
+      "woerter": 774,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Siegfried Walch",
+      "woerter": 764,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Clara Bünger",
+      "woerter": 736,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 719,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Klaus Mack",
+      "woerter": 715,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 697,
+      "reden": 1,
+      "fraktion": null
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 13895
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 8756
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 8261
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4327
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 3698
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Gesundheit & Pflege",
       "woerter": 13895
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Zehn Jahre „Wir schaffen das“",
+      "thema": "Migration & Asyl",
       "woerter": 8756
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Leif-Erik Holm, Alexander Arpaschi, Carolin Bachmann, weiterer Abgeordneter und der Fraktion der AfD: Anstieg der Arbeitslosenzahlen ernst nehmen – Sofortige Wirtschaftswende…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4327
     },
     {
       "top": 4,
       "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Mission der Vereinten Nationen in Südsudan (UNMISS)",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4143
     },
     {
       "top": 6,
       "titel": "Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union geführten Operation EUNAVFOR ASPIDES",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4118
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Jörg Cezanne, Dr. Fabian Fahl, Janine Wissler, weiterer Abgeordneter und der Fraktion Die Linke: Klimageld – Sofort und sozial gerecht",
+      "thema": "Energie & Klima",
       "woerter": 3698
     }
   ],
@@ -57,7 +178,7 @@
       "prozent": 26.5
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5259,
       "prozent": 18.3
     },
@@ -170,7 +291,7 @@
       "negativ": 14
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 38,
       "negativ": 7
     },
@@ -185,7 +306,5 @@
       "negativ": 4
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

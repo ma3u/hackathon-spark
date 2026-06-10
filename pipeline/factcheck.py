@@ -45,12 +45,111 @@ class FactCheck:
     score: float
 
 
-def factcheck_with_retrieval(aussagen: list[dict], corpus) -> list[FactCheck]:
-    """Produktivpfad: Retrieval + LLM-NLI-Verifizierer. Hier als Vertrag dokumentiert."""
-    raise NotImplementedError(
-        "Produktiv: pro Aussage Top-k Belege retrieven (Embeddings über amtlichen "
-        "Korpus), dann LLM-Verifizierer (entailment/contradiction) mit Zitatpflicht."
-    )
+_STOP = set((
+    "der die das den dem des ein eine einer und oder aber auch ist sind war hat haben wird werden "
+    "für von mit auf in im an als nicht sich seit über unter bei zu zur zum vom durch dass weil wenn "
+    "dann hier wir sie er es ich man dieser diese dieses wie noch nur schon sehr mehr immer heute"
+).split())
+
+
+def _query_terms(text: str, k: int = 8) -> str:
+    """Aus einer Aussage eine Stichwort-Suchanfrage bauen (Nomen/Eigennamen + Zahlen) —
+    Volltext-Sätze liefern bei Wikipedia kaum Treffer, Stichwörter dagegen gut."""
+    words = re.findall(r"[A-Za-zÄÖÜäöüß][\wÄÖÜäöüß-]+", text)
+    terms = [w for w in words if (w[0].isupper() and w.lower() not in _STOP) or any(c.isdigit() for c in w)]
+    if len(terms) < 3:
+        terms = [w for w in words if w.lower() not in _STOP]
+    return " ".join(terms[:k])
+
+
+def _wiki_search(query: str, *, lang: str = "de", n: int = 3) -> list[dict]:
+    """Retrieval-Quelle (ohne API-Key): Wikipedia-Suche → Intro-Auszug + URL je Treffer.
+
+    Prototyp-Korpus. Produktiv durch amtliche Quellen ersetzen (Destatis-GENESIS, DIP-API,
+    Antworten der Bundesregierung) — die LLM-Verifikation gegen Belege bleibt identisch.
+    """
+    import urllib.request
+    import urllib.parse
+    base = f"https://{lang}.wikipedia.org/w/api.php?"
+    hdr = {"User-Agent": "graph-protokoll/1.0 (SPARK Challenge 2 factcheck)"}
+
+    def _get(params):
+        req = urllib.request.Request(base + urllib.parse.urlencode(params), headers=hdr)
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.load(r)
+
+    try:
+        hits = _get({"action": "query", "list": "search", "srsearch": query[:300],
+                     "format": "json", "srlimit": n})["query"]["search"]
+    except Exception:
+        return []
+    out: list[dict] = []
+    for h in hits:
+        title = h["title"]
+        try:
+            # mehr als nur die Intro (exchars) — sonst fehlen die konkreten Zahlen/Jahre, gegen
+            # die die Aussage geprüft werden soll
+            pages = _get({"action": "query", "prop": "extracts", "exchars": 1500, "explaintext": 1,
+                          "titles": title, "format": "json", "redirects": 1})["query"]["pages"]
+            extract = next(iter(pages.values())).get("extract", "") or ""
+        except Exception:
+            extract = ""
+        out.append({"titel": title, "extract": extract[:1500],
+                    "url": f"https://{lang}.wikipedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"))})
+    return out
+
+
+_RETRIEVAL_SYS = (
+    "Du bist ein neutraler Faktenchecker. Bewerte die AUSSAGE AUSSCHLIESSLICH anhand der "
+    "bereitgestellten BELEGE — nutze kein sonstiges Wissen. Stützen die Belege die Aussage → "
+    "'bestätigt'; widersprechen sie → 'falsch'; teils/teils oder Zahl leicht abweichend → "
+    "'teilweise'; richtig, aber irreführend dargestellt → 'irreführend'; sagen die Belege nichts "
+    "Einschlägiges → 'unbelegt'. Zitiere den verwendeten Beleg (Titel + URL). Antworte NUR JSON: "
+    '{"verdikt":"...","begruendung":"... (mit Bezug auf den Beleg)","quelle_titel":"...","quelle_url":"..."}')
+
+
+def factcheck_with_retrieval(aussagen: list[dict], *, model: str, base_url: str, api_key: str,
+                             max_claims: int = 12, lang: str = "de") -> list[FactCheck]:
+    """Produktivpfad: Retrieval (Wikipedia) + LLM-Verifizierer GEGEN die Belege, mit Zitatpflicht.
+
+    Anders als `factcheck_with_llm` (LLM ohne Quellen → meist 'unbelegt') werden hier pro Aussage
+    echte Belege geholt und das Verdikt daraus abgeleitet → belastbare Verdikte MIT echter Quelle.
+    Über reale Personen weiterhin KI-Vorschlag (Disclaimer); Grundsatz: jede Quelle ist real.
+    """
+    from openai import OpenAI
+    client = OpenAI(base_url=base_url, api_key=api_key)
+    results: list[FactCheck] = []
+    for i, a in enumerate(aussagen[:max_claims]):
+        belege = _wiki_search(_query_terms(a["text"]), lang=lang)
+        if not belege:
+            results.append(FactCheck(
+                aussage_index=i, text=a["text"], person=a.get("person"), fraktion=a.get("fraktion"),
+                top_nummer=a.get("top_nummer"), verdikt="unbelegt",
+                begruendung=f"{_LLM_DISCLAIMER} Kein Beleg in der durchsuchten Quelle (Wikipedia {lang}).",
+                quelle={"titel": f"Wikipedia ({lang}) durchsucht — kein Treffer", "url":
+                        f"https://{lang}.wikipedia.org/", "stand": ""},
+                quelle_utterances=a.get("quelle_utterances", []), score=0.0))
+            continue
+        kontext = "\n\n".join(f"[{b['titel']}] ({b['url']})\n{b['extract']}" for b in belege)
+        try:
+            resp = _chat_retry(client, model=model, temperature=0, max_tokens=700, messages=[
+                {"role": "system", "content": _RETRIEVAL_SYS},
+                {"role": "user", "content": f'AUSSAGE: "{a["text"]}"\n\nBELEGE:\n{kontext}'}])
+            data = _extract_json(resp.choices[0].message.content or "")
+            verdikt = _as_text(data.get("verdikt"), "unbelegt")
+            verdikt = verdikt if verdikt in VERDIKTE else "unbelegt"
+            quelle = {"titel": _as_text(data.get("quelle_titel"), belege[0]["titel"]),
+                      "url": _as_text(data.get("quelle_url"), belege[0]["url"]), "stand": ""}
+            begr = f"{_LLM_DISCLAIMER} {_as_text(data.get('begruendung'))}".strip()
+        except Exception as e:  # robuste Degradierung: nie ohne Quelle
+            verdikt, begr = "unbelegt", f"{_LLM_DISCLAIMER} Prüfung fehlgeschlagen ({type(e).__name__})."
+            quelle = {"titel": belege[0]["titel"], "url": belege[0]["url"], "stand": ""}
+        results.append(FactCheck(
+            aussage_index=i, text=a["text"], person=a.get("person"), fraktion=a.get("fraktion"),
+            top_nummer=a.get("top_nummer"), verdikt=verdikt, begruendung=begr, quelle=quelle,
+            quelle_utterances=a.get("quelle_utterances", []), score=0.0))
+    assert all(fc.quelle for fc in results), "Faktencheck ohne Quelle — verletzt Grundsatz."
+    return results
 
 
 def factcheck_rule_based(aussagen: list[dict], evidenz_path: str | Path) -> list[FactCheck]:

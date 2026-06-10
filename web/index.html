@@ -334,18 +334,24 @@
         try { d = await (await fetch(`./data/${scenario}_dashboard.json`)).json(); }
         catch { box.innerHTML = card("Dashboard", "Für dieses Szenario liegen keine Kennzahlen vor."); return; }
         const k = d.kennzahlen;
+        const fmtTime = (min) => min ? `${Math.floor(min / 60)}h ${min % 60}m` : "—";
         const kpi = card(`${d.sitzung.gremium} — ${d.sitzung.datum}`,
           `<div class="kpi">` + Object.entries({
-            Reden: k.reden, Wörter: k.woerter, TOPs: k.tops,
+            Reden: k.reden, "Redezeit (ca.)": fmtTime(k.gesamtzeit_min), TOPs: k.tops,
             Saalreaktionen: k.saalreaktionen, "Geprüfte Aussagen": k.geprüfte_aussagen,
             ...(k.schriftliche_beitraege ? { "Schriftl. Beiträge": k.schriftliche_beitraege } : {}),
           }).map(([l, n]) => `<div><div class="n">${n}</div><div class="l">${l}</div></div>`).join("") + `</div>`);
 
-        const themen = card("Top-Themen (nach Redevolumen)",
-          bars(d.top_themen.map((t) => ({
-            label: t.titel ? `${t.top}: ${t.titel}` : `TOP ${t.top}`,
-            woerter: t.woerter, num: t.woerter, color: "#58a6ff",
-          })), "woerter") || empty("Kein Redevolumen erfasst."));
+        // Top-Themen = nach Sachthema (Migration, Ukraine, Haushalt …), nicht nur TOP-Nummer
+        const themen = card("Top-Themen (nach Sachthema)",
+          bars((d.sachthemen || []).map((t) => ({
+            label: t.thema, woerter: t.woerter, num: t.woerter, color: "#58a6ff",
+          })), "woerter") || empty("Keine Themen erkannt."));
+        const redner = card("Redner:innen (nach Redezeit)",
+          bars((d.redner || []).map((r) => ({
+            label: r.name + (r.fraktion ? ` · ${r.fraktion}` : ""),
+            woerter: r.woerter, num: fmtTime(Math.round(r.woerter / 130)), color: partyColor(r.fraktion),
+          })), "woerter") || empty("Keine Redner erfasst."));
         const sprach = card("Sprachanteil pro Fraktion",
           bars(d.sprachanteil_fraktion.map((s) => ({
             label: s.fraktion, prozent: s.prozent, num: s.prozent + "%", color: partyColor(s.fraktion),
@@ -360,14 +366,16 @@
             <span class="num">+${r.positiv}/−${r.negativ}</span></div>`;
         }).join("") : empty("Keine Saalreaktionen protokolliert (z. B. kommunale Sitzung)."));
 
+        const verd = d.faktencheck_bilanz || {};
+        const nurUnbelegt = Object.keys(verd).length > 0 && Object.keys(verd).every((v) => v === "unbelegt");
         const bilanz = card("Faktencheck-Bilanz",
-          Object.entries(d.faktencheck_bilanz).map(([v, n]) =>
+          (Object.entries(verd).map(([v, n]) =>
             `<div class="bar"><span title="${v}">${v}</span><span class="track">
                <span class="fill" style="width:${Math.max(1.5, 100 * n / Math.max(1, k.geprüfte_aussagen))}%;background:${VERDICT[v] || "#58a6ff"}"></span></span>
-             <span class="num">${n}</span></div>`).join("")
-          || empty("Kein Faktencheck für diese Sitzung — bei echten Personen bewusst ohne automatische Verdikte."));
+             <span class="num">${n}</span></div>`).join("") || empty("Kein Faktencheck für diese Sitzung."))
+          + (nurUnbelegt ? empty("⚠️ Alle „unbelegt": das LLM (Mistral, Trainingsstand vor 2026) kann aktuelle Zahlen-Aussagen ohne Quellen nicht verifizieren. Belastbare Verdikte brauchen Retrieval gegen aktuelle amtliche Daten (Destatis · DIP · Bundesregierung) → Produktivpfad factcheck_with_retrieval.") : ""));
 
-        box.innerHTML = kpi + themen + sprach
+        box.innerHTML = kpi + themen + redner + sprach
           + fb(d.feedback_erhalten_fraktion, "Feedback erhalten (Reaktionen auf Reden der Fraktion)")
           + fb(d.feedback_gegeben_fraktion, "Feedback gegeben (Beifall/Widerspruch durch Fraktion)")
           + fb(d.feedback_je_thema, "Stimmung je Thema (positiv/negativ)")

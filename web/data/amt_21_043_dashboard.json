@@ -9,29 +9,140 @@
     "reden": 102,
     "schriftliche_beitraege": 0,
     "woerter": 72721,
+    "gesamtzeit_min": 559,
     "tops": 5,
     "saalreaktionen": 1260,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 3685,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 2688,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 2550,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Siemtje Möller",
+      "woerter": 2188,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 2121,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Alice Weidel",
+      "woerter": 2108,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 2022,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Inge Gräßle",
+      "woerter": 1977,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Jamila Schäfer",
+      "woerter": 1862,
+      "reden": 3,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Britta Haßelmann",
+      "woerter": 1790,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 1538,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Mirco Hanker",
+      "woerter": 1480,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 1437,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Matthias Miersch",
+      "woerter": 1374,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sören Pellmann",
+      "woerter": 1335,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 44299
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 15497
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 12925
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Einzelplan I.9",
+      "thema": "Haushalt & Schulden",
       "woerter": 31936
     },
     {
       "top": 3,
       "titel": "Einzelplan I.10",
+      "thema": "Krieg in der Ukraine",
       "woerter": 15497
     },
     {
       "top": 4,
       "titel": "Einzelplan 14",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 12925
     },
     {
       "top": 5,
       "titel": "Einzelplan 23",
+      "thema": "Haushalt & Schulden",
       "woerter": 12363
     }
   ],
@@ -52,7 +163,7 @@
       "prozent": 20.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 9331,
       "prozent": 14.3
     },
@@ -168,7 +279,7 @@
       "negativ": 21
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 110,
       "negativ": 16
     },
@@ -183,8 +294,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

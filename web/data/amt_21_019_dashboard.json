@@ -9,29 +9,144 @@
     "reden": 59,
     "schriftliche_beitraege": 0,
     "woerter": 34842,
+    "gesamtzeit_min": 268,
     "tops": 4,
     "saalreaktionen": 561,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Yannick Bury",
+      "woerter": 1345,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Leon Eckert",
+      "woerter": 1256,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 1222,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Boris Mijatović",
+      "woerter": 1135,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Ulrike Schielke-Ziesing",
+      "woerter": 1096,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Bärbel Bas",
+      "woerter": 906,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Dietmar Bartsch",
+      "woerter": 868,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Peter Aumer",
+      "woerter": 821,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Michael Espendiller",
+      "woerter": 821,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Florian Dorn",
+      "woerter": 765,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tamara Mazzi",
+      "woerter": 758,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 749,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 739,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Kai Whittaker",
+      "woerter": 726,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Lukas Krieger",
+      "woerter": 725,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 12688
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 11884
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 8374
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 1896
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Einzelplan 11",
+      "thema": "Rente & Soziales",
       "woerter": 12688
     },
     {
       "top": 4,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Errichtung eines Sondervermögens Infrastruktur und Klimaneutralität (SVIKG)",
+      "thema": "Haushalt & Schulden",
       "woerter": 11884
     },
     {
       "top": 1,
       "titel": "Vereinbarte Debatte: aus Anlass des 30. Jahrestages des Völkermords von Srebrenica",
+      "thema": "Krieg in der Ukraine",
       "woerter": 8374
     },
     {
       "top": 2,
       "titel": "Zur Geschäftsordnung",
+      "thema": null,
       "woerter": 1896
     }
   ],
@@ -47,7 +162,7 @@
       "prozent": 27.3
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4843,
       "prozent": 15.1
     },
@@ -152,7 +267,7 @@
       "negativ": 16
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 51,
       "negativ": 9
     },
@@ -167,9 +282,5 @@
       "negativ": 9
     }
   ],
-  "faktencheck_bilanz": {
-    "teilweise": 6,
-    "unbelegt": 4,
-    "bestätigt": 2
-  }
+  "faktencheck_bilanz": {}
 }

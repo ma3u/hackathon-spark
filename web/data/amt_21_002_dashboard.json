@@ -9,35 +9,138 @@
     "reden": 24,
     "schriftliche_beitraege": 0,
     "woerter": 1828,
+    "gesamtzeit_min": 14,
     "tops": 7,
     "saalreaktionen": 112,
-    "geprüfte_aussagen": 5
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Irene Mihalic",
+      "woerter": 367,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Bernd Baumann",
+      "woerter": 338,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Katja Mast",
+      "woerter": 335,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Steffen Bilger",
+      "woerter": 302,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Christian Görke",
+      "woerter": 295,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Friedrich Merz",
+      "woerter": 68,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Thorsten Frei",
+      "woerter": 10,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Karsten Wildberger",
+      "woerter": 9,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Patrick Schnieder",
+      "woerter": 9,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Nina Warken",
+      "woerter": 9,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Alois Rainer",
+      "woerter": 9,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 8,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 8,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 8,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 7,
+      "reden": 1,
+      "fraktion": null
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 1828
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "Zur Geschäftsordnung",
+      "thema": null,
       "woerter": 1637
     },
     {
       "top": 7,
       "titel": "Eidesleistung der Bundesministerinnen und Bundesminister",
+      "thema": null,
       "woerter": 123
     },
     {
       "top": 5,
       "titel": "Eidesleistung des Bundeskanzlers",
+      "thema": null,
       "woerter": 54
     },
     {
       "top": 4,
       "titel": "Wahl des Bundeskanzlers",
+      "thema": null,
       "woerter": 14
     }
   ],
   "sprachanteil_fraktion": [
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 367,
       "prozent": 22.2
     },
@@ -155,7 +258,7 @@
       "negativ": 0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 6,
       "negativ": 1
     },
@@ -170,7 +273,5 @@
       "negativ": 2
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 5
-  }
+  "faktencheck_bilanz": {}
 }

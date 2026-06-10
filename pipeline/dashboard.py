@@ -18,6 +18,40 @@ from collections import Counter, defaultdict
 POSITIV = {"Beifall", "Heiterkeit"}
 NEGATIV = {"Widerspruch", "Zwischenruf", "Missfallen", "Unruhe"}
 
+# Durchschnittliches Redetempo Plenum (zur Schätzung der Gesamtredezeit aus Wörtern).
+WPM = 130
+
+# Themen-Klassifikation per Schlüsselwörtern (deterministisch, offline) — gruppiert TOPs zu
+# Sachthemen (Migration, Ukraine, Haushalt …) statt nur „Tagesordnungspunkt 12".
+_THEMA = [
+    ("Migration & Asyl", ["migration", "asyl", "flücht", "geflücht", "abschieb", "aufenthalt", "einwander"]),
+    ("Krieg in der Ukraine", ["ukraine", "russland", "selenskyj", "putin", "waffenlief", "kriegs"]),
+    ("Haushalt & Schulden", ["haushalt", "neuverschuld", "schuldenbremse", "etat", "staatsverschuld", "bundeshaushalt"]),
+    ("Steuern & Finanzen", ["steuer", "mehrwertsteuer", "finanzpolit", "abgaben"]),
+    ("Energie & Klima", ["energie", "klima", "windkraft", "windenerg", "kohle", "heizung", "erneuerbar", "co2"]),
+    ("Verteidigung & Bundeswehr", ["bundeswehr", "verteidigung", "nato", "wehrpflicht", "rüstung", "aufrüst"]),
+    ("Wirtschaft & Arbeit", ["wirtschaft", "arbeitsmarkt", "mindestlohn", "mittelstand", "industrie", "arbeitszeit"]),
+    ("Rente & Soziales", ["rente", "bürgergeld", "grundsicher", "sozialstaat"]),
+    ("Gesundheit & Pflege", ["gesundheit", "krankenhaus", "apothek", "pflege", "kranken"]),
+    ("Wohnen & Bau", ["wohnen", "miete", "wohnungsbau", "städtebau", "bauland"]),
+    ("Innere Sicherheit", ["polizei", "kriminal", "terror", "verfassungsschutz", "extremismus"]),
+    ("Europa & EU", ["europäische union", "eu-haushalt", "binnenmarkt", "brüssel"]),
+    ("Bildung & Forschung", ["bildung", "schule", "forschung", "wissenschaft", "ausbildung"]),
+    ("Digitalisierung", ["digital", "künstliche intelligenz", "cyber", "internet"]),
+    ("Verkehr & Mobilität", ["verkehr", "bahn", "autobahn", "mobilität", "luftverkehr"]),
+    ("Landwirtschaft & Umwelt", ["landwirt", "umwelt", "tierschutz", "naturschutz"]),
+]
+
+
+def _classify_thema(text: str) -> str | None:
+    low = text.lower()
+    best, score = None, 0
+    for thema, kws in _THEMA:
+        s = sum(low.count(k) for k in kws)
+        if s > score:
+            best, score = thema, s
+    return best if score >= 2 else None
+
 
 def compute_dashboard(protocol, factchecks=None) -> dict:
     fc = factchecks or []
@@ -45,10 +79,38 @@ def compute_dashboard(protocol, factchecks=None) -> dict:
             continue  # schriftliche Anlagen sind kein gesprochenes Redevolumen
         for idx in r.get("quelle_utterances", []):
             words_by_top[r["top_nummer"]] += uwords.get(idx, 0)
+    # Volltext je TOP (Titel + Reden) für die Themen-Klassifikation
+    text_by_top: dict[int, list[str]] = defaultdict(list)
+    for r in protocol.redebeitraege:
+        if r.get("schriftlich"):
+            continue
+        for idx in r.get("quelle_utterances", []):
+            if 0 <= idx < len(u):
+                text_by_top[r["top_nummer"]].append(u[idx].text)
+    thema_by_top = {n: _classify_thema((top_titel.get(n, "") + " " + " ".join(text_by_top.get(n, []))))
+                    for n in top_titel}
     themen = [
-        {"top": n, "titel": top_titel.get(n, ""), "woerter": w}
+        {"top": n, "titel": top_titel.get(n, ""), "thema": thema_by_top.get(n), "woerter": w}
         for n, w in words_by_top.most_common(30)
     ]
+    # Aggregiert nach Sachthema (Migration, Ukraine, Haushalt …) — das eigentliche „Top-Thema"
+    thema_words: Counter = Counter()
+    for n, w in words_by_top.items():
+        thema_words[thema_by_top.get(n) or "Sonstige / Verfahren"] += w
+    sachthemen = [{"thema": t, "woerter": w} for t, w in thema_words.most_common()]
+
+    # Redner:innen nach gesprochenem Redevolumen (mit Fraktion)
+    redner_acc: dict = defaultdict(lambda: {"woerter": 0, "reden": 0, "fraktion": None})
+    for r in protocol.redebeitraege:
+        if r.get("schriftlich"):
+            continue
+        e = redner_acc[r["person"]]
+        e["fraktion"] = r.get("fraktion")
+        e["reden"] += 1
+        for idx in r.get("quelle_utterances", []):
+            e["woerter"] += uwords.get(idx, 0)
+    redner = [{"name": n, **v} for n, v in
+              sorted(redner_acc.items(), key=lambda i: -i[1]["woerter"]) if v["woerter"] > 0][:15]
 
     # Feedback aus Saalreaktionen — je Thema, je gebender Fraktion, je beredeter Fraktion
     stim_top = defaultdict(lambda: {"positiv": 0, "negativ": 0})
@@ -81,11 +143,14 @@ def compute_dashboard(protocol, factchecks=None) -> dict:
         "kennzahlen": {
             "reden": sum(1 for r in protocol.redebeitraege if not r.get("schriftlich")),
             "schriftliche_beitraege": sum(1 for r in protocol.redebeitraege if r.get("schriftlich")),
-            "woerter": sum(w for i, w in uwords.items() if u[i].herkunft != "anlage"),
+            "woerter": (gespr := sum(w for i, w in uwords.items() if u[i].herkunft != "anlage")),
+            "gesamtzeit_min": round(gespr / WPM),  # Schätzung aus Wörtern (XML ohne Zeitstempel)
             "tops": len(protocol.tops),
             "saalreaktionen": len(protocol.kommentare),
             "geprüfte_aussagen": len(fc),
         },
+        "redner": redner,
+        "sachthemen": sachthemen,
         "top_themen": themen,
         "sprachanteil_fraktion": sprachanteil,
         "feedback_je_thema": [

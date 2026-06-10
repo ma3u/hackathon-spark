@@ -9,34 +9,154 @@
     "reden": 178,
     "schriftliche_beitraege": 0,
     "woerter": 35163,
+    "gesamtzeit_min": 270,
     "tops": 8,
     "saalreaktionen": 494,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 4908,
+      "reden": 40,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Karsten Wildberger",
+      "woerter": 3636,
+      "reden": 29,
+      "fraktion": null
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 1519,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Gerrit Huy",
+      "woerter": 983,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Matthias Hiller",
+      "woerter": 913,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Janine Wissler",
+      "woerter": 845,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Bernd Schattner",
+      "woerter": 844,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sebastian Roloff",
+      "woerter": 817,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Helmut Kleebank",
+      "woerter": 784,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 761,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Karoline Otte",
+      "woerter": 701,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Frauke Heiligenstadt",
+      "woerter": 692,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Nicklas Kappe",
+      "woerter": 670,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Michael Kellner",
+      "woerter": 659,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Katrin Uhlig",
+      "woerter": 656,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 13840
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 9209
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 4215
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4055
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 3844
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Wohnen & Bau",
       "woerter": 13840
     },
     {
       "top": 4,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Entlastungen für die Bürgerinnen und Bürger – Zusätzliche Gewinne für Mineralölkonzerne verhindern",
+      "thema": "Energie & Klima",
       "woerter": 9209
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Karoline Otte, Rebecca Lenhard, Dr. Anna Lührmann, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Big Tech fair besteuern – Digitalsteuer jetzt einführen",
+      "thema": "Steuern & Finanzen",
       "woerter": 4215
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Dr. Ingo Hahn, Nicole Höchst, Dr. Michael Kaufmann, weiterer Abgeordneter und der Fraktion der AfD: Wissenschafts- und Meinungsfreiheit an deutschen Universitäten und Hochschu…",
+      "thema": "Bildung & Forschung",
       "woerter": 4055
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung der nationalen Umsetzung von europäischen Regelungen zum Ökodesign, zur Energieverbrauchskennzeichn…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3844
     }
   ],
@@ -57,7 +177,7 @@
       "prozent": 18.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4628,
       "prozent": 17.4
     },
@@ -166,7 +286,7 @@
       "negativ": 21
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 60,
       "negativ": 6
     },

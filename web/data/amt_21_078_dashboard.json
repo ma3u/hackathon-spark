@@ -9,39 +9,156 @@
     "reden": 78,
     "schriftliche_beitraege": 0,
     "woerter": 42555,
+    "gesamtzeit_min": 327,
     "tops": 6,
     "saalreaktionen": 814,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Lars Rohwer",
+      "woerter": 1620,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Helmut Kleebank",
+      "woerter": 1607,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dunja Kreiser",
+      "woerter": 1524,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Carolin Bachmann",
+      "woerter": 1281,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Carsten Müller",
+      "woerter": 1228,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Michael Kießling",
+      "woerter": 1192,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Peter Aumer",
+      "woerter": 1114,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Katrin Uhlig",
+      "woerter": 1046,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Jörg Cezanne",
+      "woerter": 985,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Elisabeth Winkelmeier-Becker",
+      "woerter": 940,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Axel Müller",
+      "woerter": 879,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stefan Rouenhoff",
+      "woerter": 878,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Susanne Hierl",
+      "woerter": 840,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 809,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Michael Kellner",
+      "woerter": 796,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 19099
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 10393
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 9304
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 3759
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Tagesordnungspunkt 12",
+      "thema": "Innere Sicherheit",
       "woerter": 10393
     },
     {
       "top": 2,
       "titel": "a) Erste Beratung des von den Abgeordneten Christian Reck, Leif-Erik Holm, Steffen Kotré, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Abschaffung des Wind…",
+      "thema": "Energie & Klima",
       "woerter": 10086
     },
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN: Ein Jahr schwarz-rote Energiepolitik – Energieversorgung jetzt unabhängig, erneuerbar und sicher ausbauen",
+      "thema": "Energie & Klima",
       "woerter": 9013
     },
     {
       "top": 4,
       "titel": "a) Antrag der Abgeordneten Cem Ince, Janine Wissler, Jörg Cezanne, weiterer Abgeordneter und der Fraktion Die Linke: Zwingende Mitbestimmungsrechte des Betriebsrats ausbauen",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 5201
     },
     {
       "top": 5,
       "titel": "a) Antrag der Abgeordneten Chantal Kopf, Ayse Asar, Julian Joswig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN zu den Verhandlungen zum Mehrjährigen Finanzrahmen der Europäischen Uni…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4103
     },
     {
       "top": 3,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Tag der Städtebauförderung 2026 – Motor für starke Städte und Gemeinden",
+      "thema": "Wohnen & Bau",
       "woerter": 3759
     }
   ],
@@ -62,7 +179,7 @@
       "prozent": 18.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6214,
       "prozent": 15.2
     },
@@ -169,7 +286,7 @@
       "negativ": 27
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 92,
       "negativ": 14
     },

@@ -9,64 +9,198 @@
     "reden": 136,
     "schriftliche_beitraege": 0,
     "woerter": 72489,
+    "gesamtzeit_min": 558,
     "tops": 12,
     "saalreaktionen": 1333,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 1548,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 1421,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Michael Thews",
+      "woerter": 1391,
+      "reden": 3,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sonja Lemke",
+      "woerter": 1313,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 1203,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Fritz Güntzler",
+      "woerter": 1109,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Carolin Wagner",
+      "woerter": 1103,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 1028,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Karsten Wildberger",
+      "woerter": 983,
+      "reden": 2,
+      "fraktion": null
+    },
+    {
+      "name": "Gunther Krichbaum",
+      "woerter": 973,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Lamya Kaddor",
+      "woerter": 962,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 943,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Carmen Wegge",
+      "woerter": 936,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Lars Rohwer",
+      "woerter": 915,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Andreas Jung",
+      "woerter": 907,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 22467
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 13186
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 11526
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 9535
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 9442
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 3272
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 3061
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Energiesteuergesetzes zur temporären Absenkung der Energiesteuer für Kraftstof…",
+      "thema": "Steuern & Finanzen",
       "woerter": 11526
     },
     {
       "top": 6,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen der CDU/CSU und SPD: Ungarn nach der Wahl – Neue Chance für Europa",
+      "thema": "Krieg in der Ukraine",
       "woerter": 9442
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Karsten Hilse, Dr. Ingo Hahn, Andreas Bleck, weiterer Abgeordneter und der Fraktion der AfD: Sofortige Senkung der Energiekosten – Beendigung aller deutschen Klimaschutzmaßnah…",
+      "thema": "Energie & Klima",
       "woerter": 9165
     },
     {
       "top": 4,
       "titel": "Unterrichtung durch die Bundesregierung: Rechenzentrumsstrategie",
+      "thema": "Energie & Klima",
       "woerter": 8913
     },
     {
       "top": 3,
       "titel": "Erste Beratung des von den Abgeordneten Sascha Müller, Katharina Beck, Dr. Moritz Heuberger, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Änd…",
+      "thema": "Verkehr & Mobilität",
       "woerter": 8200
     },
     {
       "top": 7,
       "titel": "– Zweite und dritte Beratung des von den Abgeordneten Dr. Lena Gumnior, Lukas Benner, Helge Limburg, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines … Gesetz…",
+      "thema": "Verkehr & Mobilität",
       "woerter": 4986
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Kerstin Przygodda, Martin Reichardt, Sebastian Maack, weiterer Abgeordneter und der Fraktion der AfD: Mädchen schützen – Tragen des Kinderkopftuchs in öffentlichen vorschulisc…",
+      "thema": "Bildung & Forschung",
       "woerter": 4926
     },
     {
       "top": 10,
       "titel": "Antrag der Abgeordneten Dr. Zoe Mayer, Karl Bär, Dr. Ophelia Nick, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Tierschutz und Forschung Hand in Hand – Versuchstiere wirksam schützen",
+      "thema": "Bildung & Forschung",
       "woerter": 4609
     },
     {
       "top": 9,
       "titel": "Antrag der Abgeordneten Adam Balten, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Kleine modulare Reaktoren ermöglichen – Rechenzentren fördern und Stromversorgung s…",
+      "thema": "Energie & Klima",
       "woerter": 4389
     },
     {
       "top": 12,
       "titel": "Antrag der Abgeordneten Katalin Gennburg, Caren Lay, Luigi Pantisano, weiterer Abgeordneter und der Fraktion Die Linke: Rekommunalisierung statt Ausverkauf – Für ein Vorkaufsrecht, das Mieterinnen un…",
+      "thema": "Wohnen & Bau",
       "woerter": 3272
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Peter Bohnhof, René Springer, Carsten Becker, weiterer Abgeordneter und der Fraktion der AfD: Berufsfreiheit für Selbstständige sicherstellen – Abgrenzung zu abhängiger Beschä…",
+      "thema": "Rente & Soziales",
       "woerter": 3061
     }
   ],
@@ -87,7 +221,7 @@
       "prozent": 18.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11148,
       "prozent": 15.9
     },
@@ -244,7 +378,7 @@
       "negativ": 50
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 132,
       "negativ": 26
     },

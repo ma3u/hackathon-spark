@@ -9,39 +9,152 @@
     "reden": 114,
     "schriftliche_beitraege": 0,
     "woerter": 35324,
+    "gesamtzeit_min": 272,
     "tops": 8,
     "saalreaktionen": 526,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 5482,
+      "reden": 35,
+      "fraktion": null
+    },
+    {
+      "name": "Dr. Till Steffen",
+      "woerter": 1325,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Gottfried Curio",
+      "woerter": 1236,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Ulle Schauws",
+      "woerter": 1159,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Gereon Bollmann",
+      "woerter": 1142,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Mahmut Özdemir",
+      "woerter": 1091,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 1013,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Thomas Fetsch",
+      "woerter": 879,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Aaron Valent",
+      "woerter": 844,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Susanne Hierl",
+      "woerter": 838,
+      "reden": 3,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Kathrin Gebel",
+      "woerter": 833,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Karin Prien",
+      "woerter": 779,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Carmen Wegge",
+      "woerter": 753,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Truels Reichardt",
+      "woerter": 753,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 724,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Digitalisierung",
+      "woerter": 14192
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 13195
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 7937
+    }
+  ],
   "top_themen": [
     {
       "top": 4,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktionen CDU/CSU und SPD: Jegliche Gewalt gegen Frauen und Mädchen bekämpfen – Staatliche Aufgabe und gesellschaftliche Verantwortung",
+      "thema": "Digitalisierung",
       "woerter": 9989
     },
     {
       "top": 2,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Steuern & Finanzen",
       "woerter": 9045
     },
     {
       "top": 7,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Ausweitung der notariellen Online-Verfahren im Gesellschafts- und Registerrecht, zur Digitalisierung des Führungsz…",
+      "thema": "Digitalisierung",
       "woerter": 4203
     },
     {
       "top": 5,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Neuordnung aufsichtsrechtlicher Verfahren und zur Änderung weiterer Vorschriften im Bereich der rechtsberatenden B…",
+      "thema": "Steuern & Finanzen",
       "woerter": 4150
     },
     {
       "top": 8,
       "titel": "Antrag der Abgeordneten Mareike Hermeier, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Unterhaltsvorschuss reformieren – Chancen für Kinder Alleinerziehender ve…",
+      "thema": "Migration & Asyl",
       "woerter": 3990
     },
     {
       "top": 6,
       "titel": "Beschlussempfehlung und Bericht des Innenausschusses zu dem Antrag der Abgeordneten Dr. Gottfried Curio, Dr. Bernd Baumann, Christopher Drößler, weiterer Abgeordneter und der Fraktion der AfD: Eine w…",
+      "thema": "Migration & Asyl",
       "woerter": 3947
     }
   ],
@@ -62,7 +175,7 @@
       "prozent": 16.1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 4340,
       "prozent": 15.9
     },
@@ -180,7 +293,7 @@
       "negativ": 22
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 50,
       "negativ": 4
     },
@@ -200,9 +313,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "irreführend": 1,
-    "unbelegt": 10,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

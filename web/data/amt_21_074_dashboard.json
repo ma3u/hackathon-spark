@@ -9,84 +9,230 @@
     "reden": 148,
     "schriftliche_beitraege": 0,
     "woerter": 83945,
+    "gesamtzeit_min": 646,
     "tops": 15,
     "saalreaktionen": 1471,
     "geprüfte_aussagen": 12
   },
+  "redner": [
+    {
+      "name": "Helge Lindh",
+      "woerter": 1914,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Johannes Wiegelmann",
+      "woerter": 1407,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 1375,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Siegfried Walch",
+      "woerter": 1352,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Tanja Machalet",
+      "woerter": 1276,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Mathias Weiser",
+      "woerter": 1210,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Götz Frömming",
+      "woerter": 1202,
+      "reden": 3,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Mahmut Özdemir",
+      "woerter": 1171,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Michael Hose",
+      "woerter": 1152,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 1137,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Enrico Komning",
+      "woerter": 1114,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Claudia Müller",
+      "woerter": 1102,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Emmi Zeulner",
+      "woerter": 1096,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Pascal Reddig",
+      "woerter": 1095,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Julian Joswig",
+      "woerter": 1021,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 19766
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 13665
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 13394
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 11758
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 8826
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 6234
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 3956
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 3741
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 2605
+    }
+  ],
   "top_themen": [
     {
       "top": 5,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Vorfälle bei einem von der Amadeu Antonio Stiftung geförderten Schulprojekt",
+      "thema": "Bildung & Forschung",
       "woerter": 9491
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Marc Bernhard, Carolin Bachmann, Sebastian Münzenmaier, weiterer Abgeordneter und der Fraktion der AfD: Kommunales Vetorecht gegen Zwangszuweisungen von Flüchtlingen",
+      "thema": "Migration & Asyl",
       "woerter": 9208
     },
     {
       "top": 1,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Beschleunigung der Vergabe öffentlicher Aufträge",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8952
     },
     {
       "top": 4,
       "titel": "Erste Beratung des von den Abgeordneten Dr. Lena Gumnior, Ulle Schauws, Helge Limburg, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines … Gesetzes zur Änderun…",
+      "thema": "Innere Sicherheit",
       "woerter": 8826
     },
     {
       "top": 3,
       "titel": "a) Antrag der Fraktionen der CDU/CSU und SPD: Deutschlands maritime Wirtschaft stärken – Sicherheit, Resilienz und Innovation vom Hinterland über die Küste bis zur Hohen See",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8059
     },
     {
       "top": 9,
       "titel": "Antrag der Abgeordneten Ates Gürpinar, Nicole Gohlke, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Krankenversicherte entlasten, nicht belasten",
+      "thema": "Gesundheit & Pflege",
       "woerter": 6234
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Dr. Götz Frömming, Martin Erwin Renner, Ronald Gläser, weiterer Abgeordneter und der Fraktion der AfD: Konsequenzen aus dem Gerichtsurteil zur Correctiv-Berichterstattung zieh…",
+      "thema": "Migration & Asyl",
       "woerter": 4457
     },
     {
       "top": 8,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Weiterentwicklung der Treibhausgasminderungs-Quote",
+      "thema": "Energie & Klima",
       "woerter": 4330
     },
     {
       "top": 6,
       "titel": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Durchführung einer Verordnung der Europäischen Union zum Datenaustausch bei Kurzzeitvermietungen sowie…",
+      "thema": "Digitalisierung",
       "woerter": 3956
     },
     {
       "top": 12,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Förderung und Modernisierung des Anwaltsnotariats",
+      "thema": "Bildung & Forschung",
       "woerter": 3903
     },
     {
       "top": 10,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Energiewirtschaftsgesetzes und weiterer energierechtlicher Vorschriften zur Umsetzung des Europäische…",
+      "thema": "Energie & Klima",
       "woerter": 3818
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Christian Douglas, Diana Zimmer, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Rechts- und Planungssicherheit herstellen – Vermögensteuer abschaffen",
+      "thema": "Steuern & Finanzen",
       "woerter": 3741
     },
     {
       "top": 13,
       "titel": "Antrag der Abgeordneten Harald Ebner, Dr. Julia Verlinden, Dr. Jan-Niclas Gesenhues, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: 40 Jahre Tschernobyl – Atomkraft und ihre Folgen",
+      "thema": "Energie & Klima",
       "woerter": 3610
     },
     {
       "top": 14,
       "titel": "Antrag der Abgeordneten Ruben Rupp, Robin Jünger, Alexander Arpaschi, weiterer Abgeordneter und der Fraktion der AfD: Mobilfunklücken schließen – Nationale Netzabdeckung für alle Bürger",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 2755
     },
     {
       "top": 15,
       "titel": "Zweite und dritte Beratung des von den Abgeordneten Dr. Michael Espendiller, Ulrich von Zons, Georg Schroeter, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur…",
+      "thema": "Haushalt & Schulden",
       "woerter": 2605
     }
   ],
@@ -107,7 +253,7 @@
       "prozent": 19.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 11782,
       "prozent": 14.2
     },
@@ -268,7 +414,7 @@
       "negativ": 22
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 135,
       "negativ": 19
     },

@@ -9,39 +9,156 @@
     "reden": 156,
     "schriftliche_beitraege": 0,
     "woerter": 38862,
+    "gesamtzeit_min": 299,
     "tops": 7,
     "saalreaktionen": 528,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 5388,
+      "reden": 37,
+      "fraktion": null
+    },
+    {
+      "name": "Alois Rainer",
+      "woerter": 2516,
+      "reden": 19,
+      "fraktion": null
+    },
+    {
+      "name": "Daniel Bettermann",
+      "woerter": 1223,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 967,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Hans Koller",
+      "woerter": 958,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Peter Aumer",
+      "woerter": 830,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Mathias Weiser",
+      "woerter": 826,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Agnes Conrad",
+      "woerter": 814,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Ines Schwerdtner",
+      "woerter": 810,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Sandra Carstensen",
+      "woerter": 794,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 786,
+      "reden": 4,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Jan Dieren",
+      "woerter": 783,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Katharina Beck",
+      "woerter": 755,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Misbah Khan",
+      "woerter": 700,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Gerrit Huy",
+      "woerter": 698,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 25840
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 4567
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 4431
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4024
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Befragung der Bundesregierung",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 13050
     },
     {
       "top": 3,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Krankheitstage, Teilzeit, Achtstundentag – Aushöhlung von Beschäftigtenrechten verhindern",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 9112
     },
     {
       "top": 5,
       "titel": "Antrag der Abgeordneten Dirk Brandes, Leif-Erik Holm, Steffen Kotré, weiterer Abgeordneter und der Fraktion der AfD: Bürokratie- und Steuerbelastung für kleine und mittlere Unternehmen unverzüglich s…",
+      "thema": "Steuern & Finanzen",
       "woerter": 4567
     },
     {
       "top": 4,
       "titel": "Vereinbarte Debatte: Sieben Jahre Vertrag von Aachen – Gemeinsam Zukunft gestalten",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4431
     },
     {
       "top": 7,
       "titel": "Antrag der Abgeordneten Maik Brückner, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Die „vergessenen“ queeren Opfer der nationalsozialistischen Verfolgung",
+      "thema": "Bildung & Forschung",
       "woerter": 4024
     },
     {
       "top": 6,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zum Bürokratierückbau in der Gewerbeordnung und dem Energieverbrauchskennzeichnungsgesetz sowie anderer Rechtsvorschri…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3678
     }
   ],
@@ -62,7 +179,7 @@
       "prozent": 18.8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5294,
       "prozent": 17.4
     },
@@ -175,7 +292,7 @@
       "negativ": 11
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 62,
       "negativ": 5
     },
@@ -190,8 +307,5 @@
       "negativ": 8
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "teilweise": 1
-  }
+  "faktencheck_bilanz": {}
 }

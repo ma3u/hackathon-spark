@@ -9,24 +9,134 @@
     "reden": 64,
     "schriftliche_beitraege": 2,
     "woerter": 39280,
+    "gesamtzeit_min": 302,
     "tops": 5,
     "saalreaktionen": 698,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Ines Schwerdtner",
+      "woerter": 1949,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Paula Piechotta",
+      "woerter": 1781,
+      "reden": 2,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 1359,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "SvenjaSvenja SchulzeSchulze",
+      "woerter": 1239,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1094,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ulrike Schielke-Ziesing",
+      "woerter": 1088,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Pascal Meiser",
+      "woerter": 920,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Yannick Bury",
+      "woerter": 905,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Nicole Gohlke",
+      "woerter": 896,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Leon Eckert",
+      "woerter": 893,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Michael Espendiller",
+      "woerter": 885,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Florian Müller",
+      "woerter": 876,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 839,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Sandra Carstensen",
+      "woerter": 818,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sonja Lemke",
+      "woerter": 810,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 13381
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 13144
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 12755
+    }
+  ],
   "top_themen": [
     {
       "top": 2,
       "titel": "Einzelplan I.20",
+      "thema": "Bildung & Forschung",
       "woerter": 13381
     },
     {
       "top": 4,
       "titel": "Dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2026 (Haushaltsgesetz 2026 – HG 2026)",
+      "thema": "Haushalt & Schulden",
       "woerter": 13144
     },
     {
       "top": 1,
       "titel": "Einzelplan I.19",
+      "thema": "Rente & Soziales",
       "woerter": 12755
     }
   ],
@@ -42,7 +152,7 @@
       "prozent": 26.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 5516,
       "prozent": 15.4
     },
@@ -53,13 +163,8 @@
     },
     {
       "fraktion": "SPD",
-      "woerter": 3844,
-      "prozent": 10.7
-    },
-    {
-      "fraktion": "SPDSPD",
-      "woerter": 1239,
-      "prozent": 3.5
+      "woerter": 5083,
+      "prozent": 14.2
     }
   ],
   "feedback_je_thema": [
@@ -141,22 +246,15 @@
       "negativ": 15
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 64,
       "negativ": 1
     },
     {
       "fraktion": "SPD",
-      "positiv": 49,
-      "negativ": 2
-    },
-    {
-      "fraktion": "SPDSPD",
-      "positiv": 12,
-      "negativ": 1
+      "positiv": 61,
+      "negativ": 3
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

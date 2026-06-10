@@ -9,44 +9,170 @@
     "reden": 86,
     "schriftliche_beitraege": 26,
     "woerter": 44368,
+    "gesamtzeit_min": 341,
     "tops": 8,
     "saalreaktionen": 851,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Andreas Audretsch",
+      "woerter": 1284,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 1107,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Ulrike Schielke-Ziesing",
+      "woerter": 1044,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Norbert Röttgen",
+      "woerter": 973,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 945,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Bernd Rützel",
+      "woerter": 903,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Johannes Schraps",
+      "woerter": 893,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Isabelle Vandre",
+      "woerter": 876,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Armin Grau",
+      "woerter": 861,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Alexander Wolf",
+      "woerter": 861,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Pascal Meiser",
+      "woerter": 829,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Alexander Throm",
+      "woerter": 779,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Desiree Becker",
+      "woerter": 777,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 772,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Falko Droßmann",
+      "woerter": 708,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 10620
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 8126
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 8094
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 7861
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4855
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 4812
+    }
+  ],
   "top_themen": [
     {
       "top": 3,
       "titel": "– Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stabilisierung des Rentenniveaus und zur vollständigen Gleichstellung der Kindererziehungszeiten",
+      "thema": "Rente & Soziales",
       "woerter": 10620
     },
     {
       "top": 1,
       "titel": "a) – Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Wehrdienstes (Wehrdienst-Modernisierungsgesetz – WDModG)",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 8094
     },
     {
       "top": 2,
       "titel": "a) Antrag der Abgeordneten Jörn König, Peter Boehringer, Kay Gottschalk, weiterer Abgeordneter und der Fraktion der AfD: Bargeld ist gedruckte Freiheit – Vorhaben der Europäischen Zentralbank für dig…",
+      "thema": "Digitalisierung",
       "woerter": 7861
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Pascal Meiser, Janine Wissler, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Paketzustellerinnen und Paketzusteller wirksam vor Überlastung und Ausbeutung…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4855
     },
     {
       "top": 5,
       "titel": "Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Bestimmung sicherer Herkunftsstaaten durch Rechtsverordnung und Abschaffung des anwaltl…",
+      "thema": "Migration & Asyl",
       "woerter": 4812
     },
     {
       "top": 6,
       "titel": "Beschlussempfehlung und Bericht des Finanzausschusses zu dem Antrag der Abgeordneten Robin Wagener, Dr. Sebastian Schäfer, Claudia Roth, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN:…",
+      "thema": "Krieg in der Ukraine",
       "woerter": 4186
     },
     {
       "top": 7,
       "titel": "Vereinbarte Debatte: 30. Jahrestag des Vertrags von Dayton",
+      "thema": "Krieg in der Ukraine",
       "woerter": 3940
     }
   ],
@@ -67,7 +193,7 @@
       "prozent": 20.6
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6881,
       "prozent": 16.2
     },
@@ -180,7 +306,7 @@
       "negativ": 22
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 116,
       "negativ": 19
     },
@@ -200,7 +326,5 @@
       "negativ": 10
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

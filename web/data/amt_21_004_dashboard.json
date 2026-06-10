@@ -9,24 +9,134 @@
     "reden": 145,
     "schriftliche_beitraege": 0,
     "woerter": 86224,
+    "gesamtzeit_min": 663,
     "tops": 4,
     "saalreaktionen": 1421,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Esra Limbacher",
+      "woerter": 2436,
+      "reden": 6,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 1658,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 1487,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Patrick Schnieder",
+      "woerter": 1414,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Nina Warken",
+      "woerter": 1339,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Dagmar Schmidt",
+      "woerter": 1289,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Karin Prien",
+      "woerter": 1278,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Alois Rainer",
+      "woerter": 1240,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 1144,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Johannes Steiniger",
+      "woerter": 1142,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 1054,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Wolfgang Wiehle",
+      "woerter": 1049,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Stephan Protschka",
+      "woerter": 1018,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Verena Hubertz",
+      "woerter": 994,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Martin Sichert",
+      "woerter": 977,
+      "reden": 1,
+      "fraktion": "AfD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 61614
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 21998
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 2612
+    }
+  ],
   "top_themen": [
     {
       "top": 4,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler (Fortsetzung der Aussprache)",
+      "thema": "Bildung & Forschung",
       "woerter": 61614
     },
     {
       "top": 2,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler (Fortsetzung der Aussprache)",
+      "thema": "Verkehr & Mobilität",
       "woerter": 21998
     },
     {
       "top": 3,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: Einsetzung von Ausschüssen",
+      "thema": "Energie & Klima",
       "woerter": 2612
     }
   ],
@@ -47,7 +157,7 @@
       "prozent": 18.4
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12490,
       "prozent": 16.7
     },
@@ -162,7 +272,7 @@
       "negativ": 20
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 156,
       "negativ": 11
     },
@@ -182,8 +292,5 @@
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 11,
-    "bestätigt": 1
-  }
+  "faktencheck_bilanz": {}
 }

@@ -19,6 +19,7 @@ Quelle DTD: https://www.bundestag.de/resource/blob/575720/.../dbtplenarprotokoll
 from __future__ import annotations
 
 import re
+import unicodedata
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -51,7 +52,7 @@ def _speaker_from_redner(redner: ET.Element) -> dict:
         e = name.find(tag)
         return e.text.strip() if e is not None and e.text else ""
     titel, vorname, nachname = t("titel"), t("vorname"), t("nachname")
-    fraktion = t("fraktion") or None
+    fraktion = _canon_fraktion(t("fraktion"))
     rolle_el = name.find("rolle")
     rolle = _text(rolle_el.find("rolle_lang")) if rolle_el is not None else ""
     voll = " ".join(p for p in [titel, vorname, nachname] if p).strip() or "Unbekannt"
@@ -68,7 +69,33 @@ def _classify_kommentar(text: str) -> tuple[str, str | None]:
 
 def _norm_label(s: str) -> str:
     """top-id / ivz-block-titel auf eine vergleichbare Form bringen (NBSP, Doppelpunkt)."""
-    return s.replace("\xa0", " ").strip().rstrip(":").strip()
+    return unicodedata.normalize("NFC", s.replace("\xa0", " ")).strip().rstrip(":").strip()
+
+
+# Fraktionsnamen kanonisieren → exakt die Schlüssel der Frontend-Farbtabelle (sonst kein
+# grüner Balken: das XML liefert „BÜNDNIS<NBSP>90/DIE GRÜNEN" mit geschütztem Leerzeichen
+# bzw. unterschiedlicher Unicode-Form → Lookup scheitert).
+_FRAK_CANON = [
+    ("cdu", "CDU/CSU"), ("csu", "CDU/CSU"),
+    ("bündnis 90", "BÜNDNIS 90/DIE GRÜNEN"), ("grüne", "BÜNDNIS 90/DIE GRÜNEN"),
+    ("alternative für", "AfD"), ("afd", "AfD"),
+    ("sozialdemokrat", "SPD"), ("spd", "SPD"),
+    ("freie demokrat", "FDP"), ("fdp", "FDP"),
+    ("die linke", "Die Linke"), ("linke", "Die Linke"),
+    ("bsw", "BSW"), ("sahra wagenknecht", "BSW"),
+    ("fraktionslos", "fraktionslos"),
+]
+
+
+def _canon_fraktion(s: str | None) -> str | None:
+    if not s:
+        return None
+    norm = unicodedata.normalize("NFC", re.sub(r"\s+", " ", s.replace("\xa0", " "))).strip()
+    low = norm.lower()
+    for pat, canon in _FRAK_CANON:
+        if pat in low:
+            return canon
+    return norm or None
 
 
 def _clean_ws(s: str, *, limit: int = 200) -> str:

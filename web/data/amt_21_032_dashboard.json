@@ -9,49 +9,176 @@
     "reden": 79,
     "schriftliche_beitraege": 0,
     "woerter": 46000,
+    "gesamtzeit_min": 354,
     "tops": 8,
     "saalreaktionen": 840,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Mahmut Özdemir",
+      "woerter": 1534,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Peter Bohnhof",
+      "woerter": 1252,
+      "reden": 2,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1110,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tobias Matthias Peterka",
+      "woerter": 1017,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Mirze Edis",
+      "woerter": 1012,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Pascal Meiser",
+      "woerter": 1000,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Ricarda Lang",
+      "woerter": 900,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Luke Hoß",
+      "woerter": 877,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Michael Donth",
+      "woerter": 871,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Maja Wallstein",
+      "woerter": 842,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Mandy Eißing",
+      "woerter": 820,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Michael Kellner",
+      "woerter": 787,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Axel Müller",
+      "woerter": 776,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Johannes Wiegelmann",
+      "woerter": 774,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Andreas Audretsch",
+      "woerter": 773,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 20976
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 8252
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4539
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 4486
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 3957
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 3790
+    }
+  ],
   "top_themen": [
     {
       "top": 8,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion Die Linke: Soziale und ökologische Industriepolitik – Arbeitsplätze schützen, Zukunft gerecht gestalten",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8750
     },
     {
       "top": 1,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Tarifautonomie durch die Sicherung von Tariftreue bei der Vergabe öffentlicher Aufträge des Bundes (T…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8564
     },
     {
       "top": 2,
       "titel": "Erste Beratung des von den Abgeordneten Tobias Matthias Peterka, Stephan Brandner, Stefan Möller, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Stärkung der…",
+      "thema": "Innere Sicherheit",
       "woerter": 8252
     },
     {
       "top": 3,
       "titel": "Antrag der Fraktionen der CDU/CSU und SPD: 35 Jahre Deutsche Einheit – Freiheit in Deutschland und Europa festigen",
+      "thema": "Bildung & Forschung",
       "woerter": 4539
     },
     {
       "top": 6,
       "titel": "Zusatzpunkt 8, TOP 37, ZP 9",
+      "thema": "Verkehr & Mobilität",
       "woerter": 4486
     },
     {
       "top": 4,
       "titel": "Antrag der Abgeordneten Mandy Eißing, Nicole Gohlke, Doris Achelwilm, weiterer Abgeordneter und der Fraktion Die Linke: Mindestbetrag des Elterngelds erhöhen – Familien und ihre Kinder stärken",
+      "thema": "Steuern & Finanzen",
       "woerter": 3957
     },
     {
       "top": 7,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes für einen Zuschuss zu den Übertragungsnetzkosten für das Jahr 2026",
+      "thema": "Energie & Klima",
       "woerter": 3790
     },
     {
       "top": 5,
       "titel": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Interims-Wirtschaftspartnerschaftsabkommen vom 26. November 2008 zwischen Côte d’Ivoire einerseits und der E…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3662
     }
   ],
@@ -67,7 +194,7 @@
       "prozent": 24.2
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 6965,
       "prozent": 16.2
     },
@@ -211,7 +338,7 @@
       "negativ": 8
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 75,
       "negativ": 3
     },
@@ -221,9 +348,5 @@
       "negativ": 6
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "teilweise": 1,
-    "bestätigt": 1
-  }
+  "faktencheck_bilanz": {}
 }

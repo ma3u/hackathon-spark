@@ -9,14 +9,114 @@
     "reden": 16,
     "schriftliche_beitraege": 0,
     "woerter": 15354,
+    "gesamtzeit_min": 118,
     "tops": 1,
     "saalreaktionen": 190,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 3041,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 1563,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1535,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Britta Haßelmann",
+      "woerter": 980,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 949,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Alice Weidel",
+      "woerter": 930,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 842,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Norbert Röttgen",
+      "woerter": 754,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Sören Pellmann",
+      "woerter": 739,
+      "reden": 1,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Omid Nouripour",
+      "woerter": 634,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Siemtje Möller",
+      "woerter": 619,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Tilman Kuban",
+      "woerter": 614,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Adis Ahmetovic",
+      "woerter": 591,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Matthias Miersch",
+      "woerter": 547,
+      "reden": 1,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Markus Töns",
+      "woerter": 540,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 15354
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum NATO-Gipfel am 24. und 25. Juni in Den Haag und zum Europäischen Rat am 26. und 27. Juni 2025 in Brüssel",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 15354
     }
   ],
@@ -37,7 +137,7 @@
       "prozent": 20.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 1614,
       "prozent": 13.1
     },
@@ -104,12 +204,10 @@
       "negativ": 1
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 19,
       "negativ": 0
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 12
-  }
+  "faktencheck_bilanz": {}
 }

@@ -9,79 +9,220 @@
     "reden": 137,
     "schriftliche_beitraege": 0,
     "woerter": 86929,
+    "gesamtzeit_min": 669,
     "tops": 15,
     "saalreaktionen": 1618,
-    "geprüfte_aussagen": 12
+    "geprüfte_aussagen": 0
   },
+  "redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 3492,
+      "reden": 1,
+      "fraktion": null
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 1903,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 1881,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Sören Pellmann",
+      "woerter": 1716,
+      "reden": 2,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 1474,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Hoffmann",
+      "woerter": 1425,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Ferat Koçak",
+      "woerter": 1307,
+      "reden": 3,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 1303,
+      "reden": 1,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Siemtje Möller",
+      "woerter": 1226,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Sebastian Roloff",
+      "woerter": 1226,
+      "reden": 2,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Alice Weidel",
+      "woerter": 1209,
+      "reden": 1,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Dr. Norbert Röttgen",
+      "woerter": 1188,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Hülya Düber",
+      "woerter": 1174,
+      "reden": 1,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Peter Aumer",
+      "woerter": 1046,
+      "reden": 2,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Tanja Machalet",
+      "woerter": 1004,
+      "reden": 1,
+      "fraktion": "SPD"
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 22053
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 16585
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 13040
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 12306
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 10002
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 7886
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 4645
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 412
+    }
+  ],
   "top_themen": [
     {
       "top": 1,
       "titel": "Abgabe einer Regierungserklärung durch den Bundeskanzler: Zum Europäischen Rat am 23. und 24. Oktober 2025 in Brüssel",
+      "thema": "Krieg in der Ukraine",
       "woerter": 16709
     },
     {
       "top": 2,
       "titel": "Antrag der Abgeordneten Martin Hess, Stephan Brandner, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD: Inneren Frieden in Deutschland bewahren – Antifa-Verbote umsetzen sowie Lin…",
+      "thema": "Innere Sicherheit",
       "woerter": 10002
     },
     {
       "top": 3,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stabilisierung des Rentenniveaus und zur vollständigen Gleichstellung der Kindererziehungszeiten",
+      "thema": "Rente & Soziales",
       "woerter": 8808
     },
     {
       "top": 7,
       "titel": "Aktuelle Stunde auf Verlangen der Fraktion der AfD: Wirtschaftskrise in Deutschland stoppen, Warnsignale von Bosch und Lufthansa ernst nehmen",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 8677
     },
     {
       "top": 4,
       "titel": "a) Erste Beratung des von den Abgeordneten Dr. Janosch Dahmen, Dr. Kirsten Kappert-Gonther, Dr. Armin Grau, weiteren Abgeordneten und der Fraktion BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines G…",
+      "thema": "Gesundheit & Pflege",
       "woerter": 7886
     },
     {
       "top": 10,
       "titel": "Bericht des Petitionsausschusses: Bitten und Beschwerden an den Deutschen Bundestag – Die Tätigkeit des Petitionsausschusses des Deutschen Bundestages im Jahr 2024",
+      "thema": "Krieg in der Ukraine",
       "woerter": 5344
     },
     {
       "top": 8,
       "titel": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Modernisierung des Wehrdienstes – Wehrdienst-Modernisierungsgesetz (WDModG)",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 4784
     },
     {
       "top": 11,
       "titel": "Antrag der Abgeordneten Nicole Gohlke, Doris Achelwilm, Dr. Michael Arndt, weiterer Abgeordneter und der Fraktion Die Linke: Bildungsfinanzierung dauerhaft sichern – Kooperationsverbot abschaffen",
+      "thema": "Bildung & Forschung",
       "woerter": 4645
     },
     {
       "top": 9,
       "titel": "Antrag der Abgeordneten René Springer, Peter Bohnhof, Gerrit Huy, weiterer Abgeordneter und der Fraktion der AfD: Bürgergeldleistungen stoppen bei Haftbefehlen – Keine Unterstützung für gesuchte Stra…",
+      "thema": "Rente & Soziales",
       "woerter": 4232
     },
     {
       "top": 13,
       "titel": "Beschlussempfehlung und Bericht des Ausschusses für Wirtschaft und Energie zu dem Antrag der Abgeordneten Leif-Erik Holm, Marc Bernhard, Peter Boehringer, weiterer Abgeordneter und der Fraktion der A…",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 4092
     },
     {
       "top": 12,
       "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der durch die Europäische Union gefü…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 3957
     },
     {
       "top": 15,
       "titel": "a) Antrag der Abgeordneten Felix Banaszak, Dr. Sandra Detzer, Katrin Uhlig, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN: Stahlstandorte stärken – wettbewerbsfähig und klimaneutral",
+      "thema": "Wirtschaft & Arbeit",
       "woerter": 3816
     },
     {
       "top": 14,
       "titel": "– Beschlussempfehlung und Bericht des Auswärtigen Ausschusses zu dem Antrag der Bundesregierung: Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Mission der Vereinten Nationen i…",
+      "thema": "Verteidigung & Bundeswehr",
       "woerter": 3565
     },
     {
       "top": 5,
       "titel": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Finanzausgleichsgesetzes 2025 (FAG-Änderungsgesetz 2025)",
+      "thema": null,
       "woerter": 412
     }
   ],
@@ -102,7 +243,7 @@
       "prozent": 17.0
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "woerter": 12093,
       "prozent": 14.7
     },
@@ -293,7 +434,7 @@
       "negativ": 24
     },
     {
-      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
       "positiv": 154,
       "negativ": 19
     },
@@ -303,8 +444,5 @@
       "negativ": 24
     }
   ],
-  "faktencheck_bilanz": {
-    "unbelegt": 10,
-    "teilweise": 2
-  }
+  "faktencheck_bilanz": {}
 }
