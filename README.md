@@ -9,13 +9,20 @@ Knowledge Graph mit GraphRAG — inklusive **Faktencheck** politischer Aussagen.
 
 ![GraphRAG](https://img.shields.io/badge/GraphRAG-mit%20Audio--Provenienz-brightgreen) ![Faktencheck](https://img.shields.io/badge/Faktencheck-mit%20Quellen-red) ![Szenarien](https://img.shields.io/badge/Demos-Gemeinderat%20%2B%20Bundestag-blue) ![DSGVO](https://img.shields.io/badge/KI-lokal%20%2B%20DSGVO-brightgreen) ![License](https://img.shields.io/badge/license-EUPL--1.2-green)
 
-**Drei Demo-Szenarien:** **Gemeinderat** (Beschlüsse, Abstimmungen, Befangenheit,
-Aufgaben) und **Bundestag** (fiktive Plenardebatte mit Faktencheck + Frage an die
-Bundesregierung) — beide fiktiv — sowie **Bundestag (echt)**: das **echte amtliche
-Plenarprotokoll WP20/214** (18.03.2025, gemeinfrei §5 UrhG) mit 45 gesprochenen Reden,
-38 schriftlichen Beiträgen (Anlagen) und 643 amtlichen Saalreaktionen. **Beim echten
-Szenario ist der Faktencheck bewusst aus**
-(keine automatischen Verdikte über reale Personen). SPARK-Nutzung, Echtdaten-Wege und
+> **Aktueller Stand (2026-06-11) — echte Daten.** Alle **81 WP21-Plenarprotokolle** +
+> WP20/214 sind in **Neo4j** geladen (~136 k Knoten / ~361 k Beziehungen). Die Pages-App
+> bietet **82 reale Sitzungen** zur Auswahl mit Quellen-Umschalter **🟢 Offiziell**
+> (amtliches XML + Mediathek-**Video-Deeplink je Rede**) ↔ **🎬 YouTube**
+> (Gesamtmitschnitt, Zeit-Deeplinks). Faktencheck über reale Reden via **In-Kontext-LLM-
+> Extraktion** → variierte Verdikte (bestätigt/teilweise/irreführend/falsch/unbelegt) als
+> KI-Vorschlag mit Disclaimer; optional **Retrieval-Grounding** (DIP-API + Wikipedia) mit
+> echter Quelle. Inkrementeller Import: `python scripts/sync_sessions.py --all --load`.
+> Fortschritt/Plan: [`docs/challenge-plan.md`](docs/challenge-plan.md).
+> **Live:** <https://ma3u.github.io/hackathon-spark/>
+
+**Dep-freie Demo-Szenarien (fiktiv, für CI/offline):** **Gemeinderat** und **Bundestag**
+(fiktive Plenardebatte) — laufen ohne pip/GPU/Netz und treiben den CI-Smoke-Test; in der
+Web-Oberfläche werden nur **reale** Sitzungen gezeigt. SPARK-Nutzung, Echtdaten-Wege und
 die Faktencheck-Grenzen: [`docs/spark-und-echtdaten.md`](docs/spark-und-echtdaten.md).
 Analyse der Bundestags-Protokollierung & des Faktenchecks:
 [`docs/bundestag-protokollierung-analyse.md`](docs/bundestag-protokollierung-analyse.md).
