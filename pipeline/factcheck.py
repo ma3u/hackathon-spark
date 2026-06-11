@@ -99,6 +99,35 @@ def _wiki_search(query: str, *, lang: str = "de", n: int = 3) -> list[dict]:
     return out
 
 
+def _web_search(query: str, *, n: int = 3) -> list[dict]:
+    """Allgemeine Web-Recherche als Beleg-Quelle (am besten für aktuelle Zahlen/Fakten).
+    Nutzt BRAVE_API_KEY (api.search.brave.com) oder SERPER_API_KEY (google.serper.dev),
+    falls in .env gesetzt; sonst leer. Liefert [{titel, extract, url}]."""
+    import os
+    import urllib.request
+    import urllib.parse
+    brave, serper = os.environ.get("BRAVE_API_KEY"), os.environ.get("SERPER_API_KEY")
+    try:
+        if brave:
+            u = "https://api.search.brave.com/res/v1/web/search?" + urllib.parse.urlencode(
+                {"q": query, "count": n})
+            req = urllib.request.Request(u, headers={"X-Subscription-Token": brave,
+                                                     "Accept": "application/json"})
+            r = json.load(urllib.request.urlopen(req, timeout=20))
+            return [{"titel": w.get("title", ""), "extract": (w.get("description") or "")[:600],
+                     "url": w.get("url", "")} for w in r.get("web", {}).get("results", [])[:n]]
+        if serper:
+            data = json.dumps({"q": query, "num": n}).encode()
+            req = urllib.request.Request("https://google.serper.dev/search", data=data,
+                                         headers={"X-API-KEY": serper, "Content-Type": "application/json"})
+            r = json.load(urllib.request.urlopen(req, timeout=20))
+            return [{"titel": w.get("title", ""), "extract": (w.get("snippet") or "")[:600],
+                     "url": w.get("link", "")} for w in r.get("organic", [])[:n]]
+    except Exception:
+        return []
+    return []
+
+
 def _dip_search(query: str, *, n: int = 2) -> list[dict]:
     """Amtliche Retrieval-Quelle: DIP-API (Vorgänge) per DIP_API_KEY → parlamentarischer Kontext
     (welcher Gesetzentwurf/Antrag, Beratungsstand) als Beleg. Leer ohne Key."""
@@ -153,13 +182,14 @@ def factcheck_with_retrieval(aussagen: list[dict], *, model: str, base_url: str,
     results: list[FactCheck] = []
     for i, a in enumerate(aussagen[:max_claims]):
         terms = _query_terms(a["text"])
-        belege = (_dip_search(terms) + _wiki_search(terms, lang=lang))[:4]  # amtlich + allgemein
+        # Web-Suche (aktuelle Fakten) + DIP (parlamentarisch) + Wikipedia (allgemein)
+        belege = (_web_search(terms) + _dip_search(terms) + _wiki_search(terms, lang=lang))[:5]
         if not belege:
             results.append(FactCheck(
                 aussage_index=i, text=a["text"], person=a.get("person"), fraktion=a.get("fraktion"),
                 top_nummer=a.get("top_nummer"), verdikt="unbelegt",
-                begruendung=f"{_LLM_DISCLAIMER} Kein Beleg in den durchsuchten Quellen (DIP-API, Wikipedia {lang}).",
-                quelle={"titel": "DIP-API + Wikipedia durchsucht — kein Treffer", "url":
+                begruendung=f"{_LLM_DISCLAIMER} Kein Beleg in den durchsuchten Quellen (Web, DIP-API, Wikipedia {lang}).",
+                quelle={"titel": "Web + DIP-API + Wikipedia durchsucht — kein Treffer", "url":
                         "https://dip.bundestag.de/", "stand": ""},
                 quelle_utterances=a.get("quelle_utterances", []), score=0.0))
             continue
