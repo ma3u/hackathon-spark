@@ -373,7 +373,7 @@
             `<div class="bar"><span title="${v}">${v}</span><span class="track">
                <span class="fill" style="width:${Math.max(1.5, 100 * n / Math.max(1, k.geprüfte_aussagen))}%;background:${VERDICT[v] || "#58a6ff"}"></span></span>
              <span class="num">${n}</span></div>`).join("") || empty("Kein Faktencheck für diese Sitzung."))
-          + (nurUnbelegt ? empty("⚠️ Alle „unbelegt": das LLM (Mistral, Trainingsstand vor 2026) kann aktuelle Zahlen-Aussagen ohne Quellen nicht verifizieren. Belastbare Verdikte brauchen Retrieval gegen aktuelle amtliche Daten (Destatis · DIP · Bundesregierung) → Produktivpfad factcheck_with_retrieval.") : ""));
+          + (nurUnbelegt ? empty("⚠️ Alle Verdikte unbelegt — das LLM (Mistral, Trainingsstand vor 2026) kann aktuelle Zahlen-Aussagen ohne Quellen nicht verifizieren. Belastbare Verdikte brauchen Retrieval gegen aktuelle amtliche Daten (Destatis · DIP · Bundesregierung) → Produktivpfad factcheck_with_retrieval.") : ""));
 
         box.innerHTML = kpi + themen + redner + sprach
           + fb(d.feedback_erhalten_fraktion, "Feedback erhalten (Reaktionen auf Reden der Fraktion)")
