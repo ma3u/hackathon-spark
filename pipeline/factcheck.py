@@ -99,6 +99,38 @@ def _wiki_search(query: str, *, lang: str = "de", n: int = 3) -> list[dict]:
     return out
 
 
+def _dip_search(query: str, *, n: int = 2) -> list[dict]:
+    """Amtliche Retrieval-Quelle: DIP-API (Vorgänge) per DIP_API_KEY → parlamentarischer Kontext
+    (welcher Gesetzentwurf/Antrag, Beratungsstand) als Beleg. Leer ohne Key."""
+    import os
+    import urllib.request
+    import urllib.parse
+    key = os.environ.get("DIP_API_KEY")
+    if not key:
+        return []
+
+    def _srch(term):
+        u = "https://search.dip.bundestag.de/api/v1/vorgang?" + urllib.parse.urlencode(
+            {"apikey": key, "f.titel": term, "format": "json"})
+        try:
+            with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "gp/1.0"}),
+                                        timeout=20) as r:
+                return json.load(r).get("documents", [])
+        except Exception:
+            return []
+
+    docs = _srch(query)
+    if not docs:  # Fallback: längste Einzel-Stichwörter (f.titel ist "enthält")
+        for t in sorted(query.split(), key=len, reverse=True)[:2]:
+            docs = _srch(t)
+            if docs:
+                break
+    deeplink = "https://dip.bundestag.de/suche?term=" + urllib.parse.quote(query[:60])
+    return [{"titel": "DIP-Vorgang: " + (d.get("titel", "")[:120]),
+             "extract": (d.get("abstract") or d.get("titel", "") or "")[:600], "url": deeplink}
+            for d in docs[:n]]
+
+
 _RETRIEVAL_SYS = (
     "Du bist ein neutraler Faktenchecker. Bewerte die AUSSAGE AUSSCHLIESSLICH anhand der "
     "bereitgestellten BELEGE — nutze kein sonstiges Wissen. Stützen die Belege die Aussage → "
@@ -120,14 +152,15 @@ def factcheck_with_retrieval(aussagen: list[dict], *, model: str, base_url: str,
     client = OpenAI(base_url=base_url, api_key=api_key)
     results: list[FactCheck] = []
     for i, a in enumerate(aussagen[:max_claims]):
-        belege = _wiki_search(_query_terms(a["text"]), lang=lang)
+        terms = _query_terms(a["text"])
+        belege = (_dip_search(terms) + _wiki_search(terms, lang=lang))[:4]  # amtlich + allgemein
         if not belege:
             results.append(FactCheck(
                 aussage_index=i, text=a["text"], person=a.get("person"), fraktion=a.get("fraktion"),
                 top_nummer=a.get("top_nummer"), verdikt="unbelegt",
-                begruendung=f"{_LLM_DISCLAIMER} Kein Beleg in der durchsuchten Quelle (Wikipedia {lang}).",
-                quelle={"titel": f"Wikipedia ({lang}) durchsucht — kein Treffer", "url":
-                        f"https://{lang}.wikipedia.org/", "stand": ""},
+                begruendung=f"{_LLM_DISCLAIMER} Kein Beleg in den durchsuchten Quellen (DIP-API, Wikipedia {lang}).",
+                quelle={"titel": "DIP-API + Wikipedia durchsucht — kein Treffer", "url":
+                        "https://dip.bundestag.de/", "stand": ""},
                 quelle_utterances=a.get("quelle_utterances", []), score=0.0))
             continue
         kontext = "\n\n".join(f"[{b['titel']}] ({b['url']})\n{b['extract']}" for b in belege)

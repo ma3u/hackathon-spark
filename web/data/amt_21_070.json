@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 935,
-    "relationship_count": 1732,
+    "node_count": 840,
+    "relationship_count": 1506,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21070.pdf",
@@ -2483,11 +2483,11 @@
     },
     {
       "id": "aussage_0",
-      "label": "Aussage: – 4 Minuten haben Sie in Anspruch genommen und auch das Redn…",
+      "label": "Aussage: Mieten sind nach wie vor zu teuer.…",
       "type": "Aussage",
       "subtype": "",
-      "text": "– 4 Minuten haben Sie in Anspruch genommen und auch das Rednerpult.",
-      "person": "Dr. Stefanie Hubig",
+      "text": "Mieten sind nach wie vor zu teuer.",
+      "person": "Präsidentin Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
@@ -2496,7 +2496,7 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete Zeitangabe (4 Minuten) und eine Handlung (Nutzung des Rednerpults) während einer Bundestagsrede. Es handelt sich um eine situative, nicht allgemeingültige quantitative Behauptung, die ohne Protokoll oder Aufzeichnung der betreffenden Sitzung nicht ",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist eine allgemeine Feststellung ohne konkrete Zahlen oder Vergleiche. Ohne spezifische Daten (z. B. Mietpreisindex, Vergleich zu Einkommen) ist sie nicht überprüfbar.",
       "schicht": "faktencheck"
     },
     {
@@ -2510,11 +2510,11 @@
     },
     {
       "id": "aussage_1",
-      "label": "Aussage: Sie haben 4 Minuten.…",
+      "label": "Aussage: Wir werden bis zum Spätsommer ein Gesetz zum Gebäudetyp E vo…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Sie haben 4 Minuten.",
-      "person": "Dr. Stefanie Hubig",
+      "text": "Wir werden bis zum Spätsommer ein Gesetz zum Gebäudetyp E vorlegen.",
+      "person": "Präsidentin Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
@@ -2523,96 +2523,123 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_ki_faktencheck_nicht_m_glich",
-      "label": "KI-Faktencheck nicht möglich",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "",
-      "stand": "",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es handelt sich um eine zukünftige Absichtserklärung ohne konkrete quantitative Behauptung. Zudem ist der Zeitpunkt 'Spätsommer' nicht präzise genug für eine faktenbasierte Überprüfung.",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_2",
-      "label": "Aussage: Fast ein Jahr – 11 Monate – BMDS.…",
+      "label": "Aussage: In Berlin und Leipzig wurden sie [die Mieten] um fast 70 Pro…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Fast ein Jahr – 11 Monate – BMDS.",
-      "person": "Dr. Karsten Wildberger",
+      "text": "In Berlin und Leipzig wurden sie [die Mieten] um fast 70 Prozent angehoben, in Hamburg um über 40 Prozent [in den letzten zehn Jahren].",
+      "person": "Dr. Stefanie Hubig",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_2",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Fast ein Jahr – 11 Monate – BMDS.' ist ohne weiteren Kontext nicht überprüfbar. Es handelt sich um eine unvollständige Angabe, die sich auf keine konkrete quantitative Tatsache bezieht. 'BMDS' könnte sich auf verschiedene Dinge beziehen (z. B. ein System, eine Maßnahme oder ein",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Mietpreisentwicklung in den genannten Städten liegt in der genannten Größenordnung, allerdings sind die genauen Prozentangaben je nach Datenquelle und Betrachtungszeitraum leicht unterschiedlich. Laut dem Mietspiegelindex des Statistischen Bundesamtes und lokalen Mietspiegeln stiegen di",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_mietentwicklung_in_gro_st_dten",
+      "label": "Statistisches Bundesamt - Mietentwicklung in Großstädten",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Mieten/_inhalt.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_3",
-      "label": "Aussage: Wir haben mit der Modernisierungsagenda Bund und der Moderni…",
+      "label": "Aussage: die Mieten in den deutschen Städten in den letzten zehn Jahr…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Wir haben mit der Modernisierungsagenda Bund und der Modernisierungsagenda Föderal vieles auf den Weg gebracht und den Grundstein gelegt, um viele wegweisende Maßnahmen und Entlastungen für Bürgerinnen und Bürger auf den Weg zu bringen und insbesondere bei der Modernisierungsagenda Föderal bis zu 30",
-      "person": "Dr. Karsten Wildberger",
+      "text": "die Mieten in den deutschen Städten in den letzten zehn Jahren regelrecht explodiert sind",
+      "person": "Dr. Stefanie Hubig",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_3",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Mieten in deutschen Großstädten sind in den letzten zehn Jahren deutlich gestiegen. Laut Destatis stiegen die Angebotsmieten in den sieben größten Städten (Berlin, Hamburg, München, Köln, Frankfurt, Stuttgart, Düsseldorf) zwischen 2012 und 2022 um durchschnittlich etwa 50-60 %. Die Auss",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_destatis_entwicklung_der_mietpreise_in_gro_st_dten",
+      "label": "Destatis - Entwicklung der Mietpreise in Großstädten",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/03/PD23_101_611.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_4",
-      "label": "Aussage: Dies führt zu einer deutlichen Beschleunigung von aktuell bi…",
+      "label": "Aussage: Diese Straftaten werden zu 80 bis 90 Prozent von Männern beg…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Dies führt zu einer deutlichen Beschleunigung von aktuell bis zu 80 Prozent in bestimmten Verfahren, die zur Nachnutzung bereits in Hamburg und Nordrhein-Westfalen erprobt werden.",
-      "person": "Dr. Karsten Wildberger",
+      "text": "Diese Straftaten werden zu 80 bis 90 Prozent von Männern begangen.",
+      "person": "Dr. Stefanie Hubig",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_4",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut der Polizeilichen Kriminalstatistik (PKS) 2022 des BKA liegt der Anteil männlicher Tatverdächtiger bei allen Straftaten (ohne ausländerrechtliche Verstöße) bei etwa 75,5 %. Bei Gewaltdelikten (z. B. Mord, Totschlag, Raub, gefährliche und schwere Körperverletzung) beträgt der Anteil män",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_polizeiliche_kriminalstatistik_pks_2022",
+      "label": "Polizeiliche Kriminalstatistik (PKS) 2022",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2022/pks2022_node.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_5",
-      "label": "Aussage: Denn aus unserer Sicht wäre dafür eine Änderung des Artikels…",
+      "label": "Aussage: Es gibt zum Beispiel den Exhibitionismus, der nur von einem …",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Denn aus unserer Sicht wäre dafür eine Änderung des Artikels 91c Grundgesetz notwendig.",
-      "person": "Ruben Rupp",
+      "subtype": "",
+      "text": "Es gibt zum Beispiel den Exhibitionismus, der nur von einem Mann begangen werden kann, nicht von einer Frau.",
+      "person": "Dr. Stefanie Hubig",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_5",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Straftatbestand des Exhibitionismus (§ 183 StGB) bezieht sich explizit auf das Entblößen der eigenen Geschlechtsteile gegenüber einer anderen Person in sexuell bestimmter Weise. Die Norm ist geschlechtsspezifisch formuliert und bezieht sich auf männliche Täter. Eine vergleichbare Norm f",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_strafgesetzbuch_stgb_183_exhibitionismus",
+      "label": "Strafgesetzbuch (StGB) § 183 Exhibitionismus",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.gesetze-im-internet.de/stgb/__183.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_6",
-      "label": "Aussage: 30 Sekunden.…",
+      "label": "Aussage: Schleswig-Holstein [hat] vorgemacht, was möglich ist [im Ber…",
       "type": "Aussage",
       "subtype": "",
-      "text": "30 Sekunden.",
+      "text": "Schleswig-Holstein [hat] vorgemacht, was möglich ist [im Bereich Open Source].",
       "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
@@ -2622,16 +2649,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält keine konkreten, überprüfbaren Zahlen oder Statistiken zu den Erfolgen oder dem Umfang der Open-Source-Nutzung in Schleswig-Holstein. Es handelt sich um eine allgemeine Referenz ohne quantitative Belege.",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_7",
-      "label": "Aussage: Die großen Kapitalgesellschaften im Sinne von § 267 Absatz 3…",
+      "label": "Aussage: Alle Bundesprojekte haben auch einen Anteil an Open-Source-P…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Die großen Kapitalgesellschaften im Sinne von § 267 Absatz 3 Handelsgesetzbuch sollen im Hinblick auf ihre Zusammenarbeit miteinander möglicherweise nicht mehr unter AGB-Bedingungen gestellt werden.",
-      "person": "Dr. Stefanie Hubig",
+      "text": "Alle Bundesprojekte haben auch einen Anteil an Open-Source-Projekten.",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
@@ -2640,16 +2667,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Statistik oder Quelle, die belegt, dass *alle* Bundesprojekte einen Anteil an Open-Source-Projekten haben. Die Aussage ist zu pauschal und nicht quantitativ überprüfbar.",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_8",
-      "label": "Aussage: In Berlin und Leipzig wurden sie um fast 70 Prozent angehobe…",
+      "label": "Aussage: Wir haben drei konkrete Ansatzpunkte, wie wir diesem Problem…",
       "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "In Berlin und Leipzig wurden sie um fast 70 Prozent angehoben, in Hamburg um über 40 Prozent.",
-      "person": "Caren Lay",
+      "subtype": "",
+      "text": "Wir haben drei konkrete Ansatzpunkte, wie wir diesem Problem [Abschaltung digitaler Dienste außereuropäischer Anbieter] begegnen: [...]",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
@@ -2658,16 +2685,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannten Ansatzpunkte (Infrastrukturlösungen, lokale Ausführung über ITZBund, Open-Source-Alternativen) sind qualitative Beschreibungen ohne konkrete Zahlen, Statistiken oder Vergleiche. Es fehlen überprüfbare quantitative Belege.",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_9",
-      "label": "Aussage: – 30 Sekunden!…",
+      "label": "Aussage: Wir sind auch Nutzer von Mastodon, und wir wünschen uns, das…",
       "type": "Aussage",
       "subtype": "",
-      "text": "– 30 Sekunden!",
-      "person": "Dr. Stefanie Hubig",
+      "text": "Wir sind auch Nutzer von Mastodon, und wir wünschen uns, dass auch viele Bürger diesen Dienst nutzen.",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
@@ -2676,16 +2703,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält keine quantitativen Angaben (z. B. Anzahl der Nutzerkonten der Bundesregierung, Nutzungsstatistiken). Es handelt sich um eine qualitative Beschreibung ohne überprüfbare Fakten.",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_10",
-      "label": "Aussage: – 30 Sekunden!…",
+      "label": "Aussage: am 20. März veröffentlichten Video…",
       "type": "Aussage",
       "subtype": "",
-      "text": "– 30 Sekunden!",
-      "person": "Dr. Stefanie Hubig",
+      "text": "am 20. März veröffentlichten Video",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
@@ -2694,1367 +2721,485 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Quelle, die die Existenz oder den genauen Veröffentlichungstermin eines solchen Videos des genannten Ministeriums bestätigt. Ohne weitere Kontextangaben (z. B. Ministerium, Bundesland) ist eine Überprüfung nicht möglich.",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_11",
-      "label": "Aussage: Diese Straftaten werden zu 80 bis 90 Prozent von Männern beg…",
+      "label": "Aussage: Die Mieten sind in den letzten Jahren vor allem in Großstädt…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Diese Straftaten werden zu 80 bis 90 Prozent von Männern begangen.",
-      "person": "Dr. Stefanie Hubig",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Die Mieten sind in den letzten Jahren vor allem in Großstädten gestiegen, beispielsweise in Berlin teils um 100 Prozent.",
+      "person": "Jeanne Dillschneider",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_11",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Mietspiegelindex des Amts für Statistik Berlin-Brandenburg sind die Mieten in Berlin seit 2010 stark gestiegen, allerdings nicht flächendeckend um 100 Prozent. In einigen Segmenten und Stadtteilen gab es jedoch Steigerungen in dieser Größenordnung. Der Durchschnitt lag zwischen 201",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_mietspiegelindex_berlin_entwicklung_der_mietpreise",
+      "label": "Mietspiegelindex Berlin – Entwicklung der Mietpreise",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.statistik-berlin-brandenburg.de/webapi/jsf/tableView/tableView.xhtml",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_12",
-      "label": "Aussage: – 30 Sekunden!…",
+      "label": "Aussage: Wir haben über 44 Millionen Mieterinnen und Mieter.…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "– 30 Sekunden!",
-      "person": "Dr. Stefanie Hubig",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Wir haben über 44 Millionen Mieterinnen und Mieter.",
+      "person": "Jeanne Dillschneider",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_12",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Statistischen Bundesamt (Destatis) gab es 2022 in Deutschland etwa 43,2 Millionen Mieterhaushalte. Die Zahl von 44 Millionen liegt nahe an der aktuellen Schätzung und ist somit plausibel.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_wohnen_in_deutschland",
+      "label": "Statistisches Bundesamt – Wohnen in Deutschland",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Wohnen/_inhalt.html",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_13",
-      "label": "Aussage: Es läuft jetzt seit zwei Tagen an 18 Amtsgerichten in Deutsc…",
+      "label": "Aussage: bei den Indexmietverträgen [sind] die Kosten für die Mieteri…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Es läuft jetzt seit zwei Tagen an 18 Amtsgerichten in Deutschland, und es ist wichtig, dass wir das richtig erproben.",
-      "person": "Dr. Stefanie Hubig",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "bei den Indexmietverträgen [sind] die Kosten für die Mieterinnen und Mieter, auch durch den Angriffskrieg auf die Ukraine und die damit verbundenen hohen Energiepreise, extrem in die Höhe geschnellt",
+      "person": "Jeanne Dillschneider",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_13",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Energiepreise sind infolge des Ukraine-Kriegs stark gestiegen, was sich auf Indexmieten auswirkt, da diese an die Inflation gekoppelt sind. Der Verbraucherpreisindex (VPI) stieg 2022 um 7,9 Prozent, was direkte Auswirkungen auf Indexmieten hatte. Die Aussage ist somit korrekt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_verbraucherpreisindex_vpi",
+      "label": "Statistisches Bundesamt – Verbraucherpreisindex (VPI)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_14",
-      "label": "Aussage: Ich möchte mich an dieser Stelle auch bei den vielen Mensche…",
+      "label": "Aussage: nach aktuellem Sexualstrafrecht liegt eine Vergewaltigung er…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Ich möchte mich an dieser Stelle auch bei den vielen Menschen bedanken, die das aktiv nutzen: weit über 100 000 Besuche und über 20 000 Meldungen; Stichtag Ende März.",
-      "person": "Dr. Karsten Wildberger",
+      "subtype": "Die Linke",
+      "text": "nach aktuellem Sexualstrafrecht liegt eine Vergewaltigung erst dann vor, wenn das Opfer vorab explizit Nein gesagt hat",
+      "person": "Pascal Meiser",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_14",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das deutsche Sexualstrafrecht (§ 177 StGB) folgt seit der Reform 2016 dem Prinzip 'Nein heißt Nein', wonach eine sexuelle Handlung bereits dann strafbar ist, wenn sie gegen den erkennbaren Willen einer Person erfolgt. Ein explizites 'Nein' ist nicht zwingend erforderlich, wenn der Wille des",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesministerium_der_justiz_reform_des_sexualstrafrechts_2016",
+      "label": "Bundesministerium der Justiz – Reform des Sexualstrafrechts 2016",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmj.de/SharedDocs/Artikel/DE/2016/11102016_Reform_Sexualstrafrecht.html",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_15",
-      "label": "Aussage: – Es ist sicherlich richtig, dass Dinge schnell umgesetzt we…",
+      "label": "Aussage: Wir sind jetzt bei einer 'Nein heißt Nein'-Regelung.…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "– Es ist sicherlich richtig, dass Dinge schnell umgesetzt werden müssen – ich verstehe die Erwartungshaltung –; aber wir haben einen ganz konkreten Auftrag mit der Föderalen Modernisierungsagenda, in der wir uns mit den Ländern gemeinsam geeinigt haben, bis zu 30 Prozent der Berichtspflichten zurück",
-      "person": "Dr. Karsten Wildberger",
+      "subtype": "Die Linke",
+      "text": "Wir sind jetzt bei einer 'Nein heißt Nein'-Regelung.",
+      "person": "Pascal Meiser",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_15",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Seit der Reform des Sexualstrafrechts 2016 gilt in Deutschland das Prinzip 'Nein heißt Nein' (§ 177 StGB). Eine sexuelle Handlung ist strafbar, wenn sie gegen den erkennbaren Willen einer Person erfolgt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_strafgesetzbuch_stgb_177_sexuelle_n_tigung_vergewaltigung",
+      "label": "Strafgesetzbuch (StGB) § 177 Sexuelle Nötigung; Vergewaltigung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.gesetze-im-internet.de/stgb/__177.html",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_16",
-      "label": "Aussage: 30 Sekunden!…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "30 Sekunden!",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_17",
-      "label": "Aussage: – Bündnis 90/Die Grünen, Herr Abgeordneter Helge Limburg.…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "– Bündnis 90/Die Grünen, Herr Abgeordneter Helge Limburg.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_18",
-      "label": "Aussage: Welche konkreten Pläne gibt es in Ihren Ministerien, um betr…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Welche konkreten Pläne gibt es in Ihren Ministerien, um betroffene Beamtinnen und Beamte in Deutschland zu unterstützen, – Die Zeit ist schon sehr überschritten; 30 Sekunden sind längst rum.",
-      "person": "Helge Limburg",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_19",
-      "label": "Aussage: Ist der 2. Januar 2027 haltbar?…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Ist der 2. Januar 2027 haltbar?",
-      "person": "Johannes Schätzl",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_20",
-      "label": "Aussage: – Der 2. Januar 2027 ist der gesetzte Termin; darauf arbeite…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "– Der 2. Januar 2027 ist der gesetzte Termin; darauf arbeiten die Teams hin.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_21",
-      "label": "Aussage: Vielleicht genau dazu: Sie haben jetzt quasi gesagt, alle te…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Vielleicht genau dazu: Sie haben jetzt quasi gesagt, alle technischen Voraussetzungen seien theoretisch ab dem 2. Januar 2027 verfügbar.",
-      "person": "Johannes Schätzl",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_22",
-      "label": "Aussage: Frau Ministerin Hubig, in einem von Ihrem Hause, von Ihrem M…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Frau Ministerin Hubig, in einem von Ihrem Hause, von Ihrem Ministerium am 20. März veröffentlichten Video wurden zahlreiche Schlagzeilen zu den Vorwürfen der Schauspielerin Collien Fernandes gegen ihren Ex-Mann eingeblendet, so zum Beispiel – ich zitiere –: „Fall Collien Fernandes – Strafverfolgung ",
-      "person": "Hans-Jürgen Goßner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_23",
-      "label": "Aussage: Im selben Video mit einer Laufzeit von nur 43 Sekunden kündi…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Im selben Video mit einer Laufzeit von nur 43 Sekunden kündigten Sie persönlich an, das Herstellen und Verbreiten pornografischer Deepfakes unter Strafe stellen zu wollen.",
-      "person": "Hans-Jürgen Goßner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_24",
-      "label": "Aussage: Und wenn wir uns die Polizeiliche Kriminalstatistik, aber au…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Und wenn wir uns die Polizeiliche Kriminalstatistik, aber auch die Dunkelfeldstudie, die kürzlich vom Bundesinnenministerium und Bundesfamilienministerium vorgelegt worden ist, angucken, dann sehen wir, dass jede fünfte Frau, also 20 Prozent der Frauen, und 13 Prozent der Männer von digitaler Gewalt",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_25",
-      "label": "Aussage: 30 Sekunden!…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "30 Sekunden!",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_26",
-      "label": "Aussage: Er hat rund 200 Seiten.…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Er hat rund 200 Seiten.",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_27",
-      "label": "Aussage: Sehr geehrter Herr Minister, beim deutsch-französischen Gipf…",
+      "label": "Aussage: In Berlin haben sich beispielsweise jüngst Clanmitglieder zu…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Sehr geehrter Herr Minister, beim deutsch-französischen Gipfel im November 2025 wurde die Bedeutung der digitalen Souveränität als gemeinsames europäisches Schlüsselprojekt betont und wurden weitreichende Schritte angekündigt.",
-      "person": "Dr. Thomas Pauls",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_28",
-      "label": "Aussage: – Am 18. November 2025 hat hier in Berlin der deutsch-franzö…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "– Am 18. November 2025 hat hier in Berlin der deutsch-französische Souveränitätsgipfel mit über 1 000 Teilnehmern stattgefunden.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_29",
-      "label": "Aussage: Deutsch-französische Unternehmen haben sich in Partnerschaft…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Deutsch-französische Unternehmen haben sich in Partnerschaften zusammengefunden und auch Investitionen von 12 Milliarden Euro bereitgestellt, um in diesem Bereich Wachstum zu schaffen.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_30",
-      "label": "Aussage: Noch im Jahr 2026 möchte man auf Linux umstellen und auch da…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Noch im Jahr 2026 möchte man auf Linux umstellen und auch das Gesundheitssystem deutlich unabhängiger aufstellen.",
-      "person": "Rebecca Lenhard",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_31",
-      "label": "Aussage: Für Bündnis 90/Die Grünen hat das Wort die Abgeordnete Jeann…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Für Bündnis 90/Die Grünen hat das Wort die Abgeordnete Jeanne Dillschneider.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_32",
-      "label": "Aussage: Das Bundesministerium des Innern ist hier auch sehr aktiv da…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Das Bundesministerium des Innern ist hier auch sehr aktiv dabei mit Nis 2 und KRITIS.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_33",
-      "label": "Aussage: Die Mieten sind in den letzten Jahren vor allem in Großstädt…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Die Mieten sind in den letzten Jahren vor allem in Großstädten gestiegen, beispielsweise in Berlin teils um 100 Prozent.",
-      "person": "Hakan Demir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_34",
-      "label": "Aussage: Wir haben über 44 Millionen Mieterinnen und Mieter.…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wir haben über 44 Millionen Mieterinnen und Mieter.",
-      "person": "Hakan Demir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_35",
-      "label": "Aussage: Gibt es vonseiten der Regierung noch weitere geplante Maßnah…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Gibt es vonseiten der Regierung noch weitere geplante Maßnahmen, die die 44 Millionen Mieter in diesem Land schützen sollen?",
-      "person": "Hakan Demir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_36",
-      "label": "Aussage: Wir wollen nicht die Indexmieten aussetzen, sondern wir habe…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir wollen nicht die Indexmieten aussetzen, sondern wir haben gesehen, dass der Verbraucherpreisindex bis zu 7, 8 oder 9 Prozent gestiegen ist.",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_37",
-      "label": "Aussage: Wir haben gesagt – das ist der Vorschlag im Gesetzentwurf –:…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir haben gesagt – das ist der Vorschlag im Gesetzentwurf –: Wir wollen eine Deckelung bei 3,5 Prozent.",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_38",
-      "label": "Aussage: Wir sehen, dass über die letzten Jahre hinweg ohne die Aussc…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir sehen, dass über die letzten Jahre hinweg ohne die Ausschläge aufgrund des Angriffskriegs Russlands auf die Ukraine der Preisindex ungefähr bei 1 bis 1,5 Prozent lag.",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_39",
-      "label": "Aussage: Frankreich hat im Februar 2025, unmittelbar nach dem Pelicot…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Frankreich hat im Februar 2025, unmittelbar nach dem Pelicot-Urteil, das Konsensprinzip in die strafrechtliche Definition der Vergewaltigung aufgenommen; Spanien hat diesen Schritt bereits 2022 vollzogen.",
-      "person": "Luke Hoß",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_40",
-      "label": "Aussage: Wie erklären Sie sich dann, dass etwa seit 2015 die Männer s…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wie erklären Sie sich dann, dass etwa seit 2015 die Männer so viel gefährlicher geworden sind?",
-      "person": "Tobias Matthias Peterka",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_41",
-      "label": "Aussage: Und die Täter sind eben zu 99 Prozent Männer.…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Und die Täter sind eben zu 99 Prozent Männer.",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_42",
-      "label": "Aussage: Herr Abgeordneter, die wissenschaftlichen und auch die krimi…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Herr Abgeordneter, die wissenschaftlichen und auch die kriminologischen Befunde zeigen, dass es Gewalt gegen Frauen in allen Schichten gibt, dass sie durch alle Nationalitäten hindurch verübt wird und dass die Täter zu 90 Prozent oder, ich sage mal, zum weit überwiegenden Teil Männer sind.",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_43",
-      "label": "Aussage: Zu einem dieser ambitionierten Strategiepapiere gehört die R…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Zu einem dieser ambitionierten Strategiepapiere gehört die Rechenzentrumsstrategie, Pressemitteilung 14/2026.",
-      "person": "Adam Balten",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_44",
-      "label": "Aussage: Das entspricht dem Strombedarf von über 10 Millionen Haushal…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Das entspricht dem Strombedarf von über 10 Millionen Haushalten.",
-      "person": "Adam Balten",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_45",
-      "label": "Aussage: Angesichts der Energieverknappung laut § 4 Energieeffizienzg…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Angesichts der Energieverknappung laut § 4 Energieeffizienzgesetz, also der Reduzierung des Primärenergieverbrauchs um 39,9 Prozent bis 2030, rennen wir in eine politisch gewollte Angebotsverknappung.",
-      "person": "Adam Balten",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_46",
-      "label": "Aussage: Wir haben heute 3 Gigawatt für 2 000 Rechenzentren in Deutsc…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir haben heute 3 Gigawatt für 2 000 Rechenzentren in Deutschland – wir sind damit noch führend –, 500 Megawatt für KI.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_47",
-      "label": "Aussage: Wir haben gesagt: Bis 2030 werden wir die Rechenkapazität vo…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir haben gesagt: Bis 2030 werden wir die Rechenkapazität von 3 Gigawatt auf 6 Gigawatt verdoppeln und die KI-Kapazität vervierfachen.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_48",
-      "label": "Aussage: In Lübbenau wird für 11 Milliarden Euro durch die Schwarz-Gr…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "In Lübbenau wird für 11 Milliarden Euro durch die Schwarz-Gruppe ein superleistungsfähiges Rechenzentrum, auch KI-fähig, gebaut; das geht ans Netz.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_49",
-      "label": "Aussage: – Eine Zeitung berichtet, dass in den USA 80 Milliarden US-D…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "– Eine Zeitung berichtet, dass in den USA 80 Milliarden US-Dollar zur Förderung von KI-Rechenzentren bereitgestellt werden.",
-      "person": "Dr. Rainer Kraft",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_50",
-      "label": "Aussage: Ist es aus Ihrer Sicht sinnvoll, dass es per se für alle Jus…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Ist es aus Ihrer Sicht sinnvoll, dass es per se für alle Justizvollzugsbediensteten eine Auskunftssperre im Sinne des § 51 Bundesmeldegesetz gibt?",
+      "text": "In Berlin haben sich beispielsweise jüngst Clanmitglieder zu Brandanschlägen auf Autos von Justizvollzugsbediensteten bekannt.",
       "person": "Susanne Hierl",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_51",
-      "label": "Aussage: Diese betrifft die Erweiterung des geschützten Personenkreis…",
+      "id": "faktencheck_16",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt Medienberichte über Brandanschläge auf Fahrzeuge von Justizbediensteten in Berlin, die mit Clanstrukturen in Verbindung gebracht werden. Eine amtliche Statistik oder offizielle Bestätigung der Täterschaft durch Clanmitglieder liegt jedoch nicht vor.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_keine_amtliche_quelle_bekannt",
+      "label": "Keine amtliche Quelle bekannt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_17",
+      "label": "Aussage: Ein Gerichtsvollzieher wurde in Ausübung seiner Tätigkeit ge…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Diese betrifft die Erweiterung des geschützten Personenkreises durch die angedachte Reform des § 116 Strafgesetzbuch.",
-      "person": "Axel Müller",
+      "text": "Ein Gerichtsvollzieher wurde in Ausübung seiner Tätigkeit getötet.",
+      "person": "Susanne Hierl",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_52",
-      "label": "Aussage: Das Wort hat für Bündnis 90/Die Grünen die Abgeordnete Hanna…",
+      "id": "faktencheck_17",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gab Fälle von tödlicher Gewalt gegen Gerichtsvollzieher in Deutschland, z. B. 2016 in Baden-Württemberg. Allerdings ist die Aussage unspezifisch (kein Zeitraum, kein Ort), sodass eine allgemeine Häufung nicht bestätigt werden kann.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_polizeiliche_kriminalstatistik_pks_des_bka",
+      "label": "Polizeiliche Kriminalstatistik (PKS) des BKA",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/pks_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_18",
+      "label": "Aussage: wir hatten jüngst einen Fall im Saarland…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "wir hatten jüngst einen Fall im Saarland",
+      "person": "Susanne Hierl",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_18",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf einen nicht näher spezifizierten Vorfall im Saarland. Ohne konkrete Angaben (Datum, Ort, Art des Vorfalls) ist eine Überprüfung nicht möglich.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_19",
+      "label": "Aussage: Bei der Länder- und Verbändebeteiligung haben wir gesehen, d…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Bei der Länder- und Verbändebeteiligung haben wir gesehen, dass sich zahllose verschiedene Institutionen und Berufsgruppen gemeldet haben, die auch von dem Gesetzentwurf erfasst werden wollen.",
+      "person": "Susanne Hierl",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_19",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine nicht quantifizierte Anzahl von Rückmeldungen im Rahmen eines Gesetzgebungsverfahrens. Eine konkrete Zahl oder amtliche Dokumentation der Rückmeldungen liegt nicht vor.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_20",
+      "label": "Aussage: wir werden noch vor der Sommerpause einen Gesetzentwurf vorl…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "wir werden noch vor der Sommerpause einen Gesetzentwurf vorlegen",
+      "person": "Susanne Hierl",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_20",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Dies ist eine zukünftige Absichtserklärung ohne überprüfbare quantitative Fakten.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_21",
+      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Das Wort hat für Bündnis 90/Die Grünen die Abgeordnete Hanna Steinmüller.",
-      "person": "Dr. Stefanie Hubig",
+      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
+      "person": "Vizepräsidentin Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_53",
-      "label": "Aussage: – Frau Ministerin Hubig, die Daten des „Tagesspiegels“ haben…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "– Frau Ministerin Hubig, die Daten des „Tagesspiegels“ haben gezeigt, dass sich die Gewerbemieten in Berlin – das ist durchaus auch auf den Rest Deutschlands übertragbar – seit 2010 fast verdoppelt haben.",
-      "person": "Hanna Steinmüller",
-      "schicht": "fallbezug"
+      "id": "faktencheck_21",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist nicht vollständig präzise. Laut Statistischem Bundesamt (Destatis) sind die Angebotsmieten für Wohnungen in Deutschland von 2014 bis 2023 um etwa 45 % gestiegen, nicht 60 %. Die Steigerung variiert zudem stark regional. Eine pauschale Angabe von 60 % ist daher irreführend, d",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_54",
-      "label": "Aussage: Steigende Gewerbemieten belasten beispielsweise Ergotherapie…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Steigende Gewerbemieten belasten beispielsweise Ergotherapiepraxen stark, so wie in der Novalisstraße 13 bei mir im Wahlkreis.",
-      "person": "Hanna Steinmüller",
-      "schicht": "fallbezug"
+      "id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
+      "label": "Statistisches Bundesamt (Destatis) – Entwicklung der Mietpreise",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreise/_inhalt.html",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_55",
-      "label": "Aussage: Es ist aber manchmal so, dass man nicht sagen kann: Das ist …",
+      "id": "aussage_22",
+      "label": "Aussage: In Berlin sind die Mieten seit 2014 um 104 Prozent gestiegen…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Es ist aber manchmal so, dass man nicht sagen kann: Das ist am 23.03. um 17 Uhr fertig.",
-      "person": "Dr. Stefanie Hubig",
+      "text": "In Berlin sind die Mieten seit 2014 um 104 Prozent gestiegen.",
+      "person": "Vizepräsidentin Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_56",
-      "label": "Aussage: Sie hätten anreizen können, dass Leute auf den ÖPNV umsteige…",
+      "id": "faktencheck_22",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Mietspiegel und Daten des Berliner Senats sowie des Statistischen Bundesamtes sind die Mieten in Berlin zwischen 2014 und 2023 um etwa 100–105 % gestiegen. Die Angabe von 104 % liegt im Rahmen dieser Entwicklung.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistische_berichte_des_amts_f_r_statistik_berlin_brandenburg_mietpreisentwicklung",
+      "label": "Statistische Berichte des Amts für Statistik Berlin-Brandenburg – Mietpreisentwicklung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.statistik-berlin-brandenburg.de/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_23",
+      "label": "Aussage: Die Baukosten sind seit 2015 um 40 Prozent gestiegen.…",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Sie hätten anreizen können, dass Leute auf den ÖPNV umsteigen, indem Sie wieder ein 9-Euro-Ticket einführen.",
-      "person": "Michael Kellner",
+      "subtype": "",
+      "text": "Die Baukosten sind seit 2015 um 40 Prozent gestiegen.",
+      "person": "Vizepräsidentin Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_57",
-      "label": "Aussage: – beraten Sie zwei Tage und haben offensichtlich sehr viel Z…",
+      "id": "faktencheck_23",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Destatis sind die Baupreisindizes für Wohngebäude von 2015 bis 2023 um etwa 40 % gestiegen. Dies bezieht sich auf die reinen Baukosten ohne Grundstückspreise.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_destatis_baupreisindizes",
+      "label": "Statistisches Bundesamt (Destatis) – Baupreisindizes",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreise/Tabellen/baupreisindex-wohngebaeude.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_24",
+      "label": "Aussage: Die Zahl der Sozialwohnungen ist seit 2002 von 2,6 Millionen…",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "– beraten Sie zwei Tage und haben offensichtlich sehr viel Zeit damit verbracht, zu überlegen, wie Sie auch nach 2035 neue Autos mit Verbrennungsmotor zulassen können.",
-      "person": "Michael Kellner",
+      "subtype": "",
+      "text": "Die Zahl der Sozialwohnungen ist seit 2002 von 2,6 Millionen auf 1,1 Millionen gesunken.",
+      "person": "Vizepräsidentin Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_58",
-      "label": "Aussage: Das heißt, Sie reden inmitten der größten Ölkrise darüber, w…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Das heißt, Sie reden inmitten der größten Ölkrise darüber, wie Sie neue Verbrennerautos nach 2035 auf die Straße kriegen.",
-      "person": "Michael Kellner",
-      "schicht": "fallbezug"
+      "id": "faktencheck_24",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesregierung und dem GdW Bundesverband deutscher Wohnungs- und Immobilienunternehmen ist die Zahl der Sozialwohnungen in Deutschland von etwa 2,6 Millionen im Jahr 2002 auf rund 1,1 Millionen im Jahr 2022 gesunken.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_59",
-      "label": "Aussage: Zum Beispiel fehlt ein Erneuerbare-Energien-Gesetz, das den …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Zum Beispiel fehlt ein Erneuerbare-Energien-Gesetz, das den Unternehmen Planungssicherheit für Investitionen in Erneuerbare ab dem 01.01.2027 gibt.",
-      "person": "Michael Kellner",
-      "schicht": "fallbezug"
+      "id": "quelle_bundestagsdrucksache_20_5650_wohnungsbau_und_soziale_wohnraumf_rderung",
+      "label": "Bundestagsdrucksache 20/5650 – Wohnungsbau und soziale Wohnraumförderung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dserver.bundestag.de/btd/20/056/2005650.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_60",
-      "label": "Aussage: Was Sie sich als Koalition sparen könnten und was nun wirkli…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Was Sie sich als Koalition sparen könnten und was nun wirklich nicht notwendig wäre, ist die Novellierung des Gebäudemodernisierungsgesetzes, mit der Sie dafür sorgen wollen, dass fossiles Öl und Gas noch nach 2045 eingesetzt werden können.",
-      "person": "Michael Kellner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_61",
-      "label": "Aussage: Der Liter Diesel und Benzin wird durch die Senkung der Energ…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Der Liter Diesel und Benzin wird durch die Senkung der Energiesteuer um circa 17 Cent vergünstigt werden; das sind rund 10 Euro pro Tankfüllung, natürlich mehr bei den Logistikern und den Spediteuren.",
-      "person": "Dr. Andreas Lenz",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_62",
-      "label": "Aussage: Sie wird ab dem 1. Mai in Kraft treten.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Sie wird ab dem 1. Mai in Kraft treten.",
-      "person": "Dr. Andreas Lenz",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_63",
-      "label": "Aussage: Also: Beendigung der CO2-Steuer, runter mit der Mehrwertsteu…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Also: Beendigung der CO2-Steuer, runter mit der Mehrwertsteuer und auch mit dem verbliebenen Rest der Energiesteuer auf Benzin!",
-      "person": "Steffen Kotré",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_64",
-      "label": "Aussage: Hätten wir in der Vergangenheit eine vorausschauende und ver…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Hätten wir in der Vergangenheit eine vorausschauende und verantwortungsvolle Energiepolitik gehabt, dann könnten wir mit dieser Krise jetzt besser umgehen, dann gäbe es keine sogenannte Energiewende ins Nichts, und wir hätten durchschnittlich monatlich circa 100 Euro mehr in der Tasche.",
-      "person": "Steffen Kotré",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_65",
-      "label": "Aussage: Und wir würden nicht darüber sprechen, die 300 Milliarden Eu…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Und wir würden nicht darüber sprechen, die 300 Milliarden Euro teure Gasleitungsinfrastruktur zu zerstören oder auf das tote Pferd „Wasserstoff“ zu setzen.",
-      "person": "Steffen Kotré",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_66",
-      "label": "Aussage: Die Erfahrungen aus dem Jahr 2022 zeigen, dass eine solche E…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Die Erfahrungen aus dem Jahr 2022 zeigen, dass eine solche Entlastung sehr wohl bei den Verbraucherinnen und Verbrauchern ankommen kann.",
-      "person": "Frauke Heiligenstadt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_67",
-      "label": "Aussage: Deshalb ist es entscheidend, dass wir nicht nur über eine Se…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Deshalb ist es entscheidend, dass wir nicht nur über eine Senkung der Energiesteuer in Höhe von rund 17 Cent reden, sondern dass wir auch über entsprechende Markteingriffe reden müssen.",
-      "person": "Frauke Heiligenstadt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_68",
-      "label": "Aussage: 2022 hat die CDU den Tankrabatt und Einmalzahlungen selbst n…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "2022 hat die CDU den Tankrabatt und Einmalzahlungen selbst noch als Flickwerk kritisiert.",
-      "person": "Janine Wissler",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_69",
-      "label": "Aussage: Maximal 17 Cent pro Liter, das sind im Durchschnitt nicht ma…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Maximal 17 Cent pro Liter, das sind im Durchschnitt nicht mal 25 Euro Entlastung – wenn die Konzerne die Senkung denn weitergeben.",
-      "person": "Janine Wissler",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_70",
-      "label": "Aussage: Die Mineralölkonzerne machen riesige Gewinne – nach Berechnu…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Die Mineralölkonzerne machen riesige Gewinne – nach Berechnungen von Greenpeace reden wir über 21 Millionen Euro pro Tag; 21 Millionen pro Tag!",
-      "person": "Janine Wissler",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_71",
-      "label": "Aussage: Das ist ja wirklich toll: Die Mineralölkonzerne dürfen den M…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Das ist ja wirklich toll: Die Mineralölkonzerne dürfen den Menschen weiter ungestört das Geld aus der Tasche ziehen, und die kleinen und mittelständischen Unternehmen, die selber unter den hohen Preisen leiden, sollen dann mit einer 1 000-Euro-Einmalprämie das Ganze wieder ausgleichen.",
-      "person": "Janine Wissler",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_72",
-      "label": "Aussage: Sie glauben doch nicht, dass gerade die Beschäftigten im Nie…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Sie glauben doch nicht, dass gerade die Beschäftigten im Niedriglohnbereich, die oftmals nicht mal nach Tarif bezahlt werden, eine 1 000-Euro-Einmalprämie von Arbeitgebern bekommen, die den Beschäftigten nicht mal Tariflöhne gönnen.",
-      "person": "Janine Wissler",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_73",
-      "label": "Aussage: Was nötig wäre, liegt doch auf der Hand: eine Übergewinnsteu…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Was nötig wäre, liegt doch auf der Hand: eine Übergewinnsteuer, Direktauszahlungen zur Entlastung, ein günstiges Ticket für Bus und Bahn; das 9-Euro-Ticket hat doch gezeigt, dass es gehen kann.",
-      "person": "Janine Wissler",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_74",
-      "label": "Aussage: Seit Beginn des Irankriegs sind bis zu 20 Prozent der weltwe…",
+      "id": "aussage_25",
+      "label": "Aussage: allein in den 2010er-Jahren im Vergleich zu den 2000er-Jahre…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Seit Beginn des Irankriegs sind bis zu 20 Prozent der weltweiten Öl- und Gaslieferungen gestört.",
-      "person": "Dr. Matthias Hiller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_75",
-      "label": "Aussage: – Wir haben ja das 9-Euro-Ticket eingeführt – das haben die …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "– Wir haben ja das 9-Euro-Ticket eingeführt – das haben die Leute genutzt; es hat gewirkt – und eben den Tankrabatt.",
-      "person": "Dr. Matthias Hiller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_76",
-      "label": "Aussage: Am 26. März haben wir im Bundestag daher mit dem Kraftstoffm…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Am 26. März haben wir im Bundestag daher mit dem Kraftstoffmaßnahmenpaket die ersten Maßnahmen beschlossen.",
-      "person": "Dr. Matthias Hiller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_77",
-      "label": "Aussage: Und wir werden sicherlich auch prüfen, ob die 17 Cent Entlas…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Und wir werden sicherlich auch prüfen, ob die 17 Cent Entlastungen wirklich bei den Endverbrauchern ankommen.",
-      "person": "Dr. Matthias Hiller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_78",
-      "label": "Aussage: Während wir die marktwirtschaftlichen Leitplanken stärken, p…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Während wir die marktwirtschaftlichen Leitplanken stärken, planen wir auch mittelfristig weitere Entlastungen für Arbeitnehmerinnen und Arbeitnehmer im Zusammenhang mit der Entlastungsprämie von 1 000 Euro, die wir in den nächsten Wochen auf den Weg bringen wollen.",
-      "person": "Dr. Matthias Hiller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_79",
-      "label": "Aussage: Sie kassiert – über massiv steigende Mehrwertsteuereinnahmen…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Sie kassiert – über massiv steigende Mehrwertsteuereinnahmen, über die CO2-Abgabe an jeder Zapfsäule dieses Landes.",
-      "person": "Bernd Schattner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_80",
-      "label": "Aussage: Bei einem Dieselpreis von 2,30 Euro pro Liter gehen rund 60 …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Bei einem Dieselpreis von 2,30 Euro pro Liter gehen rund 60 Prozent direkt an den Staat – 60 Prozent!",
-      "person": "Bernd Schattner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_81",
-      "label": "Aussage: 33 Milliarden Euro nimmt dieser gierige Staat alleine über S…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "33 Milliarden Euro nimmt dieser gierige Staat alleine über Steuern und Abgaben auf Sprit mittlerweile jedes Jahr ein.",
-      "person": "Bernd Schattner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_82",
-      "label": "Aussage: Die Wahrheit ist: Diese 17 Cent sind kein Entlastungspaket, …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Die Wahrheit ist: Diese 17 Cent sind kein Entlastungspaket, sie sind ein Alibi – zu wenig, zu spät und bewusst befristet!",
-      "person": "Bernd Schattner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_83",
-      "label": "Aussage: Wer sich hinstellt und behauptet, man könne den Autofahrern …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wer sich hinstellt und behauptet, man könne den Autofahrern ruhig 25 Euro mehr pro Tankfüllung zumuten, zeigt die ganze Dekadenz und Arroganz eines Großteils der Mitglieder dieses Hauses.",
-      "person": "Bernd Schattner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_84",
-      "label": "Aussage: Natürlich fühlen sich nach über 20 Jahren im Bundestag und N…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Natürlich fühlen sich nach über 20 Jahren im Bundestag und Nebeneinkünften im sechsstelligen Bereich 25 Euro für ihn wahrscheinlich an wie Kleingeld.",
-      "person": "Bernd Schattner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_85",
-      "label": "Aussage: Unsere Vorschläge liegen schon lange auf dem Tisch: Abschaff…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Unsere Vorschläge liegen schon lange auf dem Tisch: Abschaffung der CO2-Steuer, Senkung der Energiesteuer auf das europäische Mindestmaß, Reduzierung der Mehrwertsteuer für Kraftstoffe auf 7 Prozent.",
-      "person": "Bernd Schattner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_86",
-      "label": "Aussage: Das bedeutet sofort bis zu 80 Cent weniger pro Liter – und d…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Das bedeutet sofort bis zu 80 Cent weniger pro Liter – und das dauerhaft.",
-      "person": "Bernd Schattner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_87",
-      "label": "Aussage: Über 1 Milliarde Euro haben die Mineralölkonzerne durch den …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Über 1 Milliarde Euro haben die Mineralölkonzerne durch den Krieg im Iran allein im Zeitraum 2. März bis 12. April nur in Deutschland verdient – obendrauf, on top.",
-      "person": "Sebastian Roloff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_88",
-      "label": "Aussage: Seit dem 1. April müssen Konzerne nachweisen, wieso die Prei…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Seit dem 1. April müssen Konzerne nachweisen, wieso die Preise hierzulande so stark gestiegen sind, und nicht mehr das Bundeskartellamt.",
-      "person": "Sebastian Roloff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_89",
-      "label": "Aussage: Wir entlasten voraussichtlich zum 1. Mai nicht nur Pendlerin…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wir entlasten voraussichtlich zum 1. Mai nicht nur Pendlerinnen und Pendler, sondern auch Unternehmen, den Logistiker genauso wie den Handwerksbetrieb und den Pflegedienst – eben alle, die tanken.",
-      "person": "Sebastian Roloff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_90",
-      "label": "Aussage: Aber klar ist auch: Es muss sichergestellt werden, dass die …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Aber klar ist auch: Es muss sichergestellt werden, dass die 17 Cent pro Liter vollständig weitergegeben werden.",
-      "person": "Sebastian Roloff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_91",
-      "label": "Aussage: Die nächste Rednerin in dieser Debatte ist Katrin Uhlig für …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Die nächste Rednerin in dieser Debatte ist Katrin Uhlig für die Fraktion Bündnis 90/Die Grünen.",
-      "person": "Sebastian Roloff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_92",
-      "label": "Aussage: Sie haben das Wissen, und dann überlegen Sie sich am Wochene…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Sie haben das Wissen, und dann überlegen Sie sich am Wochenende trotzdem, dass Sie einen Tankrabatt für 1,4 Milliarden Euro auf den Weg bringen wollen.",
-      "person": "Katrin Uhlig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_93",
-      "label": "Aussage: Was wir aber sogar aus Ihren Vorschlägen gelernt haben: Sie …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Was wir aber sogar aus Ihren Vorschlägen gelernt haben: Sie sind bereit, über 1,4 Milliarden Euro für einen sinnlosen Tankrabatt zur Verfügung zu stellen.",
-      "person": "Katrin Uhlig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_94",
-      "label": "Aussage: Als erster Schritt wurden deshalb jetzt die Steuern auf Benz…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Als erster Schritt wurden deshalb jetzt die Steuern auf Benzin und Diesel um 17 Cent pro Liter gesenkt.",
-      "person": "Dr. Klaus Wiener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_95",
-      "label": "Aussage: Ich erinnere beispielhaft an die 5 Mark pro Liter Benzin, di…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Ich erinnere beispielhaft an die 5 Mark pro Liter Benzin, die Trittin schon 1998 gefordert hat.",
-      "person": "Dr. Klaus Wiener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_96",
-      "label": "Aussage: Das wären übrigens aktuell 4 bis 4,50 Euro.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Das wären übrigens aktuell 4 bis 4,50 Euro.",
-      "person": "Dr. Klaus Wiener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_97",
-      "label": "Aussage: Eigentlich hätten wir schon aus den Ölkrisen von 1973 und 19…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Eigentlich hätten wir schon aus den Ölkrisen von 1973 und 1979 lernen müssen, dass man sich bei der Energie auf keinen Fall von Dritten abhängig machen darf und auch nicht von Wind und Sonne; denn deren Rechnungen sind bei uns extrem hoch, weil die Energieversorgung in einem Industrieland praktisch ",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_98",
-      "label": "Aussage: 17 Cent Mineralölsteuersenkung – und das auch nur für zwei M…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "17 Cent Mineralölsteuersenkung – und das auch nur für zwei Monate – ist viel zu wenig, um über 50 Cent Preiserhöhung an den Zapfsäulen auszugleichen.",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_99",
-      "label": "Aussage: Schaffen Sie doch endlich die CO2-Abgabe ganz ab, und senken…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Schaffen Sie doch endlich die CO2-Abgabe ganz ab, und senken Sie die Einkommensteuer.",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_100",
-      "label": "Aussage: Ist Ihnen bekannt, dass, wenn man die CO2-Steuer nicht erheb…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Ist Ihnen bekannt, dass, wenn man die CO2-Steuer nicht erheben würde, der Bundeshaushalt jedes Jahr rund 18 bis 20 Milliarden Euro weniger enthalten würde?",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_101",
-      "label": "Aussage: Davon könnten Sie in den Ländern über 250 000 Lehrkräfte ode…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Davon könnten Sie in den Ländern über 250 000 Lehrkräfte oder auch über 300 000 Polizeibeamtinnen und Polizeibeamte einstellen.",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_102",
-      "label": "Aussage: Ist Ihnen bekannt, dass die Einkommensteuersenkung, die Sie …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Ist Ihnen bekannt, dass die Einkommensteuersenkung, die Sie in Ihrem Beitrag eben auch formuliert haben, round about 40 Milliarden Euro kosten würde und dann im Grunde genommen der gesamte Etat, den wir allein in diesem Jahr für Investitionen zur Verfügung stellen, nicht finanzierbar wäre?",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_103",
-      "label": "Aussage: – 40 Milliarden Euro bzw.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "– 40 Milliarden Euro bzw.",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_104",
-      "label": "Aussage: in der Summe 60 Milliarden Euro, die der Staat nicht verbrau…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "in der Summe 60 Milliarden Euro, die der Staat nicht verbraucht, können die Wirtschaft und die Haushalte verbrauchen.",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_105",
-      "label": "Aussage: Meine Damen und Herren, Sie tragen in diesem Land Verantwort…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Meine Damen und Herren, Sie tragen in diesem Land Verantwortung für das Leben von 84 Millionen Menschen, und wir haben gesehen, wie fahrlässig Sie damit in den letzten 20 Jahren umgegangen sind.",
-      "person": "Gerrit Huy",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_106",
-      "label": "Aussage: Im März 2026 lag der Kraftfahrer-Preisindex schon um 6,7 Pro…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Im März 2026 lag der Kraftfahrer-Preisindex schon um 6,7 Prozent über dem Wert des Vorjahresmonats, während die Verbraucherpreise nur um 2,7 Prozent gestiegen sind.",
-      "person": "Mechthilde Wittmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_107",
-      "label": "Aussage: Die privaten Haushalte gaben 2023 im Schnitt 361 Euro pro Mo…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die privaten Haushalte gaben 2023 im Schnitt 361 Euro pro Monat für den Verkehr aus – davon einen erheblichen Teil für Kraftstoffe –, und jetzt sind es im Durchschnitt über 500 Euro pro Monat.",
-      "person": "Mechthilde Wittmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_108",
-      "label": "Aussage: Vielmehr fahren 65 Prozent der Arbeitnehmer mit dem Pkw zur …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Vielmehr fahren 65 Prozent der Arbeitnehmer mit dem Pkw zur Arbeit, und wir wissen auch, warum: weil es teilweise keine verlässlichen Strukturen gibt, um ihren Arbeitsplatz ohne Auto zu erreichen, weil viele Arbeitsplätze, gerade von Menschen mit geringeren Einkommen, im ländlichen Raum angesiedelt ",
-      "person": "Mechthilde Wittmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_109",
-      "label": "Aussage: Heute musste ich dann im Finanzausschuss hören, liebe Frakti…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Heute musste ich dann im Finanzausschuss hören, liebe Fraktion Bündnis 90/Die Grünen – ich zitiere Herrn Dr.",
-      "person": "Mechthilde Wittmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_110",
-      "label": "Aussage: Die Auszubildenden in der Gastronomie und im Tourismus müsse…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die Auszubildenden in der Gastronomie und im Tourismus müssen teilweise um 6 Uhr morgens anfangen.",
-      "person": "Mechthilde Wittmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_111",
-      "label": "Aussage: Allein die Kraftstoffpreise sind im März um 20 Prozent gesti…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Allein die Kraftstoffpreise sind im März um 20 Prozent gestiegen, und jetzt, im April, sind binnen einer Woche – auch diese Zahlen möchte ich nennen – die Preise für Diesel um 13,1 Prozent und für Super E10 um 8,1 Prozent gestiegen.",
-      "person": "Mechthilde Wittmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_112",
-      "label": "Aussage: Wenn wir die Mobilität in Summe anschauen, dann lassen Sie u…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Wenn wir die Mobilität in Summe anschauen, dann lassen Sie uns noch eines betrachten: In den letzten fünf Jahren haben sich alle Preise rund ums Auto um 31,2 Prozent erhöht, also nicht nur die Preise für Kraftstoffe, sondern auch die Preise für Versicherungen und Ähnliches.",
-      "person": "Mechthilde Wittmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_113",
-      "label": "Aussage: Mit der Energiesteuersenkung werden wir eine Entlastung von …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Mit der Energiesteuersenkung werden wir eine Entlastung von Verbrauchern und Wirtschaft um etwa 1,6 Milliarden Euro erreichen.",
-      "person": "Mechthilde Wittmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_114",
-      "label": "Aussage: Guckt man in die Statistik des Umweltbundesamtes zu Haushalt…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Guckt man in die Statistik des Umweltbundesamtes zu Haushaltsgroßgeräten, so sieht man dort, dass sich allein in den 2010er-Jahren im Vergleich zu den 2000er-Jahren die durchschnittliche Nutzungsdauer eines Elektrogroßgerätes um ein Jahr reduziert hat.",
+      "text": "allein in den 2010er-Jahren im Vergleich zu den 2000er-Jahren die durchschnittliche Nutzungsdauer eines Elektrogroßgerätes um ein Jahr reduziert hat",
       "person": "Nicklas Kappe",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_115",
-      "label": "Aussage: Hier ist entscheidend: Wenn diese 8 600 Stunden im Jahr lauf…",
+      "id": "faktencheck_25",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Umweltbundesamt (UBA) hat sich die Nutzungsdauer von Haushaltsgroßgeräten in den letzten Jahrzehnten verkürzt. Eine konkrete Reduktion um genau ein Jahr zwischen den 2000er- und 2010er-Jahren ist jedoch nicht explizit in den verfügbaren UBA-Daten ausgewiesen. Die Tendenz einer Verkürzu",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_umweltbundesamt_nutzungsdauer_von_elektroger_ten",
+      "label": "Umweltbundesamt – Nutzungsdauer von Elektrogeräten",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.umweltbundesamt.de/themen/abfall-ressourcen/produktverantwortung-in-der-abfallwirtschaft/nutzungsdauer-von-elektrogeraeten#nutzungsdauer-von-haushaltsgeraten",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_26",
+      "label": "Aussage: üblicherweise etwa alle zehn Jahre ausgetauscht wurde…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Hier ist entscheidend: Wenn diese 8 600 Stunden im Jahr laufen, dann kann schon eine kleine Verbesserung in der Kennzeichnung deutlich größere Auswirkungen haben.",
+      "text": "üblicherweise etwa alle zehn Jahre ausgetauscht wurde",
       "person": "Nicklas Kappe",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_116",
-      "label": "Aussage: Sehr geehrter Herr Kappe, 176-mal taucht im Gesetzentwurf da…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Sehr geehrter Herr Kappe, 176-mal taucht im Gesetzentwurf das Wort „Marktüberwachung“ auf – 176-mal!",
-      "person": "Enrico Komning",
-      "schicht": "fallbezug"
+      "id": "faktencheck_26",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik, die belegt, dass Haushaltsgroßgeräte 'üblicherweise etwa alle zehn Jahre' ausgetauscht werden. Die Nutzungsdauer variiert je nach Gerätetyp und Quelle. Eine pauschale Angabe von 'zehn Jahren' ist nicht durch belastbare Daten gestützt.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_117",
-      "label": "Aussage: Die nächsten 1 000 Stellen stehen auf der Kippe.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Die nächsten 1 000 Stellen stehen auf der Kippe.",
-      "person": "Enrico Komning",
-      "schicht": "fallbezug"
+      "id": "quelle_quelle",
+      "label": "-",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "-",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_118",
-      "label": "Aussage: Hundertprozentige Umsetzung der Verordnung aus der EU, aber …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Hundertprozentige Umsetzung der Verordnung aus der EU, aber keine Entlastung, kein Ausgleich, nur neue Vorschriften: Das ist kein Konzept, das ist ein Abwicklungsprogramm für die deutsche Wirtschaft.",
-      "person": "Enrico Komning",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_119",
-      "label": "Aussage: Erinnern Sie sich noch an die Waschmaschine Ihrer Eltern ode…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Erinnern Sie sich noch an die Waschmaschine Ihrer Eltern oder Großeltern oder an den Fernseher oder den Kühlschrank aus den 80er-Jahren?",
-      "person": "Helmut Kleebank",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_120",
-      "label": "Aussage: Denn bis zu 80 Prozent der Umweltauswirkungen eines Produkts…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Denn bis zu 80 Prozent der Umweltauswirkungen eines Produkts werden in der Designphase entschieden.",
-      "person": "Helmut Kleebank",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_121",
-      "label": "Aussage: Das war enorm wichtig und auch ein Riesenerfolg: Allein dadu…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Das war enorm wichtig und auch ein Riesenerfolg: Allein dadurch sparen wir in der EU ab 2030 jährlich etwa den gesamten Energieverbrauch Dänemarks ein.",
-      "person": "Helmut Kleebank",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_122",
-      "label": "Aussage: Aber der entscheidende politische Paradigmenwechsel kam 2019…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Aber der entscheidende politische Paradigmenwechsel kam 2019.",
-      "person": "Helmut Kleebank",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_123",
-      "label": "Aussage: Mit der neuen, großen Ökodesign-Verordnung von 2024 hat Euro…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Mit der neuen, großen Ökodesign-Verordnung von 2024 hat Europa diese Regeln massiv ausgeweitet, und ich sage: zu Recht ausgeweitet.",
-      "person": "Helmut Kleebank",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_124",
-      "label": "Aussage: Die EU hat verboten, dass einwandfreie unverkaufte Retouren …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Die EU hat verboten, dass einwandfreie unverkaufte Retouren bei Kleidung, Schuhen und Kleidungszubehör einfach geschreddert werden; aber erst dieses deutsche Gesetz regelt heute die Strafe dafür: Es drohen künftig Bußgelder von bis zu 100 000 Euro.",
-      "person": "Helmut Kleebank",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_125",
-      "label": "Aussage: Der nächste Redner in dieser Debatte ist Julian Joswig für d…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Der nächste Redner in dieser Debatte ist Julian Joswig für die Fraktion Bündnis 90/Die Grünen.",
-      "person": "Helmut Kleebank",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_126",
-      "label": "Aussage: Auch nach 20 Jahren werden nur 40 Prozent dieser Elektrogerä…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Auch nach 20 Jahren werden nur 40 Prozent dieser Elektrogeräte in irgendeiner Form wiederverwertet.",
-      "person": "Jörg Cezanne",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_127",
-      "label": "Aussage: Immerhin will die EU-Kommission bis 2030 solche Produktveror…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Immerhin will die EU-Kommission bis 2030 solche Produktverordnungen nun auch auf Textilien, Eisen und Stahl sowie Möbel ausweiten.",
-      "person": "Jörg Cezanne",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_128",
-      "label": "Aussage: Vor allem die verpflichtende Einführung eines digitalen Prod…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Vor allem die verpflichtende Einführung eines digitalen Produktpasses, in dem Materialzusammensetzung, Herkunft, CO2-Fußabdruck, Energieeffizienz, Hinweise zur Reparatur und fachgerechten Entsorgung angegeben werden müssen, wird offensichtlich zu Mehraufwand bei den Dokumentationspflichten führen un",
-      "person": "Mathias Weiser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_129",
-      "label": "Aussage: Knapp 30 Prozent, das ist der durchschnittliche Steuersatz, …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Knapp 30 Prozent, das ist der durchschnittliche Steuersatz, den Unternehmen in Deutschland zahlen.",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_130",
-      "label": "Aussage: 20 Prozent?…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "20 Prozent?",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_131",
-      "label": "Aussage: 10 Prozent?…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "10 Prozent?",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_132",
-      "label": "Aussage: 5 Prozent?…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "5 Prozent?",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_133",
-      "label": "Aussage: Nein, es sind lächerliche 3,4 Prozent.…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Nein, es sind lächerliche 3,4 Prozent.",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_134",
-      "label": "Aussage: Was wir konkret wollen, sind 10 Prozent Steuern auf deren 40…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Was wir konkret wollen, sind 10 Prozent Steuern auf deren 40 Prozent Umsatzrendite.",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_135",
-      "label": "Aussage: Das sorgt am Ende für eine gerechte Besteuerung der Gewinne …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Das sorgt am Ende für eine gerechte Besteuerung der Gewinne von mindestens 25 Prozent.",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_136",
-      "label": "Aussage: – bis zu 19 Milliarden Euro im Jahr einnehmen.…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "– bis zu 19 Milliarden Euro im Jahr einnehmen.",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_137",
-      "label": "Aussage: 19 Milliarden Euro für bessere Brücken, schnelleres Internet…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "19 Milliarden Euro für bessere Brücken, schnelleres Internet, Kulturförderung in diesem Land, für Verlage in unserem Land, besser ausgestattete Schulen.",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_138",
-      "label": "Aussage: Sie haben sich offenkundig den Katalog in Artikel 106 Grundg…",
+      "id": "aussage_27",
+      "label": "Aussage: Elektromotoren in der Industrie [...] 8 600 Stunden im Jahr …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Sie haben sich offenkundig den Katalog in Artikel 106 Grundgesetz nicht angeschaut.",
-      "person": "Mechthilde Wittmann",
+      "text": "Elektromotoren in der Industrie [...] 8 600 Stunden im Jahr laufen",
+      "person": "Nicklas Kappe",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_139",
-      "label": "Aussage: 10 Prozent Steuer auf den Umsatz sind geplant.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "10 Prozent Steuer auf den Umsatz sind geplant.",
-      "person": "Jörn König",
-      "schicht": "fallbezug"
+      "id": "faktencheck_27",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Angabe von 8.600 Betriebsstunden pro Jahr für Elektromotoren in der Industrie ist nicht durch eine amtliche Quelle belegt. Die tatsächliche Betriebsdauer hängt stark von der Branche und Nutzung ab und kann stark variieren. Es gibt keine allgemeingültige Statistik, die diese Zahl bestäti",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_140",
-      "label": "Aussage: Das bedeutet ganz praktisch inklusive Mehrwertsteuer eine Be…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Das bedeutet ganz praktisch inklusive Mehrwertsteuer eine Besteuerung von 29 Prozent.",
-      "person": "Jörn König",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_141",
-      "label": "Aussage: Was wir brauchen, ist endlich eine grundsätzliche Reform im …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Was wir brauchen, ist endlich eine grundsätzliche Reform im Steuerrecht, und genau dafür steht unsere Steuerreform 25. Entlastung statt Belastung für Deutschland.",
-      "person": "Jörn König",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_142",
-      "label": "Aussage: Unsere Steuerreform 25 wird die fleißigen Bürger und die Unt…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Unsere Steuerreform 25 wird die fleißigen Bürger und die Unternehmen entlasten.",
-      "person": "Jörn König",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_143",
-      "label": "Aussage: Vermögende zahlen auf Kapitaleinkommen heute nur 25 Prozent …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Vermögende zahlen auf Kapitaleinkommen heute nur 25 Prozent Steuern, was eine unsoziale Benachteiligung von Arbeitseinkommen darstellt.",
-      "person": "Jörn König",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_144",
-      "label": "Aussage: Mit 25 Prozent Steuern ohne Ausnahmen stellen wir endlich Ge…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Mit 25 Prozent Steuern ohne Ausnahmen stellen wir endlich Gerechtigkeit her, entlasten vor allem den Mittelstand und geben den Gering- und Mittelverdienern die gleichen Möglichkeiten, wie sie Großverdiener und Reiche heute schon haben.",
-      "person": "Jörn König",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_145",
-      "label": "Aussage: Einen Steuersatz von 3,4 Prozent: Diese Ministeuer zahlen di…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Einen Steuersatz von 3,4 Prozent: Diese Ministeuer zahlen die größten Digitalkonzerne der Welt – Amazon, Google, Microsoft, Meta – mithilfe aggressiver Steuervermeidung im Durchschnitt.",
-      "person": "Doris Achelwilm",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_146",
-      "label": "Aussage: Ein vergleichbares Konzept hatten wir Linke im November vorg…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Ein vergleichbares Konzept hatten wir Linke im November vorgelegt: 10 Prozent Steuersatz, allerdings bereits ab einem Jahresumsatz von 250 statt 750 Millionen Euro.",
-      "person": "Doris Achelwilm",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_147",
-      "label": "Aussage: Ob eine solche Digitalsteuer überhaupt sauber einer Steuerar…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Ob eine solche Digitalsteuer überhaupt sauber einer Steuerart nach Artikel 106 des Grundgesetzes zugeordnet und damit auch vom Bund vereinnahmt werden könnte, ist völlig offen.",
-      "person": "Lukas Krieger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_148",
-      "label": "Aussage: – Für eine Kurzintervention erteile ich das Wort der Abgeord…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "– Für eine Kurzintervention erteile ich das Wort der Abgeordneten Karoline Otte von der Fraktion Bündnis 90/Die Grünen.",
-      "person": "Lukas Krieger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_149",
-      "label": "Aussage: Mit 27 Prozent sind wir mit Abstand die stärkste Kraft in De…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Mit 27 Prozent sind wir mit Abstand die stärkste Kraft in Deutschland.",
-      "person": "Ruben Rupp",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_150",
-      "label": "Aussage: Die CDU ist mit 23 Prozent abgeschlagen, und das, liebe Unio…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Die CDU ist mit 23 Prozent abgeschlagen, und das, liebe Unionskollegen, ist die Quittung für Wählerbetrug und sozialistische Politik gemeinsam mit der SPD.",
-      "person": "Ruben Rupp",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_151",
-      "label": "Aussage: Artikel 5 Absatz 3 Grundgesetz garantiert die freie Suche na…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Artikel 5 Absatz 3 Grundgesetz garantiert die freie Suche nach Wahrheit, und diese Wahrheit ist nicht immer bequem.",
-      "person": "Dr. Ingo Hahn",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_152",
-      "label": "Aussage: In Artikel 5 Grundgesetz wird die Wissenschaftsfreiheit gara…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "In Artikel 5 Grundgesetz wird die Wissenschaftsfreiheit garantiert.",
-      "person": "Dr. Hans Theiss",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_153",
-      "label": "Aussage: Oder verstehen Sie, liebe AfD, unter der zu schützenden Wiss…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Oder verstehen Sie, liebe AfD, unter der zu schützenden Wissenschafts- und Meinungsfreiheit die Aussagen des „Geschichtswissenschaftlers“ Björn Höcke, der „eine erinnerungspolitische Wende um 180 Grad“ fordert, der davon spricht, dass „die Evolution […] Afrika und Europa – vereinfacht gesagt – zwei ",
-      "person": "Dr. Hans Theiss",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_154",
-      "label": "Aussage: – Ich bin seit fast 20 Jahren Hochschullehrer.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "– Ich bin seit fast 20 Jahren Hochschullehrer.",
-      "person": "Dr. Daniel Zerbin",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_155",
-      "label": "Aussage: Die nächste Rednerin ist Kollegin Ayse Asar von der Fraktion…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die nächste Rednerin ist Kollegin Ayse Asar von der Fraktion Bündnis 90/Die Grünen.",
-      "person": "Dr. Hans Theiss",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_156",
-      "label": "Aussage: Alice Weidel hat auf dem AfD-Parteitag im Januar 2025 offen …",
+      "id": "aussage_28",
+      "label": "Aussage: die USA [...] erwirtschaftet ein Viertel des weltweiten BIPs…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Alice Weidel hat auf dem AfD-Parteitag im Januar 2025 offen ausgesprochen – ich zitiere mit Zustimmung des Präsidenten –: „Wir schmeißen […] diese Professoren raus.“ Kein Halbsatz, kein Konjunktiv – ein Versprechen.",
-      "person": "Ayse Asar",
+      "text": "die USA [...] erwirtschaftet ein Viertel des weltweiten BIPs",
+      "person": "Karoline Otte",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_157",
-      "label": "Aussage: Rund 80 000 internationale Forscherinnen und Forscher leben …",
+      "id": "faktencheck_28",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Weltbank betrug der Anteil der USA am weltweiten BIP (KKP) 2022 etwa 15,5 %. Bei nominalem BIP lag der Anteil 2022 bei etwa 25,3 %. Die Aussage ist also nur bei nominaler Betrachtung korrekt, nicht jedoch bei Kaufkraftparität (KKP), die oft für internationale Vergleiche herangezogen wi",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_world_bank_data_gdp_current_us_and_gdp_ppp_current_international",
+      "label": "World Bank Data - GDP (current US$) and GDP, PPP (current international $)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=US&view=chart; https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=US&view=chart",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_29",
+      "label": "Aussage: In der heutigen Umfrage erreicht die AfD einen neuen Höchstw…",
       "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Rund 80 000 internationale Forscherinnen und Forscher leben und arbeiten in Deutschland.",
-      "person": "Oliver Kaczmarek",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "In der heutigen Umfrage erreicht die AfD einen neuen Höchstwert. Mit 27 Prozent sind wir mit Abstand die stärkste Kraft in Deutschland. Die CDU ist mit 23 Prozent abgeschlagen",
+      "person": "Karoline Otte",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_158",
-      "label": "Aussage: Da sollen 3 Milliarden Euro eingespart werden.…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Da sollen 3 Milliarden Euro eingespart werden.",
-      "person": "Oliver Kaczmarek",
-      "schicht": "fallbezug"
+      "id": "faktencheck_29",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine spezifische amtliche Quelle für eine 'heutige Umfrage' mit diesen exakten Werten. Umfragewerte variieren je nach Institut und Erhebungszeitraum. Ohne konkrete Angabe des Instituts und Datums ist die Aussage nicht überprüfbar. Aktuelle Umfragen (Stand Mitte 2024) zeigen die AfD",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_159",
-      "label": "Aussage: Übrigens, weil Sie ja immer das 1000-Köpfe-Plus-Programm so …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Übrigens, weil Sie ja immer das 1000-Köpfe-Plus-Programm so hervorheben: Auch das macht unsere deutschen Hochschulen für viele ausländische Spitzenwissenschaftler unattraktiv.",
-      "person": "Dr. Christoph Birghan",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_160",
-      "label": "Aussage: – im Sinne des Artikels 5 unseres Grundgesetzes.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "– im Sinne des Artikels 5 unseres Grundgesetzes.",
-      "person": "Dr. Christoph Birghan",
-      "schicht": "fallbezug"
+      "id": "quelle_keine_belastbare_quelle_f_r_die_genannte_umfrage_verf_gbar",
+      "label": "Keine belastbare Quelle für die genannte Umfrage verfügbar",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "ereignis_0",
@@ -12147,13 +11292,13 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_pr_sidentin_julia_kl_ckner",
       "target_id": "aussage_0",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_0",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -12168,13 +11313,13 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_pr_sidentin_julia_kl_ckner",
       "target_id": "aussage_1",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_1",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -12185,11 +11330,11 @@
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "person_dr_stefanie_hubig",
       "target_id": "aussage_2",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12202,15 +11347,15 @@
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_statistisches_bundesamt_mietentwicklung_in_gro_st_dten",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "person_dr_stefanie_hubig",
       "target_id": "aussage_3",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12223,15 +11368,15 @@
       "source_id": "aussage_3",
       "target_id": "faktencheck_3",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_destatis_entwicklung_der_mietpreise_in_gro_st_dten",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "person_dr_stefanie_hubig",
       "target_id": "aussage_4",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12244,15 +11389,15 @@
       "source_id": "aussage_4",
       "target_id": "faktencheck_4",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_polizeiliche_kriminalstatistik_pks_2022",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_ruben_rupp",
+      "source_id": "person_dr_stefanie_hubig",
       "target_id": "aussage_5",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12265,11 +11410,11 @@
       "source_id": "aussage_5",
       "target_id": "faktencheck_5",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_strafgesetzbuch_stgb_183_exhibitionismus",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12290,11 +11435,11 @@
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_7",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12311,11 +11456,11 @@
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_caren_lay",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_8",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12332,11 +11477,11 @@
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_9",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12353,11 +11498,11 @@
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_10",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12374,11 +11519,11 @@
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_jeanne_dillschneider",
       "target_id": "aussage_11",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12391,15 +11536,15 @@
       "source_id": "aussage_11",
       "target_id": "faktencheck_11",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_mietspiegelindex_berlin_entwicklung_der_mietpreise",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_jeanne_dillschneider",
       "target_id": "aussage_12",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12409,7 +11554,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "aussage_12",
+      "target_id": "faktencheck_12",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_12",
+      "target_id": "quelle_statistisches_bundesamt_wohnen_in_deutschland",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_jeanne_dillschneider",
       "target_id": "aussage_13",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12419,7 +11575,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "aussage_13",
+      "target_id": "faktencheck_13",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_13",
+      "target_id": "quelle_statistisches_bundesamt_verbraucherpreisindex_vpi",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_pascal_meiser",
       "target_id": "aussage_14",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12429,7 +11596,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "aussage_14",
+      "target_id": "faktencheck_14",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "irreführend"
+    },
+    {
+      "source_id": "faktencheck_14",
+      "target_id": "quelle_bundesministerium_der_justiz_reform_des_sexualstrafrechts_2016",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_pascal_meiser",
       "target_id": "aussage_15",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12439,7 +11617,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "aussage_15",
+      "target_id": "faktencheck_15",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_15",
+      "target_id": "quelle_strafgesetzbuch_stgb_177_sexuelle_n_tigung_vergewaltigung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
       "target_id": "aussage_16",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12449,7 +11638,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "aussage_16",
+      "target_id": "faktencheck_16",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_16",
+      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
       "target_id": "aussage_17",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12459,7 +11659,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_helge_limburg",
+      "source_id": "aussage_17",
+      "target_id": "faktencheck_17",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_17",
+      "target_id": "quelle_polizeiliche_kriminalstatistik_pks_des_bka",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
       "target_id": "aussage_18",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12469,7 +11680,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_johannes_sch_tzl",
+      "source_id": "aussage_18",
+      "target_id": "faktencheck_18",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_18",
+      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
       "target_id": "aussage_19",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12479,7 +11701,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "aussage_19",
+      "target_id": "faktencheck_19",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_19",
+      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
       "target_id": "aussage_20",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12489,1404 +11722,204 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_johannes_sch_tzl",
+      "source_id": "aussage_20",
+      "target_id": "faktencheck_20",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_20",
+      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_21",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_21",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_hans_j_rgen_go_ner",
+      "source_id": "aussage_21",
+      "target_id": "faktencheck_21",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_21",
+      "target_id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_22",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_22",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_hans_j_rgen_go_ner",
+      "source_id": "aussage_22",
+      "target_id": "faktencheck_22",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_22",
+      "target_id": "quelle_statistische_berichte_des_amts_f_r_statistik_berlin_brandenburg_mietpreisentwicklung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_23",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_23",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "aussage_23",
+      "target_id": "faktencheck_23",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_23",
+      "target_id": "quelle_statistisches_bundesamt_destatis_baupreisindizes",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_24",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_24",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "aussage_24",
+      "target_id": "faktencheck_24",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_24",
+      "target_id": "quelle_bundestagsdrucksache_20_5650_wohnungsbau_und_soziale_wohnraumf_rderung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_nicklas_kappe",
       "target_id": "aussage_25",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_25",
-      "target_id": "top_2",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "aussage_25",
+      "target_id": "faktencheck_25",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_25",
+      "target_id": "quelle_umweltbundesamt_nutzungsdauer_von_elektroger_ten",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_nicklas_kappe",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_26",
-      "target_id": "top_2",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_thomas_pauls",
+      "source_id": "aussage_26",
+      "target_id": "faktencheck_26",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_26",
+      "target_id": "quelle_quelle",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_nicklas_kappe",
       "target_id": "aussage_27",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_27",
-      "target_id": "top_2",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "aussage_27",
+      "target_id": "faktencheck_27",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_27",
+      "target_id": "quelle_quelle",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_karoline_otte",
       "target_id": "aussage_28",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_28",
-      "target_id": "top_2",
+      "target_id": "top_7",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "aussage_28",
+      "target_id": "faktencheck_28",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_28",
+      "target_id": "quelle_world_bank_data_gdp_current_us_and_gdp_ppp_current_international",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_karoline_otte",
       "target_id": "aussage_29",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_29",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_rebecca_lenhard",
-      "target_id": "aussage_30",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_30",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_karsten_wildberger",
-      "target_id": "aussage_31",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_31",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_karsten_wildberger",
-      "target_id": "aussage_32",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_32",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_hakan_demir",
-      "target_id": "aussage_33",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_33",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_hakan_demir",
-      "target_id": "aussage_34",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_34",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_hakan_demir",
-      "target_id": "aussage_35",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_35",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_stefanie_hubig",
-      "target_id": "aussage_36",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_36",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_stefanie_hubig",
-      "target_id": "aussage_37",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_37",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_stefanie_hubig",
-      "target_id": "aussage_38",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_38",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_luke_ho",
-      "target_id": "aussage_39",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_39",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_tobias_matthias_peterka",
-      "target_id": "aussage_40",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_40",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_stefanie_hubig",
-      "target_id": "aussage_41",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_41",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_stefanie_hubig",
-      "target_id": "aussage_42",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_42",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_adam_balten",
-      "target_id": "aussage_43",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_43",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_adam_balten",
-      "target_id": "aussage_44",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_44",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_adam_balten",
-      "target_id": "aussage_45",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_45",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_karsten_wildberger",
-      "target_id": "aussage_46",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_46",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_karsten_wildberger",
-      "target_id": "aussage_47",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_47",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_karsten_wildberger",
-      "target_id": "aussage_48",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_48",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_rainer_kraft",
-      "target_id": "aussage_49",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_49",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_susanne_hierl",
-      "target_id": "aussage_50",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_50",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_51",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_51",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_stefanie_hubig",
-      "target_id": "aussage_52",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_52",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_hanna_steinm_ller",
-      "target_id": "aussage_53",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_53",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_hanna_steinm_ller",
-      "target_id": "aussage_54",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_54",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_stefanie_hubig",
-      "target_id": "aussage_55",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_55",
-      "target_id": "top_2",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_michael_kellner",
-      "target_id": "aussage_56",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_56",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_michael_kellner",
-      "target_id": "aussage_57",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_57",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_michael_kellner",
-      "target_id": "aussage_58",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_58",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_michael_kellner",
-      "target_id": "aussage_59",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_59",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_michael_kellner",
-      "target_id": "aussage_60",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_60",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_andreas_lenz",
-      "target_id": "aussage_61",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_61",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_andreas_lenz",
-      "target_id": "aussage_62",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_62",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_steffen_kotr",
-      "target_id": "aussage_63",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_63",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_steffen_kotr",
-      "target_id": "aussage_64",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_64",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_steffen_kotr",
-      "target_id": "aussage_65",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_65",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_frauke_heiligenstadt",
-      "target_id": "aussage_66",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_66",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_frauke_heiligenstadt",
-      "target_id": "aussage_67",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_67",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_janine_wissler",
-      "target_id": "aussage_68",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_68",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_janine_wissler",
-      "target_id": "aussage_69",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_69",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_janine_wissler",
-      "target_id": "aussage_70",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_70",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_janine_wissler",
-      "target_id": "aussage_71",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_71",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_janine_wissler",
-      "target_id": "aussage_72",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_72",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_janine_wissler",
-      "target_id": "aussage_73",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_73",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_matthias_hiller",
-      "target_id": "aussage_74",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_74",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_matthias_hiller",
-      "target_id": "aussage_75",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_75",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_matthias_hiller",
-      "target_id": "aussage_76",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_76",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_matthias_hiller",
-      "target_id": "aussage_77",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_77",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_matthias_hiller",
-      "target_id": "aussage_78",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_78",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schattner",
-      "target_id": "aussage_79",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_79",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schattner",
-      "target_id": "aussage_80",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_80",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schattner",
-      "target_id": "aussage_81",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_81",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schattner",
-      "target_id": "aussage_82",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_82",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schattner",
-      "target_id": "aussage_83",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_83",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schattner",
-      "target_id": "aussage_84",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_84",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schattner",
-      "target_id": "aussage_85",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_85",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schattner",
-      "target_id": "aussage_86",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_86",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sebastian_roloff",
-      "target_id": "aussage_87",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_87",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sebastian_roloff",
-      "target_id": "aussage_88",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_88",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sebastian_roloff",
-      "target_id": "aussage_89",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_89",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sebastian_roloff",
-      "target_id": "aussage_90",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_90",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sebastian_roloff",
-      "target_id": "aussage_91",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_91",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_katrin_uhlig",
-      "target_id": "aussage_92",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_92",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_katrin_uhlig",
-      "target_id": "aussage_93",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_93",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_klaus_wiener",
-      "target_id": "aussage_94",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_94",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_klaus_wiener",
-      "target_id": "aussage_95",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_95",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_klaus_wiener",
-      "target_id": "aussage_96",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_96",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_97",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_97",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_98",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_98",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_99",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_99",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_100",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_100",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_101",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_101",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_102",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_102",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_103",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_103",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_104",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_104",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerrit_huy",
-      "target_id": "aussage_105",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_105",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_106",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_106",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_107",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_107",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_108",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_108",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_109",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_109",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_110",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_110",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_111",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_111",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_112",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_112",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_113",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_113",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_nicklas_kappe",
-      "target_id": "aussage_114",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_114",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_nicklas_kappe",
-      "target_id": "aussage_115",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_115",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_enrico_komning",
-      "target_id": "aussage_116",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_116",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_enrico_komning",
-      "target_id": "aussage_117",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_117",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_enrico_komning",
-      "target_id": "aussage_118",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_118",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helmut_kleebank",
-      "target_id": "aussage_119",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_119",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helmut_kleebank",
-      "target_id": "aussage_120",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_120",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helmut_kleebank",
-      "target_id": "aussage_121",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_121",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helmut_kleebank",
-      "target_id": "aussage_122",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_122",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helmut_kleebank",
-      "target_id": "aussage_123",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_123",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helmut_kleebank",
-      "target_id": "aussage_124",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_124",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helmut_kleebank",
-      "target_id": "aussage_125",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_125",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rg_cezanne",
-      "target_id": "aussage_126",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_126",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rg_cezanne",
-      "target_id": "aussage_127",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_127",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mathias_weiser",
-      "target_id": "aussage_128",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_128",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_129",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_129",
       "target_id": "top_7",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_130",
-      "relationship_type": "TAETIGT_AUSSAGE"
+      "source_id": "aussage_29",
+      "target_id": "faktencheck_29",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
     },
     {
-      "source_id": "aussage_130",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_131",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_131",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_132",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_132",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_133",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_133",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_134",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_134",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_135",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_135",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_136",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_136",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_karoline_otte",
-      "target_id": "aussage_137",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_137",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_mechthilde_wittmann",
-      "target_id": "aussage_138",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_138",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rn_k_nig",
-      "target_id": "aussage_139",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_139",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rn_k_nig",
-      "target_id": "aussage_140",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_140",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rn_k_nig",
-      "target_id": "aussage_141",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_141",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rn_k_nig",
-      "target_id": "aussage_142",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_142",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rn_k_nig",
-      "target_id": "aussage_143",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_143",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rn_k_nig",
-      "target_id": "aussage_144",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_144",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_doris_achelwilm",
-      "target_id": "aussage_145",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_145",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_doris_achelwilm",
-      "target_id": "aussage_146",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_146",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lukas_krieger",
-      "target_id": "aussage_147",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_147",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lukas_krieger",
-      "target_id": "aussage_148",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_148",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_ruben_rupp",
-      "target_id": "aussage_149",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_149",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_ruben_rupp",
-      "target_id": "aussage_150",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_150",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_ingo_hahn",
-      "target_id": "aussage_151",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_151",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_hans_theiss",
-      "target_id": "aussage_152",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_152",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_hans_theiss",
-      "target_id": "aussage_153",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_153",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_daniel_zerbin",
-      "target_id": "aussage_154",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_154",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_hans_theiss",
-      "target_id": "aussage_155",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_155",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_ayse_asar",
-      "target_id": "aussage_156",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_156",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_oliver_kaczmarek",
-      "target_id": "aussage_157",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_157",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_oliver_kaczmarek",
-      "target_id": "aussage_158",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_158",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_christoph_birghan",
-      "target_id": "aussage_159",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_159",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_christoph_birghan",
-      "target_id": "aussage_160",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_160",
-      "target_id": "top_8",
-      "relationship_type": "ZU_TOP"
+      "source_id": "faktencheck_29",
+      "target_id": "quelle_keine_belastbare_quelle_f_r_die_genannte_umfrage_verf_gbar",
+      "relationship_type": "BELEGT_MIT"
     },
     {
       "source_id": "top_1",

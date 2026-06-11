@@ -202,14 +202,41 @@ def llm_factcheck_youtube(p, *, model, base_url, api_key, max_passages: int = 16
     return checks
 
 
-def llm_factcheck_official(p, *, model, base_url, api_key, max_claims: int = 12,
+def llm_factcheck_official(p, *, model, base_url, api_key, max_claims: int = 16,
                            retrieval: bool = False):
-    """Prüft die realen Aussagen per LLM. retrieval=True → mit Quellen-Retrieval (Wikipedia →
-    belastbare Verdikte mit echter Quelle); sonst LLM-only (meist 'unbelegt')."""
-    if not p.aussagen:
+    """Faktencheck amtlicher Reden. KEIN regelbasiertes Aussage-Picking (lieferte rhetorische/
+    prozedurale „Aussagen" → fast alles 'unbelegt'), sondern **LLM-Extraktion im Kontext** der
+    Reden (crisp, sprecher-attribuiert) → variierte, sinnvolle Verdikte. retrieval=True prüft
+    die so extrahierten Claims zusätzlich gegen echte Quellen (DIP-API + Wikipedia)."""
+    n = len(p.utterances)
+    if not n:
         return []
-    fn = factcheck.factcheck_with_retrieval if retrieval else factcheck.factcheck_with_llm
-    return fn(p.aussagen, model=model, base_url=base_url, api_key=api_key, max_claims=max_claims)
+    # TOP je Utterance (für korrekte Aussage→TOP-Zuordnung)
+    utt_top = {}
+    for r in p.redebeitraege:
+        for ui in r.get("quelle_utterances", []):
+            utt_top[ui] = r.get("top_nummer", 1)
+    step = max(1, n // max_claims)
+    passages = [{"text": " ".join(u.text for u in p.utterances[i:i + step])[:6000],
+                 "utt_index": i, "start": 0.0} for i in range(0, n, step)]
+    res = factcheck.factcheck_transcript_llm(
+        passages, model=model, base_url=base_url, api_key=api_key, max_passages=max_claims)
+    p.aussagen, checks = [], []
+    for r in res:
+        ui = r["utt_index"]
+        u = p.utterances[ui] if 0 <= ui < n else None
+        p.aussagen.append({"text": r["aussage"], "person": u.speaker_name if u else "Redner:in",
+                           "fraktion": u.fraktion if u else None,
+                           "top_nummer": utt_top.get(ui, 1), "quelle_utterances": [ui]})
+    if retrieval:  # crisp Claims zusätzlich gegen DIP + Wikipedia prüfen → echte Quellen
+        return factcheck.factcheck_with_retrieval(
+            p.aussagen, model=model, base_url=base_url, api_key=api_key, max_claims=len(p.aussagen))
+    for i, (r, a) in enumerate(zip(res, p.aussagen)):
+        checks.append(factcheck.FactCheck(
+            aussage_index=i, text=r["aussage"], person=a["person"], fraktion=a["fraktion"],
+            top_nummer=a["top_nummer"], verdikt=r["verdikt"], begruendung=r["begruendung"],
+            quelle=r["quelle"], quelle_utterances=[r["utt_index"]], score=0.0))
+    return checks
 
 
 # ── Graph + Ausgaben ────────────────────────────────────────────────────────────

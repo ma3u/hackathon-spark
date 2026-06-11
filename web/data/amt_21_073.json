@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 955,
-    "relationship_count": 1780,
+    "node_count": 892,
+    "relationship_count": 1592,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21073.pdf",
@@ -2240,37 +2240,37 @@
     },
     {
       "id": "aussage_0",
-      "label": "Aussage: Auch dafür stellen wir 90 Millionen Euro in dieser Legislatu…",
+      "label": "Aussage: dafür stellen wir 90 Millionen Euro in dieser Legislaturperi…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Auch dafür stellen wir 90 Millionen Euro in dieser Legislaturperiode bereit.",
+      "text": "dafür stellen wir 90 Millionen Euro in dieser Legislaturperiode bereit. Mit dem Gesundheitsministerium zusammen sind es dann sogar 100 Millionen Euro",
       "person": "Dorothee Bär",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_0",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen der Förderung von geschlechtersensibler Medizin und Frauengesundheit tatsächlich Mittel in dieser Höhe bereitgestellt. Die 90 Millionen Euro stammen aus dem Etat des BMBF, die zusätzlichen 10 Millionen Euro aus dem Gesundheitsministerium.",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ki_faktencheck_nicht_m_glich",
-      "label": "KI-Faktencheck nicht möglich",
+      "id": "quelle_bundeshaushaltsplan_2023_einzelplan_30_bundesministerium_f_r_bildung_und_forschung",
+      "label": "Bundeshaushaltsplan 2023, Einzelplan 30 (Bundesministerium für Bildung und Forschung)",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.bundeshaushalt.de/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_1",
-      "label": "Aussage: Mit dem Gesundheitsministerium zusammen sind es dann sogar 1…",
+      "label": "Aussage: Wir verstetigen auch das Netzwerk Universitätsmedizin.…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Mit dem Gesundheitsministerium zusammen sind es dann sogar 100 Millionen Euro.",
+      "text": "Wir verstetigen auch das Netzwerk Universitätsmedizin.",
       "person": "Dorothee Bär",
       "schicht": "fallbezug"
     },
@@ -2280,97 +2280,7 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_2",
-      "label": "Aussage: – Wenn ich mir die Mittel ansehe, die für geschlechter- oder…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "– Wenn ich mir die Mittel ansehe, die für geschlechter- oder bevölkerungsgruppenspezifische Forschung aufgewandt werden, ist auffällig, dass im letzten Jahr der Aufwand für Männer etwa 1 Prozent des Mittelaufwandes für Frauen betrug.",
-      "person": "Dr. Christoph Birghan",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_2",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_3",
-      "label": "Aussage: Das 10. EU-Forschungsrahmenprogramm, der European Research A…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Das 10. EU-Forschungsrahmenprogramm, der European Research Area Act und der European Innovation Act werden in den nächsten Monaten verhandelt.",
-      "person": "Dr. Carolin Wagner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_3",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_4",
-      "label": "Aussage: – Für uns im Ministerium ist ganz klar, dass das EU-Forschun…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "– Für uns im Ministerium ist ganz klar, dass das EU-Forschungsrahmenprogramm seit 1984 ein ganz wichtiges Kernstück unserer Forschungspolitik ist.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_4",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_5",
-      "label": "Aussage: Wir sind beim FP10 momentan in den Verhandlungen, erst unter…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir sind beim FP10 momentan in den Verhandlungen, erst unter der dänischen, jetzt unter der zyprischen Ratspräsidentschaft, und wollen insgesamt noch einmal in die Struktur, in die vier Säulen, die für uns wichtig sind, was die exzellente Forschung betrifft, reingehen.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_5",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_6",
-      "label": "Aussage: Für Bündnis 90/Die Grünen hat jetzt Frau Abgeordnete Ayse As…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Für Bündnis 90/Die Grünen hat jetzt Frau Abgeordnete Ayse Asar das Wort.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_6",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist eine prozedurale Feststellung im Bundestag und keine quantitative Tatsachenbehauptung. Zudem ist die Nennung von Rednerinnen und Rednern im Plenarprotokoll zwar dokumentiert, aber ohne konkrete Zahlen oder überprüfbare Fakten im Sinne der Anfrage nicht bewertbar.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage zur Verstetigung des Netzwerks Universitätsmedizin ist zwar eine konkrete Behauptung, aber ohne Angabe von Zahlen oder einer spezifischen Quelle, die diese Verstetigung quantitativ belegt, nicht überprüfbar. Es gibt zwar Hinweise auf Förderung (z.B. durch den Bund), aber keine k",
       "schicht": "faktencheck"
     },
     {
@@ -2383,160 +2293,97 @@
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_7",
-      "label": "Aussage: Frau Ministerin, 36 Prozent aller Studierenden sind aktuell …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Frau Ministerin, 36 Prozent aller Studierenden sind aktuell armutsbetroffen.",
-      "person": "Ayse Asar",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_7",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_8",
-      "label": "Aussage: Gleichzeitig haben Sie 1,6 Milliarden Euro für einen Tankrab…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Gleichzeitig haben Sie 1,6 Milliarden Euro für einen Tankrabatt beschlossen, der nach Meinung aller Experten am Ende hauptsächlich den Mineralölkonzernen zugutekommen wird.",
-      "person": "Ayse Asar",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_8",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_9",
-      "label": "Aussage: Aus diesem Grund haben wir den klaren Anspruch, bei Forschun…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Aus diesem Grund haben wir den klaren Anspruch, bei Forschung und Entwicklung wieder weltweit führend zu sein, und aus diesem Grund investieren wir mit der Hightech Agenda 18 Milliarden Euro bis 2029 in sechs Schlüsseltechnologien.",
-      "person": "Florian Oest",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_9",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_10",
-      "label": "Aussage: Mit dem 1000-Köpfe-Plus-Programm machen wir Deutschland für …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Mit dem 1000-Köpfe-Plus-Programm machen wir Deutschland für die besten Wissenschaftler noch attraktiver.",
-      "person": "Florian Oest",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_10",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_11",
-      "label": "Aussage: Frau Ministerin, welchen Beitrag leistet das 1000-Köpfe-Plus…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Frau Ministerin, welchen Beitrag leistet das 1000-Köpfe-Plus-Programm zur Umsetzung der Hightech Agenda?",
-      "person": "Florian Oest",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_11",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das '1000-Köpfe-Plus-Programm' im Kontext der 'Hightech Agenda' der Bayerischen Staatsregierung. Es handelt sich um ein spezifisches Landesprogramm, zu dem keine bundesweiten amtlichen Daten oder eine direkte quantitative Bewertung des Beitrags zur Hightech Agen",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_12",
-      "label": "Aussage: Vielen herzlichen Dank, dass Sie das 1000-Köpfe-Plus-Program…",
+      "id": "aussage_2",
+      "label": "Aussage: wir investieren mit der Hightech Agenda 18 Milliarden Euro b…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Vielen herzlichen Dank, dass Sie das 1000-Köpfe-Plus-Programm ansprechen, weil das etwas ist, was wir im letzten Jahr bei Amtsantritt gleich zu Beginn umgesetzt haben.",
+      "text": "wir investieren mit der Hightech Agenda 18 Milliarden Euro bis 2029 in sechs Schlüsseltechnologien",
       "person": "Dorothee Bär",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_13",
-      "label": "Aussage: Die neuen Zahlen sind jetzt gekommen: Wir haben, Stand letzt…",
+      "id": "faktencheck_2",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen der Hightech-Strategie 2025 ein Investitionsvolumen von 18 Milliarden Euro bis 2029 für Schlüsseltechnologien vorgesehen. Dies wurde in verschiedenen Drucksachen und Regierungsdokumenten bestätigt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesregierung_hightech_strategie_2025",
+      "label": "Bundesregierung: Hightech-Strategie 2025",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesregierung.de/breg-de/themen/innovation-und-forschung/hightech-strategie-2025-1542258",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_3",
+      "label": "Aussage: wir haben, Stand letzter Woche – wir konnten aufgrund der Ha…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Die neuen Zahlen sind jetzt gekommen: Wir haben, Stand letzter Woche – wir konnten aufgrund der Haushaltsverhandlungen erst Mitte, Ende letzten Jahres mit der Arbeit anfangen –, jetzt aktuell 286 Wissenschaftlerinnen und Wissenschaftler aus 45 Nationen, die jetzt schon bei uns sind.",
+      "text": "wir haben, Stand letzter Woche – wir konnten aufgrund der Haushaltsverhandlungen erst Mitte, Ende letzten Jahres mit der Arbeit anfangen –, jetzt aktuell 286 Wissenschaftlerinnen und Wissenschaftler aus 45 Nationen, die jetzt schon bei uns sind",
       "person": "Dorothee Bär",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_14",
-      "label": "Aussage: 35 Prozent kommen aus den Lebenswissenschaften, 32 Prozent a…",
+      "id": "faktencheck_3",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Quelle, die diese konkrete Zahl (286 Wissenschaftler aus 45 Nationen) zum 1000-Köpfe-Plus-Programm bestätigt. Die Aussage basiert auf aktuellen, nicht veröffentlichten Daten der Ministerin.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_4",
+      "label": "Aussage: 35 Prozent kommen aus den Lebenswissenschaften, 32 Prozent a…",
       "type": "Aussage",
       "subtype": "",
-      "text": "35 Prozent kommen aus den Lebenswissenschaften, 32 Prozent aus den Naturwissenschaften, 22 Prozent aus den Ingenieurswissenschaften und 12 Prozent aus den Geistes- und Sozialwissenschaften.",
+      "text": "35 Prozent kommen aus den Lebenswissenschaften, 32 Prozent aus den Naturwissenschaften, 22 Prozent aus den Ingenieurswissenschaften und 12 Prozent aus den Geistes- und Sozialwissenschaften",
       "person": "Dorothee Bär",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_15",
-      "label": "Aussage: Frau Ministerin, wie stellen Sie sicher, dass die im Rahmen …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Frau Ministerin, wie stellen Sie sicher, dass die im Rahmen des 1000-Köpfe-Plus-Programms gewonnenen internationalen Forscher auch über die Dauer des geförderten Aufenthalts hinaus dauerhaft für den Innovations- und Wissenschaftsstandort Deutschland gewonnen und vor allem gehalten werden können?",
-      "person": "Florian Oest",
-      "schicht": "fallbezug"
+      "id": "faktencheck_4",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Auch diese prozentuale Verteilung der Wissenschaftler nach Fachbereichen ist nicht durch eine öffentlich zugängliche, amtliche Quelle belegt. Die Zahlen stammen aus einer nicht veröffentlichten Erhebung der Ministerin.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_16",
-      "label": "Aussage: Wir werden in den nächsten Jahren bei rund 44 Prozent unsere…",
+      "id": "aussage_5",
+      "label": "Aussage: Wir werden in den nächsten Jahren bei rund 44 Prozent unsere…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Wir werden in den nächsten Jahren bei rund 44 Prozent unserer Professuren einen Wechsel haben, da sehr viele Professoren in den Ruhestand gehen werden.",
+      "text": "Wir werden in den nächsten Jahren bei rund 44 Prozent unserer Professuren einen Wechsel haben, da sehr viele Professoren in den Ruhestand gehen werden",
       "person": "Dorothee Bär",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_17",
-      "label": "Aussage: 300 000 Kinder wären von entsprechenden Kürzungen betroffen,…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "300 000 Kinder wären von entsprechenden Kürzungen betroffen, bei der Schulassistenz wären es 450 000 betroffene Kinder.",
-      "person": "Heidi Reichinnek",
-      "schicht": "fallbezug"
+      "id": "faktencheck_5",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Bundesbericht Wissenschaftlicher Nachwuchs (BuWiN) 2021 wird in den nächsten 10 bis 15 Jahren ein erheblicher Anteil der Professoren in den Ruhestand gehen. Eine konkrete Zahl von 44 Prozent wird jedoch nicht explizit genannt. Schätzungen und Modellrechnungen deuten auf einen hohen",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_18",
-      "label": "Aussage: Der UNRAST Verlag hat im vergangenen Jahr 50 000 Euro aus de…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Der UNRAST Verlag hat im vergangenen Jahr 50 000 Euro aus dem Kanzleramt bekommen, und jetzt kam heraus, dass sich dieser Verlag an der Hetzkampagne gegen „Nius“ beteiligt.",
-      "person": "Ronald Gläser",
-      "schicht": "fallbezug"
+      "id": "quelle_bundesbericht_wissenschaftlicher_nachwuchs_buwin_2021",
+      "label": "Bundesbericht Wissenschaftlicher Nachwuchs (BuWiN) 2021",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.buwin.de/",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_19",
+      "id": "aussage_6",
       "label": "Aussage: Am 1. April feierte der BND ja seinen 70. Geburtstag.…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -2545,412 +2392,745 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_20",
-      "label": "Aussage: Und wie stellen Sie sich die Zukunft für unseren Bundesnachr…",
+      "id": "faktencheck_6",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Bundesnachrichtendienst (BND) wurde am 1. April 1956 gegründet. Das 70-jährige Jubiläum fiel somit auf den 1. April 2026, allerdings wurde der BND tatsächlich 2016 60 Jahre alt. Die Aussage bezieht sich vermutlich auf das 70-jährige Jubiläum im Jahr 2026, was jedoch noch nicht stattgefu",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesnachrichtendienst_geschichte",
+      "label": "Bundesnachrichtendienst - Geschichte",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bnd.bund.de/DE/WirUeberUns/Geschichte/geschichte_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_7",
+      "label": "Aussage: Der „Business Insider“ hat, glaube ich, vor zwei Tagen beric…",
       "type": "Aussage",
       "subtype": "SPD",
-      "text": "Und wie stellen Sie sich die Zukunft für unseren Bundesnachrichtendienst in den nächsten 70 Jahren vor?",
+      "text": "Der „Business Insider“ hat, glaube ich, vor zwei Tagen berichtet, dass beim Bundesnachrichtendienst aktuell mehrere Hundert Stellen offen sind.",
       "person": "Daniel Baldy",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_21",
-      "label": "Aussage: Die bisherige rechtliche Grundlage dafür auf EU-Ebene, die s…",
+      "id": "faktencheck_7",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Quelle, die diese konkrete Zahl bestätigt. Der Verweis auf den „Business Insider“ ist keine belastbare amtliche Quelle. Zudem ist die Aussage vage („mehrere Hundert“) und nicht durch offizielle Statistiken belegt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_8",
+      "label": "Aussage: ein Großteil der Hinweise über sexuellen Kindesmissbrauch im…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die bisherige rechtliche Grundlage dafür auf EU-Ebene, die sogenannte Übergangsverordnung, ist am 3. April 2026 ausgelaufen.",
-      "person": "Dr. Katja Strauss-Köster",
+      "subtype": "",
+      "text": "ein Großteil der Hinweise über sexuellen Kindesmissbrauch im Netz kommt aus den USA, insbesondere von dieser halbstaatlichen Organisation NCMEC",
+      "person": "Thorsten Frei",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_22",
-      "label": "Aussage: Das Bundeskriminalamt warnt nun davor, dass die Zahl entspre…",
+      "id": "faktencheck_8",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Bundeslagebild Cybercrime des Bundeskriminalamts (BKA) stammen die meisten Hinweise auf kinderpornografische Inhalte im Internet von der US-amerikanischen Organisation National Center for Missing & Exploited Children (NCMEC). Im Jahr 2022 erhielt das BKA über 136.000 Hinweise von N",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeslagebild_cybercrime_2022_bundeskriminalamt",
+      "label": "Bundeslagebild Cybercrime 2022, Bundeskriminalamt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/Lagebilder/Cybercrime/cybercrime_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_9",
+      "label": "Aussage: Im Jahr 2022 erhielt das BKA über 136.000 Hinweise von NCMEC…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Das Bundeskriminalamt warnt nun davor, dass die Zahl entsprechender Hinweise auf sexuellen Missbrauch deutlich zurückgehen könnte, nämlich um 80 Prozent.",
-      "person": "Dr. Katja Strauss-Köster",
+      "subtype": "",
+      "text": "Im Jahr 2022 erhielt das BKA über 136.000 Hinweise von NCMEC",
+      "person": "Thorsten Frei",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_23",
-      "label": "Aussage: Jetzt hat Schwarz-Rot verabredet, im kommenden Wintersemeste…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Jetzt hat Schwarz-Rot verabredet, im kommenden Wintersemester die Wohnkostenpauschale im BAföG um 60 Euro zu erhöhen.",
-      "person": "Nicole Gohlke",
-      "schicht": "fallbezug"
+      "id": "faktencheck_9",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die konkrete Zahl von 136.000 Hinweisen für 2022 wird im öffentlich zugänglichen Bundeslagebild Cybercrime nicht explizit genannt. Die Größenordnung ist jedoch plausibel, da frühere Berichte ähnliche Zahlen aufweisen (z. B. 2021: ca. 120.000 Hinweise). Eine amtliche Quelle mit der exakten Z",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_24",
-      "label": "Aussage: Sie haben gerade gesagt, man soll die Dinge nicht gegeneinan…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Sie haben gerade gesagt, man soll die Dinge nicht gegeneinander ausspielen – das habe ich vernommen –; aber ich möchte Ihnen doch kurz vorrechnen: Die zwei Monate Tankrabatt, die die Bundesregierung gerade beschlossen hat, kosten fast 25-mal so viel wie eine höhere Wohnpauschale für die Studis.",
-      "person": "Nicole Gohlke",
-      "schicht": "fallbezug"
+      "id": "quelle_bundeslagebild_cybercrime_verschiedene_jahrg_nge_bundeskriminalamt",
+      "label": "Bundeslagebild Cybercrime (verschiedene Jahrgänge), Bundeskriminalamt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/Lagebilder/Cybercrime/cybercrime_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_25",
-      "label": "Aussage: Ein WG-Zimmer kostet im Bundesschnitt momentan 512 Euro; das…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Ein WG-Zimmer kostet im Bundesschnitt momentan 512 Euro; das sind noch mal 3,9 Prozent mehr als im Vorjahr.",
-      "person": "Nicole Gohlke",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_26",
-      "label": "Aussage: Das heißt: An 83 Prozent der Hochschulstandorte übersteigt d…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Das heißt: An 83 Prozent der Hochschulstandorte übersteigt die Durchschnittsmiete die BAföG-Wohnkostenpauschale.",
-      "person": "Nicole Gohlke",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_27",
-      "label": "Aussage: Jetzt wollen Sie diese Wohnkostenpauschale auf 440 Euro anhe…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Jetzt wollen Sie diese Wohnkostenpauschale auf 440 Euro anheben.",
-      "person": "Nicole Gohlke",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_28",
-      "label": "Aussage: Liebe Frau Ministerin Bär, laut einer Pressemitteilung Ihres…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Liebe Frau Ministerin Bär, laut einer Pressemitteilung Ihres Hauses vom 6. März soll noch in diesem Jahr ein wissenschaftlicher Bundespreis für Geschlechterforschung ausgelobt werden.",
-      "person": "Hans-Jürgen Goßner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_29",
+      "id": "aussage_10",
       "label": "Aussage: 2024 wurde in Bayern die Gendersprache in Behörden für unzul…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "2024 wurde in Bayern die Gendersprache in Behörden für unzulässig erklärt, da es sich um „Eingriffe in Wortbildung, Grammatik und Orthografie“ handele und „jede sprachliche Künstlichkeit […] zu vermeiden“ sei.",
+      "text": "2024 wurde in Bayern die Gendersprache in Behörden für unzulässig erklärt",
       "person": "Hans-Jürgen Goßner",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_30",
-      "label": "Aussage: Denn zum einen überlegt man in diesem Papier, den Rechtsansp…",
+      "id": "faktencheck_10",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bayerische Staatsregierung hat am 24. Januar 2024 einen Erlass veröffentlicht, der die Verwendung von Gendersprache in Behörden und Schulen untersagt. Der Erlass bezieht sich auf 'Eingriffe in Wortbildung, Grammatik und Orthografie' und fordert die Vermeidung 'sprachlicher Künstlichkeit",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bayerischer_erlass_zur_gendersprache_in_beh_rden_und_schulen",
+      "label": "Bayerischer Erlass zur Gendersprache in Behörden und Schulen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.stmuk.bayern.de/ministerium/aktuelles/pressemitteilungen/pressemitteilung/2024/2024_01_24.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_11",
+      "label": "Aussage: Wir haben dort erhebliche Steigerungsraten, die nicht zwinge…",
       "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Denn zum einen überlegt man in diesem Papier, den Rechtsanspruch auf Ganztagsbetreuung zu verschieben, zum anderen will man die Regelungen zum Unterhaltsvorschuss auf den Stand von 2017 zurückdrehen.",
-      "person": "Heidi Reichinnek",
+      "subtype": "AfD",
+      "text": "Wir haben dort erhebliche Steigerungsraten, die nicht zwingend auch in eine entsprechende Steigerung der Qualität gemündet sind.",
+      "person": "Hans-Jürgen Goßner",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_11",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Ausgaben für Kinder- und Jugendhilfe sind in den letzten Jahren gestiegen. Laut Statistischem Bundesamt stiegen die Nettoausgaben von 2010 bis 2021 von 28,5 Mrd. Euro auf 58,0 Mrd. Euro. Eine direkte Korrelation zwischen Ausgabensteigerung und Qualitätsverbesserung ist jedoch nicht eind",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_ausgaben_und_einnahmen_der_ffentlichen_kinder_und_jugendhilfe",
+      "label": "Statistisches Bundesamt: Ausgaben und Einnahmen der öffentlichen Kinder- und Jugendhilfe",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/Tabellen/ausgaben-einnahmen-kinder-jugendhilfe.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_12",
+      "label": "Aussage: im Bereich der Kinder- und Jugendhilfe, eine Verdoppelung de…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "im Bereich der Kinder- und Jugendhilfe, eine Verdoppelung der Aufwendungen in den letzten zehn Jahren erlebt",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_12",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) sind die Ausgaben für Kinder- und Jugendhilfe von 2012 bis 2021 von etwa 34,5 Mrd. Euro auf rund 60,5 Mrd. Euro gestiegen. Dies entspricht einer Steigerung um etwa 75 %. Eine Verdoppelung (100 % Steigerung) wurde zwar nicht ganz erreicht, aber die Aus",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_destatis_ausgaben_f_r_kinder_und_jugendhilfe",
+      "label": "Statistisches Bundesamt (Destatis) - Ausgaben für Kinder- und Jugendhilfe",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/Tabellen/ausgaben-jugendhilfe.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_13",
+      "label": "Aussage: der Aufwand für die Kommunen im Zusammenhang mit dem Unterha…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "der Aufwand für die Kommunen im Zusammenhang mit dem Unterhaltsvorschuss hat sich in den letzten zehn Jahren verdreifacht bis vervierfacht",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_13",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Ausgaben für den Unterhaltsvorschuss sind in den letzten Jahren deutlich gestiegen. Laut Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) stiegen die Ausgaben von 2012 (ca. 1,1 Mrd. Euro) auf 2021 (ca. 2,5 Mrd. Euro). Dies entspricht einer Steigerung um etwa 127 %, wa",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesministerium_f_r_familie_senioren_frauen_und_jugend_unterhaltsvorschussstatistik",
+      "label": "Bundesministerium für Familie, Senioren, Frauen und Jugend - Unterhaltsvorschussstatistik",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmfsfj.de/bmfsfj/themen/familie/unterhaltsvorschuss/statistik-unterhaltsvorschuss",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_14",
+      "label": "Aussage: die finanzielle Schieflage der Kommunen beläuft sich auf ung…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die finanzielle Schieflage der Kommunen beläuft sich auf ungefähr 30 Milliarden Euro",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_14",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Kommunalen Finanzreport 2023 der Bertelsmann Stiftung und Daten des Statistischen Bundesamtes beliefen sich die kumulierten Defizite der Kommunen in Deutschland im Jahr 2022 auf etwa 30 Mrd. Euro. Diese Zahl wird auch in offiziellen Berichten der Bundesregierung und des Deutschen S",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kommunaler_finanzreport_2023_bertelsmann_stiftung",
+      "label": "Kommunaler Finanzreport 2023 - Bertelsmann Stiftung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bertelsmann-stiftung.de/de/themen/aktuelle-meldungen/2023/mai/kommunaler-finanzreport-2023",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_15",
+      "label": "Aussage: die Bundesregierung hat ihre Wachstumsprognose gerade erst a…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die Bundesregierung hat ihre Wachstumsprognose gerade erst auf nur noch 0,5 Prozent gesenkt",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_15",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im April 2024 ihre Wachstumsprognose für das Bruttoinlandsprodukt (BIP) 2024 auf 0,5 % gesenkt. Dies wurde im Jahreswirtschaftsbericht 2024 und in der Frühjahrsprojektion der Bundesregierung veröffentlicht.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesregierung_fr_hjahrsprojektion_2024",
+      "label": "Bundesregierung - Frühjahrsprojektion 2024",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesregierung.de/breg-de/themen/wirtschaft-und-innovation/wirtschaftliche-lage/fruehjahrsprojektion-2024-2250000",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_16",
+      "label": "Aussage: Was haben 83 Millionen Bürgerinnen und Bürger davon?…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Was haben 83 Millionen Bürgerinnen und Bürger davon?",
+      "person": "Dr. Christoph Birghan",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_16",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bevölkerungszahl Deutschlands lag laut Destatis zum Stichtag 31.12.2022 bei etwa 84,3 Millionen. Die Angabe von 83 Millionen ist eine gängige, leicht gerundete Schätzung der Einwohnerzahl, die in politischen Reden häufig verwendet wird.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bev_lkerung_deutschlands_nach_demografischen_merkmalen_destatis",
+      "label": "Bevölkerung Deutschlands nach demografischen Merkmalen - Destatis",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_17",
+      "label": "Aussage: jeder bzw. jede Fünfte von ihnen [Rentner und Rentnerinnen] …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "jeder bzw. jede Fünfte von ihnen [Rentner und Rentnerinnen] armutsgefährdet ist",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_17",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Armuts- und Reichtumsbericht der Bundesregierung 2021 lag die Armutsgefährdungsquote von Rentnerinnen und Rentnern in Deutschland bei etwa 19,4 % (2019). Der Wert liegt nahe an der genannten Aussage von 'jeder Fünfte'.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_f_nfter_armuts_und_reichtumsbericht_der_bundesregierung",
+      "label": "Fünfter Armuts- und Reichtumsbericht der Bundesregierung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a335-5-armuts-reichtumsbericht-2021.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_18",
+      "label": "Aussage: Topbeamte [sollten] Gehaltssteigerungen in Höhe von 2 000 Eu…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Topbeamte [sollten] Gehaltssteigerungen in Höhe von 2 000 Euro im Monat [erhalten]",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_18",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Im Referentenentwurf des Bundesinnenministeriums war eine Erhöhung der Besoldung für höhere Besoldungsgruppen (insbesondere B6 und höher) vorgesehen, die in Einzelfällen bis zu 2.000 Euro monatlich betragen hätte. Allerdings wurde dies später korrigiert und auf Besoldungsgruppe B3 begrenzt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundestags_drucksache_20_5642_antwort_der_bundesregierung_auf_eine_kleine_anfrage",
+      "label": "Bundestags-Drucksache 20/5642 – Antwort der Bundesregierung auf eine Kleine Anfrage",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dserver.bundestag.de/btd/20/056/2005642.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_19",
+      "label": "Aussage: die Ukraine [befindet sich] seit über vier Jahren in einem e…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die Ukraine [befindet sich] seit über vier Jahren in einem existenziellen Abwehr- und Verteidigungskampf",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_19",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beginn des aktuellen Krieges in der Ukraine wird allgemein auf den 24. Februar 2022 datiert (russischer Überfall). Der Konflikt im Donbas dauert jedoch seit 2014 an. Die Aussage ist somit teilweise korrekt, da der 'existenziellen Abwehr- und Verteidigungskampf' in der aktuellen Form sei",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeszentrale_f_r_politische_bildung_ukraine_konflikt",
+      "label": "Bundeszentrale für politische Bildung - Ukraine-Konflikt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/543981/ukraine-konflikt/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_20",
+      "label": "Aussage: im Rahmen dieser Regierungskonsultationen wurden insgesamt z…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "im Rahmen dieser Regierungskonsultationen wurden insgesamt zwölf Vereinbarungen unterzeichnet, MoUs und andere, die die Zusammenarbeit zwischen den beiden Ländern in den unterschiedlichsten Bereichen gestärkt haben",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_20",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche amtliche Quelle, die diese konkrete Zahl von zwölf Vereinbarungen im Rahmen der genannten Regierungskonsultationen bestätigt. Die Information könnte aus nicht-öffentlichen oder nicht-verifizierten Quellen stammen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_21",
+      "label": "Aussage: ich habe vor allen Dingen über einen 90-Milliarden-Euro-Kred…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "ich habe vor allen Dingen über einen 90-Milliarden-Euro-Kredit auf europäischer Ebene für die Ukraine gesprochen",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_21",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU hat im Februar 2024 ein Unterstützungspaket für die Ukraine in Höhe von 50 Milliarden Euro beschlossen. Ein 90-Milliarden-Euro-Kredit bezieht sich möglicherweise auf geplante oder diskutierte, aber noch nicht finalisierte Maßnahmen. Die genaue Höhe von 90 Mrd. Euro ist jedoch in aktu",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_europ_ischer_rat_ukraine_eu_beschlie_t_bis_2027_unterst_tzung_in_h_he_von_50_mrd_euro",
+      "label": "Europäischer Rat - Ukraine: EU beschließt bis 2027 Unterstützung in Höhe von 50 Mrd. Euro",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.consilium.europa.eu/de/policies/eu-response-ukraine-war/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_22",
+      "label": "Aussage: Noch immer müssen sich mehr als die Hälfte der Rentnerinnen …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Noch immer müssen sich mehr als die Hälfte der Rentnerinnen und Rentner allein auf die gesetzliche Rente verlassen; im Osten sind es deutlich mehr",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_22",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Alterssicherungsbericht 2020 der Bundesregierung beziehen etwa 56 % der Rentnerhaushalte in Deutschland ihre Haupteinkünfte aus der gesetzlichen Rente. In Ostdeutschland liegt dieser Anteil höher (ca. 70 %).",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_alterssicherungsbericht_2020_bundesministerium_f_r_arbeit_und_soziales",
+      "label": "Alterssicherungsbericht 2020 - Bundesministerium für Arbeit und Soziales",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmas.de/SharedDocs/Downloads/DE/Rente/alterssicherungsbericht-2020.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_23",
+      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
+      "person": "Vizepräsidentin Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_23",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist nicht vollständig präzise. Laut Statistischem Bundesamt (Destatis) sind die Angebotsmieten für Wohnungen in Deutschland zwischen 2014 und 2023 um etwa 45 % gestiegen. Die Steigerung variiert jedoch stark nach Region und Wohnungsmarktsegment. Eine pauschale Aussage von 60 % i",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
+      "label": "Statistisches Bundesamt (Destatis) – Entwicklung der Mietpreise",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreise/_inhalt.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_24",
+      "label": "Aussage: In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.",
+      "person": "Vizepräsidentin Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_24",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Mietspiegel und Daten des Senats von Berlin sind die Mieten in Berlin seit 2017 deutlich gestiegen, allerdings nicht einheitlich. Der Anstieg liegt je nach Quelle und Wohnungssegment zwischen 30 % und 50 %. Eine pauschale Angabe von 40 % ist daher nicht falsch, aber vereinfachend.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_senatsverwaltung_f_r_stadtentwicklung_und_wohnen_berlin_mietspiegel_2023",
+      "label": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin – Mietspiegel 2023",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.stadtentwicklung.berlin.de/wohnen/wohnungspolitik/mietspiegel/de/index.shtml",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_25",
+      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
+      "person": "Vizepräsidentin Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_25",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist nicht vollständig präzise. Laut Statistischem Bundesamt (Destatis) sind die Angebotsmieten für Wohnungen in Deutschland zwischen 2014 und 2023 um etwa 45 % gestiegen. Die Steigerung variiert jedoch stark nach Region und Wohnungsmarktsegment. Eine pauschale Aussage von 60 % i",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_26",
+      "label": "Aussage: In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.",
+      "person": "Vizepräsidentin Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_26",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Mietspiegel und Daten des Senats von Berlin sind die Mieten in Berlin seit 2017 deutlich gestiegen, allerdings nicht einheitlich. Der Anstieg liegt je nach Quelle und Wohnungssegment zwischen 30 % und 50 %. Eine pauschale Angabe von 40 % ist daher nicht falsch, aber vereinfachend.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_27",
+      "label": "Aussage: noch nie Menschen weiter von der Erde entfernt waren…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "noch nie Menschen weiter von der Erde entfernt waren",
+      "person": "Vizepräsidentin Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_27",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Artemis-2-Mission, bei der die Besatzung jedoch nicht auf dem Mond landete, sondern nur einen Mondvorbeiflug durchführte. Die größte Entfernung von der Erde wurde bereits während der Apollo-Missionen erreicht (Apollo 13: ca. 400.171 km). Artemis 2 erreichte ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_nasa_apollo_13_mission_overview",
+      "label": "NASA - Apollo 13 Mission Overview",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.nasa.gov/mission_pages/apollo/missions/apollo13.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_28",
+      "label": "Aussage: China hat massiv aufgeholt, Nationen wie Indien sind mit am …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "China hat massiv aufgeholt, Nationen wie Indien sind mit am Start",
+      "person": "Vizepräsidentin Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_28",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. China hat in den letzten Jahren erhebliche Fortschritte in der Raumfahrt gemacht, darunter erfolgreiche Mondmissionen (Chang'e-Programm) und den Aufbau einer eigenen Raumstation (Tiangong). Indien hat ebenfalls bedeutende Erfolge erzielt, wie die Chandrayaan-Missionen und die Mars Orbiter M",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_esa_space_in_asia_pacific",
+      "label": "ESA - Space in Asia-Pacific",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Space_in_Asia-Pacific",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_29",
+      "label": "Aussage: Beim Raumschiff „Orion“ war ein wesentlicher Teil made in Ge…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Beim Raumschiff „Orion“ war ein wesentlicher Teil made in Germany, ganz viele Teile made in Europe, aber ganz viel made in Germany. Unser Servicemodul war essenziell für die Mission.",
+      "person": "Vizepräsidentin Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_29",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Europäische Servicemodul (ESM) für das Orion-Raumschiff wurde maßgeblich in Deutschland (u.a. von Airbus in Bremen) entwickelt und gebaut. Es ist essenziell für die Versorgung der Crew mit Wasser, Sauerstoff und Strom sowie für den Antrieb und die Lageregelung.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_esa_european_service_module",
+      "label": "ESA - European Service Module",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_30",
+      "label": "Aussage: Bei der Navigation im All vertraut die NASA auf einen Sterne…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Bei der Navigation im All vertraut die NASA auf einen Sternensensor. Wo kommt der her? Aus Jena!",
+      "person": "Vizepräsidentin Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_30",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Firma Jena-Optronik GmbH liefert Sternensensoren (Star Tracker) für die Navigation von Raumfahrzeugen, darunter auch für die Orion-Mission. Diese Sensoren sind tatsächlich in Jena entwickelt und hergestellt worden.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_jena_optronik_star_sensors",
+      "label": "Jena-Optronik - Star Sensors",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.jena-optronik.de/en/products/star-sensors.html",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_31",
-      "label": "Aussage: Sie beläuft sich auf ungefähr 30 Milliarden Euro.…",
+      "label": "Aussage: Tacheles zum Beispiel. Das ist ein ganz kleiner Forschungssa…",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Sie beläuft sich auf ungefähr 30 Milliarden Euro.",
-      "person": "Mayra Vriesema",
+      "subtype": "",
+      "text": "Tacheles zum Beispiel. Das ist ein ganz kleiner Forschungssatellit, kaum größer als ein Handgepäckkoffer, gebaut von einem deutschen Start-up, das gegründet wurde von einer Frau, die als Kind mit ihren Eltern aus Sri Lanka geflohen ist.",
+      "person": "Vizepräsidentin Josephine Ortleb",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_31",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen, belastbaren Quellen oder amtlichen Dokumente, die diese spezifische Aussage über den Satelliten „Tacheles“ und die Gründerin des Start-ups bestätigen. Die Existenz eines solchen Satelliten oder Start-ups ist nicht nachweisbar.",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_32",
-      "label": "Aussage: Das entspricht umgerechnet ungefähr 1 Prozent des Bruttoinla…",
+      "label": "Aussage: übrigens zusammen mit der ersten Frau auf Mondmission, der g…",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Das entspricht umgerechnet ungefähr 1 Prozent des Bruttoinlandsprodukts.",
-      "person": "Mayra Vriesema",
+      "subtype": "",
+      "text": "übrigens zusammen mit der ersten Frau auf Mondmission, der großartigen Christina Koch",
+      "person": "Vizepräsidentin Josephine Ortleb",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_32",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Christina Koch war Teil der Artemis-2-Mission, die jedoch keine Mondlandung durchführte, sondern nur einen Mondvorbeiflug. Sie ist damit nicht die „erste Frau auf Mondmission“ im Sinne einer Landung. Die erste Frau, die den Mond betreten soll, wird voraussichtlich mit der Artemis-3-Mission ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_nasa_artemis_ii_crew",
+      "label": "NASA - Artemis II Crew",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.nasa.gov/specials/artemis-ii/",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_33",
-      "label": "Aussage: Nun hat die Bundesregierung ihre Wachstumsprognose gerade er…",
+      "label": "Aussage: Wir haben auch die Zusage der NASA, dass bei den nächsten Mo…",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Nun hat die Bundesregierung ihre Wachstumsprognose gerade erst auf nur noch 0,5 Prozent gesenkt.",
-      "person": "Mayra Vriesema",
+      "subtype": "",
+      "text": "Wir haben auch die Zusage der NASA, dass bei den nächsten Mondflügen Europäer dabei sein werden.",
+      "person": "Vizepräsidentin Josephine Ortleb",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_33",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die NASA hat tatsächlich zugesagt, dass europäische Astronauten an zukünftigen Artemis-Missionen teilnehmen werden, insbesondere an der Artemis-4-Mission und darüber hinaus. Dies wurde in verschiedenen offiziellen Statements und Vereinbarungen zwischen der NASA und der ESA bestätigt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_esa_european_astronauts_to_fly_to_the_moon",
+      "label": "ESA - European astronauts to fly to the Moon",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/European_astronauts_to_fly_to_the_Moon",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_34",
-      "label": "Aussage: Es spielt natürlich eine große Rolle, dass alle 16 Landesmin…",
+      "label": "Aussage: Letzte Woche, also in der ersten Sitzungswoche nach dem Flug…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Es spielt natürlich eine große Rolle, dass alle 16 Landesministerinnen und Landesminister mit dabei sind, auch der grüne Landesminister, was uns an der Stelle auch sehr freut.",
-      "person": "Dorothee Bär",
+      "subtype": "AfD",
+      "text": "Letzte Woche, also in der ersten Sitzungswoche nach dem Flug, kam dazu von den Regierungsfraktionen rein gar nichts.",
+      "person": "Andreas Mayer",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_34",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Dokumentation über die Tagesordnungspunkte oder Initiativen der Regierungsfraktionen in der genannten Sitzungswoche, die diese Aussage überprüfbar macht.",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_35",
-      "label": "Aussage: – Es war tatsächlich nicht nur mit Blick auf die Hightech Ag…",
+      "label": "Aussage: auch im zuständigen Ausschuss stand die Raumfahrt in dieser …",
       "type": "Aussage",
-      "subtype": "",
-      "text": "– Es war tatsächlich nicht nur mit Blick auf die Hightech Agenda, sondern von Tag eins an, seit dem 6. Mai letzten Jahres, mein Bestreben, uns auch im Haus immer bewusst zu machen und jeden Tag zu überlegen: Was haben 83 Millionen Bürgerinnen und Bürger davon?",
-      "person": "Dorothee Bär",
+      "subtype": "AfD",
+      "text": "auch im zuständigen Ausschuss stand die Raumfahrt in dieser Legislatur bisher erst dreimal auf der Tagesordnung – und das auch nur, weil unter anderem wir das Thema auf die Tagesordnung gesetzt haben.",
+      "person": "Andreas Mayer",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_35",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Tagesordnungen der Ausschüsse des Deutschen Bundestages sind zwar öffentlich, aber ohne konkrete Sitzungsprotokolle oder eine offizielle Zählung der Tagesordnungspunkte zur Raumfahrt ist diese Aussage nicht belastbar überprüfbar.",
+      "schicht": "faktencheck"
     },
     {
       "id": "aussage_36",
-      "label": "Aussage: Stattdessen nehmen Sie die Arbeitgeber in die Verantwortung,…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Stattdessen nehmen Sie die Arbeitgeber in die Verantwortung, für eine steuerfreie Entlastungsprämie von bis zu 1 000 Euro zu sorgen, und wollen das gemäß der entsprechenden Vorlage mit 2,8 Milliarden Euro steuerlich fördern.",
-      "person": "Pascal Meiser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_37",
-      "label": "Aussage: Sind das 30 Prozent, 50 Prozent, 70 Prozent oder doch 100 Pr…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Sind das 30 Prozent, 50 Prozent, 70 Prozent oder doch 100 Prozent der Beschäftigten?",
-      "person": "Pascal Meiser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_38",
-      "label": "Aussage: Darüber hinaus gibt es eine 1 000-Euro-Entlastungsprämie, di…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Darüber hinaus gibt es eine 1 000-Euro-Entlastungsprämie, die Arbeitgeber ihren Arbeitnehmern steuer- und abgabenfrei zukommen lassen können – ganz, teilweise oder überhaupt nicht, so wie es die betriebliche Situation ermöglicht.",
-      "person": "Thorsten Frei",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_39",
-      "label": "Aussage: Ich kann es Ihnen nicht exakt sagen; aber tatsächlich ist es…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Ich kann es Ihnen nicht exakt sagen; aber tatsächlich ist es so: Dadurch, dass wir die Maßnahme bis zum 30.06. des Folgejahres ausgeweitet haben, bekommen mehr Unternehmen die Chance, sie für ihre Mitarbeiterinnen und Mitarbeiter auch nutzen zu können.",
-      "person": "Thorsten Frei",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_40",
-      "label": "Aussage: – Wir haben heute Morgen im Ausschuss dazu aber vom Finanzmi…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "– Wir haben heute Morgen im Ausschuss dazu aber vom Finanzministerium gehört, dass nach dessen Prognosen 30 bis 40 Prozent der Beschäftigten möglicherweise in den Genuss kommen.",
-      "person": "Pascal Meiser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_41",
-      "label": "Aussage: Das heißt umgekehrt: 60 bis 70 Prozent der Beschäftigten wür…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Das heißt umgekehrt: 60 bis 70 Prozent der Beschäftigten würden nach dieser Prognose leer ausgehen.",
-      "person": "Pascal Meiser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_42",
-      "label": "Aussage: Finden Sie das vor dem Hintergrund, dass 2,8 Milliarden Euro…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Finden Sie das vor dem Hintergrund, dass 2,8 Milliarden Euro Steuergeld nur einer Minderheit zugutekommen, gerecht?",
-      "person": "Pascal Meiser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_43",
-      "label": "Aussage: Sehr geehrter Herr Minister, die 1 000-Euro-Prämie, die Arbe…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Sehr geehrter Herr Minister, die 1 000-Euro-Prämie, die Arbeitgeber ihren Beschäftigten auszahlen können, wurde angesprochen.",
-      "person": "Mayra Vriesema",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_44",
-      "label": "Aussage: Demnach sollte es für Topbeamte Gehaltssteigerungen in Höhe …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Demnach sollte es für Topbeamte Gehaltssteigerungen in Höhe von 2 000 Euro im Monat geben; das wurde jetzt erst mal behoben.",
-      "person": "Marcel Emmerich",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_45",
-      "label": "Aussage: Man hat sich dann dazu entschieden, dass man den Alimentatio…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Man hat sich dann dazu entschieden, dass man den Alimentationsgrundsatz und die daraus folgenden Konsequenzen bis zur Besoldungsgruppe B 3 umsetzt und darüber hinaus nicht.",
-      "person": "Thorsten Frei",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_46",
-      "label": "Aussage: – Gerade wurde schon angesprochen, dass die Mehrheit der Bes…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "– Gerade wurde schon angesprochen, dass die Mehrheit der Beschäftigten wahrscheinlich nicht in den Genuss der 1 000-Euro-Prämie kommen wird.",
-      "person": "Heidi Reichinnek",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_47",
-      "label": "Aussage: Frau Bundesministerin Bär, Sie hatten Artemis 2 und das Mond…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Frau Bundesministerin Bär, Sie hatten Artemis 2 und das Mondprogramm erwähnt und gesagt, dass dort deutsche Technik eingesetzt worden ist.",
-      "person": "Rainer Groß",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_48",
-      "label": "Aussage: Das sieht man auch daran, dass zum Beispiel die 5,4 Milliard…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Das sieht man auch daran, dass zum Beispiel die 5,4 Milliarden Euro, die wir jetzt für ESA zeichnen konnten, wieder zu 100 Prozent nach Deutschland zurückfließen.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_49",
-      "label": "Aussage: Ich habe ja vorhin schon gesagt, dass die Mission Artemis 2,…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Ich habe ja vorhin schon gesagt, dass die Mission Artemis 2, die um den Mond herumführte, zwar von der NASA ist, aber gleichzeitig hätte diese NASA-Mission ohne deutsche Technik nicht stattfinden können.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_50",
-      "label": "Aussage: Wir wollen insgesamt wesentlich stärker in den Transfer hine…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir wollen insgesamt wesentlich stärker in den Transfer hineingehen und haben uns nicht nur bei mir im Haus, sondern auch als alle 17 Ministerinnen und Minister und in der GWK dazu committet, dass wir das in unterschiedlichen Säulen gemeinsam vorantreiben und dass wir ganz besonders die HAWs in den ",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_51",
-      "label": "Aussage: Wir haben übrigens unser Ziel erreicht, den Entwurf noch im …",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir haben übrigens unser Ziel erreicht, den Entwurf noch im Jahr 2025 vorzustellen.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_52",
-      "label": "Aussage: Es ist ganz entscheidend, dass dieser 90-Milliarden-Euro-Kre…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Es ist ganz entscheidend, dass dieser 90-Milliarden-Euro-Kredit in den nächsten Tagen an die Ukraine fließen kann.",
-      "person": "Thorsten Frei",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_53",
-      "label": "Aussage: Genauso wichtig ist es, dass das 20. Sanktionspaket jetzt au…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Genauso wichtig ist es, dass das 20. Sanktionspaket jetzt auf den Weg gebracht werden kann.",
-      "person": "Thorsten Frei",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_54",
-      "label": "Aussage: Herr Kollege Reichardt, ich habe vor allen Dingen über einen…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Herr Kollege Reichardt, ich habe vor allen Dingen über einen 90-Milliarden-Euro-Kredit auf europäischer Ebene für die Ukraine gesprochen.",
-      "person": "Thorsten Frei",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_55",
-      "label": "Aussage: 77 Prozent der Bevölkerung sind demnach der Meinung, eine ge…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "77 Prozent der Bevölkerung sind demnach der Meinung, eine gemeinsame gesetzliche Rentenversicherung, in die alle einzahlen, sei richtig.",
-      "person": "Pascal Meiser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_56",
-      "label": "Aussage: 75 Prozent der Beschäftigten wären sogar bereit, höhere Beit…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "75 Prozent der Beschäftigten wären sogar bereit, höhere Beiträge zu zahlen, wenn dafür die Leistungen dauerhaft gesichert wären oder sogar noch steigen würden.",
-      "person": "Pascal Meiser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_57",
-      "label": "Aussage: Fast nirgendwo wird das deutlicher als in der Raumfahrt, und…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Fast nirgendwo wird das deutlicher als in der Raumfahrt, und die Artemis-2-Mission war das beste Beispiel dafür.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_58",
-      "label": "Aussage: Und deswegen ist es eben großartig, dass Artemis 2 so ein Ri…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Und deswegen ist es eben großartig, dass Artemis 2 so ein Riesenerfolg war für alle Beteiligten: für die NASA, für die Astronautencrew, für die internationalen Teams, aber auch für uns hier in Europa und in Deutschland.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_59",
-      "label": "Aussage: Und auch daran zeigt sich, dass Artemis 2 auch ein weibliche…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Und auch daran zeigt sich, dass Artemis 2 auch ein weiblicher Erfolg ist.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_60",
-      "label": "Aussage: Ich kann Ihnen sagen: Das geht allen 15 anderen Ministerpräs…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Ich kann Ihnen sagen: Das geht allen 15 anderen Ministerpräsidenten und Ministerpräsidentinnen genauso.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_61",
-      "label": "Aussage: Wir stellen allein in unserem Ministerium knapp 7,5 Milliard…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir stellen allein in unserem Ministerium knapp 7,5 Milliarden Euro in dieser Legislaturperiode dafür zur Verfügung.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_62",
-      "label": "Aussage: Es gab danach 40 Minuten gar keinen Kontakt zur Erde.…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Es gab danach 40 Minuten gar keinen Kontakt zur Erde.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_63",
-      "label": "Aussage: Ohne die großen Leistungen und Erfolge deutscher Erfinder, I…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Ohne die großen Leistungen und Erfolge deutscher Erfinder, Ingenieure und Pioniere hätte es die Mondlandung 1969 nicht gegeben.",
-      "person": "Andreas Mayer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_64",
-      "label": "Aussage: Während es der ESA 2021 wichtig war, dass wir eine Zertifizi…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Während es der ESA 2021 wichtig war, dass wir eine Zertifizierung für Gender Equality im Weltraum haben, mangelt es weiterhin massiv an Launch-Kapazitäten.",
-      "person": "Andreas Mayer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_65",
       "label": "Aussage: Private Firmen wie SpaceX oder Blue Origin hatten 2025 mehr …",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2959,940 +3139,193 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_66",
-      "label": "Aussage: Die Zahlen sind eindeutig: Letztes Jahr gab es 324 Launches,…",
+      "id": "faktencheck_36",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Jahr 2025, das zum Zeitpunkt der Überprüfung (2023) in der Zukunft liegt. Es gibt keine belastbaren Prognosen oder Daten für dieses Jahr. Zudem ist die Formulierung irreführend, da 2025 noch nicht eingetreten ist und keine validen Vergleichsdaten vorliegen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_37",
+      "label": "Aussage: Letztes Jahr gab es 324 Launches, davon waren mit 165 mehr a…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Die Zahlen sind eindeutig: Letztes Jahr gab es 324 Launches, davon waren mit 165 mehr als die Hälfte allein von SpaceX – Europa insgesamt: 8 Starts.",
+      "text": "Letztes Jahr gab es 324 Launches, davon waren mit 165 mehr als die Hälfte allein von SpaceX – Europa insgesamt: 8 Starts.",
       "person": "Andreas Mayer",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_67",
-      "label": "Aussage: Allein beispielsweise Rocket Lab aus Neuseeland hatte mit 21…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Allein beispielsweise Rocket Lab aus Neuseeland hatte mit 21 Starts fast dreimal so viel wie Europa.",
-      "person": "Andreas Mayer",
-      "schicht": "fallbezug"
+      "id": "faktencheck_37",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Jahresbericht 2023 der Federal Aviation Administration (FAA) und Daten von BryceTech gab es 2023 insgesamt 223 orbitale Starts weltweit, davon 96 von SpaceX. Europa führte 2023 insgesamt 3 orbitale Starts durch (Ariane 5 und Vega). Die genannten Zahlen (324 Launches, 165 von SpaceX",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_68",
-      "label": "Aussage: Während wir in Deutschland und Bayern im Jahr 2026 immer noc…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Während wir in Deutschland und Bayern im Jahr 2026 immer noch über Funklöcher und zahlreiche Dörfer ohne Glasfaseranschluss reden, hat Elon Musk mit Starlink Internet an die abgelegensten Orte dieser Welt gebracht.",
-      "person": "Andreas Mayer",
-      "schicht": "fallbezug"
+      "id": "quelle_brycetech_2023_space_launch_report",
+      "label": "BryceTech: 2023 Space Launch Report",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://brycetech.com/reports",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_69",
-      "label": "Aussage: Von den fast 14 000 Satelliten im All sind 9 300 von Starlin…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Von den fast 14 000 Satelliten im All sind 9 300 von Starlink – mehr als zwei Drittel.",
-      "person": "Andreas Mayer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_70",
-      "label": "Aussage: Das ist auch die Strategie der AfD: Alles komplett an die Wa…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Das ist auch die Strategie der AfD: Alles komplett an die Wand werfen und schlechtreden, gute Sachen auf keinen Fall hervorheben, zum Beispiel, dass wir bei der ESA-Ministerratskonferenz im Herbst 2025 mit 5,4 Milliarden Euro am höchsten gezeichnet haben.",
-      "person": "Dr. Carolin Wagner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_71",
-      "label": "Aussage: Technologien, die im Weltraum getestet werden, können zur Re…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Technologien, die im Weltraum getestet werden, können zur Reduktion von CO2-Emissionen, zur Bekämpfung des Klimawandels beitragen.",
-      "person": "Dr. Carolin Wagner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_72",
-      "label": "Aussage: Der Mond könnte als strategischer Punkt für Weltraumwaffen u…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Der Mond könnte als strategischer Punkt für Weltraumwaffen und militärische Stützpunkte dienen, auch wenn der Weltraumvertrag von 1967 dies verbietet.",
-      "person": "Dr. Carolin Wagner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_73",
-      "label": "Aussage: Für die Fraktion Bündnis 90/Die Grünen hat jetzt das Wort di…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Für die Fraktion Bündnis 90/Die Grünen hat jetzt das Wort die Abgeordnete Claudia Müller.",
-      "person": "Dr. Carolin Wagner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_74",
-      "label": "Aussage: Die Artemis-2-Mission hat uns daran erinnert, wozu unsere Sp…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die Artemis-2-Mission hat uns daran erinnert, wozu unsere Spezies auch fähig ist.",
-      "person": "Claudia Müller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_75",
-      "label": "Aussage: Die Bundesregierung, allen voran das Verteidigungsministeriu…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die Bundesregierung, allen voran das Verteidigungsministerium, hat endlich auch die strategische Relevanz des Weltraums entdeckt und will in den nächsten Jahren bis zu 35 Milliarden Euro ausgeben.",
-      "person": "Claudia Müller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_76",
-      "label": "Aussage: Aber allein diese 35 Milliarden Euro des BMVg sind so viel G…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Aber allein diese 35 Milliarden Euro des BMVg sind so viel Geld, dass das allein ein ganzes Ökosystem formen wird.",
-      "person": "Claudia Müller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_77",
-      "label": "Aussage: Sage und schreibe 35 Milliarden Euro will die Bundeswehr in …",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Sage und schreibe 35 Milliarden Euro will die Bundeswehr in den nächsten Jahren in die militärische Raumfahrtarchitektur stecken.",
-      "person": "Sonja Lemke",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_78",
-      "label": "Aussage: Mit dem Weltraumvertrag von 1967 wurden Militärbasen im All …",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Mit dem Weltraumvertrag von 1967 wurden Militärbasen im All international verboten.",
-      "person": "Sonja Lemke",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_79",
-      "label": "Aussage: Können Sie mir zum Beispiel im Fall der Ariane 6, die mit fl…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Können Sie mir zum Beispiel im Fall der Ariane 6, die mit flüssigem Sauerstoff und flüssigem Wasserstoff angetrieben wird und hinten einfach nur Wasserdampf ausscheidet, diese schädlichen Klimaauswirkungen darlegen, die Sie glauben wahrgenommen zu haben?",
-      "person": "Dr. Rainer Kraft",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_80",
-      "label": "Aussage: Nicht ohne Grund hat man „Die Feuerzangenbowle“ 1944 gedreht…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Nicht ohne Grund hat man „Die Feuerzangenbowle“ 1944 gedreht.",
-      "person": "Stefan Schröder",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_81",
-      "label": "Aussage: Auf der einen Seite predigen Sie CO2-Neutralität bis ins Det…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Auf der einen Seite predigen Sie CO2-Neutralität bis ins Detail.",
-      "person": "Stefan Schröder",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_82",
-      "label": "Aussage: An den Flughäfen wird das Kerosin knapp, an den Tankstellen …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "An den Flughäfen wird das Kerosin knapp, an den Tankstellen kostet der Sprit noch immer weit über 2 Euro.",
-      "person": "Stefan Schröder",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_83",
-      "label": "Aussage: Ein einziger Triebwerksstart verbraucht Zehntausende Liter T…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Ein einziger Triebwerksstart verbraucht Zehntausende Liter Treibstoff und bedeutet teilweise – abhängig vom Treibstoff – enorme CO2-Belastungen.",
-      "person": "Stefan Schröder",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_84",
-      "label": "Aussage: Das eine CO2 wird verteufelt, das andere ist offenbar völlig…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Das eine CO2 wird verteufelt, das andere ist offenbar völlig normal und notwendig.",
-      "person": "Stefan Schröder",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_85",
-      "label": "Aussage: Sie ist ein Ablenkungsmanöver, so wie „Die Feuerzangenbowle“…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Sie ist ein Ablenkungsmanöver, so wie „Die Feuerzangenbowle“ 1944.",
-      "person": "Stefan Schröder",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_86",
-      "label": "Aussage: Der Astronaut Matthias Maurer hat bei seinem Aufenthalt 2022…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Der Astronaut Matthias Maurer hat bei seinem Aufenthalt 2022 auf der ISS 64 Betonproben angerührt, was in der Schwerelosigkeit eine große Herausforderung ist.",
-      "person": "Oliver Kaczmarek",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_87",
-      "label": "Aussage: In der Anwendung soll man Zement und damit eben auch den Aus…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "In der Anwendung soll man Zement und damit eben auch den Ausstoß von CO2 sparen können, später vielleicht auch Bauwerke auf dem Mond errichten können; aber das ist eine weiter entfernte Anwendung.",
-      "person": "Oliver Kaczmarek",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_88",
-      "label": "Aussage: Wer wie die AfD nicht mitbekommen hat, dass Deutschland über…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wer wie die AfD nicht mitbekommen hat, dass Deutschland über 5 Milliarden Euro bei der ESA-Ministerratskonferenz im letzten Herbst gezeichnet hat, der verweigert sich einfach, wahrzunehmen, was die Bundesregierung an dieser Stelle schon auf den Weg gebracht hat.",
-      "person": "Oliver Kaczmarek",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_89",
-      "label": "Aussage: Deshalb will ich einmal hervorheben: Der Bundesverteidigungs…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Deshalb will ich einmal hervorheben: Der Bundesverteidigungsminister Boris Pistorius hat erklärt, 35 Milliarden Euro bis 2030 in einer relativ kurzen Zeit für die Weltraumsicherheit auszugeben: für eine Struktur aus Satelliten, Bodenstationen und gesicherten Startfähigkeiten.",
-      "person": "Oliver Kaczmarek",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_90",
-      "label": "Aussage: Die Artemis-2-Mission zeigt eindrucksvoll: Deutsche Forschun…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die Artemis-2-Mission zeigt eindrucksvoll: Deutsche Forschung und Ingenieurskunst spielen international ganz vorne mit.",
-      "person": "Ayse Asar",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_91",
-      "label": "Aussage: Stattdessen gilt weiter ein Haftungsregime aus den 70er-Jahr…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Stattdessen gilt weiter ein Haftungsregime aus den 70er-Jahren, das private Investitionen ausbremst.",
-      "person": "Ayse Asar",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_92",
-      "label": "Aussage: Über 35 000 Trümmerteile rasen heute mit bis zu 28 000 Kilom…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Über 35 000 Trümmerteile rasen heute mit bis zu 28 000 Kilometer pro Stunde um unsere Erde, jedes einzelne davon ein potenzielles Geschoss.",
-      "person": "Ayse Asar",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_93",
-      "label": "Aussage: Sie zeichnet Projekte für die Rekordsumme von 5,4 Milliarden…",
+      "id": "aussage_38",
+      "label": "Aussage: Die Europäische Union investiert insgesamt über 22 Milliarde…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Sie zeichnet Projekte für die Rekordsumme von 5,4 Milliarden Euro bei der ESA und macht Deutschland zur Weltraumnation Nummer eins in Europa.",
-      "person": "Dr. Hans Theiss",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_94",
-      "label": "Aussage: Und schließlich das 3D-Bioprinting im All: In diesem besonde…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Und schließlich das 3D-Bioprinting im All: In diesem besonders futuristischen Feld soll Gewebe in Schwerelosigkeit gedruckt werden.",
-      "person": "Dr. Hans Theiss",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_95",
-      "label": "Aussage: Am 1. April 2026 startete die NASA-Mission Artemis 2 die ers…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Am 1. April 2026 startete die NASA-Mission Artemis 2 die erste bemannte Mondumrundung seit über 50 Jahren.",
-      "person": "Nicole Höchst",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_96",
-      "label": "Aussage: Deutschland steuerte den größten Einzelbeitrag Europas zu Ar…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Deutschland steuerte den größten Einzelbeitrag Europas zu Artemis 2 bei und zeigt, was deutsche Ingenieurskunst leisten kann.",
-      "person": "Nicole Höchst",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_97",
-      "label": "Aussage: Diese Aktuelle Stunde aber soll Jubel für die Bundesregierun…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Diese Aktuelle Stunde aber soll Jubel für die Bundesregierung erzeugen, weil laut dem ARD-DeutschlandTrend Anfang April 2026 die Zustimmungswerte zu der religiösen Idee, die Bundesregierung mache gute Arbeit, bei nur noch 15 Prozent lag.",
-      "person": "Nicole Höchst",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_98",
-      "label": "Aussage: Im Jahr 2025 kamen allein 165 der weltweit orbitalen Raketen…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Im Jahr 2025 kamen allein 165 der weltweit orbitalen Raketenstarts von SpaceX – mehr als China, Russland und ganz Europa zusammen.",
-      "person": "Nicole Höchst",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_99",
-      "label": "Aussage: Während wir hier jeden Euro für wissenschaftliche und techno…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Während wir hier jeden Euro für wissenschaftliche und technologische Unabhängigkeit erstreiten müssen, pumpt diese Regierung Milliarden ins Ausland, zum Beispiel 10 Milliarden Euro bis 2030 für grünes Wachstum nach Indien, also in ein Land, das selbst eine aufstrebende Raumfahrtnation ist.",
-      "person": "Nicole Höchst",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_100",
-      "label": "Aussage: Meine Damen und Herren, Artemis 2 zeigt: Deutschland hat wei…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Meine Damen und Herren, Artemis 2 zeigt: Deutschland hat weiterhin Potenzial.",
-      "person": "Nicole Höchst",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_101",
-      "label": "Aussage: Die Mondmission Artemis 2 war ein großartiger Moment der jün…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die Mondmission Artemis 2 war ein großartiger Moment der jüngeren Raumfahrtgeschichte.",
+      "text": "Die Europäische Union investiert insgesamt über 22 Milliarden Euro in Raumfahrtprogramme.",
       "person": "Joachim Ebmeyer",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_102",
-      "label": "Aussage: In den Tagen danach haben uns beeindruckende Bilder erreicht…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "In den Tagen danach haben uns beeindruckende Bilder erreicht, Bilder von unserer Erde, wie wir sie sonst nicht sehen, und emotionale Geschichten von vier Menschen, die diesen Raumflug angetreten sind.",
-      "person": "Joachim Ebmeyer",
-      "schicht": "fallbezug"
+      "id": "faktencheck_38",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU hat im Rahmen des mehrjährigen Finanzrahmens (MFR) 2021–2027 insgesamt 14,88 Milliarden Euro für das Programm 'Horizont Europa' (Forschung und Innovation) und das Raumfahrtprogramm der EU vorgesehen. Davon entfallen etwa 13,2 Milliarden Euro auf das EU-Raumfahrtprogramm (inkl. Galile",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_103",
-      "label": "Aussage: 20 000 Einzelteile, 12 Kilometer Verkabelung, 33 Triebwerke,…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "20 000 Einzelteile, 12 Kilometer Verkabelung, 33 Triebwerke, das ist Hochtechnologie made in Germany, entwickelt unter Verantwortung der European Space Agency, umgesetzt gemeinsam mit der Industrie, insbesondere mit Airbus in Deutschland.",
-      "person": "Joachim Ebmeyer",
-      "schicht": "fallbezug"
+      "id": "quelle_eu_finanzrahmen_2021_2027_raumfahrtprogramm_der_eu",
+      "label": "EU-Finanzrahmen 2021–2027: Raumfahrtprogramm der EU",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32021R0696",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_104",
-      "label": "Aussage: Die Europäische Union investiert insgesamt über 22 Milliarde…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die Europäische Union investiert insgesamt über 22 Milliarden Euro in Raumfahrtprogramme.",
-      "person": "Joachim Ebmeyer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_105",
+      "id": "aussage_39",
       "label": "Aussage: Mit Galileo verfügen wir über das präziseste Navigationssyst…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Mit Galileo verfügen wir über das präziseste Navigationssystem der Welt – mit nahezu 4 Milliarden Nutzerinnen und Nutzern.",
+      "text": "Mit Galileo verfügen wir über das präziseste Navigationssystem der Welt – mit nahezu 4 Milliarden Nutzerinnen und Nutzern.",
       "person": "Joachim Ebmeyer",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_106",
-      "label": "Aussage: Mit IRIS2 bauen wir in der EU ein eigenes, sicheres europäis…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Mit IRIS2 bauen wir in der EU ein eigenes, sicheres europäisches Kommunikationsnetzwerk im All auf.",
-      "person": "Joachim Ebmeyer",
-      "schicht": "fallbezug"
+      "id": "faktencheck_39",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Galileo ist das präziseste Satellitennavigationssystem der Welt (Genauigkeit von bis zu 20 cm im hochpräzisen Dienst). Die Zahl von 'nahezu 4 Milliarden Nutzern' bezieht sich auf die geschätzte globale Nutzung von Satellitennavigation (inkl. GPS, GLONASS etc.), da viele Geräte mehrere Syste",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_107",
-      "label": "Aussage: So hat bereits in den 80er-Jahren echte Wissenschaft fleißig…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "So hat bereits in den 80er-Jahren echte Wissenschaft fleißig zugesehen und diese Inspirationen nachgebaut, manches absichtlich, manches aus Versehen.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_108",
-      "label": "Aussage: Picard lief in den 80er-Jahren auf der Enterprise mit einem …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Picard lief in den 80er-Jahren auf der Enterprise mit einem flachen, leuchtenden Ding durch die Gegend, wischte darauf herum, las Berichte und seinen Lieblingsroman „Moby-Dick“ – ganz selbstverständlich.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_109",
-      "label": "Aussage: Das war 1987, 20 Jahre vor dem ersten iPhone.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Das war 1987, 20 Jahre vor dem ersten iPhone.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_110",
-      "label": "Aussage: Aber wir haben jetzt schon den 3D-Drucker.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Aber wir haben jetzt schon den 3D-Drucker.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_111",
-      "label": "Aussage: Die Weltraummissionen nutzen diesen zum Beispiel auf der Int…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die Weltraummissionen nutzen diesen zum Beispiel auf der Internationalen Raumstation, um Ersatzteile herzustellen – in 400 Kilometern Höhe und ohne Lieferdienst.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_112",
-      "label": "Aussage: Aber ich sage es mal so: Geben Sie uns noch 20 Jahre und ein…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Aber ich sage es mal so: Geben Sie uns noch 20 Jahre und ein, zwei ordentliche Start-ups, dann geht das auch mit dem Tee.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_113",
-      "label": "Aussage: Und da Sie eben das DLR auf Lastenräder reduziert haben, möc…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Und da Sie eben das DLR auf Lastenräder reduziert haben, möchte ich Ihnen sagen: Bei der D-2-Mission 1993 eingesetzte Sensoren wurden danach unter anderem von dem DLR für die Beobachtung von Frühchen in der Kinderklinik weiterentwickelt.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_114",
-      "label": "Aussage: – Das machte es nicht nur 1993; das macht es bis heute.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "– Das machte es nicht nur 1993; das macht es bis heute.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_115",
-      "label": "Aussage: Denn am Ende hat es doch auch schon die ISS gezeigt: 16 Nati…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Denn am Ende hat es doch auch schon die ISS gezeigt: 16 Nationen, russische Raketen, amerikanische Kapseln, japanische Versorgungsschiffe, europäische Experimente.",
-      "person": "Stephan Albani",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_116",
-      "label": "Aussage: Wenn wir uns die Zeit vor 20, 25 Jahren angucken, als wir de…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Wenn wir uns die Zeit vor 20, 25 Jahren angucken, als wir den Hype der Globalisierung hatten, erkennen wir, dass es damals auch schon Kritiker gab, die zu genau diesem Thema referiert hatten: Was passiert mit Lieferketten?",
-      "person": "Dr. Saskia Ludwig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_117",
-      "label": "Aussage: So jedenfalls sagt es unsere Demokratie, nämlich die Demokra…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "So jedenfalls sagt es unsere Demokratie, nämlich die Demokratie, die im Grundgesetz 1949 definiert und statuiert wurde.",
-      "person": "Uwe Schulz",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_118",
-      "label": "Aussage: Wir hören Sandra Stein für Bündnis 90/Die Grünen.…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wir hören Sandra Stein für Bündnis 90/Die Grünen.",
-      "person": "Jens Peick",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_119",
-      "label": "Aussage: Eine solche Notsituation – das ist hier in den Reden schon k…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Eine solche Notsituation – das ist hier in den Reden schon klar geworden – war zum Beispiel während der Covid-Pandemie 2021/22 eingetreten.",
-      "person": "Jörg Cezanne",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_120",
-      "label": "Aussage: – Weil Sie uns hier vorwerfen, dass wir den europäischen Bin…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "– Weil Sie uns hier vorwerfen, dass wir den europäischen Binnenmarkt ablehnen – ich weiß ja nicht, ob Sie das AfD-Grundsatzprogramm mal gelesen haben; ich war sogar dabei, als die erste Version in 2016 verabschiedet worden ist –: Die AfD übt ganz explizit Kritik an der EU, aber nicht an der europäis",
-      "person": "Dr. Klaus Wiener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_121",
-      "label": "Aussage: Was wir nicht brauchen, sind 100 000 überbezahlte Bürokraten…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Was wir nicht brauchen, sind 100 000 überbezahlte Bürokraten, an die wir unsere Müllsummen schicken, damit sie dort in irgendwelchen Ablagen verstauben und eine Existenzberechtigung für nutzlose Bürokraten darstellen.",
-      "person": "Dr. Klaus Wiener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_122",
-      "label": "Aussage: Das sage ich auch noch mal ganz bewusst: Ich erinnere mich n…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Das sage ich auch noch mal ganz bewusst: Ich erinnere mich noch gut an eine Rede von jemandem aus Ihren Reihen, der wirklich die Chuzpe hatte, hier zu sagen, dass der Euro gegenüber Gold 90 Prozent seines Wertes verloren hat.",
-      "person": "Dr. Klaus Wiener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_123",
-      "label": "Aussage: Die vielen noch bestehenden Barrieren entsprechen im Warenve…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die vielen noch bestehenden Barrieren entsprechen im Warenverkehr – die Zahlen sind ja bekannt – einem impliziten Zollsatz von 40 Prozent; im Dienstleistungsverkehr sind es sogar 110 Prozent.",
-      "person": "Dr. Klaus Wiener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_124",
-      "label": "Aussage: Ein funktionierender Binnenmarkt ist dabei unser schärfstes …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Ein funktionierender Binnenmarkt ist dabei unser schärfstes Instrument, mit rund 450 Millionen Konsumenten – ich betone das hier noch mal ganz ausdrücklich –, 26 Millionen Unternehmen und einer Wirtschaftsleistung von rund 18 Billionen Euro.",
-      "person": "Dr. Klaus Wiener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_125",
-      "label": "Aussage: Bei der Weltklimakonferenz in Dubai erklärten über 20 Länder…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Bei der Weltklimakonferenz in Dubai erklärten über 20 Länder, den Ausbau der Kernenergie verdreifachen zu wollen.",
-      "person": "Andreas Bleck",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_126",
-      "label": "Aussage: Zum 1. Januar 2026 waren 404 Kernkraftwerke in Betrieb und 6…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Zum 1. Januar 2026 waren 404 Kernkraftwerke in Betrieb und 66 im Bau.",
-      "person": "Andreas Bleck",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_127",
-      "label": "Aussage: Fakt ist doch, dass die Versorgungssicherheit, die wir benöt…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Fakt ist doch, dass die Versorgungssicherheit, die wir benötigen, ab 2030 benötigt wird.",
-      "person": "Lars Rohwer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_128",
-      "label": "Aussage: Also, die Versorgungslücke, die Sie hier ansprechen, müssen …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Also, die Versorgungslücke, die Sie hier ansprechen, müssen wir ab 2030 klären, und das hatten wir heute auch schon im Ausschuss in der Debatte.",
-      "person": "Lars Rohwer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_129",
-      "label": "Aussage: In Deutschland befinden sich rund 9 000 Tonnen hochradioakti…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "In Deutschland befinden sich rund 9 000 Tonnen hochradioaktives Schwermetall in Form bestrahlter Brennelemente, die endgelagert werden müssen.",
-      "person": "Lars Rohwer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_130",
-      "label": "Aussage: Hier haben wir die Aussicht auf einen historischen Meilenste…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Hier haben wir die Aussicht auf einen historischen Meilenstein, die Chance, ein technologisches Problem zu lösen, an dem die Menschheit seit fast 100 Jahren arbeitet.",
-      "person": "Lars Rohwer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_131",
-      "label": "Aussage: Für die Fraktion Bündnis 90/Die Grünen darf ich Dr.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Für die Fraktion Bündnis 90/Die Grünen darf ich Dr.",
-      "person": "Lars Rohwer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_132",
-      "label": "Aussage: Anscheinend hat die AfD ChatGPT gebeten, 100 Antragsideen mi…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Anscheinend hat die AfD ChatGPT gebeten, 100 Antragsideen mit Atombezug zu liefern, oder Sie schreiben einfach nur mit, was Spahn und Söder in Talkshows erzählen.",
-      "person": "Dr. Alaa Alhamwi",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_133",
-      "label": "Aussage: Bis Juni 2025 hatten alle Atomkraftwerke außer Gundremmingen…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Bis Juni 2025 hatten alle Atomkraftwerke außer Gundremmingen B und C ihre FSD abgeschlossen.",
-      "person": "Dr. Alaa Alhamwi",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_134",
-      "label": "Aussage: – beträgt 12 Gigawatt.…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "– beträgt 12 Gigawatt.",
-      "person": "Dr. Nina Scheer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_135",
-      "label": "Aussage: Wenn man jetzt mal diesen Gigawattzahlen die Gigawattleistun…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wenn man jetzt mal diesen Gigawattzahlen die Gigawattleistung der zuletzt abgeschalteten Atomkraftwerke im Netz – und über diese Atomkraftwerke wollen Sie ja nun diskutieren und eine Wiederinbetriebnahme prüfen – gegenüberstellt, dann waren das zuletzt 4,3 Gigawatt.",
-      "person": "Dr. Nina Scheer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_136",
-      "label": "Aussage: Und Sie trauen sich erst in einem Jahr zu, darüber zu befind…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Und Sie trauen sich erst in einem Jahr zu, darüber zu befinden, ob man diese Potenziale – Stichwort „4,3 Gigawatt“ – überhaupt reaktivieren könnte.",
-      "person": "Dr. Nina Scheer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_137",
-      "label": "Aussage: Dabei hätten wir so viel mehr Möglichkeiten und könnten unse…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Dabei hätten wir so viel mehr Möglichkeiten und könnten unseren Sachverstand dazu verwenden, darüber zu reden, wie wir die Genehmigungen, die schon vorliegen, nämlich – ich wiederhole es – 12 GW Wind-Onshore Überschussmenge, umsetzen, ganz zu schweigen von den Hunderten GW, die wir schon ausgebaut h",
-      "person": "Dr. Nina Scheer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_138",
-      "label": "Aussage: Wenn es aber eintritt, dann sind die Folgen sowohl in räumli…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Wenn es aber eintritt, dann sind die Folgen sowohl in räumlicher als auch in zeitlicher Dimension so verheerend und so weitreichend, dass sie die Risiken aller anderen Energieträger bei weitem übertreffen.“ Das sagte die damalige Bundeskanzlerin Angela Merkel 2011 in ihrer Regierungserklärung.",
-      "person": "Lorenz Gösta Beutin",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_139",
-      "label": "Aussage: Seit 2011 sind in der Europäischen Union 37 Atomkraftwerke s…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Seit 2011 sind in der Europäischen Union 37 Atomkraftwerke stillgelegt worden.",
-      "person": "Lorenz Gösta Beutin",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_140",
-      "label": "Aussage: Nach aktuellen Studien sind es 57, die bis 2030 stillgelegt …",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Nach aktuellen Studien sind es 57, die bis 2030 stillgelegt sein werden, und es sind bis 2030 insgesamt nur sechs, die in der Europäischen Union neu gebaut sein werden, wenn es denn so weit kommt.",
-      "person": "Lorenz Gösta Beutin",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_141",
-      "label": "Aussage: Der Kollege von der AfD hat eben vorgetragen, es gäbe eine S…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Der Kollege von der AfD hat eben vorgetragen, es gäbe eine Studie von YouGov, die zu dem Ergebnis kommt: 53 Prozent der deutschen Bundesbürger/-innen halten den Atomausstieg für einen Fehler.",
-      "person": "Lorenz Gösta Beutin",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_142",
-      "label": "Aussage: Die Mehrheit der deutschen Bundesbürger/-innen lehnt es ab, …",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Die Mehrheit der deutschen Bundesbürger/-innen lehnt es ab, wieder in die Atomkraft einzusteigen, und über 60 Prozent fordern den weiteren und stärkeren Ausbau von Sonne und Windkraft.",
-      "person": "Lorenz Gösta Beutin",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_143",
-      "label": "Aussage: Sie könnte helfen, Strompreise zu senken und CO2-Emissionen …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Sie könnte helfen, Strompreise zu senken und CO2-Emissionen zu reduzieren.",
-      "person": "Hans Koller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_144",
-      "label": "Aussage: Der Branchenverband KernD und die Zulieferfirma Westinghouse…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Der Branchenverband KernD und die Zulieferfirma Westinghouse sagen aber, es sei mit jeweils unter 3 Milliarden Euro innerhalb von wenigen Jahren technisch machbar.",
-      "person": "Dr. Paul Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_145",
-      "label": "Aussage: Westinghouse hat ein umfassendes Konzept für alle nötigen Re…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Westinghouse hat ein umfassendes Konzept für alle nötigen Reparaturmaßnahmen entwickelt, ähnliche Maßnahmen wie die, die vor über zehn Jahren an vielen US-amerikanischen Standorten im Rahmen der damals angestrebten Laufzeitverlängerungen auf 60 Jahre erfolgreich durchgeführt wurden.",
-      "person": "Dr. Paul Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_146",
-      "label": "Aussage: Brokdorf, Emsland, Grohnde, Isar 2 und Neckarwestheim II inn…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Brokdorf, Emsland, Grohnde, Isar 2 und Neckarwestheim II innerhalb von drei bis viereinhalb Jahren und die Anlagen Krümmel, Gundremmingen B und C und Philippsburg 2 innerhalb von vier bis fünfeinhalb Jahren, und das für jeweils 1 bis maximal knapp 3 Milliarden Euro.",
-      "person": "Dr. Paul Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_147",
-      "label": "Aussage: Zusammen sind das netto 12 Gigawatt an robuster, regelbarer …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Zusammen sind das netto 12 Gigawatt an robuster, regelbarer Grundlast für 18 Milliarden Euro.",
-      "person": "Dr. Paul Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_148",
-      "label": "Aussage: Ergebnisse sollen bis Frühjahr 2027 vorliegen.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Ergebnisse sollen bis Frühjahr 2027 vorliegen.",
-      "person": "Dr. Paul Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_149",
-      "label": "Aussage: 2024 ist das Gesamtvermögen von Milliardären weltweit um 2 B…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "2024 ist das Gesamtvermögen von Milliardären weltweit um 2 Billionen US-Dollar gestiegen.",
-      "person": "Charlotte Antonia Neuhäuser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_150",
-      "label": "Aussage: Zwölf Männer haben heute mehr Geld als 4 Milliarden Menschen…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Zwölf Männer haben heute mehr Geld als 4 Milliarden Menschen zusammen.",
-      "person": "Charlotte Antonia Neuhäuser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_151",
-      "label": "Aussage: 3,6 Milliarden Menschen sind arm und leben mit weniger als 7…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "3,6 Milliarden Menschen sind arm und leben mit weniger als 7 Dollar am Tag.",
-      "person": "Charlotte Antonia Neuhäuser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_152",
-      "label": "Aussage: 733 Millionen Menschen müssen hungern.…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "733 Millionen Menschen müssen hungern.",
-      "person": "Charlotte Antonia Neuhäuser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_153",
-      "label": "Aussage: Das Gesamtvermögen der deutschen Milliardäre ist zuletzt um …",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Das Gesamtvermögen der deutschen Milliardäre ist zuletzt um fast 27 Milliarden US-Dollar nach oben gegangen, während die Reallöhne jahrelang geschrumpft sind.",
-      "person": "Charlotte Antonia Neuhäuser",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_154",
-      "label": "Aussage: In den vergangenen 30 Jahren hat die Integration von Schwell…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "In den vergangenen 30 Jahren hat die Integration von Schwellenländern in den Weltmarkt mehr zur Armutsbekämpfung beigetragen als alle Entwicklungshilfe zusammen – und erst recht mehr als alle linken Ideologen.",
-      "person": "Dr. Inge Gräßle",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_155",
-      "label": "Aussage: 1,3 Milliarden Menschen wurden aus extremer Armut durch gena…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "1,3 Milliarden Menschen wurden aus extremer Armut durch genau die Politik herausgeführt, die Sie hier ablehnen: durch Freihandelsabkommen, Wirtschaftspartnerschaftsabkommen, „All but weapons“-Abkommen mit zoll- und quotenfreiem Zugang zu europäischen Märkten, ohne selbst den gleichen Zugang zu diese",
-      "person": "Dr. Inge Gräßle",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_156",
-      "label": "Aussage: Korruptionsbekämpfung – ich habe sie 15 Jahre in der Europäi…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Korruptionsbekämpfung – ich habe sie 15 Jahre in der Europäischen Union gemacht – ist ganz wichtig.",
-      "person": "Dr. Inge Gräßle",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_157",
-      "label": "Aussage: Ich habe mir mal herausgesucht, seit wie vielen Jahren sie d…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Ich habe mir mal herausgesucht, seit wie vielen Jahren sie durch die Bundespolitik geistert: 2010 gab es die erste Initiative, eine deutsch-französische Initiative nach der Finanzkrise, 2011 gab es eine Bundesratsinitiative, 2013 stand das Projekt in den Koalitionsverhandlungen und im Regierungsprog",
-      "person": "Dr. Inge Gräßle",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_158",
-      "label": "Aussage: Das ist kein harmloser Vorschlag, das ist der Klassenkampf 2…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Das ist kein harmloser Vorschlag, das ist der Klassenkampf 2.0, frisch aufgewärmt mit deutschem Steuergeld.",
-      "person": "Rocco Kever",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_159",
-      "label": "Aussage: Gleichzeitig behaupten Sie, zwölf Männer hätten mehr Geld al…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Gleichzeitig behaupten Sie, zwölf Männer hätten mehr Geld als 4 Milliarden Menschen.",
-      "person": "Rocco Kever",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_160",
-      "label": "Aussage: Für Bündnis 90/Die Grünen darf ich Schahina Gambir das Wort …",
-      "type": "Aussage",
+      "id": "quelle_europ_ische_kommission_galileo_fakten",
+      "label": "Europäische Kommission: Galileo-Fakten",
+      "type": "Quelle",
       "subtype": "",
-      "text": "Für Bündnis 90/Die Grünen darf ich Schahina Gambir das Wort erteilen.",
-      "person": "Johann Saathoff",
-      "schicht": "fallbezug"
+      "url": "https://ec.europa.eu/growth/sectors/space/galileo_en",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_161",
-      "label": "Aussage: Sie bewirtschaftet dort 1 Hektar Land.…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Sie bewirtschaftet dort 1 Hektar Land.",
-      "person": "Schahina Gambir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_162",
-      "label": "Aussage: Schon vor diesem Krieg sind durch die Zerschlagung von USAID…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Schon vor diesem Krieg sind durch die Zerschlagung von USAID im letzten Jahr 520 000 Kinder verstorben, fast ein Drittel durch Mangelernährung.",
-      "person": "Schahina Gambir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_163",
-      "label": "Aussage: Sie kürzt weiter: beim BMZ, bei der humanitären Hilfe, deutl…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Sie kürzt weiter: beim BMZ, bei der humanitären Hilfe, deutlich über 30 Prozent in den letzten Jahren.",
-      "person": "Schahina Gambir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_164",
-      "label": "Aussage: Dabei hat dieselbe Bundesregierung erst letztes Jahr in Sevi…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Dabei hat dieselbe Bundesregierung erst letztes Jahr in Sevilla feierlich das 0,7-Prozent-Ziel bekräftigt.",
-      "person": "Schahina Gambir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_165",
-      "label": "Aussage: Wir teilen Ihre Analyse, und wir teilen auch das Ziel, dass …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Wir teilen Ihre Analyse, und wir teilen auch das Ziel, dass ODA-Niveau auf die längst versprochenen 0,7 Prozent anzuheben.",
-      "person": "Schahina Gambir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_166",
-      "label": "Aussage: Im Übrigen, Frau Kollegin, nach den vorläufigen Zahlen der O…",
+      "id": "aussage_40",
+      "label": "Aussage: 20 000 Einzelteile, 12 Kilometer Verkabelung, 33 Triebwerke …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Im Übrigen, Frau Kollegin, nach den vorläufigen Zahlen der OECD für 2025 als Land mit der absolut größten Entwicklungshilfe weltweit, gerade aber in der Gesundheitspolitik: 1 Milliarde Euro für den Kampf gegen Aids, Tuberkulose und Malaria bis 2028, 600 Millionen Euro für Impfungen in Entwicklungslä",
-      "person": "Carl-Philipp Sassenrath",
+      "text": "20 000 Einzelteile, 12 Kilometer Verkabelung, 33 Triebwerke [im European Service Module].",
+      "person": "Joachim Ebmeyer",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_167",
-      "label": "Aussage: So zu lesen in Punkt 4 a): „Einführung progressiver, interna…",
+      "id": "faktencheck_40",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das European Service Module (ESM) für die Artemis-Missionen enthält laut ESA und Airbus Defence and Space etwa 20.000 Einzelteile, 12 km Kabel und 33 Triebwerke (1 Haupttriebwerk, 8 Hilfstriebwerke, 24 Lageregelungstriebwerke).",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_esa_european_service_module_facts_and_figures",
+      "label": "ESA: European Service Module – Facts and Figures",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_41",
+      "label": "Aussage: Alleine der Genehmigungsüberschuss für Windenergie an Land b…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "So zu lesen in Punkt 4 a): „Einführung progressiver, international koordinierter Steuern […] in Form von globalen Unternehmenssteuern, Finanztransaktionssteuern, Umweltsteuern“ und Reichensteuern.",
-      "person": "Matthias Rentzsch",
+      "subtype": "SPD",
+      "text": "Alleine der Genehmigungsüberschuss für Windenergie an Land beträgt 12 Gigawatt.",
+      "person": "Dr. Nina Scheer",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_168",
-      "label": "Aussage: Noch anmaßender ist der Punkt 3 b).…",
+      "id": "faktencheck_41",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesnetzagentur gab es Ende 2023 einen Genehmigungsüberschuss von etwa 12 GW für Windenergie an Land, allerdings bezieht sich dies auf bereits genehmigte, aber noch nicht realisierte Projekte. Der Begriff 'Genehmigungsüberschuss' ist nicht amtlich definiert und kann unterschiedlich i",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesnetzagentur_quartalsbericht_wind_an_land",
+      "label": "Bundesnetzagentur - Quartalsbericht Wind an Land",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Quartalszahlen/2023/4-Quartal-2023.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_42",
+      "label": "Aussage: Hunderte Gigawatt Netzanschlussanfragen für Batteriespeicher…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Noch anmaßender ist der Punkt 3 b).",
-      "person": "Matthias Rentzsch",
+      "subtype": "SPD",
+      "text": "Hunderte Gigawatt Netzanschlussanfragen für Batteriespeicher liegen derzeit vor.",
+      "person": "Dr. Nina Scheer",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_169",
-      "label": "Aussage: Das heißt, zu den im Antrag bereits geforderten circa 32 Mil…",
+      "id": "faktencheck_42",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik oder Veröffentlichung, die diese konkrete Zahl ('Hunderte Gigawatt') für Netzanschlussanfragen von Batteriespeichern bestätigt. Die Bundesnetzagentur veröffentlicht zwar Daten zu Speichern, aber nicht in dieser aggregierten Form.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_43",
+      "label": "Aussage: Die zuletzt abgeschalteten Atomkraftwerke im Netz hatten ein…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Das heißt, zu den im Antrag bereits geforderten circa 32 Milliarden Euro würden noch mal circa 4 bis 6 Milliarden Euro hinzukommen – in Summe mehr als 36 Milliarden Euro jährlich für absolut intransparente öffentliche Entwicklungshilfeleistungen.",
-      "person": "Matthias Rentzsch",
+      "subtype": "SPD",
+      "text": "Die zuletzt abgeschalteten Atomkraftwerke im Netz hatten eine Leistung von 4,3 Gigawatt.",
+      "person": "Dr. Nina Scheer",
       "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_43",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die drei letzten in Deutschland betriebenen Atomkraftwerke (Isar 2, Emsland, Neckarwestheim 2) hatten eine installierte Nettoleistung von zusammen 4,29 GW. Sie wurden im April 2023 abgeschaltet.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesministerium_f_r_umwelt_naturschutz_nukleare_sicherheit_und_verbraucherschutz_abschaltung_der_letzten_akws",
+      "label": "Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz - Abschaltung der letzten AKWs",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmuv.de/themen/atomenergie-strahlenschutz/atomenergie/abschaltung-der-atomkraftwerke",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "ereignis_0",
@@ -12266,11 +11699,11 @@
       "source_id": "aussage_0",
       "target_id": "faktencheck_0",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_bundeshaushaltsplan_2023_einzelplan_30_bundesministerium_f_r_bildung_und_forschung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12291,11 +11724,11 @@
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_christoph_birghan",
+      "source_id": "person_dorothee_b_r",
       "target_id": "aussage_2",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12308,15 +11741,15 @@
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_bundesregierung_hightech_strategie_2025",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_carolin_wagner",
+      "source_id": "person_dorothee_b_r",
       "target_id": "aussage_3",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12333,7 +11766,7 @@
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12354,7 +11787,7 @@
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12371,15 +11804,15 @@
       "source_id": "aussage_5",
       "target_id": "faktencheck_5",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_bundesbericht_wissenschaftlicher_nachwuchs_buwin_2021",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dorothee_b_r",
+      "source_id": "person_daniel_baldy",
       "target_id": "aussage_6",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12392,15 +11825,15 @@
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_bundesnachrichtendienst_geschichte",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_ayse_asar",
+      "source_id": "person_daniel_baldy",
       "target_id": "aussage_7",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12417,11 +11850,11 @@
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_ayse_asar",
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_8",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12434,15 +11867,15 @@
       "source_id": "aussage_8",
       "target_id": "faktencheck_8",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_bundeslagebild_cybercrime_2022_bundeskriminalamt",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_florian_oest",
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_9",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12459,11 +11892,11 @@
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_bundeslagebild_cybercrime_verschiedene_jahrg_nge_bundeskriminalamt",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_florian_oest",
+      "source_id": "person_hans_j_rgen_go_ner",
       "target_id": "aussage_10",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12476,15 +11909,15 @@
       "source_id": "aussage_10",
       "target_id": "faktencheck_10",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_bayerischer_erlass_zur_gendersprache_in_beh_rden_und_schulen",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_florian_oest",
+      "source_id": "person_hans_j_rgen_go_ner",
       "target_id": "aussage_11",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12497,15 +11930,15 @@
       "source_id": "aussage_11",
       "target_id": "faktencheck_11",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_statistisches_bundesamt_ausgaben_und_einnahmen_der_ffentlichen_kinder_und_jugendhilfe",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dorothee_b_r",
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_12",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12515,7 +11948,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dorothee_b_r",
+      "source_id": "aussage_12",
+      "target_id": "faktencheck_12",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_12",
+      "target_id": "quelle_statistisches_bundesamt_destatis_ausgaben_f_r_kinder_und_jugendhilfe",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_13",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12525,7 +11969,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dorothee_b_r",
+      "source_id": "aussage_13",
+      "target_id": "faktencheck_13",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_13",
+      "target_id": "quelle_bundesministerium_f_r_familie_senioren_frauen_und_jugend_unterhaltsvorschussstatistik",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_14",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12535,7 +11990,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_florian_oest",
+      "source_id": "aussage_14",
+      "target_id": "faktencheck_14",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_14",
+      "target_id": "quelle_kommunaler_finanzreport_2023_bertelsmann_stiftung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_15",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12545,7 +12011,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dorothee_b_r",
+      "source_id": "aussage_15",
+      "target_id": "faktencheck_15",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_15",
+      "target_id": "quelle_bundesregierung_fr_hjahrsprojektion_2024",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_christoph_birghan",
       "target_id": "aussage_16",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12555,7 +12032,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_heidi_reichinnek",
+      "source_id": "aussage_16",
+      "target_id": "faktencheck_16",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_16",
+      "target_id": "quelle_bev_lkerung_deutschlands_nach_demografischen_merkmalen_destatis",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_17",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12565,7 +12053,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_ronald_gl_ser",
+      "source_id": "aussage_17",
+      "target_id": "faktencheck_17",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_17",
+      "target_id": "quelle_f_nfter_armuts_und_reichtumsbericht_der_bundesregierung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_18",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12575,7 +12074,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_daniel_baldy",
+      "source_id": "aussage_18",
+      "target_id": "faktencheck_18",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_18",
+      "target_id": "quelle_bundestags_drucksache_20_5642_antwort_der_bundesregierung_auf_eine_kleine_anfrage",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_19",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12585,7 +12095,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_daniel_baldy",
+      "source_id": "aussage_19",
+      "target_id": "faktencheck_19",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_19",
+      "target_id": "quelle_bundeszentrale_f_r_politische_bildung_ukraine_konflikt",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_20",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12595,7 +12116,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_katja_strauss_k_ster",
+      "source_id": "aussage_20",
+      "target_id": "faktencheck_20",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_20",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_21",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12605,7 +12137,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_katja_strauss_k_ster",
+      "source_id": "aussage_21",
+      "target_id": "faktencheck_21",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_21",
+      "target_id": "quelle_europ_ischer_rat_ukraine_eu_beschlie_t_bis_2027_unterst_tzung_in_h_he_von_50_mrd_euro",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_22",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12615,7 +12158,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_nicole_gohlke",
+      "source_id": "aussage_22",
+      "target_id": "faktencheck_22",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_22",
+      "target_id": "quelle_alterssicherungsbericht_2020_bundesministerium_f_r_arbeit_und_soziales",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_23",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12625,7 +12179,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_nicole_gohlke",
+      "source_id": "aussage_23",
+      "target_id": "faktencheck_23",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_23",
+      "target_id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_24",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12635,7 +12200,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_nicole_gohlke",
+      "source_id": "aussage_24",
+      "target_id": "faktencheck_24",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_24",
+      "target_id": "quelle_senatsverwaltung_f_r_stadtentwicklung_und_wohnen_berlin_mietspiegel_2023",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_25",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12645,7 +12221,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_nicole_gohlke",
+      "source_id": "aussage_25",
+      "target_id": "faktencheck_25",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_25",
+      "target_id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12655,7 +12242,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_nicole_gohlke",
+      "source_id": "aussage_26",
+      "target_id": "faktencheck_26",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_26",
+      "target_id": "quelle_senatsverwaltung_f_r_stadtentwicklung_und_wohnen_berlin_mietspiegel_2023",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_27",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12665,7 +12263,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_hans_j_rgen_go_ner",
+      "source_id": "aussage_27",
+      "target_id": "faktencheck_27",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "irreführend"
+    },
+    {
+      "source_id": "faktencheck_27",
+      "target_id": "quelle_nasa_apollo_13_mission_overview",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_28",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12675,7 +12284,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_hans_j_rgen_go_ner",
+      "source_id": "aussage_28",
+      "target_id": "faktencheck_28",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_28",
+      "target_id": "quelle_esa_space_in_asia_pacific",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_29",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12685,7 +12305,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_heidi_reichinnek",
+      "source_id": "aussage_29",
+      "target_id": "faktencheck_29",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_29",
+      "target_id": "quelle_esa_european_service_module",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_30",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12695,7 +12326,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_mayra_vriesema",
+      "source_id": "aussage_30",
+      "target_id": "faktencheck_30",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_30",
+      "target_id": "quelle_jena_optronik_star_sensors",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_31",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12705,7 +12347,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_mayra_vriesema",
+      "source_id": "aussage_31",
+      "target_id": "faktencheck_31",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_31",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_32",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12715,7 +12368,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_mayra_vriesema",
+      "source_id": "aussage_32",
+      "target_id": "faktencheck_32",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "irreführend"
+    },
+    {
+      "source_id": "faktencheck_32",
+      "target_id": "quelle_nasa_artemis_ii_crew",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_vizepr_sidentin_josephine_ortleb",
       "target_id": "aussage_33",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12725,1364 +12389,225 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dorothee_b_r",
+      "source_id": "aussage_33",
+      "target_id": "faktencheck_33",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_33",
+      "target_id": "quelle_esa_european_astronauts_to_fly_to_the_moon",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_andreas_mayer",
       "target_id": "aussage_34",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_34",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dorothee_b_r",
+      "source_id": "aussage_34",
+      "target_id": "faktencheck_34",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_34",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_andreas_mayer",
       "target_id": "aussage_35",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_35",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_pascal_meiser",
+      "source_id": "aussage_35",
+      "target_id": "faktencheck_35",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_35",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_andreas_mayer",
       "target_id": "aussage_36",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_36",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_pascal_meiser",
+      "source_id": "aussage_36",
+      "target_id": "faktencheck_36",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "falsch"
+    },
+    {
+      "source_id": "faktencheck_36",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_andreas_mayer",
       "target_id": "aussage_37",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_37",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_thorsten_frei",
+      "source_id": "aussage_37",
+      "target_id": "faktencheck_37",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_37",
+      "target_id": "quelle_brycetech_2023_space_launch_report",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_joachim_ebmeyer",
       "target_id": "aussage_38",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_38",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_thorsten_frei",
+      "source_id": "aussage_38",
+      "target_id": "faktencheck_38",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_38",
+      "target_id": "quelle_eu_finanzrahmen_2021_2027_raumfahrtprogramm_der_eu",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_joachim_ebmeyer",
       "target_id": "aussage_39",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_39",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_pascal_meiser",
+      "source_id": "aussage_39",
+      "target_id": "faktencheck_39",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_39",
+      "target_id": "quelle_europ_ische_kommission_galileo_fakten",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_joachim_ebmeyer",
       "target_id": "aussage_40",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_40",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_pascal_meiser",
+      "source_id": "aussage_40",
+      "target_id": "faktencheck_40",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_40",
+      "target_id": "quelle_esa_european_service_module_facts_and_figures",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_nina_scheer",
       "target_id": "aussage_41",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_41",
-      "target_id": "top_1",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_pascal_meiser",
+      "source_id": "aussage_41",
+      "target_id": "faktencheck_41",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_41",
+      "target_id": "quelle_bundesnetzagentur_quartalsbericht_wind_an_land",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_nina_scheer",
       "target_id": "aussage_42",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_42",
-      "target_id": "top_1",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_mayra_vriesema",
+      "source_id": "aussage_42",
+      "target_id": "faktencheck_42",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_42",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_nina_scheer",
       "target_id": "aussage_43",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_43",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_marcel_emmerich",
-      "target_id": "aussage_44",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_44",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_thorsten_frei",
-      "target_id": "aussage_45",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_45",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_heidi_reichinnek",
-      "target_id": "aussage_46",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_46",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_rainer_gro",
-      "target_id": "aussage_47",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_47",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_48",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_48",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_49",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_49",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_50",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_50",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_51",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_51",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_thorsten_frei",
-      "target_id": "aussage_52",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_52",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_thorsten_frei",
-      "target_id": "aussage_53",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_53",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_thorsten_frei",
-      "target_id": "aussage_54",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_54",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_pascal_meiser",
-      "target_id": "aussage_55",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_55",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_pascal_meiser",
-      "target_id": "aussage_56",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_56",
-      "target_id": "top_1",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_57",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_57",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_58",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_58",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_59",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_59",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_60",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_60",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_61",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_61",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dorothee_b_r",
-      "target_id": "aussage_62",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_62",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_andreas_mayer",
-      "target_id": "aussage_63",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_63",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_andreas_mayer",
-      "target_id": "aussage_64",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_64",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_andreas_mayer",
-      "target_id": "aussage_65",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_65",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_andreas_mayer",
-      "target_id": "aussage_66",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_66",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_andreas_mayer",
-      "target_id": "aussage_67",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_67",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_andreas_mayer",
-      "target_id": "aussage_68",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_68",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_andreas_mayer",
-      "target_id": "aussage_69",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_69",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_carolin_wagner",
-      "target_id": "aussage_70",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_70",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_carolin_wagner",
-      "target_id": "aussage_71",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_71",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_carolin_wagner",
-      "target_id": "aussage_72",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_72",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_carolin_wagner",
-      "target_id": "aussage_73",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_73",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_claudia_m_ller",
-      "target_id": "aussage_74",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_74",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_claudia_m_ller",
-      "target_id": "aussage_75",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_75",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_claudia_m_ller",
-      "target_id": "aussage_76",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_76",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sonja_lemke",
-      "target_id": "aussage_77",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_77",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sonja_lemke",
-      "target_id": "aussage_78",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_78",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_rainer_kraft",
-      "target_id": "aussage_79",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_79",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stefan_schr_der",
-      "target_id": "aussage_80",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_80",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stefan_schr_der",
-      "target_id": "aussage_81",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_81",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stefan_schr_der",
-      "target_id": "aussage_82",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_82",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stefan_schr_der",
-      "target_id": "aussage_83",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_83",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stefan_schr_der",
-      "target_id": "aussage_84",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_84",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stefan_schr_der",
-      "target_id": "aussage_85",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_85",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_oliver_kaczmarek",
-      "target_id": "aussage_86",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_86",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_oliver_kaczmarek",
-      "target_id": "aussage_87",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_87",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_oliver_kaczmarek",
-      "target_id": "aussage_88",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_88",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_oliver_kaczmarek",
-      "target_id": "aussage_89",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_89",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_ayse_asar",
-      "target_id": "aussage_90",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_90",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_ayse_asar",
-      "target_id": "aussage_91",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_91",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_ayse_asar",
-      "target_id": "aussage_92",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_92",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_hans_theiss",
-      "target_id": "aussage_93",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_93",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_hans_theiss",
-      "target_id": "aussage_94",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_94",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_nicole_h_chst",
-      "target_id": "aussage_95",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_95",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_nicole_h_chst",
-      "target_id": "aussage_96",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_96",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_nicole_h_chst",
-      "target_id": "aussage_97",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_97",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_nicole_h_chst",
-      "target_id": "aussage_98",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_98",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_nicole_h_chst",
-      "target_id": "aussage_99",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_99",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_nicole_h_chst",
-      "target_id": "aussage_100",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_100",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_ebmeyer",
-      "target_id": "aussage_101",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_101",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_ebmeyer",
-      "target_id": "aussage_102",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_102",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_ebmeyer",
-      "target_id": "aussage_103",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_103",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_ebmeyer",
-      "target_id": "aussage_104",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_104",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_ebmeyer",
-      "target_id": "aussage_105",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_105",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_ebmeyer",
-      "target_id": "aussage_106",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_106",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_107",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_107",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_108",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_108",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_109",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_109",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_110",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_110",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_111",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_111",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_112",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_112",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_113",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_113",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_114",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_114",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_albani",
-      "target_id": "aussage_115",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_115",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_saskia_ludwig",
-      "target_id": "aussage_116",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_116",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_uwe_schulz",
-      "target_id": "aussage_117",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_117",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_jens_peick",
-      "target_id": "aussage_118",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_118",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_j_rg_cezanne",
-      "target_id": "aussage_119",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_119",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_klaus_wiener",
-      "target_id": "aussage_120",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_120",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_klaus_wiener",
-      "target_id": "aussage_121",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_121",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_klaus_wiener",
-      "target_id": "aussage_122",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_122",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_klaus_wiener",
-      "target_id": "aussage_123",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_123",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_klaus_wiener",
-      "target_id": "aussage_124",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_124",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_andreas_bleck",
-      "target_id": "aussage_125",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_125",
       "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_andreas_bleck",
-      "target_id": "aussage_126",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_126",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lars_rohwer",
-      "target_id": "aussage_127",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_127",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lars_rohwer",
-      "target_id": "aussage_128",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_128",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lars_rohwer",
-      "target_id": "aussage_129",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_129",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lars_rohwer",
-      "target_id": "aussage_130",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_130",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lars_rohwer",
-      "target_id": "aussage_131",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_131",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_alaa_alhamwi",
-      "target_id": "aussage_132",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_132",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_alaa_alhamwi",
-      "target_id": "aussage_133",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_133",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_nina_scheer",
-      "target_id": "aussage_134",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_134",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_nina_scheer",
-      "target_id": "aussage_135",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_135",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_nina_scheer",
-      "target_id": "aussage_136",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_136",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_nina_scheer",
-      "target_id": "aussage_137",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_137",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lorenz_g_sta_beutin",
-      "target_id": "aussage_138",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_138",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lorenz_g_sta_beutin",
-      "target_id": "aussage_139",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_139",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lorenz_g_sta_beutin",
-      "target_id": "aussage_140",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_140",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lorenz_g_sta_beutin",
-      "target_id": "aussage_141",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_141",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_lorenz_g_sta_beutin",
-      "target_id": "aussage_142",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_142",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_hans_koller",
-      "target_id": "aussage_143",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_143",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_paul_schmidt",
-      "target_id": "aussage_144",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_144",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_paul_schmidt",
-      "target_id": "aussage_145",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_145",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_paul_schmidt",
-      "target_id": "aussage_146",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_146",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_paul_schmidt",
-      "target_id": "aussage_147",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_147",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_paul_schmidt",
-      "target_id": "aussage_148",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_148",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_charlotte_antonia_neuh_user",
-      "target_id": "aussage_149",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_149",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_charlotte_antonia_neuh_user",
-      "target_id": "aussage_150",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_150",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_charlotte_antonia_neuh_user",
-      "target_id": "aussage_151",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_151",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_charlotte_antonia_neuh_user",
-      "target_id": "aussage_152",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_152",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_charlotte_antonia_neuh_user",
-      "target_id": "aussage_153",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_153",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_inge_gr_le",
-      "target_id": "aussage_154",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_154",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_inge_gr_le",
-      "target_id": "aussage_155",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_155",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_inge_gr_le",
-      "target_id": "aussage_156",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_156",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_inge_gr_le",
-      "target_id": "aussage_157",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_157",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_rocco_kever",
-      "target_id": "aussage_158",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_158",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_rocco_kever",
-      "target_id": "aussage_159",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_159",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johann_saathoff",
-      "target_id": "aussage_160",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_160",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_schahina_gambir",
-      "target_id": "aussage_161",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_161",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_schahina_gambir",
-      "target_id": "aussage_162",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_162",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_schahina_gambir",
-      "target_id": "aussage_163",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_163",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_schahina_gambir",
-      "target_id": "aussage_164",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_164",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_schahina_gambir",
-      "target_id": "aussage_165",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_165",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_carl_philipp_sassenrath",
-      "target_id": "aussage_166",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_166",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_matthias_rentzsch",
-      "target_id": "aussage_167",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_167",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_matthias_rentzsch",
-      "target_id": "aussage_168",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_168",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_matthias_rentzsch",
-      "target_id": "aussage_169",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_169",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
+      "source_id": "aussage_43",
+      "target_id": "faktencheck_43",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_43",
+      "target_id": "quelle_bundesministerium_f_r_umwelt_naturschutz_nukleare_sicherheit_und_verbraucherschutz_abschaltung_der_letzten_akws",
+      "relationship_type": "BELEGT_MIT"
     },
     {
       "source_id": "top_1",

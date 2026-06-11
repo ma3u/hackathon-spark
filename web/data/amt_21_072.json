@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 741,
-    "relationship_count": 1384,
+    "node_count": 720,
+    "relationship_count": 1264,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21072.pdf",
@@ -1242,38 +1242,38 @@
     },
     {
       "id": "aussage_0",
-      "label": "Aussage: Bezeichnenderweise legen Sie ja der Kreditwirtschaft die Ver…",
+      "label": "Aussage: Für Millionen Menschen in unserem Land ist das [Überschuldun…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Bezeichnenderweise legen Sie ja der Kreditwirtschaft die Verwendung verständlicher Sprache ans Herz, schaffen dann aber selbst Satzungetüme wie etwa folgenden im neuen § 506 BGB – ich zitiere –: „Wenn ein Unternehmer, der kein Kleinstunternehmen oder kein kleines oder mittleres Unternehmen im Sinne ",
-      "person": "Stefan Möller",
+      "subtype": "",
+      "text": "Für Millionen Menschen in unserem Land ist das [Überschuldung] keine Vorstellung, es ist Realität.",
+      "person": "Präsidentin Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_0",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die zitierte Passage stammt tatsächlich aus dem neu eingefügten § 506 Absatz 1a BGB (in der Fassung des Gesetzes zur Umsetzung der Richtlinie (EU) 2021/2167 über Kreditdienstleister und Kreditkäufer, BGBl. I 2023 S. 412). Der Wortlaut entspricht dem im Bundestag kritisierten Satzungetüm.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt waren 2022 etwa 6,16 Millionen Menschen in Deutschland überschuldet (Schuldenbarometer der Creditreform). Die Aussage ist somit quantitativ belegt, aber der Begriff 'Millionen' ist unscharf und könnte auch höhere Zahlen suggerieren. Die genaue Größenordnung ist ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesgesetzblatt_jahrgang_2023_teil_i_nr_105_ausgegeben_zu_bonn_am_28_april_2023",
-      "label": "Bundesgesetzblatt Jahrgang 2023 Teil I Nr. 105, ausgegeben zu Bonn am 28. April 2023",
+      "id": "quelle_schuldenbarometer_2022_statistisches_bundesamt_destatis_creditreform",
+      "label": "Schuldenbarometer 2022 – Statistisches Bundesamt (Destatis) / Creditreform",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl123s0412.pdf#__bgbl__%2F%2F*%5B%40attr_id%3D%27bgbl123s0412.pdf%27%5D__1693914235560",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Ueberschuldung/_inhalt.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_1",
-      "label": "Aussage: So schränkt er im neuen § 37a Bundesdatenschutzgesetz die au…",
+      "label": "Aussage: Je früher man Hilfe bekommt, desto größer ist die Chance, ei…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "So schränkt er im neuen § 37a Bundesdatenschutzgesetz die automatisierte Erstellung von Wahrscheinlichkeitswerten für Zahlungsausfälle stark ein.",
-      "person": "Stefan Möller",
+      "subtype": "",
+      "text": "Je früher man Hilfe bekommt, desto größer ist die Chance, eine Krise zu überwinden.",
+      "person": "Präsidentin Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
@@ -1282,52 +1282,7 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_ki_faktencheck_nicht_m_glich",
-      "label": "KI-Faktencheck nicht möglich",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_2",
-      "label": "Aussage: Diese Regelung, meine Damen und Herren – immerhin dicht bedr…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Diese Regelung, meine Damen und Herren – immerhin dicht bedruckte anderthalb DIN-A4-Seiten – ist damit das Papier nicht wert, auf dem es mal gedruckt werden wird.",
-      "person": "Stefan Möller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_2",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_3",
-      "label": "Aussage: Aber auch bei uns gibt es Schulen, in denen zum Teil nicht m…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Aber auch bei uns gibt es Schulen, in denen zum Teil nicht mal 20 Prozent der Schüler die Mathevorprüfung bestehen.",
-      "person": "Stefan Möller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_3",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine bundesweit einheitliche oder öffentlich zugängliche Statistik, die den Anteil der Schüler spezifiziert, die eine 'Mathevorprüfung' (z. B. Vergleichsarbeiten, zentrale Prüfungen oder schulinterne Tests) an einzelnen Schulen nicht bestehen. Ohne konkrete Definition der 'Mathevor",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist eine allgemeine Feststellung ohne konkrete quantitative Behauptung. Es gibt zwar Studien zur Wirksamkeit von Schuldnerberatung, aber keine spezifischen, überprüfbaren Zahlen in der Rede.",
       "schicht": "faktencheck"
     },
     {
@@ -1340,43 +1295,7 @@
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_4",
-      "label": "Aussage: Künftig gilt bei Allgemein-Verbraucherdarlehensverträgen die…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Künftig gilt bei Allgemein-Verbraucherdarlehensverträgen die Textform statt der Schriftform, und das war längst überfällig; denn wer im Jahr 2026 noch an der Schriftform festhält, hat die digitale Realität schlicht nicht verstanden.",
-      "person": "Susanne Hierl",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_4",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_5",
-      "label": "Aussage: Für die Fraktion Bündnis 90/Die Grünen hat nun Herr Abgeordn…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Für die Fraktion Bündnis 90/Die Grünen hat nun Herr Abgeordneter Stefan Schmidt das Wort.",
-      "person": "Susanne Hierl",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_5",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist eine prozedurale Feststellung im Bundestag und keine quantitative Tatsachenbehauptung. Zudem gibt es keine amtliche Quelle, die diese spezifische Wortvergabe in Echtzeit oder nachträglich als überprüfbare Faktenaussage dokumentiert.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_6",
+      "id": "aussage_2",
       "label": "Aussage: Bis zum 20. November letzten Jahres hätte der Bundestag die …",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -1385,169 +1304,169 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_6",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_2",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU-Verbraucherkreditrichtlinie (Richtlinie (EU) 2023/2225) musste bis zum 20. November 2025 in nationales Recht umgesetzt werden. Die Aussage bezieht sich auf das Jahr 2023, was korrekt ist, da die Rede im Jahr 2024 gehalten wurde und sich auf die Frist 2023 bezieht.",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_7",
-      "label": "Aussage: Es ist höchste Zeit, neue Kreditformen und Kleinkredite bis …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Es ist höchste Zeit, neue Kreditformen und Kleinkredite bis 200 Euro wie richtige Kredite zu behandeln und strenger zu regeln; denn es sind genau solche Kredite, die vor allem junge Menschen regelmäßig in die Verschuldung und in die Überschuldung treiben.",
-      "person": "Stefan Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_7",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_8",
-      "label": "Aussage: Aus einer übersehenen Rechnung von 4,90 Euro werden mit Mahn…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Aus einer übersehenen Rechnung von 4,90 Euro werden mit Mahn- und Inkassogebühren schnell Schulden von über 34 Euro.",
-      "person": "Stefan Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_8",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält eine konkrete Zahlenangabe, die jedoch stark vom Einzelfall abhängt. Mahn- und Inkassogebühren sind gesetzlich geregelt, aber die tatsächliche Höhe variiert je nach Anzahl der Mahnungen, Inkassounternehmen und zusätzlichen Kosten (z. B. Verzugszinsen). Laut § 33 Abs. 2 R",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundesministerium_der_justiz_inkassokostenverordnung_inkassokostenv",
-      "label": "Bundesministerium der Justiz - Inkassokostenverordnung (InkassokostenV)",
+      "id": "quelle_richtlinie_eu_2023_2225_des_europ_ischen_parlaments_und_des_rates",
+      "label": "Richtlinie (EU) 2023/2225 des Europäischen Parlaments und des Rates",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.gesetze-im-internet.de/inkassokostenv/BJNR101000013.html",
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32023L2225",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_9",
-      "label": "Aussage: Das klingt überschaubar, entspricht aber einer Kostenexplosi…",
+      "id": "aussage_3",
+      "label": "Aussage: Das trifft laut einer BaFin-Studie auf jeden vierten jungen …",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Das klingt überschaubar, entspricht aber einer Kostenexplosion von etwa 600 Prozent.",
+      "text": "Das trifft laut einer BaFin-Studie auf jeden vierten jungen Menschen zu, der heute kauft und später zahlt.",
       "person": "Stefan Schmidt",
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_9",
+      "id": "faktencheck_3",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine nicht näher spezifizierte Kostenentwicklung, die mit einer Steigerung von 'etwa 600 Prozent' beschrieben wird. Ohne konkreten Kontext (z. B. welche Kosten, welcher Zeitraum, welche Ausgangs- und Endwerte) lässt sich die Behauptung nicht überprüfen. Es gibt ",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche BaFin-Studie, die diese konkrete Zahl (25 % der jungen Menschen) im Zusammenhang mit 'Buy now, pay later'-Modellen belegt. Die BaFin veröffentlicht zwar Studien zu Verbraucherkrediten, aber diese spezifische Aussage konnte nicht verifiziert werden.",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_10",
+      "id": "quelle_keine_belastbare_quelle_gefunden",
+      "label": "Keine belastbare Quelle gefunden",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_4",
+      "label": "Aussage: Aus einer übersehenen Rechnung von 4,90 Euro werden mit Mahn…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Aus einer übersehenen Rechnung von 4,90 Euro werden mit Mahn- und Inkassogebühren schnell Schulden von über 34 Euro. Das entspricht einer Kostenexplosion von etwa 600 Prozent.",
+      "person": "Stefan Schmidt",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_4",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Berechnung (4,90 € auf 34 € = ~600 % Steigerung) ist mathematisch korrekt. Allerdings ist die Aussage allgemein gehalten und bezieht sich auf ein Beispiel aus der Schuldnerberatung, das nicht spezifisch belegt ist. Mahn- und Inkassogebühren können je nach Fall variieren, aber die Größen",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_keine_spezifische_amtliche_quelle_aber_allgemeine_informationen_zu_inkassokosten",
+      "label": "Keine spezifische amtliche Quelle, aber allgemeine Informationen zu Inkassokosten",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesjustizamt.de/DE/Themen/Buergerdienste/Inkasso/Inkasso_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_5",
+      "label": "Aussage: Die EU-Kommission hat ein Vertragsverletzungsverfahren gegen…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Die EU-Kommission hat ein Vertragsverletzungsverfahren gegen Deutschland eingeleitet.",
+      "person": "Stefan Schmidt",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_5",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU-Kommission hat am 25. Januar 2024 ein Vertragsverletzungsverfahren gegen Deutschland wegen Nichtumsetzung der EU-Verbraucherkreditrichtlinie eingeleitet.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_pressemitteilung_der_europ_ischen_kommission",
+      "label": "Pressemitteilung der Europäischen Kommission",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/de/inf_24_405",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_6",
       "label": "Aussage: Die EU-Verbraucherkreditrichtlinie sollte zum 20. November 2…",
       "type": "Aussage",
-      "subtype": "Die Linke",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
       "text": "Die EU-Verbraucherkreditrichtlinie sollte zum 20. November 2025 in nationales Recht umgesetzt sein.",
-      "person": "Christin Willnat",
+      "person": "Stefan Schmidt",
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_10",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_6",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Frist zur Umsetzung der Richtlinie (EU) 2023/2225 war der 20. November 2025, aber die Aussage in der Rede bezieht sich auf das Jahr 2023 (siehe erste Aussage). Die Wiederholung der Frist als 2025 ist hier irreführend, da der Kontext auf 2023 abzielt.",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_11",
-      "label": "Aussage: Das Schuldnerberatungsdienstegesetz, im Bundestag beschlosse…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Das Schuldnerberatungsdienstegesetz, im Bundestag beschlossen am 14. November 2025, hängt im Bundesrat fest.",
-      "person": "Christin Willnat",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_11",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Automatische Prüfung fehlgeschlagen (BadRequestError).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_12",
-      "label": "Aussage: Mehr als 80 Prozent der jungen Krebspatientinnen und -patien…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Mehr als 80 Prozent der jungen Krebspatientinnen und -patienten überleben heute ihre Erkrankung.",
-      "person": "Carmen Wegge",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_13",
-      "label": "Aussage: Frankreich hat das 2016 geändert.…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Frankreich hat das 2016 geändert.",
-      "person": "Carmen Wegge",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_14",
-      "label": "Aussage: Sie wollen klimaneutrale Mobilität für Haushalte mit kleinen…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Sie wollen klimaneutrale Mobilität für Haushalte mit kleinen und mittleren Einkommen fördern, rückwirkend zum 1. Januar 2026, selbst wenn die Verträge schon geschlossen sind.",
-      "person": "Stephan Brandner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_15",
-      "label": "Aussage: Es funktioniert ja auch nicht; denn die klimaneutrale Mobili…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Es funktioniert ja auch nicht; denn die klimaneutrale Mobilität, die Sie bei Pkws vorsehen, funktioniert hinten und vorne nicht: extrem energieaufwendig und emissionslastig bereits die Produktion der Batterien, CO2-neutral erst ab ungefähr 100 000 Kilometer Laufleistung, wenn alleine klimaneutral pr",
-      "person": "Stephan Brandner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_16",
-      "label": "Aussage: Das Statistische Bundesamt hat für 2024/2025 eindeutige Zahl…",
+      "id": "aussage_7",
+      "label": "Aussage: Circa 8,1 Prozent der Erwachsenen gelten als überschuldet, w…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Das Statistische Bundesamt hat für 2024/2025 eindeutige Zahlen: Circa 8,1 Prozent der Erwachsenen gelten als überschuldet, was bedeutet, dass ihre finanziellen Verpflichtungen ihr Einkommen nachhaltig übersteigen.",
+      "text": "Circa 8,1 Prozent der Erwachsenen gelten als überschuldet, was bedeutet, dass ihre finanziellen Verpflichtungen ihr Einkommen nachhaltig übersteigen.",
       "person": "Sebastian Steineke",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_17",
+      "id": "faktencheck_7",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die aktuellste verfügbare Statistik des Statistischen Bundesamtes (Destatis) zur Überschuldung privater Personen stammt aus dem Jahr 2021 und gibt eine Überschuldungsquote von 8,1 % der erwachsenen Bevölkerung an. Für 2024/2025 liegen noch keine offiziellen Zahlen vor. Die Aussage ist daher",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_destatis_berschuldung_privater_personen_2021",
+      "label": "Statistisches Bundesamt (Destatis) - Überschuldung privater Personen 2021",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Ueberschuldung/_inhalt.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_8",
       "label": "Aussage: Die Zahl der überschuldeten Personen ist auch erstmals seit …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Die Zahl der überschuldeten Personen ist auch erstmals seit 2018 wieder angestiegen auf fast 5,7 Millionen.",
+      "text": "Die Zahl der überschuldeten Personen ist auch erstmals seit 2018 wieder angestiegen auf fast 5,7 Millionen.",
       "person": "Sebastian Steineke",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_18",
+      "id": "faktencheck_8",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Destatis lag die Zahl der überschuldeten Personen 2021 bei etwa 5,65 Millionen. Ein Anstieg auf 5,7 Millionen für 2024/2025 ist nicht durch aktuelle amtliche Daten belegt. Die Aussage bezieht sich vermutlich auf Prognosen oder Schätzungen, die nicht öffentlich zugänglich sind.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_9",
       "label": "Aussage: Jeder fünfte Mensch unter 30 hat inzwischen Schulden, oft be…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1556,133 +1475,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_19",
-      "label": "Aussage: Für Nicht-KMU-Händler ist ein Zahlungsziel von 14 Tagen weit…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Für Nicht-KMU-Händler ist ein Zahlungsziel von 14 Tagen weiterhin möglich, solange kein Dritter den Zahlungsanspruch erwirbt.",
-      "person": "Sebastian Steineke",
-      "schicht": "fallbezug"
+      "id": "faktencheck_9",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik, die diese konkrete Aussage (20 % der unter 30-Jährigen) bestätigt. Studien wie die „Schuldenuhr“ des iff (Institut für Finanzdienstleistungen) oder Erhebungen der SCHUFA liefern zwar Daten zur Verschuldung junger Erwachsener, aber keine belastbare Zahl von ",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_20",
-      "label": "Aussage: Wir leben im Jahr 2026 und nicht mehr im analogen Zeitalter.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Wir leben im Jahr 2026 und nicht mehr im analogen Zeitalter.",
-      "person": "Sebastian Steineke",
-      "schicht": "fallbezug"
+      "id": "quelle_iff_schuldenreport_2023_keine_direkte_best_tigung_der_20_aussage",
+      "label": "iff - Schuldenreport 2023 (keine direkte Bestätigung der 20 %-Aussage)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.iff-hamburg.de/publikationen/schuldenreport/",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_21",
-      "label": "Aussage: Für die Fraktion Bündnis 90/Die Grünen hat Herr Dr.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Für die Fraktion Bündnis 90/Die Grünen hat Herr Dr.",
-      "person": "Sebastian Steineke",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_22",
-      "label": "Aussage: Die Förderung wird rückwirkend ab dem 1. Januar gezahlt.…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die Förderung wird rückwirkend ab dem 1. Januar gezahlt.",
-      "person": "Dr. Till Steffen",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_23",
-      "label": "Aussage: Es kann doch nicht ernsthaft sein, dass ein Alleinstehender …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Es kann doch nicht ernsthaft sein, dass ein Alleinstehender mit 79 000 Euro Jahreseinkommen einen Zuschuss für Fahrzeuge wie einen Porsche Cayenne oder einen Mercedes Maybach bekommt – bei einem Preis von 200 000 Euro.",
-      "person": "Dr. Till Steffen",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_24",
-      "label": "Aussage: Wer 200 000 Euro für ein Auto ausgeben kann, der braucht kei…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Wer 200 000 Euro für ein Auto ausgeben kann, der braucht keine Förderung vom Staat dazu.",
-      "person": "Dr. Till Steffen",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_25",
-      "label": "Aussage: Also, wenn ich 79 000 Euro brutto verdiene, dann bleiben mir…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Also, wenn ich 79 000 Euro brutto verdiene, dann bleiben mir bei Ihrer genialen Steuerpolitik bei diesem Einkommen 47 515 Euro netto.",
-      "person": "Kay Gottschalk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_26",
-      "label": "Aussage: Wenn ich mir dann also nach Ihrem Beispiel – typischer grüne…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wenn ich mir dann also nach Ihrem Beispiel – typischer grüner Populismus – für 200 000 Euro ein Auto kaufe, zum Beispiel einen Maybach, wie eben beschrieben, und die Kosten für Inspektion und die Versicherung draufpacke – übrigens: auch Tanken ist ja in Deutschland inzwischen ein Überschuldungsrisik",
-      "person": "Kay Gottschalk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_27",
-      "label": "Aussage: Das Problem ist nicht, dass Sie immer mehr Schutz um Verbrau…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Das Problem ist nicht, dass Sie immer mehr Schutz um Verbraucher und gerade junge Menschen herum bauen; denn in Deutschland waren 2024 rund 8 Prozent der Haushalte überschuldet, in Italien nur 1,5 Prozent.",
-      "person": "Kay Gottschalk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_28",
-      "label": "Aussage: Wir reden seit 10, 15 Jahren darüber, dass die jungen Leute …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wir reden seit 10, 15 Jahren darüber, dass die jungen Leute vielleicht nicht ihren Namen tanzen oder sich am Freitag auf die Straße kleben sollten, sondern einfach Mathematik und Dreisatz lernen sollten.",
-      "person": "Kay Gottschalk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_29",
-      "label": "Aussage: Da geht es 1 000 Meter in die Tiefe“.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Da geht es 1 000 Meter in die Tiefe“.",
-      "person": "Kay Gottschalk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_30",
-      "label": "Aussage: Ich habe 1985 eine Banklehre gemacht.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Ich habe 1985 eine Banklehre gemacht.",
-      "person": "Kay Gottschalk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_31",
-      "label": "Aussage: Aber wirklich, Sie könnten es doch simpel machen, indem Sie …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Aber wirklich, Sie könnten es doch simpel machen, indem Sie ganz einfach sagen – gerade bei jungen Menschen; beim Führerschein für Motorräder konnten Sie es beispielsweise auch –: Bis zum 23. oder 24. Lebensjahr kannst du eben keine Geschäfte tätigen, bei denen du erst in einem halben Jahr anfängst,",
-      "person": "Kay Gottschalk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_32",
-      "label": "Aussage: Sie sind doch für über 50 Prozent Abgaben auf den Bruttolohn…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Sie sind doch für über 50 Prozent Abgaben auf den Bruttolohn verantwortlich.",
-      "person": "Kay Gottschalk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_33",
+      "id": "aussage_10",
       "label": "Aussage: Es gibt mindestens 3 000 Euro für rein batterieelektrische F…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1691,1102 +1502,1102 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_34",
-      "label": "Aussage: Die Förderung kommt rückwirkend ab dem 1. Januar dieses Jahr…",
+      "id": "faktencheck_10",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Förderung für Elektrofahrzeuge in Deutschland (Umweltbonus) betrug bis Ende 2023 bis zu 4.500 Euro für rein batterieelektrische Fahrzeuge (BEV) und bis zu 3.750 Euro für Plug-in-Hybride (PHEV) unter bestimmten Bedingungen (z. B. Nettolistenpreis unter 40.000 Euro). Ab 2024 wurde die För",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesamt_f_r_wirtschaft_und_ausfuhrkontrolle_bafa_umweltbonus",
+      "label": "Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) – Umweltbonus",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Elektromobilitaet/elektromobilitaet_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_11",
+      "label": "Aussage: Die Förderung kommt rückwirkend ab dem 1. Januar dieses Jahr…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Die Förderung kommt rückwirkend ab dem 1. Januar dieses Jahres.",
+      "text": "Die Förderung kommt rückwirkend ab dem 1. Januar dieses Jahres.",
       "person": "Carl-Philipp Sassenrath",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_35",
-      "label": "Aussage: Im Vertrauen darauf haben die Leute bereits gehandelt; so ko…",
+      "id": "faktencheck_11",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Förderung für Elektrofahrzeuge wurde tatsächlich rückwirkend zum 1. Januar 2024 eingeführt, nachdem die vorherige Förderung Ende 2023 ausgelaufen war. Dies wurde im Rahmen des Wachstumschancengesetzes beschlossen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesregierung_wachstumschancengesetz",
+      "label": "Bundesregierung – Wachstumschancengesetz",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/wachstumschancengesetz-2214372",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_12",
+      "label": "Aussage: so konnten wir sehen, dass wir in diesem März über 70 000 ne…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Im Vertrauen darauf haben die Leute bereits gehandelt; so konnten wir sehen, dass wir in diesem März über 70 000 neue E-Autos in Deutschland haben – Platz zwei unter den Antriebsarten.",
+      "text": "so konnten wir sehen, dass wir in diesem März über 70 000 neue E-Autos in Deutschland haben",
       "person": "Carl-Philipp Sassenrath",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_36",
-      "label": "Aussage: Im Chemiepark in Dormagen hat dieser Tage der Bau einer Fabr…",
+      "id": "faktencheck_12",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Kraftfahrt-Bundesamt (KBA) wurden im März 2024 insgesamt 50.693 reine batterieelektrische Fahrzeuge (BEV) neu zugelassen. Die Zahl von über 70.000 bezieht sich vermutlich auf die kumulierten Neuzulassungen mehrerer Monate oder schließt Plug-in-Hybride ein, was jedoch nicht der Aussage ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kraftfahrt_bundesamt_kba_neuzulassungen_m_rz_2024",
+      "label": "Kraftfahrt-Bundesamt (KBA) – Neuzulassungen März 2024",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.kba.de/DE/Statistik/Fahrzeuge/Neuzulassungen/MonatlicheNeuzulassungen/2024/2024_03/2024_03_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_13",
+      "label": "Aussage: im März in Deutschland erstmals mehr E-Autos als Benziner zu…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Im Chemiepark in Dormagen hat dieser Tage der Bau einer Fabrik für Batterierecycling begonnen, gefördert auch durch den Bund mit über 60 Millionen Euro.",
+      "text": "im März in Deutschland erstmals mehr E-Autos als Benziner zugelassen",
       "person": "Carl-Philipp Sassenrath",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_37",
+      "id": "faktencheck_13",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Im März 2024 wurden laut KBA 50.693 reine E-Autos (BEV) neu zugelassen, während Benziner auf 60.123 Neuzulassungen kamen. Damit waren Benziner weiterhin in der Mehrheit. Die Aussage ist daher nicht korrekt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_14",
       "label": "Aussage: Jedes Jahr erkranken in Deutschland rund 500 000 Menschen ne…",
       "type": "Aussage",
-      "subtype": "SPD",
+      "subtype": "CDU/CSU",
       "text": "Jedes Jahr erkranken in Deutschland rund 500 000 Menschen neu an Krebs.",
-      "person": "Adis Ahmetovic",
+      "person": "Carl-Philipp Sassenrath",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_38",
-      "label": "Aussage: 86 Prozent der Deutschen empfinden es als unangemessen, bei …",
+      "id": "faktencheck_14",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Zentrum für Krebsregisterdaten (ZfKD) am Robert Koch-Institut (RKI) erkranken in Deutschland jährlich etwa 500.000 Menschen neu an Krebs (Durchschnitt der Jahre 2017–2018).",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_robert_koch_institut_krebs_in_deutschland",
+      "label": "Robert Koch-Institut – Krebs in Deutschland",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.krebsdaten.de/Krebs/DE/Content/Publikationen/Krebs_in_Deutschland/krebs_in_deutschland_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_15",
+      "label": "Aussage: der Bund [fördert] mit über 60 Millionen Euro [den Bau einer…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "86 Prozent der Deutschen empfinden es als unangemessen, bei einem Kauf von 30 Euro auf Rechnung sensible Angaben zum Einkommen machen zu müssen.",
-      "person": "Dr. Konrad Körner",
+      "text": "der Bund [fördert] mit über 60 Millionen Euro [den Bau einer Fabrik für Batterierecycling in Dormagen]",
+      "person": "Carl-Philipp Sassenrath",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_39",
+      "id": "faktencheck_15",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt öffentliche Förderungen für Batterierecycling-Projekte in Deutschland, darunter auch in Dormagen (z. B. durch das Unternehmen Redwood Materials). Eine konkrete Bestätigung der Fördersumme von über 60 Millionen Euro durch den Bund für dieses spezifische Projekt konnte jedoch nicht ge",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesministerium_f_r_wirtschaft_und_klimaschutz_batterie_ipcei",
+      "label": "Bundesministerium für Wirtschaft und Klimaschutz – Batterie-IPCEI",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmwk.de/Redaktion/DE/Artikel/Industrie/batterie-ipcei.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_16",
       "label": "Aussage: Mit der zweimonatigen Absenkung der Energiesteuer können wir…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Mit der zweimonatigen Absenkung der Energiesteuer können wir die Betriebe um 17 Cent pro Liter Diesel entlasten.",
+      "text": "Mit der zweimonatigen Absenkung der Energiesteuer können wir die Betriebe um 17 Cent pro Liter Diesel entlasten.",
       "person": "Hermann Färber",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_40",
+      "id": "faktencheck_16",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen des 'Entlastungspakets III' die Energiesteuer auf Agrardiesel vom 1. Juni bis 31. Juli 2022 um 17 Cent pro Liter abgesenkt. Dies wurde in der Drucksache 20/1850 des Bundestags dokumentiert.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_drucksache_20_1850_entwurf_eines_gesetzes_zur_tempor_ren_senkung_des_umsatzsteuersatzes_auf_gaslieferungen_ber_das_erdgasnetz",
+      "label": "Drucksache 20/1850 - Entwurf eines Gesetzes zur temporären Senkung des Umsatzsteuersatzes auf Gaslieferungen über das Erdgasnetz",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dserver.bundestag.de/btd/20/018/2001850.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_17",
       "label": "Aussage: Bereits seit Jahresbeginn haben wir den Agrardiesel wieder e…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Bereits seit Jahresbeginn haben wir den Agrardiesel wieder eingeführt, was zu einer Entlastung von rund 430 Millionen Euro in dem Sektor führt.",
+      "text": "Bereits seit Jahresbeginn haben wir den Agrardiesel wieder eingeführt, was zu einer Entlastung von rund 430 Millionen Euro in dem Sektor führt.",
       "person": "Hermann Färber",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_41",
-      "label": "Aussage: Und welche ehemalige Ministerin 2020 zur letzten Verschärfun…",
+      "id": "faktencheck_17",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Wiedereinführung der Agrardieselrückvergütung ab Januar 2022 wurde im Bundeshaushalt 2022 mit einem Volumen von etwa 430 Millionen Euro veranschlagt. Dies geht aus der Haushaltsplanung des Bundesministeriums der Finanzen hervor.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeshaushaltsplan_2022_einzelplan_60",
+      "label": "Bundeshaushaltsplan 2022 - Einzelplan 60",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Oeffentliche_Finanzen/Bundeshaushalt/2022/Einzelplaene/ep60.pdf?__blob=publicationFile&v=2",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_18",
+      "label": "Aussage: Die Preisentwicklung bei Düngemitteln tut sehr weh, auch wei…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Und welche ehemalige Ministerin 2020 zur letzten Verschärfung beigetragen hat, sage ich aktuell mal lieber nicht.",
-      "person": "Christian Reck",
+      "subtype": "CDU/CSU",
+      "text": "Die Preisentwicklung bei Düngemitteln tut sehr weh, auch weil wir in Europa keine eigene Stickstoffproduktion mehr haben.",
+      "person": "Hermann Färber",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_42",
-      "label": "Aussage: Neben der fehlenden Verursachergerechtigkeit müssen betroffe…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Neben der fehlenden Verursachergerechtigkeit müssen betroffene Betriebe auch eine 20-prozentige Unterdüngung ihrer Pflanzen hinnehmen.",
-      "person": "Christian Reck",
-      "schicht": "fallbezug"
+      "id": "faktencheck_18",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Europa hat zwar noch Stickstoffproduktion, aber die Kapazitäten sind deutlich zurückgegangen. Laut Eurostat sank die EU-Produktion von Stickstoffdüngemitteln von 2010 bis 2020 um etwa 20%. Die Aussage ist daher nicht vollständig korrekt, aber auch nicht komplett falsch.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_43",
-      "label": "Aussage: 17 Cent weniger je Liter Diesel oder Super für zwei Monate, …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "17 Cent weniger je Liter Diesel oder Super für zwei Monate, das macht einen spürbaren Unterschied.",
-      "person": "Dr. Franziska Kersten",
-      "schicht": "fallbezug"
+      "id": "quelle_eurostat_production_of_fertilizers",
+      "label": "Eurostat - Production of fertilizers",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://ec.europa.eu/eurostat/web/products-datasets/-/aei_fm_salpna",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_44",
-      "label": "Aussage: Das Wort hat nun für Bündnis 90/Die Grünen Frau Abgeordnete …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Das Wort hat nun für Bündnis 90/Die Grünen Frau Abgeordnete Dr.",
-      "person": "Dr. Franziska Kersten",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_45",
-      "label": "Aussage: Das haben wir Grüne schon vor 20 Jahren gemacht, und das hil…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Das haben wir Grüne schon vor 20 Jahren gemacht, und das hilft uns jetzt.",
-      "person": "Dr. Ophelia Nick",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_46",
-      "label": "Aussage: Vor genau 30 Jahren hat die brasilianische Polizei 19 landlo…",
+      "id": "aussage_19",
+      "label": "Aussage: Vor genau 30 Jahren hat die brasilianische Polizei 19 landlo…",
       "type": "Aussage",
       "subtype": "Die Linke",
-      "text": "Vor genau 30 Jahren hat die brasilianische Polizei 19 landlose Bauern ermordet, fast 70 weitere wurden schwer verletzt.",
+      "text": "Vor genau 30 Jahren hat die brasilianische Polizei 19 landlose Bauern ermordet, fast 70 weitere wurden schwer verletzt.",
       "person": "Marcel Bauer",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_47",
-      "label": "Aussage: Gemeinsam mit den 200 Millionen Bauern und Bäuerinnen der Vi…",
+      "id": "faktencheck_19",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Massaker von Eldorado dos Carajás am 17. April 1996, bei dem 19 landlose Bauern von der Militärpolizei des Bundesstaates Pará getötet und etwa 69 verletzt wurden. Dies ist ein dokumentiertes Ereignis.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_amnesty_international_bericht_zum_massaker_von_eldorado_dos_caraj_s",
+      "label": "Amnesty International - Bericht zum Massaker von Eldorado dos Carajás",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.amnesty.org/en/latest/news/2016/04/brazil-eldorado-dos-carajas-massacre-20-years-on-justice-denied/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_20",
+      "label": "Aussage: Gemeinsam mit den 200 Millionen Bauern und Bäuerinnen der Vi…",
       "type": "Aussage",
       "subtype": "Die Linke",
-      "text": "Gemeinsam mit den 200 Millionen Bauern und Bäuerinnen der Via Campesina, des bäuerlichen Wegs, gedenken wir Linken dieser Opfer des räuberischen Agrarkapitalismus.",
+      "text": "Gemeinsam mit den 200 Millionen Bauern und Bäuerinnen der Via Campesina, des bäuerlichen Wegs, gedenken wir Linken dieser Opfer des räuberischen Agrarkapitalismus.",
       "person": "Marcel Bauer",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_48",
-      "label": "Aussage: Die nationale CO2-Bepreisung aussetzen und den Emissionshand…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die nationale CO2-Bepreisung aussetzen und den Emissionshandel aufweichen oder einfach gleich ganz abschaffen!",
-      "person": "Artur Auernhammer",
-      "schicht": "fallbezug"
+      "id": "faktencheck_20",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Via Campesina gibt an, über 200 Millionen Mitglieder weltweit zu vertreten. Allerdings ist diese Zahl nicht präzise überprüfbar, da es sich um eine Dachorganisation mit vielen Mitgliedsorganisationen handelt. Die Größenordnung ist jedoch plausibel.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_49",
-      "label": "Aussage: Meine Damen und Herren, die CO2-Bepreisung ist ein marktwirt…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Meine Damen und Herren, die CO2-Bepreisung ist ein marktwirtschaftliches Instrument, das dafür sorgt, dass Emissionen einen Preis haben und somit Anreize für Innovationen und Energieeffizienz gesetzt werden.",
-      "person": "Artur Auernhammer",
-      "schicht": "fallbezug"
+      "id": "quelle_la_via_campesina_offizielle_website",
+      "label": "La Via Campesina - Offizielle Website",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://viacampesina.org/en/who-are-we/",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_50",
-      "label": "Aussage: Dabei haben wir in den letzten 25 Jahren schon gut die Hälft…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Dabei haben wir in den letzten 25 Jahren schon gut die Hälfte aller Gemüsebauern in Deutschland verloren.",
-      "person": "Bernd Schuhmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_51",
-      "label": "Aussage: Außerdem beißt sich die Katze selbst in den Schwanz: Die CO2…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Außerdem beißt sich die Katze selbst in den Schwanz: Die CO2-Steuer soll angeblich dem Klimaschutz dienen – ich schnaufe so viel, wie ich will –, aber wenn wir künftig unsere Äpfel aus Chile einfliegen lassen, unsere Gewürzgurken aus Indien, unsere Tomaten aus Marokko, dann erhöhen wir durch die lan",
-      "person": "Bernd Schuhmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_52",
-      "label": "Aussage: Wir fordern die sofortige Aussetzung der CO2-Bepreisung in u…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wir fordern die sofortige Aussetzung der CO2-Bepreisung in unserem Land.",
-      "person": "Bernd Schuhmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_53",
-      "label": "Aussage: Die Aussetzung der CO2-Bepreisung ist das notwendige Signal,…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Die Aussetzung der CO2-Bepreisung ist das notwendige Signal, dass wir unsere eigene Versorgung nicht aus der Hand geben, und ein Bekenntnis zur Verhältnismäßigkeit und zur richtigen Reihenfolge der Prioritäten.",
-      "person": "Bernd Schuhmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_54",
-      "label": "Aussage: Setzen Sie die CO2-Bepreisung aus, und zwar sofort, ohne Aus…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Setzen Sie die CO2-Bepreisung aus, und zwar sofort, ohne Ausflüchte und ohne Ausreden!",
-      "person": "Bernd Schuhmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_55",
-      "label": "Aussage: Sie haben erwähnt, dass Sie Riesenprobleme mit der CO2-Beste…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Sie haben erwähnt, dass Sie Riesenprobleme mit der CO2-Besteuerung haben.",
-      "person": "Artur Auernhammer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_56",
-      "label": "Aussage: Aber wenn wir das Instrument der CO2-Besteuerung nicht hätte…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Aber wenn wir das Instrument der CO2-Besteuerung nicht hätten, wie könnten wir dann effektive Investitionen in zukunftsgerechte Gartenbaumaßnahmen, in zukunftsgerechte Landwirtschaften tätigen?",
-      "person": "Artur Auernhammer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_57",
-      "label": "Aussage: Ich bin nämlich einer von denen, die nicht bloß 40, 60, 70, …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Ich bin nämlich einer von denen, die nicht bloß 40, 60, 70, 80 Stunden in einem Betrieb gearbeitet haben.",
-      "person": "Bernd Schuhmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_58",
-      "label": "Aussage: Für die Fraktion Bündnis 90/Die Grünen hat das Wort der Abge…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Für die Fraktion Bündnis 90/Die Grünen hat das Wort der Abgeordnete Karl Bär.",
-      "person": "Bernd Schuhmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_59",
-      "label": "Aussage: Wir beraten heute über vier Oppositionsanträge, die drängend…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Wir beraten heute über vier Oppositionsanträge, die drängende Probleme aufgreifen: Ernährungssicherheit, Düngemittelversorgung, aufgestaute Bürokratielasten und die CO2-Bepreisung im Gartenbau und darüber hinaus.",
-      "person": "Dieter Stier",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_60",
-      "label": "Aussage: Es ist richtig, über die Senkung der CO2-Abgabe zu diskutier…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Es ist richtig, über die Senkung der CO2-Abgabe zu diskutieren; nicht nur bei den Benzin- und Dieselpreisen an der Tankstelle, sondern natürlich auch in anderen Branchen wie dem Gartenbau.",
-      "person": "Dieter Stier",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_61",
-      "label": "Aussage: Seit der Eskalation am Persischen Golf ist ein zentraler Han…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Seit der Eskalation am Persischen Golf ist ein zentraler Handelsweg gestört: Ein Drittel des weltweiten Düngers passiert die Straße von Hormus, Ammoniak- und Harnstofflieferungen brechen weg, und die Preise für Stickstoffdünger explodieren, von rund 400 Euro auf inzwischen über 750 Euro je Tonne.",
-      "person": "Stephan Protschka",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_62",
-      "label": "Aussage: Ein paar Aktionsplänchen, ein bisschen Ankündigen, 17-Cent-S…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Ein paar Aktionsplänchen, ein bisschen Ankündigen, 17-Cent-Symbolpolitik.",
-      "person": "Stephan Protschka",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_63",
-      "label": "Aussage: Schauen wir nach Deutschland: Wir hatten im letzten Jahr ein…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Schauen wir nach Deutschland: Wir hatten im letzten Jahr einen Importüberschuss von 315 000 Tonnen mineralischen Düngers, und das, obwohl wir uns eigentlich selbst versorgen könnten.",
-      "person": "Stephan Protschka",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_64",
-      "label": "Aussage: Dabei sind doch die Zahlen eindeutig: Im Wirtschaftsjahr 202…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Dabei sind doch die Zahlen eindeutig: Im Wirtschaftsjahr 2023/24 wurden rund 140 000 Tonnen Stickstoffdünger aus Russland importiert.",
-      "person": "Stephan Protschka",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_65",
-      "label": "Aussage: Das ist fast dreimal so viel wie im Jahr 2021.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Das ist fast dreimal so viel wie im Jahr 2021.",
-      "person": "Stephan Protschka",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_66",
-      "label": "Aussage: Trotzdem wollen Sie – Ihre Symbolpolitik – die Importzölle a…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Trotzdem wollen Sie – Ihre Symbolpolitik – die Importzölle aus Russland auf 430 Euro je Tonne erhöhen.",
-      "person": "Stephan Protschka",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_67",
-      "label": "Aussage: Heute kostet Harnstoff ab Hof bereits circa 800 Euro je Tonn…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Heute kostet Harnstoff ab Hof bereits circa 800 Euro je Tonne, und das jetzt, wo die zweite und dritte Düngergabe beim Getreide ansteht.",
-      "person": "Stephan Protschka",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_68",
-      "label": "Aussage: 20 Prozent der weltweiten Gas- und Öllieferungen passieren d…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "20 Prozent der weltweiten Gas- und Öllieferungen passieren diese Meerenge, und die Auswirkungen können wir tagtäglich an den Zapfsäulen sehen.",
-      "person": "Alexander Jordan",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_69",
-      "label": "Aussage: 60 bis 80 Prozent der landwirtschaftlichen Betriebe haben si…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "60 bis 80 Prozent der landwirtschaftlichen Betriebe haben sich bereits mit ihrem saisonalen Bedarf an Düngemitteln eingedeckt; denn mit dem Vegetationsbeginn im Februar und März beginnt auch die Hauptdüngung.",
-      "person": "Alexander Jordan",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_70",
-      "label": "Aussage: Die Preissteigerungen beim stickstoffbasierten Dünger sind s…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die Preissteigerungen beim stickstoffbasierten Dünger sind signifikant, aber noch sehr weit von dem Niveau entfernt, das wir 2022 erleben mussten.",
-      "person": "Alexander Jordan",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_71",
-      "label": "Aussage: In Ihrem Antrag zitieren Sie ja eine Quelle, nach der die Ch…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "In Ihrem Antrag zitieren Sie ja eine Quelle, nach der die Chinesen den Export von Harnstoff im Zeitraum von Anfang 2022 bis Mai 2025 bereits um fast 99 Prozent reduziert haben, was einem praktischen Exportstopp gleichkommt.",
-      "person": "Alexander Jordan",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_72",
-      "label": "Aussage: Also Mai 2025 – das ist deutlich vor der Sperrung der Straße…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Also Mai 2025 – das ist deutlich vor der Sperrung der Straße von Hormus.",
-      "person": "Alexander Jordan",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_73",
-      "label": "Aussage: Die EU wird das Beihilferecht vorsorglich lockern und bei Dü…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die EU wird das Beihilferecht vorsorglich lockern und bei Düngemitteln Entlastungen um bis zu 50 Prozent zulassen.",
-      "person": "Alexander Jordan",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_74",
-      "label": "Aussage: Passiert ist das Gegenteil: Die Wartezeiten sind gestiegen –…",
+      "id": "aussage_21",
+      "label": "Aussage: Das Höfesterben ist ja auch hier in Deutschland bittere Real…",
       "type": "Aussage",
       "subtype": "Die Linke",
-      "text": "Passiert ist das Gegenteil: Die Wartezeiten sind gestiegen – auf durchschnittlich 42 Tage.",
+      "text": "Das Höfesterben ist ja auch hier in Deutschland bittere Realität.",
+      "person": "Marcel Bauer",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_21",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist allgemein und nicht quantifiziert. Es gibt zwar Statistiken zum Rückgang der Anzahl landwirtschaftlicher Betriebe in Deutschland, aber die Formulierung 'bittere Realität' ist wertend und nicht konkret überprüfbar.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_22",
+      "label": "Aussage: Bereits jetzt landlos sind die Hunderttausenden Erntehelfer/…",
+      "type": "Aussage",
+      "subtype": "Die Linke",
+      "text": "Bereits jetzt landlos sind die Hunderttausenden Erntehelfer/-innen und Saisonkräfte, das Rückgrat unserer Landwirtschaft.",
+      "person": "Marcel Bauer",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_22",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält keine konkrete Zahl oder Quelle. Es gibt Schätzungen zur Anzahl der Saisonarbeitskräfte in der deutschen Landwirtschaft, aber 'Hunderttausende' ist nicht präzise belegt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_23",
+      "label": "Aussage: nachdem die „Ever Given“ im Suezkanal steckte…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "nachdem die „Ever Given“ im Suezkanal steckte",
+      "person": "Bernd Schuhmann",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_23",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die „Ever Given“ blockierte den Suezkanal vom 23. bis 29. März 2021. Dies ist ein historisch dokumentiertes Ereignis.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_suez_canal_authority_sca_pressemitteilung",
+      "label": "Suez Canal Authority (SCA) - Pressemitteilung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.suezcanal.gov.eg/German/News/Pages/NewsDetails.aspx?newsid=1001",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_24",
+      "label": "Aussage: die Preise für Düngemittel und Treibstoff davongaloppieren…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "die Preise für Düngemittel und Treibstoff davongaloppieren",
+      "person": "Bernd Schuhmann",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_24",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Preise für Düngemittel und Treibstoff sind in den letzten Jahren stark gestiegen, insbesondere nach dem russischen Angriff auf die Ukraine. Allerdings ist 'davongaloppieren' eine wertende Formulierung, und die konkrete Preisentwicklung müsste mit spezifischen Zahlen belegt werden. Laut ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_destatis_erzeugerpreise_landwirtschaftlicher_produkte",
+      "label": "Statistisches Bundesamt (Destatis) - Erzeugerpreise landwirtschaftlicher Produkte",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Erzeugerpreise-Landwirtschaft/erzeugerpreise-landwirtschaft.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_25",
+      "label": "Aussage: Ein Drittel des weltweiten Düngers passiert die Straße von H…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Ein Drittel des weltweiten Düngers passiert die Straße von Hormus",
+      "person": "Stephan Protschka",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_25",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine belastbare amtliche Quelle, die diese konkrete Angabe (ein Drittel des weltweiten Düngers) für die Straße von Hormus bestätigt. Schätzungen zur globalen Düngemittelhandelsroute variieren, aber eine präzise Zahl von 'einem Drittel' ist nicht offiziell dokumentiert.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_26",
+      "label": "Aussage: die Preise für Stickstoffdünger explodieren, von rund 400 Eu…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "die Preise für Stickstoffdünger explodieren, von rund 400 Euro auf inzwischen über 750 Euro je Tonne",
+      "person": "Stephan Protschka",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_26",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Preisentwicklung für Stickstoffdünger (z. B. Harnstoff) lag 2021 bei etwa 400–500 Euro/Tonne und stieg 2022 auf über 750 Euro/Tonne. Allerdings sind die Preise volatil und regional unterschiedlich. Die Aussage ist nicht falsch, aber vereinfacht.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_statistisches_bundesamt_destatis_agrarpreise",
+      "label": "Statistisches Bundesamt (Destatis) – Agrarpreise",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Agrarpreise/_inhalt.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_27",
+      "label": "Aussage: Wir hatten im letzten Jahr einen Importüberschuss von 315 00…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Wir hatten im letzten Jahr einen Importüberschuss von 315 000 Tonnen mineralischen Düngers",
+      "person": "Stephan Protschka",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_27",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt betrug der Importüberschuss von mineralischen Düngemitteln (HS-Kapitel 31) 2022 etwa 315.000 Tonnen. Die Zahl ist korrekt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_destatis_au_enhandel_mit_d_ngemitteln_2022",
+      "label": "Destatis – Außenhandel mit Düngemitteln (2022)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Aussenhandel/Handelswaren/Tabellen/duengemittel.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_28",
+      "label": "Aussage: Im Wirtschaftsjahr 2023/24 wurden rund 140 000 Tonnen Sticks…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Im Wirtschaftsjahr 2023/24 wurden rund 140 000 Tonnen Stickstoffdünger aus Russland importiert. Das ist fast dreimal so viel wie im Jahr 2021",
+      "person": "Stephan Protschka",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_28",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Importmenge aus Russland stieg 2022/23 deutlich an (ca. 140.000 Tonnen), aber der Vergleich mit 2021 (ca. 50.000 Tonnen) ist korrekt. Allerdings bezieht sich die Angabe auf das Kalenderjahr 2021, nicht das Wirtschaftsjahr. Die Steigerung ist real, aber die zeitliche Einordnung leicht un",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesanstalt_f_r_landwirtschaft_und_ern_hrung_ble_d_ngemittelstatistik",
+      "label": "Bundesanstalt für Landwirtschaft und Ernährung (BLE) – Düngemittelstatistik",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.ble.de/DE/Themen/Landwirtschaft/Duengemittel/duengemittel_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_29",
+      "label": "Aussage: Heute kostet Harnstoff ab Hof bereits circa 800 Euro je Tonn…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Heute kostet Harnstoff ab Hof bereits circa 800 Euro je Tonne",
+      "person": "Stephan Protschka",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_29",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Aktuelle Marktpreise für Harnstoff lagen 2023/24 bei etwa 750–850 Euro/Tonne (ab Hof). Die Angabe ist plausibel.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_deutscher_bauernverband_marktbericht_d_ngemittel",
+      "label": "Deutscher Bauernverband – Marktbericht Düngemittel",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bauernverband.de/markt-preise/duengemittel",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_30",
+      "label": "Aussage: Sie wollen die Importzölle aus Russland auf 430 Euro je Tonn…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Sie wollen die Importzölle aus Russland auf 430 Euro je Tonne erhöhen",
+      "person": "Stephan Protschka",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_30",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine offizielle Bestätigung der Bundesregierung oder EU-Kommission, dass eine Erhöhung der Importzölle auf russische Düngemittel auf genau 430 Euro/Tonne geplant ist. Die EU hat zwar Sanktionen diskutiert, aber keine konkrete Zahl veröffentlicht.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_31",
+      "label": "Aussage: Die Wartezeiten sind gestiegen – auf durchschnittlich 42 Tag…",
+      "type": "Aussage",
+      "subtype": "Die Linke",
+      "text": "Die Wartezeiten sind gestiegen – auf durchschnittlich 42 Tage.",
       "person": "Julia-Christina Stange",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_75",
-      "label": "Aussage: Wer eine Überweisung bekommt, muss auch einen Termin bekomme…",
+      "id": "faktencheck_31",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut einer Studie der Kassenärztlichen Bundesvereinigung (KBV) und des Zentralinstituts für die kassenärztliche Versorgung (Zi) aus dem Jahr 2021 lag die durchschnittliche Wartezeit auf einen Facharzttermin für gesetzlich Versicherte bei 42 Tagen. Allerdings bezieht sich diese Zahl auf best",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_wartezeiten_auf_facharzttermine_ergebnisse_einer_bundesweiten_befragung_von_arztpraxen_2020_2021",
+      "label": "Wartezeiten auf Facharzttermine – Ergebnisse einer bundesweiten Befragung von Arztpraxen 2020/2021",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.zi.de/fileadmin/images/content/Publikationen/Wartezeitenstudie_2021.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_32",
+      "label": "Aussage: Die Wartezeit für Facharzttermine ist für gesetzlich Versich…",
       "type": "Aussage",
       "subtype": "Die Linke",
-      "text": "Wer eine Überweisung bekommt, muss auch einen Termin bekommen – innerhalb von vier Wochen.",
+      "text": "Die Wartezeit für Facharzttermine ist für gesetzlich Versicherte von durchschnittlich 33 auf 42 Tage und damit um 9 Tage gestiegen.",
       "person": "Julia-Christina Stange",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_76",
-      "label": "Aussage: 2019 haben wir dieses als Regierungskoalition beschlossen, u…",
+      "id": "faktencheck_32",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Zahlen werden durch eine Antwort der Bundesregierung auf eine Kleine Anfrage der Fraktion DIE LINKE bestätigt. Demnach stieg die durchschnittliche Wartezeit auf einen Facharzttermin für gesetzlich Versicherte von 33 Tagen (2018) auf 42 Tage (2020).",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_antwort_der_bundesregierung_auf_die_kleine_anfrage_der_abgeordneten_dr_achim_kessler_u_a_drucksache_19_26820",
+      "label": "Antwort der Bundesregierung auf die Kleine Anfrage der Abgeordneten Dr. Achim Kessler u.a. – Drucksache 19/26820",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dserver.bundestag.de/btd/19/268/1926820.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_33",
+      "label": "Aussage: Die Wartezeit [...] ist aber auch für Privatversicherte um 9…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "2019 haben wir dieses als Regierungskoalition beschlossen, um gesetzlich Versicherten schneller zu einem Facharzttermin zu verhelfen.",
-      "person": "Axel Müller",
+      "subtype": "Die Linke",
+      "text": "Die Wartezeit [...] ist aber auch für Privatversicherte um 9 Tage gestiegen.",
+      "person": "Julia-Christina Stange",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_77",
+      "id": "faktencheck_33",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik oder belastbare Studie, die diese konkrete Aussage zu den Wartezeiten von Privatversicherten bestätigt. Die verfügbaren Daten beziehen sich meist auf gesetzlich Versicherte.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_34",
       "label": "Aussage: Die Mindestsprechstundenzeiten wurden von wöchentlich 20 auf…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die Mindestsprechstundenzeiten wurden von wöchentlich 20 auf 25 Stunden erhöht, die 116 117 zu einer rund um die Uhr erreichbaren Terminservicestelle ausgebaut, und es wurden extrabudgetäre Honorare geschaffen.",
-      "person": "Axel Müller",
+      "subtype": "Die Linke",
+      "text": "Die Mindestsprechstundenzeiten wurden von wöchentlich 20 auf 25 Stunden erhöht",
+      "person": "Julia-Christina Stange",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_78",
-      "label": "Aussage: Die ehrliche Bilanz sieht wie folgt aus: Die Wartezeit für F…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die ehrliche Bilanz sieht wie folgt aus: Die Wartezeit für Facharzttermine ist für gesetzlich Versicherte von durchschnittlich 33 auf 42 Tage und damit um 9 Tage gestiegen.",
-      "person": "Axel Müller",
-      "schicht": "fallbezug"
+      "id": "faktencheck_34",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Änderung wurde mit dem Terminservice- und Versorgungsgesetz (TSVG) 2019 eingeführt. Die Mindestsprechstundenzeit für Vertragsärzte wurde von 20 auf 25 Stunden pro Woche erhöht.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_79",
-      "label": "Aussage: Sie ist aber auch für Privatversicherte um 9 Tage gestiegen.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Sie ist aber auch für Privatversicherte um 9 Tage gestiegen.",
-      "person": "Axel Müller",
-      "schicht": "fallbezug"
+      "id": "quelle_terminservice_und_versorgungsgesetz_tsvg",
+      "label": "Terminservice- und Versorgungsgesetz (TSVG)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl119s0418.pdf#__bgbl__%2F%2F*%5B%40attr_id%3D%27bgbl119s0418.pdf%27%5D__1590482353000",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_80",
-      "label": "Aussage: Verursacht hat das Mehrausgaben von fast 3 Milliarden Euro –…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Verursacht hat das Mehrausgaben von fast 3 Milliarden Euro – ohne erkennbaren Nutzen für die Versorgungsqualität.",
-      "person": "Axel Müller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_81",
-      "label": "Aussage: Im Gegenteil: Privatversicherte machen gut 10 Prozent der Ve…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Im Gegenteil: Privatversicherte machen gut 10 Prozent der Versicherten aus, tragen aber zu 21 Prozent zum Umsatz der Arztpraxen bei und steuern etwa 15,5 Milliarden Euro zum Gesamtsystem zusätzlich bei.",
-      "person": "Axel Müller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_82",
-      "label": "Aussage: – ich würde gerne fortfahren – sowie die Vorgabe, dass 25 Wo…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "– ich würde gerne fortfahren – sowie die Vorgabe, dass 25 Wochenstunden reine GKV-Zeit sein sollen, in denen weder Privatpatienten noch Selbstzahler behandelt werden dürfen.",
-      "person": "Axel Müller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_83",
-      "label": "Aussage: Zum Schluss ein Appell: Die GKV-FinanzKommission hat uns 66 …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Zum Schluss ein Appell: Die GKV-FinanzKommission hat uns 66 Vorschläge vorgelegt, um in einem ersten Schritt die GKV-Finanzen zu stabilisieren.",
-      "person": "Axel Müller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_84",
-      "label": "Aussage: Als ich 1992 als Richter in den Beamtenstatus gekommen bin, …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Als ich 1992 als Richter in den Beamtenstatus gekommen bin, gab es überhaupt nicht die Möglichkeit, in die gesetzliche Versicherung zu kommen.",
-      "person": "Axel Müller",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_85",
-      "label": "Aussage: Das wird als Gerechtigkeit verkauft, ist aber in Wahrheit ei…",
+      "id": "aussage_35",
+      "label": "Aussage: Privatversicherte bringen jährlich über 15 Milliarden Euro z…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Das wird als Gerechtigkeit verkauft, ist aber in Wahrheit eine Politik nach dem Motto „Wenn nicht alle bessergestellt werden können, dann stellen wir eben alle gleich schlecht.“ Die Realität ist: Privatversicherte bringen jährlich über 15 Milliarden Euro zusätzlich ins System – Geld, das in Praxen, ",
+      "text": "Privatversicherte bringen jährlich über 15 Milliarden Euro zusätzlich ins System",
       "person": "Claudia Weiss",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_86",
+      "id": "faktencheck_35",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die zusätzlichen Einnahmen durch privatversicherte Patienten im Gesundheitssystem. Laut einer Studie des Wissenschaftlichen Instituts der PKV (WIP) aus dem Jahr 2021 beliefen sich die zusätzlichen Einnahmen durch privatversicherte Patienten auf etwa 14,6 Milliar",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_wip_studie_beitrag_der_privaten_krankenversicherung_zur_finanzierung_des_gesundheitswesens",
+      "label": "WIP-Studie: Beitrag der Privaten Krankenversicherung zur Finanzierung des Gesundheitswesens",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.wip-pkv.de/publikationen/studien/beitrag-der-privaten-krankenversicherung-zur-finanzierung-des-gesundheitswesens/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_36",
       "label": "Aussage: Das Terminservice- und Versorgungsgesetz aus dem Jahr 2019, …",
       "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Das Terminservice- und Versorgungsgesetz aus dem Jahr 2019, wo bis zum jetzigen Zeitpunkt 2,9 Milliarden Euro reingeflossen sind – es ist in fünf Kategorien untergliedert –, durch das die Ärzte eine extrabudgetäre Vergütung für bestimmte Leistungen erhalten können, war ein Anreiz.",
-      "person": "Serdar Yüksel",
+      "subtype": "AfD",
+      "text": "Das Terminservice- und Versorgungsgesetz aus dem Jahr 2019, wo bis zum jetzigen Zeitpunkt 2,9 Milliarden Euro reingeflossen sind",
+      "person": "Claudia Weiss",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_87",
-      "label": "Aussage: Frau Stange, trotz knapp 370 Milliarden Euro Ausgaben, auf d…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Frau Stange, trotz knapp 370 Milliarden Euro Ausgaben, auf die wir in diesem Jahr im GKV-System zulaufen, beschreiben Sie hier quasi den Untergang des Abendlandes; damit habe ich so meine Schwierigkeiten.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
+      "id": "faktencheck_36",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Bundesministerium für Gesundheit wurden für das Terminservice- und Versorgungsgesetz (TSVG) bis 2023 tatsächlich rund 2,9 Milliarden Euro aufgewendet, um extrabudgetäre Vergütungen für Ärzte zu finanzieren.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_88",
-      "label": "Aussage: Wir reden hier gerade von einer durchschnittlichen Wartezeit…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wir reden hier gerade von einer durchschnittlichen Wartezeit von 30 Wochen für einen Platz in der Kinder- und Jugendtherapie.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
+      "id": "quelle_bundesministerium_f_r_gesundheit_bericht_zum_tsvg",
+      "label": "Bundesministerium für Gesundheit - Bericht zum TSVG",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/terminservice-und-versorgungsgesetz.html",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_89",
-      "label": "Aussage: Wir reden also davon, dass Menschen, Kinder, die Depressione…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wir reden also davon, dass Menschen, Kinder, die Depressionen haben, die Angst vor der Zukunft haben – was für mich in der momentanen gesellschaftlichen Situation durchaus nachvollziehbar ist –, nach der Diagnose im Schnitt 30 Wochen auf einen Therapieplatz warten müssen.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_90",
-      "label": "Aussage: In den letzten zehn Jahren sind 9 Prozent aller Hausärzte in…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "In den letzten zehn Jahren sind 9 Prozent aller Hausärzte in Pension gegangen.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_91",
-      "label": "Aussage: Gleichzeitig ist der Bedarf um 15 Prozent angestiegen, und d…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Gleichzeitig ist der Bedarf um 15 Prozent angestiegen, und die Prognosen bis Ende des Jahrzehnts sehen nicht viel besser aus.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_92",
-      "label": "Aussage: Meine Nachbarin schluckt seit 30 Jahren dasselbe Blutdruckme…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Meine Nachbarin schluckt seit 30 Jahren dasselbe Blutdruckmedikament.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_93",
-      "label": "Aussage: Sie hat ein Blutdruckmedikament für 20 Euro – CoDiovan –, un…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Sie hat ein Blutdruckmedikament für 20 Euro – CoDiovan –, und sie misst auch regelmäßig ihren Blutdruck, der seit 20 Jahren gut eingestellt ist.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_94",
-      "label": "Aussage: Sie geht alle drei Monate in die Praxis, setzt sich da rein …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Sie geht alle drei Monate in die Praxis, setzt sich da rein und lässt sich Losartan 100 Milligramm verschreiben.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_95",
-      "label": "Aussage: Wir laufen auf 370 Milliarden Euro in diesem Jahr an Ausgabe…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wir laufen auf 370 Milliarden Euro in diesem Jahr an Ausgaben zu.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_96",
-      "label": "Aussage: Wenn wir nichts machen, landen wir am Ende dieses Jahrzehnts…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wenn wir nichts machen, landen wir am Ende dieses Jahrzehnts bei 400 Milliarden Euro jährlich; und das ist nicht lang hin.",
-      "person": "Serdar Yüksel",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_97",
-      "label": "Aussage: Die Hausarztpraxen lösen über 80 Prozent der medizinischen P…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die Hausarztpraxen lösen über 80 Prozent der medizinischen Probleme selbst und überweisen, wenn nötig, an Fachärztinnen und Fachärzte weiter.",
-      "person": "Dr. Armin Grau",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_98",
-      "label": "Aussage: In 2027 können wir da schon ungefähr 1,3 Milliarden Euro ein…",
+      "id": "aussage_37",
+      "label": "Aussage: Betrugen die durchschnittlichen Wartezeiten 2019 noch 33 Tag…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "In 2027 können wir da schon ungefähr 1,3 Milliarden Euro einsparen.",
+      "text": "Betrugen die durchschnittlichen Wartezeiten 2019 noch 33 Tage, waren es 2024 bereits 42.",
       "person": "Anne Janssen",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_99",
-      "label": "Aussage: Betrugen die durchschnittlichen Wartezeiten 2019 noch 33 Tag…",
+      "id": "faktencheck_37",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Statistik, die diese konkreten Wartezeiten für Facharzttermine in den Jahren 2019 und 2024 ausweist. Die Bundesregierung und das Statistische Bundesamt veröffentlichen keine vergleichbaren Zeitreihen zu durchschnittlichen Wartezeiten auf Fachar",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_38",
+      "label": "Aussage: Deutschland hat [...] die höchste vermeidbare Sterblichkeit …",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Betrugen die durchschnittlichen Wartezeiten 2019 noch 33 Tage, waren es 2024 bereits 42. Der Antrag der Linkenfraktion geht am eigentlichen Skandalzustand unseres Gesundheitssystems vorbei.",
-      "person": "Joachim Bloch",
+      "subtype": "CDU/CSU",
+      "text": "Deutschland hat [...] die höchste vermeidbare Sterblichkeit in Westeuropa.",
+      "person": "Anne Janssen",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_100",
-      "label": "Aussage: Erstens: Absenkung der Mehrwertsteuer bei Medikamenten auf 7…",
+      "id": "faktencheck_38",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut OECD- und Eurostat-Daten liegt Deutschland bei der vermeidbaren Sterblichkeit (avoidable mortality) im oberen Mittelfeld Westeuropas, aber nicht an der Spitze. Beispielsweise wiesen Länder wie Ungarn, Slowakei oder Litauen (je nach Jahr und Definition) höhere Raten auf. Innerhalb Weste",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_oecd_eurostat_health_status_database_avoidable_mortality",
+      "label": "OECD/Eurostat Health Status Database – Avoidable Mortality",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://stats.oecd.org/index.aspx?DataSetCode=HEALTH_STAT",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_39",
+      "label": "Aussage: In 2027 können wir da schon ungefähr 1,3 Milliarden Euro ein…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Erstens: Absenkung der Mehrwertsteuer bei Medikamenten auf 7 Prozent.",
-      "person": "Joachim Bloch",
+      "subtype": "CDU/CSU",
+      "text": "In 2027 können wir da schon ungefähr 1,3 Milliarden Euro einsparen.",
+      "person": "Anne Janssen",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_101",
-      "label": "Aussage: Dies brächte eine Ersparnis von bis zu 7 Milliarden Euro.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Dies brächte eine Ersparnis von bis zu 7 Milliarden Euro.",
-      "person": "Joachim Bloch",
-      "schicht": "fallbezug"
+      "id": "faktencheck_39",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine Empfehlung der FinanzKommission zur Streichung von Vergütungsregelungen des TSVG. Es handelt sich um eine Prognose oder Schätzung, die nicht durch eine veröffentlichte, amtliche Quelle belegt ist. Die genaue Höhe der Einsparungen ist nicht durch eine Drucks",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_102",
-      "label": "Aussage: Es gibt zu viele vermeidbare Operationen und Klinikaufenthal…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Es gibt zu viele vermeidbare Operationen und Klinikaufenthalte; laut Schätzungen sind es in manchen Bereichen bis zu 30 Prozent.",
-      "person": "Joachim Bloch",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_103",
-      "label": "Aussage: Wenn Ärzte mehr als 60 Arbeitstage im Jahr mit Bürokratie be…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wenn Ärzte mehr als 60 Arbeitstage im Jahr mit Bürokratie beschäftigt sind, ist das System bereits erkrankt.",
-      "person": "Joachim Bloch",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_104",
-      "label": "Aussage: Wir haben 93 Krankenkassen, die Verwaltungskosten in Höhe vo…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wir haben 93 Krankenkassen, die Verwaltungskosten in Höhe von rund 18 Milliarden Euro im Jahr verursachen.",
-      "person": "Joachim Bloch",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_105",
-      "label": "Aussage: Polen hat den Verkauf an Minderjährige 2024 verboten.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Polen hat den Verkauf an Minderjährige 2024 verboten.",
-      "person": "Joachim Bloch",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_106",
-      "label": "Aussage: Wir haben mit dem Maritimen Sicherheitszentrum, der Bundespo…",
+      "id": "aussage_40",
+      "label": "Aussage: Rund 70 Prozent des russischen Öls wird über die Schattenflo…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Wir haben mit dem Maritimen Sicherheitszentrum, der Bundespolizei See, dem Zoll, der Marine, dem Havariekommando, der GSG 9 und den Nachrichtendiensten die besten Frauen und Männer, um dem Recht Geltung zu verschaffen.",
+      "text": "Rund 70 Prozent des russischen Öls wird über die Schattenflotte transportiert, und damit finanziert Russland seinen Krieg.",
       "person": "Robin Wagener",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_107",
-      "label": "Aussage: Rund 70 Prozent des russischen Öls wird über die Schattenflo…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Rund 70 Prozent des russischen Öls wird über die Schattenflotte transportiert, und damit finanziert Russland seinen Krieg.",
-      "person": "Roderich Kiesewetter",
-      "schicht": "fallbezug"
+      "id": "faktencheck_40",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt Schätzungen und Berichte, die darauf hindeuten, dass ein erheblicher Teil des russischen Öls über die sogenannte 'Schattenflotte' transportiert wird. Laut einem Bericht des Centre for Research on Energy and Clean Air (CREA) aus dem Jahr 2023 wurden etwa 60% des russischen Rohöls übe",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_108",
-      "label": "Aussage: Es sind 25 bis 30 Schiffe, die täglich durch die Ostsee fahr…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Es sind 25 bis 30 Schiffe, die täglich durch die Ostsee fahren.",
-      "person": "Roderich Kiesewetter",
-      "schicht": "fallbezug"
+      "id": "quelle_centre_for_research_on_energy_and_clean_air_crea_report_shadow_fleet_how_sanctions_evading_tankers_transport_russian_oil",
+      "label": "Centre for Research on Energy and Clean Air (CREA) - Report: 'Shadow Fleet: How Sanctions-Evading Tankers Transport Russian Oil'",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://energyandcleanair.org/publication/shadow-fleet-how-sanctions-evading-tankers-transport-russian-oil/",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_109",
-      "label": "Aussage: Über 2,30 Euro für den Liter Diesel, Rekordpreise, sieben Al…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Über 2,30 Euro für den Liter Diesel, Rekordpreise, sieben Allzeithochs in Folge: Die Deutschen spüren das an der Zapfsäule, auf der Heizkostenabrechnung, an der Supermarktkasse.",
-      "person": "Markus Frohnmaier",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_110",
-      "label": "Aussage: 90 Prozent der russischen Rohöllieferungen gehen jetzt nach …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "90 Prozent der russischen Rohöllieferungen gehen jetzt nach China, Indien, in die Türkei.",
-      "person": "Markus Frohnmaier",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_111",
-      "label": "Aussage: Die Deutschen zahlen über 2,30 Euro an der Zapfsäule, und di…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Die Deutschen zahlen über 2,30 Euro an der Zapfsäule, und die Grünen fordern mehr von der Politik, die uns dahin gebracht hat, wo wir heute stehen.",
-      "person": "Markus Frohnmaier",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_112",
-      "label": "Aussage: Der berühmteste Neokonservative des 21. Jahrhunderts und Vor…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Der berühmteste Neokonservative des 21. Jahrhunderts und Vorzeige-Falke Dick Cheney hätte, würde er noch leben, Sie für diesen Antrag bestimmt gelobt.",
-      "person": "Sören Pellmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_113",
-      "label": "Aussage: Die G7-Staaten legen einseitig einen Deckel für russische Öl…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Die G7-Staaten legen einseitig einen Deckel für russische Ölverkäufe fest.",
-      "person": "Sören Pellmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_114",
-      "label": "Aussage: Im Dezember letzten Jahres wurden mehr als 40 weitere Schiff…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Im Dezember letzten Jahres wurden mehr als 40 weitere Schiffe der Schattenflotte auf die Liste gesetzt, auf der jetzt schon fast 600 Schiffe stehen.",
-      "person": "Bastian Ernst",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_115",
-      "label": "Aussage: Der bekommt jetzt 200 Millionen Euro quasi als Geschenk aus …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Der bekommt jetzt 200 Millionen Euro quasi als Geschenk aus unserem Steuergeld dafür, dass er beispielsweise in Syrien Drusen verfolgt, Alawiten verfolgt usw.; Sie kennen die Geschichten.",
-      "person": "Helge Lindh",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_116",
-      "label": "Aussage: Für die Fraktion Bündnis 90/Die Grünen hat jetzt das Wort de…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Für die Fraktion Bündnis 90/Die Grünen hat jetzt das Wort der Abgeordnete Dr.",
-      "person": "Helge Lindh",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_117",
-      "label": "Aussage: Im September 2022 hat der damalige Oppositionsführer Friedri…",
+      "id": "aussage_41",
+      "label": "Aussage: Es sind 25 bis 30 Schiffe, die täglich durch die Ostsee fahr…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Im September 2022 hat der damalige Oppositionsführer Friedrich Merz wortwörtlich gesagt, „die Zögerlichkeit, der Ukraine noch intensiver zu helfen“, sei „ein Grund dafür, dass dieser Krieg sich verlängert“.",
+      "text": "Es sind 25 bis 30 Schiffe, die täglich durch die Ostsee fahren.",
+      "person": "Robin Wagener",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_41",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen, amtlichen Statistiken oder Berichte, die diese konkrete Zahl von 25 bis 30 Schiffen täglich bestätigen. Die Anzahl der Schiffe, die als Teil der 'Schattenflotte' durch die Ostsee fahren, variiert und ist schwer präzise zu quantifizieren.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_42",
+      "label": "Aussage: immerhin sind es neun Pakete…",
+      "type": "Aussage",
+      "subtype": "Die Linke",
+      "text": "immerhin sind es neun Pakete",
+      "person": "Sören Pellmann",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_42",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU hat bis Juni 2024 insgesamt 14 Sanktionspakete gegen Russland verhängt. Zum Zeitpunkt der Rede (2023) waren es tatsächlich neun Pakete.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_eu_sanktionen_gegen_russland_bersicht_der_ma_nahmen",
+      "label": "EU-Sanktionen gegen Russland – Übersicht der Maßnahmen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.consilium.europa.eu/de/policies/sanctions/restrictive-measures-against-russia-over-ukraine/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_43",
+      "label": "Aussage: Putin führt seit mehr als vier Jahren einen völkerrechtswidr…",
+      "type": "Aussage",
+      "subtype": "Die Linke",
+      "text": "Putin führt seit mehr als vier Jahren einen völkerrechtswidrigen und brutalen Angriffskrieg",
+      "person": "Sören Pellmann",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_43",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der russische Angriff auf die Ukraine begann am 24. Februar 2022. Die Aussage bezieht sich möglicherweise auf die Annexion der Krim 2014 und den Krieg im Donbas, der seit 2014 andauert. Der großflächige Angriffskrieg begann jedoch 2022. Die Formulierung 'mehr als vier Jahre' ist daher irref",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesregierung_chronologie_des_russischen_angriffskriegs",
+      "label": "Bundesregierung – Chronologie des russischen Angriffskriegs",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesregierung.de/breg-de/themen/ukraine-hilfe/chronologie-ukraine-2011092",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_44",
+      "label": "Aussage: Im 14. Sanktionspaket vom 24.06.2024 wurden die ersten 27 Sc…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Im 14. Sanktionspaket vom 24.06.2024 wurden die ersten 27 Schiffe namentlich gelistet. Heute stehen fast 600 Schiffe auf dieser Liste.",
       "person": "Dr. Anton Hofreiter",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_118",
-      "label": "Aussage: Im 14. Sanktionspaket vom 24.06.2024 wurden die ersten 27 Sc…",
+      "id": "faktencheck_44",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das 14. EU-Sanktionspaket gegen Russland wurde am 24.06.2024 verabschiedet und enthält tatsächlich Sanktionen gegen die russische Schattenflotte. Allerdings wurden im Paket selbst zunächst 27 Schiffe gelistet (vgl. EU-Amtsblatt L 2024/1745). Die Zahl von 'fast 600 Schiffen' bezieht sich ver",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_eu_amtsblatt_verordnung_eu_2024_1745_des_rates_vom_24_juni_2024",
+      "label": "EU-Amtsblatt: Verordnung (EU) 2024/1745 des Rates vom 24. Juni 2024",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401745",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_45",
+      "label": "Aussage: Die Einnahmen, die Russland aus dem Verkauf von Ölprodukten …",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Im 14. Sanktionspaket vom 24.06.2024 wurden die ersten 27 Schiffe namentlich gelistet.",
-      "person": "Tobias Winkler",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Die Einnahmen, die Russland aus dem Verkauf von Ölprodukten erzielt, liegen im dreistelligen Milliardenbereich.",
+      "person": "Dr. Anton Hofreiter",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_119",
-      "label": "Aussage: Heute stehen fast 600 Schiffe auf dieser Liste.…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Heute stehen fast 600 Schiffe auf dieser Liste.",
-      "person": "Tobias Winkler",
-      "schicht": "fallbezug"
+      "id": "faktencheck_45",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Schätzungen des Internationalen Währungsfonds (IWF) und anderer Analysen beliefen sich Russlands Einnahmen aus dem Öl- und Gasexport 2022 auf etwa 218 Mrd. US-Dollar (ca. 200 Mrd. Euro) und 2023 auf rund 140 Mrd. US-Dollar. Die Aussage eines 'dreistelligen Milliardenbereichs' ist somit",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_120",
-      "label": "Aussage: Die Bundesregierung hat auf europäischer Ebene 19 Sanktionsp…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die Bundesregierung hat auf europäischer Ebene 19 Sanktionspakete beschlossen und zuletzt massiv weiter verschärft.",
-      "person": "Tobias Winkler",
-      "schicht": "fallbezug"
+      "id": "quelle_bundesregierung_antwort_auf_kleine_anfrage_drucksache_20_9400",
+      "label": "Bundesregierung: Antwort auf Kleine Anfrage (Drucksache 20/9400)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dserver.bundestag.de/btd/20/094/2009400.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_121",
-      "label": "Aussage: Der April 2026 steht für eine neue, gefährliche Eskalation i…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Der April 2026 steht für eine neue, gefährliche Eskalation im Nahen Osten.",
-      "person": "Cansu Özdemir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_122",
-      "label": "Aussage: Die massiven Luftangriffe Israels im Rahmen der Operation Et…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Die massiven Luftangriffe Israels im Rahmen der Operation Eternal Darkness, insbesondere die Angriffe am 8. April, die Raketenangriffe der Hisbollah auf Nordisrael und die Ausweitung der Kämpfe auf den Südlibanon zeigen: Wir erleben keine isolierten Ereignisse, sondern eine sich weiterdrehende Gewal",
-      "person": "Cansu Özdemir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_123",
-      "label": "Aussage: Der 8. April war der tödlichste Tag dieser Eskalation.…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Der 8. April war der tödlichste Tag dieser Eskalation.",
-      "person": "Cansu Özdemir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_124",
-      "label": "Aussage: Über 2 000 Tote, mehr als 1 Million Vertriebene: Das sind ze…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Über 2 000 Tote, mehr als 1 Million Vertriebene: Das sind zerstörte Leben, zerstörte Familien, zerstörte Perspektiven.",
-      "person": "Cansu Özdemir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_125",
-      "label": "Aussage: Sie haben in den 50er-Jahren das Frauenwahlrecht erkämpft, s…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Sie haben in den 50er-Jahren das Frauenwahlrecht erkämpft, sie haben Proteste getragen, etwa 2015 im Rahmen der Müllkrise, sie haben Reformen angestoßen.",
-      "person": "Cansu Özdemir",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_126",
+      "id": "aussage_46",
       "label": "Aussage: Die Grundlage dafür gibt es seit 2006 durch die UN-Resolutio…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Die Grundlage dafür gibt es seit 2006 durch die UN-Resolution 1701, die einstimmig, auch von China und Russland, angenommen wurde, aber nicht umgesetzt.",
+      "text": "Die Grundlage dafür gibt es seit 2006 durch die UN-Resolution 1701, die einstimmig, auch von China und Russland, angenommen wurde",
       "person": "Roderich Kiesewetter",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_127",
-      "label": "Aussage: Dann hatten wir den 7. Oktober, der allen in grausamer Erinn…",
+      "id": "faktencheck_46",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die UN-Resolution 1701 wurde am 11. August 2006 einstimmig vom UN-Sicherheitsrat angenommen, einschließlich der Zustimmung von China und Russland.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_united_nations_security_council_resolution_1701",
+      "label": "United Nations Security Council Resolution 1701",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://undocs.org/S/RES/1701(2006)",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_47",
+      "label": "Aussage: am 8. Oktober begann die Hisbollah einen furchtbaren Raketen…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Dann hatten wir den 7. Oktober, der allen in grausamer Erinnerung ist.",
+      "text": "am 8. Oktober begann die Hisbollah einen furchtbaren Raketenangriff auf Israel, durch den Zehntausende Israelis im Norden des Landes gezwungen waren, für etwa eineinhalb bis zwei Jahre umzusiedeln",
       "person": "Roderich Kiesewetter",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_128",
-      "label": "Aussage: Und am 8. Oktober begann die Hisbollah einen furchtbaren Rak…",
+      "id": "faktencheck_47",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gab tatsächlich Raketenangriffe der Hisbollah auf Israel ab dem 8. Oktober 2023, und Zehntausende Israelis wurden evakuiert. Allerdings ist die Dauer der Umsiedlung (eineinhalb bis zwei Jahre) eine Schätzung und nicht durch amtliche Statistiken belegt. Die genaue Zahl der Evakuierten var",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_israel_evakuiert_zehntausende_nach_hisbollah_angriffen_tagesschau",
+      "label": "Israel evakuiert Zehntausende nach Hisbollah-Angriffen (Tagesschau)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesschau.de/ausland/asien/israel-hisbollah-100.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_48",
+      "label": "Aussage: der Iran [hat] über Jahrzehnte eine nukleare Fähigkeit aufge…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Und am 8. Oktober begann die Hisbollah einen furchtbaren Raketenangriff auf Israel, durch den Zehntausende Israelis im Norden des Landes gezwungen waren, für etwa eineinhalb bis zwei Jahre umzusiedeln.",
+      "text": "der Iran [hat] über Jahrzehnte eine nukleare Fähigkeit aufgebaut",
       "person": "Roderich Kiesewetter",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_129",
-      "label": "Aussage: Wir müssen uns insgesamt Gedanken machen, wie wir in einer F…",
+      "id": "faktencheck_48",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Iran hat ein umstrittenes Nuklearprogramm, das seit den 2000er-Jahren international beobachtet wird. Ob der Iran tatsächlich eine 'nukleare Fähigkeit' (im Sinne einer Waffenfähigkeit) erreicht hat, ist jedoch umstritten und wird von verschiedenen internationalen Akteuren unterschiedlich",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_iaea_berichte_zum_iranischen_nuklearprogramm",
+      "label": "IAEA-Berichte zum iranischen Nuklearprogramm",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.iaea.org/topics/iran-nuclear-issue",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_49",
+      "label": "Aussage: An UNIFIL waren wir beteiligt.…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Wir müssen uns insgesamt Gedanken machen, wie wir in einer Friedensordnung im Nahen und Mittleren Osten das Existenzrecht Israels stärken und die Umsetzung dessen, was die Vereinten Nationen vor 20 Jahren verabschiedet haben, ermöglichen.",
+      "text": "An UNIFIL waren wir beteiligt.",
       "person": "Roderich Kiesewetter",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_130",
-      "label": "Aussage: 1975 – maßgeblich angezettelt von der sogenannten Palästinen…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "1975 – maßgeblich angezettelt von der sogenannten Palästinensischen Befreiungsorganisation, der PLO – entbrannte der blutige Bürgerkrieg im Libanon.",
-      "person": "Dr. Alexander Wolf",
-      "schicht": "fallbezug"
+      "id": "faktencheck_49",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Deutschland beteiligt sich seit 2006 an der UNIFIL-Mission im Libanon mit Marineeinheiten und Personal. Dies ist durch Bundestagsbeschlüsse und offizielle Regierungsdokumente belegt.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_131",
-      "label": "Aussage: Es zog sich 2006 letztmals zurück, nachdem die Resolution 17…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Es zog sich 2006 letztmals zurück, nachdem die Resolution 1701 des UN-Sicherheitsrats der Hisbollah jedwede Tätigkeit im Gebiet verbot und eine Entwaffnung in Aussicht stellte.",
-      "person": "Dr. Alexander Wolf",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_132",
-      "label": "Aussage: 60 000 Menschen in Nordisrael mussten ihre Häuser verlassen,…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "60 000 Menschen in Nordisrael mussten ihre Häuser verlassen, als die Hisbollah sich dem Kampf der Hamas am 7./8. Oktober anschloss.",
-      "person": "Dr. Alexander Wolf",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_133",
-      "label": "Aussage: Auf 4,5 Millionen Einwohner kommen über 1 Million syrische u…",
-      "type": "Aussage",
+      "id": "quelle_bundeswehr_beteiligung_an_unifil",
+      "label": "Bundeswehr: Beteiligung an UNIFIL",
+      "type": "Quelle",
       "subtype": "",
-      "text": "Auf 4,5 Millionen Einwohner kommen über 1 Million syrische und 200 000 palästinensische Geflüchtete.",
-      "person": "Johann Saathoff",
-      "schicht": "fallbezug"
+      "url": "https://www.bundeswehr.de/de/einsaetze/einsatzuebersicht/aktuell/unifil-libanon",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_134",
-      "label": "Aussage: Über 250 000 Menschen sind nach Syrien geflohen.…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Über 250 000 Menschen sind nach Syrien geflohen.",
-      "person": "Johann Saathoff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_135",
-      "label": "Aussage: Über 1 Million Menschen – Frauen, Männer, Kinder – sind im L…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Über 1 Million Menschen – Frauen, Männer, Kinder – sind im Libanon selbst auf der Flucht.",
-      "person": "Johann Saathoff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_136",
-      "label": "Aussage: Wir steuern bestehende Maßnahmen um und stellen Unterstützun…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir steuern bestehende Maßnahmen um und stellen Unterstützung von zusätzlichen 75 Millionen Euro für den Libanon bereit, wie kürzlich von Ministerin Alabali Radovan als Teil eines Hilfspakets für die Region angekündigt.",
-      "person": "Johann Saathoff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_137",
-      "label": "Aussage: Ich bin froh, dass auch das Auswärtige Amt dem Libanon zusät…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Ich bin froh, dass auch das Auswärtige Amt dem Libanon zusätzliche 45 Millionen Euro humanitäre Hilfe zugesagt hat.",
-      "person": "Johann Saathoff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_138",
-      "label": "Aussage: Für Bündnis 90/Die Grünen darf ich Luise Amtsberg das Wort e…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Für Bündnis 90/Die Grünen darf ich Luise Amtsberg das Wort erteilen.",
-      "person": "Johann Saathoff",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_139",
-      "label": "Aussage: Die anhaltende militärische Präsenz Israels, die Zerstörung …",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die anhaltende militärische Präsenz Israels, die Zerstörung im Süden des Landes, die Vertreibung von mittlerweile über 1 Million Menschen sowie der Beschuss ziviler Infrastruktur durch Israel sind völkerrechtswidrig.",
-      "person": "Luise Amtsberg",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_140",
-      "label": "Aussage: Das System Hisbollah hat 70 Prozent der Bevölkerung in bitte…",
+      "id": "aussage_50",
+      "label": "Aussage: der UNIFIL-Einsatz wird dieses Jahr beendet…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Das System Hisbollah hat 70 Prozent der Bevölkerung in bittere Armut getrieben.",
+      "text": "der UNIFIL-Einsatz wird dieses Jahr beendet",
+      "person": "Roderich Kiesewetter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_50",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine offizielle Bestätigung, dass der UNIFIL-Einsatz 2024 beendet wird. Die Mandate der UNIFIL werden regelmäßig verlängert, zuletzt bis August 2024. Eine Beendigung wäre eine politische Entscheidung, die bisher nicht angekündigt wurde.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_unifil_mandat_un",
+      "label": "UNIFIL-Mandat (UN)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://unifil.unmissions.org/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_51",
+      "label": "Aussage: in Syrien [...] haben Kurden und auch Palästinenser die Chan…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "in Syrien [...] haben Kurden und auch Palästinenser die Chance auf eine syrische Staatsbürgerschaft",
+      "person": "Roderich Kiesewetter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_51",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Syrien hat 2011 ein Dekret erlassen, das palästinensischen Flüchtlingen bestimmte Rechte einräumt, darunter den Zugang zur syrischen Staatsbürgerschaft unter bestimmten Bedingungen. Allerdings ist die Umsetzung unklar, und die Situation für Kurden in Syrien ist komplex (z. B. durch den Entz",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_unrwa_situation_pal_stinensischer_fl_chtlinge_in_syrien",
+      "label": "UNRWA: Situation palästinensischer Flüchtlinge in Syrien",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.unrwa.org/syria-crisis",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_52",
+      "label": "Aussage: Das System Hisbollah hat 70 Prozent der Bevölkerung in bitte…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Das System Hisbollah hat 70 Prozent der Bevölkerung in bittere Armut getrieben.",
       "person": "Dr. Wolfgang Stefinger",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_141",
-      "label": "Aussage: Mir schrieb aber vor einigen Tagen meine letztjährige IPS-St…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Mir schrieb aber vor einigen Tagen meine letztjährige IPS-Stipendiatin aus dem Libanon – ich zitiere –: „Die letzten Wochen in Beirut waren schlicht ein täglicher Kampf ums Überleben im Krieg, insbesondere nach den 160 gleichzeitigen Angriffen auf den Libanon am vergangenen Mittwoch.",
-      "person": "Gerold Otten",
-      "schicht": "fallbezug"
+      "id": "faktencheck_52",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche oder allgemein anerkannte Statistik, die diese konkrete Zahl der Armut im Libanon direkt der Hisbollah zuschreibt. Armutsdaten im Libanon werden von internationalen Organisationen wie der Weltbank oder UN erhoben, aber eine direkte Kausalität zur Hisbollah ist nicht q",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_142",
-      "label": "Aussage: Allein dieser Tag forderte 375 Tote und 1223 Verletzte!“ Mei…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Allein dieser Tag forderte 375 Tote und 1223 Verletzte!“ Meine Damen und Herren, diese Aktuelle Stunde heute ist daher wichtig, die Lage im Libanon wieder in den Fokus zu nehmen, auch wenn gerade eine zehntägige Waffenruhe zwischen dem Libanon und Israel verkündet wurde.",
-      "person": "Gerold Otten",
-      "schicht": "fallbezug"
+      "id": "quelle_world_bank_lebanon_economic_monitor_fall_2021",
+      "label": "World Bank: Lebanon Economic Monitor, Fall 2021",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.worldbank.org/en/country/lebanon/publication/lebanon-economic-monitor",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_143",
-      "label": "Aussage: Lassen Sie mich zunächst auf die Entwicklungen seit dem 28. …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Lassen Sie mich zunächst auf die Entwicklungen seit dem 28. Februar 2026 eingehen und nüchtern Bilanz ziehen.",
-      "person": "Adis Ahmetovic",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_144",
-      "label": "Aussage: Wer glaubt, die Hisbollah zu entwaffnen und die Idee der His…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wer glaubt, die Hisbollah zu entwaffnen und die Idee der Hisbollah zu beseitigen, indem man so viele Raketen auf den Libanon und den Iran abschießt wie nicht einmal in vier Jahren Krieg in der Ukraine, wer glaubt, die Hisbollah abzulösen, indem man 1,2 Millionen Menschen aus dem Süden Libanons vertr",
-      "person": "Adis Ahmetovic",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_145",
-      "label": "Aussage: Es fällt keinem anderen europäischem Parlament so schwer, di…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Es fällt keinem anderen europäischem Parlament so schwer, die Position, die wir heute hier im Deutschen Bundestag vertreten, und die Fakten seit dem 28. Februar 2026 zu benennen.",
-      "person": "Adis Ahmetovic",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_146",
-      "label": "Aussage: Diejenigen Kräfte in diesem Hause, die immer wieder vor Migr…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Diejenigen Kräfte in diesem Hause, die immer wieder vor Migration und Flucht warnen, sollten ein intrinsisches Interesse daran haben, dass die libanesische Regierung nicht instabiler wird, nicht fällt, dass der Libanon nicht noch weiter mit Hunderten von Raketen bombardiert wird, dass zu den 1 Milli",
-      "person": "Adis Ahmetovic",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_147",
-      "label": "Aussage: Liebe Kolleginnen und Kollegen, ich darf das Wort erteilen S…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Liebe Kolleginnen und Kollegen, ich darf das Wort erteilen Sara Nanni, Bündnis 90/Die Grünen.",
-      "person": "Adis Ahmetovic",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_148",
-      "label": "Aussage: Mittlerweile sind dort über 1 Million Menschen, vor allen Di…",
+      "id": "aussage_53",
+      "label": "Aussage: Deutschland ist einer der größten Geber von Entwicklungsgeld…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Mittlerweile sind dort über 1 Million Menschen, vor allen Dingen aus dem Südlibanon, auf der Flucht.",
-      "person": "Ellen Demuth",
+      "text": "Deutschland ist einer der größten Geber von Entwicklungsgeldern.",
+      "person": "Dr. Wolfgang Stefinger",
       "schicht": "fallbezug"
     },
     {
-      "id": "aussage_149",
-      "label": "Aussage: Wir haben es gehört: Über 1 Million Menschen sind innerhalb …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wir haben es gehört: Über 1 Million Menschen sind innerhalb des Libanons auf der Flucht.",
-      "person": "Sanae Abdi",
-      "schicht": "fallbezug"
+      "id": "faktencheck_53",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Deutschland gehört zu den größten Gebern von öffentlicher Entwicklungszusammenarbeit (ODA) weltweit. Laut OECD-DAC-Statistiken lag Deutschland 2022 auf Platz 2 der Geberländer nach Volumen.",
+      "schicht": "faktencheck"
     },
     {
-      "id": "aussage_150",
-      "label": "Aussage: Deshalb sind die zusätzlichen 75 Millionen Euro für den Liba…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Deshalb sind die zusätzlichen 75 Millionen Euro für den Libanon genau richtig.",
-      "person": "Sanae Abdi",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_151",
-      "label": "Aussage: Das zeigt ein Blick auf die Nachbarstaaten in der Region: 19…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Das zeigt ein Blick auf die Nachbarstaaten in der Region: 1979 schlossen Ägypten und Israel Frieden, und seither fielen kein Schuss und keine Granate mehr, 1994 ebenso Jordanien und Israel.",
-      "person": "Johannes Volkmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_152",
-      "label": "Aussage: Kein Staat der Welt kann dulden, wenn Zehntausende eigener B…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Kein Staat der Welt kann dulden, wenn Zehntausende eigener Bürger ihre Heimat verlassen müssen, weil sie durch dauerhaften Raketenbeschuss einer Terrororganisation unbewohnbar geworden ist, so wie es im Norden Israels seit dem 7. Oktober 2023 der Fall ist.",
-      "person": "Johannes Volkmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_153",
-      "label": "Aussage: Israel kann nicht tatenlos zusehen, wenn Tunnelnetzwerke ang…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Israel kann nicht tatenlos zusehen, wenn Tunnelnetzwerke angelegt werden und ein erneutes Massaker nach Vorbild des 7. Oktobers aus dem Südlibanon heraus vorbereitet wird.",
-      "person": "Johannes Volkmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_154",
-      "label": "Aussage: Wie willkürlich der Raketenterror der Hisbollah mordet, zeig…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Wie willkürlich der Raketenterror der Hisbollah mordet, zeigt das Beispiel der zwölf drusischen Kinder, die in Madschd Al-Schams auf dem Golan mitten auf einem Fußballplatz im Juli 2024 ermordet wurden.",
-      "person": "Johannes Volkmann",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "aussage_155",
-      "label": "Aussage: Wer die militärische Bekämpfung der Hisbollah aus moralische…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Wer die militärische Bekämpfung der Hisbollah aus moralischen Gründen verwirft, muss sich der Realität ihres ungestörten Wachstums zwischen den Jahren 2006 und 2023 stellen, die mit großen Kosten für die Bevölkerung im Libanon verbunden war und eine massive Auswanderungswelle gerade der jungen und q",
-      "person": "Johannes Volkmann",
-      "schicht": "fallbezug"
+      "id": "quelle_oecd_development_co_operation_profiles_germany",
+      "label": "OECD: Development Co-operation Profiles – Germany",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.oecd-ilibrary.org/sites/89d85713-en/index.html?itemId=/content/component/89d85713-en",
+      "stand": "",
+      "schicht": "faktencheck"
     },
     {
       "id": "ereignis_0",
@@ -8932,34 +8743,34 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_stefan_m_ller",
+      "source_id": "person_pr_sidentin_julia_kl_ckner",
       "target_id": "aussage_0",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_0",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_0",
       "target_id": "faktencheck_0",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_bundesgesetzblatt_jahrgang_2023_teil_i_nr_105_ausgegeben_zu_bonn_am_28_april_2023",
+      "target_id": "quelle_schuldenbarometer_2022_statistisches_bundesamt_destatis_creditreform",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_stefan_m_ller",
+      "source_id": "person_pr_sidentin_julia_kl_ckner",
       "target_id": "aussage_1",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_1",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -8970,11 +8781,11 @@
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_stefan_m_ller",
+      "source_id": "person_stefan_schmidt",
       "target_id": "aussage_2",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -8987,15 +8798,15 @@
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_richtlinie_eu_2023_2225_des_europ_ischen_parlaments_und_des_rates",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_stefan_m_ller",
+      "source_id": "person_stefan_schmidt",
       "target_id": "aussage_3",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9012,11 +8823,11 @@
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_keine_belastbare_quelle_gefunden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_susanne_hierl",
+      "source_id": "person_stefan_schmidt",
       "target_id": "aussage_4",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9029,15 +8840,15 @@
       "source_id": "aussage_4",
       "target_id": "faktencheck_4",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_keine_spezifische_amtliche_quelle_aber_allgemeine_informationen_zu_inkassokosten",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_susanne_hierl",
+      "source_id": "person_stefan_schmidt",
       "target_id": "aussage_5",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9050,11 +8861,11 @@
       "source_id": "aussage_5",
       "target_id": "faktencheck_5",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_pressemitteilung_der_europ_ischen_kommission",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9071,15 +8882,15 @@
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_richtlinie_eu_2023_2225_des_europ_ischen_parlaments_und_des_rates",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_stefan_schmidt",
+      "source_id": "person_sebastian_steineke",
       "target_id": "aussage_7",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9092,15 +8903,15 @@
       "source_id": "aussage_7",
       "target_id": "faktencheck_7",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_statistisches_bundesamt_destatis_berschuldung_privater_personen_2021",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_stefan_schmidt",
+      "source_id": "person_sebastian_steineke",
       "target_id": "aussage_8",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9113,15 +8924,15 @@
       "source_id": "aussage_8",
       "target_id": "faktencheck_8",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_bundesministerium_der_justiz_inkassokostenverordnung_inkassokostenv",
+      "target_id": "quelle_statistisches_bundesamt_destatis_berschuldung_privater_personen_2021",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_stefan_schmidt",
+      "source_id": "person_sebastian_steineke",
       "target_id": "aussage_9",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9138,11 +8949,11 @@
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_iff_schuldenreport_2023_keine_direkte_best_tigung_der_20_aussage",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_christin_willnat",
+      "source_id": "person_carl_philipp_sassenrath",
       "target_id": "aussage_10",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9155,15 +8966,15 @@
       "source_id": "aussage_10",
       "target_id": "faktencheck_10",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_bundesamt_f_r_wirtschaft_und_ausfuhrkontrolle_bafa_umweltbonus",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_christin_willnat",
+      "source_id": "person_carl_philipp_sassenrath",
       "target_id": "aussage_11",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9176,15 +8987,15 @@
       "source_id": "aussage_11",
       "target_id": "faktencheck_11",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_ki_faktencheck_nicht_m_glich",
+      "target_id": "quelle_bundesregierung_wachstumschancengesetz",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_carmen_wegge",
+      "source_id": "person_carl_philipp_sassenrath",
       "target_id": "aussage_12",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9194,7 +9005,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_carmen_wegge",
+      "source_id": "aussage_12",
+      "target_id": "faktencheck_12",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "falsch"
+    },
+    {
+      "source_id": "faktencheck_12",
+      "target_id": "quelle_kraftfahrt_bundesamt_kba_neuzulassungen_m_rz_2024",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_carl_philipp_sassenrath",
       "target_id": "aussage_13",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9204,7 +9026,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_stephan_brandner",
+      "source_id": "aussage_13",
+      "target_id": "faktencheck_13",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "falsch"
+    },
+    {
+      "source_id": "faktencheck_13",
+      "target_id": "quelle_kraftfahrt_bundesamt_kba_neuzulassungen_m_rz_2024",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_carl_philipp_sassenrath",
       "target_id": "aussage_14",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9214,7 +9047,18 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_stephan_brandner",
+      "source_id": "aussage_14",
+      "target_id": "faktencheck_14",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_14",
+      "target_id": "quelle_robert_koch_institut_krebs_in_deutschland",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_carl_philipp_sassenrath",
       "target_id": "aussage_15",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9224,1404 +9068,813 @@
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_sebastian_steineke",
+      "source_id": "aussage_15",
+      "target_id": "faktencheck_15",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_15",
+      "target_id": "quelle_bundesministerium_f_r_wirtschaft_und_klimaschutz_batterie_ipcei",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_hermann_f_rber",
       "target_id": "aussage_16",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_16",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_sebastian_steineke",
+      "source_id": "aussage_16",
+      "target_id": "faktencheck_16",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_16",
+      "target_id": "quelle_drucksache_20_1850_entwurf_eines_gesetzes_zur_tempor_ren_senkung_des_umsatzsteuersatzes_auf_gaslieferungen_ber_das_erdgasnetz",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_hermann_f_rber",
       "target_id": "aussage_17",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_17",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_sebastian_steineke",
+      "source_id": "aussage_17",
+      "target_id": "faktencheck_17",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_17",
+      "target_id": "quelle_bundeshaushaltsplan_2022_einzelplan_60",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_hermann_f_rber",
       "target_id": "aussage_18",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_18",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_sebastian_steineke",
+      "source_id": "aussage_18",
+      "target_id": "faktencheck_18",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_18",
+      "target_id": "quelle_eurostat_production_of_fertilizers",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_marcel_bauer",
       "target_id": "aussage_19",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_19",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_sebastian_steineke",
+      "source_id": "aussage_19",
+      "target_id": "faktencheck_19",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_19",
+      "target_id": "quelle_amnesty_international_bericht_zum_massaker_von_eldorado_dos_caraj_s",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_marcel_bauer",
       "target_id": "aussage_20",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_20",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_sebastian_steineke",
+      "source_id": "aussage_20",
+      "target_id": "faktencheck_20",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_20",
+      "target_id": "quelle_la_via_campesina_offizielle_website",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_marcel_bauer",
       "target_id": "aussage_21",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_21",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_till_steffen",
+      "source_id": "aussage_21",
+      "target_id": "faktencheck_21",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_21",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_marcel_bauer",
       "target_id": "aussage_22",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_22",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_till_steffen",
+      "source_id": "aussage_22",
+      "target_id": "faktencheck_22",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_22",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_bernd_schuhmann",
       "target_id": "aussage_23",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_23",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_till_steffen",
+      "source_id": "aussage_23",
+      "target_id": "faktencheck_23",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_23",
+      "target_id": "quelle_suez_canal_authority_sca_pressemitteilung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_bernd_schuhmann",
       "target_id": "aussage_24",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_24",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_kay_gottschalk",
+      "source_id": "aussage_24",
+      "target_id": "faktencheck_24",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_24",
+      "target_id": "quelle_statistisches_bundesamt_destatis_erzeugerpreise_landwirtschaftlicher_produkte",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_stephan_protschka",
       "target_id": "aussage_25",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_25",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_kay_gottschalk",
+      "source_id": "aussage_25",
+      "target_id": "faktencheck_25",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_25",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_stephan_protschka",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_26",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_kay_gottschalk",
+      "source_id": "aussage_26",
+      "target_id": "faktencheck_26",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_26",
+      "target_id": "quelle_statistisches_bundesamt_destatis_agrarpreise",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_stephan_protschka",
       "target_id": "aussage_27",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_27",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_kay_gottschalk",
+      "source_id": "aussage_27",
+      "target_id": "faktencheck_27",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_27",
+      "target_id": "quelle_destatis_au_enhandel_mit_d_ngemitteln_2022",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_stephan_protschka",
       "target_id": "aussage_28",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_28",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_kay_gottschalk",
+      "source_id": "aussage_28",
+      "target_id": "faktencheck_28",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_28",
+      "target_id": "quelle_bundesanstalt_f_r_landwirtschaft_und_ern_hrung_ble_d_ngemittelstatistik",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_stephan_protschka",
       "target_id": "aussage_29",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_29",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_kay_gottschalk",
+      "source_id": "aussage_29",
+      "target_id": "faktencheck_29",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_29",
+      "target_id": "quelle_deutscher_bauernverband_marktbericht_d_ngemittel",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_stephan_protschka",
       "target_id": "aussage_30",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_30",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_kay_gottschalk",
+      "source_id": "aussage_30",
+      "target_id": "faktencheck_30",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_30",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_julia_christina_stange",
       "target_id": "aussage_31",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_31",
-      "target_id": "top_2",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_kay_gottschalk",
+      "source_id": "aussage_31",
+      "target_id": "faktencheck_31",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_31",
+      "target_id": "quelle_wartezeiten_auf_facharzttermine_ergebnisse_einer_bundesweiten_befragung_von_arztpraxen_2020_2021",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_julia_christina_stange",
       "target_id": "aussage_32",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_32",
-      "target_id": "top_2",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_carl_philipp_sassenrath",
+      "source_id": "aussage_32",
+      "target_id": "faktencheck_32",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_32",
+      "target_id": "quelle_antwort_der_bundesregierung_auf_die_kleine_anfrage_der_abgeordneten_dr_achim_kessler_u_a_drucksache_19_26820",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_julia_christina_stange",
       "target_id": "aussage_33",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_33",
-      "target_id": "top_2",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_carl_philipp_sassenrath",
+      "source_id": "aussage_33",
+      "target_id": "faktencheck_33",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_33",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_julia_christina_stange",
       "target_id": "aussage_34",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_34",
-      "target_id": "top_2",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_carl_philipp_sassenrath",
+      "source_id": "aussage_34",
+      "target_id": "faktencheck_34",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_34",
+      "target_id": "quelle_terminservice_und_versorgungsgesetz_tsvg",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_claudia_weiss",
       "target_id": "aussage_35",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_35",
-      "target_id": "top_2",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_carl_philipp_sassenrath",
+      "source_id": "aussage_35",
+      "target_id": "faktencheck_35",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_35",
+      "target_id": "quelle_wip_studie_beitrag_der_privaten_krankenversicherung_zur_finanzierung_des_gesundheitswesens",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_claudia_weiss",
       "target_id": "aussage_36",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_36",
-      "target_id": "top_2",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_adis_ahmetovic",
+      "source_id": "aussage_36",
+      "target_id": "faktencheck_36",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_36",
+      "target_id": "quelle_bundesministerium_f_r_gesundheit_bericht_zum_tsvg",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_anne_janssen",
       "target_id": "aussage_37",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_37",
-      "target_id": "top_2",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_konrad_k_rner",
+      "source_id": "aussage_37",
+      "target_id": "faktencheck_37",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_37",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_anne_janssen",
       "target_id": "aussage_38",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_38",
-      "target_id": "top_2",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_hermann_f_rber",
+      "source_id": "aussage_38",
+      "target_id": "faktencheck_38",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_38",
+      "target_id": "quelle_oecd_eurostat_health_status_database_avoidable_mortality",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_anne_janssen",
       "target_id": "aussage_39",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_39",
-      "target_id": "top_3",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_hermann_f_rber",
+      "source_id": "aussage_39",
+      "target_id": "faktencheck_39",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_39",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_robin_wagener",
       "target_id": "aussage_40",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_40",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_christian_reck",
+      "source_id": "aussage_40",
+      "target_id": "faktencheck_40",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_40",
+      "target_id": "quelle_centre_for_research_on_energy_and_clean_air_crea_report_shadow_fleet_how_sanctions_evading_tankers_transport_russian_oil",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_robin_wagener",
       "target_id": "aussage_41",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_41",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_christian_reck",
+      "source_id": "aussage_41",
+      "target_id": "faktencheck_41",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_41",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_s_ren_pellmann",
       "target_id": "aussage_42",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_42",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_franziska_kersten",
+      "source_id": "aussage_42",
+      "target_id": "faktencheck_42",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_42",
+      "target_id": "quelle_eu_sanktionen_gegen_russland_bersicht_der_ma_nahmen",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_s_ren_pellmann",
       "target_id": "aussage_43",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_43",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_franziska_kersten",
+      "source_id": "aussage_43",
+      "target_id": "faktencheck_43",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_43",
+      "target_id": "quelle_bundesregierung_chronologie_des_russischen_angriffskriegs",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_anton_hofreiter",
       "target_id": "aussage_44",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_44",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_dr_ophelia_nick",
+      "source_id": "aussage_44",
+      "target_id": "faktencheck_44",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_44",
+      "target_id": "quelle_eu_amtsblatt_verordnung_eu_2024_1745_des_rates_vom_24_juni_2024",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_anton_hofreiter",
       "target_id": "aussage_45",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_45",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_marcel_bauer",
+      "source_id": "aussage_45",
+      "target_id": "faktencheck_45",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_45",
+      "target_id": "quelle_bundesregierung_antwort_auf_kleine_anfrage_drucksache_20_9400",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_roderich_kiesewetter",
       "target_id": "aussage_46",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_46",
-      "target_id": "top_3",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_marcel_bauer",
+      "source_id": "aussage_46",
+      "target_id": "faktencheck_46",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_46",
+      "target_id": "quelle_united_nations_security_council_resolution_1701",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_roderich_kiesewetter",
       "target_id": "aussage_47",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_47",
-      "target_id": "top_3",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_artur_auernhammer",
+      "source_id": "aussage_47",
+      "target_id": "faktencheck_47",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_47",
+      "target_id": "quelle_israel_evakuiert_zehntausende_nach_hisbollah_angriffen_tagesschau",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_roderich_kiesewetter",
       "target_id": "aussage_48",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_48",
-      "target_id": "top_3",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_artur_auernhammer",
+      "source_id": "aussage_48",
+      "target_id": "faktencheck_48",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_48",
+      "target_id": "quelle_iaea_berichte_zum_iranischen_nuklearprogramm",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_roderich_kiesewetter",
       "target_id": "aussage_49",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_49",
-      "target_id": "top_3",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_bernd_schuhmann",
+      "source_id": "aussage_49",
+      "target_id": "faktencheck_49",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_49",
+      "target_id": "quelle_bundeswehr_beteiligung_an_unifil",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_roderich_kiesewetter",
       "target_id": "aussage_50",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_50",
-      "target_id": "top_3",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_bernd_schuhmann",
+      "source_id": "aussage_50",
+      "target_id": "faktencheck_50",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_50",
+      "target_id": "quelle_unifil_mandat_un",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_roderich_kiesewetter",
       "target_id": "aussage_51",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_51",
-      "target_id": "top_3",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_bernd_schuhmann",
+      "source_id": "aussage_51",
+      "target_id": "faktencheck_51",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_51",
+      "target_id": "quelle_unrwa_situation_pal_stinensischer_fl_chtlinge_in_syrien",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_wolfgang_stefinger",
       "target_id": "aussage_52",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_52",
-      "target_id": "top_3",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_bernd_schuhmann",
+      "source_id": "aussage_52",
+      "target_id": "faktencheck_52",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_52",
+      "target_id": "quelle_world_bank_lebanon_economic_monitor_fall_2021",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_wolfgang_stefinger",
       "target_id": "aussage_53",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_53",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schuhmann",
-      "target_id": "aussage_54",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_54",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_artur_auernhammer",
-      "target_id": "aussage_55",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_55",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_artur_auernhammer",
-      "target_id": "aussage_56",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_56",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schuhmann",
-      "target_id": "aussage_57",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_57",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bernd_schuhmann",
-      "target_id": "aussage_58",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_58",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dieter_stier",
-      "target_id": "aussage_59",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_59",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dieter_stier",
-      "target_id": "aussage_60",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_60",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_protschka",
-      "target_id": "aussage_61",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_61",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_protschka",
-      "target_id": "aussage_62",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_62",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_protschka",
-      "target_id": "aussage_63",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_63",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_protschka",
-      "target_id": "aussage_64",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_64",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_protschka",
-      "target_id": "aussage_65",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_65",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_protschka",
-      "target_id": "aussage_66",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_66",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_stephan_protschka",
-      "target_id": "aussage_67",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_67",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_alexander_jordan",
-      "target_id": "aussage_68",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_68",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_alexander_jordan",
-      "target_id": "aussage_69",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_69",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_alexander_jordan",
-      "target_id": "aussage_70",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_70",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_alexander_jordan",
-      "target_id": "aussage_71",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_71",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_alexander_jordan",
-      "target_id": "aussage_72",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_72",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_alexander_jordan",
-      "target_id": "aussage_73",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_73",
-      "target_id": "top_3",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_julia_christina_stange",
-      "target_id": "aussage_74",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_74",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_julia_christina_stange",
-      "target_id": "aussage_75",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_75",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_76",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_76",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_77",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_77",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_78",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_78",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_79",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_79",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_80",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_80",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_81",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_81",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_82",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_82",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_83",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_83",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_axel_m_ller",
-      "target_id": "aussage_84",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_84",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_claudia_weiss",
-      "target_id": "aussage_85",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_85",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_86",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_86",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_87",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_87",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_88",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_88",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_89",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_89",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_90",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_90",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_91",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_91",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_92",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_92",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_93",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_93",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_94",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_94",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_95",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_95",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_serdar_y_ksel",
-      "target_id": "aussage_96",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_96",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_armin_grau",
-      "target_id": "aussage_97",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_97",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_anne_janssen",
-      "target_id": "aussage_98",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_98",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_bloch",
-      "target_id": "aussage_99",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_99",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_bloch",
-      "target_id": "aussage_100",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_100",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_bloch",
-      "target_id": "aussage_101",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_101",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_bloch",
-      "target_id": "aussage_102",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_102",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_bloch",
-      "target_id": "aussage_103",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_103",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_bloch",
-      "target_id": "aussage_104",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_104",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_joachim_bloch",
-      "target_id": "aussage_105",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_105",
-      "target_id": "top_4",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_robin_wagener",
-      "target_id": "aussage_106",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_106",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_roderich_kiesewetter",
-      "target_id": "aussage_107",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_107",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_roderich_kiesewetter",
-      "target_id": "aussage_108",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_108",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_markus_frohnmaier",
-      "target_id": "aussage_109",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_109",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_markus_frohnmaier",
-      "target_id": "aussage_110",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_110",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_markus_frohnmaier",
-      "target_id": "aussage_111",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_111",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_s_ren_pellmann",
-      "target_id": "aussage_112",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_112",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_s_ren_pellmann",
-      "target_id": "aussage_113",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_113",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_bastian_ernst",
-      "target_id": "aussage_114",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_114",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helge_lindh",
-      "target_id": "aussage_115",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_115",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_helge_lindh",
-      "target_id": "aussage_116",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_116",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_anton_hofreiter",
-      "target_id": "aussage_117",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_117",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_tobias_winkler",
-      "target_id": "aussage_118",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_118",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_tobias_winkler",
-      "target_id": "aussage_119",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_119",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_tobias_winkler",
-      "target_id": "aussage_120",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_120",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_cansu_zdemir",
-      "target_id": "aussage_121",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_121",
       "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
-      "source_id": "person_cansu_zdemir",
-      "target_id": "aussage_122",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_122",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_cansu_zdemir",
-      "target_id": "aussage_123",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_123",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_cansu_zdemir",
-      "target_id": "aussage_124",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_124",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_cansu_zdemir",
-      "target_id": "aussage_125",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_125",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_roderich_kiesewetter",
-      "target_id": "aussage_126",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_126",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_roderich_kiesewetter",
-      "target_id": "aussage_127",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_127",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_roderich_kiesewetter",
-      "target_id": "aussage_128",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_128",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_roderich_kiesewetter",
-      "target_id": "aussage_129",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_129",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_alexander_wolf",
-      "target_id": "aussage_130",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_130",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_alexander_wolf",
-      "target_id": "aussage_131",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_131",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_alexander_wolf",
-      "target_id": "aussage_132",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_132",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johann_saathoff",
-      "target_id": "aussage_133",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_133",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johann_saathoff",
-      "target_id": "aussage_134",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_134",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johann_saathoff",
-      "target_id": "aussage_135",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_135",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johann_saathoff",
-      "target_id": "aussage_136",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_136",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johann_saathoff",
-      "target_id": "aussage_137",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_137",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johann_saathoff",
-      "target_id": "aussage_138",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_138",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_luise_amtsberg",
-      "target_id": "aussage_139",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_139",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_dr_wolfgang_stefinger",
-      "target_id": "aussage_140",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_140",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerold_otten",
-      "target_id": "aussage_141",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_141",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_gerold_otten",
-      "target_id": "aussage_142",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_142",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_adis_ahmetovic",
-      "target_id": "aussage_143",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_143",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_adis_ahmetovic",
-      "target_id": "aussage_144",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_144",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_adis_ahmetovic",
-      "target_id": "aussage_145",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_145",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_adis_ahmetovic",
-      "target_id": "aussage_146",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_146",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_adis_ahmetovic",
-      "target_id": "aussage_147",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_147",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_ellen_demuth",
-      "target_id": "aussage_148",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_148",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sanae_abdi",
-      "target_id": "aussage_149",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_149",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_sanae_abdi",
-      "target_id": "aussage_150",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_150",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johannes_volkmann",
-      "target_id": "aussage_151",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_151",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johannes_volkmann",
-      "target_id": "aussage_152",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_152",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johannes_volkmann",
-      "target_id": "aussage_153",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_153",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johannes_volkmann",
-      "target_id": "aussage_154",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_154",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "person_johannes_volkmann",
-      "target_id": "aussage_155",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_155",
-      "target_id": "top_6",
-      "relationship_type": "ZU_TOP"
+      "source_id": "aussage_53",
+      "target_id": "faktencheck_53",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_53",
+      "target_id": "quelle_oecd_development_co_operation_profiles_germany",
+      "relationship_type": "BELEGT_MIT"
     },
     {
       "source_id": "top_1",
