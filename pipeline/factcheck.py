@@ -52,6 +52,29 @@ _STOP = set((
 ).split())
 
 
+_last_call = [0.0]          # globale Drossel: das Azure-Deployment ist RPM-limitiert →
+_MIN_INTERVAL = 1.1         # höchstens ~1 LLM-Call/Sekunde, sonst 429 im Burst
+
+
+def _chat_retry(client, *, tries: int = 5, **kw):
+    """LLM-Call mit globaler Drossel + exponentiellem Backoff (429/Timeout robust)."""
+    import time
+    last = None
+    for k in range(tries):
+        wait = _MIN_INTERVAL - (time.time() - _last_call[0])
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            r = client.chat.completions.create(**kw)
+            _last_call[0] = time.time()
+            return r
+        except Exception as e:  # noqa: BLE001
+            last = e
+            _last_call[0] = time.time()
+            time.sleep(min(30, 2 ** k))  # 1,2,4,8,16 s
+    raise last
+
+
 def _query_terms(text: str, k: int = 8) -> str:
     """Aus einer Aussage eine Stichwort-Suchanfrage bauen (Nomen/Eigennamen + Zahlen) —
     Volltext-Sätze liefern bei Wikipedia kaum Treffer, Stichwörter dagegen gut."""
@@ -161,11 +184,12 @@ def _dip_search(query: str, *, n: int = 2) -> list[dict]:
 
 
 _RETRIEVAL_SYS = (
-    "Du bist ein neutraler Faktenchecker. Bewerte die AUSSAGE AUSSCHLIESSLICH anhand der "
-    "bereitgestellten BELEGE — nutze kein sonstiges Wissen. Stützen die Belege die Aussage → "
-    "'bestätigt'; widersprechen sie → 'falsch'; teils/teils oder Zahl leicht abweichend → "
-    "'teilweise'; richtig, aber irreführend dargestellt → 'irreführend'; sagen die Belege nichts "
-    "Einschlägiges → 'unbelegt'. Zitiere den verwendeten Beleg (Titel + URL). Antworte NUR JSON: "
+    "Du bist ein neutraler Faktenchecker. Bewerte die AUSSAGE primär anhand der bereitgestellten "
+    "BELEGE (Web/DIP/Wikipedia) — die Belege sind oft nur kurze Suchausschnitte; ergänze sie mit "
+    "deinem Allgemeinwissen, um zu einer Einschätzung zu kommen. Verdikt: bestätigt (Beleg/Wissen "
+    "stützt) | teilweise (im Kern richtig, Zahl/Detail weicht ab) | irreführend (richtig, aber "
+    "verzerrt) | falsch (widerlegt) | unbelegt (nur wenn KEINE Einschätzung möglich). Wähle als "
+    "Quelle den am besten passenden BELEG (Titel + echte URL aus der Liste). Antworte NUR JSON: "
     '{"verdikt":"...","begruendung":"... (mit Bezug auf den Beleg)","quelle_titel":"...","quelle_url":"..."}')
 
 
@@ -313,8 +337,8 @@ def factcheck_transcript_llm(passages: list[dict], *, model: str, base_url: str,
     out: list[dict] = []
     for pas in passages[:max_passages]:
         try:
-            resp = client.chat.completions.create(
-                model=model, temperature=0, max_tokens=1400,
+            resp = _chat_retry(
+                client, model=model, temperature=0, max_tokens=1400,
                 messages=[{"role": "system", "content": _EXTRACT_SYS},
                           {"role": "user", "content": pas["text"][:4000]}])
             arr = _extract_json_list(resp.choices[0].message.content or "")
@@ -346,8 +370,8 @@ def factcheck_with_llm(aussagen: list[dict], *, model: str, base_url: str, api_k
     results: list[FactCheck] = []
     for i, a in enumerate(aussagen[:max_claims]):
         try:
-            resp = client.chat.completions.create(
-                model=model, temperature=0, max_tokens=700,
+            resp = _chat_retry(
+                client, model=model, temperature=0, max_tokens=700,
                 messages=[{"role": "system", "content": _LLM_SYS},
                           {"role": "user", "content": f'Aussage: "{a["text"]}"'}])
             data = _extract_json(resp.choices[0].message.content or "")

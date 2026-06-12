@@ -810,15 +810,15 @@
     },
     "21-078": {
       "datum": "08.05.2026",
-      "nodes": 1163,
-      "rels": 2914,
+      "nodes": 1200,
+      "rels": 2964,
       "reden": 78,
-      "aussagen": 36,
+      "aussagen": 46,
       "saalreaktionen": 814,
-      "checks": 36,
+      "checks": 46,
       "has_graph": true,
       "mediathek_verlinkt": 78,
-      "ts": "2026-06-11T04:55:59Z"
+      "ts": "2026-06-11T21:24:50Z"
     },
     "21-079": {
       "datum": "20.05.2026",
