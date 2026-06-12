@@ -5,7 +5,7 @@ Verwaltungs-/Parlamentsleistung jenseits von Planung/Genehmigung —
 **Plenarprotokoll/Mitschnitt → prüfbarer Knowledge Graph + Faktencheck +
 Dashboard**, mit Neo4j-GraphRAG für natürliche Fragen.
 
-Stand: **2026-06-11** · Status-Legende: ✅ fertig · 🔜 in Arbeit · ⬜ offen
+Stand: **2026-06-12** · Status-Legende: ✅ fertig · 🔜 in Arbeit · ⬜ offen
 
 ## 1. Zielbild (Definition of Done)
 
@@ -36,22 +36,26 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 | 13 | **EIN offizieller Graph je Sitzung** = XML-Struktur + Mediathek-Video-Deeplink je Rede | ✅ | `session_ingest.ingest_official` |
 | 14 | UI: Sitzungs-Auswahl (82) + Quellen-Umschalter 🟢 Offiziell / 🎬 YouTube, dynam. Legende | ✅ | `web/index.html` |
 | 15 | **Faktencheck mit variierten Verdikten** (In-Kontext-LLM-Extraktion) | ✅ | `session_ingest.llm_factcheck_official` |
-| 16 | Faktencheck-**Retrieval** (DIP-API + Wikipedia) → Verdikt mit echter Quelle | 🔜 | `factcheck.factcheck_with_retrieval` (`--retrieval`) — Korpus zu allgemein, s. u. |
+| 16 | Faktencheck-**Retrieval** (Brave-Websuche + DIP-API + Wikipedia) → Verdikt mit echter Quelle | ✅ | `factcheck.factcheck_with_retrieval` (`--retrieval`) — 78–81 grounded, echte Quellen |
 | 17 | Embeddings/Vektor-Index (Azure text-embedding-3-large) | ✅ | `scripts/vector_search.py` |
 | 18 | E2E-Tests gegen reale Neo4j-Daten | ✅ | `tests/` |
 | 19 | YouTube-Clips (`/videos`) als Quelle für Sitzungen ohne Stream | ⬜ | braucht **YouTube Data API Key** (`pipeline/youtube_clips.py`) |
 | 20 | Korrektur-/Freigabe-Workflow (Mensch-im-Loop) | ⬜ | offen (M4) |
 
-## 3. Stand 2026-06-11 (Fortschritts-Log)
+## 3. Stand 2026-06-12 (Fortschritts-Log)
 
+- **Faktencheck-Retrieval gelöst (NEU):** Brave-Websuche als Korpus schließt die alte
+  „Korpus zu allgemein"-Lücke. `factcheck_with_retrieval` = Brave + DIP-API + Wikipedia,
+  LLM urteilt gegen die Belege (Drossel `_chat_retry` ~1 Call/s + Backoff). Sitzungen 78–81
+  jetzt mit **variierten Verdikten + echten autoritativen Quellen** (destatis.de, tagesschau.de,
+  dip.bundestag.de, bundesfinanzministerium.de, bmi.bund.de, bundesrechnungshof.de),
+  ~0 „Prüfung fehlgeschlagen". Lauf via `sync_sessions.py --official --web-graph --retrieval`.
+  Beispiel 81: 24 teilweise / 9 bestätigt / 5 irreführend / 2 falsch / 12 unbelegt.
 - **Echtdaten komplett:** alle 81 WP21-Plenarprotokolle + WP20/214 in Neo4j
   (~136 k Knoten / ~361 k Beziehungen). Voll-Graphen in Neo4j; Pages trägt 13 Showcase-
   Struktur-Graphen (70–81 + 214) + Dashboards für alle 82 + 2 Gap-Reports.
 - **Drei klar getrennte Quellen** je Sitzung: 🟢 amtliches XML (+ Mediathek-Video je Rede),
   🎬 YouTube-Gesamtmitschnitt. Mediathek in den offiziellen Graph verschmolzen.
-- **Faktencheck variiert jetzt** (211 bestätigt / 153 teilweise / 32 irreführend / 10 falsch /
-  180 unbelegt über die Showcase). Ursache des früheren „alles unbelegt": regelbasierte
-  Aussage-Extraktion → ersetzt durch **LLM-Extraktion im Kontext**.
 - **Ontologie korrigiert:** Sitzung=zeitlich, Person=fallbezug, Saalreaktion=reaktion,
   Norm nur kommunal (keine Fake-GemO im Bundestag); dynamische Legende.
 - **Dashboard:** Redezeit (geschätzt), Redner:innen mit Partei, Sachthemen (Keyword),
@@ -61,7 +65,8 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 
 | Risiko | Wirkung | Gegenmaßnahme |
 | ------ | ------- | ------------- |
-| Faktencheck-Korpus (DIP/Wikipedia) zu allgemein für aktuelle Zahlen | Verdikte mit Retrieval meist „unbelegt" | **Destatis-GENESIS** + Websuche-API als Korpus (s. Schritte) |
+| ~~Faktencheck-Korpus zu allgemein~~ (GELÖST) | ~~Verdikte „unbelegt"~~ | ✅ **Brave-Websuche** als Korpus → echte Quellen, variierte Verdikte |
+| Brave-Free-Plan-Limit / API-Kosten bei Voll-Lauf aller 81 | Rate-/Kostengrenze | Drossel `_chat_retry`; Retrieval nur Showcase; ggf. Cache |
 | LLM-Verdikte ohne Retrieval = Einschätzung, nicht belegt | Fehlurteil-Risiko | Disclaimer + „unbelegt" + Mensch-im-Loop; Retrieval-Grounding |
 | Korrekturrecht der Redner:innen | Goldstandard ≠ gesprochenes Wort | als Diff modellieren (Gap-Analyse), nicht „falsch" |
 | Personen-Dubletten (682 Knoten, Namensvarianten) | unscharfe Sitzungsübergreifend-Abfragen | Entity-Resolution (Normalisierung/DIP-Personen-IDs) |
@@ -69,12 +74,13 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 
 ## 5. Nächste konkrete Schritte
 
-1. ⬜ **Belastbare Faktencheck-Verdikte:** Retrieval-Korpus von DIP/Wikipedia auf
-   **Destatis-GENESIS** (Statistik) + Websuche-API erweitern → aus „unbelegt" werden
-   belegte bestätigt/falsch. Architektur steht (`factcheck_with_retrieval`).
+1. ✅ ~~Belastbare Faktencheck-Verdikte~~ — **erledigt** via Brave-Websuche (78–81 grounded).
+   Optional: Grounding auf restliche Showcase (70–77) + alle 81 ausweiten.
 2. ⬜ **Entity-Resolution** für `Person` (Namensnormalisierung, DIP-Personen-IDs) →
    saubere sitzungsübergreifende Abfragen.
-3. ⬜ **YouTube Data API Key** → `youtube_clips` für Sitzungen ohne Gesamt-Stream.
+3. ⬜ **YouTube Data API Key** → `youtube_clips` für Sitzungen ohne Gesamt-Stream;
+   die 42 YouTube-bestätigten Sitzungen als 🎬-Quelle ingestieren.
 4. ⬜ **Mediathek-Video-Deeplinks auf alle 81** ausweiten (aktuell Showcase 70–81).
 5. ⬜ Mensch-im-Loop-Korrektur-/Freigabeprozess (M4), Barrierefreiheit-Audit.
 6. ⬜ WER/DER-Benchmark gegen mehr Sitzungen; Gap-Report in der UI ausbauen.
+7. ⬜ CI: `actions/*@v4` → Node-24-fähige Versionen (GitHub erzwingt Node 24 ab 16.06.2026).
