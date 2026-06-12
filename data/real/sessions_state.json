@@ -822,7 +822,7 @@
     },
     "21-079": {
       "datum": "20.05.2026",
-      "nodes": 1249,
+      "nodes": 1259,
       "rels": 2647,
       "reden": 174,
       "aussagen": 47,
@@ -830,31 +830,31 @@
       "checks": 47,
       "has_graph": true,
       "mediathek_verlinkt": 52,
-      "ts": "2026-06-10T21:29:18Z"
+      "ts": "2026-06-12T05:27:59Z"
     },
     "21-080": {
       "datum": "21.05.2026",
-      "nodes": 2142,
-      "rels": 5345,
+      "nodes": 2143,
+      "rels": 5330,
       "reden": 154,
-      "aussagen": 50,
+      "aussagen": 47,
       "saalreaktionen": 1514,
-      "checks": 50,
+      "checks": 47,
       "has_graph": true,
       "mediathek_verlinkt": 151,
-      "ts": "2026-06-10T21:42:50Z"
+      "ts": "2026-06-12T05:46:54Z"
     },
     "21-081": {
       "datum": "22.05.2026",
-      "nodes": 1309,
-      "rels": 3254,
+      "nodes": 1319,
+      "rels": 3249,
       "reden": 85,
-      "aussagen": 53,
+      "aussagen": 52,
       "saalreaktionen": 890,
-      "checks": 53,
+      "checks": 52,
       "has_graph": true,
       "mediathek_verlinkt": 85,
-      "ts": "2026-06-10T21:51:57Z"
+      "ts": "2026-06-12T06:00:14Z"
     },
     "20-214": {
       "datum": "18.03.2025",

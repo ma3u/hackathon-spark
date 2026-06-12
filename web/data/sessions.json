@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T04:55:59Z",
+  "generated": "2026-06-12T06:00:14Z",
   "wahlperiode": "21",
   "count": 82,
   "sessions": [
@@ -35,7 +35,7 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21081.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21081.xml",
         "dashboard": "amt_21_081_dashboard.json",
-        "nodes": 1309,
+        "nodes": 1319,
         "graph": "amt_21_081.json",
         "protokoll": "amt_21_081_protokoll.html",
         "mediathek_verlinkt": 85
@@ -54,7 +54,7 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21080.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21080.xml",
         "dashboard": "amt_21_080_dashboard.json",
-        "nodes": 2142,
+        "nodes": 2143,
         "graph": "amt_21_080.json",
         "protokoll": "amt_21_080_protokoll.html",
         "mediathek_verlinkt": 151
@@ -77,7 +77,7 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21079.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21079.xml",
         "dashboard": "amt_21_079_dashboard.json",
-        "nodes": 1249,
+        "nodes": 1259,
         "graph": "amt_21_079.json",
         "protokoll": "amt_21_079_protokoll.html",
         "mediathek_verlinkt": 52
@@ -96,7 +96,7 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21078.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21078.xml",
         "dashboard": "amt_21_078_dashboard.json",
-        "nodes": 1163,
+        "nodes": 1200,
         "graph": "amt_21_078.json",
         "protokoll": "amt_21_078_protokoll.html",
         "mediathek_verlinkt": 78

@@ -298,9 +298,10 @@
     }
   ],
   "faktencheck_bilanz": {
-    "unbelegt": 16,
-    "teilweise": 16,
-    "bestätigt": 10,
-    "irreführend": 5
+    "irreführend": 6,
+    "teilweise": 26,
+    "unbelegt": 3,
+    "bestätigt": 4,
+    "falsch": 8
   }
 }

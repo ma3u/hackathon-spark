@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 1211,
-    "relationship_count": 2234,
+    "node_count": 1221,
+    "relationship_count": 2230,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21081.pdf",
@@ -1626,15 +1626,15 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine Prognose der Bundesregierung zur erwarteten Entlastung durch das antragslose Kindergeld. Eine konkrete amtliche Quelle mit belastbaren Zahlen oder einer detaillierten Berechnungsgrundlage ist aktuell nicht öffentlich verfügbar. Die Zahl könnte auf Schätzung",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage von Lars Klingbeil bezieht sich auf die erwartete Anzahl entfallender Erstanträge pro Jahr im Kontext der geplanten Kindergeld-Reform, bei der das Kindergeld künftig ohne Antrag ausgezahlt werden soll. Die bereitgestellten Belege (SZ, Tagesspiegel, Handelsblatt) zitieren zwar di",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "id": "quelle_koalitionspl_ne_kindergeld_ohne_antrag_reform_soll_2027_kommen",
+      "label": "Koalitionspläne: Kindergeld ohne Antrag – Reform soll 2027 kommen",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.tagesspiegel.de/politik/koalitionsplane-kindergeld-ohne-antrag--reform-soll-2027-kommen-15628948.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1649,19 +1649,19 @@
     },
     {
       "id": "faktencheck_1",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Aussage bezieht sich auf einen Beschluss des Bundeskabinetts vom 17. April 2024, wonach der Personalausweis ab dem 70. Lebensjahr unbefristet gültig sein soll. Dies wurde in der Pressemitteilung der Bundesregierung bestätigt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da ab einem bestimmten Stichtag (geplant ab 2026/2027) Menschen ab 70 Jahren ihren Personalausweis nicht mehr erneuern müssen. Allerdings wird der Ausweis nicht einfach 'nicht mehr erneuert', sondern kann ohne Befristung ausgestellt werden oder bleibt nach A",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_kabinett_beschlie_t_unbefristete_g_ltigkeit_des_personalausweises_ab_70_jahren",
-      "label": "Bundesregierung: Kabinett beschließt unbefristete Gültigkeit des Personalausweises ab 70 Jahren",
+      "id": "quelle_neuer_personalausweis_wer_ihn_k_nftig_nie_mehr_verl_ngern_muss",
+      "label": "Neuer Personalausweis: Wer ihn künftig nie mehr verlängern muss",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/aktuelles/kabinett-beschliesst-unbefristete-gueltigkeit-des-personalausweises-ab-70-jahren-2252106",
+      "url": "https://www.merkur.de/verbraucher/neuer-personalausweis-wer-ihn-kuenftig-nie-mehr-verlaengern-muss-zr-94155329.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1676,19 +1676,19 @@
     },
     {
       "id": "faktencheck_2",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Kindergeld in Deutschland beträgt seit dem 1. Januar 2023 für das erste und zweite Kind 250 Euro monatlich. Ab dem 1. Januar 2024 wurde es auf 259 Euro erhöht. Das Kindergeld wird unabhängig vom Wohnsitz des Kindes in voller Höhe gezahlt, wenn die Anspruchsvoraussetzungen erfüllt sind (",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, aber die Details weichen ab. Laut dem Beleg von 'Merkur' (CDU will Kindergeld für Kinder im Ausland drastisch kürzen) beträgt das Kindergeld in Deutschland tatsächlich 259 Euro pro Monat. Allerdings bezieht sich der Euronews-Beleg auf die geplante Kindergrun",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesagentur_f_r_arbeit_kindergeld",
-      "label": "Bundesagentur für Arbeit - Kindergeld",
+      "id": "quelle_cdu_will_kindergeld_f_r_kinder_im_ausland_drastisch_k_rzen",
+      "label": "CDU will Kindergeld für Kinder im Ausland drastisch kürzen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.arbeitsagentur.de/familie-und-kinder/kindergeld-hoehe",
+      "url": "https://www.merkur.de/politik/kinder-im-ausland-kuerzen-cdu-will-kindergeld-fuer-94149874.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1707,33 +1707,42 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche amtliche Statistik der Bundesagentur für Arbeit oder des Bundesfinanzministeriums, die diese konkrete Zahl für 2024 bestätigt. Verdachtsfälle werden zwar gemeldet, aber eine belastbare Quelle für diese spezifische Angabe liegt nicht vor.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine konkreten Zahlen zu 140.000 Verdachtsfällen von Kindergeldbetrug im Jahr 2024. Die WELT und FOCUS online berichten über lokale Fälle oder Aktionen mit deutlich geringeren Fallzahlen (z. B. dreistelliger Bereich oder 59 Fälle). Die CDU NRW-Quelle b",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_cdu_nrw_missbrauch_von_sozialleistungen_entschlossener_bek_mpfen",
+      "label": "CDU NRW: Missbrauch von Sozialleistungen entschlossener bekämpfen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www1.wdr.de/politik/politik-in-nrw/cdu-antrag-kuerzung-sozialleistungen-100.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_4",
-      "label": "Aussage: 2016 sagte der damalige SPD-Chef und Vizekanzler Sigmar Gabr…",
+      "label": "Aussage: Wir sind Nettobeitragszahler Nummer eins in der Europäischen…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "2016 sagte der damalige SPD-Chef und Vizekanzler Sigmar Gabriel: In manchen deutschen Großstädten gibt es ganze Straßenzüge mit Schrottimmobilien, in denen Migranten nur deshalb wohnen, um Kindergeld zu beziehen für Kinder, die nicht mal in Deutschland leben.",
+      "text": "Wir sind Nettobeitragszahler Nummer eins in der Europäischen Union",
       "person": "René Springer",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_4",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Sigmar Gabriel hat in der Vergangenheit tatsächlich auf Missstände bei Scheinanmeldungen und Kindergeldbezug hingewiesen. Allerdings ist die wörtliche Zitierung und der Kontext der Aussage nicht vollständig überprüfbar, da keine direkte Quelle mit dem exakten Wortlaut vorliegt. Die Problema",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Deutschland 'Nettobeitragszahler Nummer eins in der Europäischen Union' ist, wird durch mehrere Belege gestützt. Laut der Bundeszentrale für politische Bildung (bpb) ergibt sich aus der Differenz zwischen den finanziellen Leistungen, die Mitgliedstaaten an die EU abführen ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_tagesschau_gabriel_warnt_vor_missbrauch_des_kindergelds_2016",
-      "label": "Tagesschau - Gabriel warnt vor Missbrauch des Kindergelds (2016)",
+      "id": "quelle_europ_ische_union_operative_haushaltssalden_der_mitgliedstaaten_im_eu_haushalt_im_jahr_2024_in_millionen_euro",
+      "label": "Europäische Union: Operative Haushaltssalden der Mitgliedstaaten im EU-Haushalt im Jahr 2024 ¹ (in Millionen Euro)",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.tagesschau.de/inland/gabriel-kindergeld-101.html",
+      "url": "https://de.statista.com/statistik/daten/studie/38139/umfrage/nettozahler-und-nettoempfaengerlaender-in-der-eu/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1752,15 +1761,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Gesamtausgaben für familienbezogene Leistungen in Deutschland, einschließlich Kindergeld, Kinderfreibeträge, Elterngeld, Unterhaltsvorschuss etc. Die genaue Summe von 55 Mrd. Euro ist für das Jahr 2023 nicht direkt als Einzelposten ausgewiesen, aber die Größ",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass jährlich 55 Milliarden Euro an Familien für ihre Kinder gezahlt werden. Der Beleg aus DIE ZEIT bestätigt, dass die Familienkasse 2025 rund 55,32 Milliarden Euro **ausschließlich für Kindergeld** ausgezahlt hat. Allerdings umfasst die Gesamtsumme der familienpolit",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeshaushaltsplan_2023_einzelplan_17_bundesministerium_f_r_familie_senioren_frauen_und_jugend",
-      "label": "Bundeshaushaltsplan 2023 – Einzelplan 17 (Bundesministerium für Familie, Senioren, Frauen und Jugend)",
+      "id": "quelle_familienkasse_2025_wurden_rund_55_milliarden_euro_kindergeld_ausgezahlt_die_zeit",
+      "label": "Familienkasse: 2025 wurden rund 55 Milliarden Euro Kindergeld ausgezahlt | DIE ZEIT",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeshaushalt.de/DE/Home/home_node.html",
+      "url": "https://www.zeit.de/familie/2026-01/familienkasse-kindergeld-2025-auszahlung-rekord-gxe",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1775,19 +1784,19 @@
     },
     {
       "id": "faktencheck_6",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche amtliche Statistik oder Drucksache, die diese konkrete Zahl (300.000 Erstanträge = 40 % der jährlichen Anträge) belegt. Die Bundesregierung hat zwar in der Vergangenheit über die geplante Reduzierung von Bürokratie durch antragsloses Kindergeld gesproche",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass 300.000 Erstanträge pro Jahr (40 Prozent der jährlichen Kindergeldanträge) nicht mehr gestellt werden müssen. Der Beleg der Bundesagentur für Arbeit (Familienkasse 2025) gibt an, dass etwa 60 Prozent der Kindergeldanträge digital gestellt werden, sagt aber nichts",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_drucksache_20_5670_antwort_der_bundesregierung_auf_kleine_anfrage_b_rokratieabbau_im_kindergeldverfahren",
-      "label": "Drucksache 20/5670 – Antwort der Bundesregierung auf Kleine Anfrage (Bürokratieabbau im Kindergeldverfahren)",
+      "id": "quelle_familien_im_blick_die_bilanz_der_familienkasse_2025_bundesagentur_f_r_arbeit",
+      "label": "Familien im Blick: Die Bilanz der Familienkasse 2025 | Bundesagentur für Arbeit",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/056/2005670.pdf",
+      "url": "https://www.arbeitsagentur.de/presse/2026-04-familien-im-blick-die-bilanz-der-familienkasse-2025",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1806,15 +1815,15 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Quelle, die diese konkrete Zahl bestätigt. Der Normenkontrollrat oder die Bundesregierung haben zwar Schätzungen zu Umstellungskosten veröffentlicht, aber nicht in dieser Höhe. In der Drucksache 20/5670 wird von „geringen einmaligen Umstellungskosten“ gesprochen, ohne",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege liefern keine konkreten Informationen oder Daten zu den tatsächlichen jährlichen ersten Aufwänden von unter 1 Million Euro für eine spezifische Umstellung. Die Duden- und dict.cc-Einträge sind allgemeine sprachliche Referenzen ohne inhaltlichen Bezug zur Aussage.",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_drucksache_20_5670_antwort_der_bundesregierung_auf_kleine_anfrage",
-      "label": "Drucksache 20/5670 – Antwort der Bundesregierung auf Kleine Anfrage",
+      "id": "quelle_kein_spezifischer_beleg_zur_aussage_vorhanden",
+      "label": "Kein spezifischer Beleg zur Aussage vorhanden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/056/2005670.pdf",
+      "url": "https://www.duden.de/suchen/dudenonline/1%20millionen%20euro",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1833,15 +1842,15 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Zahl wird in keiner bekannten amtlichen Quelle genannt. Es handelt sich vermutlich um eine Schätzung, die nicht durch belastbare Daten gestützt wird.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine konkreten Informationen oder Daten, die die Aussage eines entfallenden jährlichen Sachaufwands von 150.000 Euro stützen. Der Leitfaden zur Ermittlung von Buerokratiekosten (Destatis) behandelt allgemeine Methoden zur Berechnung von Sachaufwand, gi",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_belastbare_quelle_verf_gbar",
-      "label": "Keine belastbare Quelle verfügbar",
+      "id": "quelle_kein_passender_beleg_in_der_liste",
+      "label": "Kein passender Beleg in der Liste",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.destatis.de/DE/Themen/Staat/Buerokratiekosten/Publikationen/Downloads-Buerokratiekosten/erfuellungsaufwand-handbuch.pdf?__blob=publicationFile",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1856,19 +1865,19 @@
     },
     {
       "id": "faktencheck_9",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Normenkontrollrat hat in seiner Stellungnahme zum Gesetzentwurf (NKR-Nr. 5248) tatsächlich eine monetäre Bewertung des Bürokratieabbaus vorgenommen. Allerdings wird dort nicht explizit die Zahl von „über 5 Millionen Euro“ genannt, sondern ein jährlicher Erfüllungsaufwand von etwa 5,5 Mi",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine konkrete Aussage des Normenkontrollrates, die einen monetären Zeitgewinn von 'über 5 Millionen Euro' in 'ersatzweise zu erbringender Leistung' spezifisch beziffert oder belegt. Die genannten Quellen sprechen von allgemeinen Einsparungen in Milliar",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_stellungnahme_des_normenkontrollrats_zum_gesetzentwurf_nkr_nr_5248",
-      "label": "Stellungnahme des Normenkontrollrats zum Gesetzentwurf (NKR-Nr. 5248)",
+      "id": "quelle_dip_vorgang_jahresbericht_2025_des_nationalen_normenkontrollrates",
+      "label": "DIP-Vorgang: Jahresbericht 2025 des Nationalen Normenkontrollrates",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.normenkontrollrat.bund.de/SharedDocs/Stellungnahmen/DE/2023/5248.html",
+      "url": "https://dip.bundestag.de/suche?term=Normenkontrollrat%20Zeitgewinn%20Leistung%20Millionen%20Euro",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1887,7 +1896,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Zahl wird in keiner amtlichen Quelle genannt. Sie scheint eine Differenz aus den zuvor genannten (unbelegten) Werten zu sein und ist daher nicht überprüfbar.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'bei nur noch 90.000 Euro Kosten' ist ohne Kontext nicht bewertbar. Keiner der bereitgestellten Belege enthält konkrete Informationen zu Kosten in Höhe von 90.000 Euro oder einem vergleichbaren Sachverhalt. Die Belege behandeln Themen wie Wechselkurse, Kosten von Zahlungssysteme",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_eurokurs_eur_chf_euro_franken_wechselkurs_aktueller_kurs_finanzen_ch",
+      "label": "Eurokurs | EUR CHF | Euro Franken | Wechselkurs aktueller Kurs | finanzen.ch",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.finanzen.ch/devisen/eurokurs",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1901,11 +1919,20 @@
     },
     {
       "id": "faktencheck_11",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik oder veröffentlichte Studie, die diese konkrete Zahl zum Sozialmissbrauch beim Kindergeld für im EU-Ausland lebende Kinder belegt. Die Bundesregierung hat in der Vergangenheit zwar Schätzungen zu Missbrauchsfällen vorgelegt, aber keine belastbare Zahl in die",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine konkrete Summe von 'ungefähr einer halben Milliarde Euro pro Jahr' für Sozialmissbrauch in Deutschland. Die bereitgestellten Belege zeigen jedoch ein deutlich breiteres Spektrum an Schadenssummen: Der FOCUS-Artikel spricht von 113 Milliarden Euro jährlich im Zusammenh",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_brandstifter_unterwegs_osteurop_ische_saisonarbeiter_in_der_druckerpresse_der_stimmungsmache_kurz_vor_den_europawahlen_und_die_zahlen_werden_gebogen_bis_sie_passen_aktuelle_sozialpolitik",
+      "label": "Brandstifter unterwegs. Osteuropäische Saisonarbeiter in der Druckerpresse der Stimmungsmache kurz vor den Europawahlen. Und die Zahlen werden gebogen, bis sie passen – Aktuelle Sozialpolitik",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://aktuelle-sozialpolitik.de/2014/05/13/brandstifter-unterwegs-beim-kindergeld/",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1923,15 +1950,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesagentur für Arbeit wurden 2022 tatsächlich rund 250.000 Kindergeldzahlungen für im EU-Ausland lebende Kinder geleistet. Die Gesamtsumme belief sich jedoch auf etwa 380 Millionen Euro (2022), nicht 500 Millionen Euro. Die Zahl der Kinder ist korrekt, die Gesamtsumme ist jedoch nie",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine Summe von 500 Millionen Euro an Kindergeld, die an rund 250.000 Kinder in Europa ausgezahlt werden. Die Belege bestätigen, dass die Summe für Auslands-Kindergeld tatsächlich im Bereich von über 500 Millionen Euro liegt (z. B. 528 Millionen Euro im ersten Beleg). Aller",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesagentur_f_r_arbeit_kindergeld_f_r_im_ausland_lebende_kinder_2022",
-      "label": "Bundesagentur für Arbeit: Kindergeld für im Ausland lebende Kinder (2022)",
+      "id": "quelle_rekord_berweisungen_deutschland_zahlt_528_millionen_euro_kindergeld_ins_ausland_gewinnermagazin_de",
+      "label": "Rekordüberweisungen: Deutschland zahlt 528 Millionen Euro Kindergeld ins Ausland - GEWINNERmagazin.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Ausland/Generische-Publikationen/Kindergeld-Ausland-2022.pdf?__blob=publicationFile&v=2",
+      "url": "https://gewinnermagazin.de/rekordueberweisungen-deutschland-zahlt-528-millionen-euro-kindergeld-ins-ausland/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1950,7 +1977,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Kostenberechnung oder Vergleichsstudie, die diese Aussage stützt. Die Kosten einer Indexierung des Kindergeldes hängen von verschiedenen Faktoren ab (z. B. Inflationsrate, Anzahl der Berechtigten) und wurden in dieser Form nicht offiziell beziffert oder verglichen.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass die Indexierung 'doppelt so teuer wie alles andere' wäre, was vorgeschlagen wurde. Die bereitgestellten Belege liefern allgemeine Informationen zur Indexierung (z. B. Mieten, Steuertarife, Kindergeld) und deren Auswirkungen, aber keiner der Belege enthält konkret",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_dip_vorgang_die_chance_nutzen_eine_indexierung_der_tarife_freibetr_ge_freigrenzen_pauschbetr_ge_und_pauschalen_im_einkommenssteuergesetz",
+      "label": "DIP-Vorgang: Die Chance nutzen - Eine Indexierung der Tarife, Freibeträge, Freigrenzen, Pauschbeträge und Pauschalen im Einkommenssteuergesetz",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Indexierung%20w%C3%A4re%20n%C3%A4mlich%20doppelt%20so%20teuer%20alles%20andere",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1968,15 +2004,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU-Arbeitszeitrichtlinie (2003/88/EG) sieht eine wöchentliche Höchstarbeitszeit von 48 Stunden vor (Artikel 6).",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass es auf europäischer Ebene eine Regelung zur wöchentlichen Höchstarbeitszeit gibt, wird durch die Arbeitszeitrichtlinie der EU (2003/88/EG) gestützt. Diese Richtlinie legt fest, dass die durchschnittliche wöchentliche Arbeitszeit innerhalb eines Referenzzeitraums von vier M",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_richtlinie_2003_88_eg_des_europ_ischen_parlaments_und_des_rates_vom_4_november_2003_ber_bestimmte_aspekte_der_arbeitszeitgestaltung",
-      "label": "Richtlinie 2003/88/EG des Europäischen Parlaments und des Rates vom 4. November 2003 über bestimmte Aspekte der Arbeitszeitgestaltung",
+      "id": "quelle_faqs_zur_arbeitszeit_wko",
+      "label": "FAQs zur Arbeitszeit - WKO",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32003L0088",
+      "url": "https://www.wko.at/arbeitszeit/faqs-arbeitszeit",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1995,7 +2031,16 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Artikel 23 der EU-Arbeitszeitrichtlinie (2003/88/EG) besagt, dass die Umsetzung der Richtlinie nicht als Rechtfertigung für eine Verschlechterung der bestehenden Arbeitsbedingungen dienen darf.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf Artikel 23 der Richtlinie 2006/118/EG (Grundwasserrichtlinie). Laut dem bereitgestellten Beleg des Bundesministeriums für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft (BMLUK) konkretisiert diese Richtlinie die Wasserrahmenrichtlinie (2000/60/EG) und ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_richtlinie_2006_118_eg_zum_schutz_des_grundwassers_vor_verschlechterung_und_verschmutzung",
+      "label": "Richtlinie 2006/118/EG zum Schutz des Grundwassers vor Verschlechterung und Verschmutzung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmluk.gv.at/themen/wasser/wasser-eu-international/rechtliche-aspekte/eu_wasserrecht/GW-Qualitaet-RL.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2013,7 +2058,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, aktuelle forsa-Umfrage mit diesem konkreten Ergebnis. Die Aussage ist ohne Nennung des genauen Umfragezeitraums, der Fragestellung oder einer verifizierbaren Quelle nicht überprüfbar.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine aktuelle forsa-Umfrage, die eine Präferenz von fast 60 Prozent der Menschen für eine wöchentliche statt tägliche Höchstarbeitszeit behauptet. In den bereitgestellten Belegen findet sich kein direkter Verweis auf eine solche forsa-Umfrage oder vergleichbare ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_dip_vorgang_zeitplan_zur_abschaffung_der_t_glichen_h_chstarbeitszeit",
+      "label": "DIP-Vorgang: Zeitplan zur Abschaffung der täglichen Höchstarbeitszeit",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Laut%20Prozent%20Menschen%20Land%20H%C3%B6chstarbeitszeit",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2031,7 +2085,16 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU-Arbeitszeitrichtlinie (2003/88/EG) legt eine maximale wöchentliche Arbeitszeit von 48 Stunden fest, einschließlich Überstunden.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die europäische Arbeitszeitrichtlinie (2003/88/EG) sieht tatsächlich eine maximale durchschnittliche Wochenarbeitszeit von 48 Stunden vor, einschließlich Überstunden. Dies wird im DIP-Vorgang explizit erwähnt ('durchschnittliche wöchentliche Arbeitszeit von maximal 48 Stunden'). Die Richtli",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_dip_vorgang_ausnahmeregelungen_bez_glich_der_eu_arbeitszeitrichtlinie_f_r_das_personal_von_zivilbesetzten_schiffen_der_bundeswehr",
+      "label": "DIP-Vorgang: Ausnahmeregelungen bezüglich der EU-Arbeitszeitrichtlinie für das Personal von zivilbesetzten Schiffen der Bundeswehr",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Arbeitszeitrichtlinie%20Stunden%20Woche",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2045,19 +2108,19 @@
     },
     {
       "id": "faktencheck_18",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Länder haben Regelungen zur wöchentlichen Höchstarbeitszeit (z. B. 48 Stunden/Woche) in ihren Arbeitszeitgesetzen verankert. Die EU-Arbeitszeitrichtlinie erlaubt solche nationalen Regelungen.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die genannten Länder tatsächlich Regelungen zur wöchentlichen Höchstarbeitszeit kennen. Allerdings ist die Formulierung irreführend, weil sie suggeriert, dass alle genannten Länder explizit eine *wöchentliche* Höchstarbeitszeit gesetzlich festlegen. Der B",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_eu_kommission_arbeitszeitrichtlinie_umsetzung_in_den_mitgliedstaaten",
-      "label": "EU-Kommission: Arbeitszeitrichtlinie – Umsetzung in den Mitgliedstaaten",
+      "id": "quelle_nicht_alle_l_nder_kennen_t_gliche_h_chstarbeitszeit_wirtschaftspolitik_derstandard_at",
+      "label": "Nicht alle Länder kennen tägliche Höchstarbeitszeit - Wirtschaftspolitik - derStandard.at",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://ec.europa.eu/social/main.jsp?catId=706&langId=de&intPageId=206",
+      "url": "https://www.derstandard.at/story/2000037974035/nicht-alle-laender-kennen-taegliche-hoechstarbeitszeiten",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2076,69 +2139,69 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Aktuelle Umfragen (z. B. ARD-DeutschlandTrend) zeigen, dass wirtschaftliche Themen zu den größten Sorgen zählen, aber nicht zwingend mit einer Quote von über 80 %. Eine konkrete forsa-Umfrage mit diesem Ergebnis ist nicht öffentlich verifizierbar.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass 'mehr als 80 Prozent der Menschen in unserem Land die wirtschaftliche Lage für eines der größten Probleme halten', wird durch die bereitgestellten Belege nicht direkt bestätigt. Der Artikel der WELT gibt an, dass 'drei Viertel der Deutschen' (also etwa 75 Prozent) die wirt",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ard_deutschlandtrend_beispiel_januar_2024",
-      "label": "ARD-DeutschlandTrend (Beispiel: Januar 2024)",
+      "id": "quelle_krisenstimmung_mehrheit_der_deutschen_ist_unzufrieden_mit_der_lage_im_land_nicht_aber_mit_der_eigenen_welt",
+      "label": "Krisenstimmung: Mehrheit der Deutschen ist unzufrieden mit der Lage im Land – nicht aber mit der eigenen - WELT",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/",
+      "url": "https://www.welt.de/politik/deutschland/article68c0b01015695f6010155a8a/krisenstimmung-mehrheit-der-deutschen-ist-unzufrieden-mit-der-lage-im-land-nicht-aber-mit-der-eigenen.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_20",
-      "label": "Aussage: wir werden [...] das volle Fixum, wie im Koalitionsvertrag v…",
+      "label": "Aussage: das volle Fixum, wie im Koalitionsvertrag vereinbart, von 9,…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "wir werden [...] das volle Fixum, wie im Koalitionsvertrag vereinbart, von 9,50 Euro",
+      "text": "das volle Fixum, wie im Koalitionsvertrag vereinbart, von 9,50 Euro",
       "person": "Simone Borchardt",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_20",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Koalitionsvertrag der 20. Legislaturperiode (2021–2025) sieht ein Fixum von 9,50 Euro für Apotheken vor. Dies wurde im Apothekenversorgung-Weiterentwicklungsgesetz umgesetzt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das im Koalitionsvertrag vereinbarte volle Fixum von 9,50 Euro. Die Belege bestätigen, dass der Koalitionsvertrag tatsächlich eine Erhöhung des Packungsfixums auf 9,50 Euro vorsieht. Allerdings wird in den Belegen auch deutlich, dass die Erhöhung zunächst nur st",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_koalitionsvertrag_2021_2025_zwischen_spd_b_ndnis_90_die_gr_nen_und_fdp",
-      "label": "Koalitionsvertrag 2021–2025 zwischen SPD, Bündnis 90/Die Grünen und FDP",
+      "id": "quelle_begruendung_fuer_gestaffeltes_fixum_pz_pharmazeutische_zeitung",
+      "label": "Begruendung fuer gestaffeltes Fixum | PZ – Pharmazeutische Zeitung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/resource/blob/974430/1990812/04221173eef9a6720059cc353d759a2b/2021-12-10-koav2021-data.pdf",
+      "url": "https://www.pharmazeutische-zeitung.de/begruendung-fuer-gestaffeltes-fixum-165782/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_21",
-      "label": "Aussage: Ein Teil [des Fixums] kommt ab 01.07, und ab 01.01. erhalten…",
+      "label": "Aussage: Ein Teil kommt ab 01.07, und ab 01.01. erhalten die Apotheke…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Ein Teil [des Fixums] kommt ab 01.07, und ab 01.01. erhalten die Apotheker das volle Fixum",
+      "text": "Ein Teil kommt ab 01.07, und ab 01.01. erhalten die Apotheker das volle Fixum",
       "person": "Simone Borchardt",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_21",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Gesetz zur Weiterentwicklung der Apothekenversorgung (Drucksache 20/8050) wird das Fixum gestaffelt eingeführt: Teilbeträge ab 1. Juli 2024, das volle Fixum von 9,50 Euro ab 1. Januar 2025.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Einführung eines Fixums für Apotheker in zwei Schritten: Ein Teil ab dem 01.07. und das volle Fixum ab dem 01.01. Laut dem Beleg von 'APOTHEKE ADHOC' wurde das Apothekenversorgung-Weiterentwicklungsgesetz im Gesundheitsausschuss auf den Weg gebracht, und es ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestags_drucksache_20_8050_entwurf_eines_gesetzes_zur_weiterentwicklung_der_apothekenversorgung",
-      "label": "Bundestags-Drucksache 20/8050 – Entwurf eines Gesetzes zur Weiterentwicklung der Apothekenversorgung",
+      "id": "quelle_wann_kommt_das_fixum_apotheke_adhoc",
+      "label": "Wann kommt das Fixum? | APOTHEKE ADHOC",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/080/2008050.pdf",
+      "url": "https://www.apotheke-adhoc.de/nachrichten/detail/apothekenreform/wann-kommt-das-fixum/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2157,7 +2220,16 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Apothekenversorgung-Weiterentwicklungsgesetz sieht die Wiedereinführung von Skonti für Apotheken vor, die zuvor abgeschafft worden waren.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage zur Wiedereinführung der Skonti für Apotheken wird durch mehrere Belege gestützt. Laut dem Artikel der 'Gelben Liste' plant das Bundesgesundheitsministerium (BMG) im Rahmen der Apothekenreform die Wiedereinführung handelsüblicher Skonti. Dies wird auch in den Eckpunkten der Apot",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeskabinett_beschlie_t_apothekenreform_gelbe_liste",
+      "label": "Bundeskabinett beschließt Apothekenreform | Gelbe Liste",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.gelbe-liste.de/apotheke/bundeskabinett-beschliesst-apothekenreform",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2171,37 +2243,55 @@
     },
     {
       "id": "faktencheck_23",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Gesetz zur Weiterentwicklung der Apothekenversorgung hebt die Nullretaxierung auf, die zuvor aus formellen Gründen eingeführt worden war.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'die Nullretaxierung aus formellen Gründen wieder abgeschafft' ist im Kern richtig, aber unpräzise. Die Belege zeigen, dass die Nullretaxierung durch das ALBVVG (Arzneimittel-Lieferengpassbekämpfungs- und Versorgungsverbesserungsgesetz) **eingeschränkt** wurde, jedoch nicht voll",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_neue_regelungen_durch_albvvg_wann_sind_null_retaxierungen_noch_erlaubt_deutschesapothekenportal",
+      "label": "Neue Regelungen durch ALBVVG – wann sind (Null-)Retaxierungen noch erlaubt? - DeutschesApothekenPortal",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.deutschesapothekenportal.de/rezept-retax/nachrichten/klick-der-woche/detail/neue-regelungen-albvvg-wann-sind-null-retaxierungen-noch-erlaubt/",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_24",
-      "label": "Aussage: Der Fonds für pharmazeutische Dienstleistungen [wurde] bisla…",
+      "label": "Aussage: Der Fonds für pharmazeutische Dienstleistungen wurde bislang…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Der Fonds für pharmazeutische Dienstleistungen [wurde] bislang offensichtlich nicht ausreichend genutzt.",
+      "text": "Der Fonds für pharmazeutische Dienstleistungen wurde bislang offensichtlich nicht ausreichend genutzt.",
       "person": "Dr. Christoph Birghan",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_24",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen, belastbaren Daten oder amtlichen Quellen, die die Nutzung des Fonds für pharmazeutische Dienstleistungen quantitativ bewerten. Eine Überprüfung der tatsächlichen Inanspruchnahme ist ohne spezifische Statistiken nicht möglich.",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der Fonds für pharmazeutische Dienstleistungen bislang nicht ausreichend genutzt wurde, wird durch die bereitgestellten Belege gestützt. Laut dem Artikel des Deutschen Ärzteblatts wurden im zweiten Quartal 2023 nur etwa 4,5 Millionen Euro von verfügbaren 38 Millionen Euro ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_pharmazeutische_dienstleistungen_nur_bruchteil_der_finanzmittel_ausgesch_ttet_deutsches_rzteblatt",
+      "label": "Pharmazeutische Dienstleistungen: Nur Bruchteil der Finanzmittel ausgeschüttet – Deutsches Ärzteblatt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.aerzteblatt.de/news/pharmazeutische-dienstleistungen-nur-bruchteil-der-finanzmittel-ausgeschuettet-cd05c6ab-57af-484f-9d4d-ad9aca515fed",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_25",
-      "label": "Aussage: Wir brauchen [...] mehr Pharmaziestudienplätze…",
+      "label": "Aussage: Wir brauchen mehr Pharmaziestudienplätze.…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Wir brauchen [...] mehr Pharmaziestudienplätze",
+      "text": "Wir brauchen mehr Pharmaziestudienplätze.",
       "person": "Dr. Christoph Birghan",
       "schicht": "fallbezug"
     },
@@ -2211,16 +2301,25 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Forderung nach mehr Pharmaziestudienplätzen ist eine politische Zielsetzung, aber keine überprüfbare quantitative Tatsachenbehauptung. Es gibt keine konkrete Zahl oder Statistik, die hier genannt oder überprüft wird. Zudem liegen keine aktuellen amtlichen Daten vor, die eine Unterversor",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege geben Auskunft über die Vergabe von Pharmaziestudienplätzen, die Anzahl der Universitäten, die Pharmazie anbieten, und die Konkurrenzsituation durch NC und Wartesemester. Allerdings liefern sie keine direkten Informationen darüber, ob ein tatsächlicher Mangel an ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_wo_wird_pharmazie_studiert_deutsche_apotheker_zeitung",
+      "label": "Wo wird Pharmazie studiert? - Deutsche Apotheker Zeitung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.deutsche-apotheker-zeitung.de/daz-az/2014/daz-42-2014/wo-wird-pharmazie-studiert",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_26",
-      "label": "Aussage: Wir heben das Skontiverbot auf…",
+      "label": "Aussage: Im Haushalt werden bereits 2 Milliarden Euro pro Jahr für Er…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wir heben das Skontiverbot auf",
-      "person": "Dr. Christoph Birghan",
+      "subtype": "CDU/CSU",
+      "text": "Im Haushalt werden bereits 2 Milliarden Euro pro Jahr für Ernährungssicherung, Landwirtschaft und ländliche Entwicklung ausgegeben.",
+      "person": "Dr. Wolfgang Stefinger",
       "schicht": "fallbezug"
     },
     {
@@ -2229,24 +2328,24 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aufhebung des Skontiverbots für Apotheken ist Teil des Gesetzes zur Stärkung der Apotheken vor Ort (Apothekenstärkungsgesetz), das im Mai 2024 vom Bundeskabinett beschlossen wurde. Dies ist eine überprüfbare Maßnahme der Bundesregierung.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass im Haushalt bereits 2 Milliarden Euro pro Jahr für Ernährungssicherung, Landwirtschaft und ländliche Entwicklung ausgegeben werden, wird durch mehrere Belege gestützt. Der Artikel des Deutschen Bundestags (hib) bestätigt, dass die Bundesregierung eigenen Angaben zufolge jä",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_entwurf_eines_gesetzes_zur_st_rkung_der_apotheken_vor_ort_apothekenst_rkungsgesetz",
-      "label": "Bundesregierung: Entwurf eines Gesetzes zur Stärkung der Apotheken vor Ort (Apothekenstärkungsgesetz)",
+      "id": "quelle_deutscher_bundestag_zwei_milliarden_euro_f_r_ern_hrungssicherung",
+      "label": "Deutscher Bundestag - Zwei Milliarden Euro für Ernährungssicherung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/A/Apothekenstaerkungsgesetz_Referentenentwurf.pdf",
+      "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1034590",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_27",
-      "label": "Aussage: Im Haushalt werden bereits 2 Milliarden Euro pro Jahr für Er…",
+      "label": "Aussage: Sie [Bündnis 90/Die Grünen] haben in der letzten Bundesregie…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Im Haushalt werden bereits 2 Milliarden Euro pro Jahr für Ernährungssicherung, Landwirtschaft und ländliche Entwicklung ausgegeben.",
+      "text": "Sie [Bündnis 90/Die Grünen] haben in der letzten Bundesregierung in diese Kürzungen eingestiegen und auch bei der Finanzplanung des Bundes weitere Kürzungen vorgesehen.",
       "person": "Dr. Wolfgang Stefinger",
       "schicht": "fallbezug"
     },
@@ -2256,38 +2355,20 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung gibt tatsächlich erhebliche Summen für Ernährungssicherung, Landwirtschaft und ländliche Entwicklung aus, allerdings variieren die genauen Beträge je nach Haushaltsjahr und spezifischen Programmen. Für 2023 sind im Einzelplan 23 (Bundesministerium für wirtschaftliche Zus",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf Kürzungen in der Finanzplanung des Bundes während der letzten Bundesregierung, an der Bündnis 90/Die Grünen beteiligt waren. Der Beleg aus dem Deutschen Bundestag bestätigt, dass im Haushaltsentwurf für 2025 Kürzungen im Einzelplan 23 (wirtschaftliche Zusammenar",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeshaushaltsplan_2023_einzelplan_23",
-      "label": "Bundeshaushaltsplan 2023, Einzelplan 23",
+      "id": "quelle_deutscher_bundestag_k_rzungen_im_etat_f_r_wirtschaftliche_zusammen_arbeit_und_entwicklung",
+      "label": "Deutscher Bundestag - Kürzungen im Etat für wirtschaftliche Zusammen­arbeit und Entwicklung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeshaushalt.de/DE/Home/home_node.html",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw28-de-entwicklung-1094250",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_28",
-      "label": "Aussage: Sie [Bündnis 90/Die Grünen] haben in der letzten Bundesregie…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Sie [Bündnis 90/Die Grünen] haben in der letzten Bundesregierung in diese Kürzungen eingestiegen und auch bei der Finanzplanung des Bundes weitere Kürzungen vorgesehen haben.",
-      "person": "Dr. Wolfgang Stefinger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_28",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine konkrete, überprüfbare Zahl oder einen Vergleich in der Aussage, der sich auf spezifische Kürzungen bezieht. Zudem ist die Formulierung zu vage, um eine belastbare Quelle zu identifizieren. Ohne konkrete Haushaltsdaten oder Beschlüsse ist die Behauptung nicht überprüfbar.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_29",
       "label": "Aussage: Auf der Welt sind in der Tat 670 Millionen Menschen von Unte…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2296,25 +2377,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_29",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_28",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Bericht 'The State of Food Security and Nutrition in the World 2023' der FAO (Ernährungs- und Landwirtschaftsorganisation der Vereinten Nationen) waren 2022 etwa 691 bis 783 Millionen Menschen von Hunger betroffen. Die Zahl von 670 Millionen liegt im Rahmen dieser Schätzungen. 'Fas",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt mit 670 Millionen eine leicht abweichende Zahl im Vergleich zu den Belegen, die für 2024 etwa 673 Millionen Menschen als von Hunger betroffen angeben. Zudem wird in der Aussage 'jeder Zwölfte' verwendet, was bei 673 Millionen (ca. 8,3 % der Weltbevölkerung) korrekt ist. Al",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_fao_ifad_unicef_wfp_and_who_2023_the_state_of_food_security_and_nutrition_in_the_world_2023",
-      "label": "FAO, IFAD, UNICEF, WFP and WHO. 2023. The State of Food Security and Nutrition in the World 2023",
+      "id": "quelle_was_ist_hunger_aktion_gegen_den_hunger",
+      "label": "Was ist Hunger? | Aktion gegen den Hunger",
       "type": "Quelle",
       "subtype": "",
-      "url": "http://www.fao.org/publications/sofi/2023/en/",
+      "url": "https://www.aktiongegendenhunger.de/hunger",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_30",
+      "id": "aussage_29",
       "label": "Aussage: Knapp ein Drittel der globalen Stickstoffdüngerproduktion is…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2323,47 +2404,83 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_30",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_29",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche, aktuelle Statistik, die diese konkrete Zahl (ein Drittel der globalen Stickstoffdüngerproduktion) als 'vom Weltmarkt abgeschnitten' ausweist. Die Aussage bezieht sich vermutlich auf Lieferengpässe durch den Ukraine-Krieg und Sanktionen gegen Russland/Belarus, aber ei",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass knapp ein Drittel der globalen Stickstoffdüngerproduktion vom Weltmarkt abgeschnitten ist, wird in den Belegen gestützt, allerdings mit unterschiedlichen Ursachen und regionalen Schwerpunkten. Der MDR-Beleg bestätigt, dass etwa ein Drittel des weltweiten Stickstoffdüngers ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_landwirtschaft_k_mpft_mit_hohen_d_ngemittelpreisen_mdr_de",
+      "label": "Landwirtschaft kämpft mit hohen Düngemittelpreisen | mdr.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.mdr.de/nachrichten/deutschland/wirtschaft/landwirtschaft-dunger-knappheit-100.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_30",
+      "label": "Aussage: Der deutsche Staat gab 2025 schätzungsweise 1,8 Milliarden E…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Der deutsche Staat gab 2025 schätzungsweise 1,8 Milliarden Euro für den Themenkomplex „Ernährungssicherheit und ländliche Entwicklung“ aus.",
+      "person": "Johannes Volkmann",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_30",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine konkrete Zahl von 1,8 Milliarden Euro für das Jahr 2025, die jedoch in den Belegen nicht explizit bestätigt wird. Die Belege zeigen unterschiedliche Angaben: Die Bundesregierung investiert jährlich rund 1,5 Milliarden Euro (Bundesregierung), das BMZ rund zwei Milliard",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_b_ndnis_f_r_globale_ern_hrungssicherheit_bmz",
+      "label": "Bündnis für globale Ernährungssicherheit | BMZ",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmz.de/de/themen/ernaehrungssicherung/buendnis-fuer-globale-ernaehrungssicherheit",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_31",
-      "label": "Aussage: Der deutsche Staat gab 2025 schätzungsweise 1,8 Milliarden E…",
+      "label": "Aussage: Wir geben beispielsweise 1,2 Millionen Euro aus, um – Zitat …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Der deutsche Staat gab 2025 schätzungsweise 1,8 Milliarden Euro für den Themenkomplex 'Ernährungssicherheit und ländliche Entwicklung' aus.",
+      "text": "Wir geben beispielsweise 1,2 Millionen Euro aus, um – Zitat – „Kenias Agrar- und Ernährungssystem und Ernährungspolitik genderspezifisch [zu] gestalten“.",
       "person": "Johannes Volkmann",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_31",
-      "label": "Faktencheck: irreführend",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine Schätzung für das Jahr 2025, das zum Zeitpunkt der Rede (2023/2024) noch in der Zukunft lag. Aktuelle Haushaltspläne oder amtliche Veröffentlichungen für 2025 liegen nicht vor. Für 2023 und 2024 sind die Ausgaben niedriger: Im Bundeshaushalt 2023 waren für ",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine konkrete Summe von 1,2 Millionen Euro für die genderspezifische Gestaltung von Kenias Agrar- und Ernährungssystem. Die bereitgestellten Belege bestätigen zwar, dass Deutschland (u.a. über das BMZ) in Kenias Agrar- und Ernährungssystem investiert und dabei auch Gender-",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeshaushaltsplan_2023_einzelplan_23_bundesministerium_f_r_wirtschaftliche_zusammenarbeit_und_entwicklung",
-      "label": "Bundeshaushaltsplan 2023, Einzelplan 23 (Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung)",
+      "id": "quelle_leben_ohne_hunger_transformation_der_agrar_und_ern_hrungssysteme_bmz",
+      "label": "Leben ohne Hunger – Transformation der Agrar- und Ernährungssysteme | BMZ",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeshaushalt.de/",
+      "url": "https://bmz.de/de/themen/ernaehrung/innovationen/gruene_innovationszentren/kenia/index.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_32",
-      "label": "Aussage: Wir geben beispielsweise 1,2 Millionen Euro aus, um – Zitat …",
+      "label": "Aussage: über 700.000 Kenianer [befinden sich] in der zweitschlimmste…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Wir geben beispielsweise 1,2 Millionen Euro aus, um – Zitat – 'Kenias Agrar- und Ernährungssystem und Ernährungspolitik genderspezifisch [zu] gestalten'.",
+      "text": "über 700.000 Kenianer [befinden sich] in der zweitschlimmsten Hungerkategorie, der IPC-Phase 4.",
       "person": "Johannes Volkmann",
       "schicht": "fallbezug"
     },
@@ -2373,42 +2490,42 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Projektbeschreibung und die genannte Summe von 1,2 Mio. Euro sind in dieser Form nicht in öffentlich zugänglichen Haushaltsplänen oder Projektlisten der Bundesregierung nachweisbar. Allerdings fördert die deutsche Entwicklungszusammenarbeit tatsächlich Projekte zur genderspezifischen Au",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine Zahl von über 700.000 Kenianern in der IPC-Phase 4, während der Beleg der Welthungerhilfe von 400.000 Menschen in dieser Phase spricht. Die Kernaussage (Existenz von Menschen in IPC-Phase 4 in Kenia) ist korrekt, aber die genannte Zahl weicht deutlich ab. Der globale ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_projektliste_der_giz_gesellschaft_f_r_internationale_zusammenarbeit",
-      "label": "Projektliste der GIZ (Gesellschaft für Internationale Zusammenarbeit)",
+      "id": "quelle_d_rre_und_hunger_in_kenia_welthungerhilfe",
+      "label": "Dürre und Hunger in Kenia - Welthungerhilfe",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.giz.de/de/html/index.html",
+      "url": "https://www.welthungerhilfe.de/spenden-kenia/duerre-und-hunger-in-kenia/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_33",
-      "label": "Aussage: über 700.000 Kenianer [befinden sich] in der zweitschlimmste…",
+      "label": "Aussage: Seit Februar dieses Jahres ist der New-START-Vertrag zwische…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "über 700.000 Kenianer [befinden sich] in der zweitschlimmsten Hungerkategorie, der IPC-Phase 4.",
-      "person": "Johannes Volkmann",
+      "text": "Seit Februar dieses Jahres ist der New-START-Vertrag zwischen Russland und den USA ausgelaufen.",
+      "person": "Bastian Ernst",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_33",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem 'IPC Acute Food Insecurity Analysis' für Kenia (Oktober 2023 – Januar 2024) befanden sich in diesem Zeitraum etwa 730.000 Menschen in der IPC-Phase 4 ('Emergency'). Die IPC (Integrated Food Security Phase Classification) ist ein standardisiertes Instrument zur Messung von Ernährung",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, der New-START-Vertrag sei seit Februar *dieses Jahres* ausgelaufen. Laut den bereitgestellten Belegen läuft der Vertrag jedoch erst am 5. Februar *2026* aus. Zudem war Russland bereits 2023 aus dem Vertrag ausgestiegen, hält sich aber nach eigenen Angaben noch an die ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ipc_acute_food_insecurity_analysis_kenya_october_2023_january_2024",
-      "label": "IPC Acute Food Insecurity Analysis, Kenya (October 2023 - January 2024)",
+      "id": "quelle_atomwaffenvertrag_russland_kritisiert_usa_wegen_ausbleibender_verl_ngerung_der_spiegel",
+      "label": "Atomwaffenvertrag: Russland kritisiert USA wegen ausbleibender Verlängerung - DER SPIEGEL",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1156239/",
+      "url": "https://www.spiegel.de/ausland/auslaufender-atomwaffenvertrag-russland-kritisiert-usa-wegen-ausbleibender-verlaengerung-des-new-start-abkommens-a-283a4461-347a-47f7-a08e-7c09e9be7583",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2417,61 +2534,61 @@
       "label": "Aussage: China hat inzwischen das weltweit drittgrößte Arsenal an Ato…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "China hat inzwischen das weltweit drittgrößte Arsenal an Atomwaffen",
+      "text": "China hat inzwischen das weltweit drittgrößte Arsenal an Atomwaffen.",
       "person": "Bastian Ernst",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_34",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Stockholm International Peace Research Institute (SIPRI) besitzt China das drittgrößte Arsenal an Atomwaffen nach den USA und Russland. Die genaue Anzahl variiert je nach Quelle, aber die Einordnung als drittgrößtes Arsenal ist korrekt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass China das weltweit drittgrößte Arsenal an Atomwaffen besitzt, ist im Kern richtig, aber die genaue Platzierung hängt von der aktuellen Zählung und Definition ab. Laut dem Beleg von ntv.de (SIPRI-Daten) verfügte China 2025 über etwa 600 Sprengköpfe, was es hinter den USA (c",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_sipri_yearbook_2023_armaments_disarmament_and_international_security",
-      "label": "SIPRI Yearbook 2023 – Armaments, Disarmament and International Security",
+      "id": "quelle_new_start_ist_am_ende_chinas_atomwaffen_arsenal_w_chst_rasant_und_befeuert_noch_das_wettr_sten_ntv_de",
+      "label": "New Start ist am Ende, Chinas Atomwaffen-Arsenal wächst rasant - und befeuert noch das Wettrüsten - ntv.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.sipri.org/yearbook/2023",
+      "url": "https://www.n-tv.de/politik/New-Start-ist-am-Ende-Chinas-Atomwaffen-Arsenal-waechst-rasant-und-befeuert-noch-das-Wettruesten-id30329976.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_35",
-      "label": "Aussage: seit Februar dieses Jahres ist der New-START-Vertrag zwische…",
+      "label": "Aussage: Russland hatte im vergangenen Jahr seine neueste atomwaffenf…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "seit Februar dieses Jahres ist der New-START-Vertrag zwischen Russland und den USA ausgelaufen",
+      "text": "Russland hatte im vergangenen Jahr seine neueste atomwaffenfähige Hyperschallrakete Oreschnik in Belarus stationiert.",
       "person": "Bastian Ernst",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_35",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Russland hat die Teilnahme am New-START-Vertrag im Februar 2023 suspendiert, aber der Vertrag selbst lief nicht automatisch aus. Die formelle Kündigung oder ein Auslaufen des Vertrags ist nicht erfolgt, aber die praktische Umsetzung ist seit der Suspendierung ausgesetzt.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Russland im vergangenen Jahr (2023) seine neueste atomwaffenfähige Hyperschallrakete 'Oreschnik' in Belarus stationiert hat, ist in Teilen richtig, aber irreführend. Die Belege bestätigen, dass Russland die Rakete in Belarus stationiert hat, allerdings deutet der Focus-Art",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_aktueller_stand_zu_new_start",
-      "label": "Bundesregierung – Aktueller Stand zu New START",
+      "id": "quelle_5000_kilometer_reichweite_atomwaffenf_hig_das_kann_putins_hyperschallrakete_oreschnik_focus_online",
+      "label": "5000 Kilometer Reichweite, atomwaffenfähig: Das kann Putins Hyperschallrakete Oreschnik - FOCUS online",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/aktuelles/new-start-2159330",
+      "url": "https://www.focus.de/politik/ausland/5000-kilometer-mit-atomwaffen-das-kann-putins-oreschnik_87d47902-b085-4af3-89e4-5a60d2aa35b3.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_36",
-      "label": "Aussage: Russland hatte seine neueste atomwaffenfähige Hyperschallrak…",
+      "label": "Aussage: Russland hat seine atomwaffenfähige Interkontinentalrakete g…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Russland hatte seine neueste atomwaffenfähige Hyperschallrakete Oreschnik in Belarus stationiert",
+      "text": "Russland hat seine atomwaffenfähige Interkontinentalrakete getestet.",
       "person": "Bastian Ernst",
       "schicht": "fallbezug"
     },
@@ -2481,105 +2598,105 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Russland hat im Jahr 2023 die Stationierung von taktischen Nuklearwaffen, einschließlich der Hyperschallrakete Kinschal (nicht Oreschnik), in Belarus angekündigt und teilweise umgesetzt. Die Bezeichnung 'Oreschnik' ist möglicherweise ein Übersetzungs- oder Benennungsfehler, aber die Station",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Russland seine atomwaffenfähige Interkontinentalrakete getestet hat, wird durch mehrere aktuelle Quellen gestützt. Laut den Belegen von DER SPIEGEL, Berliner Zeitung und Frankfurter Rundschau hat Russland die atomwaffenfähige Interkontinentalrakete Sarmat erfolgreich getes",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeswehr_informationen_zur_stationierung_russischer_nuklearwaffen_in_belarus",
-      "label": "Bundeswehr – Informationen zur Stationierung russischer Nuklearwaffen in Belarus",
+      "id": "quelle_russland_testet_sarmat_interkontinentalrakete_laut_wladimir_putin_erfolgreich_der_spiegel",
+      "label": "Russland testet Sarmat-Interkontinentalrakete – laut Wladimir Putin erfolgreich - DER SPIEGEL",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeswehr.de/de/aktuelles/meldungen/russland-belarus-nuklearwaffen-5582320",
+      "url": "https://www.spiegel.de/wissenschaft/technik/russland-testet-sarmat-interkontinentalrakete-laut-wladimir-putin-erfolgreich-a-129038fc-f885-400f-a2c4-d08eb689345d",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_37",
-      "label": "Aussage: Russland [hat] seine atomwaffenfähige Interkontinentalrakete…",
+      "label": "Aussage: Russland nutzt systematisch chemische Waffen in der Ukraine,…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Russland [hat] seine atomwaffenfähige Interkontinentalrakete getestet",
+      "text": "Russland nutzt systematisch chemische Waffen in der Ukraine, zum Beispiel den Lungenkampfstoff Chlorpikrin.",
       "person": "Bastian Ernst",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_37",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Russland hat in den letzten Jahren mehrfach Tests von Interkontinentalraketen (ICBMs) durchgeführt, darunter die Sarmat-Rakete. Solche Tests wurden u.a. 2022 und 2023 dokumentiert.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Russland chemische Waffen in der Ukraine nutzt, wird durch die Belege bestätigt. Insbesondere wird der Einsatz von Chlorpikrin durch russische Truppen in der Ukraine von mehreren Quellen, darunter deutsche und niederländische Geheimdienste, dokumentiert (Handelsblatt, tage",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_united_nations_office_for_disarmament_affairs_missile_tests",
-      "label": "United Nations Office for Disarmament Affairs – Missile Tests",
+      "id": "quelle_russland_setzt_laut_geheimdiensten_vermehrt_verbotene_chemiewaffen_ein_tagesschau_de",
+      "label": "Russland setzt laut Geheimdiensten vermehrt verbotene Chemiewaffen ein | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://unoda-web.s3-accelerate.amazonaws.com/wp-content/uploads/2023/04/Missile-Factsheet-2023.pdf",
+      "url": "https://www.tagesschau.de/ausland/europa/chemiewaffen-russland-ukraine-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_38",
-      "label": "Aussage: Russland [verstößt] systematisch durch den Einsatz von chemi…",
+      "label": "Aussage: Die Vergiftung von Nawalny und Skripal mit dem Nervenkampfst…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Russland [verstößt] systematisch durch den Einsatz von chemischen Waffen, zum Beispiel des Lungenkampfstoffs Chlorpikrin",
+      "text": "Die Vergiftung von Nawalny und Skripal mit dem Nervenkampfstoff Nowitschok.",
       "person": "Bastian Ernst",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_38",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt Vorwürfe und Berichte über den Einsatz chemischer Substanzen durch Russland in der Ukraine, darunter Chlorpikrin. Allerdings gibt es keine öffentlich zugänglichen, unabhängigen und amtlichen Bestätigungen, die einen systematischen Einsatz belegen. Die OVCW (Organisation für das Verb",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Nawalny und Skripal mit dem Nervenkampfstoff Nowitschok vergiftet wurden, ist im Kern richtig. Die Belege bestätigen, dass Nawalny mit einem Nervengift aus der Nowitschok-Gruppe vergiftet wurde (tagesschau.de, RND). Ebenso wird bestätigt, dass Skripal und seine Tochter 201",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ovcw_reports_on_allegations_of_chemical_weapons_use",
-      "label": "OVCW – Reports on Allegations of Chemical Weapons Use",
+      "id": "quelle_nawalny_und_das_gift_was_ist_nowitschok_tagesschau_de",
+      "label": "Nawalny und das Gift: Was ist Nowitschok? | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.opcw.org/media-centre/news/2023/03/opcw-issues-reports-allegations-chemical-weapons-use-ukraine",
+      "url": "https://www.tagesschau.de/ausland/nowitschok-125.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_39",
-      "label": "Aussage: Vergiftung von Nawalny und Skripal mit dem Nervenkampfstoff …",
+      "label": "Aussage: Seit der Zerstörung unserer kritischen Infrastruktur kann di…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Vergiftung von Nawalny und Skripal mit dem Nervenkampfstoff Nowitschok",
-      "person": "Bastian Ernst",
+      "subtype": "SPD",
+      "text": "Seit der Zerstörung unserer kritischen Infrastruktur kann dieses Kraftwerk seinen Dienst nicht mehr tun.",
+      "person": "Bettina Lugk",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_39",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Vergiftungen von Alexei Nawalny (2020) und Sergei Skripal (2018) mit dem Nervenkampfstoff Nowitschok wurden durch unabhängige Labore, darunter die OVCW, bestätigt.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Zerstörung der kritischen Infrastruktur eines spezifischen Kraftwerks, das seinen Dienst nicht mehr tun kann. Die bereitgestellten Belege thematisieren zwar Angriffe auf kritische Infrastrukturen (z. B. durch Linksextremisten in Deutschland oder militärische",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ovcw_confirmation_of_novichok_use_in_skripal_and_navalny_cases",
-      "label": "OVCW – Confirmation of Novichok Use in Skripal and Navalny Cases",
+      "id": "quelle_kein_spezifischer_beleg_f_r_die_aussage_vorhanden",
+      "label": "Kein spezifischer Beleg für die Aussage vorhanden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.opcw.org/media-centre/news/2020/10/opcw-issues-report-technical-assistance-requested-germany",
+      "url": "https://www.verfassungsschutz.de/SharedDocs/hintergruende/DE/linksextremismus/angriffe-von-linksextremisten-auf-kritis.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_40",
-      "label": "Aussage: Seit der Zerstörung unserer kritischen Infrastruktur kann di…",
+      "label": "Aussage: Der New-START-Vertrag läuft aus.…",
       "type": "Aussage",
       "subtype": "SPD",
-      "text": "Seit der Zerstörung unserer kritischen Infrastruktur kann dieses Kraftwerk seinen Dienst nicht mehr tun.",
+      "text": "Der New-START-Vertrag läuft aus.",
       "person": "Bettina Lugk",
       "schicht": "fallbezug"
     },
@@ -2589,47 +2706,20 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Nord Stream-Pipelines wurden im September 2022 durch Sabotageakte beschädigt und sind seitdem außer Betrieb. Das Kraftwerk in Lubmin, das das ankommende Gas vorwärmte, ist dadurch funktionslos geworden. Allerdings ist die Aussage insofern teilweise, als das Kraftwerk selbst nicht zerstö",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Der New-START-Vertrag läuft aus' ist im Kern richtig, da der Vertrag tatsächlich am 5. Februar 2026 ausläuft, wie in mehreren Belegen (Telepolis, IPPNW) bestätigt wird. Allerdings ist die Formulierung unpräzise, da sie den Eindruck erwecken könnte, der Vertrag laufe bereits jet",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesnetzagentur_informationen_zu_nord_stream",
-      "label": "Bundesnetzagentur - Informationen zu Nord Stream",
+      "id": "quelle_new_start_vertrag_l_uft_aus_das_ende_der_atomaren_r_stungskontrolle_telepolis",
+      "label": "New-Start-Vertrag läuft aus: Das Ende der atomaren Rüstungskontrolle | Telepolis",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Versorgungssicherheit/Infrastruktur/Erdgas/Erdgas_node.html",
+      "url": "https://www.telepolis.de/article/New-Start-Vertrag-laeuft-aus-Das-Ende-der-atomaren-Ruestungskontrolle-11163409.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_41",
-      "label": "Aussage: Die Bundesregierung will ein voll funktionsfähiges Gaskraftw…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Die Bundesregierung will ein voll funktionsfähiges Gaskraftwerk in Lubmin verschenken.",
-      "person": "Bettina Lugk",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_41",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Bestätigung oder belastbare Quelle, die belegt, dass die Bundesregierung plant, das Kraftwerk in Lubmin zu verschenken. Die Aussage bezieht sich vermutlich auf Pläne zur Verwertung der Anlage, aber konkrete Entscheidungen oder offizielle Ankündigungen dazu sind nicht ",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_keine_amtliche_quelle_bekannt",
-      "label": "Keine amtliche Quelle bekannt",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_42",
       "label": "Aussage: Die Anlage in Lubmin ist seit 2023 stillgelegt, weil sie nic…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2638,25 +2728,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_42",
-      "label": "Faktencheck: teilweise",
+      "id": "faktencheck_41",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Stilllegung der Anlage in Lubmin (Erdgas-Anlandestation) erfolgte tatsächlich, allerdings war die Stilllegung bereits 2022 nach dem Stopp der Gaslieferungen durch Nord Stream 1. Die exakte Formulierung 'seit 2023' ist nicht vollständig präzise, da die Anlage bereits im Sommer 2022 außer",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Anlage in Lubmin seit 2023 stillgelegt ist, weil sie nicht mehr gebraucht wird, ist verzerrt. Die Belege zeigen, dass das Gaskraftwerk in Lubmin bereits seit mehreren Jahren stillgelegt war, nicht erst seit 2023. Der Hauptgrund für die Stilllegung scheint nicht allein ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesnetzagentur_monitoringbericht_2022",
-      "label": "Bundesnetzagentur - Monitoringbericht 2022",
+      "id": "quelle_warum_die_ukraine_ein_kraftwerk_aus_lubmin_bekommt_tagesschau_de",
+      "label": "Warum die Ukraine ein Kraftwerk aus Lubmin bekommt | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Allgemeines/Bundesnetzagentur/Publikationen/Berichte/2022/Monitoringbericht_2022.pdf",
+      "url": "https://www.tagesschau.de/faktenfinder/lubmin-kraftwerk-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_43",
+      "id": "aussage_42",
       "label": "Aussage: Bis 2022 hat sie Gas aus der Nord-Stream-Pipeline erwärmt.…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2665,25 +2755,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_43",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_42",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Anlage in Lubmin diente der Erwärmung des Gases aus der Nord-Stream-Pipeline, um es in das deutsche Gasnetz einspeisen zu können. Dies war bis zum Stopp der Gaslieferungen 2022 der Fall.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage suggeriert, dass die Nord-Stream-Pipeline bis 2022 aktiv Gas erwärmt hat, was impliziert, dass sie in Betrieb war. Laut den Belegen war Nord Stream 1 zwar in Betrieb, aber Nord Stream 2 wurde fertiggestellt, jedoch nie in Betrieb genommen (vgl. Congress.gov: 'has been constructe",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_antwort_auf_eine_kleine_anfrage_drucksache_20_5060",
-      "label": "Bundesregierung - Antwort auf eine Kleine Anfrage (Drucksache 20/5060)",
+      "id": "quelle_russia_s_nord_stream_2_natural_gas_pipeline_to_germany_halted",
+      "label": "Russia’s Nord Stream 2 Natural Gas Pipeline to Germany Halted",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/050/2005060.pdf",
+      "url": "https://www.congress.gov/crs-product/IF11138",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_44",
+      "id": "aussage_43",
       "label": "Aussage: Die betreffende Anlage verfügte über eine Leistung von 84 Me…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2692,25 +2782,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_44",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_43",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Kraft-Wärme-Kopplungsanlage (KWK) in Lubmin hatte eine installierte elektrische Leistung von 84 Megawatt.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege erklären zwar die Einheit Megawatt (MW) und deren Bedeutung für die Leistung von Anlagen (z. B. Photovoltaik), enthalten jedoch keine spezifischen Informationen über die Leistung der 'betreffenden Anlage' von 84 Megawatt. Ohne konkrete Bezugnahme auf die genannte",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesnetzagentur_kraftwerksliste",
-      "label": "Bundesnetzagentur - Kraftwerksliste",
+      "id": "quelle_megawatt_begriffserkl_rung",
+      "label": "Megawatt Begriffserklärung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/kraftwerksliste-node.html",
+      "url": "https://www.rechnerphotovoltaik.de/photovoltaik/begriffserklaerung/megawatt",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_45",
+      "id": "aussage_44",
       "label": "Aussage: Die Ukraine befindet sich im fünften Kriegsjahr seit dem rus…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2719,25 +2809,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_45",
-      "label": "Faktencheck: irreführend",
+      "id": "faktencheck_44",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der russische Überfall auf die Ukraine begann am 24. Februar 2022. Die Aussage 'fünftes Kriegsjahr' ist irreführend, da der Krieg zu diesem Zeitpunkt (2024) etwa 2,5 Jahre andauert. Der Konflikt im Donbas begann jedoch bereits 2014, was die Aussage in einem anderen Kontext stellen könnte, a",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der russische Überfall auf die Ukraine begann im Februar 2022. Die Aussage behauptet, die Ukraine befinde sich im fünften Kriegsjahr seit diesem Überfall. Da der Krieg im Februar 2022 begann, wäre das erste Kriegsjahr 2022, das zweite 2023, das dritte 2024. Demnach befände sich die Ukraine ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_ukraine_krieg_chronologie",
-      "label": "Bundesregierung - Ukraine-Krieg: Chronologie",
+      "id": "quelle_russischer_berfall_auf_die_ukraine_seit_2022_wikipedia",
+      "label": "Russischer Überfall auf die Ukraine seit 2022 – Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/ukraine-hilfe/ukraine-krieg-chronologie-2008348",
+      "url": "https://de.wikipedia.org/wiki/Russischer_%C3%9Cberfall_auf_die_Ukraine_seit_2022",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_46",
+      "id": "aussage_45",
       "label": "Aussage: Seit 1 549 Tagen ist die Ukraine gezwungen, ihre Existenz ge…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2746,25 +2836,16 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_46",
-      "label": "Faktencheck: falsch",
+      "id": "faktencheck_45",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "falsch",
-      "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Zahl von 1.549 Tagen (etwa 4 Jahre und 3 Monate) bezieht sich nicht auf den Zeitraum seit Februar 2022, sondern würde auf einen Zeitpunkt um November 2019 zurückgehen. Seit dem 24. Februar 2022 sind es (Stand Juni 2024) etwa 850 Tage.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Ukraine seit 1.549 Tagen ihre Existenz gegen den Autokraten Wladimir Putin verteidigt, ist im Kern richtig, aber die genaue Anzahl der Tage weicht ab. Der russische Überfall auf die Ukraine begann am 24. Februar 2022 (Quelle: Wikipedia). Eine Berechnung der Tage ab die",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_tagerechner_zeit_seit_kriegsbeginn_2022",
-      "label": "Tagerechner - Zeit seit Kriegsbeginn 2022",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.timeanddate.de/date/durationresult.html?d1=24&m1=02&y1=2022&d2=15&m2=06&y2=2024",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_47",
+      "id": "aussage_46",
       "label": "Aussage: Dieses Kraftwerk steht seit drei Jahren still.…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2773,16 +2854,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_47",
-      "label": "Faktencheck: falsch",
+      "id": "faktencheck_46",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "falsch",
-      "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Kraftwerk in Lubmin steht seit Sommer 2022 still, also seit etwa zwei Jahren (Stand 2024), nicht seit drei Jahren.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Dieses Kraftwerk steht seit drei Jahren still' ist ohne konkreten Bezug auf ein bestimmtes Kraftwerk nicht eindeutig zu bewerten. Die bereitgestellten Belege beziehen sich auf unterschiedliche Kraftwerke und Zeiträume: Das Kraftwerk Wedel ist noch nicht stillgelegt, sondern der",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_48",
+      "id": "quelle_kein_passender_beleg_f_r_die_konkrete_aussage",
+      "label": "Kein passender Beleg für die konkrete Aussage",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.shz.de/lokales/wedel-uetersen-tornesch/artikel/kraftwerk-wedel-ablauf-und-zeitpunkt-fuer-stilllegung-steht-fest-50530478",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_47",
       "label": "Aussage: Seit 2015 hat Deutschland Millionen Menschen aufgenommen.…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2791,25 +2881,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_48",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_47",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Destatis und Bundesamt für Migration und Flüchtlinge (BAMF) sind seit 2015 mehrere Millionen Menschen nach Deutschland zugewandert, insbesondere durch Fluchtmigration. Im Jahr 2015 allein wurden etwa 890.000 Asylanträge gestellt, und die Nettozuwanderung lag in den Folgejahren weiterhi",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Seit 2015 hat Deutschland Millionen Menschen aufgenommen' bezieht sich vermutlich auf die Zuwanderung von Geflüchteten und Migranten. Die bereitgestellten Belege liefern keine direkten Zahlen zur Aufnahme von Millionen Menschen seit 2015. Allerdings ist allgemein bekannt, dass ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_destatis_zuwanderung_nach_deutschland",
-      "label": "Destatis - Zuwanderung nach Deutschland",
+      "id": "quelle_bev_lkerungsstand_amtliche_einwohnerzahl_deutschlands_statistisches_bundesamt",
+      "label": "Bevölkerungsstand: Amtliche Einwohnerzahl Deutschlands - Statistisches Bundesamt",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Migration-Integration/_inhalt.html",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_49",
+      "id": "aussage_48",
       "label": "Aussage: Die Stadt Berlin hat es [Mietendeckel] ausprobiert: Die Sani…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2818,79 +2908,79 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_49",
+      "id": "faktencheck_48",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Mietendeckel in Berlin führte zu einem Rückgang von Neubauprojekten und Sanierungen, allerdings sind die quantitativen Angaben (\"massiv\") nicht präzise belegt. Studien (z. B. vom Institut der deutschen Wirtschaft) zeigen einen deutlichen Rückgang der Baugenehmigungen, aber die genaue Au",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält im Kern richtige Elemente, aber die Darstellung ist vereinfacht und teilweise überzeichnet. Die Belege zeigen, dass der Berliner Mietendeckel tatsächlich Anreize für Sanierungen und Modernisierungen reduzierte, da die Umlagemöglichkeiten für Modernisierungskosten stark e",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_diw_berlin_auswirkungen_des_mietendeckels",
-      "label": "DIW Berlin - Auswirkungen des Mietendeckels",
+      "id": "quelle_mietendeckel_in_berlin_top_oder_flop_taz_de",
+      "label": "Mietendeckel in Berlin: Top oder Flop? | taz.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.diw.de/de/diw_01.c.815524.de/publikationen/wochenberichte/2021_12_1/der_berliner_mietendeckel__eine_bilanz.html",
+      "url": "https://taz.de/Mietendeckel-in-Berlin/!5606028/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_49",
+      "label": "Aussage: Das Bundesverfassungsgericht hat diesen Deckel darum zu Rech…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Das Bundesverfassungsgericht hat diesen Deckel darum zu Recht gekippt.",
+      "person": "Olaf Hilmer",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_49",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Bundesverfassungsgericht hat den Berliner Mietendeckel tatsächlich gekippt. Laut dem Beleg von WELT urteilte das Berliner Landgericht, dass dem Land Berlin die Gesetzgebungskompetenz für den Mietendeckel fehlt, was auf eine Verfassungswidrigkeit hindeutet. Zudem wurde eine Normenkontrol",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_berliner_mietendeckel_verfassungsgericht_und_landgericht_urteilten_welt",
+      "label": "Berliner Mietendeckel: Verfassungsgericht und Landgericht urteilten - WELT",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.welt.de/wirtschaft/article206513365/Berliner-Mietendeckel-Verfassungsgericht-und-Landgericht-urteilten.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_50",
-      "label": "Aussage: Das Bundesverfassungsgericht hat diesen Deckel [Mietendeckel…",
+      "label": "Aussage: Gleichzeitig sind die Baukosten durch überzogene Vorschrifte…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Das Bundesverfassungsgericht hat diesen Deckel [Mietendeckel] darum zu Recht gekippt.",
+      "text": "Gleichzeitig sind die Baukosten durch überzogene Vorschriften in die Höhe geschossen.",
       "person": "Olaf Hilmer",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_50",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Bundesverfassungsgericht hat den Berliner Mietendeckel am 15. April 2021 für verfassungswidrig und nichtig erklärt, da das Land Berlin keine Gesetzgebungskompetenz für Mietpreisregelungen habe.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Baukosten durch 'überzogene Vorschriften' gestiegen sind, ist im Kern richtig, aber pauschal formuliert. Die bereitgestellten Belege zeigen, dass Vorschriften (z. B. in Bauverträgen) tatsächlich zu zusätzlichen Kosten führen können, wie im Artikel von biallo.de beschrieben",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesverfassungsgericht_urteil_zum_mietendeckel",
-      "label": "Bundesverfassungsgericht - Urteil zum Mietendeckel",
+      "id": "quelle_kostenfallen_beim_hausbau_baukosten_im_griff_halten_news_immobilien",
+      "label": "Kostenfallen beim Hausbau: Baukosten im Griff halten - News - Immobilien",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2021/bvg21-031.html",
+      "url": "https://www.biallo.de/bauen/news/kostenfallen-beim-hausbau-so-zahlen-bauherren-nicht-drauf/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_51",
-      "label": "Aussage: Die Nachfrage nach Wohnungen ist explodiert. Das steht genau…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Die Nachfrage nach Wohnungen ist explodiert. Das steht genau so im Jahresgutachten des Sachverständigenrates für Integration und Migration und auch im letzten Baukulturbericht.",
-      "person": "Olaf Hilmer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_51",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage zur explodierenden Nachfrage ist plausibel, aber die konkrete Formulierung (\"genau so\") ist in den genannten Quellen nicht wörtlich oder direkt so belegt. Der Sachverständigenrat für Integration und Migration (SVR) und der Baukulturbericht thematisieren Zuwanderung und Wohnungsm",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_svr_jahresgutachten_2023",
-      "label": "SVR - Jahresgutachten 2023",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.svr-migration.de/publikationen/jahresgutachten-2023/",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_52",
       "label": "Aussage: Genehmigungsverfahren dauern Jahre.…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2899,20 +2989,20 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_52",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_51",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesbauministerium und Studien (z. B. vom Institut der deutschen Wirtschaft) dauern Baugenehmigungsverfahren in Deutschland im Schnitt zwischen 6 Monaten und mehreren Jahren, abhängig von der Komplexität und dem Bundesland.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Genehmigungsverfahren dauern Jahre' ist im Kern richtig, aber pauschal formuliert. Die Belege zeigen, dass die Dauer stark variiert: Während einfache Baugenehmigungen laut Construyo und Alexandra Pleick in 3–4 Monaten bearbeitet werden sollen, dauern komplexere Verfahren (z. B.",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesinstitut_f_r_bau_stadt_und_raumforschung_bbsr_bauen_und_wohnen",
-      "label": "Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR) - Bauen und Wohnen",
+      "id": "quelle_planungs_und_genehmigungsverfahren_dauern_im_schnitt_ein_halbes_jahr_zu_lang",
+      "label": "Planungs- und Genehmigungsverfahren dauern im Schnitt ein halbes Jahr zu lang",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bbsr.bund.de/BBSR/DE/forschung/programme/zb/Auftragsforschung/5-Planungsrecht/2019/baugenehmigungsverfahren/01-start.html",
+      "url": "https://bdi.eu/artikel/news/planungs-und-genehmigungsverfahren-dauern-im-schnitt-ein-halbes-jahr-zu-lang",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -14866,7 +14956,7 @@
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_koalitionspl_ne_kindergeld_ohne_antrag_reform_soll_2027_kommen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14883,11 +14973,11 @@
       "source_id": "aussage_1",
       "target_id": "faktencheck_1",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_bundesregierung_kabinett_beschlie_t_unbefristete_g_ltigkeit_des_personalausweises_ab_70_jahren",
+      "target_id": "quelle_neuer_personalausweis_wer_ihn_k_nftig_nie_mehr_verl_ngern_muss",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14904,11 +14994,11 @@
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_bundesagentur_f_r_arbeit_kindergeld",
+      "target_id": "quelle_cdu_will_kindergeld_f_r_kinder_im_ausland_drastisch_k_rzen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14929,7 +15019,7 @@
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_cdu_nrw_missbrauch_von_sozialleistungen_entschlossener_bek_mpfen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14946,11 +15036,11 @@
       "source_id": "aussage_4",
       "target_id": "faktencheck_4",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_tagesschau_gabriel_warnt_vor_missbrauch_des_kindergelds_2016",
+      "target_id": "quelle_europ_ische_union_operative_haushaltssalden_der_mitgliedstaaten_im_eu_haushalt_im_jahr_2024_in_millionen_euro",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14971,7 +15061,7 @@
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_bundeshaushaltsplan_2023_einzelplan_17_bundesministerium_f_r_familie_senioren_frauen_und_jugend",
+      "target_id": "quelle_familienkasse_2025_wurden_rund_55_milliarden_euro_kindergeld_ausgezahlt_die_zeit",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14988,11 +15078,11 @@
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_drucksache_20_5670_antwort_der_bundesregierung_auf_kleine_anfrage_b_rokratieabbau_im_kindergeldverfahren",
+      "target_id": "quelle_familien_im_blick_die_bilanz_der_familienkasse_2025_bundesagentur_f_r_arbeit",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15013,7 +15103,7 @@
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_drucksache_20_5670_antwort_der_bundesregierung_auf_kleine_anfrage",
+      "target_id": "quelle_kein_spezifischer_beleg_zur_aussage_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15034,7 +15124,7 @@
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_keine_belastbare_quelle_verf_gbar",
+      "target_id": "quelle_kein_passender_beleg_in_der_liste",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15051,11 +15141,11 @@
       "source_id": "aussage_9",
       "target_id": "faktencheck_9",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_stellungnahme_des_normenkontrollrats_zum_gesetzentwurf_nkr_nr_5248",
+      "target_id": "quelle_dip_vorgang_jahresbericht_2025_des_nationalen_normenkontrollrates",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15076,7 +15166,7 @@
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_keine_belastbare_quelle_verf_gbar",
+      "target_id": "quelle_eurokurs_eur_chf_euro_franken_wechselkurs_aktueller_kurs_finanzen_ch",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15093,11 +15183,11 @@
       "source_id": "aussage_11",
       "target_id": "faktencheck_11",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_brandstifter_unterwegs_osteurop_ische_saisonarbeiter_in_der_druckerpresse_der_stimmungsmache_kurz_vor_den_europawahlen_und_die_zahlen_werden_gebogen_bis_sie_passen_aktuelle_sozialpolitik",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15118,7 +15208,7 @@
     },
     {
       "source_id": "faktencheck_12",
-      "target_id": "quelle_bundesagentur_f_r_arbeit_kindergeld_f_r_im_ausland_lebende_kinder_2022",
+      "target_id": "quelle_rekord_berweisungen_deutschland_zahlt_528_millionen_euro_kindergeld_ins_ausland_gewinnermagazin_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15139,7 +15229,7 @@
     },
     {
       "source_id": "faktencheck_13",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_dip_vorgang_die_chance_nutzen_eine_indexierung_der_tarife_freibetr_ge_freigrenzen_pauschbetr_ge_und_pauschalen_im_einkommenssteuergesetz",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15160,7 +15250,7 @@
     },
     {
       "source_id": "faktencheck_14",
-      "target_id": "quelle_richtlinie_2003_88_eg_des_europ_ischen_parlaments_und_des_rates_vom_4_november_2003_ber_bestimmte_aspekte_der_arbeitszeitgestaltung",
+      "target_id": "quelle_faqs_zur_arbeitszeit_wko",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15181,7 +15271,7 @@
     },
     {
       "source_id": "faktencheck_15",
-      "target_id": "quelle_richtlinie_2003_88_eg_des_europ_ischen_parlaments_und_des_rates_vom_4_november_2003_ber_bestimmte_aspekte_der_arbeitszeitgestaltung",
+      "target_id": "quelle_richtlinie_2006_118_eg_zum_schutz_des_grundwassers_vor_verschlechterung_und_verschmutzung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15202,7 +15292,7 @@
     },
     {
       "source_id": "faktencheck_16",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_dip_vorgang_zeitplan_zur_abschaffung_der_t_glichen_h_chstarbeitszeit",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15223,7 +15313,7 @@
     },
     {
       "source_id": "faktencheck_17",
-      "target_id": "quelle_richtlinie_2003_88_eg_des_europ_ischen_parlaments_und_des_rates_vom_4_november_2003_ber_bestimmte_aspekte_der_arbeitszeitgestaltung",
+      "target_id": "quelle_dip_vorgang_ausnahmeregelungen_bez_glich_der_eu_arbeitszeitrichtlinie_f_r_das_personal_von_zivilbesetzten_schiffen_der_bundeswehr",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15240,11 +15330,11 @@
       "source_id": "aussage_18",
       "target_id": "faktencheck_18",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_18",
-      "target_id": "quelle_eu_kommission_arbeitszeitrichtlinie_umsetzung_in_den_mitgliedstaaten",
+      "target_id": "quelle_nicht_alle_l_nder_kennen_t_gliche_h_chstarbeitszeit_wirtschaftspolitik_derstandard_at",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15265,7 +15355,7 @@
     },
     {
       "source_id": "faktencheck_19",
-      "target_id": "quelle_ard_deutschlandtrend_beispiel_januar_2024",
+      "target_id": "quelle_krisenstimmung_mehrheit_der_deutschen_ist_unzufrieden_mit_der_lage_im_land_nicht_aber_mit_der_eigenen_welt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15282,11 +15372,11 @@
       "source_id": "aussage_20",
       "target_id": "faktencheck_20",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_20",
-      "target_id": "quelle_koalitionsvertrag_2021_2025_zwischen_spd_b_ndnis_90_die_gr_nen_und_fdp",
+      "target_id": "quelle_begruendung_fuer_gestaffeltes_fixum_pz_pharmazeutische_zeitung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15303,11 +15393,11 @@
       "source_id": "aussage_21",
       "target_id": "faktencheck_21",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_21",
-      "target_id": "quelle_bundestags_drucksache_20_8050_entwurf_eines_gesetzes_zur_weiterentwicklung_der_apothekenversorgung",
+      "target_id": "quelle_wann_kommt_das_fixum_apotheke_adhoc",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15328,7 +15418,7 @@
     },
     {
       "source_id": "faktencheck_22",
-      "target_id": "quelle_bundestags_drucksache_20_8050_entwurf_eines_gesetzes_zur_weiterentwicklung_der_apothekenversorgung",
+      "target_id": "quelle_bundeskabinett_beschlie_t_apothekenreform_gelbe_liste",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15345,11 +15435,11 @@
       "source_id": "aussage_23",
       "target_id": "faktencheck_23",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_23",
-      "target_id": "quelle_bundestags_drucksache_20_8050_entwurf_eines_gesetzes_zur_weiterentwicklung_der_apothekenversorgung",
+      "target_id": "quelle_neue_regelungen_durch_albvvg_wann_sind_null_retaxierungen_noch_erlaubt_deutschesapothekenportal",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15366,11 +15456,11 @@
       "source_id": "aussage_24",
       "target_id": "faktencheck_24",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_24",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_pharmazeutische_dienstleistungen_nur_bruchteil_der_finanzmittel_ausgesch_ttet_deutsches_rzteblatt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15391,17 +15481,17 @@
     },
     {
       "source_id": "faktencheck_25",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_wo_wird_pharmazie_studiert_deutsche_apotheker_zeitung",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_christoph_birghan",
+      "source_id": "person_dr_wolfgang_stefinger",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_26",
-      "target_id": "top_3",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -15412,7 +15502,7 @@
     },
     {
       "source_id": "faktencheck_26",
-      "target_id": "quelle_bundesregierung_entwurf_eines_gesetzes_zur_st_rkung_der_apotheken_vor_ort_apothekenst_rkungsgesetz",
+      "target_id": "quelle_deutscher_bundestag_zwei_milliarden_euro_f_r_ern_hrungssicherung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15433,11 +15523,11 @@
     },
     {
       "source_id": "faktencheck_27",
-      "target_id": "quelle_bundeshaushaltsplan_2023_einzelplan_23",
+      "target_id": "quelle_deutscher_bundestag_k_rzungen_im_etat_f_r_wirtschaftliche_zusammen_arbeit_und_entwicklung",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_wolfgang_stefinger",
+      "source_id": "person_johannes_volkmann",
       "target_id": "aussage_28",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -15450,11 +15540,11 @@
       "source_id": "aussage_28",
       "target_id": "faktencheck_28",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_28",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_was_ist_hunger_aktion_gegen_den_hunger",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15471,11 +15561,11 @@
       "source_id": "aussage_29",
       "target_id": "faktencheck_29",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_29",
-      "target_id": "quelle_fao_ifad_unicef_wfp_and_who_2023_the_state_of_food_security_and_nutrition_in_the_world_2023",
+      "target_id": "quelle_landwirtschaft_k_mpft_mit_hohen_d_ngemittelpreisen_mdr_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15492,11 +15582,11 @@
       "source_id": "aussage_30",
       "target_id": "faktencheck_30",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_30",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_b_ndnis_f_r_globale_ern_hrungssicherheit_bmz",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15513,11 +15603,11 @@
       "source_id": "aussage_31",
       "target_id": "faktencheck_31",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_31",
-      "target_id": "quelle_bundeshaushaltsplan_2023_einzelplan_23_bundesministerium_f_r_wirtschaftliche_zusammenarbeit_und_entwicklung",
+      "target_id": "quelle_leben_ohne_hunger_transformation_der_agrar_und_ern_hrungssysteme_bmz",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15538,28 +15628,28 @@
     },
     {
       "source_id": "faktencheck_32",
-      "target_id": "quelle_projektliste_der_giz_gesellschaft_f_r_internationale_zusammenarbeit",
+      "target_id": "quelle_d_rre_und_hunger_in_kenia_welthungerhilfe",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_johannes_volkmann",
+      "source_id": "person_bastian_ernst",
       "target_id": "aussage_33",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_33",
-      "target_id": "top_4",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_33",
       "target_id": "faktencheck_33",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_33",
-      "target_id": "quelle_ipc_acute_food_insecurity_analysis_kenya_october_2023_january_2024",
+      "target_id": "quelle_atomwaffenvertrag_russland_kritisiert_usa_wegen_ausbleibender_verl_ngerung_der_spiegel",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15576,11 +15666,11 @@
       "source_id": "aussage_34",
       "target_id": "faktencheck_34",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_34",
-      "target_id": "quelle_sipri_yearbook_2023_armaments_disarmament_and_international_security",
+      "target_id": "quelle_new_start_ist_am_ende_chinas_atomwaffen_arsenal_w_chst_rasant_und_befeuert_noch_das_wettr_sten_ntv_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15597,11 +15687,11 @@
       "source_id": "aussage_35",
       "target_id": "faktencheck_35",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_35",
-      "target_id": "quelle_bundesregierung_aktueller_stand_zu_new_start",
+      "target_id": "quelle_5000_kilometer_reichweite_atomwaffenf_hig_das_kann_putins_hyperschallrakete_oreschnik_focus_online",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15622,7 +15712,7 @@
     },
     {
       "source_id": "faktencheck_36",
-      "target_id": "quelle_bundeswehr_informationen_zur_stationierung_russischer_nuklearwaffen_in_belarus",
+      "target_id": "quelle_russland_testet_sarmat_interkontinentalrakete_laut_wladimir_putin_erfolgreich_der_spiegel",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15639,11 +15729,11 @@
       "source_id": "aussage_37",
       "target_id": "faktencheck_37",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_37",
-      "target_id": "quelle_united_nations_office_for_disarmament_affairs_missile_tests",
+      "target_id": "quelle_russland_setzt_laut_geheimdiensten_vermehrt_verbotene_chemiewaffen_ein_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15660,15 +15750,15 @@
       "source_id": "aussage_38",
       "target_id": "faktencheck_38",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_38",
-      "target_id": "quelle_ovcw_reports_on_allegations_of_chemical_weapons_use",
+      "target_id": "quelle_nawalny_und_das_gift_was_ist_nowitschok_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_bastian_ernst",
+      "source_id": "person_bettina_lugk",
       "target_id": "aussage_39",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -15681,11 +15771,11 @@
       "source_id": "aussage_39",
       "target_id": "faktencheck_39",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_39",
-      "target_id": "quelle_ovcw_confirmation_of_novichok_use_in_skripal_and_navalny_cases",
+      "target_id": "quelle_kein_spezifischer_beleg_f_r_die_aussage_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15706,28 +15796,28 @@
     },
     {
       "source_id": "faktencheck_40",
-      "target_id": "quelle_bundesnetzagentur_informationen_zu_nord_stream",
+      "target_id": "quelle_new_start_vertrag_l_uft_aus_das_ende_der_atomaren_r_stungskontrolle_telepolis",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_bettina_lugk",
+      "source_id": "person_j_rg_cezanne",
       "target_id": "aussage_41",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_41",
-      "target_id": "top_5",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_41",
       "target_id": "faktencheck_41",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_41",
-      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "target_id": "quelle_warum_die_ukraine_ein_kraftwerk_aus_lubmin_bekommt_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15744,11 +15834,11 @@
       "source_id": "aussage_42",
       "target_id": "faktencheck_42",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_42",
-      "target_id": "quelle_bundesnetzagentur_monitoringbericht_2022",
+      "target_id": "quelle_russia_s_nord_stream_2_natural_gas_pipeline_to_germany_halted",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15765,11 +15855,11 @@
       "source_id": "aussage_43",
       "target_id": "faktencheck_43",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_43",
-      "target_id": "quelle_bundesregierung_antwort_auf_eine_kleine_anfrage_drucksache_20_5060",
+      "target_id": "quelle_megawatt_begriffserkl_rung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15786,11 +15876,11 @@
       "source_id": "aussage_44",
       "target_id": "faktencheck_44",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_44",
-      "target_id": "quelle_bundesnetzagentur_kraftwerksliste",
+      "target_id": "quelle_russischer_berfall_auf_die_ukraine_seit_2022_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15807,11 +15897,11 @@
       "source_id": "aussage_45",
       "target_id": "faktencheck_45",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_45",
-      "target_id": "quelle_bundesregierung_ukraine_krieg_chronologie",
+      "target_id": "quelle_russischer_berfall_auf_die_ukraine_seit_2022_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15828,32 +15918,32 @@
       "source_id": "aussage_46",
       "target_id": "faktencheck_46",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "falsch"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_46",
-      "target_id": "quelle_tagerechner_zeit_seit_kriegsbeginn_2022",
+      "target_id": "quelle_kein_passender_beleg_f_r_die_konkrete_aussage",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_j_rg_cezanne",
+      "source_id": "person_olaf_hilmer",
       "target_id": "aussage_47",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_47",
-      "target_id": "top_6",
+      "target_id": "top_7",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_47",
       "target_id": "faktencheck_47",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "falsch"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_47",
-      "target_id": "quelle_bundesnetzagentur_monitoringbericht_2022",
+      "target_id": "quelle_bev_lkerungsstand_amtliche_einwohnerzahl_deutschlands_statistisches_bundesamt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15870,11 +15960,11 @@
       "source_id": "aussage_48",
       "target_id": "faktencheck_48",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_48",
-      "target_id": "quelle_destatis_zuwanderung_nach_deutschland",
+      "target_id": "quelle_mietendeckel_in_berlin_top_oder_flop_taz_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15891,11 +15981,11 @@
       "source_id": "aussage_49",
       "target_id": "faktencheck_49",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_49",
-      "target_id": "quelle_diw_berlin_auswirkungen_des_mietendeckels",
+      "target_id": "quelle_berliner_mietendeckel_verfassungsgericht_und_landgericht_urteilten_welt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15912,11 +16002,11 @@
       "source_id": "aussage_50",
       "target_id": "faktencheck_50",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_50",
-      "target_id": "quelle_bundesverfassungsgericht_urteil_zum_mietendeckel",
+      "target_id": "quelle_kostenfallen_beim_hausbau_baukosten_im_griff_halten_news_immobilien",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -15933,32 +16023,11 @@
       "source_id": "aussage_51",
       "target_id": "faktencheck_51",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_51",
-      "target_id": "quelle_svr_jahresgutachten_2023",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_olaf_hilmer",
-      "target_id": "aussage_52",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_52",
-      "target_id": "top_7",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_52",
-      "target_id": "faktencheck_52",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
-    },
-    {
-      "source_id": "faktencheck_52",
-      "target_id": "quelle_bundesinstitut_f_r_bau_stadt_und_raumforschung_bbsr_bauen_und_wohnen",
+      "target_id": "quelle_planungs_und_genehmigungsverfahren_dauern_im_schnitt_ein_halbes_jahr_zu_lang",
       "relationship_type": "BELEGT_MIT"
     },
     {
