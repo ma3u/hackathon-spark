@@ -34,6 +34,7 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 | 11 | **YouTube-Gesamtmitschnitte** (Streams 79/81), Zeit-Deeplinks | ✅ | `--youtube`, `pipeline/subtitles.py` |
 | 12 | **Bundestag-Mediathek** — korrigierte Untertitel, sprecher-attribuiert, Video je Rede | ✅ | `pipeline/mediathek.py` |
 | 13 | **EIN offizieller Graph je Sitzung** = XML-Struktur + Mediathek-Video-Deeplink je Rede | ✅ | `session_ingest.ingest_official` |
+| 13b | **Mediathek-Deeplinks auf ALLE 81** (81/81 Sitzungen, 7388 Reden verlinkt) | ✅ | `scripts/mediathek_links.py` |
 | 14 | UI: Sitzungs-Auswahl (82) + Quellen-Umschalter 🟢 Offiziell / 🎬 YouTube, dynam. Legende | ✅ | `web/index.html` |
 | 15 | **Faktencheck mit variierten Verdikten** (In-Kontext-LLM-Extraktion) | ✅ | `session_ingest.llm_factcheck_official` |
 | 16 | Faktencheck-**Retrieval** (Brave-Websuche + DIP-API + Wikipedia) → Verdikt mit echter Quelle | ✅ | `factcheck.factcheck_with_retrieval` (`--retrieval`) — 78–81 grounded, echte Quellen |
@@ -80,7 +81,8 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
    saubere sitzungsübergreifende Abfragen.
 3. ⬜ **YouTube Data API Key** → `youtube_clips` für Sitzungen ohne Gesamt-Stream;
    die 42 YouTube-bestätigten Sitzungen als 🎬-Quelle ingestieren.
-4. ⬜ **Mediathek-Video-Deeplinks auf alle 81** ausweiten (aktuell Showcase 70–81).
+4. ✅ ~~Mediathek-Video-Deeplinks auf alle 81~~ — **erledigt** (`scripts/mediathek_links.py`):
+   81/81 Sitzungen mit 📺 Mediathek-Deeplink, 7388 Reden sprecher-genau verlinkt (Neo4j + Pages).
 5. ⬜ Mensch-im-Loop-Korrektur-/Freigabeprozess (M4), Barrierefreiheit-Audit.
 6. ⬜ WER/DER-Benchmark gegen mehr Sitzungen; Gap-Report in der UI ausbauen.
 7. ⬜ CI: `actions/*@v4` → Node-24-fähige Versionen (GitHub erzwingt Node 24 ab 16.06.2026).
