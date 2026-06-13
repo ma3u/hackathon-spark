@@ -176,14 +176,20 @@
             (c.getContext("webgl") || c.getContext("experimental-webgl")));
         } catch { return false; }
       }
-      function zeigeGraphFallback() {
-        $("graph").innerHTML = `<div class="glfail"><div class="inner">
-          🕸️ <b>3D-Graph nicht verfügbar</b> — WebGL ist in diesem Browser deaktiviert.<br/><br/>
-          Hardware-Beschleunigung aktivieren: <code>chrome://settings</code> → System →
-          „Hardwarebeschleunigung verwenden, wenn verfügbar" → neu laden.
-          Status prüfen unter <code>chrome://gpu</code>.<br/><br/>
-          <span class="muted">📊 Dashboard und ♿ Vorlesefassung funktionieren ohne WebGL.</span>
-        </div></div>`;
+      function zeigeGraphFallback(grund) {
+        const lost = grund === "lost";
+        const ursache = lost
+          ? "der WebGL-Kontext ist verloren gegangen (GPU-Prozess abgestürzt/zurückgesetzt)."
+          : "WebGL ist in diesem Browser deaktiviert.";
+        const hilfe = lost ? ""
+          : "Hardware-Beschleunigung aktivieren: <code>chrome://settings</code> &rarr; System &rarr; "
+            + "Hardwarebeschleunigung &rarr; neu laden. Status: <code>chrome://gpu</code>.<br/><br/>";
+        $("graph").innerHTML = '<div class="glfail"><div class="inner">'
+          + "🕸️ <b>3D-Graph nicht verfügbar</b> — " + ursache + "<br/><br/>"
+          + hilfe
+          + '<button class="tab" onclick="location.reload()" style="margin-bottom:12px">🔄 Seite neu laden</button><br/>'
+          + '<span class="muted">📊 Dashboard und ♿ Protokoll funktionieren auch ohne WebGL.</span>'
+          + "</div></div>";
       }
       function initGraph() {
         if (!webglVerfuegbar()) { zeigeGraphFallback(); return; }
@@ -203,6 +209,15 @@
             .linkLabel((l) => l.relationship_type)
             .onNodeClick(showNode);
           requestAnimationFrame(sizeGraph);  // Canvas auf die Container-Breite zwingen
+          // GPU-Kontextverlust (z. B. abgestürzter GPU-Prozess) abfangen → Fallback statt
+          // leerer/„kaputter" Canvas. Nach einem Frame prüfen, ob wirklich gerendert wird.
+          requestAnimationFrame(() => {
+            const cv = $("graph").querySelector("canvas");
+            if (!cv) { Graph = null; zeigeGraphFallback(); return; }
+            cv.addEventListener("webglcontextlost", (ev) => {
+              ev.preventDefault(); Graph = null; zeigeGraphFallback("lost");
+            }, { once: true });
+          });
         } catch (e) {
           Graph = null;
           zeigeGraphFallback();
@@ -378,10 +393,16 @@
         return "";
       }
 
+      // Daten immer frisch laden (kein Stale-Cache → keine Auswahl/Anzeige-Diskrepanz).
+      const dataUrl = (f) => `./data/${f}?v=${Date.now()}`;
       async function load(scenario) {
         current = scenario;
         let data;
-        try { data = await (await fetch(`./data/${scenario}.json`)).json(); }
+        try {
+          const r = await fetch(dataUrl(`${scenario}.json`));
+          if (!r.ok) throw new Error(r.status);
+          data = await r.json();
+        }
         catch {
           // Amtliche Sitzungen liegen als Vollgraph nur in Neo4j (zu groß für Pages) —
           // Quelle + Kennzahlen aus dem Index zeigen, Graph leeren.
@@ -421,7 +442,7 @@
       async function loadDash(scenario) {
         const box = $("dash");
         let d;
-        try { d = await (await fetch(`./data/${scenario}_dashboard.json`)).json(); }
+        try { d = await (await fetch(dataUrl(`${scenario}_dashboard.json`))).json(); }
         catch { box.innerHTML = card("Dashboard", "Für dieses Szenario liegen keine Kennzahlen vor."); return; }
         const k = d.kennzahlen;
         const fmtTime = (min) => min ? `${Math.floor(min / 60)}h ${min % 60}m` : "—";
@@ -603,7 +624,7 @@
 
       // Reale Sitzungen aus dem Index in den Auswahlknopf füllen + neueste laden.
       async function loadSessions() {
-        try { const idx = await (await fetch("./data/sessions.json")).json(); SESSIONS = idx.sessions || []; }
+        try { const idx = await (await fetch(`./data/sessions.json?v=${Date.now()}`)).json(); SESSIONS = idx.sessions || []; }
         catch { SESSIONS = []; }
         const sel = $("sessions");
         if (!SESSIONS.length) { sel.style.display = "none"; return; }
