@@ -37,7 +37,7 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 | 13b | **Mediathek-Deeplinks auf ALLE 81** (81/81 Sitzungen, 7388 Reden verlinkt) | ✅ | `scripts/mediathek_links.py` |
 | 14 | UI: Sitzungs-Auswahl (82) + Quellen-Umschalter 🟢 Offiziell / 🎬 YouTube, dynam. Legende | ✅ | `web/index.html` |
 | 15 | **Faktencheck mit variierten Verdikten** (In-Kontext-LLM-Extraktion) | ✅ | `session_ingest.llm_factcheck_official` |
-| 16 | Faktencheck-**Retrieval** (Brave-Websuche + DIP-API + Wikipedia) → Verdikt mit echter Quelle | ✅ | `factcheck.factcheck_with_retrieval` (`--retrieval`) — 78–81 grounded, echte Quellen |
+| 16 | Faktencheck-**Retrieval** (Brave-Websuche + DIP-API + Wikipedia) → Verdikt mit echter Quelle | ✅ | `factcheck.factcheck_with_retrieval` (`--retrieval`) — **70–81 grounded**, echte Quellen |
 | 17 | Embeddings/Vektor-Index (Azure text-embedding-3-large) | ✅ | `scripts/vector_search.py` |
 | 18 | E2E-Tests gegen reale Neo4j-Daten | ✅ | `tests/` |
 | 19 | YouTube-Clips (`/videos`) als Quelle für Sitzungen ohne Stream | ⬜ | braucht **YouTube Data API Key** (`pipeline/youtube_clips.py`) |
@@ -76,8 +76,8 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 
 ## 5. Nächste konkrete Schritte
 
-1. ✅ ~~Belastbare Faktencheck-Verdikte~~ — **erledigt** via Brave-Websuche (78–81 grounded).
-   Optional: Grounding auf restliche Showcase (70–77) + alle 81 ausweiten.
+1. ✅ ~~Belastbare Faktencheck-Verdikte~~ — **erledigt** via Brave-Websuche (**ganze Showcase 70–81 grounded**).
+   Optional: Grounding auf alle 81 ausweiten (Brave-Free-Plan-Limit beachten).
 2. ✅ ~~Entity-Resolution für `Person`~~ — **erledigt** (`scripts/entity_resolution.py`):
    682→671 Knoten, Anrede/Titel/NBSP-Dubletten gemerged, Quelle gefixt. Optional: DIP-Personen-IDs.
 3. ⬜ **YouTube Data API Key** → `youtube_clips` für Sitzungen ohne Gesamt-Stream;
