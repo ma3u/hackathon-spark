@@ -314,6 +314,12 @@ def write_index(st, *, wp) -> None:
             if amt.get("has_graph"):  # strukturgraph + Protokoll-HTML auf Pages vorhanden
                 a["graph"] = f"amt_{wp_}_{nr:03d}.json"
                 a["protokoll"] = f"amt_{wp_}_{nr:03d}_protokoll.html"
+            # Mediathek-Deeplink je Sitzung (für ALLE, auch ohne committeten Graphen):
+            # Sitzungs-Einstieg (erster Clip) + Trefferzahl der reden-genauen Verlinkung.
+            if amt.get("mediathek_url"):
+                a["mediathek"] = amt["mediathek_url"]
+                a["mediathek_clips"] = amt.get("mediathek_clips", 0)
+            if amt.get("has_graph") or amt.get("mediathek_url"):
                 a["mediathek_verlinkt"] = amt.get("mediathek_verlinkt", 0)
             entry["amtlich"] = a
         if gap:

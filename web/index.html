@@ -226,6 +226,9 @@
         else if (src && src.mediathek) links.push(`<a href="${src.mediathek}" target="_blank" rel="noopener">Mediathek</a>`);
         if (src && src.pdf) links.push(`<a href="${src.pdf}" target="_blank" rel="noopener">amtliches PDF</a>`);
         if (src && src.xml) links.push(`<a href="${src.xml}" target="_blank" rel="noopener">amtl. XML</a>`);
+        // Mediathek-Video je Sitzung (auch ohne committeten Graphen verfügbar) — Sitzungseinstieg.
+        if (e && e.amtlich && e.amtlich.mediathek)
+          links.push(`<a href="${e.amtlich.mediathek}" target="_blank" rel="noopener">📺 Mediathek (Video${e.amtlich.mediathek_verlinkt ? ", " + e.amtlich.mediathek_verlinkt + " Reden verlinkt" : ""})</a>`);
         const prot = curSrc === "yt" ? (e && e.youtube && e.youtube.protokoll)
                                      : (e && e.amtlich && e.amtlich.protokoll);
         if (prot) links.push(`<a href="./data/${prot}" target="_blank" rel="noopener">📄 Protokoll (HTML)</a>`);

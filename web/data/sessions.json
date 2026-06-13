@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T06:00:14Z",
+  "generated": "2026-06-13T08:17:35Z",
   "wahlperiode": "21",
   "count": 82,
   "sessions": [
@@ -38,6 +38,8 @@
         "nodes": 1319,
         "graph": "amt_21_081.json",
         "protokoll": "amt_21_081_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7653686",
+        "mediathek_clips": 104,
         "mediathek_verlinkt": 85
       },
       "gap": {
@@ -57,6 +59,8 @@
         "nodes": 2143,
         "graph": "amt_21_080.json",
         "protokoll": "amt_21_080_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7653355",
+        "mediathek_clips": 223,
         "mediathek_verlinkt": 151
       }
     },
@@ -80,6 +84,8 @@
         "nodes": 1259,
         "graph": "amt_21_079.json",
         "protokoll": "amt_21_079_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7653265",
+        "mediathek_clips": 74,
         "mediathek_verlinkt": 52
       },
       "gap": {
@@ -99,6 +105,8 @@
         "nodes": 1200,
         "graph": "amt_21_078.json",
         "protokoll": "amt_21_078_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7653121",
+        "mediathek_clips": 98,
         "mediathek_verlinkt": 78
       }
     },
@@ -114,6 +122,8 @@
         "nodes": 2113,
         "graph": "amt_21_077.json",
         "protokoll": "amt_21_077_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7652884",
+        "mediathek_clips": 209,
         "mediathek_verlinkt": 170
       }
     },
@@ -129,6 +139,8 @@
         "nodes": 1247,
         "graph": "amt_21_076.json",
         "protokoll": "amt_21_076_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7652704",
+        "mediathek_clips": 68,
         "mediathek_verlinkt": 49
       }
     },
@@ -144,6 +156,8 @@
         "nodes": 1175,
         "graph": "amt_21_075.json",
         "protokoll": "amt_21_075_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7652430",
+        "mediathek_clips": 99,
         "mediathek_verlinkt": 77
       }
     },
@@ -159,6 +173,8 @@
         "nodes": 2060,
         "graph": "amt_21_074.json",
         "protokoll": "amt_21_074_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7652156",
+        "mediathek_clips": 185,
         "mediathek_verlinkt": 148
       }
     },
@@ -174,6 +190,8 @@
         "nodes": 1102,
         "graph": "amt_21_073.json",
         "protokoll": "amt_21_073_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7651975",
+        "mediathek_clips": 61,
         "mediathek_verlinkt": 39
       }
     },
@@ -189,6 +207,8 @@
         "nodes": 790,
         "graph": "amt_21_072.json",
         "protokoll": "amt_21_072_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7651749",
+        "mediathek_clips": 75,
         "mediathek_verlinkt": 61
       }
     },
@@ -204,6 +224,8 @@
         "nodes": 1904,
         "graph": "amt_21_071.json",
         "protokoll": "amt_21_071_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7651544",
+        "mediathek_clips": 164,
         "mediathek_verlinkt": 136
       }
     },
@@ -219,6 +241,8 @@
         "nodes": 1070,
         "graph": "amt_21_070.json",
         "protokoll": "amt_21_070_protokoll.html",
+        "mediathek": "https://dbtg.tv/fvid/7651341",
+        "mediathek_clips": 66,
         "mediathek_verlinkt": 45
       }
     },
@@ -231,7 +255,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21069.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21069.xml",
         "dashboard": "amt_21_069_dashboard.json",
-        "nodes": 1434
+        "nodes": 1434,
+        "mediathek": "https://dbtg.tv/fvid/7651192",
+        "mediathek_clips": 100,
+        "mediathek_verlinkt": 84
       }
     },
     {
@@ -243,7 +270,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21068.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21068.xml",
         "dashboard": "amt_21_068_dashboard.json",
-        "nodes": 2518
+        "nodes": 2518,
+        "mediathek": "https://dbtg.tv/fvid/7650929",
+        "mediathek_clips": 233,
+        "mediathek_verlinkt": 164
       }
     },
     {
@@ -255,7 +285,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21067.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21067.xml",
         "dashboard": "amt_21_067_dashboard.json",
-        "nodes": 1021
+        "nodes": 1021,
+        "mediathek": "https://dbtg.tv/fvid/7650830",
+        "mediathek_clips": 75,
+        "mediathek_verlinkt": 47
       }
     },
     {
@@ -267,7 +300,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21066.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21066.xml",
         "dashboard": "amt_21_066_dashboard.json",
-        "nodes": 1280
+        "nodes": 1280,
+        "mediathek": "https://dbtg.tv/fvid/7650600",
+        "mediathek_clips": 99,
+        "mediathek_verlinkt": 83
       }
     },
     {
@@ -279,7 +315,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21065.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21065.xml",
         "dashboard": "amt_21_065_dashboard.json",
-        "nodes": 2749
+        "nodes": 2749,
+        "mediathek": "https://dbtg.tv/fvid/7650212",
+        "mediathek_clips": 219,
+        "mediathek_verlinkt": 165
       }
     },
     {
@@ -291,7 +330,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21064.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21064.xml",
         "dashboard": "amt_21_064_dashboard.json",
-        "nodes": 1491
+        "nodes": 1491,
+        "mediathek": "https://dbtg.tv/fvid/7650126",
+        "mediathek_clips": 68,
+        "mediathek_verlinkt": 45
       }
     },
     {
@@ -303,7 +345,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21063.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21063.xml",
         "dashboard": "amt_21_063_dashboard.json",
-        "nodes": 1096
+        "nodes": 1096,
+        "mediathek": "https://dbtg.tv/fvid/7649823",
+        "mediathek_clips": 86,
+        "mediathek_verlinkt": 72
       }
     },
     {
@@ -315,7 +360,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21062.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21062.xml",
         "dashboard": "amt_21_062_dashboard.json",
-        "nodes": 2511
+        "nodes": 2511,
+        "mediathek": "https://dbtg.tv/fvid/7649598",
+        "mediathek_clips": 199,
+        "mediathek_verlinkt": 162
       }
     },
     {
@@ -327,7 +375,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21061.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21061.xml",
         "dashboard": "amt_21_061_dashboard.json",
-        "nodes": 1137
+        "nodes": 1137,
+        "mediathek": "https://dbtg.tv/fvid/7649520",
+        "mediathek_clips": 65,
+        "mediathek_verlinkt": 41
       }
     },
     {
@@ -339,7 +390,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21060.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21060.xml",
         "dashboard": "amt_21_060_dashboard.json",
-        "nodes": 1422
+        "nodes": 1422,
+        "mediathek": "https://dbtg.tv/fvid/7649388",
+        "mediathek_clips": 105,
+        "mediathek_verlinkt": 85
       }
     },
     {
@@ -351,7 +405,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21059.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21059.xml",
         "dashboard": "amt_21_059_dashboard.json",
-        "nodes": 2620
+        "nodes": 2620,
+        "mediathek": "https://dbtg.tv/fvid/7649101",
+        "mediathek_clips": 246,
+        "mediathek_verlinkt": 165
       }
     },
     {
@@ -363,7 +420,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21058.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21058.xml",
         "dashboard": "amt_21_058_dashboard.json",
-        "nodes": 1221
+        "nodes": 1221,
+        "mediathek": "https://dbtg.tv/fvid/7649007",
+        "mediathek_clips": 72,
+        "mediathek_verlinkt": 49
       }
     },
     {
@@ -375,7 +435,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21057.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21057.xml",
         "dashboard": "amt_21_057_dashboard.json",
-        "nodes": 1321
+        "nodes": 1321,
+        "mediathek": "https://dbtg.tv/fvid/7648551",
+        "mediathek_clips": 94,
+        "mediathek_verlinkt": 76
       }
     },
     {
@@ -387,7 +450,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21056.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21056.xml",
         "dashboard": "amt_21_056_dashboard.json",
-        "nodes": 2361
+        "nodes": 2361,
+        "mediathek": "https://dbtg.tv/fvid/7648194",
+        "mediathek_clips": 203,
+        "mediathek_verlinkt": 137
       }
     },
     {
@@ -399,7 +465,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21055.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21055.xml",
         "dashboard": "amt_21_055_dashboard.json",
-        "nodes": 1170
+        "nodes": 1170,
+        "mediathek": "https://dbtg.tv/fvid/7647855",
+        "mediathek_clips": 72,
+        "mediathek_verlinkt": 49
       }
     },
     {
@@ -411,7 +480,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21054.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21054.xml",
         "dashboard": "amt_21_054_dashboard.json",
-        "nodes": 1330
+        "nodes": 1330,
+        "mediathek": "https://dbtg.tv/fvid/7647667",
+        "mediathek_clips": 111,
+        "mediathek_verlinkt": 91
       }
     },
     {
@@ -423,7 +495,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21053.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21053.xml",
         "dashboard": "amt_21_053_dashboard.json",
-        "nodes": 2437
+        "nodes": 2437,
+        "mediathek": "https://dbtg.tv/fvid/7647406",
+        "mediathek_clips": 230,
+        "mediathek_verlinkt": 164
       }
     },
     {
@@ -435,7 +510,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21052.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21052.xml",
         "dashboard": "amt_21_052_dashboard.json",
-        "nodes": 1149
+        "nodes": 1149,
+        "mediathek": "https://dbtg.tv/fvid/7647324",
+        "mediathek_clips": 66,
+        "mediathek_verlinkt": 42
       }
     },
     {
@@ -447,7 +525,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21051.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21051.xml",
         "dashboard": "amt_21_051_dashboard.json",
-        "nodes": 1481
+        "nodes": 1481,
+        "mediathek": "https://dbtg.tv/fvid/7647156",
+        "mediathek_clips": 121,
+        "mediathek_verlinkt": 94
       }
     },
     {
@@ -459,7 +540,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21050.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21050.xml",
         "dashboard": "amt_21_050_dashboard.json",
-        "nodes": 2560
+        "nodes": 2560,
+        "mediathek": "https://dbtg.tv/fvid/7646877",
+        "mediathek_clips": 245,
+        "mediathek_verlinkt": 159
       }
     },
     {
@@ -471,7 +555,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21049.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21049.xml",
         "dashboard": "amt_21_049_dashboard.json",
-        "nodes": 1395
+        "nodes": 1395,
+        "mediathek": "https://dbtg.tv/fvid/7646775",
+        "mediathek_clips": 86,
+        "mediathek_verlinkt": 57
       }
     },
     {
@@ -483,7 +570,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21048.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21048.xml",
         "dashboard": "amt_21_048_dashboard.json",
-        "nodes": 1552
+        "nodes": 1552,
+        "mediathek": "https://dbtg.tv/fvid/7646076",
+        "mediathek_clips": 109,
+        "mediathek_verlinkt": 85
       }
     },
     {
@@ -495,7 +585,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21047.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21047.xml",
         "dashboard": "amt_21_047_dashboard.json",
-        "nodes": 2692
+        "nodes": 2692,
+        "mediathek": "https://dbtg.tv/fvid/7645806",
+        "mediathek_clips": 239,
+        "mediathek_verlinkt": 166
       }
     },
     {
@@ -507,7 +600,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21046.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21046.xml",
         "dashboard": "amt_21_046_dashboard.json",
-        "nodes": 1593
+        "nodes": 1593,
+        "mediathek": "https://dbtg.tv/fvid/7645704",
+        "mediathek_clips": 83,
+        "mediathek_verlinkt": 52
       }
     },
     {
@@ -519,7 +615,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21045.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21045.xml",
         "dashboard": "amt_21_045_dashboard.json",
-        "nodes": 1255
+        "nodes": 1255,
+        "mediathek": "https://dbtg.tv/fvid/7645586",
+        "mediathek_clips": 77,
+        "mediathek_verlinkt": 62
       }
     },
     {
@@ -531,7 +630,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21044.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21044.xml",
         "dashboard": "amt_21_044_dashboard.json",
-        "nodes": 2266
+        "nodes": 2266,
+        "mediathek": "https://dbtg.tv/fvid/7645425",
+        "mediathek_clips": 134,
+        "mediathek_verlinkt": 116
       }
     },
     {
@@ -543,7 +645,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21043.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21043.xml",
         "dashboard": "amt_21_043_dashboard.json",
-        "nodes": 2127
+        "nodes": 2127,
+        "mediathek": "https://dbtg.tv/fvid/7645300",
+        "mediathek_clips": 116,
+        "mediathek_verlinkt": 100
       }
     },
     {
@@ -555,7 +660,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21042.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21042.xml",
         "dashboard": "amt_21_042_dashboard.json",
-        "nodes": 1891
+        "nodes": 1891,
+        "mediathek": "https://dbtg.tv/fvid/7645055",
+        "mediathek_clips": 119,
+        "mediathek_verlinkt": 104
       }
     },
     {
@@ -567,7 +675,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21041.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21041.xml",
         "dashboard": "amt_21_041_dashboard.json",
-        "nodes": 1325
+        "nodes": 1325,
+        "mediathek": "https://dbtg.tv/fvid/7644918",
+        "mediathek_clips": 108,
+        "mediathek_verlinkt": 89
       }
     },
     {
@@ -579,7 +690,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21040.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21040.xml",
         "dashboard": "amt_21_040_dashboard.json",
-        "nodes": 2565
+        "nodes": 2565,
+        "mediathek": "https://dbtg.tv/fvid/7644272",
+        "mediathek_clips": 291,
+        "mediathek_verlinkt": 152
       }
     },
     {
@@ -591,7 +705,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21039.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21039.xml",
         "dashboard": "amt_21_039_dashboard.json",
-        "nodes": 1335
+        "nodes": 1335,
+        "mediathek": "https://dbtg.tv/fvid/7644109",
+        "mediathek_clips": 75,
+        "mediathek_verlinkt": 50
       }
     },
     {
@@ -603,7 +720,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21038.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21038.xml",
         "dashboard": "amt_21_038_dashboard.json",
-        "nodes": 1506
+        "nodes": 1506,
+        "mediathek": "https://dbtg.tv/fvid/7643939",
+        "mediathek_clips": 107,
+        "mediathek_verlinkt": 85
       }
     },
     {
@@ -615,7 +735,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21037.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21037.xml",
         "dashboard": "amt_21_037_dashboard.json",
-        "nodes": 2442
+        "nodes": 2442,
+        "mediathek": "https://dbtg.tv/fvid/7643638",
+        "mediathek_clips": 247,
+        "mediathek_verlinkt": 143
       }
     },
     {
@@ -627,7 +750,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21036.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21036.xml",
         "dashboard": "amt_21_036_dashboard.json",
-        "nodes": 1369
+        "nodes": 1369,
+        "mediathek": "https://dbtg.tv/fvid/7643524",
+        "mediathek_clips": 91,
+        "mediathek_verlinkt": 65
       }
     },
     {
@@ -639,7 +765,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21035.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21035.xml",
         "dashboard": "amt_21_035_dashboard.json",
-        "nodes": 1275
+        "nodes": 1275,
+        "mediathek": "https://dbtg.tv/fvid/7637869",
+        "mediathek_clips": 100,
+        "mediathek_verlinkt": 83
       }
     },
     {
@@ -651,7 +780,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21034.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21034.xml",
         "dashboard": "amt_21_034_dashboard.json",
-        "nodes": 2528
+        "nodes": 2528,
+        "mediathek": "https://dbtg.tv/fvid/7637486",
+        "mediathek_clips": 229,
+        "mediathek_verlinkt": 134
       }
     },
     {
@@ -663,7 +795,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21033.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21033.xml",
         "dashboard": "amt_21_033_dashboard.json",
-        "nodes": 1294
+        "nodes": 1294,
+        "mediathek": "https://dbtg.tv/fvid/7637381",
+        "mediathek_clips": 78,
+        "mediathek_verlinkt": 52
       }
     },
     {
@@ -675,7 +810,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21032.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21032.xml",
         "dashboard": "amt_21_032_dashboard.json",
-        "nodes": 1384
+        "nodes": 1384,
+        "mediathek": "https://dbtg.tv/fvid/7637250",
+        "mediathek_clips": 101,
+        "mediathek_verlinkt": 79
       }
     },
     {
@@ -687,7 +825,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21031.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21031.xml",
         "dashboard": "amt_21_031_dashboard.json",
-        "nodes": 2597
+        "nodes": 2597,
+        "mediathek": "https://dbtg.tv/fvid/7636808",
+        "mediathek_clips": 260,
+        "mediathek_verlinkt": 151
       }
     },
     {
@@ -699,7 +840,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21030.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21030.xml",
         "dashboard": "amt_21_030_dashboard.json",
-        "nodes": 1387
+        "nodes": 1387,
+        "mediathek": "https://dbtg.tv/fvid/7636512",
+        "mediathek_clips": 73,
+        "mediathek_verlinkt": 48
       }
     },
     {
@@ -711,7 +855,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21029.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21029.xml",
         "dashboard": "amt_21_029_dashboard.json",
-        "nodes": 1210
+        "nodes": 1210,
+        "mediathek": "https://dbtg.tv/fvid/7636417",
+        "mediathek_clips": 71,
+        "mediathek_verlinkt": 60
       }
     },
     {
@@ -723,7 +870,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21028.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21028.xml",
         "dashboard": "amt_21_028_dashboard.json",
-        "nodes": 2182
+        "nodes": 2182,
+        "mediathek": "https://dbtg.tv/fvid/7636266",
+        "mediathek_clips": 136,
+        "mediathek_verlinkt": 112
       }
     },
     {
@@ -735,7 +885,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21027.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21027.xml",
         "dashboard": "amt_21_027_dashboard.json",
-        "nodes": 1963
+        "nodes": 1963,
+        "mediathek": "https://dbtg.tv/fvid/7636153",
+        "mediathek_clips": 103,
+        "mediathek_verlinkt": 87
       }
     },
     {
@@ -747,7 +900,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21026.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21026.xml",
         "dashboard": "amt_21_026_dashboard.json",
-        "nodes": 2054
+        "nodes": 2054,
+        "mediathek": "https://dbtg.tv/fvid/7636013",
+        "mediathek_clips": 115,
+        "mediathek_verlinkt": 98
       }
     },
     {
@@ -759,7 +915,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21025.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21025.xml",
         "dashboard": "amt_21_025_dashboard.json",
-        "nodes": 1046
+        "nodes": 1046,
+        "mediathek": "https://dbtg.tv/fvid/7635930",
+        "mediathek_clips": 67,
+        "mediathek_verlinkt": 50
       }
     },
     {
@@ -771,7 +930,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21024.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21024.xml",
         "dashboard": "amt_21_024_dashboard.json",
-        "nodes": 2817
+        "nodes": 2817,
+        "mediathek": "https://dbtg.tv/fvid/7635749",
+        "mediathek_clips": 169,
+        "mediathek_verlinkt": 145
       }
     },
     {
@@ -783,7 +945,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21023.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21023.xml",
         "dashboard": "amt_21_023_dashboard.json",
-        "nodes": 2689
+        "nodes": 2689,
+        "mediathek": "https://dbtg.tv/fvid/7635564",
+        "mediathek_clips": 167,
+        "mediathek_verlinkt": 146
       }
     },
     {
@@ -795,7 +960,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21022.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21022.xml",
         "dashboard": "amt_21_022_dashboard.json",
-        "nodes": 1463
+        "nodes": 1463,
+        "mediathek": "https://dbtg.tv/fvid/7635439",
+        "mediathek_clips": 107,
+        "mediathek_verlinkt": 84
       }
     },
     {
@@ -807,7 +975,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21021.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21021.xml",
         "dashboard": "amt_21_021_dashboard.json",
-        "nodes": 2399
+        "nodes": 2399,
+        "mediathek": "https://dbtg.tv/fvid/7635042",
+        "mediathek_clips": 222,
+        "mediathek_verlinkt": 161
       }
     },
     {
@@ -819,7 +990,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21020.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21020.xml",
         "dashboard": "amt_21_020_dashboard.json",
-        "nodes": 1278
+        "nodes": 1278,
+        "mediathek": "https://dbtg.tv/fvid/7634905",
+        "mediathek_clips": 70,
+        "mediathek_verlinkt": 48
       }
     },
     {
@@ -831,7 +1005,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21019.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21019.xml",
         "dashboard": "amt_21_019_dashboard.json",
-        "nodes": 1021
+        "nodes": 1021,
+        "mediathek": "https://dbtg.tv/fvid/7634404",
+        "mediathek_clips": 62,
+        "mediathek_verlinkt": 53
       }
     },
     {
@@ -843,7 +1020,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21018.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21018.xml",
         "dashboard": "amt_21_018_dashboard.json",
-        "nodes": 2594
+        "nodes": 2594,
+        "mediathek": "https://dbtg.tv/fvid/7634076",
+        "mediathek_clips": 183,
+        "mediathek_verlinkt": 153
       }
     },
     {
@@ -855,7 +1035,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21017.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21017.xml",
         "dashboard": "amt_21_017_dashboard.json",
-        "nodes": 2246
+        "nodes": 2246,
+        "mediathek": "https://dbtg.tv/fvid/7633962",
+        "mediathek_clips": 104,
+        "mediathek_verlinkt": 92
       }
     },
     {
@@ -867,7 +1050,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21016.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21016.xml",
         "dashboard": "amt_21_016_dashboard.json",
-        "nodes": 2533
+        "nodes": 2533,
+        "mediathek": "https://dbtg.tv/fvid/7633806",
+        "mediathek_clips": 145,
+        "mediathek_verlinkt": 126
       }
     },
     {
@@ -879,7 +1065,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21015.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21015.xml",
         "dashboard": "amt_21_015_dashboard.json",
-        "nodes": 1240
+        "nodes": 1240,
+        "mediathek": "https://dbtg.tv/fvid/7633373",
+        "mediathek_clips": 92,
+        "mediathek_verlinkt": 70
       }
     },
     {
@@ -891,7 +1080,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21014.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21014.xml",
         "dashboard": "amt_21_014_dashboard.json",
-        "nodes": 2357
+        "nodes": 2357,
+        "mediathek": "https://dbtg.tv/fvid/7633074",
+        "mediathek_clips": 260,
+        "mediathek_verlinkt": 147
       }
     },
     {
@@ -903,7 +1095,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21013.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21013.xml",
         "dashboard": "amt_21_013_dashboard.json",
-        "nodes": 1279
+        "nodes": 1279,
+        "mediathek": "https://dbtg.tv/fvid/7632980",
+        "mediathek_clips": 80,
+        "mediathek_verlinkt": 47
       }
     },
     {
@@ -915,7 +1110,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21012.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21012.xml",
         "dashboard": "amt_21_012_dashboard.json",
-        "nodes": 313
+        "nodes": 313,
+        "mediathek": "https://dbtg.tv/fvid/7632844",
+        "mediathek_clips": 22,
+        "mediathek_verlinkt": 16
       }
     },
     {
@@ -927,7 +1125,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21011.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21011.xml",
         "dashboard": "amt_21_011_dashboard.json",
-        "nodes": 1309
+        "nodes": 1309,
+        "mediathek": "https://dbtg.tv/fvid/7632494",
+        "mediathek_clips": 84,
+        "mediathek_verlinkt": 66
       }
     },
     {
@@ -939,7 +1140,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21010.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21010.xml",
         "dashboard": "amt_21_010_dashboard.json",
-        "nodes": 2586
+        "nodes": 2586,
+        "mediathek": "https://dbtg.tv/fvid/7632152",
+        "mediathek_clips": 192,
+        "mediathek_verlinkt": 150
       }
     },
     {
@@ -951,7 +1155,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21009.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21009.xml",
         "dashboard": "amt_21_009_dashboard.json",
-        "nodes": 1131
+        "nodes": 1131,
+        "mediathek": "https://dbtg.tv/fvid/7632079",
+        "mediathek_clips": 63,
+        "mediathek_verlinkt": 39
       }
     },
     {
@@ -963,7 +1170,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21008.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21008.xml",
         "dashboard": "amt_21_008_dashboard.json",
-        "nodes": 1419
+        "nodes": 1419,
+        "mediathek": "https://dbtg.tv/fvid/7631961",
+        "mediathek_clips": 95,
+        "mediathek_verlinkt": 73
       }
     },
     {
@@ -975,7 +1185,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21007.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21007.xml",
         "dashboard": "amt_21_007_dashboard.json",
-        "nodes": 1676
+        "nodes": 1676,
+        "mediathek": "https://dbtg.tv/fvid/7631793",
+        "mediathek_clips": 141,
+        "mediathek_verlinkt": 107
       }
     },
     {
@@ -987,7 +1200,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21006.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21006.xml",
         "dashboard": "amt_21_006_dashboard.json",
-        "nodes": 1325
+        "nodes": 1325,
+        "mediathek": "https://dbtg.tv/fvid/7631554",
+        "mediathek_clips": 70,
+        "mediathek_verlinkt": 38
       }
     },
     {
@@ -999,7 +1215,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21005.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21005.xml",
         "dashboard": "amt_21_005_dashboard.json",
-        "nodes": 972
+        "nodes": 972,
+        "mediathek": "https://dbtg.tv/fvid/7631464",
+        "mediathek_clips": 76,
+        "mediathek_verlinkt": 60
       }
     },
     {
@@ -1011,7 +1230,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21004.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21004.xml",
         "dashboard": "amt_21_004_dashboard.json",
-        "nodes": 2316
+        "nodes": 2316,
+        "mediathek": "https://dbtg.tv/fvid/7631114",
+        "mediathek_clips": 173,
+        "mediathek_verlinkt": 145
       }
     },
     {
@@ -1023,7 +1245,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21003.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21003.xml",
         "dashboard": "amt_21_003_dashboard.json",
-        "nodes": 1612
+        "nodes": 1612,
+        "mediathek": "https://dbtg.tv/fvid/7630934",
+        "mediathek_clips": 86,
+        "mediathek_verlinkt": 59
       }
     },
     {
@@ -1035,7 +1260,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21002.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21002.xml",
         "dashboard": "amt_21_002_dashboard.json",
-        "nodes": 232
+        "nodes": 232,
+        "mediathek": "https://dbtg.tv/fvid/7630688",
+        "mediathek_clips": 14,
+        "mediathek_verlinkt": 5
       }
     },
     {
@@ -1047,7 +1275,10 @@
         "pdf": "https://dserver.bundestag.de/btp/21/21001.pdf",
         "xml": "https://dserver.bundestag.de/btp/21/21001.xml",
         "dashboard": "amt_21_001_dashboard.json",
-        "nodes": 377
+        "nodes": 377,
+        "mediathek": "https://dbtg.tv/fvid/7630184",
+        "mediathek_clips": 23,
+        "mediathek_verlinkt": 13
       }
     }
   ]
