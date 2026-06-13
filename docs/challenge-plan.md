@@ -90,5 +90,6 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 5. ⬜ Mensch-im-Loop-Korrektur-/Freigabeprozess (M4), Barrierefreiheit-Audit.
 6. ✅ ~~WER-Benchmark gegen mehr Sitzungen~~ — **erledigt** (`scripts/wer_benchmark.py`):
    10 Sitzungen Korrektur-Gap (Mediathek ↔ amtlich) Ø 1,8 % + 2 ASR-Gaps (YouTube); UI
-   unterscheidet ASR-Gap/Korrektur-Gap. Offen: DER (Diarisierung), Gap-Diff-Ansicht in der UI.
+   unterscheidet ASR-Gap/Korrektur-Gap. **Gap-Diff-Ansicht** als Overlay (Wort-Diff
+   Protokoll ↔ gesprochen je Rede). Offen: DER (Diarisierung).
 7. ⬜ CI: `actions/*@v4` → Node-24-fähige Versionen (GitHub erzwingt Node 24 ab 16.06.2026).
