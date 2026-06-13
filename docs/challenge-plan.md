@@ -42,7 +42,7 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 | 17 | Embeddings/Vektor-Index (Azure text-embedding-3-large) | ✅ | `scripts/vector_search.py` |
 | 18 | E2E-Tests gegen reale Neo4j-Daten | ✅ | `tests/` |
 | 19 | YouTube-Clips (`/videos`) als Quelle für Sitzungen ohne Stream | ⬜ | braucht **YouTube Data API Key** (`pipeline/youtube_clips.py`) |
-| 20 | Korrektur-/Freigabe-Workflow (Mensch-im-Loop) | ⬜ | offen (M4) |
+| 20 | Korrektur-/Freigabe-Workflow (Mensch-im-Loop, M4) | ✅ | UI-Review + `scripts/apply_corrections.py` |
 | 21 | **Entity-Resolution Person** (Anrede/Titel/NBSP → Merge) | ✅ | `scripts/entity_resolution.py` (682→671), `bundestag_xml._canon_person_name` |
 | 21b | **DIP-Personen-IDs** (amtliche Identität + Profil-Deeplink, dip_id-Merge) | ✅ | `scripts/dip_person_ids.py` (97% aufgelöst, 668 Knoten) |
 
@@ -87,8 +87,9 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
    die 42 YouTube-bestätigten Sitzungen als 🎬-Quelle ingestieren.
 4. ✅ ~~Mediathek-Video-Deeplinks auf alle 81~~ — **erledigt** (`scripts/mediathek_links.py`):
    81/81 Sitzungen mit 📺 Mediathek-Deeplink, 7388 Reden sprecher-genau verlinkt (Neo4j + Pages).
-5. 🔜 Mensch-im-Loop-Korrektur-/Freigabeprozess (M4). ✅ Barrierefreiheit-Audit (axe-core 0 Verstöße,
-   `<main>`/aria/Dialog-Fokus/Esc/focus-visible).
+5. ✅ ~~Mensch-im-Loop-Korrektur-/Freigabeprozess (M4)~~ — UI-Review (freigeben/ablehnen/korrigieren,
+   localStorage + Export) + `scripts/apply_corrections.py` (Rückspielen nach Neo4j/Pages, Quelle &
+   KI-Verdikt erhalten). ✅ Barrierefreiheit-Audit (axe-core 0 Verstöße).
 6. ✅ ~~WER-Benchmark gegen mehr Sitzungen~~ — **erledigt** (`scripts/wer_benchmark.py`):
    10 Sitzungen Korrektur-Gap (Mediathek ↔ amtlich) Ø 1,8 % + 2 ASR-Gaps (YouTube); UI
    unterscheidet ASR-Gap/Korrektur-Gap. **Gap-Diff-Ansicht** als Overlay (Wort-Diff
