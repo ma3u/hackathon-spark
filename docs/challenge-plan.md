@@ -42,6 +42,7 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 | 18 | E2E-Tests gegen reale Neo4j-Daten | ✅ | `tests/` |
 | 19 | YouTube-Clips (`/videos`) als Quelle für Sitzungen ohne Stream | ⬜ | braucht **YouTube Data API Key** (`pipeline/youtube_clips.py`) |
 | 20 | Korrektur-/Freigabe-Workflow (Mensch-im-Loop) | ⬜ | offen (M4) |
+| 21 | **Entity-Resolution Person** (Anrede/Titel/NBSP → Merge) | ✅ | `scripts/entity_resolution.py` (682→671), `bundestag_xml._canon_person_name` |
 
 ## 3. Stand 2026-06-12 (Fortschritts-Log)
 
@@ -70,15 +71,15 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 | Brave-Free-Plan-Limit / API-Kosten bei Voll-Lauf aller 81 | Rate-/Kostengrenze | Drossel `_chat_retry`; Retrieval nur Showcase; ggf. Cache |
 | LLM-Verdikte ohne Retrieval = Einschätzung, nicht belegt | Fehlurteil-Risiko | Disclaimer + „unbelegt" + Mensch-im-Loop; Retrieval-Grounding |
 | Korrekturrecht der Redner:innen | Goldstandard ≠ gesprochenes Wort | als Diff modellieren (Gap-Analyse), nicht „falsch" |
-| Personen-Dubletten (682 Knoten, Namensvarianten) | unscharfe Sitzungsübergreifend-Abfragen | Entity-Resolution (Normalisierung/DIP-Personen-IDs) |
+| ~~Personen-Dubletten (Namensvarianten)~~ (GELÖST) | ~~unscharfe Abfragen~~ | ✅ Entity-Resolution (682→671); Quelle gefixt. Offen: DIP-Personen-IDs für Namensgleiche |
 | Commit-Größe (web/data ~21 MB, 13 Voll-Graphen) | Repo-Wachstum | Struktur-Projektion (ohne Segmente) bereits; ggf. Git LFS |
 
 ## 5. Nächste konkrete Schritte
 
 1. ✅ ~~Belastbare Faktencheck-Verdikte~~ — **erledigt** via Brave-Websuche (78–81 grounded).
    Optional: Grounding auf restliche Showcase (70–77) + alle 81 ausweiten.
-2. ⬜ **Entity-Resolution** für `Person` (Namensnormalisierung, DIP-Personen-IDs) →
-   saubere sitzungsübergreifende Abfragen.
+2. ✅ ~~Entity-Resolution für `Person`~~ — **erledigt** (`scripts/entity_resolution.py`):
+   682→671 Knoten, Anrede/Titel/NBSP-Dubletten gemerged, Quelle gefixt. Optional: DIP-Personen-IDs.
 3. ⬜ **YouTube Data API Key** → `youtube_clips` für Sitzungen ohne Gesamt-Stream;
    die 42 YouTube-bestätigten Sitzungen als 🎬-Quelle ingestieren.
 4. ✅ ~~Mediathek-Video-Deeplinks auf alle 81~~ — **erledigt** (`scripts/mediathek_links.py`):
