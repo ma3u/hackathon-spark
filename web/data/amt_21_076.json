@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 1051,
-    "relationship_count": 1885,
+    "node_count": 1063,
+    "relationship_count": 1881,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21076.pdf",
@@ -40,10 +40,38 @@
       "schicht": "zeitlich"
     },
     {
+      "id": "person_b_rbel_bas",
+      "label": "Bärbel Bas",
+      "type": "Person",
+      "subtype": "Bundesministerin für Arbeit und Soziales",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_reem_alabali_radovan",
+      "label": "Reem Alabali Radovan",
+      "type": "Person",
+      "subtype": "Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ren_springer",
+      "label": "René Springer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_afd",
       "label": "AfD",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_peter_aumer",
+      "label": "Peter Aumer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -54,10 +82,24 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_ricarda_lang",
+      "label": "Ricarda Lang",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_b_ndnis_90_die_gr_nen",
       "label": "BÜNDNIS 90/DIE GRÜNEN",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_daniela_rump",
+      "label": "Daniela Rump",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -68,6 +110,13 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_s_ren_pellmann",
+      "label": "Sören Pellmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_die_linke",
       "label": "Die Linke",
       "type": "Fraktion",
@@ -75,10 +124,493 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_rocco_kever",
+      "label": "Rocco Kever",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_schahina_gambir",
+      "label": "Schahina Gambir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicolas_zippelius",
+      "label": "Nicolas Zippelius",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_jan_niclas_gesenhues",
+      "label": "Dr. Jan-Niclas Gesenhues",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_philip_m_a_hoffmann",
+      "label": "Philip M. A. Hoffmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ulle_schauws",
+      "label": "Ulle Schauws",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_serdar_y_ksel",
+      "label": "Serdar Yüksel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_denis_pauli",
+      "label": "Denis Pauli",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sarah_vollath",
+      "label": "Sarah Vollath",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_keuter",
+      "label": "Stefan Keuter",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_armin_grau",
+      "label": "Dr. Armin Grau",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ulrike_schielke_ziesing",
+      "label": "Ulrike Schielke-Ziesing",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_timon_dzienus",
+      "label": "Timon Dzienus",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_pascal_meiser",
+      "label": "Pascal Meiser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_j_rgen_go_ner",
+      "label": "Hans-Jürgen Goßner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_cansin_k_kt_rk",
+      "label": "Cansin Köktürk",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stephan_brandner",
+      "label": "Stephan Brandner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jan_feser",
+      "label": "Jan Feser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_wilfried_oellers",
+      "label": "Wilfried Oellers",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sylvia_rietenberg",
+      "label": "Sylvia Rietenberg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rasha_nasr",
+      "label": "Rasha Nasr",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_maren_kaminski",
+      "label": "Maren Kaminski",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_deborah_d_ring",
+      "label": "Deborah Düring",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_adam_balten",
+      "label": "Adam Balten",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_rainer_kraft",
+      "label": "Dr. Rainer Kraft",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_volkmann",
+      "label": "Johannes Volkmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_wolfgang_stefinger",
+      "label": "Dr. Wolfgang Stefinger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bodo_ramelow",
+      "label": "Bodo Ramelow",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_vizepr_sident_bodo_ramelow",
+      "label": ",Vizepräsident Bodo Ramelow",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_bernd_baumann",
+      "label": "Dr. Bernd Baumann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_gitta_connemann",
+      "label": "Gitta Connemann",
+      "type": "Person",
+      "subtype": "Parl. Staatssekretärin bei der Bundesministerin für Wirtschaft und Energie",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_julian_joswig",
+      "label": "Julian Joswig",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sebastian_roloff",
+      "label": "Sebastian Roloff",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mirze_edis",
+      "label": "Mirze Edis",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_klaus_wiener",
+      "label": "Dr. Klaus Wiener",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_leif_erik_holm",
+      "label": "Leif-Erik Holm",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mahmut_zdemir",
+      "label": "Mahmut Özdemir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sandra_stein",
+      "label": "Sandra Stein",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tilman_kuban",
+      "label": "Tilman Kuban",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_malte_kaufmann",
+      "label": "Dr. Malte Kaufmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_beatrix_von_storch",
+      "label": "Beatrix von Storch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_felix_schreiner",
+      "label": "Felix Schreiner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_koller",
+      "label": "Hans Koller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_josephine_ortleb",
+      "label": "Josephine Ortleb",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_markus_frohnmaier",
+      "label": "Markus Frohnmaier",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nancy_faeser",
+      "label": "Nancy Faeser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jan_k_stering",
+      "label": "Jan Köstering",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bastian_ernst",
+      "label": "Bastian Ernst",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christoph_schmid",
+      "label": "Christoph Schmid",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tobias_winkler",
+      "label": "Tobias Winkler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_marcel_emmerich",
+      "label": "Marcel Emmerich",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_alexander_throm",
+      "label": "Alexander Throm",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_christian_wirth",
+      "label": "Dr. Christian Wirth",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_clara_b_nger",
+      "label": "Clara Bünger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_detlef_seif",
+      "label": "Detlef Seif",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_markus_matzerath",
+      "label": "Markus Matzerath",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hakan_demir",
+      "label": "Hakan Demir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_seidler",
+      "label": "Stefan Seidler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_fraktionslos",
       "label": "fraktionslos",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_thomas_silberhorn",
+      "label": "Thomas Silberhorn",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_hess",
+      "label": "Martin Hess",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_luigi_pantisano",
+      "label": "Luigi Pantisano",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_frederik_bouffier",
+      "label": "Frederik Bouffier",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_irene_mihalic",
+      "label": "Dr. Irene Mihalic",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ingo_vogel",
+      "label": "Ingo Vogel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_florian_oest",
+      "label": "Florian Oest",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_arne_raue",
+      "label": "Arne Raue",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helge_lindh",
+      "label": "Helge Lindh",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_siegfried_walch",
+      "label": "Siegfried Walch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andrea_lindholz",
+      "label": "Andrea Lindholz",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
       "schicht": "fallbezug"
     },
     {
@@ -1870,64 +2402,64 @@
     },
     {
       "id": "aussage_0",
-      "label": "Aussage: deshalb investieren wir 500 Milliarden Euro in unser Land – …",
+      "label": "Aussage: Wir investieren 500 Milliarden Euro in unser Land – in Straß…",
       "type": "Aussage",
       "subtype": "",
-      "text": "deshalb investieren wir 500 Milliarden Euro in unser Land – in Straßen, in Schulen und in die Digitalisierung",
+      "text": "Wir investieren 500 Milliarden Euro in unser Land – in Straßen, in Schulen und in die Digitalisierung.",
       "person": "Bärbel Bas",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_0",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf geplante Investitionen, die in dieser Höhe und Aufteilung nicht konkret durch amtliche Quellen wie den Bundeshaushalt oder Investitionspläne der Bundesregierung belegt sind. Es handelt sich um eine summarische Angabe ohne spezifische zeitliche oder programmatisc",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet eine Investition von 500 Milliarden Euro in Straßen, Schulen und Digitalisierung. Die bereitgestellten Belege zeigen jedoch deutlich geringere Summen: 8 Milliarden Euro für Bildungs- und Betreuungsinfrastruktur (Bundesfinanzministerium), 5 Milliarden Euro für den Digit",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "id": "quelle_kommunen_unterst_tzen_deutschland_modernisieren_bundesfinanzministerium_presse",
+      "label": "Kommunen unterstützen, Deutschland modernisieren - Bundesfinanzministerium - Presse",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2026/04/2026-04-15-laender-und-kommunalentlastungsgesetz.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_1",
-      "label": "Aussage: Damit gilt ab dem 1. Mai: Wer durch Steuergeld finanzierte A…",
+      "label": "Aussage: Deshalb haben wir das Tariftreuegesetz verabschiedet. Damit …",
       "type": "Aussage",
       "subtype": "",
-      "text": "Damit gilt ab dem 1. Mai: Wer durch Steuergeld finanzierte Aufträge bekommt, muss anständig bezahlen, nämlich nach Tarif.",
+      "text": "Deshalb haben wir das Tariftreuegesetz verabschiedet. Damit gilt ab dem 1. Mai: Wer durch Steuergeld finanzierte Aufträge bekommt, muss anständig bezahlen, nämlich nach Tarif.",
       "person": "Bärbel Bas",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_1",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Tariftreue- und Vergabegesetz (TVgG) sieht vor, dass öffentliche Aufträge nur an Unternehmen vergeben werden, die tarifliche Löhne zahlen. Die Regelung trat am 1. Mai 2023 in Kraft.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig: Das Tariftreuegesetz verpflichtet Unternehmen, die öffentliche Aufträge des Bundes erhalten, tarifvertragliche Arbeitsbedingungen zu gewähren. Die Belege bestätigen dies (z. B. tagesschau.de: 'Wer öffentliche Aufträge bekommt, muss auch ordentlich bezahlen' ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_wirtschaft_und_klimaschutz_tariftreue_und_vergabegesetz",
-      "label": "Bundesministerium für Wirtschaft und Klimaschutz – Tariftreue- und Vergabegesetz",
+      "id": "quelle_vergabe_ffentlicher_auftr_ge_tariftreuegesetz_beschlossen_tagesschau_de",
+      "label": "Vergabe öffentlicher Aufträge: Tariftreuegesetz beschlossen | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmwk.de/Redaktion/DE/Artikel/Wirtschaft/tariftreue-und-vergabegesetz.html",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/tariftreue-gesetz-bundestag-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_2",
-      "label": "Aussage: die Reform der Grundsicherung, die wir gemacht haben…",
+      "label": "Aussage: Eine erste Maßnahme war das antraglose Kindergeld,…",
       "type": "Aussage",
       "subtype": "",
-      "text": "die Reform der Grundsicherung, die wir gemacht haben",
+      "text": "Eine erste Maßnahme war das antraglose Kindergeld,",
       "person": "Bärbel Bas",
       "schicht": "fallbezug"
     },
@@ -1937,34 +2469,43 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat 2023 das Bürgergeld eingeführt, das die Grundsicherung für Arbeitsuchende (Hartz IV) ersetzt. Die Reform ist jedoch umfassender und nicht ausschließlich auf die Grundsicherung beschränkt. Die Aussage ist insofern korrekt, aber unvollständig.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Eine erste Maßnahme war das antraglose Kindergeld' ist im Kern richtig, da die Einführung des antragslosen Kindergelds tatsächlich eine Maßnahme der Bundesregierung darstellt. Allerdings ist die Formulierung 'war' irreführend, da das Gesetz erst 2027 in Kraft treten und in zwei",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_b_rgergeld",
-      "label": "Bundesregierung – Bürgergeld",
+      "id": "quelle_kabinett_beschlie_t_erleichterung_f_r_familien_k_nftig_soll_das_kindergeld_ab_geburt_ohne_antrag_ausgezahlt_werden_bundesfinanzministerium_presse",
+      "label": "Kabinett beschließt Erleichterung für Familien: Künftig soll das Kindergeld ab Geburt ohne Antrag ausgezahlt werden - Bundesfinanzministerium - Presse",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/buergergeld",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2026/03/2026-03-18-antragsloses-kindergeld.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_3",
-      "label": "Aussage: die Alterssicherungskommission wird im Juni ihren Abschluss …",
+      "label": "Aussage: Auch die Alterssicherungskommission wird im Juni ihren Absch…",
       "type": "Aussage",
       "subtype": "",
-      "text": "die Alterssicherungskommission wird im Juni ihren Abschluss finden",
+      "text": "Auch die Alterssicherungskommission wird im Juni ihren Abschluss finden und uns Vorschläge für die Zukunft der Rente vorlegen.",
       "person": "Bärbel Bas",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_3",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Bestätigung oder Veröffentlichung eines konkreten Abschlussdatums der Alterssicherungskommission für Juni. Die Aussage bezieht sich auf eine geplante, aber nicht offiziell terminierte Aktivität.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage impliziert, dass die Alterssicherungskommission im Juni ihren Abschluss finden und Vorschläge vorlegen wird. Der erste Beleg (DIP-Vorgang) zeigt jedoch, dass die Kommission am 17. Dezember 2025 eingesetzt wurde und ihre Empfehlungen erst nach diesem Datum erwartet werden. Zudem ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_dip_vorgang_arbeitsauftr_ge_der_alterssicherungskommission",
+      "label": "DIP-Vorgang: Arbeitsaufträge der Alterssicherungskommission",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Alterssicherungskommission%20Juni%20Abschluss%20Vorschl%C3%A4ge%20Zukunft",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1978,28 +2519,28 @@
     },
     {
       "id": "faktencheck_4",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Berufsbildungsbericht 2024 zeigt tatsächlich einen Anstieg der erfolglosen Ausbildungsplatzbewerbungen. Die genaue Formulierung 'nach 15 Jahren wieder eine so hohe Anzahl' ist jedoch interpretationsbedürftig, da der Bericht keine direkte Vergleichszahl zu einem Zeitpunkt vor 15 Jahren n",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine 'hohe Anzahl von erfolglosen Bewerbungen' nach 15 Jahren, ohne konkrete Zahlen oder Kontext zu nennen. Die bereitgestellten Belege liefern keine Daten zu erfolglosen Bewerbungen bei der Bundeswehr oder anderen Bereichen über einen Zeitraum von 15 Jahren. De",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_berufsbildungsbericht_2024",
-      "label": "Berufsbildungsbericht 2024",
+      "id": "quelle_bundeswehr_erh_lt_deutlich_mehr_bewerbungen_tagesschau_de",
+      "label": "Bundeswehr erhält deutlich mehr Bewerbungen | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmbf.de/SharedDocs/Downloads/de/2024/berufsbildungsbericht-2024.pdf?__blob=publicationFile&v=3",
+      "url": "https://www.tagesschau.de/inland/bundeswehr-bewerbungen-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_5",
-      "label": "Aussage: die Zahl von abgeschlossenen Ausbildungsverträgen ziemlich d…",
+      "label": "Aussage: die Zahl von abgeschlossenen Ausbildungsverträgen [ist] ziem…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "die Zahl von abgeschlossenen Ausbildungsverträgen ziemlich dramatisch zurückgeht",
+      "text": "die Zahl von abgeschlossenen Ausbildungsverträgen [ist] ziemlich dramatisch zurückgeht",
       "person": "Ricarda Lang",
       "schicht": "fallbezug"
     },
@@ -2009,7 +2550,16 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Berufsbildungsbericht 2024 bestätigt einen Rückgang der neu abgeschlossenen Ausbildungsverträge. 2023 wurden 479.900 Verträge abgeschlossen, was einem Rückgang von 2,1 % gegenüber 2022 (490.000) entspricht. Der Trend ist seit Jahren rückläufig.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Zahl der abgeschlossenen Ausbildungsverträge 'ziemlich dramatisch zurückgeht', wird durch mehrere aktuelle Quellen gestützt. Der Artikel der tagesschau.de zitiert Arbeitsmarktexperten, die den Rückgang als 'besorgniserregend' bezeichnen. Der Bildungsverband BBB spricht",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_besorgniserregender_r_ckgang_bei_ausbildungsvertr_gen_in_deutschland_historischer_tiefstand_setzt_sich_fort_bildungsverband_bbb",
+      "label": "Besorgniserregender Rückgang bei Ausbildungsverträgen in Deutschland – Historischer Tiefstand setzt sich fort – Bildungsverband | BBB",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://bildungsverband.info/besorgniserregender-rueckgang-bei-ausbildungsvertraegen-in-deutschland-historischer-tiefstand-setzt-sich-fort",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2027,15 +2577,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Abschlussbericht der Kommission zur Sozialstaatsreform enthält tatsächlich 26 Empfehlungen, die einvernehmlich beschlossen wurden. Dies geht aus der offiziellen Drucksache des Bundestags hervor.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Kommission zur Sozialstaatsreform 26 Vorschläge einvernehmlich beschlossen hat, wird durch den Beleg 'Sozialstaatskommission legt Bericht zur Modernisierung und Digitalisierung des Sozialstaats vor' gestützt, in dem explizit von '26 konkreten Empfehlungen' die Rede ist",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_drucksache_20_10000_abschlussbericht_der_kommission_zur_sozialstaatsreform",
-      "label": "Drucksache 20/10000 - Abschlussbericht der Kommission zur Sozialstaatsreform",
+      "id": "quelle_sozialstaatskommission_legt_bericht_zur_modernisierung_und_digitalisierung_des_sozialstaats_vor",
+      "label": "Sozialstaatskommission legt Bericht zur Modernisierung und Digitalisierung des Sozialstaats vor",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/100/2010000.pdf",
+      "url": "https://bmds.bund.de/aktuelles/aktuelle-meldungen/detail/sozialstaatskommission-legt-bericht-zur-modernisierung-und-digitalisierung-des-sozialstaats-vor",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2054,7 +2604,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die konkrete Planung, aus vier Behördensträngen zwei zu machen, wird im Abschlussbericht der Sozialstaatskommission zwar diskutiert, aber es gibt keine amtliche Bestätigung, dass dies bereits beschlossene Politik der Bundesregierung ist. Die Umsetzung steht noch aus.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine geplante Zusammenlegung von vier Behördensträngen zu zwei neuen Strukturen (einer für Erwerbstätige, einer für Nichterwerbstätige). Die bereitgestellten Belege definieren zwar die Begriffe 'Erwerbstätige' und 'Nichterwerbstätige' (DWDS, Statistisches Bundes",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kein_passender_beleg_in_der_liste",
+      "label": "Kein passender Beleg in der Liste",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.dwds.de/wb/Nichterwerbst%C3%A4tige",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2062,25 +2621,25 @@
       "label": "Aussage: 2023 wurde in Ihrem Ministerium ein Gutachten erarbeitet, in…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "2023 wurde in Ihrem Ministerium ein Gutachten erarbeitet, in dem es um die Bezahlung der Werkstattbeschäftigten, ausgerichtet am Mindestlohn, geht",
+      "text": "2023 wurde in Ihrem Ministerium ein Gutachten erarbeitet, in dem es um die Bezahlung der Werkstattbeschäftigten, ausgerichtet am Mindestlohn, [geht]",
       "person": "Ricarda Lang",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_8",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Bundesministerium für Arbeit und Soziales (BMAS) hat 2023 ein Gutachten zur Bezahlung von Werkstattbeschäftigten in Auftrag gegeben. Das Gutachten untersucht unter anderem die Orientierung am Mindestlohn.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass 2023 im Ministerium (vermutlich das Bundesministerium für Arbeit und Soziales, BMAS) ein Gutachten zur Bezahlung von Werkstattbeschäftigten am Mindestlohn orientiert erarbeitet wurde, ist im Kern richtig. Der Beleg von Sören Pellmann (Rede vom 06. Mai 2026) bestätigt dies,",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_gutachten_zur_verg_tung_in_werkst_tten_f_r_behinderte_menschen_wfbm",
-      "label": "Gutachten zur Vergütung in Werkstätten für behinderte Menschen (WfbM)",
+      "id": "quelle_behindertenwerkst_tten_warum_sie_unter_mindestlohn_zahlen",
+      "label": "Behindertenwerkstätten: Warum sie unter Mindestlohn zahlen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmas.de/SharedDocs/Downloads/DE/Publikationen/a882-gutachten-werkstaetten-behinderte-menschen.pdf?__blob=publicationFile&v=1",
+      "url": "https://zdf.de/nachrichten/politik/deutschland/behindertenwerkstaette-gehalt-finanzierung-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2095,19 +2654,19 @@
     },
     {
       "id": "faktencheck_9",
-      "label": "Faktencheck: irreführend",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf ein Datum in der Zukunft (Oktober 2025), das zum Zeitpunkt der Rede (2024) noch nicht eingetreten war. Es handelt sich daher um eine Planung, nicht um eine bereits umgesetzte Tatsache. Zudem ist unklar, ob der Aktionsplan tatsächlich zu diesem Zeitpunkt veröffen",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass im Oktober 2025 ein Aktionsplan für die wirtschaftliche Zusammenarbeit auf den Weg gebracht wurde, wird durch die Belege gestützt. Sowohl der Blogbeitrag 'Wirtschaft und Entwicklung – Ein Aktionsplan mit begrenzten Ambitionen' als auch die offizielle Meldung des BMZ bestät",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_amtliche_quelle_verf_gbar_zuk_nftiges_ereignis",
-      "label": "Keine amtliche Quelle verfügbar (zukünftiges Ereignis)",
+      "id": "quelle_wirtschaft_und_entwicklung_ein_aktionsplan_mit_begrenzten_ambitionen",
+      "label": "Wirtschaft und Entwicklung – Ein Aktionsplan mit begrenzten Ambitionen",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://weltneuvermessung.wordpress.com/2025/10/20/wirtschaft-und-entwicklung-ein-aktionsplan-mit-begrenzten-ambitionen/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2122,19 +2681,19 @@
     },
     {
       "id": "faktencheck_10",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche amtliche Quelle, die diesen konkreten Termin bestätigt. Die Aussage könnte sich auf eine geplante Veranstaltung beziehen, deren Durchführung jedoch nicht verifiziert werden kann.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Beleg 'Sector Calls für den Deutsch-Kenianischen Wirtschaftstag 2026' ist der Deutsch-Kenianische Wirtschaftstag für den 24. Juni 2026 geplant. Die Regierungsverhandlungen, auf die sich die Aussage bezieht, fanden jedoch laut dem Beleg 'Kenia | BMZ' im November 2024 statt. Es gibt ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_belastbare_quelle_bekannt",
-      "label": "Keine belastbare Quelle bekannt",
+      "id": "quelle_sector_calls_f_r_den_deutsch_kenianischen_wirtschaftstag_2026_agentur_f_r_wirtschaft_entwicklung",
+      "label": "Sector Calls für den Deutsch-Kenianischen Wirtschaftstag 2026 | Agentur für Wirtschaft & Entwicklung",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://wirtschaft-entwicklung.de/veranstaltungen/vier-sector-calls-zur-vorbereitung-des-deutsch-kenianischen-wirtschaftstags",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2149,64 +2708,82 @@
     },
     {
       "id": "faktencheck_11",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf ein Instagram-Video der Entwicklungsministerin, in dem eine konkrete Zahl von 800.000 Toten genannt wird. Es gibt jedoch keine öffentlich zugängliche, belastbare Studie oder amtliche Quelle, die diese Zahl im Zusammenhang mit Kürzungen von USAID oder deutschen E",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass eine Kürzung konkret 800.000 Tote zur Folge hat. Der Beleg von tagesschau.de spricht jedoch von einer Befürchtung des UN-Aidsprogramms, dass eine Kürzung der US-Hilfe zu *zehnmal so vielen Aids-Toten wie im Jahr 2023* führen könnte. Im Jahr 2023 starben laut UNAI",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_nach_k_rzung_von_us_hilfe_un_aidsprogramm_bef_rchtet_millionen_tote_tagesschau_de",
+      "label": "Nach Kürzung von US-Hilfe: UN-Aidsprogramm befürchtet Millionen Tote | tagesschau.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesschau.de/ausland/un-aids-programm-us-hilfe-100.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_12",
-      "label": "Aussage: Bereits zu Zeiten der Ampel wurde der Etat des Bundesministe…",
+      "label": "Aussage: bereits zu Zeiten der Ampel wurde der Etat des Bundesministe…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Bereits zu Zeiten der Ampel wurde der Etat des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung gekürzt – auch mit Zustimmung der Grünen.",
+      "text": "bereits zu Zeiten der Ampel wurde der Etat des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung gekürzt – auch mit Zustimmung der Grünen",
       "person": "Ulle Schauws",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_12",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Haushalt des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) wurde in den Jahren 2023 und 2024 gekürzt. Dies geschah im Rahmen der Haushaltsverhandlungen der Ampelkoalition, an denen die Grünen beteiligt waren. Die Kürzungen sind in den Haushaltsplänen dokume",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der Etat des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) bereits zu Zeiten der Ampelkoalition gekürzt wurde, wird durch die Belege gestützt. Die Dokumente des Deutschen Bundestags (z. B. vom September 2023 und Januar 2024) zeigen, dass Kürzu",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeshaushaltsplan_2023_und_2024_einzelplan_23_bmz",
-      "label": "Bundeshaushaltsplan 2023 und 2024, Einzelplan 23 (BMZ)",
+      "id": "quelle_k_rzungen_im_etat_f_r_wirtschaftliche_zusammenarbeit_und_entwicklung",
+      "label": "Kürzungen im Etat für wirtschaftliche Zusammenarbeit und Entwicklung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeshaushalt.de",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw28-de-entwicklung-1094250",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_13",
-      "label": "Aussage: Wir arbeiten zum Beispiel mit aufstrebenden Volkswirtschafte…",
+      "label": "Aussage: wir arbeiten zum Beispiel mit aufstrebenden Volkswirtschafte…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Wir arbeiten zum Beispiel mit aufstrebenden Volkswirtschaften wie Indien, wie Südafrika, wie Brasilien zukünftig vor allem über Kredite zusammen, damit wir unsere Instrumente für die am dringendsten Hilfe benötigenden Least Developed Countries stärker einsetzen können.",
+      "text": "wir arbeiten zum Beispiel mit aufstrebenden Volkswirtschaften wie Indien, wie Südafrika, wie Brasilien zukünftig vor allem über Kredite zusammen, damit wir unsere Instrumente für die am dringendsten Hilfe benötigenden Least Developed Countries stärker einsetzen können",
       "person": "Ulle Schauws",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_13",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage beschreibt eine geplante Umsteuerung der Entwicklungszusammenarbeit, jedoch gibt es keine öffentlich zugänglichen, konkreten Zahlen oder amtlichen Dokumente, die diese Umstellung quantitativ belegen.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da Indien, Südafrika und Brasilien tatsächlich als aufstrebende Volkswirtschaften (BRICS-Staaten) gelten und Kreditkooperationen mit diesen Ländern existieren (vgl. BRICS-Währungsfonds und SWP-Bericht zu Indiens Kreditvergabe in Afrika). Allerdings wird der ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_russland_und_seine_brics_partner_setzen_auf_eigenen_w_hrungsfonds_russia_beyond_de",
+      "label": "Russland und seine BRICS-Partner setzen auf eigenen Währungsfonds - Russia Beyond DE",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.rbth.com/wirtschaft/2014/07/10/russland_und_seine_brics-partner_setzen_auf_eigenen_waehrungsfonds_30247",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_14",
-      "label": "Aussage: ich habe allein in den vergangenen Monaten ein Schulernährun…",
+      "label": "Aussage: wir haben bis zum Jahr 2030 über 100 Millionen Kinder weltwe…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "ich habe allein in den vergangenen Monaten ein Schulernährungsprogramm auf den Weg gebracht, mit dem wir bis zum Jahr 2030 über 100 Millionen Kinder weltweit erreichen wollen mit Schulnahrung, mit einer warmen Mahlzeit pro Tag",
+      "text": "wir haben bis zum Jahr 2030 über 100 Millionen Kinder weltweit erreichen wollen mit Schulnahrung, mit einer warmen Mahlzeit pro Tag",
       "person": "Ulle Schauws",
       "schicht": "fallbezug"
     },
@@ -2216,15 +2793,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat tatsächlich Initiativen zur Ausweitung von Schulernährungsprogrammen angekündigt, darunter das Ziel, bis 2030 Millionen von Kindern zu erreichen. Allerdings ist die konkrete Zahl von 100 Millionen Kindern eine Zielvorgabe und keine bereits erreichte oder verbindlich ",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt das Ziel, bis 2030 über 100 Millionen Kinder weltweit mit einer warmen Mahlzeit pro Tag zu erreichen. Die Belege zeigen, dass bereits im Jahr 2024 mindestens 407,8 bis 466 Millionen Kinder täglich Schulmahlzeiten erhalten (Quellen: Perspective Daily/WFP und Bundeszentrum K",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bmz_schulern_hrung_weltweit_st_rken",
-      "label": "BMZ: Schulernährung weltweit stärken",
+      "id": "quelle_weltweit_erhalten_so_viele_kinder_t_glich_schulmahlzeiten_wie_noch_nie_doch_lange_nicht_alle_perspective_daily",
+      "label": "Weltweit erhalten so viele Kinder täglich Schulmahlzeiten wie noch nie – doch lange nicht alle | Perspective Daily",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmz.de/de/entwicklungspolitik/schulernaehrung",
+      "url": "https://perspective-daily.de/article/3937-weltweit-erhalten-so-viele-kinder-taeglich-schulmahlzeiten-wie-noch-nie-doch-lange-nicht-alle/probiere",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2239,73 +2816,73 @@
     },
     {
       "id": "faktencheck_15",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Regelaltersgrenze wurde schrittweise von 65 auf 67 Jahre angehoben. Dieser Prozess begann 2012 und endet 2029. Die Anhebung beträgt insgesamt 24 Monate (2 Jahre). Die Aussage bezieht sich möglicherweise auf den Zeitraum bis zum aktuellen Jahr (2024), in dem die Anhebung etwa 14 Monate b",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass seit 2012 die Regelaltersgrenze um 14 Monate angehoben wurde, ist im Kern richtig, aber unvollständig und damit leicht irreführend. Die Belege zeigen, dass die Anhebung stufenweise erfolgt: Ab Geburtsjahrgang 1947 (also ab 2012) wird die Regelaltersgrenze zunächst um einen",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_gesetz_zur_anpassung_der_regelaltersgrenze_an_die_demografische_entwicklung_und_zur_st_rkung_der_finanzierungsgrundlagen_der_gesetzlichen_rentenversicherung_rv_altersgrenzenanpassungsgesetz",
-      "label": "Gesetz zur Anpassung der Regelaltersgrenze an die demografische Entwicklung und zur Stärkung der Finanzierungsgrundlagen der gesetzlichen Rentenversicherung (RV-Altersgrenzenanpassungsgesetz)",
+      "id": "quelle_regelaltersrente_anhebung_regelaltersgrenze",
+      "label": "Regelaltersrente | Anhebung Regelaltersgrenze",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/service/gesetze/rv-altersgrenzenanpassungsgesetz-489230",
+      "url": "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/245-regelaltersrente-anhebung-regelaltersgrenze.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_16",
-      "label": "Aussage: bis 2030 die Regelaltersgrenze um weitere 10 Monate steigt…",
+      "label": "Aussage: die Regelaltersgrenze [steigt] bis 2030 um weitere 10 Monate…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "bis 2030 die Regelaltersgrenze um weitere 10 Monate steigt",
+      "text": "die Regelaltersgrenze [steigt] bis 2030 um weitere 10 Monate",
       "person": "Denis Pauli",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_16",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Regelaltersgrenze steigt bis 2029 auf 67 Jahre. Ab 2030 gibt es keine weitere gesetzlich festgelegte Anhebung. Die Aussage könnte sich auf den Zeitraum bis 2029 beziehen, in dem die Regelaltersgrenze bis auf 67 Jahre (also um weitere 14 Monate ab 2024) steigt. Eine Anhebung um 10 Monate",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Regelaltersgrenze bis 2030 um weitere 10 Monate steigt, ist im Kern richtig, aber ungenau. Laut den Belegen steigt die Regelaltersgrenze ab dem Geburtsjahrgang 1959 um zwei Monate pro Jahrgang bis zum Jahrgang 1964, wo sie 67 Jahre erreicht. Für den Jahrgang 1960 beträ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_deutsche_rentenversicherung_rentenanpassung_und_altersgrenzen",
-      "label": "Deutsche Rentenversicherung – Rentenanpassung und Altersgrenzen",
+      "id": "quelle_regelaltersgrenze_wann_kann_ich_in_rente_gehen_vz_verm_genszentrum",
+      "label": "Regelaltersgrenze: Wann kann ich in Rente gehen? | VZ VermögensZentrum",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/rentenversicherung-in-zahlen/rv_in_zahlen_2023.pdf?__blob=publicationFile&v=4",
+      "url": "https://www.vermoegenszentrum.de/wissen/regelaltersgrenze",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_17",
-      "label": "Aussage: die Lebenserwartung von Rentnerinnen und Rentnern in dieser …",
+      "label": "Aussage: die Lebenserwartung von Rentnerinnen und Rentnern [ist] in d…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "die Lebenserwartung von Rentnerinnen und Rentnern in dieser Zeit [seit 2012] ist nicht gestiegen",
+      "text": "die Lebenserwartung von Rentnerinnen und Rentnern [ist] in dieser Zeit nicht gestiegen",
       "person": "Denis Pauli",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_17",
-      "label": "Faktencheck: irreführend",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Lebenserwartung in Deutschland ist seit 2012 insgesamt gestiegen. Laut Destatis lag die durchschnittliche Lebenserwartung bei Geburt 2012 für Männer bei 77,7 Jahren und für Frauen bei 82,7 Jahren. 2022 lag sie für Männer bei 78,6 Jahren und für Frauen bei 83,4 Jahren. Allerdings kann di",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Lebenserwartung von Rentnerinnen und Rentnern in dieser Zeit nicht gestiegen sei, wird durch die Belege widerlegt. Der Artikel von 'Ihre Vorsorge' zeigt, dass die fernere Lebenserwartung von 65-jährigen Rentnerinnen bei knapp 21 Jahren liegt und insgesamt gestiegen ist",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_destatis_durchschnittliche_lebenserwartung_in_deutschland",
-      "label": "Destatis – Durchschnittliche Lebenserwartung in Deutschland",
+      "id": "quelle_so_ist_die_lebenserwartung_von_rentnern_gestiegen_ihre_vorsorge",
+      "label": "So ist die Lebenserwartung von Rentnern gestiegen | Ihre Vorsorge",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Tabellen/sterbetafel-deutschland.html",
+      "url": "https://www.ihre-vorsorge.de/rente/nachrichten/so-ist-die-lebenserwartung-von-rentnern-gestiegen",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2324,24 +2901,24 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Alterssicherungsbericht 2020 der Bundesregierung beziehen etwa 50 % der Rentnerinnen und Rentner in Deutschland die gesetzliche Rente als Hauptquelle ihres Einkommens. Allerdings ist dies nicht gleichbedeutend mit der Aussage, dass sie die *einzige* Absicherung ist, da viele zusätzlich",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die gesetzliche Rente für rund die Hälfte der Menschen die einzige Absicherung im Alter ist, wird durch die Belege nicht direkt bestätigt, aber es gibt Hinweise, die in diese Richtung deuten. Laut dem Artikel von tagesschau.de haben nur 32 bzw. 15 Prozent der Rentner eine ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_alterssicherungsbericht_2020_der_bundesregierung",
-      "label": "Alterssicherungsbericht 2020 der Bundesregierung",
+      "id": "quelle_altersarmut_sorge_um_finanzielle_absicherung_im_alter_tagesschau_de",
+      "label": "Altersarmut: Sorge um finanzielle Absicherung im Alter | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmas.de/SharedDocs/Downloads/DE/Rente/alterssicherungsbericht-2020.pdf?__blob=publicationFile&v=3",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorge-finanzen-101.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_19",
-      "label": "Aussage: wir haben gemeinsam als Bundesregierung mit dem Rentenpaket …",
+      "label": "Aussage: Wir haben gemeinsam als Bundesregierung mit dem Rentenpaket …",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "wir haben gemeinsam als Bundesregierung mit dem Rentenpaket schon entschieden, dass wir das Rentenniveau jetzt stabilisieren",
+      "text": "Wir haben gemeinsam als Bundesregierung mit dem Rentenpaket schon entschieden, dass wir das Rentenniveau jetzt stabilisieren",
       "person": "Denis Pauli",
       "schicht": "fallbezug"
     },
@@ -2351,15 +2928,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen des Rentenpakets 2018 beschlossen, das Rentenniveau bis 2025 bei mindestens 48 % zu stabilisieren. Dies wurde im RV-Leistungsverbesserungs- und -Stabilisierungsgesetz festgeschrieben.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Bundesregierung mit dem Rentenpaket entschieden hat, das Rentenniveau zu stabilisieren, wird durch mehrere Belege gestützt. Laut tagesschau.de zielt das Rentenpaket im Kern darauf ab, das Rentenniveau zu stabilisieren. Auch die offizielle Seite der Bundesregierung (bun",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_arbeit_und_soziales_rentenpaket_2018",
-      "label": "Bundesministerium für Arbeit und Soziales – Rentenpaket 2018",
+      "id": "quelle_bundestag_beschlie_t_das_rentenpaket",
+      "label": "Bundestag beschließt das Rentenpaket",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmas.de/DE/Service/Gesetze/rv-leistungsverbesserungs-und-stabilisierungsgesetz.html",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw49-de-rentenpaket-1128720",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2378,15 +2955,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Wohngeld- und Mietenbericht 2021 des Bundesministeriums des Innern und für Heimat (BMI) waren 2020 etwa 49 % der Wohngeldhaushalte Rentnerhaushalte. Der Wert liegt nahe an der genannten Aussage.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg von Finanztip (https://www.finanztip.de/wohngeld/) bestätigt die Aussage direkt mit der Angabe: 'Ende 2024 bezogen rund 1,2 Millionen Haushalte Wohngeld, wie das Statistische Bundesamt mitteilte, die Hälfte davon waren Rentnerinnen'. Dies stützt die Aussage, dass 50 Prozent der Wo",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_wohngeld_und_mietenbericht_2021",
-      "label": "Wohngeld- und Mietenbericht 2021",
+      "id": "quelle_wohngeld_beantragen_2026_anspruch_h_he_tipps_finanztip",
+      "label": "Wohngeld beantragen 2026 – Anspruch, Höhe & Tipps | Finanztip",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/heimat-integration/wohnen/wohngeldbericht-2021.pdf?__blob=publicationFile&v=3",
+      "url": "https://www.finanztip.de/wohngeld/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2401,11 +2978,20 @@
     },
     {
       "id": "faktencheck_21",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Bestätigung oder Haushaltsplanung, die eine konkrete Kürzung von 1 Milliarde Euro beim Wohngeld zum 01.01. des Folgejahres belegt. Die Aussage bezieht sich vermutlich auf geplante Anpassungen oder Diskussionen im Rahmen der Haushaltsberatungen, die jedoch nicht offizi",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass zum 01.01. des nächsten Jahres 1 Milliarde Euro beim Wohngeld gekürzt werden soll, ist im Kern richtig, da mehrere Belege bestätigen, dass das Bundesbauministerium eine Milliarde Euro einsparen muss und das Wohngeld davon betroffen ist. Allerdings ist unklar, ob die Kürzun",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_drohen_k_rzungen_beim_wohngeld_bauministerium_soll_eine_milliarde_euro_einsparen",
+      "label": "Drohen Kürzungen beim Wohngeld? Bauministerium soll eine Milliarde Euro einsparen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.rnd.de/politik/drohen-kuerzungen-beim-wohngeld-bauministerium-soll-eine-milliarde-euro-einsparen-UIDTKFBYJBGCBGLGNWNO5RLIMM.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2423,15 +3009,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannten Quoten beziehen sich auf die Integrationsquoten von Teilnehmenden an arbeitsmarktpolitischen Maßnahmen. Laut Bundesagentur für Arbeit (BA) lag die Integrationsquote in den Arbeitsmarkt nach Maßnahmen der aktiven Arbeitsförderung (SGB III) im Jahr 2022 bei etwa 63 %. Für SGB II",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält im Kern richtige Informationen, weicht aber in den konkreten Zahlen ab. Laut einer Studie der Bundesagentur für Arbeit (die in anderen Quellen zitiert wird, aber hier nicht direkt verlinkt ist) liegt die sogenannte 'Integrationsquote' nach arbeitsmarktpolitischen Maßnahm",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistik_der_bundesagentur_f_r_arbeit_integrationsquoten_nach_sgb_iii_und_sgb_ii",
-      "label": "Statistik der Bundesagentur für Arbeit - Integrationsquoten nach SGB III und SGB II",
+      "id": "quelle_grundsicherung_f_r_arbeitssuchende_daten_zahlen_und_fakten_arbeitsmarktpolitik_bpb_de",
+      "label": "Grundsicherung für Arbeitssuchende: Daten, Zahlen und Fakten | Arbeitsmarktpolitik | bpb.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Arbeitsmarktpolitik/Generische-Publikationen/Integrationsquoten.pdf?__blob=publicationFile",
+      "url": "https://www.bpb.de/themen/arbeit/arbeitsmarktpolitik/315334/grundsicherung-fuer-arbeitssuchende-daten-zahlen-und-fakten/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2450,34 +3036,43 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Eine konkrete Statistik zur 'Gesamtvermittlung' in dieser Form ist nicht direkt in amtlichen Quellen auffindbar. Möglicherweise bezieht sich die Aussage auf eine spezifische Kennzahl der Bundesagentur für Arbeit, etwa die Vermittlungsquote von Arbeitslosen in Arbeit. Allerdings wird diese Q",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'die Gesamtvermittlung bei 4,9 Prozent liegt' lässt sich anhand der bereitgestellten Belege nicht bestätigen oder widerlegen. Die Belege behandeln unterschiedliche Kontexte von Vermittlungsprovisionen (z. B. Personalvermittlung mit 25–35 %, Immobilien mit 7,14 %, Freelancer mit ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_quelle",
-      "label": "-",
+      "id": "quelle_kein_passender_beleg_vorhanden",
+      "label": "Kein passender Beleg vorhanden",
       "type": "Quelle",
       "subtype": "",
-      "url": "-",
+      "url": "https://qupex.de/wiki/vermittlungsprovision/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_24",
-      "label": "Aussage: Dieser Prozess [Dialogprozess zum Bundes­teilhabe­gesetz] is…",
+      "label": "Aussage: wir haben im Dialog mit den Sozialpartnern, mit den Kommunen…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Dieser Prozess [Dialogprozess zum Bundes­teilhabe­gesetz] ist jetzt fast abgeschlossen. Die Ergebnisse werden bald zur Beratung vorliegen.",
+      "text": "wir haben im Dialog mit den Sozialpartnern, mit den Kommunen und auch mit den Ländern sehr viele Vorschläge gesammelt. Dieser Prozess ist jetzt fast abgeschlossen. Die Ergebnisse werden bald zur Beratung vorliegen. Der Prozess begann im letzten September.",
       "person": "Stefan Keuter",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_24",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf einen laufenden politischen Prozess. Es gibt keine öffentlich zugänglichen, amtlichen Dokumente oder Statistiken, die den aktuellen Stand oder ein konkretes Abschlussdatum des Dialogprozesses bestätigen.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage beschreibt einen Prozess des Dialogs mit Sozialpartnern, Kommunen und Ländern zur Sammlung von Vorschlägen, der fast abgeschlossen sei und bald zur Beratung vorliege, beginnend im letzten September. Der Beleg aus dem BMBFSFJ bestätigt, dass solche Dialogprozesse mit Ländern, Kom",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_antworten_auf_den_demografischen_wandel_bmbfsfj",
+      "label": "Antworten auf den demografischen Wandel - BMBFSFJ",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/themen/engagement-und-gesellschaft/demografischer-wandel-und-nachhaltigkeit/antworten-auf-demokratischen-wandel/antworten-auf-den-demografischen-wandel-75000",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2491,11 +3086,20 @@
     },
     {
       "id": "faktencheck_25",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine konkrete amtliche Quelle, die eine Kürzung des deutschen Beitrags zur globalen Aids-Bekämpfung um 'fast ein Viertel' belegt. Die Aussage bezieht sich möglicherweise auf den Haushaltsplan, ist aber nicht spezifisch genug, um sie als überprüfbare quantitative Tatsache zu bestäti",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Deutschland seinen Beitrag zur globalen Aids-Bekämpfung um fast ein Viertel kürzt, bezieht sich konkret auf den Globalen Fonds zur Bekämpfung von Aids, Tuberkulose und Malaria. Die Belege (Aktionsbündnis gegen AIDS, STERN.de) bestätigen eine Kürzung des deutschen Beitrags ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kampf_gegen_t_dliche_krankheiten_wie_hiv_deutschland_sagt_eine_milliarde_euro_zu",
+      "label": "Kampf gegen tödliche Krankheiten wie HIV: Deutschland sagt eine Milliarde Euro zu",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.stern.de/news/kampf-gegen-toedliche-krankheiten-wie-hiv--deutschland-sagt-eine-milliarde-euro-zu-36124952.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2509,28 +3113,28 @@
     },
     {
       "id": "faktencheck_26",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat bestätigt, dass der Beitrag zum Globalen Fonds zur Bekämpfung von Aids, Tuberkulose und Malaria für die Jahre 2023-2025 bei 1 Milliarde Euro liegt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass der Beitrag Deutschlands zum Globalen Fonds zur Bekämpfung von Aids, Tuberkulose und Malaria in den nächsten drei Jahren stabil bei 1 Milliarde Euro bleibt. Laut dem DIP-Vorgang zur Unterstützung des Globalen Fonds (Suchergebnis) gibt es zwar politische Diskussio",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_beitrag_zum_globalen_fonds",
-      "label": "Bundesregierung - Beitrag zum Globalen Fonds",
+      "id": "quelle_unterst_tzung_des_globalen_fonds_zur_bek_mpfung_von_aids_tuberkulose_und_malaria_dip",
+      "label": "Unterstützung des Globalen Fonds zur Bekämpfung von Aids, Tuberkulose und Malaria | DIP",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/aktuelles/beitrag-zum-globalen-fonds-2120012",
+      "url": "https://dip.bundestag.de/suche?term=Unser%20Beitrag%20Beispiel%20Globalen%20Fonds%20Bek%C3%A4mpfung%20Aids%20Tuberk",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_27",
-      "label": "Aussage: Genauso leisten wir mit 600.000 Millionen Euro für die Globa…",
+      "label": "Aussage: Wir leisten mit 600.000 Millionen Euro für die Globale Impfa…",
       "type": "Aussage",
       "subtype": "Die Linke",
-      "text": "Genauso leisten wir mit 600.000 Millionen Euro für die Globale Impfallianz, GAVI, für die nächsten drei Jahre einen wichtigen Beitrag.",
+      "text": "Wir leisten mit 600.000 Millionen Euro für die Globale Impfallianz, GAVI, für die nächsten drei Jahre einen wichtigen Beitrag.",
       "person": "Maren Kaminski",
       "schicht": "fallbezug"
     },
@@ -2540,15 +3144,15 @@
       "type": "Faktencheck",
       "subtype": "irreführend",
       "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannte Zahl von '600.000 Millionen Euro' ist offensichtlich falsch (600 Milliarden Euro). Richtig ist, dass Deutschland für die Jahre 2021-2025 insgesamt 600 Millionen Euro für GAVI zugesagt hat.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, Deutschland leiste '600.000 Millionen Euro' (also 600 Milliarden Euro) für die Globale Impfallianz GAVI für die nächsten drei Jahre. Dies ist offensichtlich ein Zahlendreher, da die bereitgestellten Belege von 600 Millionen Euro (nicht Milliarden) sprechen. Laut dem W",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_wirtschaftliche_zusammenarbeit_und_entwicklung_gavi_beitrag",
-      "label": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung - GAVI Beitrag",
+      "id": "quelle_nach_us_r_ckzug_deutschland_will_600_millionen_euro_bis_2030_f_r_globale_impfallianz_zahlen_welt",
+      "label": "Nach US-Rückzug: Deutschland will 600 Millionen Euro bis 2030 für globale Impfallianz zahlen - WELT",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmz.de/de/entwicklungspolitik/gavi",
+      "url": "https://www.welt.de/politik/deutschland/article256302070/nach-us-rueckzug-deutschland-will-600-millionen-euro-bis-2030-fuer-globale-impfallianz-zahlen.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2563,19 +3167,19 @@
     },
     {
       "id": "faktencheck_28",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtlichen Statistiken, die belegen, dass ein Lkw- oder Busfahrer in den 1970er/80er Jahren (Zeit der Ölkrise, Stagflation) generell eine sechsköpfige Familie allein ernähren konnte. Individuelle Biografien lassen sich nicht verallgemeinern. Daten zur damaligen Einkommenssituat",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass ein Lkw- und Busfahrer in der Vergangenheit eine Familie mit sechs Kindern allein versorgen konnte. Die bereitgestellten Belege liefern keine direkten Daten zur Einkommenssituation von Lkw- oder Busfahrern in der Vergangenheit oder zur Anzahl der Kinder, die dami",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_verdienste_und_arbeitskosten_historische_daten",
-      "label": "Statistisches Bundesamt (Destatis) – Verdienste und Arbeitskosten, historische Daten",
+      "id": "quelle_daniela_hat_genug_von_ihrem_b_rojob_und_der_rolle_als_hausfrau_und_mutter_sie_wagt_einen_neuanfang_als_lkw_fahrerin_swr_heimat",
+      "label": "Daniela hat genug von ihrem Bürojob und der Rolle als Hausfrau und Mutter – sie wagt einen Neuanfang als LKW-Fahrerin - SWR Heimat",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Arbeit/Verdienste/_inhalt.html",
+      "url": "https://www.swr.de/heimat/westerwald/daniela-hat-genug-von-haushalt-und-buerojob-sie-wird-truckerin-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2594,52 +3198,52 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die allgemeine Preisentwicklung (Inflation) in Deutschland ist durch den Verbraucherpreisindex (VPI) belegt. Seit den 1970er Jahren bis heute sind die Preise kontinuierlich gestiegen.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Die Preise sind gestiegen' wird durch mehrere Belege gestützt. Laut tagesschau.de waren die Verbraucherpreise im Januar 2026 um 2,1 Prozent höher als im Vorjahresmonat, was eine allgemeine Preissteigerung belegt. Zudem wird in den DIP-Vorgängen auf Steuermehreinnahmen durch ges",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_verbraucherpreisindex",
-      "label": "Statistisches Bundesamt (Destatis) – Verbraucherpreisindex",
+      "id": "quelle_preise_in_deutschland_zu_jahresbeginn_leicht_gestiegen_tagesschau_de",
+      "label": "Preise in Deutschland zu Jahresbeginn leicht gestiegen | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html",
+      "url": "https://www.tagesschau.de/wirtschaft/leben-in-deutschland-zuletzt-teurer-inflation-steigt-moderat-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_30",
-      "label": "Aussage: Wir legen in Kürze einen nationalen Aktionsplan vor: um die …",
+      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wir legen in Kürze einen nationalen Aktionsplan vor: um die Tarifbindung wieder zu stärken",
-      "person": "Adam Balten",
+      "subtype": "",
+      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
+      "person": "Bodo Ramelow",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_30",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Zum Zeitpunkt der Rede (Stand: aktuelle Informationen) gibt es keine veröffentlichte amtliche Quelle, die einen konkreten 'nationalen Aktionsplan' zur Stärkung der Tarifbindung bestätigt. Die Bundesregierung hat zwar Initiativen zur Tarifbindung angekündigt, aber keine überprüfbaren Zahlen ",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Mieten in Deutschland seit 2014 um 60 Prozent gestiegen sind, ist im Kern richtig, aber die genaue Prozentzahl weicht je nach Betrachtungszeitraum und regionaler Differenzierung ab. Der 'Deutschlandatlas' des Bundes verweist auf regionale Unterschiede und einen allgeme",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_arbeit_und_soziales_tarifbindung",
-      "label": "Bundesministerium für Arbeit und Soziales – Tarifbindung",
+      "id": "quelle_der_deutschlandatlas_wie_wir_wohnen_angebotsmieten",
+      "label": "Der Deutschlandatlas - Wie wir wohnen - Angebotsmieten",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmas.de/DE/Arbeit/Tarifvertrag/tarifvertrag.html",
+      "url": "https://www.deutschlandatlas.bund.de/DE/Karten/Wie-wir-wohnen/040-Mieten.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_31",
-      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
+      "label": "Aussage: In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
-      "person": "Vizepräsident Bodo Ramelow",
+      "text": "In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.",
+      "person": "Bodo Ramelow",
       "schicht": "fallbezug"
     },
     {
@@ -2648,25 +3252,25 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Mietpreisentwicklung variiert stark nach Region und Art der Wohnung. Laut Statistischem Bundesamt (Destatis) stiegen die Mieten im bundesweiten Durchschnitt zwischen 2014 und 2022 um etwa 25-30%. In Ballungsräumen wie München oder Berlin lagen die Steigerungen jedoch deutlich höher (tei",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Mieten in Berlin seit 2017 um 40 Prozent gestiegen sind, ist im Kern richtig, aber die genannte Zahl weicht von den verfügbaren Daten ab. Der Beleg von rbb24 zeigt, dass die Angebotsmieten in Berlin seit 2016 (nicht 2017) um 69 Prozent gestiegen sind. Dies bezieht sich",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_mietpreisindex",
-      "label": "Statistisches Bundesamt (Destatis) - Mietpreisindex",
+      "id": "quelle_angebotsmieten_in_berlin_fast_70_prozent_teurer_als_vor_zehn_jahren",
+      "label": "Angebotsmieten in Berlin fast 70 Prozent teurer als vor zehn Jahren",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Erzeugerpreise-baugewerblicher-Produkte/Tabellen/mietpreisindex.html",
+      "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/04/angebots-mieten-berlin-teurer-bestandsmieten.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_32",
-      "label": "Aussage: In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.…",
+      "label": "Aussage: Der soziale Wohnungsbau ist von 370.000 Wohnungen im Jahr 19…",
       "type": "Aussage",
       "subtype": "",
-      "text": "In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.",
-      "person": "Vizepräsident Bodo Ramelow",
+      "text": "Der soziale Wohnungsbau ist von 370.000 Wohnungen im Jahr 1995 auf nur noch 23.000 Wohnungen im Jahr 2022 geschrumpft.",
+      "person": "Bodo Ramelow",
       "schicht": "fallbezug"
     },
     {
@@ -2675,15 +3279,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Mietspiegel und Analysen des Berliner Senats sowie des Immobilienverbands IVD stiegen die Mieten in Berlin zwischen 2017 und 2022 in einigen Segmenten um bis zu 40%, insbesondere bei Neuvermietungen. Allerdings gibt es große Unterschiede zwischen Stadtteilen und Wohnungsgrößen. Die Aus",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält einen wahren Kern, aber die genannten Zahlen weichen deutlich von den verfügbaren Daten ab. Laut dem 'Bündnis für bezahlbares Wohnen und Bauen' (Bundesministerium des Innern, 2021) sank die Zahl der geförderten Sozialwohnungen tatsächlich von etwa 370.000 im Jahr 1995 au",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_senatsverwaltung_f_r_stadtentwicklung_und_wohnen_berlin_mietspiegel_2021",
-      "label": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin - Mietspiegel 2021",
+      "id": "quelle_baufertigstellungen_von_wohnungen_in_deutschland_bis_2024_statista",
+      "label": "Baufertigstellungen von Wohnungen in Deutschland bis 2024 | Statista",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.stadtentwicklung.berlin.de/wohnen/wohnungspolitik/mietspiegel/de/index.shtml",
+      "url": "https://de.statista.com/statistik/daten/studie/39008/umfrage/baufertigstellungen-von-wohnungen-in-deutschland/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2698,42 +3302,24 @@
     },
     {
       "id": "faktencheck_33",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, repräsentative Umfrage oder Studie, die belegt, dass Friedrich Merz (als fiktiver Kanzler in dieser Rede) nach einem Jahr schlechter bewertet wird als alle bisherigen Kanzler der Bundesrepublik. Zudem ist Friedrich Merz aktuell nicht Bundeskanzler, was ",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, Friedrich Merz sei nach einem Jahr Regierung der unbeliebteste Kanzler in der Geschichte der Bundesrepublik Deutschland. Die bereitgestellten Belege stützen diese Aussage nicht. Der erste Beleg (linke.de) spricht zwar von Merz als 'unbeliebtester demokratisch gewählte",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_34",
-      "label": "Aussage: Unsere Industrie verliert jeden Monat – jeden Monat! – Zehnt…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Unsere Industrie verliert jeden Monat – jeden Monat! – Zehntausende Industriearbeitsplätze.",
-      "person": ",Vizepräsident Bodo Ramelow",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_34",
-      "label": "Faktencheck: irreführend",
-      "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Zahl der sozialversicherungspflichtig Beschäftigten in der Industrie ist rückläufig, aber nicht in der genannten Größenordnung. Laut Bundesagentur für Arbeit (BA) gab es im Verarbeitenden Gewerbe (Industrie) im Juni 2023 etwa 7,5 Mio. sozialversicherungspflichtig Beschäftigte. Ein monat",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundesagentur_f_r_arbeit_sozialversicherungspflichtig_besch_ftigte_nach_wirtschaftszweigen",
-      "label": "Bundesagentur für Arbeit - Sozialversicherungspflichtig Beschäftigte nach Wirtschaftszweigen",
+      "id": "quelle_friedrich_merz_rekonstruktion_eines_schleichenden_autorit_tsverlusts",
+      "label": "Friedrich Merz: Rekonstruktion eines schleichenden Autoritätsverlusts",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Statistiken-Nav.html",
+      "url": "https://www.handelsblatt.com/politik/deutschland/friedrich-merz-rekonstruktion-eines-schleichenden-autoritaetsverlusts/100229452.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_35",
+      "id": "aussage_34",
       "label": "Aussage: Schon 2029 ist kein Geld mehr da, nur noch für Zinsen, Sozia…",
       "type": "Aussage",
       "subtype": "",
@@ -2742,20 +3328,47 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_35",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_34",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Aussage ist eine Prognose ohne belastbare Grundlage. Die mittelfristige Finanzplanung des Bundes (bis 2027) zeigt zwar steigende Ausgaben für Zinsen, Soziales und Verteidigung, aber keine vollständige Verdrängung aller anderen Ausgaben bis 2029. Solche Szenarien hängen von vielen Vari",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass 'schon 2029 kein Geld mehr da ist, nur noch für Zinsen, Soziales und Verteidigung', ist im Kern richtig, aber die Formulierung ist vereinfacht und dramatisierend. Die Belege zeigen, dass die Ausgaben für Zinsen (laut WELT bis 2030 auf 80 Mrd. Euro steigend), Soziales (durc",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_der_finanzen_mittelfristige_finanzplanung_des_bundes",
-      "label": "Bundesministerium der Finanzen - Mittelfristige Finanzplanung des Bundes",
+      "id": "quelle_deutschland_2029_wenn_soziales_zinsen_und_verteidigung_alles_fressen",
+      "label": "Deutschland 2029 – wenn Soziales, Zinsen und Verteidigung alles fressen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Oeffentliche_Finanzen/Haushaltsplanung/2023-12-13-mittelfristige-finanzplanung.html",
+      "url": "https://finanzblatt.net/politik/deutschland-2029-wenn-soziales-zinsen-und-verteidigung-alles-fressen.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_35",
+      "label": "Aussage: Unsere Industrie verliert jeden Monat – jeden Monat! – Zehnt…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Unsere Industrie verliert jeden Monat – jeden Monat! – Zehntausende Industriearbeitsplätze.",
+      "person": ",Vizepräsident Bodo Ramelow",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_35",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die deutsche Industrie 'jeden Monat Zehntausende Industriearbeitsplätze' verliert, ist im Kern richtig, aber die genaue Zahl weicht ab. Die Belege zeigen, dass der Jobabbau in der Industrie bei etwa 10.000 bis 15.000 pro Monat liegt (vgl. Gesamtmetall: 10.000; Oiger: 15.00",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_deutsche_industrie_verliert_derzeit_15_000_jobs_pro_monat_oiger",
+      "label": "Deutsche Industrie verliert derzeit 15.000 Jobs pro Monat - Oiger",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://oiger.de/2026/02/25/deutsche-industrie-verliert-derzeit-15-000-jobs-pro-monat/196735",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2774,15 +3387,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf Pläne zur Erhöhung des Verteidigungsetats, die im Rahmen der Zeitenwende diskutiert werden. Der aktuelle Verteidigungshaushalt (2024) liegt bei etwa 51,9 Mrd. Euro (Soll). Eine Verdreifachung auf 180 Mrd. Euro wäre eine Steigerung um ca. 128 Mrd. Euro, nicht 120",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet eine Verdreifachung des Verteidigungsetats auf 180 Milliarden Euro pro Jahr, wobei ein Plus von 120 Milliarden Euro genannt wird. Die Belege zeigen jedoch, dass der Verteidigungshaushalt bis 2029 auf etwa 152,8 Milliarden Euro steigen soll, was einer Verdreifachung geg",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeshaushaltsplan_2024_einzelplan_14_verteidigung",
-      "label": "Bundeshaushaltsplan 2024 – Einzelplan 14 (Verteidigung)",
+      "id": "quelle_rekordverschuldung_f_r_verteidigung_kabinett_billigt_bundeshaushalt_mdr_de",
+      "label": "Rekordverschuldung für Verteidigung: Kabinett billigt Bundeshaushalt | MDR.DE",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeshaushalt.de/DE/Home/home_node.html",
+      "url": "https://www.mdr.de/nachrichten/deutschland/haushalt-verteidigung-ausgaben-schulden-klingbeil-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2797,11 +3410,20 @@
     },
     {
       "id": "faktencheck_37",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Quelle, die einen konkreten Anstieg der Neuverschuldung um genau 150 Mrd. Euro für die kommenden Jahre bestätigt. Die Neuverschuldung unterliegt jährlichen Schwankungen und ist abhängig von Haushaltsbeschlüssen. Eine solche konkrete Zahl ist aktuell nicht belastbar be",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Anstieg der Neuverschuldung um 150 Milliarden Euro' ist im Kern richtig, aber unpräzise. Die Belege zeigen, dass die Neuverschuldung bis 2030 auf 152,7 Milliarden Euro ansteigen soll (FAZ). Allerdings bezieht sich dies auf den absoluten Betrag, nicht auf den Anstieg um 150 Mill",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_neuverschuldung_soll_2027_auf_110_8_milliarden_euro_steigen_faz",
+      "label": "Neuverschuldung soll 2027 auf 110,8 Milliarden Euro steigen | FAZ",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.faz.net/aktuell/wirtschaft/neuverschuldung-soll-2027-auf-110-8-milliarden-euro-steigen-accg-200776761.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2819,15 +3441,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Zinsausgaben des Bundes steigen tatsächlich. Für 2024 sind Zinsausgaben in Höhe von ca. 40 Mrd. Euro veranschlagt (Bundeshaushalt 2024). Prognosen gehen von einem Anstieg auf bis zu 80 Mrd. Euro bis 2027 aus, abhängig von Zinsentwicklungen. Die Aussage ist daher in der Tendenz richtig, ",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet einen Anstieg der Zinslasten von 30 auf 80 Milliarden Euro pro Jahr, was einer Steigerung von 50 Milliarden Euro entspricht. Die bereitgestellten Belege zeigen jedoch unterschiedliche Prognosen: Ein Beleg spricht von einer Verdopplung von 30 auf fast 60 Milliarden Euro",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeshaushaltsplan_2024_einzelplan_32_zinsausgaben",
-      "label": "Bundeshaushaltsplan 2024 – Einzelplan 32 (Zinsausgaben)",
+      "id": "quelle_deutschland_steuert_auf_100_milliarden_euro_zinsen_im_jahr_zu_web_de",
+      "label": "Deutschland steuert auf 100 Milliarden Euro Zinsen im Jahr zu | WEB.DE",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeshaushalt.de/DE/Home/home_node.html",
+      "url": "https://web.de/magazine/politik/inland/deutschland-steuert-100-milliarden-euro-zinsen-jahr-41227026",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2842,33 +3464,24 @@
     },
     {
       "id": "faktencheck_39",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Quelle, die eine zusätzliche Neuverschuldung von genau 1 Billion Euro bis 2030 bestätigt. Die Schuldenentwicklung hängt von vielen Faktoren ab (z. B. Wirtschaftswachstum, Zinsen, Haushaltsbeschlüsse). Eine solche konkrete Prognose ist nicht offiziell belegt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'bis Ende des Jahrzehnts 1 Billion Euro zusätzliche Schulden' wird durch die Belege gestützt, allerdings mit wichtigen Nuancen. Die Artikel der 'Morgenpost' und der 'Deutschen Welle' bestätigen, dass Sonderausgaben in Höhe von rund einer Billion Euro für Verteidigung, Infrastruk",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundestag_stimmt_f_r_eine_billion_euro_neue_schulden",
+      "label": "Bundestag stimmt für eine Billion Euro neue Schulden",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.dw.com/de/bundestag-abstimmung-heute-live-grundgesetzaenderung-sondervermoegen-schuldenbremse-v1/a-71936390",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_40",
-      "label": "Aussage: Gesundheitsreform und 16 Milliarden Euro…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Gesundheitsreform und 16 Milliarden Euro",
-      "person": "Tilman Kuban",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_40",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich vermutlich auf die geplante Krankenhausreform oder andere Gesundheitsmaßnahmen. Es gibt jedoch keine amtliche Bestätigung, dass eine konkrete Reform mit einem Volumen von 16 Mrd. Euro beschlossen oder geplant ist. Die Zahl ist daher nicht überprüfbar.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_41",
       "label": "Aussage: Als größte Volkswirtschaft in Europa müssen wir sowohl die E…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -2877,25 +3490,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_41",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_40",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Deutschland ist die größte Volkswirtschaft in Europa gemessen am Bruttoinlandsprodukt (BIP). Die Europäische Kommission hat am 26.02.2024 Empfehlungen zur Unterwasserkabel-Sicherheit veröffentlicht, und es existiert ein EU-Aktionsplan zur Kabelsicherheit.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich korrekt auf die Empfehlung (EU) 2024/779 der Kommission vom 26.02.24 (Beleg: Umwelt-online) und den EU-Aktionsplan zur Kabelsicherheit (Beleg: Vertretung der EU-Kommission in Deutschland). Allerdings ist die Datumsangabe im Aktionsplan irreführend: Der Aktionsplan w",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_eurostat_bruttoinlandsprodukt_bip_nach_mitgliedstaaten",
-      "label": "Eurostat - Bruttoinlandsprodukt (BIP) nach Mitgliedstaaten",
+      "id": "quelle_mehr_sicherheit_f_r_kritische_infrastruktur_aktionsplan_f_r_unterseekabel_vertretung_in_deutschland",
+      "label": "Mehr Sicherheit für kritische Infrastruktur: Aktionsplan für Unterseekabel - Vertretung in Deutschland",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20240308-1",
+      "url": "https://germany.representation.ec.europa.eu/news/mehr-sicherheit-fur-kritische-infrastruktur-aktionsplan-fur-unterseekabel-2025-02-21_de",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_42",
+      "id": "aussage_41",
       "label": "Aussage: bei der Jahrestagung der Parlamentarischen Versammlung der O…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -2904,25 +3517,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_42",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_41",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Parlamentarische Versammlung der OSZE hielt ihre Jahrestagung 2023 in Porto, Portugal, ab.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die 'Jahrestagung der Parlamentarischen Versammlung der OSZE im vergangenen Jahr in Porto'. Laut den bereitgestellten Belegen fand die 32. Jahrestagung der Parlamentarischen Versammlung der OSZE jedoch vom 29. Juni bis 3. Juli 2025 statt. Da das aktuelle Jahr 20",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_osce_parliamentary_assembly_2023_annual_session",
-      "label": "OSCE Parliamentary Assembly - 2023 Annual Session",
+      "id": "quelle_deutscher_bundestag_parlamentarische_versammlung_der_osze_trifft_sich_zur_32_jahrestagung_in_portugal",
+      "label": "Deutscher Bundestag - Parlamentarische Versammlung der OSZE trifft sich zur 32. Jahrestagung in Portugal",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.oscepa.org/meetings/annual-sessions/2023-annual-session-porto",
+      "url": "https://www.bundestag.de/presse/pressemitteilungen/2025/pm-250625-osze-1095462",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_43",
+      "id": "aussage_42",
       "label": "Aussage: Seit dem Regierungswechsel im Mai 2025 hat die Bundespolizei…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2931,16 +3544,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_43",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_42",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen amtlichen Statistiken oder Berichte der Bundespolizei, die diese konkreten Zahlen für den Zeitraum Mai 2025 bis Mai 2026 bestätigen. Die Bundespolizei veröffentlicht regelmäßig Lageberichte, aber eine aktuelle Quelle für diese spezifischen Daten liegt n",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält im Kern richtige Angaben, weicht aber in den Zahlen deutlich von den Belegen ab. Die WELT berichtet von über 1.100 Schleuser-Festnahmen (nicht 1.300), die Weltwoche nennt mehr als 6.700 Personen mit Haftbefehl (nicht 8.700), und DIE ZEIT spricht von 274 Schleusern und 1.",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_44",
+      "id": "quelle_asylpolitik_grenzkontrollen_f_hren_zu_tausenden_festnahmen_welt",
+      "label": "Asylpolitik: Grenzkontrollen führen zu Tausenden Festnahmen - WELT",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.welt.de/politik/article69a1bcacd7d06da94a11c88e/asylpolitik-grenzkontrollen-fuehren-zu-tausenden-festnahmen.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_43",
       "label": "Aussage: Dass irreguläre Migration unsere öffentliche Ordnung und uns…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2949,38 +3571,47 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_44",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält keine überprüfbaren quantitativen Tatsachenbehauptungen, sondern allgemeine Aussagen zur Organisierten Kriminalität und Schleusungskosten. Konkrete Zahlen oder Statistiken werden nicht genannt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_45",
-      "label": "Aussage: Bei Mord- und Totschlagsdelikten, schweren Sexualverbrechen …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Bei Mord- und Totschlagsdelikten, schweren Sexualverbrechen und der Messerkriminalität steigen die Zahlen immer weiter an.",
-      "person": "Thomas Silberhorn",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_45",
+      "id": "faktencheck_43",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut der Polizeilichen Kriminalstatistik (PKS) des Bundeskriminalamts (BKA) gab es in den letzten Jahren Schwankungen bei den genannten Deliktarten. Für 2023 zeigt die PKS beispielsweise einen Anstieg bei Mord- und Totschlagsdelikten (+12,3%) und schweren Sexualdelikten (+6,4%), während die",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage verbindet irreguläre Migration mit Gefährdungen der öffentlichen Ordnung und inneren Sicherheit sowie mit Organisierter Kriminalität (OK) und Schleuserkriminalität. Der Beleg von der Bundeszentrale für politische Bildung (bpb) bestätigt, dass es komplexe Zusammenhänge zwischen M",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_polizeiliche_kriminalstatistik_2023",
-      "label": "Polizeiliche Kriminalstatistik 2023",
+      "id": "quelle_migration_und_sicherheit_bpb_de",
+      "label": "Migration und Sicherheit | bpb.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2023/pks2023_node.html",
+      "url": "https://www.bpb.de/themen/migration-integration/kurzdossiers/migration-und-sicherheit/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_44",
+      "label": "Aussage: Daran kann auch ein leichter Rückgang der Gewalttaten im Jah…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Daran kann auch ein leichter Rückgang der Gewalttaten im Jahr 2025 nichts ändern. Denn in wesentlichen Kernbereichen der Gewaltkriminalität haben wir weiterhin starke Anstiege zu verzeichnen. Bei Mord- und Totschlagsdelikten, schweren Sexualverbrechen und der Messerkriminalität steigen die Zahlen im",
+      "person": "Thomas Silberhorn",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_44",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, aber in der Darstellung verzerrt. Laut den Belegen des BKA (Polizeiliche Kriminalstatistik 2025) gibt es einen **gesamtgesellschaftlichen Rückgang der Gewaltkriminalität um -5,6 Prozent**, insbesondere bei Raubdelikten. Allerdings wird bestätigt, dass es in ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_polizeiliche_kriminalstatistik_2025_bka",
+      "label": "Polizeiliche Kriminalstatistik 2025 - BKA",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2025/Polizeiliche_Kriminalstatistik_2025/Polizeiliche_Kriminalstatistik_2025_node.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -11023,531 +11654,6 @@
       "start_sec": "",
       "herkunft": "protokoll",
       "schicht": "reaktion"
-    },
-    {
-      "id": "person_b_rbel_bas",
-      "label": "Bärbel Bas",
-      "type": "Person",
-      "subtype": "Bundesministerin für Arbeit und Soziales",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_reem_alabali_radovan",
-      "label": "Reem Alabali Radovan",
-      "type": "Person",
-      "subtype": "Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ren_springer",
-      "label": "René Springer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_peter_aumer",
-      "label": "Peter Aumer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ricarda_lang",
-      "label": "Ricarda Lang",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_daniela_rump",
-      "label": "Daniela Rump",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_s_ren_pellmann",
-      "label": "Sören Pellmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rocco_kever",
-      "label": "Rocco Kever",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_schahina_gambir",
-      "label": "Schahina Gambir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicolas_zippelius",
-      "label": "Nicolas Zippelius",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_jan_niclas_gesenhues",
-      "label": "Dr. Jan-Niclas Gesenhues",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_philip_m_a_hoffmann",
-      "label": "Philip M. A. Hoffmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ulle_schauws",
-      "label": "Ulle Schauws",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_serdar_y_ksel",
-      "label": "Serdar Yüksel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_denis_pauli",
-      "label": "Denis Pauli",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sarah_vollath",
-      "label": "Sarah Vollath",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_keuter",
-      "label": "Stefan Keuter",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_armin_grau",
-      "label": "Dr. Armin Grau",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ulrike_schielke_ziesing",
-      "label": "Ulrike Schielke-Ziesing",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_timon_dzienus",
-      "label": "Timon Dzienus",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_pascal_meiser",
-      "label": "Pascal Meiser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_j_rgen_go_ner",
-      "label": "Hans-Jürgen Goßner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_cansin_k_kt_rk",
-      "label": "Cansin Köktürk",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stephan_brandner",
-      "label": "Stephan Brandner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jan_feser",
-      "label": "Jan Feser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_wilfried_oellers",
-      "label": "Wilfried Oellers",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sylvia_rietenberg",
-      "label": "Sylvia Rietenberg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rasha_nasr",
-      "label": "Rasha Nasr",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_maren_kaminski",
-      "label": "Maren Kaminski",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_deborah_d_ring",
-      "label": "Deborah Düring",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_adam_balten",
-      "label": "Adam Balten",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_rainer_kraft",
-      "label": "Dr. Rainer Kraft",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_volkmann",
-      "label": "Johannes Volkmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_wolfgang_stefinger",
-      "label": "Dr. Wolfgang Stefinger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bodo_ramelow",
-      "label": "Bodo Ramelow",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_bernd_baumann",
-      "label": "Dr. Bernd Baumann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_gitta_connemann",
-      "label": "Gitta Connemann",
-      "type": "Person",
-      "subtype": "Parl. Staatssekretärin bei der Bundesministerin für Wirtschaft und Energie",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_julian_joswig",
-      "label": "Julian Joswig",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sebastian_roloff",
-      "label": "Sebastian Roloff",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mirze_edis",
-      "label": "Mirze Edis",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_klaus_wiener",
-      "label": "Dr. Klaus Wiener",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_leif_erik_holm",
-      "label": "Leif-Erik Holm",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mahmut_zdemir",
-      "label": "Mahmut Özdemir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sandra_stein",
-      "label": "Sandra Stein",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tilman_kuban",
-      "label": "Tilman Kuban",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_malte_kaufmann",
-      "label": "Dr. Malte Kaufmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_beatrix_von_storch",
-      "label": "Beatrix von Storch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_felix_schreiner",
-      "label": "Felix Schreiner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_koller",
-      "label": "Hans Koller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_josephine_ortleb",
-      "label": "Josephine Ortleb",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_markus_frohnmaier",
-      "label": "Markus Frohnmaier",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nancy_faeser",
-      "label": "Nancy Faeser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jan_k_stering",
-      "label": "Jan Köstering",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bastian_ernst",
-      "label": "Bastian Ernst",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christoph_schmid",
-      "label": "Christoph Schmid",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tobias_winkler",
-      "label": "Tobias Winkler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_marcel_emmerich",
-      "label": "Marcel Emmerich",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_alexander_throm",
-      "label": "Alexander Throm",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_christian_wirth",
-      "label": "Dr. Christian Wirth",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_clara_b_nger",
-      "label": "Clara Bünger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_detlef_seif",
-      "label": "Detlef Seif",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_markus_matzerath",
-      "label": "Markus Matzerath",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hakan_demir",
-      "label": "Hakan Demir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_seidler",
-      "label": "Stefan Seidler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_thomas_silberhorn",
-      "label": "Thomas Silberhorn",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_hess",
-      "label": "Martin Hess",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_luigi_pantisano",
-      "label": "Luigi Pantisano",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_frederik_bouffier",
-      "label": "Frederik Bouffier",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_irene_mihalic",
-      "label": "Dr. Irene Mihalic",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ingo_vogel",
-      "label": "Ingo Vogel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_florian_oest",
-      "label": "Florian Oest",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_arne_raue",
-      "label": "Arne Raue",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helge_lindh",
-      "label": "Helge Lindh",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_siegfried_walch",
-      "label": "Siegfried Walch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andrea_lindholz",
-      "label": "Andrea Lindholz",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
     }
   ],
   "relationships": [
@@ -13630,11 +13736,11 @@
       "source_id": "aussage_0",
       "target_id": "faktencheck_0",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_kommunen_unterst_tzen_deutschland_modernisieren_bundesfinanzministerium_presse",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13651,11 +13757,11 @@
       "source_id": "aussage_1",
       "target_id": "faktencheck_1",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_bundesministerium_f_r_wirtschaft_und_klimaschutz_tariftreue_und_vergabegesetz",
+      "target_id": "quelle_vergabe_ffentlicher_auftr_ge_tariftreuegesetz_beschlossen_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13676,7 +13782,7 @@
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_bundesregierung_b_rgergeld",
+      "target_id": "quelle_kabinett_beschlie_t_erleichterung_f_r_familien_k_nftig_soll_das_kindergeld_ab_geburt_ohne_antrag_ausgezahlt_werden_bundesfinanzministerium_presse",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13693,11 +13799,11 @@
       "source_id": "aussage_3",
       "target_id": "faktencheck_3",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_dip_vorgang_arbeitsauftr_ge_der_alterssicherungskommission",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13714,11 +13820,11 @@
       "source_id": "aussage_4",
       "target_id": "faktencheck_4",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_berufsbildungsbericht_2024",
+      "target_id": "quelle_bundeswehr_erh_lt_deutlich_mehr_bewerbungen_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13739,7 +13845,7 @@
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_berufsbildungsbericht_2024",
+      "target_id": "quelle_besorgniserregender_r_ckgang_bei_ausbildungsvertr_gen_in_deutschland_historischer_tiefstand_setzt_sich_fort_bildungsverband_bbb",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13760,7 +13866,7 @@
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_drucksache_20_10000_abschlussbericht_der_kommission_zur_sozialstaatsreform",
+      "target_id": "quelle_sozialstaatskommission_legt_bericht_zur_modernisierung_und_digitalisierung_des_sozialstaats_vor",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13781,7 +13887,7 @@
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_drucksache_20_10000_abschlussbericht_der_kommission_zur_sozialstaatsreform",
+      "target_id": "quelle_kein_passender_beleg_in_der_liste",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13798,11 +13904,11 @@
       "source_id": "aussage_8",
       "target_id": "faktencheck_8",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_gutachten_zur_verg_tung_in_werkst_tten_f_r_behinderte_menschen_wfbm",
+      "target_id": "quelle_behindertenwerkst_tten_warum_sie_unter_mindestlohn_zahlen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13819,11 +13925,11 @@
       "source_id": "aussage_9",
       "target_id": "faktencheck_9",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_keine_amtliche_quelle_verf_gbar_zuk_nftiges_ereignis",
+      "target_id": "quelle_wirtschaft_und_entwicklung_ein_aktionsplan_mit_begrenzten_ambitionen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13840,11 +13946,11 @@
       "source_id": "aussage_10",
       "target_id": "faktencheck_10",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_keine_belastbare_quelle_bekannt",
+      "target_id": "quelle_sector_calls_f_r_den_deutsch_kenianischen_wirtschaftstag_2026_agentur_f_r_wirtschaft_entwicklung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13861,11 +13967,11 @@
       "source_id": "aussage_11",
       "target_id": "faktencheck_11",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_nach_k_rzung_von_us_hilfe_un_aidsprogramm_bef_rchtet_millionen_tote_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13882,11 +13988,11 @@
       "source_id": "aussage_12",
       "target_id": "faktencheck_12",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_12",
-      "target_id": "quelle_bundeshaushaltsplan_2023_und_2024_einzelplan_23_bmz",
+      "target_id": "quelle_k_rzungen_im_etat_f_r_wirtschaftliche_zusammenarbeit_und_entwicklung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13903,11 +14009,11 @@
       "source_id": "aussage_13",
       "target_id": "faktencheck_13",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_13",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_russland_und_seine_brics_partner_setzen_auf_eigenen_w_hrungsfonds_russia_beyond_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13928,7 +14034,7 @@
     },
     {
       "source_id": "faktencheck_14",
-      "target_id": "quelle_bmz_schulern_hrung_weltweit_st_rken",
+      "target_id": "quelle_weltweit_erhalten_so_viele_kinder_t_glich_schulmahlzeiten_wie_noch_nie_doch_lange_nicht_alle_perspective_daily",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13945,11 +14051,11 @@
       "source_id": "aussage_15",
       "target_id": "faktencheck_15",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_15",
-      "target_id": "quelle_gesetz_zur_anpassung_der_regelaltersgrenze_an_die_demografische_entwicklung_und_zur_st_rkung_der_finanzierungsgrundlagen_der_gesetzlichen_rentenversicherung_rv_altersgrenzenanpassungsgesetz",
+      "target_id": "quelle_regelaltersrente_anhebung_regelaltersgrenze",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13966,11 +14072,11 @@
       "source_id": "aussage_16",
       "target_id": "faktencheck_16",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_16",
-      "target_id": "quelle_deutsche_rentenversicherung_rentenanpassung_und_altersgrenzen",
+      "target_id": "quelle_regelaltersgrenze_wann_kann_ich_in_rente_gehen_vz_verm_genszentrum",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13987,11 +14093,11 @@
       "source_id": "aussage_17",
       "target_id": "faktencheck_17",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_17",
-      "target_id": "quelle_destatis_durchschnittliche_lebenserwartung_in_deutschland",
+      "target_id": "quelle_so_ist_die_lebenserwartung_von_rentnern_gestiegen_ihre_vorsorge",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14012,7 +14118,7 @@
     },
     {
       "source_id": "faktencheck_18",
-      "target_id": "quelle_alterssicherungsbericht_2020_der_bundesregierung",
+      "target_id": "quelle_altersarmut_sorge_um_finanzielle_absicherung_im_alter_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14033,7 +14139,7 @@
     },
     {
       "source_id": "faktencheck_19",
-      "target_id": "quelle_bundesministerium_f_r_arbeit_und_soziales_rentenpaket_2018",
+      "target_id": "quelle_bundestag_beschlie_t_das_rentenpaket",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14054,7 +14160,7 @@
     },
     {
       "source_id": "faktencheck_20",
-      "target_id": "quelle_wohngeld_und_mietenbericht_2021",
+      "target_id": "quelle_wohngeld_beantragen_2026_anspruch_h_he_tipps_finanztip",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14071,11 +14177,11 @@
       "source_id": "aussage_21",
       "target_id": "faktencheck_21",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_21",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_drohen_k_rzungen_beim_wohngeld_bauministerium_soll_eine_milliarde_euro_einsparen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14096,7 +14202,7 @@
     },
     {
       "source_id": "faktencheck_22",
-      "target_id": "quelle_statistik_der_bundesagentur_f_r_arbeit_integrationsquoten_nach_sgb_iii_und_sgb_ii",
+      "target_id": "quelle_grundsicherung_f_r_arbeitssuchende_daten_zahlen_und_fakten_arbeitsmarktpolitik_bpb_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14117,7 +14223,7 @@
     },
     {
       "source_id": "faktencheck_23",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14134,11 +14240,11 @@
       "source_id": "aussage_24",
       "target_id": "faktencheck_24",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_24",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_antworten_auf_den_demografischen_wandel_bmbfsfj",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14155,11 +14261,11 @@
       "source_id": "aussage_25",
       "target_id": "faktencheck_25",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_25",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_kampf_gegen_t_dliche_krankheiten_wie_hiv_deutschland_sagt_eine_milliarde_euro_zu",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14176,11 +14282,11 @@
       "source_id": "aussage_26",
       "target_id": "faktencheck_26",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_26",
-      "target_id": "quelle_bundesregierung_beitrag_zum_globalen_fonds",
+      "target_id": "quelle_unterst_tzung_des_globalen_fonds_zur_bek_mpfung_von_aids_tuberkulose_und_malaria_dip",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14201,7 +14307,7 @@
     },
     {
       "source_id": "faktencheck_27",
-      "target_id": "quelle_bundesministerium_f_r_wirtschaftliche_zusammenarbeit_und_entwicklung_gavi_beitrag",
+      "target_id": "quelle_nach_us_r_ckzug_deutschland_will_600_millionen_euro_bis_2030_f_r_globale_impfallianz_zahlen_welt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14218,11 +14324,11 @@
       "source_id": "aussage_28",
       "target_id": "faktencheck_28",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_28",
-      "target_id": "quelle_statistisches_bundesamt_destatis_verdienste_und_arbeitskosten_historische_daten",
+      "target_id": "quelle_daniela_hat_genug_von_ihrem_b_rojob_und_der_rolle_als_hausfrau_und_mutter_sie_wagt_einen_neuanfang_als_lkw_fahrerin_swr_heimat",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14243,11 +14349,11 @@
     },
     {
       "source_id": "faktencheck_29",
-      "target_id": "quelle_statistisches_bundesamt_destatis_verbraucherpreisindex",
+      "target_id": "quelle_preise_in_deutschland_zu_jahresbeginn_leicht_gestiegen_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_adam_balten",
+      "source_id": "person_bodo_ramelow",
       "target_id": "aussage_30",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -14260,11 +14366,11 @@
       "source_id": "aussage_30",
       "target_id": "faktencheck_30",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_30",
-      "target_id": "quelle_bundesministerium_f_r_arbeit_und_soziales_tarifbindung",
+      "target_id": "quelle_der_deutschlandatlas_wie_wir_wohnen_angebotsmieten",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14285,7 +14391,7 @@
     },
     {
       "source_id": "faktencheck_31",
-      "target_id": "quelle_statistisches_bundesamt_destatis_mietpreisindex",
+      "target_id": "quelle_angebotsmieten_in_berlin_fast_70_prozent_teurer_als_vor_zehn_jahren",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14306,11 +14412,11 @@
     },
     {
       "source_id": "faktencheck_32",
-      "target_id": "quelle_senatsverwaltung_f_r_stadtentwicklung_und_wohnen_berlin_mietspiegel_2021",
+      "target_id": "quelle_baufertigstellungen_von_wohnungen_in_deutschland_bis_2024_statista",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_bodo_ramelow",
+      "source_id": "person_vizepr_sident_bodo_ramelow",
       "target_id": "aussage_33",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -14323,15 +14429,15 @@
       "source_id": "aussage_33",
       "target_id": "faktencheck_33",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_33",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_friedrich_merz_rekonstruktion_eines_schleichenden_autorit_tsverlusts",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_bodo_ramelow",
+      "source_id": "person_vizepr_sident_bodo_ramelow",
       "target_id": "aussage_34",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -14344,15 +14450,15 @@
       "source_id": "aussage_34",
       "target_id": "faktencheck_34",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_34",
-      "target_id": "quelle_bundesagentur_f_r_arbeit_sozialversicherungspflichtig_besch_ftigte_nach_wirtschaftszweigen",
+      "target_id": "quelle_deutschland_2029_wenn_soziales_zinsen_und_verteidigung_alles_fressen",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_bodo_ramelow",
+      "source_id": "person_vizepr_sident_bodo_ramelow",
       "target_id": "aussage_35",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -14365,11 +14471,11 @@
       "source_id": "aussage_35",
       "target_id": "faktencheck_35",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_35",
-      "target_id": "quelle_bundesministerium_der_finanzen_mittelfristige_finanzplanung_des_bundes",
+      "target_id": "quelle_deutsche_industrie_verliert_derzeit_15_000_jobs_pro_monat_oiger",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14390,7 +14496,7 @@
     },
     {
       "source_id": "faktencheck_36",
-      "target_id": "quelle_bundeshaushaltsplan_2024_einzelplan_14_verteidigung",
+      "target_id": "quelle_rekordverschuldung_f_r_verteidigung_kabinett_billigt_bundeshaushalt_mdr_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14407,11 +14513,11 @@
       "source_id": "aussage_37",
       "target_id": "faktencheck_37",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_37",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_neuverschuldung_soll_2027_auf_110_8_milliarden_euro_steigen_faz",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14432,7 +14538,7 @@
     },
     {
       "source_id": "faktencheck_38",
-      "target_id": "quelle_bundeshaushaltsplan_2024_einzelplan_32_zinsausgaben",
+      "target_id": "quelle_deutschland_steuert_auf_100_milliarden_euro_zinsen_im_jahr_zu_web_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14449,32 +14555,32 @@
       "source_id": "aussage_39",
       "target_id": "faktencheck_39",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_39",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_bundestag_stimmt_f_r_eine_billion_euro_neue_schulden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_tilman_kuban",
+      "source_id": "person_christoph_schmid",
       "target_id": "aussage_40",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_40",
-      "target_id": "top_3",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_40",
       "target_id": "faktencheck_40",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_40",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_mehr_sicherheit_f_r_kritische_infrastruktur_aktionsplan_f_r_unterseekabel_vertretung_in_deutschland",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14491,32 +14597,32 @@
       "source_id": "aussage_41",
       "target_id": "faktencheck_41",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_41",
-      "target_id": "quelle_eurostat_bruttoinlandsprodukt_bip_nach_mitgliedstaaten",
+      "target_id": "quelle_deutscher_bundestag_parlamentarische_versammlung_der_osze_trifft_sich_zur_32_jahrestagung_in_portugal",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_christoph_schmid",
+      "source_id": "person_thomas_silberhorn",
       "target_id": "aussage_42",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_42",
-      "target_id": "top_4",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_42",
       "target_id": "faktencheck_42",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_42",
-      "target_id": "quelle_osce_parliamentary_assembly_2023_annual_session",
+      "target_id": "quelle_asylpolitik_grenzkontrollen_f_hren_zu_tausenden_festnahmen_welt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14533,11 +14639,11 @@
       "source_id": "aussage_43",
       "target_id": "faktencheck_43",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_43",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_migration_und_sicherheit_bpb_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14554,32 +14660,11 @@
       "source_id": "aussage_44",
       "target_id": "faktencheck_44",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
-    },
-    {
-      "source_id": "faktencheck_44",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_thomas_silberhorn",
-      "target_id": "aussage_45",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_45",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_45",
-      "target_id": "faktencheck_45",
-      "relationship_type": "GEPRUEFT_ALS",
       "verdikt": "teilweise"
     },
     {
-      "source_id": "faktencheck_45",
-      "target_id": "quelle_polizeiliche_kriminalstatistik_2023",
+      "source_id": "faktencheck_44",
+      "target_id": "quelle_polizeiliche_kriminalstatistik_2025_bka",
       "relationship_type": "BELEGT_MIT"
     },
     {

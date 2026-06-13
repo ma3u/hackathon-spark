@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 840,
-    "relationship_count": 1506,
+    "node_count": 911,
+    "relationship_count": 1590,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21070.pdf",
@@ -40,10 +40,45 @@
       "schicht": "zeitlich"
     },
     {
+      "id": "person_julia_kl_ckner",
+      "label": "Julia Klöckner",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_stefanie_hubig",
+      "label": "Dr. Stefanie Hubig",
+      "type": "Person",
+      "subtype": "Bundesministerin der Justiz und für Verbraucherschutz",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_karsten_wildberger",
+      "label": "Dr. Karsten Wildberger",
+      "type": "Person",
+      "subtype": "Bundesminister für Digitales und Staatsmodernisierung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ruben_rupp",
+      "label": "Ruben Rupp",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_afd",
       "label": "AfD",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_konrad_k_rner",
+      "label": "Dr. Konrad Körner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -54,10 +89,24 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_dr_till_steffen",
+      "label": "Dr. Till Steffen",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_b_ndnis_90_die_gr_nen",
       "label": "BÜNDNIS 90/DIE GRÜNEN",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_carmen_wegge",
+      "label": "Carmen Wegge",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -68,10 +117,479 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_caren_lay",
+      "label": "Caren Lay",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_die_linke",
       "label": "Die Linke",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_knuth_meyer_soltau",
+      "label": "Knuth Meyer-Soltau",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_reichardt",
+      "label": "Martin Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_martin_plum",
+      "label": "Dr. Martin Plum",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_rothenberger",
+      "label": "Johannes Rothenberger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_joachim_ebmeyer",
+      "label": "Joachim Ebmeyer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_moritz_heuberger",
+      "label": "Dr. Moritz Heuberger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rebecca_lenhard",
+      "label": "Rebecca Lenhard",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anna_l_hrmann",
+      "label": "Dr. Anna Lührmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helge_limburg",
+      "label": "Helge Limburg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_sch_tzl",
+      "label": "Johannes Schätzl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sonja_lemke",
+      "label": "Sonja Lemke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_rainer_kraft",
+      "label": "Dr. Rainer Kraft",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_j_rgen_go_ner",
+      "label": "Hans-Jürgen Goßner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stephan_brandner",
+      "label": "Stephan Brandner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_thomas_pauls",
+      "label": "Dr. Thomas Pauls",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_henri_schmidt",
+      "label": "Henri Schmidt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jeanne_dillschneider",
+      "label": "Jeanne Dillschneider",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hakan_demir",
+      "label": "Hakan Demir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hanna_steinm_ller",
+      "label": "Hanna Steinmüller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sebastian_maack",
+      "label": "Sebastian Maack",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_pascal_meiser",
+      "label": "Pascal Meiser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_luke_ho",
+      "label": "Luke Hoß",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tobias_matthias_peterka",
+      "label": "Tobias Matthias Peterka",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_adam_balten",
+      "label": "Adam Balten",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_karl_b_r",
+      "label": "Karl Bär",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_susanne_hierl",
+      "label": "Susanne Hierl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_axel_m_ller",
+      "label": "Axel Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_josephine_ortleb",
+      "label": "Josephine Ortleb",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_michael_kellner",
+      "label": "Michael Kellner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_andreas_lenz",
+      "label": "Dr. Andreas Lenz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_steffen_kotr",
+      "label": "Steffen Kotré",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_frauke_heiligenstadt",
+      "label": "Frauke Heiligenstadt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_janine_wissler",
+      "label": "Janine Wissler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_matthias_hiller",
+      "label": "Dr. Matthias Hiller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bernd_schattner",
+      "label": "Bernd Schattner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sebastian_roloff",
+      "label": "Sebastian Roloff",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_katrin_uhlig",
+      "label": "Katrin Uhlig",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_klaus_wiener",
+      "label": "Dr. Klaus Wiener",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_gerrit_huy",
+      "label": "Gerrit Huy",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mechthilde_wittmann",
+      "label": "Mechthilde Wittmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andrea_lindholz",
+      "label": "Andrea Lindholz",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicklas_kappe",
+      "label": "Nicklas Kappe",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_enrico_komning",
+      "label": "Enrico Komning",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helmut_kleebank",
+      "label": "Helmut Kleebank",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_julian_joswig",
+      "label": "Julian Joswig",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_j_rg_cezanne",
+      "label": "Jörg Cezanne",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_koller",
+      "label": "Hans Koller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mathias_weiser",
+      "label": "Mathias Weiser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_karoline_otte",
+      "label": "Karoline Otte",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_j_rn_k_nig",
+      "label": "Jörn König",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_parsa_marvi",
+      "label": "Parsa Marvi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_doris_achelwilm",
+      "label": "Doris Achelwilm",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lukas_krieger",
+      "label": "Lukas Krieger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_omid_nouripour",
+      "label": "Omid Nouripour",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_rabanus",
+      "label": "Martin Rabanus",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_oliver_p_psel",
+      "label": "Oliver Pöpsel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_ingo_hahn",
+      "label": "Dr. Ingo Hahn",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_hans_theiss",
+      "label": "Dr. Hans Theiss",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_daniel_zerbin",
+      "label": "Dr. Daniel Zerbin",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ayse_asar",
+      "label": "Ayse Asar",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_oliver_kaczmarek",
+      "label": "Oliver Kaczmarek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_michael_kaufmann",
+      "label": "Dr. Michael Kaufmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicole_gohlke",
+      "label": "Nicole Gohlke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_reza_asghari",
+      "label": "Dr. Reza Asghari",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_christoph_birghan",
+      "label": "Dr. Christoph Birghan",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_maja_wallstein",
+      "label": "Maja Wallstein",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -1965,11 +2483,11 @@
     },
     {
       "id": "aussage_0",
-      "label": "Aussage: Mieten sind nach wie vor zu teuer.…",
+      "label": "Aussage: In der Aktuellen Stunde vor drei Wochen habe ich daher gesag…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Mieten sind nach wie vor zu teuer.",
-      "person": "Präsidentin Julia Klöckner",
+      "text": "In der Aktuellen Stunde vor drei Wochen habe ich daher gesagt: ‚Wir werden nicht zur Tagesordnung übergehen.‘",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
@@ -1978,70 +2496,70 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist eine allgemeine Feststellung ohne konkrete Zahlen oder Vergleiche. Ohne spezifische Daten (z. B. Mietpreisindex, Vergleich zu Einkommen) ist sie nicht überprüfbar.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete Äußerung in einer 'Aktuellen Stunde' vor drei Wochen. Die bereitgestellten Belege erklären zwar, was eine 'Aktuelle Stunde' ist und wie die Tagesordnung des Bundestags funktioniert, sie enthalten jedoch keine spezifischen Informationen zu der genan",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "id": "quelle_deutscher_bundestag_aktuelle_stunde",
+      "label": "Deutscher Bundestag - Aktuelle Stunde",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.bundestag.de/services/glossar/glossar/A/akt_stunde-245318",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_1",
-      "label": "Aussage: Wir werden bis zum Spätsommer ein Gesetz zum Gebäudetyp E vo…",
+      "label": "Aussage: Seit letzter Woche ist das digitale Gewaltschutzgesetz in de…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Wir werden bis zum Spätsommer ein Gesetz zum Gebäudetyp E vorlegen.",
-      "person": "Präsidentin Julia Klöckner",
+      "text": "Seit letzter Woche ist das digitale Gewaltschutzgesetz in der Ressortabstimmung.",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_1",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es handelt sich um eine zukünftige Absichtserklärung ohne konkrete quantitative Behauptung. Zudem ist der Zeitpunkt 'Spätsommer' nicht präzise genug für eine faktenbasierte Überprüfung.",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage wird durch zwei unabhängige Quellen der Bundesregierung bestätigt. Sowohl im Bulletin der Bundesregierung als auch in der offiziellen Mitteilung zur Befragung der Bundesjustizministerin wird explizit erwähnt, dass das digitale Gewaltschutzgesetz seit der letzten Woche in der Res",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_2",
-      "label": "Aussage: In Berlin und Leipzig wurden sie [die Mieten] um fast 70 Pro…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "In Berlin und Leipzig wurden sie [die Mieten] um fast 70 Prozent angehoben, in Hamburg um über 40 Prozent [in den letzten zehn Jahren].",
-      "person": "Dr. Stefanie Hubig",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_2",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Mietpreisentwicklung in den genannten Städten liegt in der genannten Größenordnung, allerdings sind die genauen Prozentangaben je nach Datenquelle und Betrachtungszeitraum leicht unterschiedlich. Laut dem Mietspiegelindex des Statistischen Bundesamtes und lokalen Mietspiegeln stiegen di",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_statistisches_bundesamt_mietentwicklung_in_gro_st_dten",
-      "label": "Statistisches Bundesamt - Mietentwicklung in Großstädten",
+      "id": "quelle_bundesjustizministerin_zur_befragung_der_bundesregierung_de",
+      "label": "Bundesjustizministerin zur Befragung der - Bundesregierung.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Mieten/_inhalt.html",
+      "url": "https://www.bundesregierung.de/breg-de/service/newsletter-und-abos/bulletin/bmjv-befragung-breg-bt-2421090",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_3",
-      "label": "Aussage: die Mieten in den deutschen Städten in den letzten zehn Jahr…",
+      "id": "aussage_2",
+      "label": "Aussage: Ende März haben wir den Entwurf eines Gesetzes zur Stärkung …",
       "type": "Aussage",
       "subtype": "",
-      "text": "die Mieten in den deutschen Städten in den letzten zehn Jahren regelrecht explodiert sind",
-      "person": "Dr. Stefanie Hubig",
+      "text": "Ende März haben wir den Entwurf eines Gesetzes zur Stärkung der Rechte auf psychosoziale Prozessbegleitung im Kabinett beschlossen.",
+      "person": "Julia Klöckner",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_2",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Ende März der Entwurf eines Gesetzes zur Stärkung der Rechte auf psychosoziale Prozessbegleitung im Kabinett beschlossen wurde, wird durch mehrere Belege gestützt. Sowohl die offizielle Mitteilung der Bundesregierung als auch der Bericht des Deutschen Bundestags bestätigen",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_3",
+      "label": "Aussage: Gerade gestern habe ich den Gesetzentwurf zur stärkeren Berü…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Gerade gestern habe ich den Gesetzentwurf zur stärkeren Berücksichtigung von Gewalt im Sorge- und Umgangsrecht in die Frühkoordinierung gegeben.",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
@@ -2050,20 +2568,200 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Mieten in deutschen Großstädten sind in den letzten zehn Jahren deutlich gestiegen. Laut Destatis stiegen die Angebotsmieten in den sieben größten Städten (Berlin, Hamburg, München, Köln, Frankfurt, Stuttgart, Düsseldorf) zwischen 2012 und 2022 um durchschnittlich etwa 50-60 %. Die Auss",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_destatis_entwicklung_der_mietpreise_in_gro_st_dten",
-      "label": "Destatis - Entwicklung der Mietpreise in Großstädten",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/03/PD23_101_611.html",
-      "stand": "",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage wird durch mehrere Belege gestützt. Sowohl auf der Website der Bundesregierung als auch in einem Dokument des Deutschen Bundestags wird bestätigt, dass die Justizministerin (hier: Ministerin Hubig, Rheinland-Pfalz, die damals als Bundesratsvertreterin für das BMJV agierte) den G",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_4",
+      "label": "Aussage: Wir werden noch in diesem Monat auch den Entwurf zur Reform …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Wir werden noch in diesem Monat auch den Entwurf zur Reform des familiengerichtlichen Verfahrens vorlegen.",
+      "person": "Julia Klöckner",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_4",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Beleg vom Deutschen Bundestag hat Justizministerin Hubig angekündigt, dass in diesem Monat der Entwurf zur Reform des familiengerichtlichen Verfahrens vorgelegt wird. Dies stützt die Aussage direkt und konkret. Der Kontext der Regierungsbefragung unterstreicht die Glaubwürdigkeit d",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_deutscher_bundestag_justizministerin_hubig_hebt_gewaltschutz_und_mietrecht_hervor",
+      "label": "Deutscher Bundestag - Justizministerin Hubig hebt Gewaltschutz und Mietrecht hervor",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw16-de-regierungsbefragung-1145262",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_5",
+      "label": "Aussage: In der nächsten Woche wird das Kabinett den Gesetzentwurf zu…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "In der nächsten Woche wird das Kabinett den Gesetzentwurf zur IP-Adressen-Speicherung beschließen.",
+      "person": "Julia Klöckner",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_5",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage impliziert, dass der Beschluss des Kabinetts zur IP-Adressen-Speicherung in der *nächsten Woche* erfolgen wird. Die bereitgestellten Belege zeigen jedoch, dass der Gesetzentwurf bereits *beschlossen* wurde (siehe Bundesregierung und BMJV-Pressemitteilung vom 22. April 2026). Die",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_im_kabinett_beschlossen_ip_adressenspeicherung_bundesregierung",
+      "label": "Im Kabinett beschlossen: IP-Adressenspeicherung | Bundesregierung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/kabinett-ip-adressen-2422604",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_6",
+      "label": "Aussage: Mieten sind nach wie vor zu teuer.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Mieten sind nach wie vor zu teuer.",
+      "person": "Julia Klöckner",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_6",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Mieten sind nach wie vor zu teuer' wird durch mehrere Belege gestützt. Laut tagesschau.de steigen die Mieten bei Neuvermietungen sprunghaft an, was auch die Bestandsmieten erhöht und Wohnen teurer macht. INFINA bestätigt, dass die Mietkosten einen beträchtlichen Anteil des Haus",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_wenn_die_miete_nicht_nur_gef_hlt_zu_hoch_ist_tagesschau_de",
+      "label": "Wenn die Miete nicht nur gefühlt zu hoch ist | tagesschau.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/mieten-wohnungsnot-mietpreisbremse-100.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_7",
+      "label": "Aussage: Wir sind jetzt in den Abstimmungen vor dem Kabinett, und wir…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Wir sind jetzt in den Abstimmungen vor dem Kabinett, und wir sind auf der Zielgeraden.",
+      "person": "Julia Klöckner",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_7",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass sich die Abstimmungen vor dem Kabinett auf der Zielgeraden befinden, wird durch mehrere Belege gestützt. Der Artikel des Tagesspiegels berichtet, dass die Koalition bei Haushalt und Gesundheitsreform 'auf der Zielgeraden' sei und das Kabinett am Mittwoch darüber entscheide",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kabinett_entscheidet_am_mittwoch_koalition_bei_haushalt_und_gesundheitsreform_auf_der_zielgeraden",
+      "label": "Kabinett entscheidet am Mittwoch: Koalition bei Haushalt und Gesundheitsreform auf der Zielgeraden",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesspiegel.de/politik/kabinett-entscheidet-am-mittwoch-koalition-bei-haushalt-und-gesundheitsreform-auf-der-zielgeraden-15530118.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_8",
+      "label": "Aussage: Bauen ist oft teuer, weil die aktuellen Baustandards weit üb…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Bauen ist oft teuer, weil die aktuellen Baustandards weit über das hinausgehen, was Menschen tatsächlich brauchen.",
+      "person": "Julia Klöckner",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_8",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass aktuelle Baustandards oft über das hinausgehen, was Menschen tatsächlich brauchen, wird durch die Belege gestützt, die auf politische Bestrebungen hinweisen, Baustandards zu lockern, um kostengünstigeres Bauen zu ermöglichen (z. B. ZDF-Artikel zu 'Gebäudetyp-E' und DIP-Vor",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_geb_udetyp_e_weniger_standards_f_r_billigeres_bauen",
+      "label": "Gebäudetyp-E: Weniger Standards für billigeres Bauen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.zdfheute.de/politik/eckpunkte-bundesregierung-einfaches-bauen-100.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_9",
+      "label": "Aussage: Deswegen wird die Regierung bis zum Spätsommer ein Gesetz zu…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Deswegen wird die Regierung bis zum Spätsommer ein Gesetz zum Gebäudetyp E vorlegen.",
+      "person": "Julia Klöckner",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_9",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Regierung bis zum Spätsommer ein Gesetz zum Gebäudetyp E vorlegen wird, ist im Kern richtig, da ein Referentenentwurf für den Gebäudetyp E bereits vorliegt (siehe Beleg 'Einfaches Bauen: Referentenentwurf für Gebäudetyp E'). Allerdings ist der genaue Zeitrahmen 'bis zu",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_einfaches_bauen_referentenentwurf_f_r_geb_udetyp_e",
+      "label": "Einfaches Bauen: Referentenentwurf für Gebäudetyp E",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.immobilienmanager.de/referentenentwurf-gebaeudetyp-e-fuer-einfaches-bauen-liegt-vor-12072024",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_10",
+      "label": "Aussage: In Berlin und Leipzig wurden sie [die Mieten] um fast 70 Pro…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "In Berlin und Leipzig wurden sie [die Mieten] um fast 70 Prozent angehoben, in Hamburg um über 40 Prozent [in den letzten zehn Jahren].",
+      "person": "Dr. Stefanie Hubig",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_10",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, weicht aber in den genauen Prozentangaben leicht ab. Die Belege zeigen, dass die Mieten in Leipzig um etwa 67 Prozent (nicht 'fast 70 Prozent') und in Hamburg um 42 Prozent (nicht 'über 40 Prozent') in den letzten zehn Jahren gestiegen sind. Für Berlin wird ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_teures_wohnen_leipzig_verteuert_sich_fast_so_stark_wie_berlin_mieten_um_bis_zu_69_prozent_gestiegen_welt",
+      "label": "Teures Wohnen: Leipzig verteuert sich fast so stark wie Berlin – Mieten um bis zu 69 Prozent gestiegen - WELT",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.welt.de/vermischtes/article69d331348ba297d4b1230260/teures-wohnen-leipzig-verteuert-sich-fast-so-stark-wie-berlin-mieten-um-bis-zu-69-prozent-gestiegen.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_11",
       "label": "Aussage: Diese Straftaten werden zu 80 bis 90 Prozent von Männern beg…",
       "type": "Aussage",
       "subtype": "",
@@ -2072,25 +2770,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_4",
+      "id": "faktencheck_11",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut der Polizeilichen Kriminalstatistik (PKS) 2022 des BKA liegt der Anteil männlicher Tatverdächtiger bei allen Straftaten (ohne ausländerrechtliche Verstöße) bei etwa 75,5 %. Bei Gewaltdelikten (z. B. Mord, Totschlag, Raub, gefährliche und schwere Körperverletzung) beträgt der Anteil män",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Straftaten zu 80 bis 90 Prozent von Männern begangen werden, ist im Kern richtig, aber die genaue Prozentzahl variiert je nach Quelle und Jahr. Der Statista-Beleg zeigt, dass im Jahr 2023 über 80 Prozent der verurteilten Straftäter Männer waren. Die Universität zu Köln nen",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_polizeiliche_kriminalstatistik_pks_2022",
-      "label": "Polizeiliche Kriminalstatistik (PKS) 2022",
+      "id": "quelle_verurteilte_nach_geschlecht_2023_statista",
+      "label": "Verurteilte nach Geschlecht 2023 | Statista",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2022/pks2022_node.html",
+      "url": "https://de.statista.com/statistik/daten/studie/1068769/umfrage/rechtskraeftig-verurteilte-personen-in-deutschland-nach-geschlecht/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_5",
+      "id": "aussage_12",
       "label": "Aussage: Es gibt zum Beispiel den Exhibitionismus, der nur von einem …",
       "type": "Aussage",
       "subtype": "",
@@ -2099,174 +2797,30 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_5",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Straftatbestand des Exhibitionismus (§ 183 StGB) bezieht sich explizit auf das Entblößen der eigenen Geschlechtsteile gegenüber einer anderen Person in sexuell bestimmter Weise. Die Norm ist geschlechtsspezifisch formuliert und bezieht sich auf männliche Täter. Eine vergleichbare Norm f",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_strafgesetzbuch_stgb_183_exhibitionismus",
-      "label": "Strafgesetzbuch (StGB) § 183 Exhibitionismus",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.gesetze-im-internet.de/stgb/__183.html",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_6",
-      "label": "Aussage: Schleswig-Holstein [hat] vorgemacht, was möglich ist [im Ber…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Schleswig-Holstein [hat] vorgemacht, was möglich ist [im Bereich Open Source].",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_6",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält keine konkreten, überprüfbaren Zahlen oder Statistiken zu den Erfolgen oder dem Umfang der Open-Source-Nutzung in Schleswig-Holstein. Es handelt sich um eine allgemeine Referenz ohne quantitative Belege.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_7",
-      "label": "Aussage: Alle Bundesprojekte haben auch einen Anteil an Open-Source-P…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Alle Bundesprojekte haben auch einen Anteil an Open-Source-Projekten.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_7",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Statistik oder Quelle, die belegt, dass *alle* Bundesprojekte einen Anteil an Open-Source-Projekten haben. Die Aussage ist zu pauschal und nicht quantitativ überprüfbar.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_8",
-      "label": "Aussage: Wir haben drei konkrete Ansatzpunkte, wie wir diesem Problem…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir haben drei konkrete Ansatzpunkte, wie wir diesem Problem [Abschaltung digitaler Dienste außereuropäischer Anbieter] begegnen: [...]",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_8",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannten Ansatzpunkte (Infrastrukturlösungen, lokale Ausführung über ITZBund, Open-Source-Alternativen) sind qualitative Beschreibungen ohne konkrete Zahlen, Statistiken oder Vergleiche. Es fehlen überprüfbare quantitative Belege.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_9",
-      "label": "Aussage: Wir sind auch Nutzer von Mastodon, und wir wünschen uns, das…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir sind auch Nutzer von Mastodon, und wir wünschen uns, dass auch viele Bürger diesen Dienst nutzen.",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_9",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält keine quantitativen Angaben (z. B. Anzahl der Nutzerkonten der Bundesregierung, Nutzungsstatistiken). Es handelt sich um eine qualitative Beschreibung ohne überprüfbare Fakten.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_10",
-      "label": "Aussage: am 20. März veröffentlichten Video…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "am 20. März veröffentlichten Video",
-      "person": "Dr. Karsten Wildberger",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_10",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Quelle, die die Existenz oder den genauen Veröffentlichungstermin eines solchen Videos des genannten Ministeriums bestätigt. Ohne weitere Kontextangaben (z. B. Ministerium, Bundesland) ist eine Überprüfung nicht möglich.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_11",
-      "label": "Aussage: Die Mieten sind in den letzten Jahren vor allem in Großstädt…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die Mieten sind in den letzten Jahren vor allem in Großstädten gestiegen, beispielsweise in Berlin teils um 100 Prozent.",
-      "person": "Jeanne Dillschneider",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_11",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Mietspiegelindex des Amts für Statistik Berlin-Brandenburg sind die Mieten in Berlin seit 2010 stark gestiegen, allerdings nicht flächendeckend um 100 Prozent. In einigen Segmenten und Stadtteilen gab es jedoch Steigerungen in dieser Größenordnung. Der Durchschnitt lag zwischen 201",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_mietspiegelindex_berlin_entwicklung_der_mietpreise",
-      "label": "Mietspiegelindex Berlin – Entwicklung der Mietpreise",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.statistik-berlin-brandenburg.de/webapi/jsf/tableView/tableView.xhtml",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_12",
-      "label": "Aussage: Wir haben über 44 Millionen Mieterinnen und Mieter.…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Wir haben über 44 Millionen Mieterinnen und Mieter.",
-      "person": "Jeanne Dillschneider",
-      "schicht": "fallbezug"
-    },
-    {
       "id": "faktencheck_12",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Statistischen Bundesamt (Destatis) gab es 2022 in Deutschland etwa 43,2 Millionen Mieterhaushalte. Die Zahl von 44 Millionen liegt nahe an der aktuellen Schätzung und ist somit plausibel.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage suggeriert, dass Exhibitionismus *per Definition* nur von Männern begangen werden kann. Dies ist jedoch nicht korrekt. Der Beleg aus dem STERN.de-Artikel bezieht sich spezifisch auf die *strafrechtliche Situation in Deutschland* (§ 183 StGB), wonach nur das Entblößen der männlic",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_wohnen_in_deutschland",
-      "label": "Statistisches Bundesamt – Wohnen in Deutschland",
+      "id": "quelle_exhibitionismus_wikipedia",
+      "label": "Exhibitionismus - Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Wohnen/_inhalt.html",
+      "url": "https://en.wikipedia.org/wiki/Exhibitionism",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_13",
-      "label": "Aussage: bei den Indexmietverträgen [sind] die Kosten für die Mieteri…",
+      "label": "Aussage: Im Koalitionsvertrag haben CDU, CSU und SPD vereinbart, die …",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "bei den Indexmietverträgen [sind] die Kosten für die Mieterinnen und Mieter, auch durch den Angriffskrieg auf die Ukraine und die damit verbundenen hohen Energiepreise, extrem in die Höhe geschnellt",
-      "person": "Jeanne Dillschneider",
+      "subtype": "",
+      "text": "Im Koalitionsvertrag haben CDU, CSU und SPD vereinbart, die Innovationskraft Deutschlands „durch Öffnungs- und Experimentierklauseln in neuen und bestehenden Gesetzen sowie durch Reallabore und Abweichungsrechte“ zu fördern.",
+      "person": "Dr. Stefanie Hubig",
       "schicht": "fallbezug"
     },
     {
@@ -2275,133 +2829,133 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Energiepreise sind infolge des Ukraine-Kriegs stark gestiegen, was sich auf Indexmieten auswirkt, da diese an die Inflation gekoppelt sind. Der Verbraucherpreisindex (VPI) stieg 2022 um 7,9 Prozent, was direkte Auswirkungen auf Indexmieten hatte. Die Aussage ist somit korrekt.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage wird durch den Koalitionsvertrag zwischen CDU, CSU und SPD der 18. Legislaturperiode direkt gestützt. Im Dokument (Seite 11 bzw. Abschnitt 1.1) wird wörtlich formuliert: 'Durch Öffnungs- und Experimentierklauseln in neuen und bestehenden Gesetzen sowie durch Reallabore und Abwei",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_verbraucherpreisindex_vpi",
-      "label": "Statistisches Bundesamt – Verbraucherpreisindex (VPI)",
+      "id": "quelle_deutschlands_zukunft_gestalten_koalitionsvertrag_zwischen_cdu_csu_und_spd",
+      "label": "Deutschlands Zukunft gestalten Koalitionsvertrag zwischen CDU, CSU und SPD",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html",
+      "url": "https://archiv.cdu.de/sites/default/files/media/dokumente/koalitionsvertrag.pdf",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_14",
-      "label": "Aussage: nach aktuellem Sexualstrafrecht liegt eine Vergewaltigung er…",
+      "label": "Aussage: Schleswig-Holstein [hat] vorgemacht, was möglich ist [im Ber…",
       "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "nach aktuellem Sexualstrafrecht liegt eine Vergewaltigung erst dann vor, wenn das Opfer vorab explizit Nein gesagt hat",
-      "person": "Pascal Meiser",
+      "subtype": "",
+      "text": "Schleswig-Holstein [hat] vorgemacht, was möglich ist [im Bereich Open Source].",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_14",
-      "label": "Faktencheck: irreführend",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das deutsche Sexualstrafrecht (§ 177 StGB) folgt seit der Reform 2016 dem Prinzip 'Nein heißt Nein', wonach eine sexuelle Handlung bereits dann strafbar ist, wenn sie gegen den erkennbaren Willen einer Person erfolgt. Ein explizites 'Nein' ist nicht zwingend erforderlich, wenn der Wille des",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Schleswig-Holstein im Bereich Open Source 'vorgemacht' habe, was möglich ist, ist im Kern richtig, aber nicht vollständig. Die Belege zeigen, dass das Land eine bundesweit beachtete Open-Source-Strategie verfolgt, insbesondere mit der Umstellung des Mailsystems und der gep",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_der_justiz_reform_des_sexualstrafrechts_2016",
-      "label": "Bundesministerium der Justiz – Reform des Sexualstrafrechts 2016",
+      "id": "quelle_schleswig_holstein_open_source_ist_praxistauglich_trotz_umstellungsproblemen_heise_online",
+      "label": "Schleswig-Holstein: Open Source ist praxistauglich trotz Umstellungsproblemen | heise online",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmj.de/SharedDocs/Artikel/DE/2016/11102016_Reform_Sexualstrafrecht.html",
+      "url": "https://www.heise.de/news/Schleswig-Holstein-Open-Source-ist-praxistauglich-trotz-Umstellungsproblemen-11131005.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_15",
-      "label": "Aussage: Wir sind jetzt bei einer 'Nein heißt Nein'-Regelung.…",
+      "label": "Aussage: Alle Bundesprojekte haben auch einen Anteil an Open-Source-P…",
       "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Wir sind jetzt bei einer 'Nein heißt Nein'-Regelung.",
-      "person": "Pascal Meiser",
+      "subtype": "",
+      "text": "Alle Bundesprojekte haben auch einen Anteil an Open-Source-Projekten.",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_15",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Seit der Reform des Sexualstrafrechts 2016 gilt in Deutschland das Prinzip 'Nein heißt Nein' (§ 177 StGB). Eine sexuelle Handlung ist strafbar, wenn sie gegen den erkennbaren Willen einer Person erfolgt.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass *alle* Bundesprojekte einen Anteil an Open-Source-Projekten haben. Die bereitgestellten Belege zeigen jedoch lediglich, dass es *einige* Bundes- oder Landesprojekte mit Open-Source-Bezug gibt (z. B. über die Plattformen 'openCode.de' oder 'Berlin Open Source'). E",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_strafgesetzbuch_stgb_177_sexuelle_n_tigung_vergewaltigung",
-      "label": "Strafgesetzbuch (StGB) § 177 Sexuelle Nötigung; Vergewaltigung",
+      "id": "quelle_projekte_berlin_open_source",
+      "label": "Projekte | Berlin Open Source",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.gesetze-im-internet.de/stgb/__177.html",
+      "url": "https://berlinopensource.de/projekte/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_16",
-      "label": "Aussage: In Berlin haben sich beispielsweise jüngst Clanmitglieder zu…",
+      "label": "Aussage: Wir haben drei konkrete Ansatzpunkte, wie wir diesem Problem…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "In Berlin haben sich beispielsweise jüngst Clanmitglieder zu Brandanschlägen auf Autos von Justizvollzugsbediensteten bekannt.",
-      "person": "Susanne Hierl",
+      "subtype": "",
+      "text": "Wir haben drei konkrete Ansatzpunkte, wie wir diesem Problem [Abschaltung digitaler Dienste außereuropäischer Anbieter] begegnen: [...] Wo solche Software in Anwendung ist, können wir zum Beispiel über das ITZBund dafür sorgen, dass die Anwendung lokal ausgeführt wird, sodass man von außen [...] nic",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_16",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt Medienberichte über Brandanschläge auf Fahrzeuge von Justizbediensteten in Berlin, die mit Clanstrukturen in Verbindung gebracht werden. Eine amtliche Statistik oder offizielle Bestätigung der Täterschaft durch Clanmitglieder liegt jedoch nicht vor.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt drei konkrete Ansatzpunkte zur Bewältigung des Problems der Abschaltung digitaler Dienste außereuropäischer Anbieter, wobei einer davon die lokale Ausführung von Anwendungen über das ITZBund (Informationstechnikzentrum Bund) betrifft. Der Beleg aus 'Ist DORA Chance oder Ri",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_amtliche_quelle_bekannt",
-      "label": "Keine amtliche Quelle bekannt",
+      "id": "quelle_ist_dora_chance_oder_risiko_teil_1_die_idee",
+      "label": "Ist DORA Chance oder Risiko? Teil 1: Die Idee",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://finaplus.de/blog/ist-dora-chance-oder-risiko-teil-1/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_17",
-      "label": "Aussage: Ein Gerichtsvollzieher wurde in Ausübung seiner Tätigkeit ge…",
+      "label": "Aussage: Es sind zwei Schwerpunktfelder. Zum einen haben wir den DSA …",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Ein Gerichtsvollzieher wurde in Ausübung seiner Tätigkeit getötet.",
-      "person": "Susanne Hierl",
+      "subtype": "",
+      "text": "Es sind zwei Schwerpunktfelder. Zum einen haben wir den DSA und den DMA.",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_17",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gab Fälle von tödlicher Gewalt gegen Gerichtsvollzieher in Deutschland, z. B. 2016 in Baden-Württemberg. Allerdings ist die Aussage unspezifisch (kein Zeitraum, kein Ort), sodass eine allgemeine Häufung nicht bestätigt werden kann.",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage benennt zwei Schwerpunktfelder, den Digital Services Act (DSA) und den Digital Markets Act (DMA). Die bereitgestellten Belege bestätigen, dass DSA und DMA zentrale Regulierungsinstrumente der EU im digitalen Bereich sind. So werden sie in den Quellen als 'neue Grundregeln für da",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_polizeiliche_kriminalstatistik_pks_des_bka",
-      "label": "Polizeiliche Kriminalstatistik (PKS) des BKA",
+      "id": "quelle_dsa_dma_ai_act_zwischen_ambitionierter_regulierung_und_praktischen_herausforderungen_basecamp",
+      "label": "DSA, DMA, AI Act: Zwischen ambitionierter Regulierung und praktischen Herausforderungen - BASECAMP",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/pks_node.html",
+      "url": "https://www.basecamp.digital/dsa-dma-ai-act-zwischen-ambitionierter-regulierung-und-praktischen-herausforderungen/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_18",
-      "label": "Aussage: wir hatten jüngst einen Fall im Saarland…",
+      "label": "Aussage: Wir arbeiten auch an Messengerdiensten, beispielsweise im Be…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "wir hatten jüngst einen Fall im Saarland",
-      "person": "Susanne Hierl",
+      "subtype": "",
+      "text": "Wir arbeiten auch an Messengerdiensten, beispielsweise im Bereich einer App europäischer Bauart, die skalieren können.",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
@@ -2410,106 +2964,133 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf einen nicht näher spezifizierten Vorfall im Saarland. Ohne konkrete Angaben (Datum, Ort, Art des Vorfalls) ist eine Überprüfung nicht möglich.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Entwicklung von Messengerdiensten 'europäischer Bauart', die skalieren können. Die bereitgestellten Belege behandeln zwar Messenger-Dienste im Allgemeinen, spezifische Projekte oder Initiativen zur Entwicklung einer europäischen Messenger-App, die skalierbar",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kein_spezifischer_beleg_vorhanden",
+      "label": "Kein spezifischer Beleg vorhanden",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://netzpolitik.org/2023/messenger-apps-bauanleitung-fuer-plattformuebergreifende-chats/",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_19",
-      "label": "Aussage: Bei der Länder- und Verbändebeteiligung haben wir gesehen, d…",
+      "label": "Aussage: am 20. März veröffentlichten Video…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Bei der Länder- und Verbändebeteiligung haben wir gesehen, dass sich zahllose verschiedene Institutionen und Berufsgruppen gemeldet haben, die auch von dem Gesetzentwurf erfasst werden wollen.",
-      "person": "Susanne Hierl",
+      "subtype": "",
+      "text": "am 20. März veröffentlichten Video",
+      "person": "Dr. Karsten Wildberger",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_19",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine nicht quantifizierte Anzahl von Rückmeldungen im Rahmen eines Gesetzgebungsverfahrens. Eine konkrete Zahl oder amtliche Dokumentation der Rückmeldungen liegt nicht vor.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'am 20. März veröffentlichten Video' wird durch die bereitgestellten Belege nicht bestätigt. Der einzige konkrete Beleg mit einem Veröffentlichungsdatum im März bezieht sich auf Aylivas Video 'Was mir gefällt', das jedoch am 17. März veröffentlicht wurde (Quelle: MusikWoche). Di",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_streaming_schnelltest_ayliva_landet_mit_was_mir_gef_llt_an_der_spitze_der_youtube_musik_trendcharts_musikwoche",
+      "label": "Streaming-Schnelltest: Ayliva landet mit \"Was mir gefällt\" an der Spitze der YouTube-Musik-Trendcharts | MusikWoche",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://musikwoche.de/charts/streaming-schnelltest-ayliva-landet-mit-was-mir-gefaellt-an-der-spitze-der-youtube-musik-trendcharts-34048a980ba4e57a76563b61bb443fb0/",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_20",
-      "label": "Aussage: wir werden noch vor der Sommerpause einen Gesetzentwurf vorl…",
+      "label": "Aussage: Die Mieten sind in den letzten Jahren vor allem in Großstädt…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "wir werden noch vor der Sommerpause einen Gesetzentwurf vorlegen",
-      "person": "Susanne Hierl",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Die Mieten sind in den letzten Jahren vor allem in Großstädten gestiegen, beispielsweise in Berlin teils um 100 Prozent.",
+      "person": "Jeanne Dillschneider",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_20",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Dies ist eine zukünftige Absichtserklärung ohne überprüfbare quantitative Fakten.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_21",
-      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
-      "person": "Vizepräsidentin Josephine Ortleb",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_21",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist nicht vollständig präzise. Laut Statistischem Bundesamt (Destatis) sind die Angebotsmieten für Wohnungen in Deutschland von 2014 bis 2023 um etwa 45 % gestiegen, nicht 60 %. Die Steigerung variiert zudem stark regional. Eine pauschale Angabe von 60 % ist daher irreführend, d",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Mieten in den letzten Jahren vor allem in Großstädten gestiegen sind, wird durch die Belege bestätigt. Allerdings weicht die genannte Steigerung von 'teils um 100 Prozent' in Berlin deutlich von den in den Belegen genannten Werten ab. Die Belege zeigen einen Anstieg de",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
-      "label": "Statistisches Bundesamt (Destatis) – Entwicklung der Mietpreise",
+      "id": "quelle_wohnkrise_mieten_in_gro_st_dten_in_zehn_jahren_um_43_prozent_gestiegen_die_zeit",
+      "label": "Wohnkrise: Mieten in Großstädten in zehn Jahren um 43 Prozent gestiegen | DIE ZEIT",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreise/_inhalt.html",
+      "url": "https://www.zeit.de/geld/2026-04/wohnkrise-mieten-grossstaedte-angebote-kaltmiete-berlin-muenchen-gxe",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_21",
+      "label": "Aussage: Wir haben über 44 Millionen Mieterinnen und Mieter.…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Wir haben über 44 Millionen Mieterinnen und Mieter.",
+      "person": "Jeanne Dillschneider",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_21",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege thematisieren die Anzahl der von Wohnkosten überlasteten Mieterhaushalte in Deutschland, die mit rund 6,6 Millionen angegeben wird. Dies entspricht etwa jedem dritten Mieterhaushalt. Es gibt jedoch keine Angabe in den Belegen, die die Aussage von über 44 Millione",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_miete_millionen_laut_neuer_studie_in_deutschland_von_wohnkosten_berlastet_welt",
+      "label": "Miete: Millionen laut neuer Studie in Deutschland von Wohnkosten überlastet - WELT",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.welt.de/wirtschaft/article6a1fa0711f46a650bff5d671/miete-millionen-laut-neuer-studie-in-deutschland-von-wohnkosten-ueberlastet.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_22",
-      "label": "Aussage: In Berlin sind die Mieten seit 2014 um 104 Prozent gestiegen…",
+      "label": "Aussage: nach aktuellem Sexualstrafrecht liegt eine Vergewaltigung er…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "In Berlin sind die Mieten seit 2014 um 104 Prozent gestiegen.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "subtype": "Die Linke",
+      "text": "nach aktuellem Sexualstrafrecht liegt eine Vergewaltigung erst dann vor, wenn das Opfer vorab explizit Nein gesagt hat",
+      "person": "Pascal Meiser",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_22",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Mietspiegel und Daten des Berliner Senats sowie des Statistischen Bundesamtes sind die Mieten in Berlin zwischen 2014 und 2023 um etwa 100–105 % gestiegen. Die Angabe von 104 % liegt im Rahmen dieser Entwicklung.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass nach aktuellem Sexualstrafrecht eine Vergewaltigung erst dann vorliegt, wenn das Opfer vorab explizit Nein gesagt hat, ist falsch. Seit der Reform des Sexualstrafrechts 2016 gilt in Deutschland das Prinzip 'Nein heißt Nein'. Dies bedeutet, dass eine sexuelle Handlung berei",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistische_berichte_des_amts_f_r_statistik_berlin_brandenburg_mietpreisentwicklung",
-      "label": "Statistische Berichte des Amts für Statistik Berlin-Brandenburg – Mietpreisentwicklung",
+      "id": "quelle_hubig_will_verj_hrungsfrist_bei_vergewaltigungen_verl_ngern_tagesschau_de",
+      "label": "Hubig will Verjährungsfrist bei Vergewaltigungen verlängern | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.statistik-berlin-brandenburg.de/",
+      "url": "https://www.tagesschau.de/inland/gesellschaft/sexualstrafrecht-vergewaltigung-verjaehrung-hubig-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_23",
-      "label": "Aussage: Die Baukosten sind seit 2015 um 40 Prozent gestiegen.…",
+      "label": "Aussage: Wir sind jetzt bei einer „Nein heißt Nein“-Regelung.…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Die Baukosten sind seit 2015 um 40 Prozent gestiegen.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "subtype": "Die Linke",
+      "text": "Wir sind jetzt bei einer „Nein heißt Nein“-Regelung.",
+      "person": "Pascal Meiser",
       "schicht": "fallbezug"
     },
     {
@@ -2518,52 +3099,52 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Destatis sind die Baupreisindizes für Wohngebäude von 2015 bis 2023 um etwa 40 % gestiegen. Dies bezieht sich auf die reinen Baukosten ohne Grundstückspreise.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Wir sind jetzt bei einer „Nein heißt Nein“-Regelung' wird durch den Beleg des Deutschen Bundestags gestützt, der bestätigt, dass die Regelungen zum 'Nein heißt Nein' im Sexualstrafrecht (§ 177 StGB) mit großer Mehrheit angenommen wurden. Der Artikel von RA Odebralski erklärt zu",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_baupreisindizes",
-      "label": "Statistisches Bundesamt (Destatis) – Baupreisindizes",
+      "id": "quelle_bundestag_entscheidet_nein_hei_t_nein",
+      "label": "Bundestag entscheidet „Nein heißt Nein“",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreise/Tabellen/baupreisindex-wohngebaeude.html",
+      "url": "https://www.bundestag.de/webarchiv/textarchiv/2016/kw27-de-selbstbestimmung-434214",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_24",
-      "label": "Aussage: Die Zahl der Sozialwohnungen ist seit 2002 von 2,6 Millionen…",
+      "label": "Aussage: die Täter [von Gewalt gegen Frauen] zu 90 Prozent oder, ich …",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Die Zahl der Sozialwohnungen ist seit 2002 von 2,6 Millionen auf 1,1 Millionen gesunken.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "subtype": "SPD",
+      "text": "die Täter [von Gewalt gegen Frauen] zu 90 Prozent oder, ich sage mal, zum weit überwiegenden Teil Männer sind",
+      "person": "Hakan Demir",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_24",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesregierung und dem GdW Bundesverband deutscher Wohnungs- und Immobilienunternehmen ist die Zahl der Sozialwohnungen in Deutschland von etwa 2,6 Millionen im Jahr 2002 auf rund 1,1 Millionen im Jahr 2022 gesunken.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Täter von Gewalt gegen Frauen 'zu 90 Prozent oder zum weit überwiegenden Teil Männer sind', ist im Kern richtig, aber die genannte Prozentzahl weicht von den Belegen ab. Die bereitgestellten Quellen zeigen, dass der Anteil männlicher Tatverdächtiger bei Gewalt gegen Fr",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestagsdrucksache_20_5650_wohnungsbau_und_soziale_wohnraumf_rderung",
-      "label": "Bundestagsdrucksache 20/5650 – Wohnungsbau und soziale Wohnraumförderung",
+      "id": "quelle_stadtbild_debatte_wann_und_wo_frauen_tats_chlich_opfer_werden",
+      "label": "Stadtbild'-Debatte: Wann und wo Frauen tatsächlich Opfer werden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/056/2005650.pdf",
+      "url": "https://www.zdfheute.de/panorama/kriminalitaet/frauen-gewalt-kriminalitaet-femizid-zahlen-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_25",
-      "label": "Aussage: allein in den 2010er-Jahren im Vergleich zu den 2000er-Jahre…",
+      "label": "Aussage: Rechenzentren 2030 circa 4,8 Gigawatt Grundlast brauchen wer…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "allein in den 2010er-Jahren im Vergleich zu den 2000er-Jahren die durchschnittliche Nutzungsdauer eines Elektrogroßgerätes um ein Jahr reduziert hat",
-      "person": "Nicklas Kappe",
+      "subtype": "SPD",
+      "text": "Rechenzentren 2030 circa 4,8 Gigawatt Grundlast brauchen werden. Das entspricht dem Strombedarf von über 10 Millionen Haushalten",
+      "person": "Hakan Demir",
       "schicht": "fallbezug"
     },
     {
@@ -2572,97 +3153,106 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Umweltbundesamt (UBA) hat sich die Nutzungsdauer von Haushaltsgroßgeräten in den letzten Jahrzehnten verkürzt. Eine konkrete Reduktion um genau ein Jahr zwischen den 2000er- und 2010er-Jahren ist jedoch nicht explizit in den verfügbaren UBA-Daten ausgewiesen. Die Tendenz einer Verkürzu",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage prognostiziert für Rechenzentren im Jahr 2030 einen Grundlastbedarf von 4,8 Gigawatt (GW), was dem Strombedarf von über 10 Millionen Haushalten entsprechen soll. Die bereitgestellten Belege stützen die Größenordnung des Strombedarfs von Rechenzentren, allerdings mit unterschiedl",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_umweltbundesamt_nutzungsdauer_von_elektroger_ten",
-      "label": "Umweltbundesamt – Nutzungsdauer von Elektrogeräten",
+      "id": "quelle_stromverbrauch_wie_k_nstliche_intelligenz_bis_2030_die_stromnetze_herausfordert",
+      "label": "Stromverbrauch: Wie Künstliche Intelligenz bis 2030 die Stromnetze herausfordert",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.umweltbundesamt.de/themen/abfall-ressourcen/produktverantwortung-in-der-abfallwirtschaft/nutzungsdauer-von-elektrogeraeten#nutzungsdauer-von-haushaltsgeraten",
+      "url": "https://www.rechenzentren.org/news/stromverbrauch-wie-kuenstliche-intelligenz-bis-2030-die-stromnetze-herausfordert/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_26",
-      "label": "Aussage: üblicherweise etwa alle zehn Jahre ausgetauscht wurde…",
+      "label": "Aussage: Reduzierung des Primärenergieverbrauchs um 39,9 Prozent bis …",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "üblicherweise etwa alle zehn Jahre ausgetauscht wurde",
-      "person": "Nicklas Kappe",
+      "subtype": "SPD",
+      "text": "Reduzierung des Primärenergieverbrauchs um 39,9 Prozent bis 2030 laut § 4 Energieeffizienzgesetz",
+      "person": "Hakan Demir",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_26",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik, die belegt, dass Haushaltsgroßgeräte 'üblicherweise etwa alle zehn Jahre' ausgetauscht werden. Die Nutzungsdauer variiert je nach Gerätetyp und Quelle. Eine pauschale Angabe von 'zehn Jahren' ist nicht durch belastbare Daten gestützt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Energieeffizienzgesetz (EnEfG), das im § 4 eine Reduzierung des **Primärenergieverbrauchs** bis 2030 vorsieht. Der Beleg aus dem Gesetzestext (gesetze-im-internet.de) bestätigt eine Senkung um **39,3 Prozent** (nicht 39,9 Prozent) auf 2.252 Terawattstunden i",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_quelle",
-      "label": "-",
+      "id": "quelle_enefg_gesetz_zur_steigerung_der_energieeffizienz_in_deutschland",
+      "label": "EnEfG - Gesetz zur Steigerung der Energieeffizienz in Deutschland",
       "type": "Quelle",
       "subtype": "",
-      "url": "-",
+      "url": "https://www.gesetze-im-internet.de/enefg/BJNR1350B0023.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_27",
-      "label": "Aussage: Elektromotoren in der Industrie [...] 8 600 Stunden im Jahr …",
+      "label": "Aussage: wir haben heute 3 Gigawatt für 2 000 Rechenzentren in Deutsc…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Elektromotoren in der Industrie [...] 8 600 Stunden im Jahr laufen",
-      "person": "Nicklas Kappe",
+      "subtype": "SPD",
+      "text": "wir haben heute 3 Gigawatt für 2 000 Rechenzentren in Deutschland",
+      "person": "Hakan Demir",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_27",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Angabe von 8.600 Betriebsstunden pro Jahr für Elektromotoren in der Industrie ist nicht durch eine amtliche Quelle belegt. Die tatsächliche Betriebsdauer hängt stark von der Branche und Nutzung ab und kann stark variieren. Es gibt keine allgemeingültige Statistik, die diese Zahl bestäti",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_28",
-      "label": "Aussage: die USA [...] erwirtschaftet ein Viertel des weltweiten BIPs…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "die USA [...] erwirtschaftet ein Viertel des weltweiten BIPs",
-      "person": "Karoline Otte",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_28",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Weltbank betrug der Anteil der USA am weltweiten BIP (KKP) 2022 etwa 15,5 %. Bei nominalem BIP lag der Anteil 2022 bei etwa 25,3 %. Die Aussage ist also nur bei nominaler Betrachtung korrekt, nicht jedoch bei Kaufkraftparität (KKP), die oft für internationale Vergleiche herangezogen wi",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt 3 Gigawatt für 2.000 Rechenzentren in Deutschland. Laut Bitkom-Presseinformation (Beleg 3) liegt die aktuelle IT-Anschlussleistung bei 2,7 Gigawatt, nicht 3 Gigawatt. Die Zahl der Rechenzentren wird in den Belegen nicht explizit mit 2.000 beziffert, aber der Wert von 2,7 G",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_world_bank_data_gdp_current_us_and_gdp_ppp_current_international",
-      "label": "World Bank Data - GDP (current US$) and GDP, PPP (current international $)",
+      "id": "quelle_rechenzentren_deutschland_verliert_den_anschluss_presseinformation_bitkom_e_v",
+      "label": "Rechenzentren: Deutschland verliert den Anschluss | Presseinformation | Bitkom e. V.",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=US&view=chart; https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=US&view=chart",
+      "url": "https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-verliert-Anschluss",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_28",
+      "label": "Aussage: 500 Megawatt für KI…",
+      "type": "Aussage",
+      "subtype": "SPD",
+      "text": "500 Megawatt für KI",
+      "person": "Hakan Demir",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_28",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage '500 Megawatt für KI' ist ohne weiteren Kontext nicht bewertbar. Die bereitgestellten Belege behandeln ausschließlich Umrechnungen von Megawatt in Kilowatt oder politische Vorgänge zu Anlagen mit bestimmten Megawatt-Leistungen (z. B. CO2-Bepreisung oder Hermes-Bürgschaften für W",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kein_passender_beleg_vorhanden",
+      "label": "Kein passender Beleg vorhanden",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.convertunits.com/from/megawatt/to/kilowatts",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_29",
-      "label": "Aussage: In der heutigen Umfrage erreicht die AfD einen neuen Höchstw…",
+      "label": "Aussage: Bis 2030 werden wir die Rechenkapazität von 3 Gigawatt auf 6…",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "In der heutigen Umfrage erreicht die AfD einen neuen Höchstwert. Mit 27 Prozent sind wir mit Abstand die stärkste Kraft in Deutschland. Die CDU ist mit 23 Prozent abgeschlagen",
-      "person": "Karoline Otte",
+      "subtype": "SPD",
+      "text": "Bis 2030 werden wir die Rechenkapazität von 3 Gigawatt auf 6 Gigawatt verdoppeln und die KI-Kapazität vervierfachen",
+      "person": "Hakan Demir",
       "schicht": "fallbezug"
     },
     {
@@ -2671,15 +3261,582 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine spezifische amtliche Quelle für eine 'heutige Umfrage' mit diesen exakten Werten. Umfragewerte variieren je nach Institut und Erhebungszeitraum. Ohne konkrete Angabe des Instituts und Datums ist die Aussage nicht überprüfbar. Aktuelle Umfragen (Stand Mitte 2024) zeigen die AfD",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine geplante Verdopplung der Rechenkapazität von 3 auf 6 Gigawatt und eine Vervierfachung der KI-Kapazität bis 2030. Die bereitgestellten Belege enthalten keine konkreten Informationen zu diesen spezifischen Zahlen (3 GW Ausgangspunkt, 6 GW Ziel) oder einer Ver",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_belastbare_quelle_f_r_die_genannte_umfrage_verf_gbar",
-      "label": "Keine belastbare Quelle für die genannte Umfrage verfügbar",
+      "id": "quelle_energieverbrauch_von_ki_woher_soll_der_strom_f_r_ki_kommen_die_zeit",
+      "label": "Energieverbrauch von KI: Woher soll der Strom für KI kommen? | DIE ZEIT",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.zeit.de/digital/2025-10/energieverbrauch-ki-openai-sora-veo-newsletter-kuenstliche-intelligenz",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_30",
+      "label": "Aussage: In Berlin haben sich beispielsweise jüngst Clanmitglieder zu…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "In Berlin haben sich beispielsweise jüngst Clanmitglieder zu Brandanschlägen auf Autos von Justizvollzugsbediensteten bekannt.",
+      "person": "Susanne Hierl",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_30",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Belege bestätigen, dass in Berlin Autos von Justizvollzugsbediensteten vor Gefängnissen durch Brandanschläge beschädigt wurden und dass Clan-Mitglieder (insbesondere aus dem Remmo-Clan) im Verdacht stehen oder angeklagt sind. Allerdings gibt es keinen direkten Beleg dafür, dass sich Cla",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_berliner_clanmitglieder_sollen_autos_angez_ndet_haben_staatsanwaltschaft_klagt_remmo_m_nner_wegen_brandserie_vor_gef_ngnissen_an",
+      "label": "Berliner Clanmitglieder sollen Autos angezündet haben: Staatsanwaltschaft klagt Remmo-Männer wegen Brandserie vor Gefängnissen an",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesspiegel.de/berlin/berliner-clanmitglieder-sollen-autos-angezundet-haben-staatsanwaltschaft-klagt-remmo-manner-wegen-brandserie-vor-gefangnissen-an-14575019.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_31",
+      "label": "Aussage: Ein Gerichtsvollzieher wurde in Ausübung seiner Tätigkeit ge…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Ein Gerichtsvollzieher wurde in Ausübung seiner Tätigkeit getötet.",
+      "person": "Susanne Hierl",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_31",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege beschreiben die Aufgaben und rechtlichen Rahmenbedingungen von Gerichtsvollziehern, einschließlich der Risiken in ihrem Beruf (z. B. Gewaltandrohungen). Allerdings findet sich in keinem der Belege ein konkreter Hinweis darauf, dass ein Gerichtsvollzieher *tatsäch",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_gesetz_zur_verbesserung_des_schutzes_von_gerichtsvollziehern_vor_gewalt_sowie_zur_nderung_weiterer_zwangsvollstreckungsrechtlicher_vorschriften",
+      "label": "Gesetz zur Verbesserung des Schutzes von Gerichtsvollziehern vor Gewalt sowie zur Änderung weiterer zwangsvollstreckungsrechtlicher Vorschriften",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/vorgang/gesetz-zur-verbesserung-des-schutzes-von-gerichtsvollziehern-vor-gewalt-sowie-zur-%C3%A4nderung-weiterer-zwangsvollstreckungsrechtlicher-vorschriften/255006",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_32",
+      "label": "Aussage: wir hatten jüngst einen Fall im Saarland…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "wir hatten jüngst einen Fall im Saarland",
+      "person": "Susanne Hierl",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_32",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'wir hatten jüngst einen Fall im Saarland' ist allgemein gehalten und bezieht sich auf aktuelle Ereignisse oder Vorfälle in der Region. Die bereitgestellten Belege zeigen mehrere konkrete Fälle im Saarland, die in jüngster Vergangenheit medial oder rechtlich behandelt wurden, z.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_fall_martin_h_angeklagter_in_saarbr_cker_mordprozess_erz_hlt_m_rchen_sagen_seine_ex_kollegen",
+      "label": "Fall Martin H.: Angeklagter in Saarbrücker Mordprozess erzählt „Märchen“, sagen seine Ex-Kollegen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.saarbruecker-zeitung.de/saarland/saarbruecken-maerchen-im-mordprozess_aid-149558095",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_33",
+      "label": "Aussage: Bei der Länder- und Verbändebeteiligung haben wir gesehen, d…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Bei der Länder- und Verbändebeteiligung haben wir gesehen, dass sich zahllose verschiedene Institutionen und Berufsgruppen gemeldet haben, die auch von dem Gesetzentwurf erfasst werden wollen.",
+      "person": "Susanne Hierl",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_33",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage wird durch die bereitgestellten Belege gestützt. Laut den Quellen zur Länder- und Verbändebeteiligung im Gesetzgebungsverfahren (z.B. BMJV) werden Bundesländer, kommunale Spitzenverbände, Fachkreise und betroffene Verbände gezielt zur Stellungnahme aufgefordert. Die DIP-Vorgänge",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesregierung_und_bundesministerien_im_gesetzgebungsverfahren",
+      "label": "Bundesregierung und Bundesministerien im Gesetzgebungsverfahren",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmjv.de/DE/rechtsstaat_kompakt/entstehung_gesetz/regierung_ministerien/regierung_ministerien_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_34",
+      "label": "Aussage: wir werden noch vor der Sommerpause einen Gesetzentwurf vorl…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "wir werden noch vor der Sommerpause einen Gesetzentwurf vorlegen",
+      "person": "Susanne Hierl",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_34",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'wir werden noch vor der Sommerpause einen Gesetzentwurf vorlegen' ist im Kern richtig, aber nicht universell gültig. Die Belege zeigen, dass spezifische Minister:innen (z. B. Pistorius und Hubig) für ihre jeweiligen Vorhaben solche Pläne angekündigt haben (FOCUS online, Deutsch",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_neuer_wehrdienst_verteidigungsminister_will_noch_vor_sommerpause_gesetzentwurf_vorlegen_focus_online",
+      "label": "Neuer Wehrdienst: Verteidigungsminister will noch vor Sommerpause Gesetzentwurf vorlegen - FOCUS online",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.focus.de/politik/deutschland/boris-pistorius-neuer-wehrdienst-verteidigungsminister-will-noch-vor-sommerpause-gesetzentwurf-vorlegen_id_260777299.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_35",
+      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_35",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Mieten in Deutschland seit 2014 um 60 Prozent gestiegen sind, ist im Kern richtig, aber die genaue Prozentzahl weicht je nach Quelle und Betrachtungsweise ab. Die bereitgestellten Belege enthalten keine direkten Zeitreihenvergleiche für den genannten Zeitraum (2014–202",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_der_deutschlandatlas_wie_wir_wohnen_angebotsmieten",
+      "label": "Der Deutschlandatlas - Wie wir wohnen - Angebotsmieten",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.deutschlandatlas.bund.de/DE/Karten/Wie-wir-wohnen/040-Mieten.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_36",
+      "label": "Aussage: In Berlin sind die Mieten seit 2014 um über 100 Prozent gest…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "In Berlin sind die Mieten seit 2014 um über 100 Prozent gestiegen.",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_36",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet einen Anstieg der Mieten in Berlin seit 2014 um über 100 Prozent. Der bereitgestellte Beleg von rbb24 zeigt jedoch, dass die Angebotsmieten in Berlin seit 2016 (nicht 2014) um 69 Prozent gestiegen sind. Ein Anstieg von über 100 Prozent seit 2014 lässt sich aus den Bele",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_angebotsmieten_in_berlin_fast_70_prozent_teurer_als_vor_zehn_jahren",
+      "label": "Angebotsmieten in Berlin fast 70 Prozent teurer als vor zehn Jahren",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/04/angebots-mieten-berlin-teurer-bestandsmieten.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_37",
+      "label": "Aussage: Der soziale Wohnungsbau ist von 370.000 Wohnungen im Jahr 19…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Der soziale Wohnungsbau ist von 370.000 Wohnungen im Jahr 1995 auf heute nur noch 2,5 Millionen Wohnungen gesunken.",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_37",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, der soziale Wohnungsbau sei von 370.000 Wohnungen im Jahr 1995 auf heute 2,5 Millionen Wohnungen *gesunken*. Dies ist in mehrfacher Hinsicht falsch: 1) 370.000 Wohnungen bezieht sich vermutlich auf die *jährliche Fertigstellungszahl* (vgl. Statistisches Bundesamt: dur",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_sozialer_wohn_monitor_2026_1_4_millionen_wohnungen_fehlen_tagesschau_de",
+      "label": "Sozialer Wohn-Monitor 2026: 1,4 Millionen Wohnungen fehlen | tagesschau.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/sozialer-wohnungsbau-126.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_38",
+      "label": "Aussage: 2023 wurden nur 250.000 Wohnungen gebaut, obwohl 400.000 ben…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "2023 wurden nur 250.000 Wohnungen gebaut, obwohl 400.000 benötigt werden.",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_38",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass 2023 nur 250.000 Wohnungen gebaut wurden, obwohl 400.000 benötigt werden, ist im Kern richtig, aber die genauen Zahlen weichen ab. Der Beleg von der Deutschen Welle (DW) bestätigt, dass in den letzten Jahren nur etwa 75 Prozent der benötigten Wohnungen gebaut wurden, was a",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_warum_in_deutschland_zu_wenig_wohnungen_gebaut_werden",
+      "label": "Warum in Deutschland zu wenig Wohnungen gebaut werden",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.dw.com/de/warum-in-deutschland-zu-wenig-wohnungen-gebaut-werden/a-67711906",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_39",
+      "label": "Aussage: Sie sind ja jetzt fast ein Jahr im Amt…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Sie sind ja jetzt fast ein Jahr im Amt",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_39",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Sie sind ja jetzt fast ein Jahr im Amt' ist kontextabhängig und bezieht sich auf eine spezifische Person oder Institution. Die bereitgestellten Belege geben Beispiele für verschiedene Personen (Friedrich Merz, Donald Trump) oder Institutionen (BAföG-Amt), die fast ein Jahr im A",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kein_spezifischer_beleg_zur_aussage",
+      "label": "Kein spezifischer Beleg zur Aussage",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesspiegel.de/politik/nach-fast-einem-jahr-in-der-regierung-ist-friedrich-merz-seinem-amt-gewachsen-15524787.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_40",
+      "label": "Aussage: Tankrabatt…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Tankrabatt",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_40",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Tankrabatt' bezieht sich auf die temporäre Senkung der Energiesteuern auf Kraftstoffe, die zu einer Entlastung von bis zu 17 Cent pro Liter führen sollte. Die Belege bestätigen, dass der Bundestag eine Senkung der Energiesteuern beschlossen hat, die als 'Tankrabatt' bezeichnet ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeskartellamt_tankrabatt",
+      "label": "Bundeskartellamt - Tankrabatt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundeskartellamt.de/DE/Aufgaben/MarkttransparenzstelleFuerKraftstoffe/Tankrabatt/Tankrabatt_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_41",
+      "label": "Aussage: 9-Euro-Ticket…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "9-Euro-Ticket",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_41",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage zum '9-Euro-Ticket' wird durch den Wikipedia-Beleg gestützt, der klar beschreibt, dass es sich um ein deutsches Angebot handelte, bei dem Passagiere für 9 Euro pro Monat im Juni, Juli oder August 2022 mit lokalen und regionalen Verkehrsmitteln in ganz Deutschland reisen konnten.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_9_euro_ticket_wikipedia",
+      "label": "9-Euro-Ticket - Wikipedia",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://en.wikipedia.org/wiki/9-Euro-Ticket",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_42",
+      "label": "Aussage: Zulassung neuer Autos mit Verbrennungsmotor nach 2035…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Zulassung neuer Autos mit Verbrennungsmotor nach 2035",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_42",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Zulassung neuer Autos mit Verbrennungsmotor nach 2035' ist im Kern richtig, aber unvollständig bzw. präzisierungsbedürftig. Die Belege zeigen, dass ab 2035 NEUZULASSUNGEN von Pkw mit reinem Verbrennungsmotor (Benzin/Diesel) in der EU verboten sind. Allerdings gibt es eine Ausna",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_zulassungsverbot_verbrennungsmotor",
+      "label": "Zulassungsverbot: Verbrennungsmotor",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.ace.de/elektromobilitaet/vorteile-tipps-einsteiger/verbrenner-aus/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_43",
+      "label": "Aussage: Erneuerbare-Energien-Gesetz, das den Unternehmen Planungssic…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Erneuerbare-Energien-Gesetz, das den Unternehmen Planungssicherheit für Investitionen in Erneuerbare ab dem 01.01.2027 gibt, fehlt",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_43",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage suggeriert, dass ab dem 01.01.2027 ein Mangel an Planungssicherheit für Unternehmen im Rahmen des Erneuerbare-Energien-Gesetzes (EEG) besteht. Die bereitgestellten Belege zeigen jedoch, dass das EEG bereits seit seiner Einführung im Jahr 2000 (und in nachfolgenden Novellen) klar",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_erneuerbare_energien_gesetz_ihk_schwaben",
+      "label": "Erneuerbare-Energien-Gesetz - IHK Schwaben",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.ihk.de/schwaben/produktmarken/energie/kreislaufwirtschaft/erneuerbare-energien-gesetz-6553190",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_44",
+      "label": "Aussage: Stilllegung alter Kohlekraftwerke in Nordrhein-Westfalen, in…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Stilllegung alter Kohlekraftwerke in Nordrhein-Westfalen, in der Lausitz",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_44",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage zur Stilllegung alter Kohlekraftwerke in Nordrhein-Westfalen und der Lausitz ist im Kern richtig, da der Kohleausstieg in Deutschland beschlossen ist und bereits erste Kraftwerke stillgelegt wurden. Der Beleg von energiezukunft.eu bestätigt die Stilllegung von 15 Kohlekraftwerke",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_energiewende_das_ist_der_weitere_fahrplan_zum_kohleausstieg",
+      "label": "Energiewende: Das ist der weitere Fahrplan zum Kohleausstieg",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.energiezukunft.eu/politik/das-ist-der-weitere-fahrplan-zum-kohleausstieg",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_45",
+      "label": "Aussage: Novellierung des Gebäudemodernisierungsgesetzes, mit der Sie…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Novellierung des Gebäudemodernisierungsgesetzes, mit der Sie dafür sorgen wollen, dass fossiles Öl und Gas noch nach 2045 eingesetzt werden können",
+      "person": "Josephine Ortleb",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_45",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die Novellierung des Gebäudemodernisierungsgesetzes (bzw. des Gebäudeenergiegesetzes, GEG) tatsächlich vorsieht, dass Gas- und Ölheizungen weiterhin erlaubt bleiben und eingebaut werden können. Allerdings ist die Behauptung, dass fossiles Öl und Gas 'noch",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_w_rmewende_eckpunkte_des_neuen_geb_udemodernisierungsgesetzes_wuppertal_institut_f_r_klima_umwelt_energie",
+      "label": "Wärmewende: Eckpunkte des neuen Gebäudemodernisierungsgesetzes - Wuppertal Institut für Klima, Umwelt, Energie",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://wupperinst.org/a/wi/a/s/ad/9222/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_46",
+      "label": "Aussage: allein in den 2010er-Jahren im Vergleich zu den 2000er-Jahre…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "allein in den 2010er-Jahren im Vergleich zu den 2000er-Jahren die durchschnittliche Nutzungsdauer eines Elektrogroßgerätes um ein Jahr reduziert hat",
+      "person": "Nicklas Kappe",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_46",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass sich die durchschnittliche Nutzungsdauer eines Elektrogroßgerätes in den 2010er-Jahren im Vergleich zu den 2000er-Jahren um ein Jahr reduziert hat, ist im Kern richtig, aber die genauen Zeiträume und die Reduktion weichen leicht ab. Der Beleg aus der WELT zeigt, dass die E",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_umwelt_durchschnittliche_nutzungsdauer_vieler_elektroger_te_gesunken_welt",
+      "label": "Umwelt: Durchschnittliche Nutzungsdauer vieler Elektrogeräte gesunken - WELT",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.welt.de/newsticker/news1/article152274403/Umwelt-Durchschnittliche-Nutzungsdauer-vieler-Elektrogeraete-gesunken.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_47",
+      "label": "Aussage: Elektrogroßgeräte [werden] üblicherweise etwa alle zehn Jahr…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Elektrogroßgeräte [werden] üblicherweise etwa alle zehn Jahre ausgetauscht",
+      "person": "Nicklas Kappe",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_47",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Elektrogroßgeräte üblicherweise etwa alle zehn Jahre ausgetauscht werden, wird durch den Beleg der Deutschen Handwerks Zeitung (dhz.net) gestützt, der angibt, dass sich eine Neuanschaffung bei Geräten, die älter als zehn Jahre sind, in der Regel rentiert. Dies deutet auf e",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_wann_sich_der_austausch_alter_haushaltsger_te_lohnt_dhz_net",
+      "label": "Wann sich der Austausch alter Haushaltsgeräte lohnt - dhz.net",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.deutsche-handwerks-zeitung.de/wann-sich-der-austausch-alter-haushaltsgeraete-lohnt-135048/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_48",
+      "label": "Aussage: Elektromotoren in der Industrie [...] wenn diese 8 600 Stund…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Elektromotoren in der Industrie [...] wenn diese 8 600 Stunden im Jahr laufen",
+      "person": "Nicklas Kappe",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_48",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg aus der Austrian Energy Agency (AEE) nennt eine typische Laufzeit von 4.000 Stunden pro Jahr für Elektromotoren in der Industrie. Die Aussage von 8.600 Stunden weicht deutlich davon ab und ist für Standard-Industrieanwendungen unrealistisch hoch. Allerdings könnten spezifische Anw",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_elektromotoren_gewaltige_stromverbraucher_mit_hohem_einsparpotenzial",
+      "label": "Elektromotoren: gewaltige Stromverbraucher mit hohem Einsparpotenzial",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.aee.at/74-zeitschrift/zeitschriften/2014-02/813-elektromotoren-gewaltige-stromverbraucher-mit-hohem-einsparpotenzial",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_49",
+      "label": "Aussage: die USA [...] erwirtschaftet ein Viertel des weltweiten BIPs…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "die USA [...] erwirtschaftet ein Viertel des weltweiten BIPs",
+      "person": "Karoline Otte",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_49",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die USA etwa ein Viertel des weltweiten BIPs erwirtschaften, wird durch den Beleg der Bundeszentrale für politische Bildung (bpb) direkt gestützt, der für 2022 einen Anteil von 'gut einem Viertel am Welt-BIP' angibt. Auch das Allgemeinwissen über die wirtschaftliche Domina",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_welt_bruttoinlandsprodukt_globalisierung_bpb_de",
+      "label": "Welt-Bruttoinlandsprodukt | Globalisierung | bpb.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/globalisierung/52655/welt-bruttoinlandsprodukt/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_50",
+      "label": "Aussage: In der heutigen Umfrage erreicht die AfD einen neuen Höchstw…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "In der heutigen Umfrage erreicht die AfD einen neuen Höchstwert. Mit 27 Prozent sind wir mit Abstand die stärkste Kraft in Deutschland. Die CDU ist mit 23 Prozent abgeschlagen",
+      "person": "Karoline Otte",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_50",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die AfD in aktuellen Umfragen tatsächlich Höchstwerte erreicht und die CDU überholt hat. Allerdings weicht die genannte Prozentzahl (27 Prozent) leicht von den in den Belegen genannten Werten (28 Prozent in bundesweiten Umfragen) ab. Zudem bezieht sich de",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_umfrage_afd_steigt_bei_forsa_auf_h_chsten_jemals_gemessenen_wert_desastr_se_werte_f_r_schwarz_rot_welt",
+      "label": "Umfrage: AfD steigt bei Forsa auf höchsten jemals gemessenen Wert – Desaströse Werte für Schwarz-Rot - WELT",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.welt.de/politik/deutschland/article6a0c56d0dc590e4588162c85/umfrage-afd-steigt-bei-forsa-auf-hoechsten-jemals-gemessenen-wert-desastroese-werte-fuer-schwarz-rot.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -8610,524 +9767,6 @@
       "start_sec": "",
       "herkunft": "protokoll",
       "schicht": "reaktion"
-    },
-    {
-      "id": "person_julia_kl_ckner",
-      "label": "Julia Klöckner",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_stefanie_hubig",
-      "label": "Dr. Stefanie Hubig",
-      "type": "Person",
-      "subtype": "Bundesministerin der Justiz und für Verbraucherschutz",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_karsten_wildberger",
-      "label": "Dr. Karsten Wildberger",
-      "type": "Person",
-      "subtype": "Bundesminister für Digitales und Staatsmodernisierung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ruben_rupp",
-      "label": "Ruben Rupp",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_konrad_k_rner",
-      "label": "Dr. Konrad Körner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_till_steffen",
-      "label": "Dr. Till Steffen",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_carmen_wegge",
-      "label": "Carmen Wegge",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_caren_lay",
-      "label": "Caren Lay",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_knuth_meyer_soltau",
-      "label": "Knuth Meyer-Soltau",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_reichardt",
-      "label": "Martin Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_martin_plum",
-      "label": "Dr. Martin Plum",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_rothenberger",
-      "label": "Johannes Rothenberger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_joachim_ebmeyer",
-      "label": "Joachim Ebmeyer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_moritz_heuberger",
-      "label": "Dr. Moritz Heuberger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rebecca_lenhard",
-      "label": "Rebecca Lenhard",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anna_l_hrmann",
-      "label": "Dr. Anna Lührmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helge_limburg",
-      "label": "Helge Limburg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_sch_tzl",
-      "label": "Johannes Schätzl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sonja_lemke",
-      "label": "Sonja Lemke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_rainer_kraft",
-      "label": "Dr. Rainer Kraft",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_j_rgen_go_ner",
-      "label": "Hans-Jürgen Goßner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stephan_brandner",
-      "label": "Stephan Brandner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_thomas_pauls",
-      "label": "Dr. Thomas Pauls",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_henri_schmidt",
-      "label": "Henri Schmidt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jeanne_dillschneider",
-      "label": "Jeanne Dillschneider",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hakan_demir",
-      "label": "Hakan Demir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hanna_steinm_ller",
-      "label": "Hanna Steinmüller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sebastian_maack",
-      "label": "Sebastian Maack",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_pascal_meiser",
-      "label": "Pascal Meiser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_luke_ho",
-      "label": "Luke Hoß",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tobias_matthias_peterka",
-      "label": "Tobias Matthias Peterka",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_adam_balten",
-      "label": "Adam Balten",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_karl_b_r",
-      "label": "Karl Bär",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_susanne_hierl",
-      "label": "Susanne Hierl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_axel_m_ller",
-      "label": "Axel Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_josephine_ortleb",
-      "label": "Josephine Ortleb",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_michael_kellner",
-      "label": "Michael Kellner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_andreas_lenz",
-      "label": "Dr. Andreas Lenz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_steffen_kotr",
-      "label": "Steffen Kotré",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_frauke_heiligenstadt",
-      "label": "Frauke Heiligenstadt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_janine_wissler",
-      "label": "Janine Wissler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_matthias_hiller",
-      "label": "Dr. Matthias Hiller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bernd_schattner",
-      "label": "Bernd Schattner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sebastian_roloff",
-      "label": "Sebastian Roloff",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_katrin_uhlig",
-      "label": "Katrin Uhlig",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_klaus_wiener",
-      "label": "Dr. Klaus Wiener",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_gerrit_huy",
-      "label": "Gerrit Huy",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mechthilde_wittmann",
-      "label": "Mechthilde Wittmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andrea_lindholz",
-      "label": "Andrea Lindholz",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicklas_kappe",
-      "label": "Nicklas Kappe",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_enrico_komning",
-      "label": "Enrico Komning",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helmut_kleebank",
-      "label": "Helmut Kleebank",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_julian_joswig",
-      "label": "Julian Joswig",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_j_rg_cezanne",
-      "label": "Jörg Cezanne",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_koller",
-      "label": "Hans Koller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mathias_weiser",
-      "label": "Mathias Weiser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_karoline_otte",
-      "label": "Karoline Otte",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_j_rn_k_nig",
-      "label": "Jörn König",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_parsa_marvi",
-      "label": "Parsa Marvi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_doris_achelwilm",
-      "label": "Doris Achelwilm",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lukas_krieger",
-      "label": "Lukas Krieger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_omid_nouripour",
-      "label": "Omid Nouripour",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_rabanus",
-      "label": "Martin Rabanus",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_oliver_p_psel",
-      "label": "Oliver Pöpsel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_ingo_hahn",
-      "label": "Dr. Ingo Hahn",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_hans_theiss",
-      "label": "Dr. Hans Theiss",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_daniel_zerbin",
-      "label": "Dr. Daniel Zerbin",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ayse_asar",
-      "label": "Ayse Asar",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_oliver_kaczmarek",
-      "label": "Oliver Kaczmarek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_michael_kaufmann",
-      "label": "Dr. Michael Kaufmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicole_gohlke",
-      "label": "Nicole Gohlke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_reza_asghari",
-      "label": "Dr. Reza Asghari",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_christoph_birghan",
-      "label": "Dr. Christoph Birghan",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_maja_wallstein",
-      "label": "Maja Wallstein",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
     }
   ],
   "relationships": [
@@ -11309,7 +11948,7 @@
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_deutscher_bundestag_aktuelle_stunde",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11326,42 +11965,42 @@
       "source_id": "aussage_1",
       "target_id": "faktencheck_1",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_bundesjustizministerin_zur_befragung_der_bundesregierung_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_julia_kl_ckner",
       "target_id": "aussage_2",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_2",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_statistisches_bundesamt_mietentwicklung_in_gro_st_dten",
+      "target_id": "quelle_bundesjustizministerin_zur_befragung_der_bundesregierung_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_julia_kl_ckner",
       "target_id": "aussage_3",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_3",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -11372,137 +12011,137 @@
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_destatis_entwicklung_der_mietpreise_in_gro_st_dten",
+      "target_id": "quelle_bundesjustizministerin_zur_befragung_der_bundesregierung_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_julia_kl_ckner",
       "target_id": "aussage_4",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_4",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_4",
       "target_id": "faktencheck_4",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_polizeiliche_kriminalstatistik_pks_2022",
+      "target_id": "quelle_deutscher_bundestag_justizministerin_hubig_hebt_gewaltschutz_und_mietrecht_hervor",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_stefanie_hubig",
+      "source_id": "person_julia_kl_ckner",
       "target_id": "aussage_5",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_5",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_5",
       "target_id": "faktencheck_5",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_strafgesetzbuch_stgb_183_exhibitionismus",
+      "target_id": "quelle_im_kabinett_beschlossen_ip_adressenspeicherung_bundesregierung",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "person_julia_kl_ckner",
       "target_id": "aussage_6",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_6",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_wenn_die_miete_nicht_nur_gef_hlt_zu_hoch_ist_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "person_julia_kl_ckner",
       "target_id": "aussage_7",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_7",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_7",
       "target_id": "faktencheck_7",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_kabinett_entscheidet_am_mittwoch_koalition_bei_haushalt_und_gesundheitsreform_auf_der_zielgeraden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "person_julia_kl_ckner",
       "target_id": "aussage_8",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_8",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_8",
       "target_id": "faktencheck_8",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_geb_udetyp_e_weniger_standards_f_r_billigeres_bauen",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "person_julia_kl_ckner",
       "target_id": "aussage_9",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_9",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_9",
       "target_id": "faktencheck_9",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_einfaches_bauen_referentenentwurf_f_r_geb_udetyp_e",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_karsten_wildberger",
+      "source_id": "person_dr_stefanie_hubig",
       "target_id": "aussage_10",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11515,15 +12154,15 @@
       "source_id": "aussage_10",
       "target_id": "faktencheck_10",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_teures_wohnen_leipzig_verteuert_sich_fast_so_stark_wie_berlin_mieten_um_bis_zu_69_prozent_gestiegen_welt",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_jeanne_dillschneider",
+      "source_id": "person_dr_stefanie_hubig",
       "target_id": "aussage_11",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11540,11 +12179,11 @@
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_mietspiegelindex_berlin_entwicklung_der_mietpreise",
+      "target_id": "quelle_verurteilte_nach_geschlecht_2023_statista",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_jeanne_dillschneider",
+      "source_id": "person_dr_stefanie_hubig",
       "target_id": "aussage_12",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11557,15 +12196,15 @@
       "source_id": "aussage_12",
       "target_id": "faktencheck_12",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_12",
-      "target_id": "quelle_statistisches_bundesamt_wohnen_in_deutschland",
+      "target_id": "quelle_exhibitionismus_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_jeanne_dillschneider",
+      "source_id": "person_dr_stefanie_hubig",
       "target_id": "aussage_13",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11582,11 +12221,11 @@
     },
     {
       "source_id": "faktencheck_13",
-      "target_id": "quelle_statistisches_bundesamt_verbraucherpreisindex_vpi",
+      "target_id": "quelle_deutschlands_zukunft_gestalten_koalitionsvertrag_zwischen_cdu_csu_und_spd",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_pascal_meiser",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_14",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11599,15 +12238,15 @@
       "source_id": "aussage_14",
       "target_id": "faktencheck_14",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_14",
-      "target_id": "quelle_bundesministerium_der_justiz_reform_des_sexualstrafrechts_2016",
+      "target_id": "quelle_schleswig_holstein_open_source_ist_praxistauglich_trotz_umstellungsproblemen_heise_online",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_pascal_meiser",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_15",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11620,15 +12259,15 @@
       "source_id": "aussage_15",
       "target_id": "faktencheck_15",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_15",
-      "target_id": "quelle_strafgesetzbuch_stgb_177_sexuelle_n_tigung_vergewaltigung",
+      "target_id": "quelle_projekte_berlin_open_source",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_susanne_hierl",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_16",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11641,15 +12280,15 @@
       "source_id": "aussage_16",
       "target_id": "faktencheck_16",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_16",
-      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "target_id": "quelle_ist_dora_chance_oder_risiko_teil_1_die_idee",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_susanne_hierl",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_17",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11662,15 +12301,15 @@
       "source_id": "aussage_17",
       "target_id": "faktencheck_17",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_17",
-      "target_id": "quelle_polizeiliche_kriminalstatistik_pks_des_bka",
+      "target_id": "quelle_dsa_dma_ai_act_zwischen_ambitionierter_regulierung_und_praktischen_herausforderungen_basecamp",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_susanne_hierl",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_18",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11687,11 +12326,11 @@
     },
     {
       "source_id": "faktencheck_18",
-      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "target_id": "quelle_kein_spezifischer_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_susanne_hierl",
+      "source_id": "person_dr_karsten_wildberger",
       "target_id": "aussage_19",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11704,15 +12343,15 @@
       "source_id": "aussage_19",
       "target_id": "faktencheck_19",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_19",
-      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "target_id": "quelle_streaming_schnelltest_ayliva_landet_mit_was_mir_gef_llt_an_der_spitze_der_youtube_musik_trendcharts_musikwoche",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_susanne_hierl",
+      "source_id": "person_jeanne_dillschneider",
       "target_id": "aussage_20",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11725,63 +12364,63 @@
       "source_id": "aussage_20",
       "target_id": "faktencheck_20",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_20",
-      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "target_id": "quelle_wohnkrise_mieten_in_gro_st_dten_in_zehn_jahren_um_43_prozent_gestiegen_die_zeit",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_josephine_ortleb",
+      "source_id": "person_jeanne_dillschneider",
       "target_id": "aussage_21",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_21",
-      "target_id": "top_1",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_21",
       "target_id": "faktencheck_21",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_21",
-      "target_id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
+      "target_id": "quelle_miete_millionen_laut_neuer_studie_in_deutschland_von_wohnkosten_berlastet_welt",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_josephine_ortleb",
+      "source_id": "person_pascal_meiser",
       "target_id": "aussage_22",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_22",
-      "target_id": "top_1",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_22",
       "target_id": "faktencheck_22",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_22",
-      "target_id": "quelle_statistische_berichte_des_amts_f_r_statistik_berlin_brandenburg_mietpreisentwicklung",
+      "target_id": "quelle_hubig_will_verj_hrungsfrist_bei_vergewaltigungen_verl_ngern_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_josephine_ortleb",
+      "source_id": "person_pascal_meiser",
       "target_id": "aussage_23",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_23",
-      "target_id": "top_1",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -11792,38 +12431,38 @@
     },
     {
       "source_id": "faktencheck_23",
-      "target_id": "quelle_statistisches_bundesamt_destatis_baupreisindizes",
+      "target_id": "quelle_bundestag_entscheidet_nein_hei_t_nein",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_josephine_ortleb",
+      "source_id": "person_hakan_demir",
       "target_id": "aussage_24",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_24",
-      "target_id": "top_1",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_24",
       "target_id": "faktencheck_24",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_24",
-      "target_id": "quelle_bundestagsdrucksache_20_5650_wohnungsbau_und_soziale_wohnraumf_rderung",
+      "target_id": "quelle_stadtbild_debatte_wann_und_wo_frauen_tats_chlich_opfer_werden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_nicklas_kappe",
+      "source_id": "person_hakan_demir",
       "target_id": "aussage_25",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_25",
-      "target_id": "top_5",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -11834,80 +12473,80 @@
     },
     {
       "source_id": "faktencheck_25",
-      "target_id": "quelle_umweltbundesamt_nutzungsdauer_von_elektroger_ten",
+      "target_id": "quelle_stromverbrauch_wie_k_nstliche_intelligenz_bis_2030_die_stromnetze_herausfordert",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_nicklas_kappe",
+      "source_id": "person_hakan_demir",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_26",
-      "target_id": "top_5",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_26",
       "target_id": "faktencheck_26",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_26",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_enefg_gesetz_zur_steigerung_der_energieeffizienz_in_deutschland",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_nicklas_kappe",
+      "source_id": "person_hakan_demir",
       "target_id": "aussage_27",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_27",
-      "target_id": "top_5",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_27",
       "target_id": "faktencheck_27",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_27",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_rechenzentren_deutschland_verliert_den_anschluss_presseinformation_bitkom_e_v",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_karoline_otte",
+      "source_id": "person_hakan_demir",
       "target_id": "aussage_28",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_28",
-      "target_id": "top_7",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_28",
       "target_id": "faktencheck_28",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_28",
-      "target_id": "quelle_world_bank_data_gdp_current_us_and_gdp_ppp_current_international",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_karoline_otte",
+      "source_id": "person_hakan_demir",
       "target_id": "aussage_29",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_29",
-      "target_id": "top_7",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -11918,7 +12557,448 @@
     },
     {
       "source_id": "faktencheck_29",
-      "target_id": "quelle_keine_belastbare_quelle_f_r_die_genannte_umfrage_verf_gbar",
+      "target_id": "quelle_energieverbrauch_von_ki_woher_soll_der_strom_f_r_ki_kommen_die_zeit",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
+      "target_id": "aussage_30",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_30",
+      "target_id": "top_2",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_30",
+      "target_id": "faktencheck_30",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_30",
+      "target_id": "quelle_berliner_clanmitglieder_sollen_autos_angez_ndet_haben_staatsanwaltschaft_klagt_remmo_m_nner_wegen_brandserie_vor_gef_ngnissen_an",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
+      "target_id": "aussage_31",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_31",
+      "target_id": "top_2",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_31",
+      "target_id": "faktencheck_31",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_31",
+      "target_id": "quelle_gesetz_zur_verbesserung_des_schutzes_von_gerichtsvollziehern_vor_gewalt_sowie_zur_nderung_weiterer_zwangsvollstreckungsrechtlicher_vorschriften",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
+      "target_id": "aussage_32",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_32",
+      "target_id": "top_2",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_32",
+      "target_id": "faktencheck_32",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_32",
+      "target_id": "quelle_fall_martin_h_angeklagter_in_saarbr_cker_mordprozess_erz_hlt_m_rchen_sagen_seine_ex_kollegen",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
+      "target_id": "aussage_33",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_33",
+      "target_id": "top_2",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_33",
+      "target_id": "faktencheck_33",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_33",
+      "target_id": "quelle_bundesregierung_und_bundesministerien_im_gesetzgebungsverfahren",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_susanne_hierl",
+      "target_id": "aussage_34",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_34",
+      "target_id": "top_2",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_34",
+      "target_id": "faktencheck_34",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_34",
+      "target_id": "quelle_neuer_wehrdienst_verteidigungsminister_will_noch_vor_sommerpause_gesetzentwurf_vorlegen_focus_online",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_35",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_35",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_35",
+      "target_id": "faktencheck_35",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_35",
+      "target_id": "quelle_der_deutschlandatlas_wie_wir_wohnen_angebotsmieten",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_36",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_36",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_36",
+      "target_id": "faktencheck_36",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_36",
+      "target_id": "quelle_angebotsmieten_in_berlin_fast_70_prozent_teurer_als_vor_zehn_jahren",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_37",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_37",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_37",
+      "target_id": "faktencheck_37",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "falsch"
+    },
+    {
+      "source_id": "faktencheck_37",
+      "target_id": "quelle_sozialer_wohn_monitor_2026_1_4_millionen_wohnungen_fehlen_tagesschau_de",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_38",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_38",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_38",
+      "target_id": "faktencheck_38",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_38",
+      "target_id": "quelle_warum_in_deutschland_zu_wenig_wohnungen_gebaut_werden",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_39",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_39",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_39",
+      "target_id": "faktencheck_39",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_39",
+      "target_id": "quelle_kein_spezifischer_beleg_zur_aussage",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_40",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_40",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_40",
+      "target_id": "faktencheck_40",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_40",
+      "target_id": "quelle_bundeskartellamt_tankrabatt",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_41",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_41",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_41",
+      "target_id": "faktencheck_41",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_41",
+      "target_id": "quelle_9_euro_ticket_wikipedia",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_42",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_42",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_42",
+      "target_id": "faktencheck_42",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_42",
+      "target_id": "quelle_zulassungsverbot_verbrennungsmotor",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_43",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_43",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_43",
+      "target_id": "faktencheck_43",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "irreführend"
+    },
+    {
+      "source_id": "faktencheck_43",
+      "target_id": "quelle_erneuerbare_energien_gesetz_ihk_schwaben",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_44",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_44",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_44",
+      "target_id": "faktencheck_44",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_44",
+      "target_id": "quelle_energiewende_das_ist_der_weitere_fahrplan_zum_kohleausstieg",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_josephine_ortleb",
+      "target_id": "aussage_45",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_45",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_45",
+      "target_id": "faktencheck_45",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_45",
+      "target_id": "quelle_w_rmewende_eckpunkte_des_neuen_geb_udemodernisierungsgesetzes_wuppertal_institut_f_r_klima_umwelt_energie",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_nicklas_kappe",
+      "target_id": "aussage_46",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_46",
+      "target_id": "top_5",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_46",
+      "target_id": "faktencheck_46",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_46",
+      "target_id": "quelle_umwelt_durchschnittliche_nutzungsdauer_vieler_elektroger_te_gesunken_welt",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_nicklas_kappe",
+      "target_id": "aussage_47",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_47",
+      "target_id": "top_5",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_47",
+      "target_id": "faktencheck_47",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_47",
+      "target_id": "quelle_wann_sich_der_austausch_alter_haushaltsger_te_lohnt_dhz_net",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_nicklas_kappe",
+      "target_id": "aussage_48",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_48",
+      "target_id": "top_5",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_48",
+      "target_id": "faktencheck_48",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_48",
+      "target_id": "quelle_elektromotoren_gewaltige_stromverbraucher_mit_hohem_einsparpotenzial",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_karoline_otte",
+      "target_id": "aussage_49",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_49",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_49",
+      "target_id": "faktencheck_49",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_49",
+      "target_id": "quelle_welt_bruttoinlandsprodukt_globalisierung_bpb_de",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_karoline_otte",
+      "target_id": "aussage_50",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_50",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_50",
+      "target_id": "faktencheck_50",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_50",
+      "target_id": "quelle_umfrage_afd_steigt_bei_forsa_auf_h_chsten_jemals_gemessenen_wert_desastr_se_werte_f_r_schwarz_rot_welt",
       "relationship_type": "BELEGT_MIT"
     },
     {

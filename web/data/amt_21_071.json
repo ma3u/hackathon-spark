@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 1753,
-    "relationship_count": 3262,
+    "node_count": 1746,
+    "relationship_count": 3238,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21071.pdf",
@@ -40,10 +40,31 @@
       "schicht": "zeitlich"
     },
     {
+      "id": "person_julia_kl_ckner",
+      "label": "Julia Klöckner",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_wiebke_esdar",
+      "label": "Dr. Wiebke Esdar",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_spd",
       "label": "SPD",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kay_gottschalk",
+      "label": "Kay Gottschalk",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -54,10 +75,24 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_dr_mathias_middelberg",
+      "label": "Dr. Mathias Middelberg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_cdu_csu",
       "label": "CDU/CSU",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_katharina_dr_ge",
+      "label": "Katharina Dröge",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -68,6 +103,13 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_heidi_reichinnek",
+      "label": "Heidi Reichinnek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_die_linke",
       "label": "Die Linke",
       "type": "Fraktion",
@@ -75,10 +117,801 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_michael_schrodi",
+      "label": "Michael Schrodi",
+      "type": "Person",
+      "subtype": "Parl. Staatssekretär beim Bundesminister der Finanzen",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_iris_nieland",
+      "label": "Iris Nieland",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_fritz_g_ntzler",
+      "label": "Fritz Güntzler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_katharina_beck",
+      "label": "Katharina Beck",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_michael_thews",
+      "label": "Michael Thews",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_wagner",
+      "label": "Johannes Wagner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christian_douglas",
+      "label": "Christian Douglas",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_georg_g_nther",
+      "label": "Georg Günther",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_seidler",
+      "label": "Stefan Seidler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_fraktionslos",
       "label": "fraktionslos",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mechthilde_wittmann",
+      "label": "Mechthilde Wittmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_julia_verlinden",
+      "label": "Dr. Julia Verlinden",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_florian_dorn",
+      "label": "Dr. Florian Dorn",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_reinhard_mixl",
+      "label": "Reinhard Mixl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_doris_achelwilm",
+      "label": "Doris Achelwilm",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_stefan_korbach",
+      "label": "Dr. Stefan Korbach",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_henze",
+      "label": "Stefan Henze",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_truels_reichardt",
+      "label": "Truels Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_swantje_henrike_michaelsen",
+      "label": "Swantje Henrike Michaelsen",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jorrit_bosch",
+      "label": "Jorrit Bosch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_g_nter_baumgartner",
+      "label": "Günter Baumgartner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lorenz_g_sta_beutin",
+      "label": "Lorenz Gösta Beutin",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_josephine_ortleb",
+      "label": "Josephine Ortleb",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hauke_finger",
+      "label": "Hauke Finger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sascha_m_ller",
+      "label": "Sascha Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_alexander_jordan",
+      "label": "Alexander Jordan",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ulrich_von_zons",
+      "label": "Ulrich von Zons",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_karsten_wildberger",
+      "label": "Dr. Karsten Wildberger",
+      "type": "Person",
+      "subtype": "Bundesminister für Digitales und Staatsmodernisierung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sonja_lemke",
+      "label": "Sonja Lemke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_robin_j_nger",
+      "label": "Robin Jünger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_sch_tzl",
+      "label": "Johannes Schätzl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rebecca_lenhard",
+      "label": "Rebecca Lenhard",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_marvin_schulz",
+      "label": "Marvin Schulz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lars_haise",
+      "label": "Lars Haise",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_carolin_wagner",
+      "label": "Dr. Carolin Wagner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anna_l_hrmann",
+      "label": "Dr. Anna Lührmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hansj_rg_durz",
+      "label": "Hansjörg Durz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_alexander_arpaschi",
+      "label": "Alexander Arpaschi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_daniel_bettermann",
+      "label": "Daniel Bettermann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ralph_brinkhaus",
+      "label": "Ralph Brinkhaus",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_karsten_hilse",
+      "label": "Karsten Hilse",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andreas_jung",
+      "label": "Andreas Jung",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lisa_badum",
+      "label": "Lisa Badum",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jakob_blankenburg",
+      "label": "Jakob Blankenburg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_fabian_fahl",
+      "label": "Dr. Fabian Fahl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_thomas_gebhart",
+      "label": "Dr. Thomas Gebhart",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_ingo_hahn",
+      "label": "Dr. Ingo Hahn",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_daniel_rinkert",
+      "label": "Daniel Rinkert",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_michael_kellner",
+      "label": "Michael Kellner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_koller",
+      "label": "Hans Koller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_manuel_krauthausen",
+      "label": "Manuel Krauthausen",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helmut_kleebank",
+      "label": "Helmut Kleebank",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_volker_mayer_lay",
+      "label": "Volker Mayer-Lay",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_reza_asghari",
+      "label": "Dr. Reza Asghari",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_omid_nouripour",
+      "label": "Omid Nouripour",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_gunther_krichbaum",
+      "label": "Gunther Krichbaum",
+      "type": "Person",
+      "subtype": "Staatsminister beim Bundesminister des Auswärtigen",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_markus_frohnmaier",
+      "label": "Markus Frohnmaier",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_metin_hakverdi",
+      "label": "Metin Hakverdi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_agnieszka_brugger",
+      "label": "Agnieszka Brugger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_janina_b_ttger",
+      "label": "Janina Böttger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tilman_kuban",
+      "label": "Tilman Kuban",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_beatrix_von_storch",
+      "label": "Beatrix von Storch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_derya_t_rk_nachbaur",
+      "label": "Derya Türk-Nachbaur",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_chantal_kopf",
+      "label": "Chantal Kopf",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_knut_abraham",
+      "label": "Knut Abraham",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_maximilian_krah",
+      "label": "Dr. Maximilian Krah",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_david_preisendanz",
+      "label": "Dr. David Preisendanz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tobias_winkler",
+      "label": "Tobias Winkler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_carmen_wegge",
+      "label": "Carmen Wegge",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tobias_matthias_peterka",
+      "label": "Tobias Matthias Peterka",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_axel_m_ller",
+      "label": "Axel Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helge_limburg",
+      "label": "Helge Limburg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rainer_galla",
+      "label": "Rainer Galla",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_luke_ho",
+      "label": "Luke Hoß",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_martin_plum",
+      "label": "Dr. Martin Plum",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christian_moser",
+      "label": "Christian Moser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kerstin_przygodda",
+      "label": "Kerstin Przygodda",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ellen_demuth",
+      "label": "Ellen Demuth",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_reichardt",
+      "label": "Martin Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lamya_kaddor",
+      "label": "Lamya Kaddor",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_daniel_zerbin",
+      "label": "Dr. Daniel Zerbin",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_saskia_esken",
+      "label": "Saskia Esken",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicole_gohlke",
+      "label": "Nicole Gohlke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ralph_edelh_u_er",
+      "label": "Ralph Edelhäußer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_birgit_bessin",
+      "label": "Birgit Bessin",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_adam_balten",
+      "label": "Adam Balten",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_saskia_ludwig",
+      "label": "Dr. Saskia Ludwig",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_alaa_alhamwi",
+      "label": "Dr. Alaa Alhamwi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dunja_kreiser",
+      "label": "Dunja Kreiser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_maximilian_kneller",
+      "label": "Maximilian Kneller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mirze_edis",
+      "label": "Mirze Edis",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lars_rohwer",
+      "label": "Lars Rohwer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_paul_schmidt",
+      "label": "Dr. Paul Schmidt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_zoe_mayer",
+      "label": "Dr. Zoe Mayer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_adrian_grasse",
+      "label": "Adrian Grasse",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stephan_protschka",
+      "label": "Stephan Protschka",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_franziska_kersten",
+      "label": "Dr. Franziska Kersten",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ina_latendorf",
+      "label": "Ina Latendorf",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_hans_theiss",
+      "label": "Dr. Hans Theiss",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_schr_der",
+      "label": "Stefan Schröder",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stephan_albani",
+      "label": "Stephan Albani",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_peter_bohnhof",
+      "label": "Peter Bohnhof",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_wilfried_oellers",
+      "label": "Wilfried Oellers",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sandra_stein",
+      "label": "Sandra Stein",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jens_peick",
+      "label": "Jens Peick",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_pascal_meiser",
+      "label": "Pascal Meiser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_markus_reichel",
+      "label": "Dr. Markus Reichel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_angelika_gl_ckner",
+      "label": "Angelika Glöckner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_katalin_gennburg",
+      "label": "Katalin Gennburg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_michael_kie_ling",
+      "label": "Michael Kießling",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_otto_strau",
+      "label": "Otto Strauß",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hendrik_bollmann",
+      "label": "Hendrik Bollmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sylvia_rietenberg",
+      "label": "Sylvia Rietenberg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_caren_lay",
+      "label": "Caren Lay",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -1679,51 +2512,51 @@
       "type": "Aussage",
       "subtype": "",
       "text": "Wir werden zum 1. Mai die Spritpreise an den Zapfsäulen um 17 Cent pro Liter senken.",
-      "person": "Präsidentin Julia Klöckner",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_0",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen des Entlastungspakets II eine temporäre Senkung der Energiesteuer auf Kraftstoffe (sog. 'Spritpreisbremse') um 14,04 Cent/Liter für Benzin und 17,27 Cent/Liter für Diesel beschlossen, die am 1. Juni 2022 in Kraft trat. Die Aussage bezieht sich auf den Diese",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Spritpreise zum 1. Mai um 17 Cent pro Liter gesenkt wurden, ist im Kern richtig, da der Tankrabatt tatsächlich eine Senkung von 17 Cent pro Liter vorsah (siehe MDR-Beleg). Allerdings zeigen die Daten der Monopolkommission, dass die tatsächliche Preissenkung je nach Kra",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_entlastungspaket_ii",
-      "label": "Bundesregierung - Entlastungspaket II",
+      "id": "quelle_kartellamt_und_adac_tankrabatt_kommt_gr_tenteils_an_zapfs_ulen_an_mdr_de",
+      "label": "Kartellamt und ADAC: Tankrabatt kommt größtenteils an Zapfsäulen an | mdr.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/entlastungen-fuer-deutschland/entlastungspaket-ii-2031254",
+      "url": "https://www.mdr.de/nachrichten/deutschland/gesellschaft/tankrabatt-benzin-diesel-sprit-preise-gesunken-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_1",
-      "label": "Aussage: Und er kostet den Staat in zwei Monaten 1,6 Milliarden Euro.…",
+      "label": "Aussage: Er kostet den Staat in zwei Monaten 1,6 Milliarden Euro.…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Und er kostet den Staat in zwei Monaten 1,6 Milliarden Euro.",
-      "person": "Präsidentin Julia Klöckner",
+      "text": "Er kostet den Staat in zwei Monaten 1,6 Milliarden Euro.",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_1",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesfinanzministerium beliefen sich die geschätzten Kosten für die temporäre Senkung der Energiesteuer auf Kraftstoffe auf etwa 3,2 Milliarden Euro für drei Monate. Für zwei Monate wären dies etwa 2,1 Milliarden Euro. Die Aussage von 1,6 Milliarden Euro für zwei Monate ist jedoch in ",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf Kosten von 1,6 Milliarden Euro für den Staat in zwei Monaten, ohne konkret zu benennen, worauf sich diese Summe bezieht. Die bereitgestellten Belege enthalten keine spezifischen Angaben zu einer Ausgabe von 1,6 Milliarden Euro innerhalb von zwei Monaten. Die gen",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesfinanzministerium_kosten_der_energiesteuersenkung",
-      "label": "Bundesfinanzministerium - Kosten der Energiesteuersenkung",
+      "id": "quelle_keine_passende_quelle_in_den_belegen",
+      "label": "Keine passende Quelle in den Belegen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Schlaglichter/Entlastungen/2022-05-20-entlastungspaket-2.html",
+      "url": "https://www.destatis.de/DE/Themen/Staat/Oeffentliche-Finanzen/Ausgaben-Einnahmen/_inhalt.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1733,24 +2566,24 @@
       "type": "Aussage",
       "subtype": "",
       "text": "Wir haben uns zudem darauf verständigt, dass es eine Entlastungspauschale von 1.000 Euro für Arbeitnehmerinnen und Arbeitnehmer geben soll, die Unternehmen dann als Betriebskosten steuerlich geltend machen können.",
-      "person": "Präsidentin Julia Klöckner",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_2",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen des dritten Entlastungspakets eine einmalige Energiepreispauschale von 300 Euro für Arbeitnehmer:innen beschlossen. Eine Pauschale von 1.000 Euro wurde jedoch nicht umgesetzt. Die Aussage könnte sich auf einen Vorschlag oder eine frühere Diskussion beziehen",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine geplante Entlastungspauschale von 1.000 Euro für Arbeitnehmerinnen und Arbeitnehmer, die Unternehmen steuerlich geltend machen können. Der Beleg von der Bundesregierung bestätigt, dass Arbeitgeber Leistungen bis zu 1.000 Euro steuer- und abgabenfrei an Arbe",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_drittes_entlastungspaket",
-      "label": "Bundesregierung - Drittes Entlastungspaket",
+      "id": "quelle_entlastungspr_mie_f_r_besch_ftigte_bundesregierung_de",
+      "label": "Entlastungsprämie für Beschäftigte - Bundesregierung.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/entlastungen-fuer-deutschland/drittes-entlastungspaket-2069948",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/entlastungspraemie-2422438",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1760,24 +2593,24 @@
       "type": "Aussage",
       "subtype": "",
       "text": "Mehr als 85 Prozent der Tarifbeschäftigten haben damals davon profitiert.",
-      "person": "Präsidentin Julia Klöckner",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_3",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche amtliche Statistik, die belegt, dass mehr als 85 Prozent der Tarifbeschäftigten von einer bestimmten Entlastungsmaßnahme (z. B. der Coronaprämie) profitiert haben. Die Aussage ist daher nicht überprüfbar.",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg von brisant.de zitiert das Statistische Bundesamt mit der Aussage, dass 86 Prozent der Tarifbeschäftigten von der Prämie (hier: Krisenbonus/Inflationsprämie) profitiert haben. Dies stützt die Aussage, dass 'mehr als 85 Prozent der Tarifbeschäftigten damals davon profitiert' haben.",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "id": "quelle_krisenbonus_vom_arbeitgeber_wer_bekommt_die_1_000_euro_steuerfrei_brisant_de",
+      "label": "Krisenbonus vom Arbeitgeber - Wer bekommt die 1.000 Euro steuerfrei? | brisant.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.brisant.de/haushalt/finanzen/krisenbonus-wann-1000-euro-entlastungspraemie,krisenbonus-1000-euro-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1792,19 +2625,19 @@
     },
     {
       "id": "faktencheck_4",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Senkung der Energiesteuern, die zu einer Preissenkung an der Zapfsäule führen soll. Die konkrete Ersparnis von 10 Euro pro Tankfüllung hängt jedoch von Faktoren wie Tankvolumen und Fahrzeugtyp ab. Eine pauschale Aussage ist daher nicht für alle Fälle zutreff",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Jede Tankfüllung wird in Zukunft 10 Euro billiger' wird durch die bereitgestellten Belege nicht bestätigt. Der Artikel der ZEIT spricht von einer geplanten Begrenzung der Tankmenge auf maximal 400 Euro pro Füllung, nicht jedoch von einer generellen Preissenkung um 10 Euro. Der ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_entlastungen_bei_den_energiekosten",
-      "label": "Bundesregierung - Entlastungen bei den Energiekosten",
+      "id": "quelle_hohe_kraftstoffpreise_so_wollen_andere_l_nder_die_spritpreise_senken_die_zeit",
+      "label": "Hohe Kraftstoffpreise: So wollen andere Länder die Spritpreise senken | DIE ZEIT",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/entlastungen-energie-2022748",
+      "url": "https://www.zeit.de/mobilitaet/2026-03/kraftstoffpreise-massnahmen-gesetzentwurf-preisbremse-regulierung",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1819,19 +2652,19 @@
     },
     {
       "id": "faktencheck_5",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Inflationsausgleichsprämie wurde im Rahmen des dritten Entlastungspakets der Bundesregierung eingeführt und ermöglicht Arbeitgebern, ihren Beschäftigten steuer- und abgabenfrei bis zu 3.000 Euro auszuzahlen. Diese Regelung galt zunächst bis Ende 2024 und konnte über mehrere Jahre gestre",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage zur Inflationsausgleichsprämie von bis zu 3.000 Euro ist im Kern richtig, wie die Belege von 'Die Techniker' und 'Haufe' bestätigen. Allerdings ist die Behauptung, man könne die Prämie 'über Jahre strecken', nicht explizit in den bereitgestellten Quellen belegt. Die Prämie konnt",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_der_finanzen_inflationsausgleichspr_mie",
-      "label": "Bundesministerium der Finanzen - Inflationsausgleichsprämie",
+      "id": "quelle_inflationsausgleichspr_mie_bis_3_000_euro_bis_ende_2024_die_techniker_firmenkunden",
+      "label": "Inflationsausgleichsprämie bis 3.000 Euro bis Ende 2024 | Die Techniker - Firmenkunden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Schlaglichter/Inflationsausgleichspraemie/2022-10-25-inflationsausgleichspraemie.html",
+      "url": "https://www.tk.de/firmenkunden/service/fachthemen/jahreswechsel/inflationsausgleichspraemie-bis-3000-euro-2137838",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1846,114 +2679,24 @@
     },
     {
       "id": "faktencheck_6",
-      "label": "Faktencheck: irreführend",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Sondervermögen Bundeswehr in Höhe von 100 Milliarden Euro, nicht auf 1 Billion Euro. Die 1 Billion Euro könnte sich auf die kumulierten Schulden oder Haushaltsvolumina über mehrere Jahre beziehen, ist aber in diesem Kontext falsch dargestellt. Das Sonderverm",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf ein Sondervermögen von 1 Billion Euro, das mit dem alten Parlament geschaffen worden sein soll. Die Belege zeigen, dass es tatsächlich Sondervermögen in erheblichem Umfang gibt, allerdings nicht in der genannten Gesamthöhe von 1 Billion Euro aus einem einzigen S",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_sonderverm_gen_bundeswehr",
-      "label": "Bundesregierung - Sondervermögen Bundeswehr",
+      "id": "quelle_sonderverm_gen_der_bundesregierung_auswirkungen_auf_die_b_rse",
+      "label": "Sondervermögen der Bundesregierung: Auswirkungen auf die Börse",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/ukraine-hilfe/sondervermoegen-bundeswehr-2041358",
+      "url": "https://www.justtrade.com/blog/sondervermoegen-der-bundesregierung-was-das-schuldenpaket-bedeutet",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_7",
-      "label": "Aussage: die Bundesregierung [hat] die Subventionen für das Fliegen e…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "die Bundesregierung [hat] die Subventionen für das Fliegen erhöht. Das planen Sie. Das haben Sie in der Bundesregierung beschlossen.",
-      "person": "Präsidentin Julia Klöckner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_7",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine konkrete, überprüfbare Zahl oder einen Beschluss der Bundesregierung zur Erhöhung von Subventionen für das Fliegen in der genannten Rede. Belastbare amtliche Quellen zu einer solchen Erhöhung sind nicht bekannt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_8",
-      "label": "Aussage: dauerhafte Verstetigung der Stromsteuersenkung für das produ…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "dauerhafte Verstetigung der Stromsteuersenkung für das produzierende Gewerbe auf den EU-Mindeststeuersatz von 50 Cent pro Megawattstunde",
-      "person": "Präsidentin Julia Klöckner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_8",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat die Stromsteuer für das produzierende Gewerbe auf den EU-Mindeststeuersatz von 0,50 Euro pro Megawattstunde gesenkt. Dies ist im Stromsteuergesetz (§ 9a) geregelt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_stromsteuergesetz_stromstg_9a",
-      "label": "Stromsteuergesetz (StromStG) § 9a",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.gesetze-im-internet.de/stromstg/__9a.html",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_9",
-      "label": "Aussage: Davon profitieren schon heute bereits knapp 600.000 Unterneh…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Davon profitieren schon heute bereits knapp 600.000 Unternehmen mit rund 10 Millionen Beschäftigten.",
-      "person": "Präsidentin Julia Klöckner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_9",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine aktuelle, amtliche Statistik, die diese konkreten Zahlen zur Anzahl der profitierenden Unternehmen und Beschäftigten belegt. Eine solche Aufschlüsselung ist nicht öffentlich zugänglich oder wurde nicht genannt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_10",
-      "label": "Aussage: der Strompreis für private Haushalte [ist] im Vergleich zum …",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "der Strompreis für private Haushalte [ist] im Vergleich zum Vorjahr",
-      "person": "Präsidentin Julia Klöckner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_10",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist unvollständig, da kein konkreter Vergleichswert oder eine prozentuale Veränderung genannt wird. Allerdings gibt es amtliche Daten zu Strompreisentwicklungen. Laut Destatis lag der Strompreis für Haushaltskunden 2022 bei durchschnittlich 40,07 Cent/kWh (2021: 32,16 Cent/kWh),",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_statistisches_bundesamt_destatis_strompreise_f_r_haushaltskunden",
-      "label": "Statistisches Bundesamt (Destatis) – Strompreise für Haushaltskunden",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Energiepreise/Strompreise.html",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_11",
       "label": "Aussage: fast 1,5 Milliarden Liter Sprit pro Jahr sparen würde…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -1962,25 +2705,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_11",
+      "id": "faktencheck_7",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage basiert auf Schätzungen und Modellrechnungen. Eine Studie des Umweltbundesamtes (2020) schätzt das Einsparpotenzial durch ein Tempolimit von 120 km/h auf Autobahnen auf etwa 1,9 Millionen Tonnen CO₂ pro Jahr, was grob etwa 0,7 bis 1,4 Milliarden Litern Sprit entsprechen könnte (",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'fast 1,5 Milliarden Liter Sprit pro Jahr sparen' bezieht sich vermutlich auf ein Tempolimit, da dies ein häufig diskutiertes Szenario zur Spritersparnis ist. Der bereitgestellte Beleg der Deutschen Umwelthilfe nennt jedoch ein Einsparpotenzial von **bis zu 4,7 Milliarden Liter ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_umweltbundesamt_tempolimit_auf_autobahnen",
-      "label": "Umweltbundesamt: Tempolimit auf Autobahnen",
+      "id": "quelle_deutsche_umwelthilfe_fordert_tempolimit_jetzt_mit_dem_bis_zu_4_7_milliarden_liter_sprit_gespart_und_abh_ngigkeiten_von_l_importen_reduziert_werden_deutsche_umwelthilfe_e_v",
+      "label": "Deutsche Umwelthilfe fordert ‚Tempolimit jetzt!‘, mit dem bis zu 4,7 Milliarden Liter Sprit gespart und Abhängigkeiten von Öl-Importen reduziert werden – Deutsche Umwelthilfe e.V.",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.umweltbundesamt.de/themen/verkehr-laerm/emissionsdaten#tempolimit-auf-autobahnen",
+      "url": "https://www.duh.de/presse/pressemitteilungen/pressemitteilung/deutsche-umwelthilfe-fordert-tempolimit-jetzt-mit-dem-bis-zu-47-milliarden-liter-sprit-gespart/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_12",
+      "id": "aussage_8",
       "label": "Aussage: Mineralölkonzerne verbuchen Rekordgewinne von 23,8 Millionen…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -1989,25 +2732,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_12",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_8",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die konkrete Zahl von 23,8 Millionen Euro pro Tag für Rekordgewinne von Mineralölkonzernen ist in dieser Form nicht durch amtliche Quellen belegt. Es gibt Berichte über hohe Gewinne von Mineralölkonzernen (z. B. Shell, BP) in Krisenzeiten, aber keine offizielle Statistik, die diese tägliche",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine konkrete Zahl von 23,8 Millionen Euro pro Tag als Rekordgewinne der Mineralölkonzerne. Die bereitgestellten Belege zeigen jedoch unterschiedliche Zahlen: Greenpeace spricht von 6,4 Millionen Euro zusätzlichen Gewinnen pro Tag bei Benzin (insideBW.de, tixio.de) und 16,",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_amtliche_quelle_verf_gbar",
-      "label": "Keine amtliche Quelle verfügbar",
+      "id": "quelle_mineral_lkonzerne_erzielen_rekord_bergewinne_beim_benzin_insidebw_de",
+      "label": "Mineralölkonzerne erzielen Rekord-Übergewinne beim Benzin | insideBW.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.insidebw.de/mineraloelkonzerne-erzielen-rekord-uebergewinne-beim-benzin",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_13",
+      "id": "aussage_9",
       "label": "Aussage: Bei Diesel wurde der Rabatt nur zu 87 Prozent und bei Benzin…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -2016,56 +2759,164 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_13",
+      "id": "faktencheck_9",
       "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut einer Antwort der Bundesregierung auf eine Kleine Anfrage (Drucksache 20/1650) wurde der Tankrabatt im Jahr 2022 bei Diesel zu etwa 87 % und bei Benzin zu etwa 71 % an die Verbraucher:innen weitergegeben. Die Zahlen beziehen sich auf den Zeitraum Juni bis August 2022.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der Tankrabatt bei Diesel zu 87 Prozent und bei Benzin zu 71 Prozent weitergegeben wurde, wird durch den Beleg von tagesschau.de gestützt. Dort wird das Ergebnis einer Untersuchung des RWI (Rheinisch-Westfälisches Institut für Wirtschaftsforschung) zitiert, das genau diese",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestagsdrucksache_20_1650_antwort_der_bundesregierung_auf_kleine_anfrage",
-      "label": "Bundestagsdrucksache 20/1650: Antwort der Bundesregierung auf Kleine Anfrage",
+      "id": "quelle_tankrabatt_2_0_was_die_senkung_der_energiesteuer_bringt_tagesschau_de",
+      "label": "Tankrabatt 2.0: Was die Senkung der Energiesteuer bringt | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/016/2001650.pdf",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/tankrabatt-energiesteuer-spritpreise-benzin-diesel-100.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_10",
+      "label": "Aussage: Tempo 120 würde die Zahl der Ve[rkehrstoten] [...] reduziere…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Tempo 120 würde die Zahl der Ve[rkehrstoten] [...] reduzieren",
+      "person": "Swantje Henrike Michaelsen",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_10",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass eine Geschwindigkeitsbegrenzung auf 120 km/h die Zahl der Verkehrstoten reduzieren würde, ist durch Studien und allgemeines verkehrswissenschaftliches Wissen bestätigt. Höhere Geschwindigkeiten führen zu längeren Bremswegen und schwereren Unfällen, was die Wahrscheinlichke",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_schlussfolgerungen_aus_einer_studie_zu_tempo_30_innerorts",
+      "label": "Schlussfolgerungen aus einer Studie zu Tempo 30 innerorts",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Tempo%20Zahl%20Ve",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_11",
+      "label": "Aussage: Beispiel Schwerverletzte: Innerorts 27 000, auf Landstraßen …",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Beispiel Schwerverletzte: Innerorts 27 000, auf Landstraßen 19 000 und auf Autobahnen 3 900.",
+      "person": "Ulrich von Zons",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_11",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine konkreten Zahlen zu Schwerverletzten nach Straßenkategorien (innerorts, Landstraßen, Autobahnen). Die Artikel thematisieren zwar die Unfallbilanz und Schwerverletzte im Allgemeinen, geben aber keine spezifischen Zahlen wie '27.000 innerorts, 19.00",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kein_passender_beleg_in_der_liste",
+      "label": "Kein passender Beleg in der Liste",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.rnd.de/panorama/unfallbilanz-2025-mehr-tote-im-strassenverkehr-aber-weniger-schwerverletzte-5EWP3ZYJ6JCIFPBHEQAQIAB3HA.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_12",
+      "label": "Aussage: In Deutschland werden bereits mehr als 2 000 Rechenzentren b…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "In Deutschland werden bereits mehr als 2 000 Rechenzentren betrieben; das sind rund 3 Gigawatt Leistung.",
+      "person": "Ulrich von Zons",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_12",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt zwei Kennzahlen: 1) Die Anzahl von über 2.000 Rechenzentren in Deutschland wird in den bereitgestellten Belegen nicht direkt bestätigt oder widerlegt, ist aber plausibel, da keine gegenteiligen Daten vorliegen. 2) Die Leistung von rund 3 Gigawatt weicht von den Belegen ab,",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_rechenzentren_deutschland_verliert_den_anschluss_presseinformation_bitkom_e_v",
+      "label": "Rechenzentren: Deutschland verliert den Anschluss | Presseinformation | Bitkom e. V.",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-verliert-Anschluss",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_13",
+      "label": "Aussage: In unseren Rechenzentren werden 20 Terawattstunden Strom ver…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "In unseren Rechenzentren werden 20 Terawattstunden Strom verbraucht; das sind 4 Prozent des deutschen Bruttostromverbrauchs.",
+      "person": "Ulrich von Zons",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_13",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt einen Stromverbrauch von 20 Terawattstunden (TWh) für Rechenzentren und einen Anteil von 4 Prozent am deutschen Bruttostromverbrauch. Laut dem Prognos-Bericht (Beleg 'Entwicklung des Bruttostromverbrauches bis 2030') wird für Rechenzentren jedoch ein *leicht rückläufiger* ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_entwicklung_des_bruttostromverbrauches_bis_2030_prognos",
+      "label": "Entwicklung des Bruttostromverbrauches bis 2030 | Prognos",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.prognos.com/de/projekt/entwicklung-des-bruttostromverbrauches-bis-2030",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_14",
-      "label": "Aussage: Tempo 120 würde die Zahl der Toten [reduzieren]…",
+      "label": "Aussage: Wir sind heute der größte Rechenzentrumsstandort Europas.…",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Tempo 120 würde die Zahl der Toten [reduzieren]",
-      "person": "Swantje Henrike Michaelsen",
+      "subtype": "AfD",
+      "text": "Wir sind heute der größte Rechenzentrumsstandort Europas.",
+      "person": "Ulrich von Zons",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_14",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Studien und Schätzungen (z. B. vom ADAC oder der Bundesanstalt für Straßenwesen) gehen davon aus, dass ein Tempolimit die Zahl der Verkehrstoten reduzieren würde. Konkrete Zahlen hängen jedoch von vielen Faktoren ab (z. B. Durchsetzung, Verkehrsdichte, Fahrzeugmix). Eine genaue quantitative",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg von drweb.de bestätigt, dass Deutschland mit rund 2.000 Rechenzentren und einer Gesamtkapazität von 2.980 Megawatt als Europas größter Rechenzentrumsstandort gilt. Dies stützt die Aussage, dass Deutschland (und nicht eine einzelne Stadt wie Frankfurt) der größte Standort in Europa",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesanstalt_f_r_stra_enwesen_bast_verkehrssicherheit_und_tempolimit",
-      "label": "Bundesanstalt für Straßenwesen (BASt): Verkehrssicherheit und Tempolimit",
+      "id": "quelle_welche_15_rechenzentren_dominieren_deutschland_die_gro_e_hitparade_2026",
+      "label": "Welche 15 Rechenzentren dominieren Deutschland? Die große Hitparade 2026",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bast.de/DE/Verkehrssicherheit/Tempolimit/tempolimit-node.html",
+      "url": "https://www.drweb.de/10-groessten-rechenzentren-deutschlands/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_15",
-      "label": "Aussage: Beispiel Schwerverletzte: Innerorts 27 000, auf Landstraßen …",
+      "label": "Aussage: 11 Milliarden Euro investiert allein ein deutsches Großunter…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Beispiel Schwerverletzte: Innerorts 27 000, auf Landstraßen 19 000 und auf Autobahnen 3 900.",
+      "text": "11 Milliarden Euro investiert allein ein deutsches Großunternehmen in neue Rechenzentren in Brandenburg.",
       "person": "Ulrich von Zons",
       "schicht": "fallbezug"
     },
@@ -2075,119 +2926,20 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Zahlen für Schwerverletzte im Straßenverkehr 2022 (aktuellste verfügbare Daten) entsprechen in etwa den genannten Werten: Innerorts 27.100, Landstraßen 19.200, Autobahnen 3.900. Die Daten für 2024 sind noch nicht veröffentlicht, aber die Tendenz ist konsistent mit den Vorjahren.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage wird durch mehrere unabhängige Quellen gestützt. Laut dem Artikel des rbb24 investiert die Schwarz-Gruppe tatsächlich elf Milliarden Euro in ein neues Rechenzentrum in Lübbenau, Brandenburg. Dies wird auch in der Mitteilung der Bundesregierung bestätigt, die von 'Elf Milliarden ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_verkehrsunf_lle_fachserie_8_reihe_7",
-      "label": "Statistisches Bundesamt (Destatis) - Verkehrsunfälle - Fachserie 8 Reihe 7",
+      "id": "quelle_schwarz_gruppe_baut_rechenzentrum_f_r_elf_milliarden_euro_in_l_bbenau",
+      "label": "Schwarz-Gruppe baut Rechenzentrum für elf Milliarden Euro in Lübbenau",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Verkehrsunfaelle/Publikationen/Downloads-Verkehrsunfaelle/verkehrsunfaelle-2180700227004.pdf",
+      "url": "https://www.rbb24.de/wirtschaft/beitrag/2025/11/brandenburg-oberspreewald-lausitz-luebbenau-rechenzentrum-discounter-spatenstich.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_16",
-      "label": "Aussage: In Deutschland werden bereits mehr als 2 000 Rechenzentren b…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "In Deutschland werden bereits mehr als 2 000 Rechenzentren betrieben; das sind rund 3 Gigawatt Leistung.",
-      "person": "Ulrich von Zons",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_16",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Borderstep Institut (im Auftrag des Bundeswirtschaftsministeriums) gab es 2023 etwa 2.000 Rechenzentren in Deutschland mit einer installierten IT-Leistung von ca. 2,8 GW. Die Zahl von 3 GW ist eine gerundete Angabe und liegt nahe an der Realität, aber nicht exakt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_borderstep_institut_rechenzentren_in_deutschland_2023",
-      "label": "Borderstep Institut - Rechenzentren in Deutschland 2023",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.borderstep.de/wp-content/uploads/2023/11/Borderstep-Studie-Rechenzentren-in-Deutschland-2023.pdf",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_17",
-      "label": "Aussage: In unseren Rechenzentren werden 20 Terawattstunden Strom ver…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "In unseren Rechenzentren werden 20 Terawattstunden Strom verbraucht; das sind 4 Prozent des deutschen Bruttostromverbrauchs.",
-      "person": "Ulrich von Zons",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_17",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Stromverbrauch von Rechenzentren in Deutschland lag 2022 bei etwa 19,5 TWh (Borderstep Institut), was etwa 4 % des Bruttostromverbrauchs (ca. 500 TWh) entspricht. Die Angabe ist somit korrekt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_borderstep_institut_energieverbrauch_von_rechenzentren_in_deutschland",
-      "label": "Borderstep Institut - Energieverbrauch von Rechenzentren in Deutschland",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.borderstep.de/wp-content/uploads/2023/11/Borderstep-Studie-Rechenzentren-in-Deutschland-2023.pdf",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_18",
-      "label": "Aussage: Wir sind heute der größte Rechenzentrumsstandort Europas.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wir sind heute der größte Rechenzentrumsstandort Europas.",
-      "person": "Ulrich von Zons",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_18",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Deutschland ist gemessen an der Anzahl der Rechenzentren und der installierten Leistung der größte Rechenzentrumsstandort in Europa (vor Großbritannien und den Niederlanden).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bitkom_rechenzentren_in_deutschland_2023",
-      "label": "Bitkom - Rechenzentren in Deutschland 2023",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bitkom.org/Themen/Technologien/Rechenzentren",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_19",
-      "label": "Aussage: 11 Milliarden Euro investiert allein ein deutsches Großunter…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "11 Milliarden Euro investiert allein ein deutsches Großunternehmen in neue Rechenzentren in Brandenburg.",
-      "person": "Ulrich von Zons",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_19",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Quelle, die diese konkrete Investitionssumme eines einzelnen Unternehmens in Brandenburg bestätigt. Möglicherweise handelt es sich um eine nicht öffentlich verifizierbare Unternehmensangabe.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_20",
       "label": "Aussage: Nvidia baut gerade gemeinsam mit der Deutschen Telekom in Ba…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2196,16 +2948,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_20",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_16",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Quelle oder belastbare Medienberichte, die diese konkrete Zahl von 10.000 Computerchips in einem Rechenzentrum von Nvidia und der Deutschen Telekom in Bayern bestätigen.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die Deutsche Telekom und Nvidia tatsächlich ein Rechenzentrum in München (Bayern) mit einer großen Anzahl an Nvidia-Chips errichten. Die Belege bestätigen, dass es sich um 10.000 Grafikprozessoren (GPUs) handelt, nicht allgemein um 'Computerchips'. Zudem ",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_21",
+      "id": "quelle_telekom_nvidia_ki_gro_anlage_in_m_nchen_er_ffnet_der_spiegel",
+      "label": "Telekom – Nvidia: KI-Großanlage in München eröffnet - DER SPIEGEL",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.spiegel.de/netzwelt/telekom-nvidia-ki-grossanlage-in-muenchen-eroeffnet-a-c14b75d5-41c9-4ee8-ab61-416826434ee8",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_17",
       "label": "Aussage: Zur gleichen Zeit baut die gleiche Firma, Nvidia, in Texas i…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2214,25 +2975,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_21",
+      "id": "faktencheck_17",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Nvidia plant tatsächlich ein großes Rechenzentrum in Texas (z. B. das Projekt in West Texas mit bis zu 1 GW Kapazität). Allerdings gibt es keine offizielle Bestätigung der exakten Zahl von 500.000 Chips. Die Angabe des Faktors 50 im Vergleich zum bayerischen Projekt ist daher nicht zweifels",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg von mmnews.de bestätigt, dass Nvidia in Texas ein großes Rechenzentrum baut, das als 'technisches Monument von gigantischem Ausmaß' beschrieben wird. Allerdings wird in keinem der bereitgestellten Belege die genaue Anzahl von 500.000 Computerchips oder der Faktor 50 im Vergleich z",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_nvidia_pressemitteilung_zu_rechenzentrumsprojekten_2023",
-      "label": "Nvidia Pressemitteilung zu Rechenzentrumsprojekten (2023)",
+      "id": "quelle_nvidia_die_stille_weltherrschaft",
+      "label": "Nvidia – die stille Weltherrschaft",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-new-data-center-projects",
+      "url": "https://www.mmnews.de/wirtschaft/240369-nvidia-die-stille-weltherrschaft",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_22",
+      "id": "aussage_18",
       "label": "Aussage: In einer Studie der Deutschen Industrie- und Handelskammer w…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2241,20 +3002,137 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_22",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_18",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche Studie der Deutschen Industrie- und Handelskammer (DIHK), die diese konkrete Prognose von 5,4 Billionen Euro bis 2049 bestätigt. Die DIHK veröffentlicht regelmäßig Energie- und Wirtschaftspapiere, aber eine solche Zahl konnte nicht verifiziert werden.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die DIHK-Studie tatsächlich Kosten von bis zu 5,4 Billionen Euro für die Energiewende bis 2049/2050 prognostiziert. Allerdings weicht das genannte Jahr (2049) leicht von den Belegen ab, die den Zeitraum bis 2049 *oder* 2050 nennen. Zudem wird in den Beleg",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_23",
+      "id": "quelle_energiewende_in_deutschland_braucht_kurswechsel_dihk_studie_warnt_vor_kosten_von_bis_zu_5_4_billionen_euro",
+      "label": "Energiewende in Deutschland braucht Kurswechsel – DIHK-Studie warnt vor Kosten von bis zu 5,4 Billionen Euro",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://handelskammer.blog/energiewende-deutschland/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_19",
       "label": "Aussage: 75 Prozent der Erdgeschichte war die Erde komplett eisfrei –…",
       "type": "Aussage",
       "subtype": "AfD",
       "text": "75 Prozent der Erdgeschichte war die Erde komplett eisfrei – keine Polkappen, keine Gletscher, komplett eisfrei.",
+      "person": "Karsten Hilse",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_19",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass 75 Prozent der Erdgeschichte die Erde komplett eisfrei war, wird durch den Beleg des Tagesspiegels gestützt, der angibt, dass 'mindestens 80 Prozent der gesamten Erdgeschichte lang selbst die beiden Pole frei von Eis und Schnee' waren. Die genaue Prozentzahl weicht jedoch ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_rhythmen_des_klimas_auf_der_erde_war_es_meist_eher_hei_als_kalt",
+      "label": "Rhythmen des Klimas: Auf der Erde war es meist eher heiß als kalt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesspiegel.de/wissen/auf-der-erde-war-es-meist-eher-heiss-als-kalt-3853552.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_20",
+      "label": "Aussage: In der wärmsten Phase innerhalb der jetzigen Eiszeit vor cir…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "In der wärmsten Phase innerhalb der jetzigen Eiszeit vor circa 120.000 Jahren war Grönland in weiten Teilen eisfrei. Der Meeresspiegel lag 6 bis 9 Meter höher als heute.",
+      "person": "Karsten Hilse",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_20",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, aber die Details weichen leicht ab. Der erste Beleg bestätigt, dass während der wärmsten Phase der letzten Zwischeneiszeit (Eem, vor ca. 120.000 Jahren) der Meeresspiegel 6 bis 9 Meter höher lag als heute. Der dritte Beleg präzisiert, dass der Beitrag Grönla",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_meeresspiegel_nderungen_der_vergangenheit",
+      "label": "Meeresspiegeländerungen der Vergangenheit",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://bildungsserver.hamburg.de/themenschwerpunkte/klimawandel-und-klimafolgen/meeresspiegelaenderungen-vergangenheit-745644",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_21",
+      "label": "Aussage: In der sogenannten Weichsel-Kaltzeit vor 20.000 Jahren war […",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "In der sogenannten Weichsel-Kaltzeit vor 20.000 Jahren war [...] der weltweite Meeresspiegel um bis zu 140 Meter tiefer als heute.",
+      "person": "Karsten Hilse",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_21",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der weltweite Meeresspiegel in der Weichsel-Kaltzeit vor etwa 20.000 Jahren um bis zu 140 Meter tiefer lag als heute, wird durch die Belege unterschiedlich gestützt. Während der Wikipedia-Artikel und die Biologie-Seite von einem Anstieg um etwa 120 Meter sprechen (was auf ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_weichsel_kaltzeit_lexikon_der_geowissenschaften",
+      "label": "Weichsel-Kaltzeit - Lexikon der Geowissenschaften",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.spektrum.de/lexikon/geowissenschaften/weichsel-kaltzeit/18093",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_22",
+      "label": "Aussage: Vor circa 12.000 Jahren begannen die Eisschilde zu tauen – i…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Vor circa 12.000 Jahren begannen die Eisschilde zu tauen – infolge einer [...] dramatischen Erwärmung. Der Meeresspiegel stieg über mehrere Jahrtausende, teilweise um über 1 Meter pro Jahrhundert.",
+      "person": "Karsten Hilse",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_22",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, aber die genannten Details weichen von den Belegen ab. Die Belege (GeoHorizon, Universität Bonn) beziehen sich auf einen extremen Meeresspiegelanstieg vor etwa 130.000 Jahren, nicht vor 12.000 Jahren. Der Zeitraum des Abschmelzens der Eisschilde nach der let",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_meeresspiegel_der_zukunft_klimawandel",
+      "label": "Meeresspiegel der Zukunft – Klimawandel",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://wiki.bildungsserver.de/klimawandel/index.php/Meeresspiegel_der_Zukunft",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_23",
+      "label": "Aussage: Heute sind es 10 Zentimeter pro Jahrhundert [Meeresspiegelan…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Heute sind es 10 Zentimeter pro Jahrhundert [Meeresspiegelanstieg].",
       "person": "Karsten Hilse",
       "schicht": "fallbezug"
     },
@@ -2264,119 +3142,20 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Geologische Studien bestätigen, dass die Erde in weiten Teilen ihrer Geschichte (insbesondere im Mesozoikum) eisfrei war. Schätzungen zufolge war die Erde etwa 70-80 % ihrer Geschichte ohne große polare Eiskappen. Die Angabe von 75 % ist jedoch eine grobe Schätzung und nicht exakt überprüfb",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt einen Meeresspiegelanstieg von 10 Zentimetern pro Jahrhundert. Laut dem Wikipedia-Beleg lag der durchschnittliche Anstieg von 1901 bis 2018 bei etwa 20 cm (±5 cm) im gesamten Zeitraum, was etwa 1,7 mm/Jahr (oder ~17 cm pro Jahrhundert) entspricht. Die aktuellen Raten (2006",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_us_geological_survey_usgs_historical_climate",
-      "label": "US Geological Survey (USGS) – Historical Climate",
+      "id": "quelle_meeresspiegelanstieg_seit_1850_wikipedia",
+      "label": "Meeresspiegelanstieg seit 1850 – Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.usgs.gov/centers/geosciences-and-environmental-change-science-center/science/paleoclimate-research",
+      "url": "https://de.wikipedia.org/wiki/Meeresspiegelanstieg_seit_1850",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_24",
-      "label": "Aussage: In der wärmsten Phase innerhalb der jetzigen Eiszeit vor cir…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "In der wärmsten Phase innerhalb der jetzigen Eiszeit vor circa 120.000 Jahren war Grönland in weiten Teilen eisfrei. Der Meeresspiegel lag 6 bis 9 Meter höher als heute.",
-      "person": "Karsten Hilse",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_24",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Während des letzten Interglazials (Eem-Warmzeit, vor ca. 120.000 Jahren) war Grönland teilweise eisfrei, und der globale Meeresspiegel lag etwa 6-9 Meter höher als heute. Dies wird durch paläoklimatische Daten und Eisbohrkerne belegt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_ipcc_ar6_kapitel_2_changing_state_of_the_climate_system",
-      "label": "IPCC AR6, Kapitel 2: Changing State of the Climate System",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2/",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_25",
-      "label": "Aussage: In der sogenannten Weichsel-Kaltzeit vor 20.000 Jahren war […",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "In der sogenannten Weichsel-Kaltzeit vor 20.000 Jahren war [...] der weltweite Meeresspiegel um bis zu 140 Meter tiefer als heute.",
-      "person": "Karsten Hilse",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_25",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Während des letzten glazialen Maximums (vor ca. 20.000 Jahren) lag der globale Meeresspiegel etwa 120-130 Meter unter dem heutigen Niveau. Die Angabe von 140 Metern ist eine obere Schätzung, aber im Rahmen wissenschaftlicher Unsicherheit plausibel.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_noaa_paleoclimatology_data",
-      "label": "NOAA – Paleoclimatology Data",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.ncdc.noaa.gov/abrupt-climate-change/Sea%20Level",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_26",
-      "label": "Aussage: Vor circa 12.000 Jahren begannen die Eisschilde zu tauen [..…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Vor circa 12.000 Jahren begannen die Eisschilde zu tauen [...] Der Meeresspiegel stieg über mehrere Jahrtausende, teilweise um über 1 Meter pro Jahrhundert. Heute sind es 10 Zentimeter pro Jahrhundert.",
-      "person": "Karsten Hilse",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_26",
-      "label": "Faktencheck: irreführend",
-      "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Nach der letzten Eiszeit stieg der Meeresspiegel tatsächlich stark an, mit Raten von bis zu 1-2 Metern pro Jahrhundert in einigen Phasen. Die aktuelle Rate liegt bei etwa 3-4 mm pro Jahr (ca. 30-40 cm pro Jahrhundert), nicht 10 cm. Die Aussage unterschätzt die aktuelle Beschleunigung des Me",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_nasa_sea_level_change",
-      "label": "NASA – Sea Level Change",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://climate.nasa.gov/vital-signs/sea-level/",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_27",
-      "label": "Aussage: circa 15.000 links-grünen, teilweise mit faschistischen Meth…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "circa 15.000 links-grünen, teilweise mit faschistischen Methoden agierenden NGOs",
-      "person": "Karsten Hilse",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_27",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine belastbare Quelle, die die Anzahl von 15.000 „links-grünen NGOs“ in Deutschland oder deren angeblich „faschistische Methoden“ quantifiziert oder belegt. Die Zahl ist spekulativ und nicht überprüfbar.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_28",
       "label": "Aussage: hohe Wahlbeteiligung von annähernd 80 Prozent…",
       "type": "Aussage",
       "subtype": "",
@@ -2385,52 +3164,52 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_28",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Wahlbeteiligung bei der ungarischen Europawahl 2024 lag laut amtlichen Angaben bei 79,6 Prozent.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_national_election_office_hungary_nemzeti_v_laszt_si_iroda",
-      "label": "National Election Office Hungary (Nemzeti Választási Iroda)",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.valasztas.hu/ep2024",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_29",
-      "label": "Aussage: Tisza, eine relativ junge Partei – es gab sie vor wenigen Ja…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Tisza, eine relativ junge Partei – es gab sie vor wenigen Jahren noch gar nicht – hat bei den Wahlen zum Europäischen Parlament fast aus dem Stand heraus 30 Prozent geholt, jetzt über 50 Prozent.",
-      "person": "Gunther Krichbaum",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_29",
+      "id": "faktencheck_24",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Tisza-Partei erhielt bei der Europawahl 2024 29,6 Prozent der Stimmen (nicht 'fast 30 Prozent' im Sinne einer nationalen Wahl). Bei den ungarischen Parlamentswahlen 2024 erreichte die von Tisza unterstützte Oppositionsliste 53,1 Prozent der Listenstimmen, jedoch nicht die Partei selbst ",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'hohe Wahlbeteiligung von annähernd 80 Prozent' ist im Kern richtig, aber der genaue Kontext fehlt. Die Belege zeigen, dass eine Wahlbeteiligung von annähernd 80 Prozent in bestimmten Altersgruppen (z. B. 50- bis 69-Jährige in Deutschland mit 85,5 Prozent bei der Wahl 2025) oder",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_national_election_office_hungary_nemzeti_v_laszt_si_iroda_europawahl_2024_und_parlamentswahl_2024",
-      "label": "National Election Office Hungary (Nemzeti Választási Iroda) - Europawahl 2024 und Parlamentswahl 2024",
+      "id": "quelle_wahlbeteiligung_wikipedia",
+      "label": "Wahlbeteiligung – Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.valasztas.hu/ep2024; https://www.valasztas.hu/orszagos-2024",
+      "url": "https://de.wikipedia.org/wiki/Wahlbeteiligung",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_30",
+      "id": "aussage_25",
+      "label": "Aussage: Tisza, eine relativ junge Partei – es gab sie vor wenigen Ja…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Tisza, eine relativ junge Partei – es gab sie vor wenigen Jahren noch gar nicht – hat bei den Wahlen zum Europäischen Parlament fast aus dem Stand heraus 30 Prozent geholt, jetzt über 50 Prozent",
+      "person": "Gunther Krichbaum",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_25",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, aber die Zahlen weichen ab. Laut Wikipedia-Beleg gewann die Tisza-Partei bei der Europawahl 2024 'fast 30 % der Wählerstimmen', nicht exakt 30 %. Bei der ungarischen Parlamentswahl 2024 erreichte sie nach den vorliegenden Belegen (ORF, WELT) eine Zweidrittel",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_tisztelet_s_szabads_g_p_rt_wikipedia",
+      "label": "Tisztelet és Szabadság Párt – Wikipedia",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.wikipedia.org/wiki/Tisztelet_%C3%A9s_Szabads%C3%A1g_P%C3%A1rt",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_26",
       "label": "Aussage: von insgesamt 199 Abgeordneten im neuen ungarischen Parlamen…",
       "type": "Aussage",
       "subtype": "",
@@ -2439,25 +3218,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_30",
-      "label": "Faktencheck: irreführend",
+      "id": "faktencheck_26",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die 199 Sitze im ungarischen Parlament verteilen sich nicht direkt auf die Tisza-Partei, da diese keine eigenständige Fraktion bildet. Die Oppositionsparteien (u.a. Tisza-nahe Kandidaten) gewannen zusammen 53 Sitze, während Fidesz 146 Sitze erhielt. Die Aussage suggeriert eine falsche Zuord",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass von insgesamt 199 Abgeordneten im neuen ungarischen Parlament 138 der Tisza-Partei angehören, ist im Kern richtig, aber die genaue Zahl weicht ab. Der Beleg von ORF.at bestätigt die Gesamtzahl von 199 Abgeordneten und berichtet, dass Péter Magyar (Tisza-Partei) mit 140 Sti",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_national_election_office_hungary_nemzeti_v_laszt_si_iroda_parlamentswahl_2024",
-      "label": "National Election Office Hungary (Nemzeti Választási Iroda) - Parlamentswahl 2024",
+      "id": "quelle_magyar_angelobt_ungarn_startet_in_post_orban_ra_news_orf_at",
+      "label": "Magyar angelobt: Ungarn startet in Post-Orban-Ära - news.ORF.at",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.valasztas.hu/orszagos-2024",
+      "url": "https://orf.at/stories/3429359/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_31",
+      "id": "aussage_27",
       "label": "Aussage: zentrale europäische Mittel in einer Größenordnung von fast …",
       "type": "Aussage",
       "subtype": "",
@@ -2466,52 +3245,52 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_31",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU hat aufgrund von Rechtsstaatsbedenken gegenüber Ungarn Mittel in Höhe von rund 21 Milliarden Euro (Kohäsionsfonds und NextGenerationEU) eingefroren. Die genannte Größenordnung von 'fast 20 Milliarden' ist korrekt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_europ_ische_kommission_pressemitteilung_zur_konditionalit_t_der_eu_mittel_f_r_ungarn",
-      "label": "Europäische Kommission - Pressemitteilung zur Konditionalität der EU-Mittel für Ungarn",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/de/ip_22_7405",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_32",
-      "label": "Aussage: Definitiv verfallen und dank Orbáns Politik nicht mehr rückh…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Definitiv verfallen und dank Orbáns Politik nicht mehr rückholbar sind etwa 2 Milliarden Euro.",
-      "person": "Gunther Krichbaum",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_32",
+      "id": "faktencheck_27",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Bestätigung, dass bereits 2 Milliarden Euro endgültig verfallen sind. Die EU-Kommission hat zwar Mittel eingefroren, aber eine endgültige Verfallsregelung ist nicht dokumentiert. Die Aussage basiert vermutlich auf Schätzungen oder politischen Interpretationen.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf 'zentrale europäische Mittel in einer Größenordnung von fast 20 Milliarden Euro, die gesperrt worden waren'. Die bereitgestellten Belege enthalten keine Informationen zu gesperrten europäischen Mitteln in dieser Größenordnung. Der Beleg des Bundesfinanzministeri",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_belastbare_amtliche_quelle_verf_gbar",
-      "label": "Keine belastbare amtliche Quelle verfügbar",
+      "id": "quelle_kein_passender_beleg_vorhanden",
+      "label": "Kein passender Beleg vorhanden",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2025/06/2025-06-24-2-entwurf-bhh-2025-eckwerte-bis-2029.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_33",
+      "id": "aussage_28",
+      "label": "Aussage: Definitiv verfallen und dank Orbáns Politik nicht mehr rückh…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Definitiv verfallen und dank Orbáns Politik nicht mehr rückholbar sind etwa 2 Milliarden Euro",
+      "person": "Gunther Krichbaum",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_28",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass 'definitiv verfallen und dank Orbáns Politik nicht mehr rückholbar' etwa 2 Milliarden Euro seien. Die Belege zeigen, dass tatsächlich 2,2 Milliarden Euro wegen Verstößen gegen die akademische Freiheit (Ausschluss aus EU-Forschungsprogrammen und Erasmus) in Brüsse",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_eu_milliarden_f_r_ungarn_von_der_leyen_und_magyar_verk_nden_durchbruch_faz",
+      "label": "EU-Milliarden für Ungarn: Von der Leyen und Magyar verkünden Durchbruch | FAZ",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.faz.net/aktuell/politik/ausland/eu-milliarden-fuer-ungarn-von-der-leyen-und-magyar-verkuenden-durchbruch-200875366.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_29",
       "label": "Aussage: Am 10. September 1989 hatte Ungarn endgültig seine Grenzen g…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2520,25 +3299,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_33",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_29",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Ungarn öffnete am 10. September 1989 offiziell die Grenze zu Österreich für DDR-Bürger, was einen entscheidenden Schritt zur deutschen Wiedervereinigung darstellte. Dies ist historisch gut dokumentiert.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Öffnung der Grenzen Ungarns am 10. September 1989, die ein historisches Ereignis im Kontext des Falls des Eisernen Vorhangs und der Fluchtbewegung aus der DDR war. Die bereitgestellten Belege behandeln jedoch ausschließlich die Schließung der ungarischen Gre",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeszentrale_f_r_politische_bildung_chronik_der_wende",
-      "label": "Bundeszentrale für politische Bildung - Chronik der Wende",
+      "id": "quelle_kein_relevanter_beleg_in_der_liste_allgemeinwissen_zur_grenz_ffnung_1989",
+      "label": "Kein relevanter Beleg in der Liste (Allgemeinwissen zur Grenzöffnung 1989)",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bpb.de/geschichte/deutsche-einheit/chronik-der-mauer/",
+      "url": "https://orf.at/stories/3179213/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_34",
+      "id": "aussage_30",
       "label": "Aussage: Im letzten November gab es zum Beispiel das großartige erste…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2547,34 +3326,52 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_34",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_30",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen amtlichen Quellen oder Berichte, die diese konkrete Veranstaltung mit der genannten Teilnehmerzahl bestätigen.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass im 'letzten November' (also November 2023) das erste Deutsch-Ungarische Jugendparlament stattgefunden habe, an dem 150 Menschen mitgewirkt hätten. Die bereitgestellten Belege zeigen jedoch, dass das erste Deutsch-Ungarische Jugendparlament erst für November 2025 ",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_35",
-      "label": "Aussage: Bisher ist das [Deutsch-Ungarische Jugendwerk] überparteilic…",
+      "id": "quelle_europ_ische_akademie_berlin_deutsch_ungarisches_jugendparlament_2025",
+      "label": "Europäische Akademie Berlin - Deutsch-Ungarisches Jugendparlament 2025",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.eab-berlin.eu/deutsch-ungarisches-jugendparlament-2025/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_31",
+      "label": "Aussage: Bisher ist das überparteilich besetzte Jugendwerk weitgehend…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Bisher ist das [Deutsch-Ungarische Jugendwerk] überparteilich besetzte Jugendwerk weitgehend von Ungarn finanziert.",
+      "text": "Bisher ist das überparteilich besetzte Jugendwerk weitgehend von Ungarn finanziert.",
       "person": "Knut Abraham",
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_35",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_31",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich verfügbaren, detaillierten Finanzberichte oder amtlichen Quellen, die diese Aussage zur Finanzierung des Deutsch-Ungarischen Jugendwerks bestätigen.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage deutet an, dass das Deutsch-Ungarische Jugendwerk bisher ausschließlich oder überwiegend von Ungarn finanziert wird. Die bereitgestellten Belege zeigen jedoch, dass es sich um eine bilaterale Einrichtung handelt, die typischerweise von beiden Ländern gemeinsam finanziert wird. D",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_36",
+      "id": "quelle_dip_vorgang_verordnung_zu_dem_abkommen_vom_28_mai_2024_zur_nderung_des_abkommens_vom_4_juli_2019_zwischen_der_regierung_der_bundesrepublik_deutschland_und_der_regierung_der_republik_ungarn_ber_die_errichtung_des_deutsch_ungarischen_jugendwerks",
+      "label": "DIP-Vorgang: Verordnung zu dem Abkommen vom 28. Mai 2024 zur Änderung des Abkommens vom 4. Juli 2019 zwischen der Regierung der Bundesrepublik Deutschland und der Regierung der Republik Ungarn über die Errichtung des Deutsch-Ungarischen Jugendwerks",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Bisher%20Jugendwerk%20Ungarn",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_32",
       "label": "Aussage: mein Wahlkreis in der Niederlausitz einst Teil des Ungarisch…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2583,25 +3380,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_36",
+      "id": "faktencheck_32",
       "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Historische Quellen bestätigen, dass Teile der Lausitz während der Herrschaft von Matthias Corvinus (1458–1490) unter ungarischer Kontrolle standen, insbesondere nach der Eroberung Schlesiens 1469.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Niederlausitz von 1469 bis 1490 Teil des Ungarischen Reiches unter König Matthias Corvinus war, wird durch den Beleg von DeWiki gestützt. Dort wird explizit erwähnt, dass seine Herrschaft sich über die böhmischen Nebenländer, darunter die Niederlausitz, erstreckte. Mat",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_enzyklop_die_der_neuzeit_matthias_corvinus",
-      "label": "Enzyklopädie der Neuzeit - Matthias Corvinus",
+      "id": "quelle_dewiki_matthias_corvinus",
+      "label": "DeWiki > Matthias Corvinus",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://referenceworks.brillonline.com/entries/enzyklopaedie-der-neuzeit/matthias-corvinus-COM_022752",
+      "url": "https://dewiki.de/Lexikon/Matthias_Corvinus",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_37",
+      "id": "aussage_33",
       "label": "Aussage: Im Jahr 2023 gab es bei den Berliner Verkehrsbetrieben über …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2610,25 +3407,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_37",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_33",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die BVG hat für 2023 tatsächlich über eine Milliarde Fahrgäste vermeldet. Laut BVG-Geschäftsbericht 2023 wurden 1,02 Milliarden Fahrgäste befördert.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege zeigen, dass die Berliner S-Bahn im letzten Jahr (2022) fast eine halbe Milliarde Fahrgäste befördert hat, nicht über 1 Milliarde. Die BVG hat zwar in der Vergangenheit (2016) die Marke von 1 Milliarde Fahrgästen erreicht, aber für das Jahr 2023 gibt es keinen Be",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bvg_gesch_ftsbericht_2023",
-      "label": "BVG Geschäftsbericht 2023",
+      "id": "quelle_die_bvg_ist_milliard_r_fahrgast_milliard_r_b_z_die_stimme_berlins",
+      "label": "Die BVG ist Milliardär – Fahrgast-Milliardär! - B.Z. – Die Stimme Berlins",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bvg.de/de/ueber-uns/geschaeftsberichte",
+      "url": "https://www.bz-berlin.de/archiv-artikel/die-bvg-ist-milliardaer-fahrgast-milliardaer",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_38",
+      "id": "aussage_34",
       "label": "Aussage: 16,4 Millionen wurden kontrolliert. Davon hatten 5 Prozent, …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2637,16 +3434,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_38",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_34",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die BVG hat für 2023 16,4 Millionen Kontrollen und eine Schwarzfahrerquote von 5 % (ca. 820.000 Fälle) gemeldet. Die Zahlen sind im BVG-Geschäftsbericht 2023 dokumentiert.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt konkrete Zahlen zu kontrollierten Fahrgästen (16,4 Millionen) und dem Anteil ohne gültigen Fahrschein (5 Prozent bzw. 820.000). Die bereitgestellten Belege enthalten jedoch keine spezifischen Daten zu Kontrollen oder Schwarzfahrerquoten im ÖPNV. Die DIP-Vorgänge thematisie",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_39",
+      "id": "quelle_dip_vorgang_umsetzung_der_entkriminalisierung_des_fahrens_ohne_fahrschein",
+      "label": "DIP-Vorgang: Umsetzung der Entkriminalisierung des Fahrens ohne Fahrschein",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Millionen%20Davon%20Prozent%20Fahrg%C3%A4ste%20Fahrschein",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_35",
       "label": "Aussage: In 2 943 Fällen wurde Strafanzeige erstattet.…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2655,16 +3461,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_39",
+      "id": "faktencheck_35",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genaue Anzahl der Strafanzeigen bei der BVG für 2023 ist in öffentlich zugänglichen Quellen nicht detailliert ausgewiesen. Die Zahl könnte intern vorliegen, ist aber nicht amtlich bestätigt.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'In 2 943 Fällen wurde Strafanzeige erstattet' bezieht sich auf eine konkrete Anzahl, die in den bereitgestellten Belegen nicht nachgewiesen wird. Die Quellen erklären lediglich das Verfahren zur Erstattung einer Strafanzeige oder thematisieren spezifische Fälle (z. B. unterlass",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_40",
+      "id": "quelle_dip_vorgang_durch_die_mitglieder_der_bundesregierung_erstattete_strafanzeigen_mit_stand_november_2025",
+      "label": "DIP-Vorgang: Durch die Mitglieder der Bundesregierung erstattete Strafanzeigen mit Stand November 2025",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=F%C3%A4llen%20wurde%20Strafanzeige%20erstattet",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_36",
       "label": "Aussage: 540 Menschen mussten letztlich eine Ersatzfreiheitsstrafe an…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2673,16 +3488,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_40",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_36",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik, die diese Zahl für 2023 bei der BVG oder bundesweit bestätigt. Ersatzfreiheitsstrafen werden zwar verhängt, aber eine konkrete Zahl für diesen Kontext ist nicht öffentlich belegt.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass '540 Menschen letztlich eine Ersatzfreiheitsstrafe antreten mussten'. Die bereitgestellten Belege zeigen jedoch, dass jährlich etwa 56.000 Menschen von dieser Maßnahme betroffen sind (Quelle: strafrechtsiegen.de). Die Zahl 540 ist damit deutlich zu niedrig und st",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_41",
+      "id": "quelle_ersatzfreiheitsstrafe_im_deutschen_strafrecht",
+      "label": "Ersatzfreiheitsstrafe im deutschen Strafrecht",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.strafrechtsiegen.de/ersatzfreiheitsstrafe-im-deutschen-strafrecht/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_37",
       "label": "Aussage: Für diese kleine Gruppe von 0,07 Prozent machen Sie von den …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2691,16 +3515,16 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_41",
-      "label": "Faktencheck: teilweise",
+      "id": "faktencheck_37",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Berechnung von 0,07 % (540 von 1 Milliarde Fahrgästen) ist mathematisch korrekt, sofern die Zahl der Ersatzfreiheitsstrafen stimmt. Da diese Zahl jedoch unbelegt ist, ist die Aussage nur teilweise überprüfbar.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine 'kleine Gruppe von 0,07 Prozent', für die angeblich Politik von den Linken und Grünen gemacht werde. Die bereitgestellten Belege enthalten keine Informationen zu einer spezifischen Gruppe von 0,07 Prozent der Bevölkerung, auf die sich diese politische Ausri",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_42",
+      "id": "aussage_38",
       "label": "Aussage: Wenn Geldstrafen verhängt werden, heißt das, dass sie sich z…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2709,25 +3533,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_42",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_38",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Strafrahmen für § 265a StGB sieht Geldstrafen von 5 bis 360 Tagessätzen vor, wobei in der Praxis oft 10–30 Tagessätze verhängt werden. Ein Tagessatz beträgt in der Regel 1/30 des monatlichen Nettoeinkommens, bei geringem Einkommen oft 10–30 Euro. Die Spanne von 50–300 Euro ist somit pla",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, aber die genannten Zahlen sind ungenau bzw. unvollständig. Laut den Belegen (§ 40 StGB) bewegt sich die Anzahl der Tagessätze für Geldstrafen tatsächlich in einem Rahmen von 5 bis 360 Tagessätzen (nicht 10 bis 30). Die Höhe eines Tagessatzes liegt zwischen 1",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_strafgesetzbuch_stgb_265a_leistungserschleichung",
-      "label": "Strafgesetzbuch (StGB) § 265a Leistungserschleichung",
+      "id": "quelle_geldstrafe_deutschland_wikipedia",
+      "label": "Geldstrafe (Deutschland) – Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.gesetze-im-internet.de/stgb/__265a.html",
+      "url": "https://de.wikipedia.org/wiki/Geldstrafe_(Deutschland)",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_43",
+      "id": "aussage_39",
       "label": "Aussage: Ein Tag, der nicht bezahlt wird, gibt einen Tag Ersatzfreihe…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2736,25 +3560,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_43",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_39",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Gemäß § 43 StGB entspricht ein Tagessatz einer eintägigen Ersatzfreiheitsstrafe, falls die Geldstrafe nicht bezahlt wird.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass ein Tag, der nicht bezahlt wird, einen Tag Ersatzfreiheitsstrafe gibt. Dies widerspricht den bereitgestellten Belegen. Laut Wikipedia und dem Gesetzentwurf der Tagesschau entspricht ein Tag Ersatzfreiheitsstrafe zwei Tagessätzen der Geldstrafe, nicht einem. Auch ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_strafgesetzbuch_stgb_43_ersatzfreiheitsstrafe",
-      "label": "Strafgesetzbuch (StGB) § 43 Ersatzfreiheitsstrafe",
+      "id": "quelle_ersatzfreiheitsstrafe_wikipedia",
+      "label": "Ersatzfreiheitsstrafe – Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.gesetze-im-internet.de/stgb/__43.html",
+      "url": "https://de.wikipedia.org/wiki/Ersatzfreiheitsstrafe",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_44",
+      "id": "aussage_40",
       "label": "Aussage: Seitdem ist die Zahl der betroffenen Mädchen massiv angestie…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2763,25 +3587,16 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_44",
+      "id": "faktencheck_40",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtlichen Statistiken oder belastbaren Studien, die eine konkrete Zahl oder einen 'massiven Anstieg' von Mädchen belegen, die in Deutschland gezwungen werden, ein Kopftuch zu tragen. Die Aussage ist zu vage, um sie quantitativ zu überprüfen.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Seitdem ist die Zahl der betroffenen Mädchen massiv angestiegen' bezieht sich auf einen nicht näher spezifizierten Zeitpunkt oder Kontext ('seitdem'). Die bereitgestellten Belege behandeln allgemeine Geburtenstatistiken (Verhältnis Jungen zu Mädchen) oder völlig andere Themen (",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_belastbare_quelle_verf_gbar",
-      "label": "Keine belastbare Quelle verfügbar",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_45",
+      "id": "aussage_41",
       "label": "Aussage: Terre des Femmes hat 2024 eine Umfrage unter Lehrern gemacht…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2790,43 +3605,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_45",
-      "label": "Faktencheck: teilweise",
+      "id": "faktencheck_41",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Umfrage von Terre des Femmes existiert, jedoch handelt es sich um eine nicht-repräsentative Erhebung unter Lehrkräften. Die Zahl von 71 Prozent bezieht sich auf die befragten Lehrer, die angeben, Mädchen unter 14 Jahren mit Kopftuch zu unterrichten, nicht auf die Gesamtzahl der Mädchen ",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage wird durch mehrere unabhängige Quellen gestützt. Laut den Belegen (Junge Freiheit, Deutschlandfunk, BILD) hat Terre des Femmes 2024 eine nicht-repräsentative Umfrage unter 784 Lehrern, Schulsozialarbeitern und Erziehern durchgeführt. Dabei gaben 71 Prozent der Befragten an, Mädc",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_terre_des_femmes_umfrage_zu_kinderkopft_chern_2024",
-      "label": "Terre des Femmes: Umfrage zu Kinderkopftüchern (2024)",
+      "id": "quelle_frauenrechtsorganisation_fordert_kopftuchverbot_f_r_kinder",
+      "label": "Frauenrechtsorganisation fordert Kopftuchverbot für Kinder",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.frauenrechte.de/online/images/downloads/presse/2024/TdF-Umfrage-Kinderkopftuch-2024.pdf",
+      "url": "https://jungefreiheit.de/politik/deutschland/2024/frauenrechtsorganisation-fordert-kopftuchverbot-fuer-kinder/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_46",
-      "label": "Aussage: In dieser Debatte werden Sie alle – ich betätige mich hier m…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "In dieser Debatte werden Sie alle – ich betätige mich hier mal als Hellseherin – auf fehlende Zahlen verweisen wie bereits in den Debatten 2020 und 2023",
-      "person": "Kerstin Przygodda",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_46",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine prognostizierte Argumentationslinie anderer Abgeordneter und ist keine überprüfbare Tatsachenbehauptung. Zudem gibt es keine amtlichen Quellen, die belegen, dass in den Debatten 2020 und 2023 explizit auf 'fehlende Zahlen' verwiesen wurde.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_47",
+      "id": "aussage_42",
       "label": "Aussage: Deutschland hat sich selbst in eine Sackgasse manövriert: du…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2835,79 +3632,52 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_47",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannten Gesetze und Maßnahmen existieren tatsächlich: Das Energieeffizienzgesetz (EnEfG) trat 2023 in Kraft, die CO2-Steuer wurde 2021 eingeführt, das Atomausstiegsgesetz wurde 2011 beschlossen und 2023 umgesetzt, und das Ziel der Klimaneutralität wurde 2021 im Bundes-Klimaschutzgeset",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundesregierung_energieeffizienzgesetz_enefg_co2_preis_atomausstiegsgesetz_grundgesetz_nderung_2023",
-      "label": "Bundesregierung: Energieeffizienzgesetz (EnEfG), CO2-Preis, Atomausstiegsgesetz, Grundgesetzänderung 2023",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/klimaschutz/klimaschutzgesetz-2021-1913672",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_48",
-      "label": "Aussage: Windkraft liefert, Solar liefert, Wasserstoff liefert.…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Windkraft liefert, Solar liefert, Wasserstoff liefert.",
-      "person": "Mirze Edis",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_48",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf den Beitrag erneuerbarer Energien zur Stromerzeugung in Deutschland. Laut Statistischem Bundesamt (Destatis) und Bundesnetzagentur lieferten Windkraft und Solarenergie 2023 zusammen etwa 52 % des Bruttostromverbrauchs. Wasserstoff spielt derzeit noch eine unterg",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_statistisches_bundesamt_stromerzeugung_aus_erneuerbaren_energien_2023",
-      "label": "Statistisches Bundesamt: Stromerzeugung aus erneuerbaren Energien 2023",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Umwelt/Erneuerbare-Energien/Tabellen/stromerzeugung-erneuerbare-energien.html",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_49",
-      "label": "Aussage: Deutschland [ist] im Moment in einer Energiekrise von einem …",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Deutschland [ist] im Moment in einer Energiekrise von einem Ausmaß, wie wir sie schon lange nicht mehr hatten.",
-      "person": "Mirze Edis",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_49",
+      "id": "faktencheck_42",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist eine qualitative Bewertung ohne konkrete Zahlen oder Vergleiche. Zwar gab es 2022/2023 durch den Ukraine-Krieg und die Gaspreiskrise erhebliche Energiepreissteigerungen, aber ein quantitativer Vergleich mit früheren Krisen (z. B. Ölkrise 1973) wird nicht genannt. Zudem ist d",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Prüfung fehlgeschlagen (JSONDecodeError).",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_quelle",
-      "label": "-",
+      "id": "quelle_deutscher_bundestag_energieeffizienzgesetz_der_regierung_st_t_auf_lob_und_kritik",
+      "label": "Deutscher Bundestag - Energieeffizienzgesetz der Regierung stößt auf Lob und Kritik",
       "type": "Quelle",
       "subtype": "",
-      "url": "-",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw24-pa-klimaschutz-energieeffizienzgesetz-950108",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_50",
+      "id": "aussage_43",
+      "label": "Aussage: Wir sind im Moment in einer Energiekrise von einem Ausmaß, w…",
+      "type": "Aussage",
+      "subtype": "Die Linke",
+      "text": "Wir sind im Moment in einer Energiekrise von einem Ausmaß, wie wir sie schon lange nicht mehr hatten.",
+      "person": "Mirze Edis",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_43",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass eine Energiekrise von einem Ausmaß vorliegt, wie sie 'schon lange nicht mehr' hatte, wird im Kern durch die Belege gestützt. So warnt der IEA-Chef laut t-online vor einer 'Energiekrise von historischem Ausmaß' (Beleg 3). Allerdings relativieren andere Quellen die aktuelle ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_stra_e_von_hormus_sicherheitsrat_tagte_erstmals_ende_april_zu_energiekrise",
+      "label": "Straße von Hormus: Sicherheitsrat tagte erstmals Ende April zu Energiekrise",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.t-online.de/nachrichten/deutschland/id_101240206/strasse-von-hormus-sicherheitsrat-tagte-erstmals-ende-april-zu-energiekrise.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_44",
       "label": "Aussage: Im letzten Berichtsjahr 2024 waren es erstmals unter 2 Milli…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -2916,25 +3686,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_50",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_44",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Berichtszeitraum für die offizielle Statistik zu Tierversuchen in Deutschland endet üblicherweise mit einer Verzögerung von etwa zwei Jahren. Aktuelle Zahlen für 2024 sind daher noch nicht verfügbar. Die letzte veröffentlichte Statistik des Bundesministeriums für Ernährung und Landwirts",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass im Berichtsjahr 2024 erstmals unter 2 Millionen Tiere in Tierversuchen verwendet wurden. Die bereitgestellten Belege widerlegen dies: Laut 'Ärzte gegen Tierversuche' wurden 2024 über 3 Millionen Tiere (3.063.569) in Tierversuchen verwendet. Selbst der Rückgang um",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_ern_hrung_und_landwirtschaft_bmel_versuchstierstatistik_2021",
-      "label": "Bundesministerium für Ernährung und Landwirtschaft (BMEL) - Versuchstierstatistik 2021",
+      "id": "quelle_ber_3_millionen_tiere_in_tierversuchen_verwendet_rzte_gegen_tierversuche",
+      "label": "Über 3 Millionen Tiere in Tierversuchen verwendet – Ärzte gegen Tierversuche",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmel.de/DE/themen/tiere/tierschutz/versuchstiere/versuchstierstatistik.html",
+      "url": "https://www.aerzte-gegen-tierversuche.de/de/news/ueber-3-millionen-tiere-in-tierversuchen-verwendet",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_51",
+      "id": "aussage_45",
       "label": "Aussage: So sinkt die Anzahl der Tiere, die zu wissenschaftlichen Zwe…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -2943,25 +3713,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_51",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_45",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Anzahl der Versuchstiere in Deutschland zeigt seit Jahren einen rückläufigen Trend. Laut BMEL sank die Zahl von 2.807.297 Tieren im Jahr 2015 auf 2.064.454 im Jahr 2021. Dieser Rückgang ist kontinuierlich und statistisch belegt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Anzahl der Tiere, die zu wissenschaftlichen Zwecken verwendet oder getötet werden. Der Beleg von DPZ zeigt, dass die Zahl der Versuchstiere in Deutschland in den letzten zehn Jahren zwischen 2 bis 3 Millionen lag und im Jahr 2024 konkret bei 1.954.469 Tieren",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_ern_hrung_und_landwirtschaft_bmel_versuchstierstatistiken_2015_2021",
-      "label": "Bundesministerium für Ernährung und Landwirtschaft (BMEL) - Versuchstierstatistiken 2015-2021",
+      "id": "quelle_versuchstierzahlen_in_deutschland_dpz",
+      "label": "Versuchstierzahlen in Deutschland | DPZ",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmel.de/DE/themen/tiere/tierschutz/versuchstiere/versuchstierstatistik.html",
+      "url": "https://www.dpz.eu/tierversuche/zahlen-und-fakten/versuchstierzahlen-in-deutschland",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_52",
+      "id": "aussage_46",
       "label": "Aussage: 3,5 Millionen Selbstständigen in unserem Land…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2970,20 +3740,20 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_52",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_46",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) gab es 2022 etwa 3,5 Millionen Selbstständige in Deutschland, darunter auch Soloselbstständige. Die Zahl wird regelmäßig in amtlichen Statistiken veröffentlicht.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine Zahl von 3,5 Millionen Selbstständigen in Deutschland. Die bereitgestellten Belege zeigen jedoch unterschiedliche Zahlen: Laut Institut für Mittelstandsforschung Bonn (IfM) gab es 2023 rund 3,6 Millionen Selbstständige (2,4 Mio. Männer + 1,2 Mio. Frauen). Der Artikel ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_selbstst_ndige_in_deutschland",
-      "label": "Statistisches Bundesamt (Destatis) – Selbstständige in Deutschland",
+      "id": "quelle_3_6_millionen_erwerbst_tige_sind_hauptberuflich_selbstst_ndig_unternehmeredition_de",
+      "label": "3,6 Millionen Erwerbstätige sind hauptberuflich selbstständig - Unternehmeredition.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/selbststaendige-insgesamt.html",
+      "url": "https://www.unternehmeredition.de/36-millionen-erwerbstaetige-in-deutschland-hauptberuflich-selbststaendig/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -18982,839 +19752,6 @@
       "start_sec": "",
       "herkunft": "protokoll",
       "schicht": "reaktion"
-    },
-    {
-      "id": "person_julia_kl_ckner",
-      "label": "Julia Klöckner",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_wiebke_esdar",
-      "label": "Dr. Wiebke Esdar",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kay_gottschalk",
-      "label": "Kay Gottschalk",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_mathias_middelberg",
-      "label": "Dr. Mathias Middelberg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_katharina_dr_ge",
-      "label": "Katharina Dröge",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_heidi_reichinnek",
-      "label": "Heidi Reichinnek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_michael_schrodi",
-      "label": "Michael Schrodi",
-      "type": "Person",
-      "subtype": "Parl. Staatssekretär beim Bundesminister der Finanzen",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_iris_nieland",
-      "label": "Iris Nieland",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_fritz_g_ntzler",
-      "label": "Fritz Güntzler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_katharina_beck",
-      "label": "Katharina Beck",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_michael_thews",
-      "label": "Michael Thews",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_wagner",
-      "label": "Johannes Wagner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christian_douglas",
-      "label": "Christian Douglas",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_georg_g_nther",
-      "label": "Georg Günther",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_seidler",
-      "label": "Stefan Seidler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mechthilde_wittmann",
-      "label": "Mechthilde Wittmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_julia_verlinden",
-      "label": "Dr. Julia Verlinden",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_florian_dorn",
-      "label": "Dr. Florian Dorn",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_reinhard_mixl",
-      "label": "Reinhard Mixl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_doris_achelwilm",
-      "label": "Doris Achelwilm",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_stefan_korbach",
-      "label": "Dr. Stefan Korbach",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_henze",
-      "label": "Stefan Henze",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_truels_reichardt",
-      "label": "Truels Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_swantje_henrike_michaelsen",
-      "label": "Swantje Henrike Michaelsen",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jorrit_bosch",
-      "label": "Jorrit Bosch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_g_nter_baumgartner",
-      "label": "Günter Baumgartner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lorenz_g_sta_beutin",
-      "label": "Lorenz Gösta Beutin",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_josephine_ortleb",
-      "label": "Josephine Ortleb",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hauke_finger",
-      "label": "Hauke Finger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sascha_m_ller",
-      "label": "Sascha Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_alexander_jordan",
-      "label": "Alexander Jordan",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ulrich_von_zons",
-      "label": "Ulrich von Zons",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_karsten_wildberger",
-      "label": "Dr. Karsten Wildberger",
-      "type": "Person",
-      "subtype": "Bundesminister für Digitales und Staatsmodernisierung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sonja_lemke",
-      "label": "Sonja Lemke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_robin_j_nger",
-      "label": "Robin Jünger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_sch_tzl",
-      "label": "Johannes Schätzl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rebecca_lenhard",
-      "label": "Rebecca Lenhard",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_marvin_schulz",
-      "label": "Marvin Schulz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lars_haise",
-      "label": "Lars Haise",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_carolin_wagner",
-      "label": "Dr. Carolin Wagner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anna_l_hrmann",
-      "label": "Dr. Anna Lührmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hansj_rg_durz",
-      "label": "Hansjörg Durz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_alexander_arpaschi",
-      "label": "Alexander Arpaschi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_daniel_bettermann",
-      "label": "Daniel Bettermann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ralph_brinkhaus",
-      "label": "Ralph Brinkhaus",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_karsten_hilse",
-      "label": "Karsten Hilse",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andreas_jung",
-      "label": "Andreas Jung",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lisa_badum",
-      "label": "Lisa Badum",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jakob_blankenburg",
-      "label": "Jakob Blankenburg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_fabian_fahl",
-      "label": "Dr. Fabian Fahl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_thomas_gebhart",
-      "label": "Dr. Thomas Gebhart",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_ingo_hahn",
-      "label": "Dr. Ingo Hahn",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_daniel_rinkert",
-      "label": "Daniel Rinkert",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_michael_kellner",
-      "label": "Michael Kellner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_koller",
-      "label": "Hans Koller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_manuel_krauthausen",
-      "label": "Manuel Krauthausen",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helmut_kleebank",
-      "label": "Helmut Kleebank",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_volker_mayer_lay",
-      "label": "Volker Mayer-Lay",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_reza_asghari",
-      "label": "Dr. Reza Asghari",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_omid_nouripour",
-      "label": "Omid Nouripour",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_gunther_krichbaum",
-      "label": "Gunther Krichbaum",
-      "type": "Person",
-      "subtype": "Staatsminister beim Bundesminister des Auswärtigen",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_markus_frohnmaier",
-      "label": "Markus Frohnmaier",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_metin_hakverdi",
-      "label": "Metin Hakverdi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_agnieszka_brugger",
-      "label": "Agnieszka Brugger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_janina_b_ttger",
-      "label": "Janina Böttger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tilman_kuban",
-      "label": "Tilman Kuban",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_beatrix_von_storch",
-      "label": "Beatrix von Storch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_derya_t_rk_nachbaur",
-      "label": "Derya Türk-Nachbaur",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_chantal_kopf",
-      "label": "Chantal Kopf",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_knut_abraham",
-      "label": "Knut Abraham",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_maximilian_krah",
-      "label": "Dr. Maximilian Krah",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_david_preisendanz",
-      "label": "Dr. David Preisendanz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tobias_winkler",
-      "label": "Tobias Winkler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_carmen_wegge",
-      "label": "Carmen Wegge",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tobias_matthias_peterka",
-      "label": "Tobias Matthias Peterka",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_axel_m_ller",
-      "label": "Axel Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helge_limburg",
-      "label": "Helge Limburg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rainer_galla",
-      "label": "Rainer Galla",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_luke_ho",
-      "label": "Luke Hoß",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_martin_plum",
-      "label": "Dr. Martin Plum",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christian_moser",
-      "label": "Christian Moser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kerstin_przygodda",
-      "label": "Kerstin Przygodda",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ellen_demuth",
-      "label": "Ellen Demuth",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_reichardt",
-      "label": "Martin Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lamya_kaddor",
-      "label": "Lamya Kaddor",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_daniel_zerbin",
-      "label": "Dr. Daniel Zerbin",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_saskia_esken",
-      "label": "Saskia Esken",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicole_gohlke",
-      "label": "Nicole Gohlke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ralph_edelh_u_er",
-      "label": "Ralph Edelhäußer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_birgit_bessin",
-      "label": "Birgit Bessin",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_adam_balten",
-      "label": "Adam Balten",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_saskia_ludwig",
-      "label": "Dr. Saskia Ludwig",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_alaa_alhamwi",
-      "label": "Dr. Alaa Alhamwi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dunja_kreiser",
-      "label": "Dunja Kreiser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_maximilian_kneller",
-      "label": "Maximilian Kneller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mirze_edis",
-      "label": "Mirze Edis",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lars_rohwer",
-      "label": "Lars Rohwer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_paul_schmidt",
-      "label": "Dr. Paul Schmidt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_zoe_mayer",
-      "label": "Dr. Zoe Mayer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_adrian_grasse",
-      "label": "Adrian Grasse",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stephan_protschka",
-      "label": "Stephan Protschka",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_franziska_kersten",
-      "label": "Dr. Franziska Kersten",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ina_latendorf",
-      "label": "Ina Latendorf",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_hans_theiss",
-      "label": "Dr. Hans Theiss",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_schr_der",
-      "label": "Stefan Schröder",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stephan_albani",
-      "label": "Stephan Albani",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_peter_bohnhof",
-      "label": "Peter Bohnhof",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_wilfried_oellers",
-      "label": "Wilfried Oellers",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sandra_stein",
-      "label": "Sandra Stein",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jens_peick",
-      "label": "Jens Peick",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_pascal_meiser",
-      "label": "Pascal Meiser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_markus_reichel",
-      "label": "Dr. Markus Reichel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_angelika_gl_ckner",
-      "label": "Angelika Glöckner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_katalin_gennburg",
-      "label": "Katalin Gennburg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_michael_kie_ling",
-      "label": "Michael Kießling",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_otto_strau",
-      "label": "Otto Strauß",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hendrik_bollmann",
-      "label": "Hendrik Bollmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sylvia_rietenberg",
-      "label": "Sylvia Rietenberg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_caren_lay",
-      "label": "Caren Lay",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
     }
   ],
   "relationships": [
@@ -21817,11 +21754,11 @@
       "source_id": "aussage_0",
       "target_id": "faktencheck_0",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_bundesregierung_entlastungspaket_ii",
+      "target_id": "quelle_kartellamt_und_adac_tankrabatt_kommt_gr_tenteils_an_zapfs_ulen_an_mdr_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -21838,11 +21775,11 @@
       "source_id": "aussage_1",
       "target_id": "faktencheck_1",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_bundesfinanzministerium_kosten_der_energiesteuersenkung",
+      "target_id": "quelle_keine_passende_quelle_in_den_belegen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -21859,11 +21796,11 @@
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_bundesregierung_drittes_entlastungspaket",
+      "target_id": "quelle_entlastungspr_mie_f_r_besch_ftigte_bundesregierung_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -21880,11 +21817,11 @@
       "source_id": "aussage_3",
       "target_id": "faktencheck_3",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_krisenbonus_vom_arbeitgeber_wer_bekommt_die_1_000_euro_steuerfrei_brisant_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -21901,11 +21838,11 @@
       "source_id": "aussage_4",
       "target_id": "faktencheck_4",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_bundesregierung_entlastungen_bei_den_energiekosten",
+      "target_id": "quelle_hohe_kraftstoffpreise_so_wollen_andere_l_nder_die_spritpreise_senken_die_zeit",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -21922,11 +21859,11 @@
       "source_id": "aussage_5",
       "target_id": "faktencheck_5",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_bundesministerium_der_finanzen_inflationsausgleichspr_mie",
+      "target_id": "quelle_inflationsausgleichspr_mie_bis_3_000_euro_bis_ende_2024_die_techniker_firmenkunden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -21943,99 +21880,99 @@
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_bundesregierung_sonderverm_gen_bundeswehr",
+      "target_id": "quelle_sonderverm_gen_der_bundesregierung_auswirkungen_auf_die_b_rse",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_julia_kl_ckner",
+      "source_id": "person_swantje_henrike_michaelsen",
       "target_id": "aussage_7",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_7",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_7",
       "target_id": "faktencheck_7",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_deutsche_umwelthilfe_fordert_tempolimit_jetzt_mit_dem_bis_zu_4_7_milliarden_liter_sprit_gespart_und_abh_ngigkeiten_von_l_importen_reduziert_werden_deutsche_umwelthilfe_e_v",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_julia_kl_ckner",
+      "source_id": "person_swantje_henrike_michaelsen",
       "target_id": "aussage_8",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_8",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_8",
       "target_id": "faktencheck_8",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_stromsteuergesetz_stromstg_9a",
+      "target_id": "quelle_mineral_lkonzerne_erzielen_rekord_bergewinne_beim_benzin_insidebw_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_julia_kl_ckner",
+      "source_id": "person_swantje_henrike_michaelsen",
       "target_id": "aussage_9",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_9",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_9",
       "target_id": "faktencheck_9",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_tankrabatt_2_0_was_die_senkung_der_energiesteuer_bringt_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_julia_kl_ckner",
+      "source_id": "person_swantje_henrike_michaelsen",
       "target_id": "aussage_10",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_10",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_10",
       "target_id": "faktencheck_10",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_statistisches_bundesamt_destatis_strompreise_f_r_haushaltskunden",
+      "target_id": "quelle_schlussfolgerungen_aus_einer_studie_zu_tempo_30_innerorts",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_swantje_henrike_michaelsen",
+      "source_id": "person_ulrich_von_zons",
       "target_id": "aussage_11",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -22048,15 +21985,15 @@
       "source_id": "aussage_11",
       "target_id": "faktencheck_11",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_umweltbundesamt_tempolimit_auf_autobahnen",
+      "target_id": "quelle_kein_passender_beleg_in_der_liste",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_swantje_henrike_michaelsen",
+      "source_id": "person_ulrich_von_zons",
       "target_id": "aussage_12",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -22069,15 +22006,15 @@
       "source_id": "aussage_12",
       "target_id": "faktencheck_12",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_12",
-      "target_id": "quelle_keine_amtliche_quelle_verf_gbar",
+      "target_id": "quelle_rechenzentren_deutschland_verliert_den_anschluss_presseinformation_bitkom_e_v",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_swantje_henrike_michaelsen",
+      "source_id": "person_ulrich_von_zons",
       "target_id": "aussage_13",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -22090,15 +22027,15 @@
       "source_id": "aussage_13",
       "target_id": "faktencheck_13",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_13",
-      "target_id": "quelle_bundestagsdrucksache_20_1650_antwort_der_bundesregierung_auf_kleine_anfrage",
+      "target_id": "quelle_entwicklung_des_bruttostromverbrauches_bis_2030_prognos",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_swantje_henrike_michaelsen",
+      "source_id": "person_ulrich_von_zons",
       "target_id": "aussage_14",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -22111,11 +22048,11 @@
       "source_id": "aussage_14",
       "target_id": "faktencheck_14",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_14",
-      "target_id": "quelle_bundesanstalt_f_r_stra_enwesen_bast_verkehrssicherheit_und_tempolimit",
+      "target_id": "quelle_welche_15_rechenzentren_dominieren_deutschland_die_gro_e_hitparade_2026",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -22136,17 +22073,17 @@
     },
     {
       "source_id": "faktencheck_15",
-      "target_id": "quelle_statistisches_bundesamt_destatis_verkehrsunf_lle_fachserie_8_reihe_7",
+      "target_id": "quelle_schwarz_gruppe_baut_rechenzentrum_f_r_elf_milliarden_euro_in_l_bbenau",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_ulrich_von_zons",
+      "source_id": "person_marvin_schulz",
       "target_id": "aussage_16",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_16",
-      "target_id": "top_3",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -22157,101 +22094,101 @@
     },
     {
       "source_id": "faktencheck_16",
-      "target_id": "quelle_borderstep_institut_rechenzentren_in_deutschland_2023",
+      "target_id": "quelle_telekom_nvidia_ki_gro_anlage_in_m_nchen_er_ffnet_der_spiegel",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_ulrich_von_zons",
+      "source_id": "person_marvin_schulz",
       "target_id": "aussage_17",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_17",
-      "target_id": "top_3",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_17",
       "target_id": "faktencheck_17",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_17",
-      "target_id": "quelle_borderstep_institut_energieverbrauch_von_rechenzentren_in_deutschland",
+      "target_id": "quelle_nvidia_die_stille_weltherrschaft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_ulrich_von_zons",
+      "source_id": "person_karsten_hilse",
       "target_id": "aussage_18",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_18",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_18",
       "target_id": "faktencheck_18",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_18",
-      "target_id": "quelle_bitkom_rechenzentren_in_deutschland_2023",
+      "target_id": "quelle_energiewende_in_deutschland_braucht_kurswechsel_dihk_studie_warnt_vor_kosten_von_bis_zu_5_4_billionen_euro",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_ulrich_von_zons",
+      "source_id": "person_karsten_hilse",
       "target_id": "aussage_19",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_19",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_19",
       "target_id": "faktencheck_19",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_19",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_rhythmen_des_klimas_auf_der_erde_war_es_meist_eher_hei_als_kalt",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_marvin_schulz",
+      "source_id": "person_karsten_hilse",
       "target_id": "aussage_20",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_20",
-      "target_id": "top_4",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_20",
       "target_id": "faktencheck_20",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_20",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_meeresspiegel_nderungen_der_vergangenheit",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_marvin_schulz",
+      "source_id": "person_karsten_hilse",
       "target_id": "aussage_21",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_21",
-      "target_id": "top_4",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -22262,7 +22199,7 @@
     },
     {
       "source_id": "faktencheck_21",
-      "target_id": "quelle_nvidia_pressemitteilung_zu_rechenzentrumsprojekten_2023",
+      "target_id": "quelle_weichsel_kaltzeit_lexikon_der_geowissenschaften",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -22279,11 +22216,11 @@
       "source_id": "aussage_22",
       "target_id": "faktencheck_22",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_22",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_meeresspiegel_der_zukunft_klimawandel",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -22304,80 +22241,80 @@
     },
     {
       "source_id": "faktencheck_23",
-      "target_id": "quelle_us_geological_survey_usgs_historical_climate",
+      "target_id": "quelle_meeresspiegelanstieg_seit_1850_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_karsten_hilse",
+      "source_id": "person_gunther_krichbaum",
       "target_id": "aussage_24",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_24",
-      "target_id": "top_5",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_24",
       "target_id": "faktencheck_24",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_24",
-      "target_id": "quelle_ipcc_ar6_kapitel_2_changing_state_of_the_climate_system",
+      "target_id": "quelle_wahlbeteiligung_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_karsten_hilse",
+      "source_id": "person_gunther_krichbaum",
       "target_id": "aussage_25",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_25",
-      "target_id": "top_5",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_25",
       "target_id": "faktencheck_25",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_25",
-      "target_id": "quelle_noaa_paleoclimatology_data",
+      "target_id": "quelle_tisztelet_s_szabads_g_p_rt_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_karsten_hilse",
+      "source_id": "person_gunther_krichbaum",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_26",
-      "target_id": "top_5",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_26",
       "target_id": "faktencheck_26",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_26",
-      "target_id": "quelle_nasa_sea_level_change",
+      "target_id": "quelle_magyar_angelobt_ungarn_startet_in_post_orban_ra_news_orf_at",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_karsten_hilse",
+      "source_id": "person_gunther_krichbaum",
       "target_id": "aussage_27",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_27",
-      "target_id": "top_5",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -22388,7 +22325,7 @@
     },
     {
       "source_id": "faktencheck_27",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -22405,15 +22342,15 @@
       "source_id": "aussage_28",
       "target_id": "faktencheck_28",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_28",
-      "target_id": "quelle_national_election_office_hungary_nemzeti_v_laszt_si_iroda",
+      "target_id": "quelle_eu_milliarden_f_r_ungarn_von_der_leyen_und_magyar_verk_nden_durchbruch_faz",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gunther_krichbaum",
+      "source_id": "person_knut_abraham",
       "target_id": "aussage_29",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -22426,15 +22363,15 @@
       "source_id": "aussage_29",
       "target_id": "faktencheck_29",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_29",
-      "target_id": "quelle_national_election_office_hungary_nemzeti_v_laszt_si_iroda_europawahl_2024_und_parlamentswahl_2024",
+      "target_id": "quelle_kein_relevanter_beleg_in_der_liste_allgemeinwissen_zur_grenz_ffnung_1989",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gunther_krichbaum",
+      "source_id": "person_knut_abraham",
       "target_id": "aussage_30",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -22447,15 +22384,15 @@
       "source_id": "aussage_30",
       "target_id": "faktencheck_30",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_30",
-      "target_id": "quelle_national_election_office_hungary_nemzeti_v_laszt_si_iroda_parlamentswahl_2024",
+      "target_id": "quelle_europ_ische_akademie_berlin_deutsch_ungarisches_jugendparlament_2025",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gunther_krichbaum",
+      "source_id": "person_knut_abraham",
       "target_id": "aussage_31",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -22468,15 +22405,15 @@
       "source_id": "aussage_31",
       "target_id": "faktencheck_31",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_31",
-      "target_id": "quelle_europ_ische_kommission_pressemitteilung_zur_konditionalit_t_der_eu_mittel_f_r_ungarn",
+      "target_id": "quelle_dip_vorgang_verordnung_zu_dem_abkommen_vom_28_mai_2024_zur_nderung_des_abkommens_vom_4_juli_2019_zwischen_der_regierung_der_bundesrepublik_deutschland_und_der_regierung_der_republik_ungarn_ber_die_errichtung_des_deutsch_ungarischen_jugendwerks",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gunther_krichbaum",
+      "source_id": "person_knut_abraham",
       "target_id": "aussage_32",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -22489,42 +22426,42 @@
       "source_id": "aussage_32",
       "target_id": "faktencheck_32",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_32",
-      "target_id": "quelle_keine_belastbare_amtliche_quelle_verf_gbar",
+      "target_id": "quelle_dewiki_matthias_corvinus",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_knut_abraham",
+      "source_id": "person_axel_m_ller",
       "target_id": "aussage_33",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_33",
-      "target_id": "top_6",
+      "target_id": "top_7",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_33",
       "target_id": "faktencheck_33",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_33",
-      "target_id": "quelle_bundeszentrale_f_r_politische_bildung_chronik_der_wende",
+      "target_id": "quelle_die_bvg_ist_milliard_r_fahrgast_milliard_r_b_z_die_stimme_berlins",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_knut_abraham",
+      "source_id": "person_axel_m_ller",
       "target_id": "aussage_34",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_34",
-      "target_id": "top_6",
+      "target_id": "top_7",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -22535,17 +22472,17 @@
     },
     {
       "source_id": "faktencheck_34",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_dip_vorgang_umsetzung_der_entkriminalisierung_des_fahrens_ohne_fahrschein",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_knut_abraham",
+      "source_id": "person_axel_m_ller",
       "target_id": "aussage_35",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_35",
-      "target_id": "top_6",
+      "target_id": "top_7",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -22556,28 +22493,28 @@
     },
     {
       "source_id": "faktencheck_35",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_dip_vorgang_durch_die_mitglieder_der_bundesregierung_erstattete_strafanzeigen_mit_stand_november_2025",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_knut_abraham",
+      "source_id": "person_axel_m_ller",
       "target_id": "aussage_36",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_36",
-      "target_id": "top_6",
+      "target_id": "top_7",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_36",
       "target_id": "faktencheck_36",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_36",
-      "target_id": "quelle_enzyklop_die_der_neuzeit_matthias_corvinus",
+      "target_id": "quelle_ersatzfreiheitsstrafe_im_deutschen_strafrecht",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -22594,11 +22531,11 @@
       "source_id": "aussage_37",
       "target_id": "faktencheck_37",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_37",
-      "target_id": "quelle_bvg_gesch_ftsbericht_2023",
+      "target_id": "quelle_kein_passender_beleg_in_der_liste",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -22615,11 +22552,11 @@
       "source_id": "aussage_38",
       "target_id": "faktencheck_38",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_38",
-      "target_id": "quelle_bvg_gesch_ftsbericht_2023",
+      "target_id": "quelle_geldstrafe_deutschland_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -22636,21 +22573,21 @@
       "source_id": "aussage_39",
       "target_id": "faktencheck_39",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_39",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_ersatzfreiheitsstrafe_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_axel_m_ller",
+      "source_id": "person_kerstin_przygodda",
       "target_id": "aussage_40",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_40",
-      "target_id": "top_7",
+      "target_id": "top_8",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -22661,101 +22598,101 @@
     },
     {
       "source_id": "faktencheck_40",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_axel_m_ller",
+      "source_id": "person_kerstin_przygodda",
       "target_id": "aussage_41",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_41",
-      "target_id": "top_7",
+      "target_id": "top_8",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_41",
       "target_id": "faktencheck_41",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_41",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_frauenrechtsorganisation_fordert_kopftuchverbot_f_r_kinder",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_axel_m_ller",
+      "source_id": "person_mirze_edis",
       "target_id": "aussage_42",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_42",
-      "target_id": "top_7",
+      "target_id": "top_9",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_42",
       "target_id": "faktencheck_42",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_42",
-      "target_id": "quelle_strafgesetzbuch_stgb_265a_leistungserschleichung",
+      "target_id": "quelle_deutscher_bundestag_energieeffizienzgesetz_der_regierung_st_t_auf_lob_und_kritik",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_axel_m_ller",
+      "source_id": "person_mirze_edis",
       "target_id": "aussage_43",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_43",
-      "target_id": "top_7",
+      "target_id": "top_9",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_43",
       "target_id": "faktencheck_43",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_43",
-      "target_id": "quelle_strafgesetzbuch_stgb_43_ersatzfreiheitsstrafe",
+      "target_id": "quelle_stra_e_von_hormus_sicherheitsrat_tagte_erstmals_ende_april_zu_energiekrise",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_kerstin_przygodda",
+      "source_id": "person_dr_franziska_kersten",
       "target_id": "aussage_44",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_44",
-      "target_id": "top_8",
+      "target_id": "top_10",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_44",
       "target_id": "faktencheck_44",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_44",
-      "target_id": "quelle_keine_belastbare_quelle_verf_gbar",
+      "target_id": "quelle_ber_3_millionen_tiere_in_tierversuchen_verwendet_rzte_gegen_tierversuche",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_kerstin_przygodda",
+      "source_id": "person_dr_franziska_kersten",
       "target_id": "aussage_45",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_45",
-      "target_id": "top_8",
+      "target_id": "top_10",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -22766,154 +22703,28 @@
     },
     {
       "source_id": "faktencheck_45",
-      "target_id": "quelle_terre_des_femmes_umfrage_zu_kinderkopft_chern_2024",
+      "target_id": "quelle_versuchstierzahlen_in_deutschland_dpz",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_kerstin_przygodda",
+      "source_id": "person_wilfried_oellers",
       "target_id": "aussage_46",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_46",
-      "target_id": "top_8",
+      "target_id": "top_11",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_46",
       "target_id": "faktencheck_46",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
-    },
-    {
-      "source_id": "faktencheck_46",
-      "target_id": "quelle_keine_belastbare_quelle_verf_gbar",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_mirze_edis",
-      "target_id": "aussage_47",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_47",
-      "target_id": "top_9",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_47",
-      "target_id": "faktencheck_47",
-      "relationship_type": "GEPRUEFT_ALS",
       "verdikt": "teilweise"
     },
     {
-      "source_id": "faktencheck_47",
-      "target_id": "quelle_bundesregierung_energieeffizienzgesetz_enefg_co2_preis_atomausstiegsgesetz_grundgesetz_nderung_2023",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_mirze_edis",
-      "target_id": "aussage_48",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_48",
-      "target_id": "top_9",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_48",
-      "target_id": "faktencheck_48",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
-    },
-    {
-      "source_id": "faktencheck_48",
-      "target_id": "quelle_statistisches_bundesamt_stromerzeugung_aus_erneuerbaren_energien_2023",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_mirze_edis",
-      "target_id": "aussage_49",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_49",
-      "target_id": "top_9",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_49",
-      "target_id": "faktencheck_49",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
-    },
-    {
-      "source_id": "faktencheck_49",
-      "target_id": "quelle_quelle",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_dr_franziska_kersten",
-      "target_id": "aussage_50",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_50",
-      "target_id": "top_10",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_50",
-      "target_id": "faktencheck_50",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
-    },
-    {
-      "source_id": "faktencheck_50",
-      "target_id": "quelle_bundesministerium_f_r_ern_hrung_und_landwirtschaft_bmel_versuchstierstatistik_2021",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_dr_franziska_kersten",
-      "target_id": "aussage_51",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_51",
-      "target_id": "top_10",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_51",
-      "target_id": "faktencheck_51",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
-    },
-    {
-      "source_id": "faktencheck_51",
-      "target_id": "quelle_bundesministerium_f_r_ern_hrung_und_landwirtschaft_bmel_versuchstierstatistiken_2015_2021",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_wilfried_oellers",
-      "target_id": "aussage_52",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_52",
-      "target_id": "top_11",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_52",
-      "target_id": "faktencheck_52",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
-    },
-    {
-      "source_id": "faktencheck_52",
-      "target_id": "quelle_statistisches_bundesamt_destatis_selbstst_ndige_in_deutschland",
+      "source_id": "faktencheck_46",
+      "target_id": "quelle_3_6_millionen_erwerbst_tige_sind_hauptberuflich_selbstst_ndig_unternehmeredition_de",
       "relationship_type": "BELEGT_MIT"
     },
     {

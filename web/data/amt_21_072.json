@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 720,
-    "relationship_count": 1264,
+    "node_count": 736,
+    "relationship_count": 1272,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21072.pdf",
@@ -40,10 +40,31 @@
       "schicht": "zeitlich"
     },
     {
+      "id": "person_julia_kl_ckner",
+      "label": "Julia Klöckner",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nadine_heselhaus",
+      "label": "Nadine Heselhaus",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_spd",
       "label": "SPD",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_m_ller",
+      "label": "Stefan Möller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -54,10 +75,24 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_susanne_hierl",
+      "label": "Susanne Hierl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_cdu_csu",
       "label": "CDU/CSU",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_schmidt",
+      "label": "Stefan Schmidt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -68,10 +103,402 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_christin_willnat",
+      "label": "Christin Willnat",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_die_linke",
       "label": "Die Linke",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_carmen_wegge",
+      "label": "Carmen Wegge",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stephan_brandner",
+      "label": "Stephan Brandner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sebastian_steineke",
+      "label": "Sebastian Steineke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_till_steffen",
+      "label": "Dr. Till Steffen",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_david_preisendanz",
+      "label": "Dr. David Preisendanz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kay_gottschalk",
+      "label": "Kay Gottschalk",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_carl_philipp_sassenrath",
+      "label": "Carl-Philipp Sassenrath",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_adis_ahmetovic",
+      "label": "Adis Ahmetovic",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_konrad_k_rner",
+      "label": "Dr. Konrad Körner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hermann_f_rber",
+      "label": "Hermann Färber",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christian_reck",
+      "label": "Christian Reck",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_franziska_kersten",
+      "label": "Dr. Franziska Kersten",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_ophelia_nick",
+      "label": "Dr. Ophelia Nick",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_marcel_bauer",
+      "label": "Marcel Bauer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_artur_auernhammer",
+      "label": "Artur Auernhammer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bernd_schuhmann",
+      "label": "Bernd Schuhmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_karl_b_r",
+      "label": "Karl Bär",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ina_latendorf",
+      "label": "Ina Latendorf",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dieter_stier",
+      "label": "Dieter Stier",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stephan_protschka",
+      "label": "Stephan Protschka",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christoph_frauenprei",
+      "label": "Christoph Frauenpreiß",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_alexander_jordan",
+      "label": "Alexander Jordan",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_josephine_ortleb",
+      "label": "Josephine Ortleb",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_julia_christina_stange",
+      "label": "Julia-Christina Stange",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_axel_m_ller",
+      "label": "Axel Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ates_g_rpinar",
+      "label": "Ates Gürpinar",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_claudia_weiss",
+      "label": "Claudia Weiss",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_serdar_y_ksel",
+      "label": "Serdar Yüksel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_armin_grau",
+      "label": "Dr. Armin Grau",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_anne_janssen",
+      "label": "Anne Janssen",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_joachim_bloch",
+      "label": "Joachim Bloch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_hans_theiss",
+      "label": "Dr. Hans Theiss",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_robin_wagener",
+      "label": "Robin Wagener",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_roderich_kiesewetter",
+      "label": "Roderich Kiesewetter",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_markus_frohnmaier",
+      "label": "Markus Frohnmaier",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_macit_karaahmeto_lu",
+      "label": "Macit Karaahmetoğlu",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_s_ren_pellmann",
+      "label": "Sören Pellmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bastian_ernst",
+      "label": "Bastian Ernst",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anna_rathert",
+      "label": "Dr. Anna Rathert",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helge_lindh",
+      "label": "Helge Lindh",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anton_hofreiter",
+      "label": "Dr. Anton Hofreiter",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tobias_winkler",
+      "label": "Tobias Winkler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bodo_ramelow",
+      "label": "Bodo Ramelow",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_cansu_zdemir",
+      "label": "Cansu Özdemir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_alexander_wolf",
+      "label": "Dr. Alexander Wolf",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johann_saathoff",
+      "label": "Johann Saathoff",
+      "type": "Person",
+      "subtype": "Parl. Staatssekretär bei der Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_luise_amtsberg",
+      "label": "Luise Amtsberg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_wolfgang_stefinger",
+      "label": "Dr. Wolfgang Stefinger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_gerold_otten",
+      "label": "Gerold Otten",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sara_nanni",
+      "label": "Sara Nanni",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lea_reisner",
+      "label": "Lea Reisner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ellen_demuth",
+      "label": "Ellen Demuth",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tobias_teich",
+      "label": "Tobias Teich",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sanae_abdi",
+      "label": "Sanae Abdi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_volkmann",
+      "label": "Johannes Volkmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -819,24 +1246,24 @@
       "type": "Aussage",
       "subtype": "",
       "text": "Für Millionen Menschen in unserem Land ist das [Überschuldung] keine Vorstellung, es ist Realität.",
-      "person": "Präsidentin Julia Klöckner",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_0",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt waren 2022 etwa 6,16 Millionen Menschen in Deutschland überschuldet (Schuldenbarometer der Creditreform). Die Aussage ist somit quantitativ belegt, aber der Begriff 'Millionen' ist unscharf und könnte auch höhere Zahlen suggerieren. Die genaue Größenordnung ist ",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Überschuldung von Privatpersonen in Deutschland. Laut dem Beleg von Statista (2025) gibt es in Deutschland Millionen überschuldeter Personen – konkret werden rund 3,47 Millionen Männer als überschuldet angegeben, wobei die Gesamtzahl der überschuldeten Perso",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_schuldenbarometer_2022_statistisches_bundesamt_destatis_creditreform",
-      "label": "Schuldenbarometer 2022 – Statistisches Bundesamt (Destatis) / Creditreform",
+      "id": "quelle_berschuldete_privatpersonen_anzahl_in_deutschland_bis_2025_statista",
+      "label": "Überschuldete Privatpersonen: Anzahl in Deutschland bis 2025 | Statista",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Ueberschuldung/_inhalt.html",
+      "url": "https://de.statista.com/statistik/daten/studie/166338/umfrage/anzahl-der-schuldner-in-deutschland-seit-2004/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -846,24 +1273,24 @@
       "type": "Aussage",
       "subtype": "",
       "text": "Je früher man Hilfe bekommt, desto größer ist die Chance, eine Krise zu überwinden.",
-      "person": "Präsidentin Julia Klöckner",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_1",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist eine allgemeine Feststellung ohne konkrete quantitative Behauptung. Es gibt zwar Studien zur Wirksamkeit von Schuldnerberatung, aber keine spezifischen, überprüfbaren Zahlen in der Rede.",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Je früher man Hilfe bekommt, desto größer ist die Chance, eine Krise zu überwinden' wird durch den Beleg von Markus Czerner gestützt, der betont, dass frühes Holen von Hilfe besser für die Bewältigung von Krisen ist. Dies deckt sich mit allgemeinem psychologischem und sozialwis",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "id": "quelle_krise_als_chance_ein_leitfaden",
+      "label": "Krise als Chance: Ein Leitfaden",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.markusczerner.de/krise-als-chance/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -878,19 +1305,19 @@
     },
     {
       "id": "faktencheck_2",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU-Verbraucherkreditrichtlinie (Richtlinie (EU) 2023/2225) musste bis zum 20. November 2025 in nationales Recht umgesetzt werden. Die Aussage bezieht sich auf das Jahr 2023, was korrekt ist, da die Rede im Jahr 2024 gehalten wurde und sich auf die Frist 2023 bezieht.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, der Bundestag hätte die EU-Verbraucherkreditrichtlinie bis zum 20. November *letzten Jahres* (also 2023) umsetzen müssen. Die bereitgestellten Belege zeigen jedoch eindeutig, dass die Frist für die Umsetzung der Richtlinie der 20. November *2025* ist. Dies wird in all",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_richtlinie_eu_2023_2225_des_europ_ischen_parlaments_und_des_rates",
-      "label": "Richtlinie (EU) 2023/2225 des Europäischen Parlaments und des Rates",
+      "id": "quelle_deutscher_bundestag_umsetzung_der_neuen_eu_verbraucherkreditrichtlinie",
+      "label": "Deutscher Bundestag - Umsetzung der neuen EU-Verbraucherkreditrichtlinie",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32023L2225",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw45-pa-recht-verbraucher-1117076",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -905,19 +1332,19 @@
     },
     {
       "id": "faktencheck_3",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche BaFin-Studie, die diese konkrete Zahl (25 % der jungen Menschen) im Zusammenhang mit 'Buy now, pay later'-Modellen belegt. Die BaFin veröffentlicht zwar Studien zu Verbraucherkrediten, aber diese spezifische Aussage konnte nicht verifiziert werden.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage suggeriert, dass laut einer BaFin-Studie jeder vierte junge Mensch 'kauft und später zahlt'. Die bereitgestellten Belege beziehen sich jedoch auf den Einfluss von Finfluencern auf das Anlageverhalten junger Menschen, insbesondere dass 25 Prozent der jungen Anleger ein Produkt zw",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_belastbare_quelle_gefunden",
-      "label": "Keine belastbare Quelle gefunden",
+      "id": "quelle_aktuelles_presse_generation_y_und_z_setzen_auf_finfluencer_bafin",
+      "label": "Aktuelles & Presse - Generation Y und Z setzen auf Finfluencer - Bafin",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Fachartikel/2024/fa_bj_2409_Finfluencer.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -936,65 +1363,20 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Berechnung (4,90 € auf 34 € = ~600 % Steigerung) ist mathematisch korrekt. Allerdings ist die Aussage allgemein gehalten und bezieht sich auf ein Beispiel aus der Schuldnerberatung, das nicht spezifisch belegt ist. Mahn- und Inkassogebühren können je nach Fall variieren, aber die Größen",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da kleine Forderungen durch Mahn- und Inkassogebühren tatsächlich stark anwachsen können. Allerdings ist die genannte Kostenexplosion von etwa 600 Prozent (von 4,90 Euro auf über 34 Euro) nicht durch die Belege direkt gestützt. Der Beleg von MEINRECHT.de nen",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_spezifische_amtliche_quelle_aber_allgemeine_informationen_zu_inkassokosten",
-      "label": "Keine spezifische amtliche Quelle, aber allgemeine Informationen zu Inkassokosten",
+      "id": "quelle_zahlung_berf_llig_wie_hoch_d_rfen_mahngeb_hren_sein_meinrecht_de",
+      "label": "Zahlung überfällig: Wie hoch dürfen Mahngebühren sein? | MEINRECHT.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesjustizamt.de/DE/Themen/Buergerdienste/Inkasso/Inkasso_node.html",
+      "url": "https://www.meinrecht.de/magazin/wie-hoch-duerfen-mahngebuehren-sein",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_5",
-      "label": "Aussage: Die EU-Kommission hat ein Vertragsverletzungsverfahren gegen…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die EU-Kommission hat ein Vertragsverletzungsverfahren gegen Deutschland eingeleitet.",
-      "person": "Stefan Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_5",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU-Kommission hat am 25. Januar 2024 ein Vertragsverletzungsverfahren gegen Deutschland wegen Nichtumsetzung der EU-Verbraucherkreditrichtlinie eingeleitet.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_pressemitteilung_der_europ_ischen_kommission",
-      "label": "Pressemitteilung der Europäischen Kommission",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/de/inf_24_405",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_6",
-      "label": "Aussage: Die EU-Verbraucherkreditrichtlinie sollte zum 20. November 2…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die EU-Verbraucherkreditrichtlinie sollte zum 20. November 2025 in nationales Recht umgesetzt sein.",
-      "person": "Stefan Schmidt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_6",
-      "label": "Faktencheck: falsch",
-      "type": "Faktencheck",
-      "subtype": "falsch",
-      "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Frist zur Umsetzung der Richtlinie (EU) 2023/2225 war der 20. November 2025, aber die Aussage in der Rede bezieht sich auf das Jahr 2023 (siehe erste Aussage). Die Wiederholung der Frist als 2025 ist hier irreführend, da der Kontext auf 2023 abzielt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_7",
       "label": "Aussage: Circa 8,1 Prozent der Erwachsenen gelten als überschuldet, w…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1003,25 +1385,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_7",
+      "id": "faktencheck_5",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die aktuellste verfügbare Statistik des Statistischen Bundesamtes (Destatis) zur Überschuldung privater Personen stammt aus dem Jahr 2021 und gibt eine Überschuldungsquote von 8,1 % der erwachsenen Bevölkerung an. Für 2024/2025 liegen noch keine offiziellen Zahlen vor. Die Aussage ist daher",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass circa 8,1 Prozent der Erwachsenen als überschuldet gelten, lässt sich nicht direkt aus den bereitgestellten Belegen ableiten. Allerdings gibt es aktuelle Daten zur Überschuldung in Deutschland, die in der Nähe dieses Wertes liegen. Laut dem 'Schuldenreport 2023' der Credit",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_berschuldung_privater_personen_2021",
-      "label": "Statistisches Bundesamt (Destatis) - Überschuldung privater Personen 2021",
+      "id": "quelle_einkommens_und_verm_gensungleichheit_soziale_ungleichheit_bpb_de",
+      "label": "Einkommens- und Vermögensungleichheit | Soziale Ungleichheit | bpb.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Ueberschuldung/_inhalt.html",
+      "url": "https://www.bpb.de/shop/zeitschriften/izpb/soziale-ungleichheit-354/520845/einkommens-und-vermoegensungleichheit/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_8",
+      "id": "aussage_6",
       "label": "Aussage: Die Zahl der überschuldeten Personen ist auch erstmals seit …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1030,16 +1412,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_8",
+      "id": "faktencheck_6",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Destatis lag die Zahl der überschuldeten Personen 2021 bei etwa 5,65 Millionen. Ein Anstieg auf 5,7 Millionen für 2024/2025 ist nicht durch aktuelle amtliche Daten belegt. Die Aussage bezieht sich vermutlich auf Prognosen oder Schätzungen, die nicht öffentlich zugänglich sind.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine Informationen zur Zahl überschuldeter Personen in Deutschland oder weltweit. Die Aussage bezieht sich auf einen Anstieg der Überschuldungszahlen, insbesondere auf fast 5,7 Millionen Personen, was sich vermutlich auf Deutschland bezieht. Die Belege",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_9",
+      "id": "quelle_kein_passender_beleg_in_der_liste_vorhanden",
+      "label": "Kein passender Beleg in der Liste vorhanden",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.statista.com/themen/567/millionaere-milliardaere/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_7",
       "label": "Aussage: Jeder fünfte Mensch unter 30 hat inzwischen Schulden, oft be…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1048,25 +1439,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_9",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_7",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik, die diese konkrete Aussage (20 % der unter 30-Jährigen) bestätigt. Studien wie die „Schuldenuhr“ des iff (Institut für Finanzdienstleistungen) oder Erhebungen der SCHUFA liefern zwar Daten zur Verschuldung junger Erwachsener, aber keine belastbare Zahl von ",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass 'jeder fünfte Mensch unter 30 inzwischen Schulden hat, oft begünstigt durch Zahlungsdienste, die das Ausgabeverhalten durch einfaches späteres Bezahlen fördern', wird wortgleich in mehreren unabhängigen Quellen zitiert (t-online, FAZ, ChannelPartner). Diese Quellen beziehe",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_iff_schuldenreport_2023_keine_direkte_best_tigung_der_20_aussage",
-      "label": "iff - Schuldenreport 2023 (keine direkte Bestätigung der 20 %-Aussage)",
+      "id": "quelle_zahlungsmethode_bundestag_beschlie_t_neue_regeln_f_r_den_ratenkauf",
+      "label": "Zahlungsmethode: Bundestag beschließt neue Regeln für den Ratenkauf",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.iff-hamburg.de/publikationen/schuldenreport/",
+      "url": "https://www.t-online.de/finanzen/ratgeber/konto-kredit/kredite/id_101217784/zahlungsmethode-bundestag-beschliesst-neue-regeln-fuer-den-ratenkauf.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_10",
+      "id": "aussage_8",
       "label": "Aussage: Es gibt mindestens 3 000 Euro für rein batterieelektrische F…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1075,29 +1466,83 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_10",
+      "id": "faktencheck_8",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Förderung für Elektrofahrzeuge in Deutschland (Umweltbonus) betrug bis Ende 2023 bis zu 4.500 Euro für rein batterieelektrische Fahrzeuge (BEV) und bis zu 3.750 Euro für Plug-in-Hybride (PHEV) unter bestimmten Bedingungen (z. B. Nettolistenpreis unter 40.000 Euro). Ab 2024 wurde die För",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die Belege bestätigen, dass es für rein batterieelektrische Fahrzeuge (BEV) eine Förderung von mindestens 3.000 Euro und für Plug-in-Hybride sowie Fahrzeuge mit Range Extender eine Förderung von mindestens 1.500 Euro gibt. Allerdings hängt die tatsächlich",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesamt_f_r_wirtschaft_und_ausfuhrkontrolle_bafa_umweltbonus",
-      "label": "Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) – Umweltbonus",
+      "id": "quelle_e_auto_f_rderung_2026_bis_zu_6_000_euro_pr_mie_wer_bekommt_wie_viel",
+      "label": "E-Auto Förderung 2026: Bis zu 6.000 Euro Prämie – wer bekommt wie viel",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Elektromobilitaet/elektromobilitaet_node.html",
+      "url": "https://ms-aktuell.de/welt/e-auto-foerderung-2026/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_9",
+      "label": "Aussage: Die Förderung kommt rückwirkend ab dem 1. Januar dieses Jahr…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Die Förderung kommt rückwirkend ab dem 1. Januar dieses Jahres.",
+      "person": "Carl-Philipp Sassenrath",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_9",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine 'rückwirkende Förderung ab dem 1. Januar dieses Jahres'. Die bereitgestellten Belege enthalten Informationen zu verschiedenen Förderprogrammen, die ab bestimmten Daten gelten (z.B. 1. Januar 2026 oder 2027), jedoch keine konkreten Hinweise auf eine rückwirk",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_neue_f_rderprogramme_im_wohnungsbau_2025_2026_ecovis",
+      "label": "Neue Förderprogramme im Wohnungsbau 2025/2026 - Ecovis",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.ecovis.com/unternehmensberatung/neue-foerderprogramme-wohnbau-2025-2026/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_10",
+      "label": "Aussage: so konnten wir sehen, dass wir in diesem März über 70 000 ne…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "so konnten wir sehen, dass wir in diesem März über 70 000 neue E-Autos in Deutschland haben",
+      "person": "Carl-Philipp Sassenrath",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_10",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass im März über 70.000 neue E-Autos in Deutschland zugelassen wurden, wird durch mehrere unabhängige Quellen bestätigt. Laut den Belegen von Autozeitung, Spiegel und ZDFheute wurden im März 2026 genau 70.663 vollelektrische Neuwagen zugelassen. Dies stützt die Aussage sowohl ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_e_auto_neuzulassungen_neuer_h_chstwert_seit_2022_gewinner_verlierer_im_m_rz",
+      "label": "E-Auto-Neuzulassungen: Neuer Höchstwert seit 2022 – Gewinner & Verlierer im März",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.autozeitung.de/zulassungszahlen-elektroautos-205703.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_11",
-      "label": "Aussage: Die Förderung kommt rückwirkend ab dem 1. Januar dieses Jahr…",
+      "label": "Aussage: im März in Deutschland erstmals mehr E-Autos als Benziner zu…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Die Förderung kommt rückwirkend ab dem 1. Januar dieses Jahres.",
+      "text": "im März in Deutschland erstmals mehr E-Autos als Benziner zugelassen",
       "person": "Carl-Philipp Sassenrath",
       "schicht": "fallbezug"
     },
@@ -1107,119 +1552,74 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Förderung für Elektrofahrzeuge wurde tatsächlich rückwirkend zum 1. Januar 2024 eingeführt, nachdem die vorherige Förderung Ende 2023 ausgelaufen war. Dies wurde im Rahmen des Wachstumschancengesetzes beschlossen.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage wird durch die bereitgestellten Belege gestützt. Laut dem ZDF-Artikel und dem Bericht von Drehmoment.net wurden im März 2026 (bzw. März ohne Jahresangabe im ZDF-Artikel) erstmals mehr reine E-Autos (70.663) als Benziner (66.959) in Deutschland neu zugelassen. Die Zahlen stammen ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_wachstumschancengesetz",
-      "label": "Bundesregierung – Wachstumschancengesetz",
+      "id": "quelle_mehr_e_autos_als_benziner_im_m_rz_neu_zugelassen",
+      "label": "Mehr E-Autos als Benziner im März neu zugelassen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/wachstumschancengesetz-2214372",
+      "url": "https://www.zdfheute.de/wirtschaft/e-autos-anmeldungen-zulassungen-verkehrswende-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_12",
-      "label": "Aussage: so konnten wir sehen, dass wir in diesem März über 70 000 ne…",
+      "label": "Aussage: Jedes Jahr erkranken in Deutschland rund 500.000 Menschen ne…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "so konnten wir sehen, dass wir in diesem März über 70 000 neue E-Autos in Deutschland haben",
+      "text": "Jedes Jahr erkranken in Deutschland rund 500.000 Menschen neu an Krebs.",
       "person": "Carl-Philipp Sassenrath",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_12",
-      "label": "Faktencheck: falsch",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "falsch",
-      "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Kraftfahrt-Bundesamt (KBA) wurden im März 2024 insgesamt 50.693 reine batterieelektrische Fahrzeuge (BEV) neu zugelassen. Die Zahl von über 70.000 bezieht sich vermutlich auf die kumulierten Neuzulassungen mehrerer Monate oder schließt Plug-in-Hybride ein, was jedoch nicht der Aussage ",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Jedes Jahr erkranken in Deutschland rund 500.000 Menschen neu an Krebs' ist im Kern richtig, weicht aber in der genauen Zahl ab. Der Krebsinformationsdienst des DKFZ nennt etwa 493.200 Neuerkrankungen pro Jahr, was nahe an der genannten Zahl liegt, aber nicht exakt 500.000 betr",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_kraftfahrt_bundesamt_kba_neuzulassungen_m_rz_2024",
-      "label": "Kraftfahrt-Bundesamt (KBA) – Neuzulassungen März 2024",
+      "id": "quelle_krebsrate_und_krebs_sterberate_in_deutschland_dkfz_krebsinformationsdienst",
+      "label": "Krebsrate und Krebs-Sterberate in Deutschland | DKFZ - Krebsinformationsdienst",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.kba.de/DE/Statistik/Fahrzeuge/Neuzulassungen/MonatlicheNeuzulassungen/2024/2024_03/2024_03_node.html",
+      "url": "https://www.krebsinformationsdienst.de/forschung/krebszahlen",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_13",
-      "label": "Aussage: im März in Deutschland erstmals mehr E-Autos als Benziner zu…",
+      "label": "Aussage: gefordert auch durch den Bund mit über 60 Millionen Euro…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "im März in Deutschland erstmals mehr E-Autos als Benziner zugelassen",
+      "text": "gefordert auch durch den Bund mit über 60 Millionen Euro",
       "person": "Carl-Philipp Sassenrath",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_13",
-      "label": "Faktencheck: falsch",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "falsch",
-      "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Im März 2024 wurden laut KBA 50.693 reine E-Autos (BEV) neu zugelassen, während Benziner auf 60.123 Neuzulassungen kamen. Damit waren Benziner weiterhin in der Mehrheit. Die Aussage ist daher nicht korrekt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine Forderung oder Bereitstellung von 'über 60 Millionen Euro' durch den Bund. Der DIP-Vorgang zur 'Transparenz und Kontrolle der 60 Millionen Euro für Hilfsprojekte in Syrien' bestätigt, dass der Bund tatsächlich Mittel in dieser Größenordnung (60 Millionen Eu",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_dip_vorgang_transparenz_und_kontrolle_der_60_millionen_euro_f_r_hilfsprojekte_in_syrien",
+      "label": "DIP-Vorgang: Transparenz und Kontrolle der 60 Millionen Euro für Hilfsprojekte in Syrien",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Bund%20Millionen%20Euro",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_14",
-      "label": "Aussage: Jedes Jahr erkranken in Deutschland rund 500 000 Menschen ne…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Jedes Jahr erkranken in Deutschland rund 500 000 Menschen neu an Krebs.",
-      "person": "Carl-Philipp Sassenrath",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_14",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Zentrum für Krebsregisterdaten (ZfKD) am Robert Koch-Institut (RKI) erkranken in Deutschland jährlich etwa 500.000 Menschen neu an Krebs (Durchschnitt der Jahre 2017–2018).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_robert_koch_institut_krebs_in_deutschland",
-      "label": "Robert Koch-Institut – Krebs in Deutschland",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.krebsdaten.de/Krebs/DE/Content/Publikationen/Krebs_in_Deutschland/krebs_in_deutschland_node.html",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_15",
-      "label": "Aussage: der Bund [fördert] mit über 60 Millionen Euro [den Bau einer…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "der Bund [fördert] mit über 60 Millionen Euro [den Bau einer Fabrik für Batterierecycling in Dormagen]",
-      "person": "Carl-Philipp Sassenrath",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_15",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt öffentliche Förderungen für Batterierecycling-Projekte in Deutschland, darunter auch in Dormagen (z. B. durch das Unternehmen Redwood Materials). Eine konkrete Bestätigung der Fördersumme von über 60 Millionen Euro durch den Bund für dieses spezifische Projekt konnte jedoch nicht ge",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundesministerium_f_r_wirtschaft_und_klimaschutz_batterie_ipcei",
-      "label": "Bundesministerium für Wirtschaft und Klimaschutz – Batterie-IPCEI",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bmwk.de/Redaktion/DE/Artikel/Industrie/batterie-ipcei.html",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_16",
       "label": "Aussage: Mit der zweimonatigen Absenkung der Energiesteuer können wir…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1228,25 +1628,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_16",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_14",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen des 'Entlastungspakets III' die Energiesteuer auf Agrardiesel vom 1. Juni bis 31. Juli 2022 um 17 Cent pro Liter abgesenkt. Dies wurde in der Drucksache 20/1850 des Bundestags dokumentiert.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die Entlastung für Endkunden tatsächlich etwa 17 Cent pro Liter beträgt. Allerdings bezieht sich diese Angabe auf die kombinierte Wirkung der gesenkten Energiesteuer (14,04 Cent pro Liter) und der dadurch ebenfalls reduzierten Umsatzsteuer. Die direkte En",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_drucksache_20_1850_entwurf_eines_gesetzes_zur_tempor_ren_senkung_des_umsatzsteuersatzes_auf_gaslieferungen_ber_das_erdgasnetz",
-      "label": "Drucksache 20/1850 - Entwurf eines Gesetzes zur temporären Senkung des Umsatzsteuersatzes auf Gaslieferungen über das Erdgasnetz",
+      "id": "quelle_fragen_und_antworten_zur_befristeten_senkung_der_energiesteuer_f_r_kraftstoffe_im_stra_enverkehr_bundesfinanzministerium_service",
+      "label": "Fragen und Antworten zur befristeten Senkung der Energiesteuer für Kraftstoffe im Straßenverkehr - Bundesfinanzministerium - Service",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/018/2001850.pdf",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/energiesteuersenkung.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_17",
+      "id": "aussage_15",
       "label": "Aussage: Bereits seit Jahresbeginn haben wir den Agrardiesel wieder e…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1255,25 +1655,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_17",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_15",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Wiedereinführung der Agrardieselrückvergütung ab Januar 2022 wurde im Bundeshaushalt 2022 mit einem Volumen von etwa 430 Millionen Euro veranschlagt. Dies geht aus der Haushaltsplanung des Bundesministeriums der Finanzen hervor.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass der Agrardiesel bereits seit Jahresbeginn wieder eingeführt wurde und zu einer Entlastung von rund 430 Millionen Euro führt. Die Belege zeigen jedoch, dass die Wiedereinführung der Agrardieselrückvergütung erst ab dem 1. Januar 2026 geplant ist, nicht seit Jahres",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeshaushaltsplan_2022_einzelplan_60",
-      "label": "Bundeshaushaltsplan 2022 - Einzelplan 60",
+      "id": "quelle_bmleh_pressemitteilungen_entscheidung_im_bundeskabinett_agrardieselr_ckverg_tung_kommt_zur_ck",
+      "label": "BMLEH - Pressemitteilungen - Entscheidung im Bundeskabinett: Agrardieselrückvergütung kommt zurück",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Oeffentliche_Finanzen/Bundeshaushalt/2022/Einzelplaene/ep60.pdf?__blob=publicationFile&v=2",
+      "url": "https://www.bmleh.de/SharedDocs/Pressemitteilungen/DE/2025/078-agrardiesel.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_18",
+      "id": "aussage_16",
       "label": "Aussage: Die Preisentwicklung bei Düngemitteln tut sehr weh, auch wei…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1282,25 +1682,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_18",
+      "id": "faktencheck_16",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Europa hat zwar noch Stickstoffproduktion, aber die Kapazitäten sind deutlich zurückgegangen. Laut Eurostat sank die EU-Produktion von Stickstoffdüngemitteln von 2010 bis 2020 um etwa 20%. Die Aussage ist daher nicht vollständig korrekt, aber auch nicht komplett falsch.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Preisentwicklung bei Düngemitteln 'sehr weh tut', wird durch die Belege bestätigt, da diese von stark steigenden Preisen (z. B. bis zu 700 €/t oder 50 % Anstieg bis 2026) und Produktionsengpässen berichten (Quellen: agrarheute.com, bauernzeitung.de, Statista). Allerdin",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_eurostat_production_of_fertilizers",
-      "label": "Eurostat - Production of fertilizers",
+      "id": "quelle_d_nger_wird_deutlich_teurer",
+      "label": "Dünger wird deutlich teurer",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://ec.europa.eu/eurostat/web/products-datasets/-/aei_fm_salpna",
+      "url": "https://de.statista.com/infografik/27354/preise-fuer-landwirtschaftliche-duengemittel-im-globalen-handel/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_19",
+      "id": "aussage_17",
       "label": "Aussage: Vor genau 30 Jahren hat die brasilianische Polizei 19 landlo…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -1309,25 +1709,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_19",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_17",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Massaker von Eldorado dos Carajás am 17. April 1996, bei dem 19 landlose Bauern von der Militärpolizei des Bundesstaates Pará getötet und etwa 69 verletzt wurden. Dies ist ein dokumentiertes Ereignis.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf ein spezifisches Ereignis in Brasilien vor 30 Jahren, bei dem die brasilianische Polizei 19 landlose Bauern ermordet haben soll. Keiner der bereitgestellten Belege behandelt dieses Thema oder ein vergleichbares Ereignis in Brasilien. Die Belege beschäftigen sich",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_amnesty_international_bericht_zum_massaker_von_eldorado_dos_caraj_s",
-      "label": "Amnesty International - Bericht zum Massaker von Eldorado dos Carajás",
+      "id": "quelle_kein_relevanter_beleg_in_der_liste_vorhanden",
+      "label": "Kein relevanter Beleg in der Liste vorhanden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.amnesty.org/en/latest/news/2016/04/brazil-eldorado-dos-carajas-massacre-20-years-on-justice-denied/",
+      "url": "https://www.polizei.bayern.de/wir-ueber-uns/geschichte/001843/index.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_20",
+      "id": "aussage_18",
       "label": "Aussage: Gemeinsam mit den 200 Millionen Bauern und Bäuerinnen der Vi…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -1336,43 +1736,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_20",
+      "id": "faktencheck_18",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Via Campesina gibt an, über 200 Millionen Mitglieder weltweit zu vertreten. Allerdings ist diese Zahl nicht präzise überprüfbar, da es sich um eine Dachorganisation mit vielen Mitgliedsorganisationen handelt. Die Größenordnung ist jedoch plausibel.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Mitgliedschaft und Reichweite der Bewegung 'La Via Campesina'. Laut dem Beleg von Oxfam Deutschland (Oxfam.de) umfasst die Bewegung 'Millionen von bäuerlichen Produzenten, Bäuerinnen, Landlosen, Migranten, Indigenen und Landarbeiter*innen', was die globale D",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_la_via_campesina_offizielle_website",
-      "label": "La Via Campesina - Offizielle Website",
+      "id": "quelle_wir_brauchen_bauern_und_b_uerinnen_und_sie_uns_oxfam_deutschland",
+      "label": "Wir brauchen Bauern und Bäuerinnen – und sie uns! | Oxfam Deutschland",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://viacampesina.org/en/who-are-we/",
+      "url": "https://www.oxfam.de/blog/brauchen-bauern-baeuerinnen-uns",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_21",
-      "label": "Aussage: Das Höfesterben ist ja auch hier in Deutschland bittere Real…",
-      "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Das Höfesterben ist ja auch hier in Deutschland bittere Realität.",
-      "person": "Marcel Bauer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_21",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist allgemein und nicht quantifiziert. Es gibt zwar Statistiken zum Rückgang der Anzahl landwirtschaftlicher Betriebe in Deutschland, aber die Formulierung 'bittere Realität' ist wertend und nicht konkret überprüfbar.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_22",
+      "id": "aussage_19",
       "label": "Aussage: Bereits jetzt landlos sind die Hunderttausenden Erntehelfer/…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -1381,20 +1763,110 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_22",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_19",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält keine konkrete Zahl oder Quelle. Es gibt Schätzungen zur Anzahl der Saisonarbeitskräfte in der deutschen Landwirtschaft, aber 'Hunderttausende' ist nicht präzise belegt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass 'Hunderttausende Erntehelfer/-innen und Saisonkräfte' bereits jetzt landlos seien und das 'Rückgrat unserer Landwirtschaft' bilden. Der Beleg von agrarheute.com zeigt, dass im Zeitraum März 2022 bis Februar 2023 etwa 28 % der 876.000 Arbeitskräfte in der Landwirt",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_r_ckgrat_der_landwirte_mitunter_jede_zweite_arbeitskraft_saisonal_besch_ftigt_agrarheute_com",
+      "label": "Rückgrat der Landwirte: Mitunter jede zweite Arbeitskraft saisonal beschäftigt | agrarheute.com",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.agrarheute.com/management/rueckgrat-landwirte-mitunter-zweite-arbeitskraft-saisonal-beschaeftigt-633969",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_20",
+      "label": "Aussage: Ich habe die DDR noch erlebt und auch die LPG-Strukturen.…",
+      "type": "Aussage",
+      "subtype": "Die Linke",
+      "text": "Ich habe die DDR noch erlebt und auch die LPG-Strukturen.",
+      "person": "Marcel Bauer",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_20",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, die DDR und die LPG-Strukturen erlebt zu haben, ist durch die bereitgestellten Belege bestätigt. Die Landwirtschaftlichen Produktionsgenossenschaften (LPG) waren ein zentrales Element der DDR-Landwirtschaft ab 1952 und bestanden bis zur Wiedervereinigung 1990 und darüber hinaus",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_lpg_vom_kleinbauern_zum_agrargenossen_der_ddr_ndr_de",
+      "label": "LPG: Vom Kleinbauern zum Agrargenossen der DDR | ndr.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.ndr.de/geschichte/chronologie/LPG-Vom-Kleinbauern-zum-Agrargenossen-der-DDR,lpg101.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_21",
+      "label": "Aussage: im deutschen Gartenbau die Hütte brennt…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "im deutschen Gartenbau die Hütte brennt",
+      "person": "Bernd Schuhmann",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_21",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'im deutschen Gartenbau die Hütte brennt' suggeriert ein flächendeckendes oder strukturelles Problem mit brennenden Gartenhütten im deutschen Gartenbau. Die bereitgestellten Belege zeigen jedoch lediglich Einzelfälle von Gartenhüttenbränden in verschiedenen Regionen Deutschlands",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_feuer_gartenh_tte_brennt_besitzer_verletzt_die_zeit",
+      "label": "Feuer: Gartenhütte brennt - Besitzer verletzt | DIE ZEIT",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.zeit.de/news/2026-02/07/gartenhuette-brennt-besitzer-verletzt",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_22",
+      "label": "Aussage: die Preise für Düngemittel und Treibstoff davongaloppieren…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "die Preise für Düngemittel und Treibstoff davongaloppieren",
+      "person": "Bernd Schuhmann",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_22",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Preise für Düngemittel und Treibstoff 'davongaloppieren', wird durch den Beleg von wallstreetONLINE gestützt, der konkrete Preissprünge nennt (Agrardiesel: +72%, Stickstoffdünger/Harnstoff: bis zu +55%). Allerdings ist die Formulierung 'davongaloppieren' eine subjektiv",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_die_perfekte_krise_chinas_k_uferstreik_d_rre_kosten_explosion_treiben_us_farmer_in_den_ruin_wallstreetonline",
+      "label": "Die perfekte Krise: Chinas Käuferstreik, Dürre, Kosten-Explosion treiben US-Farmer in den Ruin | wallstreetONLINE",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.wallstreet-online.de/nachricht/20986490-perfekte-krise-chinas-kaeuferstreik-duerre-kosten-explosion-treiben-us-farmer-ruin",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_23",
-      "label": "Aussage: nachdem die „Ever Given“ im Suezkanal steckte…",
+      "label": "Aussage: nachdem die 'Ever Given' im Suezkanal steckte…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "nachdem die „Ever Given“ im Suezkanal steckte",
+      "text": "nachdem die 'Ever Given' im Suezkanal steckte",
       "person": "Bernd Schuhmann",
       "schicht": "fallbezug"
     },
@@ -1404,42 +1876,42 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die „Ever Given“ blockierte den Suezkanal vom 23. bis 29. März 2021. Dies ist ein historisch dokumentiertes Ereignis.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'nachdem die Ever Given im Suezkanal steckte' bezieht sich auf die Blockade des Suezkanals durch das Containerschiff 'Ever Given' im März 2021. Der Beleg von tagesschau.de bestätigt, dass die 'Ever Given' fast eine Woche im Suezkanal feststeckte, bevor sie befreit werden konnte.",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_suez_canal_authority_sca_pressemitteilung",
-      "label": "Suez Canal Authority (SCA) - Pressemitteilung",
+      "id": "quelle_suezkanal_containerschiff_ever_given_ist_wieder_frei_tagesschau_de",
+      "label": "Suezkanal: Containerschiff 'Ever Given' ist wieder frei | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.suezcanal.gov.eg/German/News/Pages/NewsDetails.aspx?newsid=1001",
+      "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/ever-given-suezkanal-bergung-107.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_24",
-      "label": "Aussage: die Preise für Düngemittel und Treibstoff davongaloppieren…",
+      "label": "Aussage: Die Landwirtschaft [hat] in den vergangenen Jahrzehnten in e…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "die Preise für Düngemittel und Treibstoff davongaloppieren",
+      "text": "Die Landwirtschaft [hat] in den vergangenen Jahrzehnten in erneuerbare [Energien] investiert",
       "person": "Bernd Schuhmann",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_24",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Preise für Düngemittel und Treibstoff sind in den letzten Jahren stark gestiegen, insbesondere nach dem russischen Angriff auf die Ukraine. Allerdings ist 'davongaloppieren' eine wertende Formulierung, und die konkrete Preisentwicklung müsste mit spezifischen Zahlen belegt werden. Laut ",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Landwirtschaft in den vergangenen Jahrzehnten in erneuerbare Energien investiert hat, wird durch mehrere Belege gestützt. Laut 'Landwirtschaft verstehen' hat sich die Land- und Forstwirtschaft in den letzten Jahrzehnten stark gewandelt und produziert heute erneuerbare ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_erzeugerpreise_landwirtschaftlicher_produkte",
-      "label": "Statistisches Bundesamt (Destatis) - Erzeugerpreise landwirtschaftlicher Produkte",
+      "id": "quelle_energielieferant_landwirtschaft_damals_heute_landwirtschaft_verstehen",
+      "label": "Energielieferant Landwirtschaft damals & heute - Landwirtschaft verstehen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Erzeugerpreise-Landwirtschaft/erzeugerpreise-landwirtschaft.html",
+      "url": "https://www.landwirtschaft-verstehen.at/landwirtschaft-fuer-alle/themen-die-bewegen/klimaschutz/energielieferant-landwirtschaft-damals-heute",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1454,11 +1926,20 @@
     },
     {
       "id": "faktencheck_25",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine belastbare amtliche Quelle, die diese konkrete Angabe (ein Drittel des weltweiten Düngers) für die Straße von Hormus bestätigt. Schätzungen zur globalen Düngemittelhandelsroute variieren, aber eine präzise Zahl von 'einem Drittel' ist nicht offiziell dokumentiert.",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass ein Drittel des weltweiten Düngers die Straße von Hormus passiert, wird durch mehrere unabhängige Quellen gestützt. Sowohl die Frankfurter Rundschau als auch das Schweizer Radio und Fernsehen (SRF) berichten, dass rund ein Drittel des weltweit gehandelten bzw. verschifften",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_blockierte_strasse_von_hormus_warum_jetzt_der_d_nger_knapp_wird_news_srf",
+      "label": "Blockierte Strasse von Hormus: Warum jetzt der Dünger knapp wird - News - SRF",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.srf.ch/news/wirtschaft/blockierte-strasse-von-hormus-warum-jetzt-der-duenger-knapp-wird",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1476,69 +1957,69 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Preisentwicklung für Stickstoffdünger (z. B. Harnstoff) lag 2021 bei etwa 400–500 Euro/Tonne und stieg 2022 auf über 750 Euro/Tonne. Allerdings sind die Preise volatil und regional unterschiedlich. Die Aussage ist nicht falsch, aber vereinfacht.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Preise für Stickstoffdünger 'von rund 400 Euro auf inzwischen über 750 Euro je Tonne' explodieren, ist im Kern richtig, aber die genauen Zahlen weichen ab. Der Beleg von agrarheute.com vom 05.06.2026 zeigt, dass die Harnstoffpreise (eine Form von Stickstoffdünger) soga",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_agrarpreise",
-      "label": "Statistisches Bundesamt (Destatis) – Agrarpreise",
+      "id": "quelle_erzeugerpreis_f_r_d_ngemittel_vom_05_06_2026_markt_agrarheute_com",
+      "label": "Erzeugerpreis für Düngemittel vom 05.06.2026 | Markt agrarheute.com",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Agrarpreise/_inhalt.html",
+      "url": "https://markt.agrarheute.com/duengemittel/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_27",
-      "label": "Aussage: Wir hatten im letzten Jahr einen Importüberschuss von 315 00…",
+      "label": "Aussage: Wir hatten im letzten Jahr einen Importüberschuss von 315 00…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Wir hatten im letzten Jahr einen Importüberschuss von 315 000 Tonnen mineralischen Düngers",
+      "text": "Wir hatten im letzten Jahr einen Importüberschuss von 315 000 Tonnen mineralischen Düngers",
       "person": "Stephan Protschka",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_27",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt betrug der Importüberschuss von mineralischen Düngemitteln (HS-Kapitel 31) 2022 etwa 315.000 Tonnen. Die Zahl ist korrekt.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet einen Importüberschuss von 315.000 Tonnen mineralischen Düngers im letzten Jahr. Der Beleg von agrarheute.com zeigt jedoch, dass Deutschland im relevanten Kontext (Stickstoffdünger) einen Exportüberschuss von 500.000 Tonnen aufweist, nicht einen Importüberschuss. Zudem",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_destatis_au_enhandel_mit_d_ngemitteln_2022",
-      "label": "Destatis – Außenhandel mit Düngemitteln (2022)",
+      "id": "quelle_wie_viel_d_nger_brauchen_die_deutschen_bauern_die_d_ngerkrise_agrarheute_com",
+      "label": "Wie viel Dünger brauchen die deutschen Bauern? – Die Düngerkrise | agrarheute.com",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Aussenhandel/Handelswaren/Tabellen/duengemittel.html",
+      "url": "https://www.agrarheute.com/markt/duengemittel/viel-duenger-brauchen-deutschen-bauern-verbrauch-importe-591330",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_28",
-      "label": "Aussage: Im Wirtschaftsjahr 2023/24 wurden rund 140 000 Tonnen Sticks…",
+      "label": "Aussage: Im Wirtschaftsjahr 2023/24 wurden rund 140 000 Tonnen Sticks…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Im Wirtschaftsjahr 2023/24 wurden rund 140 000 Tonnen Stickstoffdünger aus Russland importiert. Das ist fast dreimal so viel wie im Jahr 2021",
+      "text": "Im Wirtschaftsjahr 2023/24 wurden rund 140 000 Tonnen Stickstoffdünger aus Russland importiert. Das ist fast dreimal so viel wie im Jahr 2021",
       "person": "Stephan Protschka",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_28",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Importmenge aus Russland stieg 2022/23 deutlich an (ca. 140.000 Tonnen), aber der Vergleich mit 2021 (ca. 50.000 Tonnen) ist korrekt. Allerdings bezieht sich die Angabe auf das Kalenderjahr 2021, nicht das Wirtschaftsjahr. Die Steigerung ist real, aber die zeitliche Einordnung leicht un",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg aus der Bauernzeitung zitiert direkt das Statistische Bundesamt und bestätigt die Aussage, dass im Wirtschaftsjahr 2023/24 rund 140.000 Tonnen Stickstoffdünger aus Russland importiert wurden. Zudem wird die Verdreifachung im Vergleich zu 2021 explizit genannt. Die anderen Belege l",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesanstalt_f_r_landwirtschaft_und_ern_hrung_ble_d_ngemittelstatistik",
-      "label": "Bundesanstalt für Landwirtschaft und Ernährung (BLE) – Düngemittelstatistik",
+      "id": "quelle_russland_d_nger_tabu_eu_setzt_auf_produktion_vom_skw_piesteritz",
+      "label": "Russland-Dünger tabu: EU setzt auf Produktion vom SKW Piesteritz",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.ble.de/DE/Themen/Landwirtschaft/Duengemittel/duengemittel_node.html",
+      "url": "https://www.bauernzeitung.de/regional/sachsen-anhalt/russland-duenger-tabu-eu-setzt-produktion-skw-piesteritz-1099",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1553,38 +2034,47 @@
     },
     {
       "id": "faktencheck_29",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Aktuelle Marktpreise für Harnstoff lagen 2023/24 bei etwa 750–850 Euro/Tonne (ab Hof). Die Angabe ist plausibel.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Harnstoff ab Hof heute circa 800 Euro je Tonne kostet, wird durch den Beleg von agrarheute.com (zweiter Link) gestützt, der Importpreise in Frankreich bei rund 803 Euro je Tonne nennt. Allerdings bezieht sich der genannte Preis von 750 Euro je Tonne für Deutschland auf 'fo",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_deutscher_bauernverband_marktbericht_d_ngemittel",
-      "label": "Deutscher Bauernverband – Marktbericht Düngemittel",
+      "id": "quelle_d_ngerpreise_steigen_endlos_weiter_harnstoff_kostet_landwirte_schon_ber_800_euro",
+      "label": "Düngerpreise steigen endlos weiter – Harnstoff kostet Landwirte schon über 800 Euro",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bauernverband.de/markt-preise/duengemittel",
+      "url": "https://www.agrarheute.com/markt/duengemittel/duengerpreise-bleiben-extrem-hoch-landwirte-muessen-duenger-strategien-anpassen-640135",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_30",
-      "label": "Aussage: Sie wollen die Importzölle aus Russland auf 430 Euro je Tonn…",
+      "label": "Aussage: die Importzölle aus Russland auf 430 Euro je Tonne erhöhen…",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Sie wollen die Importzölle aus Russland auf 430 Euro je Tonne erhöhen",
+      "text": "die Importzölle aus Russland auf 430 Euro je Tonne erhöhen",
       "person": "Stephan Protschka",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_30",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine offizielle Bestätigung der Bundesregierung oder EU-Kommission, dass eine Erhöhung der Importzölle auf russische Düngemittel auf genau 430 Euro/Tonne geplant ist. Die EU hat zwar Sanktionen diskutiert, aber keine konkrete Zahl veröffentlicht.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Importzölle aus Russland auf 430 Euro je Tonne erhöht werden, ist im Kern richtig, aber unvollständig. Die Belege zeigen, dass die Erhöhung auf 430 Euro pro Tonne erst ab dem 1. Juli 2028 vollständig wirksam wird und nicht sofort. Zudem bezieht sich die Erhöhung auf be",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_eu_erh_ht_zoll_auf_waren_russischen_ursprungs_ihk_region_stuttgart",
+      "label": "EU erhöht Zoll auf Waren russischen Ursprungs - IHK Region Stuttgart",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.ihk.de/stuttgart/fuer-unternehmen/international/aktuelles/eu-zoll-auf-waren-mit-russischem-ursprung-6612734",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1602,15 +2092,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut einer Studie der Kassenärztlichen Bundesvereinigung (KBV) und des Zentralinstituts für die kassenärztliche Versorgung (Zi) aus dem Jahr 2021 lag die durchschnittliche Wartezeit auf einen Facharzttermin für gesetzlich Versicherte bei 42 Tagen. Allerdings bezieht sich diese Zahl auf best",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Wartezeiten auf durchschnittlich 42 Tage gestiegen sind, wird in den Belegen bestätigt, allerdings mit der Einschränkung, dass dieser Wert nur gilt, wenn man bestimmte Patientengruppen (die am gleichen Tag wie den Hausarzt die Facharztpraxis aufsuchen) nicht mit einbez",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_wartezeiten_auf_facharzttermine_ergebnisse_einer_bundesweiten_befragung_von_arztpraxen_2020_2021",
-      "label": "Wartezeiten auf Facharzttermine – Ergebnisse einer bundesweiten Befragung von Arztpraxen 2020/2021",
+      "id": "quelle_wartezeit_steigt_auf_42_tage_gesetzlich_versicherte_m_ssen_deutlich_l_nger_auf_facharzttermine_warten",
+      "label": "Wartezeit steigt auf 42 Tage: Gesetzlich Versicherte müssen deutlich länger auf Facharzttermine warten",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.zi.de/fileadmin/images/content/Publikationen/Wartezeitenstudie_2021.pdf",
+      "url": "https://www.tagesspiegel.de/gesundheit/wartezeit-steigt-auf-42-tage-gesetzlich-versicherte-mussen-deutlich-langer-auf-facharzttermine-warten-15215185.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1629,15 +2119,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Zahlen werden durch eine Antwort der Bundesregierung auf eine Kleine Anfrage der Fraktion DIE LINKE bestätigt. Demnach stieg die durchschnittliche Wartezeit auf einen Facharzttermin für gesetzlich Versicherte von 33 Tagen (2018) auf 42 Tage (2020).",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Wartezeit für Facharzttermine für gesetzlich Versicherte von durchschnittlich 33 auf 42 Tage gestiegen ist, wird durch mehrere unabhängige Quellen bestätigt. Laut tagesschau.de, zdfheute.de und dem Deutschen Ärzteblatt betrug die Wartezeit 2019 im Schnitt 33 Tage und s",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_antwort_der_bundesregierung_auf_die_kleine_anfrage_der_abgeordneten_dr_achim_kessler_u_a_drucksache_19_26820",
-      "label": "Antwort der Bundesregierung auf die Kleine Anfrage der Abgeordneten Dr. Achim Kessler u.a. – Drucksache 19/26820",
+      "id": "quelle_l_ngere_wartezeit_f_r_gesetzlich_versicherte_f_r_facharzt_termin_tagesschau_de",
+      "label": "Längere Wartezeit für gesetzlich Versicherte für Facharzt-Termin | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/19/268/1926820.pdf",
+      "url": "https://www.tagesschau.de/inland/gesundheit-termine-facharzt-wartezeit-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1656,7 +2146,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik oder belastbare Studie, die diese konkrete Aussage zu den Wartezeiten von Privatversicherten bestätigt. Die verfügbaren Daten beziehen sich meist auf gesetzlich Versicherte.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete Steigerung der Wartezeit für Privatversicherte um 9 Tage. Die bereitgestellten Belege thematisieren zwar Wartezeiten in der privaten Krankenversicherung (PKV), geben jedoch nur allgemeine Wartezeiten von 3 Monaten (allgemeine Wartezeit) oder 8 Mona",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_wartezeit_private_versicherung_wikipedia",
+      "label": "Wartezeit (Private Versicherung) – Wikipedia",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.wikipedia.org/wiki/Wartezeit_(Private_Versicherung)",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1674,15 +2173,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Änderung wurde mit dem Terminservice- und Versorgungsgesetz (TSVG) 2019 eingeführt. Die Mindestsprechstundenzeit für Vertragsärzte wurde von 20 auf 25 Stunden pro Woche erhöht.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Mindestsprechstundenzeiten von wöchentlich 20 auf 25 Stunden erhöht wurden, wird durch die bereitgestellten Belege gestützt. Sowohl die Kassenärztliche Vereinigung Berlin als auch die FAQs der KVB bestätigen diese Erhöhung im Zuge des Terminservice- und Versorgungsgese",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_terminservice_und_versorgungsgesetz_tsvg",
-      "label": "Terminservice- und Versorgungsgesetz (TSVG)",
+      "id": "quelle_sprechzeiten_kassen_rztliche_vereinigung_berlin",
+      "label": "Sprechzeiten | Kassenärztliche Vereinigung Berlin",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl119s0418.pdf#__bgbl__%2F%2F*%5B%40attr_id%3D%27bgbl119s0418.pdf%27%5D__1590482353000",
+      "url": "https://www.kvberlin.de/fuer-praxen/alles-fuer-den-praxisalltag/praxisorganisation/sprechzeiten",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1701,15 +2200,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die zusätzlichen Einnahmen durch privatversicherte Patienten im Gesundheitssystem. Laut einer Studie des Wissenschaftlichen Instituts der PKV (WIP) aus dem Jahr 2021 beliefen sich die zusätzlichen Einnahmen durch privatversicherte Patienten auf etwa 14,6 Milliar",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass Privatversicherte jährlich über 15 Milliarden Euro zusätzlich ins System bringen. Der Beleg von 'cash-online.de' bestätigt einen Mehrumsatz von 15,52 Milliarden Euro für das Jahr 2024, was die Kernaussage stützt. Allerdings bezieht sich der PKV-Verband in einem a",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_wip_studie_beitrag_der_privaten_krankenversicherung_zur_finanzierung_des_gesundheitswesens",
-      "label": "WIP-Studie: Beitrag der Privaten Krankenversicherung zur Finanzierung des Gesundheitswesens",
+      "id": "quelle_studie_privatversicherte_bringen_dem_gesundheitssystem_15_5_milliarden_euro_zus_tzlich_cash",
+      "label": "Studie: Privatversicherte bringen dem Gesundheitssystem 15,5 Milliarden Euro zusätzlich | Cash.",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.wip-pkv.de/publikationen/studien/beitrag-der-privaten-krankenversicherung-zur-finanzierung-des-gesundheitswesens/",
+      "url": "https://www.cash-online.de/a/studie-privatversicherte-bringen-dem-gesundheitssystem-155-milliarden-euro-zusaetzlich-713257/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1724,19 +2223,19 @@
     },
     {
       "id": "faktencheck_36",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Bundesministerium für Gesundheit wurden für das Terminservice- und Versorgungsgesetz (TSVG) bis 2023 tatsächlich rund 2,9 Milliarden Euro aufgewendet, um extrabudgetäre Vergütungen für Ärzte zu finanzieren.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine konkrete Summe von 2,9 Milliarden Euro, die bis zum jetzigen Zeitpunkt in das Terminservice- und Versorgungsgesetz (TSVG) geflossen sein sollen. Der Beleg vom GKV-Spitzenverband spricht jedoch von einem jährlichen Volumen von rund 5 Mrd. Euro für extrabudgetäre Vergüt",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_gesundheit_bericht_zum_tsvg",
-      "label": "Bundesministerium für Gesundheit - Bericht zum TSVG",
+      "id": "quelle_unerwartete_ausgabenexplosion_aufgrund_von_unterbereinigung_im_terminservice_und_versorgungsgesetz_90_prozent_das_e_magazin_des_gkv_spitzenverbandes",
+      "label": "Unerwartete Ausgabenexplosion aufgrund von Unterbereinigung im Terminservice- und Versorgungsgesetz - 90 Prozent - Das E-Magazin des GKV-Spitzenverbandes",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/terminservice-und-versorgungsgesetz.html",
+      "url": "https://www.gkv-90prozent.de/ausgabe/20/autorenbeitrag/20_unterbereinigung_tsvg/20_unterbereinigung_tsvg.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1751,11 +2250,11 @@
     },
     {
       "id": "faktencheck_37",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Statistik, die diese konkreten Wartezeiten für Facharzttermine in den Jahren 2019 und 2024 ausweist. Die Bundesregierung und das Statistische Bundesamt veröffentlichen keine vergleichbaren Zeitreihen zu durchschnittlichen Wartezeiten auf Fachar",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die durchschnittliche Wartezeit auf Facharzttermine für gesetzlich Versicherte 2024 tatsächlich bei 42 Tagen liegt (bestätigt durch mehrere Belege). Allerdings fehlt in den Belegen ein direkter Vergleichswert für 2019 von 33 Tagen. Die Zahl 33 Tage für 20",
       "schicht": "faktencheck"
     },
     {
@@ -1769,19 +2268,19 @@
     },
     {
       "id": "faktencheck_38",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut OECD- und Eurostat-Daten liegt Deutschland bei der vermeidbaren Sterblichkeit (avoidable mortality) im oberen Mittelfeld Westeuropas, aber nicht an der Spitze. Beispielsweise wiesen Länder wie Ungarn, Slowakei oder Litauen (je nach Jahr und Definition) höhere Raten auf. Innerhalb Weste",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Deutschland die höchste vermeidbare Sterblichkeit in Westeuropa aufweist, wird durch die bereitgestellten Belege gestützt. Die Pressemitteilung des Bundesinstituts für Bevölkerungsforschung (BiB) bestätigt, dass Deutschland bei der Eindämmung vermeidbarer Sterblichkeit im ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_oecd_eurostat_health_status_database_avoidable_mortality",
-      "label": "OECD/Eurostat Health Status Database – Avoidable Mortality",
+      "id": "quelle_vermeidbare_sterblichkeit_in_westeuropa_deutschland_liegt_bei_eind_mmung_weiterhin_zur_ck",
+      "label": "Vermeidbare Sterblichkeit in Westeuropa: Deutschland liegt bei Eindämmung weiterhin zurück",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://stats.oecd.org/index.aspx?DataSetCode=HEALTH_STAT",
+      "url": "https://www.bib.bund.de/DE/Presse/Mitteilungen/2026/2026-04-09-Vermeidbare-Sterblichkeit-in-Westeuropa.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1800,7 +2299,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine Empfehlung der FinanzKommission zur Streichung von Vergütungsregelungen des TSVG. Es handelt sich um eine Prognose oder Schätzung, die nicht durch eine veröffentlichte, amtliche Quelle belegt ist. Die genaue Höhe der Einsparungen ist nicht durch eine Drucks",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete Einsparung von 1,3 Milliarden Euro im Jahr 2027. In den bereitgestellten Belegen findet sich keine direkte Bestätigung oder Widerlegung dieser spezifischen Zahl für das genannte Jahr. Der erste Beleg (heute.at) thematisiert allgemein Einsparungen, ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_keine_passende_quelle_in_den_belegen",
+      "label": "Keine passende Quelle in den Belegen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.heute.at/s/bin-kein-zauberer-finanzminister-macht-geld-ansage-120207893",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1818,15 +2326,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt Schätzungen und Berichte, die darauf hindeuten, dass ein erheblicher Teil des russischen Öls über die sogenannte 'Schattenflotte' transportiert wird. Laut einem Bericht des Centre for Research on Energy and Clean Air (CREA) aus dem Jahr 2023 wurden etwa 60% des russischen Rohöls übe",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Russland seinen Krieg durch den Transport von Öl über die Schattenflotte finanziert, wird durch die Belege bestätigt (siehe bpb.de und dw.com). Allerdings weicht die genannte Prozentzahl ab: Laut bpb.de liegt der Anteil der Schattenflotte für Rohöl bei 85-90%, nicht bei 70",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_centre_for_research_on_energy_and_clean_air_crea_report_shadow_fleet_how_sanctions_evading_tankers_transport_russian_oil",
-      "label": "Centre for Research on Energy and Clean Air (CREA) - Report: 'Shadow Fleet: How Sanctions-Evading Tankers Transport Russian Oil'",
+      "id": "quelle_russische_schattenflotte_hintergrund_aktuell_bpb_de",
+      "label": "Russische Schattenflotte | Hintergrund aktuell | bpb.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://energyandcleanair.org/publication/shadow-fleet-how-sanctions-evading-tankers-transport-russian-oil/",
+      "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/560573/russische-schattenflotte/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1841,11 +2349,20 @@
     },
     {
       "id": "faktencheck_41",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen, amtlichen Statistiken oder Berichte, die diese konkrete Zahl von 25 bis 30 Schiffen täglich bestätigen. Die Anzahl der Schiffe, die als Teil der 'Schattenflotte' durch die Ostsee fahren, variiert und ist schwer präzise zu quantifizieren.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine konkrete Zahl von '25 bis 30 Schiffen täglich', die durch die Ostsee fahren. Die bereitgestellten Belege liefern jedoch keine spezifischen Daten zur täglichen Schiffszahl in der gesamten Ostsee. Die Quellen wie 'Schiffsradar Ostsee' zeigen zwar den Schiffsverkehr in E",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_nord_ostsee_kanal_schiffe_und_schleusen_zum_greifen_nah_ndr_de",
+      "label": "Nord-Ostsee-Kanal: Schiffe und Schleusen zum Greifen nah | ndr.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.ndr.de/ratgeber/reise/binnenland_elbe/Nord-Ostsee-Kanal-Schiffe-und-Schleusen-zum-Greifen-nah,nordostseekanal143.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1859,19 +2376,19 @@
     },
     {
       "id": "faktencheck_42",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU hat bis Juni 2024 insgesamt 14 Sanktionspakete gegen Russland verhängt. Zum Zeitpunkt der Rede (2023) waren es tatsächlich neun Pakete.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'immerhin sind es neun Pakete' ist ohne Kontext nicht eindeutig einzuordnen. Die bereitgestellten Belege beziehen sich auf unterschiedliche Themen: Paketvolumen in Deutschland (11,5 Mio. Pakete täglich), neun neue Verpackungsgrößen eines Händlers (Galaxus), ein 90-Milliarden-Ukr",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_eu_sanktionen_gegen_russland_bersicht_der_ma_nahmen",
-      "label": "EU-Sanktionen gegen Russland – Übersicht der Maßnahmen",
+      "id": "quelle_kein_passender_beleg_vorhanden",
+      "label": "Kein passender Beleg vorhanden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.consilium.europa.eu/de/policies/sanctions/restrictive-measures-against-russia-over-ukraine/",
+      "url": "https://www.pitneybowes.com/de/blog/parcel-shipping-index.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1890,15 +2407,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der russische Angriff auf die Ukraine begann am 24. Februar 2022. Die Aussage bezieht sich möglicherweise auf die Annexion der Krim 2014 und den Krieg im Donbas, der seit 2014 andauert. Der großflächige Angriffskrieg begann jedoch 2022. Die Formulierung 'mehr als vier Jahre' ist daher irref",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Putin einen 'völkerrechtswidrigen und brutalen Angriffskrieg' führt, wird durch die DIP-Vorgänge bestätigt, die den Krieg als 'völkerrechtswidrigen Angriffskrieg' bezeichnen. Allerdings ist die Zeitangabe 'seit mehr als vier Jahren' nicht korrekt. Der russische Angriffskri",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_chronologie_des_russischen_angriffskriegs",
-      "label": "Bundesregierung – Chronologie des russischen Angriffskriegs",
+      "id": "quelle_humanit_re_folgen_des_v_lkerrechtswidrigen_angriffskrieges_gegen_die_ukraine",
+      "label": "Humanitäre Folgen des völkerrechtswidrigen Angriffskrieges gegen die Ukraine",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/ukraine-hilfe/chronologie-ukraine-2011092",
+      "url": "https://dip.bundestag.de/suche?term=Putin%20Jahren%20Angriffskrieg",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1917,15 +2434,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das 14. EU-Sanktionspaket gegen Russland wurde am 24.06.2024 verabschiedet und enthält tatsächlich Sanktionen gegen die russische Schattenflotte. Allerdings wurden im Paket selbst zunächst 27 Schiffe gelistet (vgl. EU-Amtsblatt L 2024/1745). Die Zahl von 'fast 600 Schiffen' bezieht sich ver",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das 14. Sanktionspaket der EU vom 24.06.2024 und die Anzahl der darin gelisteten Schiffe. Laut dem Beleg von 'futurezone.de' (der sich auf das 20. Sanktionspaket bezieht, aber eine historische Einordnung gibt) wurden im April 2026 bereits 632 Schiffe gelistet – ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_eu_amtsblatt_verordnung_eu_2024_1745_des_rates_vom_24_juni_2024",
-      "label": "EU-Amtsblatt: Verordnung (EU) 2024/1745 des Rates vom 24. Juni 2024",
+      "id": "quelle_harter_schlag_gegen_putins_schattenflotte_wohl_20_neue_tanker_auf_der_sanktionsliste",
+      "label": "Harter Schlag gegen Putins Schattenflotte: Wohl 20 neue Tanker auf der Sanktionsliste",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401745",
+      "url": "https://www.futurezone.de/digital-life/b2b/article724481/schattenflotte-im-visier-neue-sanktionen-gegen-20-tanker-schlag.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1944,15 +2461,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Schätzungen des Internationalen Währungsfonds (IWF) und anderer Analysen beliefen sich Russlands Einnahmen aus dem Öl- und Gasexport 2022 auf etwa 218 Mrd. US-Dollar (ca. 200 Mrd. Euro) und 2023 auf rund 140 Mrd. US-Dollar. Die Aussage eines 'dreistelligen Milliardenbereichs' ist somit",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Einnahmen Russlands aus dem Verkauf von Ölprodukten im dreistelligen Milliardenbereich liegen, wird durch die bereitgestellten Belege gestützt. Der Artikel der Tagesschau nennt konkrete Zahlen für 2023, wonach die Einnahmen aus dem Ölverkauf bei rund 85,5 Milliarden Eu",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_antwort_auf_kleine_anfrage_drucksache_20_9400",
-      "label": "Bundesregierung: Antwort auf Kleine Anfrage (Drucksache 20/9400)",
+      "id": "quelle_wegen_sanktionen_russlands_l_und_gaseinnahmen_sinken_deutlich_tagesschau_de",
+      "label": "Wegen Sanktionen: Russlands Öl- und Gaseinnahmen sinken deutlich | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/094/2009400.pdf",
+      "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/russland-oel-gas-einnahmen-sanktionen-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1967,19 +2484,19 @@
     },
     {
       "id": "faktencheck_46",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die UN-Resolution 1701 wurde am 11. August 2006 einstimmig vom UN-Sicherheitsrat angenommen, einschließlich der Zustimmung von China und Russland.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die UN-Resolution 1701, die tatsächlich 2006 einstimmig vom UN-Sicherheitsrat angenommen wurde, einschließlich der Zustimmung von China und Russland. Dies wird durch Allgemeinwissen über die Resolution 1701 (die den Libanonkonflikt betrifft) bestätigt. Allerding",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_united_nations_security_council_resolution_1701",
-      "label": "United Nations Security Council Resolution 1701",
+      "id": "quelle_resolution_es_11_1_der_un_generalversammlung_wikipedia",
+      "label": "Resolution ES-11/1 der UN-Generalversammlung – Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://undocs.org/S/RES/1701(2006)",
+      "url": "https://de.wikipedia.org/wiki/Resolution_ES-11/1_der_UN-Generalversammlung",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1998,24 +2515,24 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gab tatsächlich Raketenangriffe der Hisbollah auf Israel ab dem 8. Oktober 2023, und Zehntausende Israelis wurden evakuiert. Allerdings ist die Dauer der Umsiedlung (eineinhalb bis zwei Jahre) eine Schätzung und nicht durch amtliche Statistiken belegt. Die genaue Zahl der Evakuierten var",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Hisbollah am 8. Oktober einen Raketenangriff auf Israel begann, wird durch die Belege bestätigt (z.B. Jüdische Allgemeine: 'Seit dem 8. Oktober wird Israel von der Hisbollah attackiert'). Auch die Angabe, dass Zehntausende Israelis dadurch zu Binnenflüchtlingen wurden,",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_israel_evakuiert_zehntausende_nach_hisbollah_angriffen_tagesschau",
-      "label": "Israel evakuiert Zehntausende nach Hisbollah-Angriffen (Tagesschau)",
+      "id": "quelle_150_hisbollah_raketen_auf_israel_abgefeuert_j_dische_allgemeine",
+      "label": "150 Hisbollah-Raketen auf Israel abgefeuert | Jüdische Allgemeine",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.tagesschau.de/ausland/asien/israel-hisbollah-100.html",
+      "url": "https://www.juedische-allgemeine.de/israel/150-hisbollah-raketen-auf-israel-abgefeuert/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_48",
-      "label": "Aussage: der Iran [hat] über Jahrzehnte eine nukleare Fähigkeit aufge…",
+      "label": "Aussage: der Iran [hat] über Jahrzehnte eine nukleare Fähigkeit aufba…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "der Iran [hat] über Jahrzehnte eine nukleare Fähigkeit aufgebaut",
+      "text": "der Iran [hat] über Jahrzehnte eine nukleare Fähigkeit aufbaute",
       "person": "Roderich Kiesewetter",
       "schicht": "fallbezug"
     },
@@ -2025,24 +2542,24 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Iran hat ein umstrittenes Nuklearprogramm, das seit den 2000er-Jahren international beobachtet wird. Ob der Iran tatsächlich eine 'nukleare Fähigkeit' (im Sinne einer Waffenfähigkeit) erreicht hat, ist jedoch umstritten und wird von verschiedenen internationalen Akteuren unterschiedlich",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der Iran 'über Jahrzehnte eine nukleare Fähigkeit aufbaute', ist im Kern richtig, aber die Formulierung ist unpräzise. Der Iran betreibt seit den 1950er Jahren ein ziviles Nuklearprogramm, das jedoch seit den 2000er Jahren international wegen möglicher militärischer Ambiti",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_iaea_berichte_zum_iranischen_nuklearprogramm",
-      "label": "IAEA-Berichte zum iranischen Nuklearprogramm",
+      "id": "quelle_iran_wikipedia",
+      "label": "Iran – Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.iaea.org/topics/iran-nuclear-issue",
+      "url": "https://en.wikipedia.org/wiki/Iran",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_49",
-      "label": "Aussage: An UNIFIL waren wir beteiligt.…",
+      "label": "Aussage: An UNIFIL waren wir beteiligt…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "An UNIFIL waren wir beteiligt.",
+      "text": "An UNIFIL waren wir beteiligt",
       "person": "Roderich Kiesewetter",
       "schicht": "fallbezug"
     },
@@ -2052,15 +2569,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Deutschland beteiligt sich seit 2006 an der UNIFIL-Mission im Libanon mit Marineeinheiten und Personal. Dies ist durch Bundestagsbeschlüsse und offizielle Regierungsdokumente belegt.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'An UNIFIL waren wir beteiligt' wird durch mehrere Belege gestützt. Laut Bundeswehreinsatz.de und Auswärtigem Amt beteiligt sich Deutschland seit 2006 an der UNIFIL-Mission im Libanon. Der Deutsche Bundestag hat diese Beteiligung mehrfach verlängert, zuletzt bis 2025. Die Wikipe",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeswehr_beteiligung_an_unifil",
-      "label": "Bundeswehr: Beteiligung an UNIFIL",
+      "id": "quelle_bundeswehreinsatz_in_libanon_bleibt_wichtig_deutschland_unterst_tzt_unifil_die_friedensmission_der_vereinten_nationen",
+      "label": "Bundeswehreinsatz in Libanon bleibt wichtig: Deutschland unterstützt UNIFIL, die Friedensmission der Vereinten Nationen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeswehr.de/de/einsaetze/einsatzuebersicht/aktuell/unifil-libanon",
+      "url": "https://www.auswaertiges-amt.de/de/service/laender/libanon-node/unterstuetzung-unifil-libanon/2340834",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2075,46 +2592,46 @@
     },
     {
       "id": "faktencheck_50",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine offizielle Bestätigung, dass der UNIFIL-Einsatz 2024 beendet wird. Die Mandate der UNIFIL werden regelmäßig verlängert, zuletzt bis August 2024. Eine Beendigung wäre eine politische Entscheidung, die bisher nicht angekündigt wurde.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, der UNIFIL-Einsatz werde 'dieses Jahr' beendet. Laut den bereitgestellten Belegen (z. B. Tagesspiegel, suv.report, militaeraktuell.at) ist das Ende des Mandats und der Abzug der Truppen jedoch erst für Ende 2026 geplant. Ein 'geordneter und sicherer Abzug' soll sogar ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_unifil_mandat_un",
-      "label": "UNIFIL-Mandat (UN)",
+      "id": "quelle_mission_unifil_un_sicherheitsrat_beendet_mandat_der_friedenstruppe_im_libanon",
+      "label": "Mission Unifil: UN-Sicherheitsrat beendet Mandat der Friedenstruppe im Libanon",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://unifil.unmissions.org/",
+      "url": "https://www.tagesspiegel.de/internationales/mission-unifil-un-sicherheitsrat-beendet-mandat-der-friedenstruppe-im-libanon-14243633.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_51",
-      "label": "Aussage: in Syrien [...] haben Kurden und auch Palästinenser die Chan…",
+      "label": "Aussage: in Syrien [haben] Kurden und auch Palästinenser die Chance a…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "in Syrien [...] haben Kurden und auch Palästinenser die Chance auf eine syrische Staatsbürgerschaft",
+      "text": "in Syrien [haben] Kurden und auch Palästinenser die Chance auf eine syrische Staatsbürgerschaft",
       "person": "Roderich Kiesewetter",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_51",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Syrien hat 2011 ein Dekret erlassen, das palästinensischen Flüchtlingen bestimmte Rechte einräumt, darunter den Zugang zur syrischen Staatsbürgerschaft unter bestimmten Bedingungen. Allerdings ist die Umsetzung unklar, und die Situation für Kurden in Syrien ist komplex (z. B. durch den Entz",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass Kurden und Palästinenser in Syrien die Chance auf eine syrische Staatsbürgerschaft haben. Die bereitgestellten Belege widerlegen dies jedoch. Laut dem Informationsverbund Asyl & Migration genießen staatenlose Kurden in Syrien zwar weitestgehend Rechte wie Staatsa",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_unrwa_situation_pal_stinensischer_fl_chtlinge_in_syrien",
-      "label": "UNRWA: Situation palästinensischer Flüchtlinge in Syrien",
+      "id": "quelle_informationsverbund_asyl_migration_details",
+      "label": "Informationsverbund Asyl & Migration - Details",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.unrwa.org/syria-crisis",
+      "url": "https://www.asyl.net/rsdb/M9854",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2129,24 +2646,51 @@
     },
     {
       "id": "faktencheck_52",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche oder allgemein anerkannte Statistik, die diese konkrete Zahl der Armut im Libanon direkt der Hisbollah zuschreibt. Armutsdaten im Libanon werden von internationalen Organisationen wie der Weltbank oder UN erhoben, aber eine direkte Kausalität zur Hisbollah ist nicht q",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass das 'System Hisbollah' 70 Prozent der Bevölkerung in bittere Armut getrieben habe, ist im Kern richtig, aber die genaue Prozentzahl weicht ab. Die Belege zeigen, dass zwischen 75 Prozent (watson.ch) und 80 Prozent (Berliner Zeitung) der libanesischen Bevölkerung in Armut l",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_world_bank_lebanon_economic_monitor_fall_2021",
-      "label": "World Bank: Lebanon Economic Monitor, Fall 2021",
+      "id": "quelle_libanon_als_failed_state_wie_stark_ist_die_hisbollah_wirklich",
+      "label": "Libanon als „Failed State“ – wie stark ist die Hisbollah wirklich?",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.worldbank.org/en/country/lebanon/publication/lebanon-economic-monitor",
+      "url": "https://www.berliner-zeitung.de/open-source/libanon-als-failed-state-wie-stark-ist-die-hisbollah-wirklich-li.2259961",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_53",
+      "label": "Aussage: Die Lira ist wertlos, die Ersparnisse sind vernichtet, und d…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Die Lira ist wertlos, die Ersparnisse sind vernichtet, und die Inflation ist außer Kontrolle.",
+      "person": "Dr. Wolfgang Stefinger",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_53",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Prüfung fehlgeschlagen (JSONDecodeError).",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_inflation_au_er_kontrolle_t_rkische_lira_steuert_auf_klippe_zu_wallstreetonline_13_05_2026",
+      "label": "Inflation außer Kontrolle: Türkische Lira steuert auf Klippe zu | wallstreetONLINE - 13.05.2026",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.wallstreet-online.de/nachricht/20869812-inflation-kontrolle-tuerkische-lira-steuert-klippe",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_54",
       "label": "Aussage: Deutschland ist einer der größten Geber von Entwicklungsgeld…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2155,20 +2699,47 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_53",
+      "id": "faktencheck_54",
       "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Deutschland gehört zu den größten Gebern von öffentlicher Entwicklungszusammenarbeit (ODA) weltweit. Laut OECD-DAC-Statistiken lag Deutschland 2022 auf Platz 2 der Geberländer nach Volumen.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Deutschland einer der größten Geber von Entwicklungsgeldern ist, wird durch den Beleg von Global Citizen gestützt. Dort wird Deutschland als zweitgrößter Geber in absoluten Zahlen mit 36,68 Milliarden US-Dollar genannt, direkt nach den USA. Dies bestätigt die Position Deut",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_oecd_development_co_operation_profiles_germany",
-      "label": "OECD: Development Co-operation Profiles – Germany",
+      "id": "quelle_das_sind_die_gr_ten_geberl_nder_f_r_entwicklungszusammenarbeit",
+      "label": "Das sind die größten Geberländer für Entwicklungszusammenarbeit",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.oecd-ilibrary.org/sites/89d85713-en/index.html?itemId=/content/component/89d85713-en",
+      "url": "https://www.globalcitizen.org/de/content/geberlander-fur-entwicklungszusammenarbeit/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_55",
+      "label": "Aussage: Deutschland finanziert beispielsweise Trinkwasseranlagen. Wi…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Deutschland finanziert beispielsweise Trinkwasseranlagen. Wir retten Leben und schaffen über Cash-for-Work-Programme gleichzeitig Tausende Arbeitsplätze für Einheimische und für Flüchtlinge.",
+      "person": "Dr. Wolfgang Stefinger",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_55",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, aber die Zahl der geschaffenen Arbeitsplätze weicht von den genannten 'Tausenden' ab. Laut dem FAZ-Artikel finanziert Deutschland im Rahmen des 'Cash for Work'-Programms rund 80.000 Arbeitsplätze in der Krisenregion, was deutlich über 'Tausende' hinausgeht. ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_cash_for_work_deutschland_entlohnt_fl_chtlinge_vor_ort",
+      "label": "„Cash for Work“: Deutschland entlohnt Flüchtlinge vor Ort",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.faz.net/aktuell/politik/cash-for-work-deutschland-entlohnt-fluechtlinge-vor-ort-15367570.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -7367,433 +7938,6 @@
       "start_sec": "",
       "herkunft": "protokoll",
       "schicht": "reaktion"
-    },
-    {
-      "id": "person_julia_kl_ckner",
-      "label": "Julia Klöckner",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nadine_heselhaus",
-      "label": "Nadine Heselhaus",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_m_ller",
-      "label": "Stefan Möller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_susanne_hierl",
-      "label": "Susanne Hierl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_schmidt",
-      "label": "Stefan Schmidt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christin_willnat",
-      "label": "Christin Willnat",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_carmen_wegge",
-      "label": "Carmen Wegge",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stephan_brandner",
-      "label": "Stephan Brandner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sebastian_steineke",
-      "label": "Sebastian Steineke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_till_steffen",
-      "label": "Dr. Till Steffen",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_david_preisendanz",
-      "label": "Dr. David Preisendanz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kay_gottschalk",
-      "label": "Kay Gottschalk",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_carl_philipp_sassenrath",
-      "label": "Carl-Philipp Sassenrath",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_adis_ahmetovic",
-      "label": "Adis Ahmetovic",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_konrad_k_rner",
-      "label": "Dr. Konrad Körner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hermann_f_rber",
-      "label": "Hermann Färber",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christian_reck",
-      "label": "Christian Reck",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_franziska_kersten",
-      "label": "Dr. Franziska Kersten",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_ophelia_nick",
-      "label": "Dr. Ophelia Nick",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_marcel_bauer",
-      "label": "Marcel Bauer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_artur_auernhammer",
-      "label": "Artur Auernhammer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bernd_schuhmann",
-      "label": "Bernd Schuhmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_karl_b_r",
-      "label": "Karl Bär",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ina_latendorf",
-      "label": "Ina Latendorf",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dieter_stier",
-      "label": "Dieter Stier",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stephan_protschka",
-      "label": "Stephan Protschka",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christoph_frauenprei",
-      "label": "Christoph Frauenpreiß",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_alexander_jordan",
-      "label": "Alexander Jordan",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_josephine_ortleb",
-      "label": "Josephine Ortleb",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_julia_christina_stange",
-      "label": "Julia-Christina Stange",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_axel_m_ller",
-      "label": "Axel Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ates_g_rpinar",
-      "label": "Ates Gürpinar",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_claudia_weiss",
-      "label": "Claudia Weiss",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_serdar_y_ksel",
-      "label": "Serdar Yüksel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_armin_grau",
-      "label": "Dr. Armin Grau",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_anne_janssen",
-      "label": "Anne Janssen",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_joachim_bloch",
-      "label": "Joachim Bloch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_hans_theiss",
-      "label": "Dr. Hans Theiss",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_robin_wagener",
-      "label": "Robin Wagener",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_roderich_kiesewetter",
-      "label": "Roderich Kiesewetter",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_markus_frohnmaier",
-      "label": "Markus Frohnmaier",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_macit_karaahmeto_lu",
-      "label": "Macit Karaahmetoğlu",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_s_ren_pellmann",
-      "label": "Sören Pellmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bastian_ernst",
-      "label": "Bastian Ernst",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anna_rathert",
-      "label": "Dr. Anna Rathert",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helge_lindh",
-      "label": "Helge Lindh",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anton_hofreiter",
-      "label": "Dr. Anton Hofreiter",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tobias_winkler",
-      "label": "Tobias Winkler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bodo_ramelow",
-      "label": "Bodo Ramelow",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_cansu_zdemir",
-      "label": "Cansu Özdemir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_alexander_wolf",
-      "label": "Dr. Alexander Wolf",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johann_saathoff",
-      "label": "Johann Saathoff",
-      "type": "Person",
-      "subtype": "Parl. Staatssekretär bei der Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_luise_amtsberg",
-      "label": "Luise Amtsberg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_wolfgang_stefinger",
-      "label": "Dr. Wolfgang Stefinger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_gerold_otten",
-      "label": "Gerold Otten",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sara_nanni",
-      "label": "Sara Nanni",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lea_reisner",
-      "label": "Lea Reisner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ellen_demuth",
-      "label": "Ellen Demuth",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tobias_teich",
-      "label": "Tobias Teich",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sanae_abdi",
-      "label": "Sanae Abdi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_volkmann",
-      "label": "Johannes Volkmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
     }
   ],
   "relationships": [
@@ -8756,11 +8900,11 @@
       "source_id": "aussage_0",
       "target_id": "faktencheck_0",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_schuldenbarometer_2022_statistisches_bundesamt_destatis_creditreform",
+      "target_id": "quelle_berschuldete_privatpersonen_anzahl_in_deutschland_bis_2025_statista",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -8777,11 +8921,11 @@
       "source_id": "aussage_1",
       "target_id": "faktencheck_1",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_krise_als_chance_ein_leitfaden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -8798,11 +8942,11 @@
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_richtlinie_eu_2023_2225_des_europ_ischen_parlaments_und_des_rates",
+      "target_id": "quelle_deutscher_bundestag_umsetzung_der_neuen_eu_verbraucherkreditrichtlinie",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -8819,11 +8963,11 @@
       "source_id": "aussage_3",
       "target_id": "faktencheck_3",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_keine_belastbare_quelle_gefunden",
+      "target_id": "quelle_aktuelles_presse_generation_y_und_z_setzen_auf_finfluencer_bafin",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -8844,11 +8988,11 @@
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_keine_spezifische_amtliche_quelle_aber_allgemeine_informationen_zu_inkassokosten",
+      "target_id": "quelle_zahlung_berf_llig_wie_hoch_d_rfen_mahngeb_hren_sein_meinrecht_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_stefan_schmidt",
+      "source_id": "person_sebastian_steineke",
       "target_id": "aussage_5",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -8861,15 +9005,15 @@
       "source_id": "aussage_5",
       "target_id": "faktencheck_5",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_pressemitteilung_der_europ_ischen_kommission",
+      "target_id": "quelle_einkommens_und_verm_gensungleichheit_soziale_ungleichheit_bpb_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_stefan_schmidt",
+      "source_id": "person_sebastian_steineke",
       "target_id": "aussage_6",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -8882,11 +9026,11 @@
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "falsch"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_richtlinie_eu_2023_2225_des_europ_ischen_parlaments_und_des_rates",
+      "target_id": "quelle_kein_passender_beleg_in_der_liste_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -8903,15 +9047,15 @@
       "source_id": "aussage_7",
       "target_id": "faktencheck_7",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_statistisches_bundesamt_destatis_berschuldung_privater_personen_2021",
+      "target_id": "quelle_zahlungsmethode_bundestag_beschlie_t_neue_regeln_f_r_den_ratenkauf",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_sebastian_steineke",
+      "source_id": "person_carl_philipp_sassenrath",
       "target_id": "aussage_8",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -8924,15 +9068,15 @@
       "source_id": "aussage_8",
       "target_id": "faktencheck_8",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_statistisches_bundesamt_destatis_berschuldung_privater_personen_2021",
+      "target_id": "quelle_e_auto_f_rderung_2026_bis_zu_6_000_euro_pr_mie_wer_bekommt_wie_viel",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_sebastian_steineke",
+      "source_id": "person_carl_philipp_sassenrath",
       "target_id": "aussage_9",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -8949,7 +9093,7 @@
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_iff_schuldenreport_2023_keine_direkte_best_tigung_der_20_aussage",
+      "target_id": "quelle_neue_f_rderprogramme_im_wohnungsbau_2025_2026_ecovis",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -8966,11 +9110,11 @@
       "source_id": "aussage_10",
       "target_id": "faktencheck_10",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_bundesamt_f_r_wirtschaft_und_ausfuhrkontrolle_bafa_umweltbonus",
+      "target_id": "quelle_e_auto_neuzulassungen_neuer_h_chstwert_seit_2022_gewinner_verlierer_im_m_rz",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -8991,7 +9135,7 @@
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_bundesregierung_wachstumschancengesetz",
+      "target_id": "quelle_mehr_e_autos_als_benziner_im_m_rz_neu_zugelassen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9008,11 +9152,11 @@
       "source_id": "aussage_12",
       "target_id": "faktencheck_12",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "falsch"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_12",
-      "target_id": "quelle_kraftfahrt_bundesamt_kba_neuzulassungen_m_rz_2024",
+      "target_id": "quelle_krebsrate_und_krebs_sterberate_in_deutschland_dkfz_krebsinformationsdienst",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9029,53 +9173,53 @@
       "source_id": "aussage_13",
       "target_id": "faktencheck_13",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "falsch"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_13",
-      "target_id": "quelle_kraftfahrt_bundesamt_kba_neuzulassungen_m_rz_2024",
+      "target_id": "quelle_dip_vorgang_transparenz_und_kontrolle_der_60_millionen_euro_f_r_hilfsprojekte_in_syrien",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_carl_philipp_sassenrath",
+      "source_id": "person_hermann_f_rber",
       "target_id": "aussage_14",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_14",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_14",
       "target_id": "faktencheck_14",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_14",
-      "target_id": "quelle_robert_koch_institut_krebs_in_deutschland",
+      "target_id": "quelle_fragen_und_antworten_zur_befristeten_senkung_der_energiesteuer_f_r_kraftstoffe_im_stra_enverkehr_bundesfinanzministerium_service",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_carl_philipp_sassenrath",
+      "source_id": "person_hermann_f_rber",
       "target_id": "aussage_15",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_15",
-      "target_id": "top_2",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_15",
       "target_id": "faktencheck_15",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_15",
-      "target_id": "quelle_bundesministerium_f_r_wirtschaft_und_klimaschutz_batterie_ipcei",
+      "target_id": "quelle_bmleh_pressemitteilungen_entscheidung_im_bundeskabinett_agrardieselr_ckverg_tung_kommt_zur_ck",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9092,15 +9236,15 @@
       "source_id": "aussage_16",
       "target_id": "faktencheck_16",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_16",
-      "target_id": "quelle_drucksache_20_1850_entwurf_eines_gesetzes_zur_tempor_ren_senkung_des_umsatzsteuersatzes_auf_gaslieferungen_ber_das_erdgasnetz",
+      "target_id": "quelle_d_nger_wird_deutlich_teurer",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_hermann_f_rber",
+      "source_id": "person_marcel_bauer",
       "target_id": "aussage_17",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9113,15 +9257,15 @@
       "source_id": "aussage_17",
       "target_id": "faktencheck_17",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_17",
-      "target_id": "quelle_bundeshaushaltsplan_2022_einzelplan_60",
+      "target_id": "quelle_kein_relevanter_beleg_in_der_liste_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_hermann_f_rber",
+      "source_id": "person_marcel_bauer",
       "target_id": "aussage_18",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9138,7 +9282,7 @@
     },
     {
       "source_id": "faktencheck_18",
-      "target_id": "quelle_eurostat_production_of_fertilizers",
+      "target_id": "quelle_wir_brauchen_bauern_und_b_uerinnen_und_sie_uns_oxfam_deutschland",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9155,11 +9299,11 @@
       "source_id": "aussage_19",
       "target_id": "faktencheck_19",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_19",
-      "target_id": "quelle_amnesty_international_bericht_zum_massaker_von_eldorado_dos_caraj_s",
+      "target_id": "quelle_r_ckgrat_der_landwirte_mitunter_jede_zweite_arbeitskraft_saisonal_besch_ftigt_agrarheute_com",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9176,15 +9320,15 @@
       "source_id": "aussage_20",
       "target_id": "faktencheck_20",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_20",
-      "target_id": "quelle_la_via_campesina_offizielle_website",
+      "target_id": "quelle_lpg_vom_kleinbauern_zum_agrargenossen_der_ddr_ndr_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_marcel_bauer",
+      "source_id": "person_bernd_schuhmann",
       "target_id": "aussage_21",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9197,15 +9341,15 @@
       "source_id": "aussage_21",
       "target_id": "faktencheck_21",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_21",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_feuer_gartenh_tte_brennt_besitzer_verletzt_die_zeit",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_marcel_bauer",
+      "source_id": "person_bernd_schuhmann",
       "target_id": "aussage_22",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -9218,11 +9362,11 @@
       "source_id": "aussage_22",
       "target_id": "faktencheck_22",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_22",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_die_perfekte_krise_chinas_k_uferstreik_d_rre_kosten_explosion_treiben_us_farmer_in_den_ruin_wallstreetonline",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9243,7 +9387,7 @@
     },
     {
       "source_id": "faktencheck_23",
-      "target_id": "quelle_suez_canal_authority_sca_pressemitteilung",
+      "target_id": "quelle_suezkanal_containerschiff_ever_given_ist_wieder_frei_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9260,11 +9404,11 @@
       "source_id": "aussage_24",
       "target_id": "faktencheck_24",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_24",
-      "target_id": "quelle_statistisches_bundesamt_destatis_erzeugerpreise_landwirtschaftlicher_produkte",
+      "target_id": "quelle_energielieferant_landwirtschaft_damals_heute_landwirtschaft_verstehen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9281,11 +9425,11 @@
       "source_id": "aussage_25",
       "target_id": "faktencheck_25",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_25",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_blockierte_strasse_von_hormus_warum_jetzt_der_d_nger_knapp_wird_news_srf",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9306,7 +9450,7 @@
     },
     {
       "source_id": "faktencheck_26",
-      "target_id": "quelle_statistisches_bundesamt_destatis_agrarpreise",
+      "target_id": "quelle_erzeugerpreis_f_r_d_ngemittel_vom_05_06_2026_markt_agrarheute_com",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9323,11 +9467,11 @@
       "source_id": "aussage_27",
       "target_id": "faktencheck_27",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_27",
-      "target_id": "quelle_destatis_au_enhandel_mit_d_ngemitteln_2022",
+      "target_id": "quelle_wie_viel_d_nger_brauchen_die_deutschen_bauern_die_d_ngerkrise_agrarheute_com",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9344,11 +9488,11 @@
       "source_id": "aussage_28",
       "target_id": "faktencheck_28",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_28",
-      "target_id": "quelle_bundesanstalt_f_r_landwirtschaft_und_ern_hrung_ble_d_ngemittelstatistik",
+      "target_id": "quelle_russland_d_nger_tabu_eu_setzt_auf_produktion_vom_skw_piesteritz",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9365,11 +9509,11 @@
       "source_id": "aussage_29",
       "target_id": "faktencheck_29",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_29",
-      "target_id": "quelle_deutscher_bauernverband_marktbericht_d_ngemittel",
+      "target_id": "quelle_d_ngerpreise_steigen_endlos_weiter_harnstoff_kostet_landwirte_schon_ber_800_euro",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9386,11 +9530,11 @@
       "source_id": "aussage_30",
       "target_id": "faktencheck_30",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_30",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_eu_erh_ht_zoll_auf_waren_russischen_ursprungs_ihk_region_stuttgart",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9411,7 +9555,7 @@
     },
     {
       "source_id": "faktencheck_31",
-      "target_id": "quelle_wartezeiten_auf_facharzttermine_ergebnisse_einer_bundesweiten_befragung_von_arztpraxen_2020_2021",
+      "target_id": "quelle_wartezeit_steigt_auf_42_tage_gesetzlich_versicherte_m_ssen_deutlich_l_nger_auf_facharzttermine_warten",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9432,7 +9576,7 @@
     },
     {
       "source_id": "faktencheck_32",
-      "target_id": "quelle_antwort_der_bundesregierung_auf_die_kleine_anfrage_der_abgeordneten_dr_achim_kessler_u_a_drucksache_19_26820",
+      "target_id": "quelle_l_ngere_wartezeit_f_r_gesetzlich_versicherte_f_r_facharzt_termin_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9453,7 +9597,7 @@
     },
     {
       "source_id": "faktencheck_33",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_wartezeit_private_versicherung_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9474,7 +9618,7 @@
     },
     {
       "source_id": "faktencheck_34",
-      "target_id": "quelle_terminservice_und_versorgungsgesetz_tsvg",
+      "target_id": "quelle_sprechzeiten_kassen_rztliche_vereinigung_berlin",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9495,7 +9639,7 @@
     },
     {
       "source_id": "faktencheck_35",
-      "target_id": "quelle_wip_studie_beitrag_der_privaten_krankenversicherung_zur_finanzierung_des_gesundheitswesens",
+      "target_id": "quelle_studie_privatversicherte_bringen_dem_gesundheitssystem_15_5_milliarden_euro_zus_tzlich_cash",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9512,11 +9656,11 @@
       "source_id": "aussage_36",
       "target_id": "faktencheck_36",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_36",
-      "target_id": "quelle_bundesministerium_f_r_gesundheit_bericht_zum_tsvg",
+      "target_id": "quelle_unerwartete_ausgabenexplosion_aufgrund_von_unterbereinigung_im_terminservice_und_versorgungsgesetz_90_prozent_das_e_magazin_des_gkv_spitzenverbandes",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9533,11 +9677,11 @@
       "source_id": "aussage_37",
       "target_id": "faktencheck_37",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_37",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_wartezeit_steigt_auf_42_tage_gesetzlich_versicherte_m_ssen_deutlich_l_nger_auf_facharzttermine_warten",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9554,11 +9698,11 @@
       "source_id": "aussage_38",
       "target_id": "faktencheck_38",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_38",
-      "target_id": "quelle_oecd_eurostat_health_status_database_avoidable_mortality",
+      "target_id": "quelle_vermeidbare_sterblichkeit_in_westeuropa_deutschland_liegt_bei_eind_mmung_weiterhin_zur_ck",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9579,7 +9723,7 @@
     },
     {
       "source_id": "faktencheck_39",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_keine_passende_quelle_in_den_belegen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9600,7 +9744,7 @@
     },
     {
       "source_id": "faktencheck_40",
-      "target_id": "quelle_centre_for_research_on_energy_and_clean_air_crea_report_shadow_fleet_how_sanctions_evading_tankers_transport_russian_oil",
+      "target_id": "quelle_russische_schattenflotte_hintergrund_aktuell_bpb_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9617,11 +9761,11 @@
       "source_id": "aussage_41",
       "target_id": "faktencheck_41",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_41",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_nord_ostsee_kanal_schiffe_und_schleusen_zum_greifen_nah_ndr_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9638,11 +9782,11 @@
       "source_id": "aussage_42",
       "target_id": "faktencheck_42",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_42",
-      "target_id": "quelle_eu_sanktionen_gegen_russland_bersicht_der_ma_nahmen",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9663,7 +9807,7 @@
     },
     {
       "source_id": "faktencheck_43",
-      "target_id": "quelle_bundesregierung_chronologie_des_russischen_angriffskriegs",
+      "target_id": "quelle_humanit_re_folgen_des_v_lkerrechtswidrigen_angriffskrieges_gegen_die_ukraine",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9684,7 +9828,7 @@
     },
     {
       "source_id": "faktencheck_44",
-      "target_id": "quelle_eu_amtsblatt_verordnung_eu_2024_1745_des_rates_vom_24_juni_2024",
+      "target_id": "quelle_harter_schlag_gegen_putins_schattenflotte_wohl_20_neue_tanker_auf_der_sanktionsliste",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9705,7 +9849,7 @@
     },
     {
       "source_id": "faktencheck_45",
-      "target_id": "quelle_bundesregierung_antwort_auf_kleine_anfrage_drucksache_20_9400",
+      "target_id": "quelle_wegen_sanktionen_russlands_l_und_gaseinnahmen_sinken_deutlich_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9722,11 +9866,11 @@
       "source_id": "aussage_46",
       "target_id": "faktencheck_46",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_46",
-      "target_id": "quelle_united_nations_security_council_resolution_1701",
+      "target_id": "quelle_resolution_es_11_1_der_un_generalversammlung_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9747,7 +9891,7 @@
     },
     {
       "source_id": "faktencheck_47",
-      "target_id": "quelle_israel_evakuiert_zehntausende_nach_hisbollah_angriffen_tagesschau",
+      "target_id": "quelle_150_hisbollah_raketen_auf_israel_abgefeuert_j_dische_allgemeine",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9768,7 +9912,7 @@
     },
     {
       "source_id": "faktencheck_48",
-      "target_id": "quelle_iaea_berichte_zum_iranischen_nuklearprogramm",
+      "target_id": "quelle_iran_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9789,7 +9933,7 @@
     },
     {
       "source_id": "faktencheck_49",
-      "target_id": "quelle_bundeswehr_beteiligung_an_unifil",
+      "target_id": "quelle_bundeswehreinsatz_in_libanon_bleibt_wichtig_deutschland_unterst_tzt_unifil_die_friedensmission_der_vereinten_nationen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9806,11 +9950,11 @@
       "source_id": "aussage_50",
       "target_id": "faktencheck_50",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_50",
-      "target_id": "quelle_unifil_mandat_un",
+      "target_id": "quelle_mission_unifil_un_sicherheitsrat_beendet_mandat_der_friedenstruppe_im_libanon",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9827,11 +9971,11 @@
       "source_id": "aussage_51",
       "target_id": "faktencheck_51",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_51",
-      "target_id": "quelle_unrwa_situation_pal_stinensischer_fl_chtlinge_in_syrien",
+      "target_id": "quelle_informationsverbund_asyl_migration_details",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9848,11 +9992,11 @@
       "source_id": "aussage_52",
       "target_id": "faktencheck_52",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_52",
-      "target_id": "quelle_world_bank_lebanon_economic_monitor_fall_2021",
+      "target_id": "quelle_libanon_als_failed_state_wie_stark_ist_die_hisbollah_wirklich",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -9869,11 +10013,53 @@
       "source_id": "aussage_53",
       "target_id": "faktencheck_53",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_53",
-      "target_id": "quelle_oecd_development_co_operation_profiles_germany",
+      "target_id": "quelle_inflation_au_er_kontrolle_t_rkische_lira_steuert_auf_klippe_zu_wallstreetonline_13_05_2026",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_wolfgang_stefinger",
+      "target_id": "aussage_54",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_54",
+      "target_id": "top_6",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_54",
+      "target_id": "faktencheck_54",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_54",
+      "target_id": "quelle_das_sind_die_gr_ten_geberl_nder_f_r_entwicklungszusammenarbeit",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_dr_wolfgang_stefinger",
+      "target_id": "aussage_55",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_55",
+      "target_id": "top_6",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_55",
+      "target_id": "faktencheck_55",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_55",
+      "target_id": "quelle_cash_for_work_deutschland_entlohnt_fl_chtlinge_vor_ort",
       "relationship_type": "BELEGT_MIT"
     },
     {

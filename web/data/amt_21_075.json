@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 1082,
-    "relationship_count": 1989,
+    "node_count": 1093,
+    "relationship_count": 1993,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21075.pdf",
@@ -40,10 +40,24 @@
       "schicht": "zeitlich"
     },
     {
+      "id": "person_michael_thews",
+      "label": "Michael Thews",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_spd",
       "label": "SPD",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kay_gottschalk",
+      "label": "Kay Gottschalk",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -54,10 +68,24 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_dr_matthias_hiller",
+      "label": "Dr. Matthias Hiller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_cdu_csu",
       "label": "CDU/CSU",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andreas_audretsch",
+      "label": "Andreas Audretsch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -68,6 +96,13 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_doris_achelwilm",
+      "label": "Doris Achelwilm",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_die_linke",
       "label": "Die Linke",
       "type": "Fraktion",
@@ -75,10 +110,444 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_jens_behrens",
+      "label": "Jens Behrens",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_j_rn_k_nig",
+      "label": "Jörn König",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_stefan_korbach",
+      "label": "Dr. Stefan Korbach",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sascha_m_ller",
+      "label": "Sascha Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christian_g_rke",
+      "label": "Christian Görke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_frauke_heiligenstadt",
+      "label": "Frauke Heiligenstadt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_iris_nieland",
+      "label": "Iris Nieland",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mechthilde_wittmann",
+      "label": "Mechthilde Wittmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lisa_badum",
+      "label": "Lisa Badum",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_julia_kl_ckner",
+      "label": "Julia Klöckner",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_fritz_g_ntzler",
+      "label": "Fritz Güntzler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_luigi_pantisano",
+      "label": "Luigi Pantisano",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_michael_donth",
+      "label": "Michael Donth",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_wolfgang_wiehle",
+      "label": "Wolfgang Wiehle",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_kr_ber",
+      "label": "Martin Kröber",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_victoria_bro_art",
+      "label": "Victoria Broßart",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_henning_rehbaum",
+      "label": "Henning Rehbaum",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_omid_nouripour",
+      "label": "Omid Nouripour",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lars_haise",
+      "label": "Lars Haise",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_anja_troff_schaffarzyk",
+      "label": "Anja Troff-Schaffarzyk",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tarek_al_wazir",
+      "label": "Tarek Al-Wazir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_fabian_fahl",
+      "label": "Dr. Fabian Fahl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_jonas_geissler",
+      "label": "Dr. Jonas Geissler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_maximilian_kneller",
+      "label": "Maximilian Kneller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_harald_orthey",
+      "label": "Harald Orthey",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_michael_blos",
+      "label": "Dr. Michael Blos",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_florian_bilic",
+      "label": "Florian Bilic",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_jan_niclas_gesenhues",
+      "label": "Dr. Jan-Niclas Gesenhues",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_violetta_bock",
+      "label": "Violetta Bock",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christian_moser",
+      "label": "Christian Moser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_seidler",
+      "label": "Stefan Seidler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_fraktionslos",
       "label": "fraktionslos",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_thomas_korell",
+      "label": "Thomas Korell",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_armin_grau",
+      "label": "Dr. Armin Grau",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_pascal_reddig",
+      "label": "Pascal Reddig",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ulrike_schielke_ziesing",
+      "label": "Ulrike Schielke-Ziesing",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_angelika_gl_ckner",
+      "label": "Angelika Glöckner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sarah_vollath",
+      "label": "Sarah Vollath",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_peter_aumer",
+      "label": "Peter Aumer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_thomas_stephan",
+      "label": "Thomas Stephan",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jens_peick",
+      "label": "Jens Peick",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bodo_ramelow",
+      "label": "Bodo Ramelow",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_steffen_kotr",
+      "label": "Steffen Kotré",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicklas_kappe",
+      "label": "Nicklas Kappe",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_alaa_alhamwi",
+      "label": "Dr. Alaa Alhamwi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helmut_kleebank",
+      "label": "Helmut Kleebank",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lorenz_g_sta_beutin",
+      "label": "Lorenz Gösta Beutin",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lars_rohwer",
+      "label": "Lars Rohwer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bernd_schattner",
+      "label": "Bernd Schattner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_denise_loop",
+      "label": "Denise Loop",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_wolfgang_dahler",
+      "label": "Wolfgang Dahler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_cansin_k_kt_rk",
+      "label": "Cansin Köktürk",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_reichardt",
+      "label": "Martin Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_heike_heubach",
+      "label": "Heike Heubach",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_heidi_reichinnek",
+      "label": "Heidi Reichinnek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ralph_edelh_u_er",
+      "label": "Ralph Edelhäußer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sara_nanni",
+      "label": "Sara Nanni",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anna_rathert",
+      "label": "Dr. Anna Rathert",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_truels_reichardt",
+      "label": "Truels Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_corinna_r_ffer",
+      "label": "Corinna Rüffer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_wilfried_oellers",
+      "label": "Wilfried Oellers",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jan_feser",
+      "label": "Jan Feser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_markus_reichel",
+      "label": "Dr. Markus Reichel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -987,19 +1456,19 @@
     },
     {
       "id": "faktencheck_0",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist zu vage, um sie quantitativ zu überprüfen. 'Hoch' ist ein relativer Begriff ohne konkreten Vergleichsmaßstab oder Zahlenangabe.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Die Rohölpreise sind hoch' ist im Kern richtig, aber ohne zeitlichen Kontext oder Vergleichswert unpräzise. Die Belege zeigen, dass der Ölpreis (Brent) in der Vergangenheit Höchststände von über 130 USD erreichte (wallstreetONLINE), aktuell aber laut finanzen.net und getoil.de ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "id": "quelle_lpreis_brent_brent_crude_oil_lkurs_wallstreet_online",
+      "label": "Ölpreis (Brent) | Brent Crude Oil | Ölkurs | wallstreet-online",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.wallstreet-online.de/rohstoffe/oelpreis-brent",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1014,19 +1483,19 @@
     },
     {
       "id": "faktencheck_1",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das 2. Energiesteuersenkungsgesetz sieht eine Senkung der Energiesteuer auf Kraftstoffe um 17 Cent pro Liter vor (für Benzin und Diesel).",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine Senkung der Energiesteuer um 17 Cent, was im Kern richtig ist. Allerdings wird im Beleg des Bundesfinanzministeriums (BMF) von 'circa 17 Cent pro Liter' gesprochen, während der Bundestag konkret eine Senkung um 14,04 Cent je Liter (plus Umsatzsteueranteil, ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestagsdrucksache_20_10200_gesetzentwurf_der_bundesregierung_zweites_gesetz_zur_senkung_der_energiesteuer_auf_kraftstoffe",
-      "label": "Bundestagsdrucksache 20/10200 - Gesetzentwurf der Bundesregierung: Zweites Gesetz zur Senkung der Energiesteuer auf Kraftstoffe",
+      "id": "quelle_fragen_und_antworten_zur_befristeten_senkung_der_energiesteuer_f_r_kraftstoffe_im_stra_enverkehr_bundesfinanzministerium_service",
+      "label": "Fragen und Antworten zur befristeten Senkung der Energiesteuer für Kraftstoffe im Straßenverkehr - Bundesfinanzministerium - Service",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/102/2010200.pdf",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/energiesteuersenkung.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1041,19 +1510,28 @@
     },
     {
       "id": "faktencheck_2",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Gesetzentwurf der Bundesregierung beträgt das Entlastungsvolumen durch die Energiesteuersenkung etwa 1,6 Mrd. Euro pro Jahr.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet eine Entlastung der Verbraucherinnen und Verbraucher um 1,6 Milliarden Euro. Der erste Beleg (BMUKN-Pressemitteilung) spricht von einer Belastung des Bundeshaushalts mit etwa drei Milliarden Euro jährlich, wovon Verbraucher indirekt profitieren, nennt aber keine konkre",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_ab_2026_entlastungen_f_r_verbraucherinnen_und_verbraucher_trotz_steigendem_co_preis_bmukn_pressemitteilung",
+      "label": "Ab 2026: Entlastungen für Verbraucherinnen und Verbraucher trotz steigendem CO₂-Preis- BMUKN - Pressemitteilung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/ab-2026-entlastungen-fuer-verbraucherinnen-und-verbraucher-trotz-steigendem-co2-preis",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_3",
-      "label": "Aussage: in zwei Tagen der Reaktorunfall in Tschernobyl zum 40. Mal j…",
+      "label": "Aussage: in der momentanen Situation die Strompreise gar nicht gestie…",
       "type": "Aussage",
       "subtype": "SPD",
-      "text": "in zwei Tagen der Reaktorunfall in Tschernobyl zum 40. Mal jährt",
+      "text": "in der momentanen Situation die Strompreise gar nicht gestiegen sind",
       "person": "Michael Thews",
       "schicht": "fallbezug"
     },
@@ -1063,20 +1541,74 @@
       "type": "Faktencheck",
       "subtype": "falsch",
       "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Reaktorunfall in Tschernobyl ereignete sich am 26. April 1986. Zum Zeitpunkt der Rede (April 2024) jährte sich der Unfall zum 38. Mal, nicht zum 40. Mal.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Strompreise in der momentanen Situation gar nicht gestiegen sind, wird durch die Belege widerlegt. Laut VERIVOX sind die Großhandelspreise zwar gesunken, aber hohe Stromnetzentgelte und Umlagen halten die Preise auf hohem Niveau. Strom-Report bestätigt deutliche Preise",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesamt_f_r_strahlenschutz_tschernobyl",
-      "label": "Bundesamt für Strahlenschutz - Tschernobyl",
+      "id": "quelle_strompreisentwicklung_so_teuer_wird_strom_2026",
+      "label": "Strompreisentwicklung: So teuer wird Strom 2026",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bfs.de/DE/themen/ion/notfallschutz/notfaelle/tschernobyl/tschernobyl.html",
+      "url": "https://strom-report.com/strompreisentwicklung/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_4",
+      "label": "Aussage: in zwei Tagen der Reaktorunfall in Tschernobyl zum 40. Mal j…",
+      "type": "Aussage",
+      "subtype": "SPD",
+      "text": "in zwei Tagen der Reaktorunfall in Tschernobyl zum 40. Mal jährt",
+      "person": "Michael Thews",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_4",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass sich der Reaktorunfall in Tschernobyl in zwei Tagen zum 40. Mal jährt. Der Unfall in Tschernobyl ereignete sich jedoch am 26. April 1986. Das 40. Jubiläum wäre somit am 26. April 2026. Die Angabe 'in zwei Tagen' ist daher falsch, da sie nicht mit dem tatsächliche",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_nuklearkatastrophe_von_tschernobyl_wikipedia",
+      "label": "Nuklearkatastrophe von Tschernobyl – Wikipedia",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.wikipedia.org/wiki/Nuklearkatastrophe_von_Tschernobyl",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_5",
+      "label": "Aussage: hohe Kosten [der Kernenergie] auch durch die Endlagersuche…",
+      "type": "Aussage",
+      "subtype": "SPD",
+      "text": "hohe Kosten [der Kernenergie] auch durch die Endlagersuche",
+      "person": "Michael Thews",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_5",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass hohe Kosten der Kernenergie auch durch die Endlagersuche entstehen, ist im Kern richtig, aber die Kosten sind nicht eindeutig quantifizierbar und hängen stark vom konkreten Endlagerprojekt ab. Der Beleg von 'riffreporter.de' zeigt, dass die Kosten für Endlager wie Cigeo in",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kernenergie_in_europa_milliarden_f_r_reaktoren_und_endlager",
+      "label": "Kernenergie in Europa: Milliarden für Reaktoren und Endlager",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.riffreporter.de/de/wissen/kernenergie-kosten-endlager-europa",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_6",
       "label": "Aussage: Anhebung des Mindesthebesatzes der Gewerbesteuer von 200 auf…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -1085,25 +1617,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_4",
+      "id": "faktencheck_6",
       "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Mindesthebesatz der Gewerbesteuer wurde tatsächlich von 200 auf 200 Punkte (entspricht 200 %) auf 280 Punkte (entspricht 280 %) angehoben. Dies ist im Gesetz zur Änderung des Steuerberatungsgesetzes und anderer Gesetze (BT-Drs. 20/8600) geregelt.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage zur Anhebung des Mindesthebesatzes der Gewerbesteuer von 200 auf 280 Prozent wird durch mehrere Belege gestützt. Laut den Quellen soll der Mindesthebesatz ab dem Veranlagungszeitraum 2027 von 200 auf 280 Prozent erhöht werden. Dies betrifft Gemeinden, die bisher einen Hebesatz v",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestagsdrucksache_20_8600_gesetz_zur_nderung_des_steuerberatungsgesetzes_und_anderer_gesetze",
-      "label": "Bundestagsdrucksache 20/8600 - Gesetz zur Änderung des Steuerberatungsgesetzes und anderer Gesetze",
+      "id": "quelle_gewerbesteuer_mindesthebesatz_steigt_auf_280_prozent",
+      "label": "Gewerbesteuer: Mindesthebesatz steigt auf 280 Prozent",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/086/2008600.pdf",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/gewerbesteuer-mindesthebesatz-steigt-auf-280-prozent/68493124",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_5",
+      "id": "aussage_7",
       "label": "Aussage: Wir ermöglichen Arbeitgebern, bis zu 1 000 Euro bis zum 30. …",
       "type": "Aussage",
       "subtype": "SPD",
@@ -1112,25 +1644,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_5",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_7",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Entlastungsprämie von bis zu 1.000 Euro steuer- und abgabenfrei bis zum 30. Juni 2027 ist im Gesetz zur temporären Senkung des Umsatzsteuersatzes auf Gaslieferungen über das Erdgasnetz und zur Änderung weiterer steuerlicher Vorschriften (BT-Drs. 20/3873) sowie in späteren Anpassungen ge",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, Arbeitgeber könnten bis zum 30. Juni 2027 eine steuer- und abgabenfreie Einmalzahlung von bis zu 1.000 Euro an Arbeitnehmer auszahlen. Der Beleg von kununu.com (dritter Link) bestätigt zwar, dass eine solche Prämie geplant war, aber dass sie 'überraschend gescheitert'",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestagsdrucksache_20_3873_gesetz_zur_tempor_ren_senkung_des_umsatzsteuersatzes_auf_gaslieferungen_ber_das_erdgasnetz",
-      "label": "Bundestagsdrucksache 20/3873 - Gesetz zur temporären Senkung des Umsatzsteuersatzes auf Gaslieferungen über das Erdgasnetz",
+      "id": "quelle_1_000_euro_pr_mie_berraschend_gescheitert_was_das_f_r_arbeitnehmende_bedeutet_kununu_news",
+      "label": "1.000-Euro-Prämie überraschend gescheitert: was das für Arbeitnehmende bedeutet | kununu News",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/038/2003873.pdf",
+      "url": "https://news.kununu.com/1000-euro-praemie-gekippt/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_6",
+      "id": "aussage_8",
       "label": "Aussage: Benzin und Diesel steuerlich um 17 Cent je Liter entlastet w…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -1139,102 +1671,57 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_6",
-      "label": "Faktencheck: irreführend",
-      "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die temporäre Senkung der Energiesteuer (Mineralölsteuer) auf Kraftstoffe um 30 Cent (Benzin) bzw. 14 Cent (Diesel) pro Liter, nicht einheitlich 17 Cent. Die Senkung war zudem auf drei Monate befristet (Juni bis August 2022) und ist bereits ausgelaufen. Die aktu",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundesgesetzblatt_gesetz_zur_tempor_ren_senkung_der_energiesteuer_auf_kraftstoffe",
-      "label": "Bundesgesetzblatt - Gesetz zur temporären Senkung der Energiesteuer auf Kraftstoffe",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl122s1237.pdf",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_7",
-      "label": "Aussage: 55 Milliarden Euro Mindereinnahmen in der Bundesrepublik Deu…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "55 Milliarden Euro Mindereinnahmen in der Bundesrepublik Deutschland [durch Abschaffung der CO2-Steuer und Mehrwertsteuer auf Benzin].",
-      "person": "Frauke Heiligenstadt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_7",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die konkrete Zahl von 55 Milliarden Euro Mindereinnahmen durch die genannten Steueränderungen wird in der Rede genannt, ohne dass eine spezifische Berechnungsgrundlage oder Quelle angegeben wird. Eine belastbare amtliche Quelle, die diese Summe bestätigt, ist nicht bekannt. Die Höhe der Min",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_8",
-      "label": "Aussage: 350.000 Polizeibeamte könnte man davon finanzieren [von den …",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "350.000 Polizeibeamte könnte man davon finanzieren [von den 55 Milliarden Euro Mindereinnahmen].",
-      "person": "Frauke Heiligenstadt",
-      "schicht": "fallbezug"
-    },
-    {
       "id": "faktencheck_8",
-      "label": "Faktencheck: irreführend",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage unterstellt eine direkte Umrechnung der 55 Milliarden Euro in Polizeistellen, ohne die tatsächlichen Kosten pro Polizeibeamten (inkl. Gehalt, Ausstattung, Verwaltung) zu berücksichtigen. Laut Bundeshaushaltsplan 2023 betragen die Personalausgaben für die Polizei (Bund und Länder",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Benzin und Diesel steuerlich um 17 Cent je Liter entlastet werden sollen, wird durch die Belege gestützt. Laut den Artikeln von tagesschau.de und bundestag.de hat der Bundestag eine Senkung der Energiesteuer (Tankrabatt) um rund 17 Cent pro Liter für Benzin und Diesel besc",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_personal_im_ffentlichen_dienst",
-      "label": "Statistisches Bundesamt – Personal im öffentlichen Dienst",
+      "id": "quelle_bundestag_beschlie_t_tankrabatt_und_entlastungspr_mie_tagesschau_de",
+      "label": "Bundestag beschließt Tankrabatt und Entlastungsprämie | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Personal/_inhalt.html",
+      "url": "https://www.tagesschau.de/inland/bundestag-tankrabatt-praemie-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_9",
-      "label": "Aussage: In den ersten zwei Monaten ist der Tankrabatt auch vor vier …",
+      "label": "Aussage: 55 Milliarden Euro Mindereinnahmen in der Bundesrepublik Deu…",
       "type": "Aussage",
       "subtype": "SPD",
-      "text": "In den ersten zwei Monaten ist der Tankrabatt auch vor vier Jahren nahezu zu 100 Prozent weitergegeben worden.",
+      "text": "55 Milliarden Euro Mindereinnahmen in der Bundesrepublik Deutschland [durch AfD-Vorschläge].",
       "person": "Frauke Heiligenstadt",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_9",
-      "label": "Faktencheck: falsch",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "falsch",
-      "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich vermutlich auf den Tankrabatt 2022 (temporäre Senkung der Energiesteuer auf Kraftstoffe). Studien (z. B. vom ifo Institut) zeigen, dass die Weitergabe an die Verbraucher nicht bei 100 % lag, sondern je nach Kraftstoffart und Region zwischen 60 % und 90 % schwankte. ",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine konkrete Zahl von 55 Milliarden Euro Mindereinnahmen durch AfD-Vorschläge, die in den bereitgestellten Belegen nicht direkt bestätigt wird. Die Belege verweisen auf Schätzungen des ZEW (97 Milliarden Euro) und des DIW (bis zu 188 Milliarden Euro bei FDP und AfD gemein",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ifo_institut_evaluation_des_tankrabatts_2022",
-      "label": "ifo Institut – Evaluation des Tankrabatts 2022",
+      "id": "quelle_partei_initiativen_k_nnten_den_haushalt_mit_bis_zu_188_milliarden_euro_belasten",
+      "label": "Partei-Initiativen könnten den Haushalt mit bis zu 188 Milliarden Euro belasten",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/evaluation-des-tankrabatts",
+      "url": "https://www.merkur.de/wirtschaft/partei-initiativen-koennten-den-haushalt-mit-bis-zu-188-milliarden-euro-belasten-zr-93524657.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_10",
-      "label": "Aussage: Zusammen macht das 10 Milliarden Euro aus, entlastet einen d…",
+      "label": "Aussage: 350.000 Polizeibeamte könnte man davon [55 Mrd. Euro] finanz…",
       "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Zusammen macht das 10 Milliarden Euro aus, entlastet einen durchschnittlichen Haushalt um 160 Euro.",
-      "person": "Lisa Badum",
+      "subtype": "SPD",
+      "text": "350.000 Polizeibeamte könnte man davon [55 Mrd. Euro] finanzieren.",
+      "person": "Frauke Heiligenstadt",
       "schicht": "fallbezug"
     },
     {
@@ -1243,20 +1730,74 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Abschaffung der Gasspeicherumlage und die Senkung der Netzentgelte. Die Gasspeicherumlage wurde tatsächlich abgeschafft, was eine Entlastung von etwa 1,6 Mrd. Euro bedeutete (Bundesregierung, 2022). Die Senkung der Netzentgelte wurde ebenfalls beschlossen, a",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage unterstellt, dass 55 Mrd. Euro ausreichen würden, um 350.000 Polizeibeamte zu finanzieren. Der Beleg [1 Mrd. Euro mehr für Innere Sicherheit | DPolG BPolG] zeigt, dass 1 Mrd. Euro für 1.000 zusätzliche Stellen bei der Bundespolizei vorgesehen sind. Hochgerechnet auf 55 Mrd. Euro",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_abschaffung_der_gasspeicherumlage",
-      "label": "Bundesregierung - Abschaffung der Gasspeicherumlage",
+      "id": "quelle_1_mrd_euro_mehr_f_r_innere_sicherheit_dpolg_bpolg_dpolg_bundespolizeigewerkschaft",
+      "label": "1 Mrd. Euro mehr für Innere Sicherheit | DPolG BPolG - DPolG Bundespolizeigewerkschaft",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/energiesicherheit/gasspeicherumlage-2075018",
+      "url": "https://www.dpolg-bundespolizei.de/aktuelles/news/1-mrd-euro-mehr-fuer-innere-sicherheit/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_11",
+      "label": "Aussage: In den ersten zwei Monaten ist der Tankrabatt auch vor vier …",
+      "type": "Aussage",
+      "subtype": "SPD",
+      "text": "In den ersten zwei Monaten ist der Tankrabatt auch vor vier Jahren nahezu zu 100 Prozent weitergegeben worden.",
+      "person": "Frauke Heiligenstadt",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_11",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass der Tankrabatt vor vier Jahren (also 2022) in den ersten zwei Monaten nahezu zu 100 Prozent an die Verbraucher weitergegeben wurde. Die bereitgestellten Belege widerlegen dies jedoch. Laut dem Bundeskartellamt und Untersuchungen (z. B. von FragDenStaat, zitiert i",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_tankrabatt_wikipedia",
+      "label": "Tankrabatt – Wikipedia",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.wikipedia.org/wiki/Tankrabatt",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_12",
+      "label": "Aussage: Zusammen macht das 10 Milliarden Euro aus, entlastet einen d…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Zusammen macht das 10 Milliarden Euro aus, entlastet einen durchschnittlichen Haushalt um 160 Euro.",
+      "person": "Lisa Badum",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_12",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass ein Betrag von 10 Milliarden Euro einen durchschnittlichen Haushalt um 160 Euro entlastet. Die bereitgestellten Belege stützen diese konkrete Zahl nicht. Der Tagesschau-Artikel spricht von einer Haushaltslücke von 144 bis 172 Milliarden Euro bis 2029, aber es gib",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_haushaltsl_cke_der_regierung_fehlen_bis_2029_172_milliarden_euro_tagesschau_de",
+      "label": "Haushaltslücke: Der Regierung fehlen bis 2029 172 Milliarden Euro | tagesschau.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/haushaltsluecke-groesser-als-angeommen-100.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_13",
       "label": "Aussage: Wir haben die Pendlerpauschale bereits auf 38 Cent ab dem er…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -1265,25 +1806,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_11",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_13",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Pendlerpauschale wurde ab dem 1. Januar 2022 auf 0,38 Euro pro Kilometer ab dem ersten Kilometer erhöht (vorher ab dem 21. Kilometer). Dies wurde im Rahmen des Steuerentlastungsgesetzes 2022 beschlossen.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die Pendlerpauschale ab 2026 tatsächlich auf 38 Cent pro Kilometer erhöht wird und dies bereits ab dem ersten Kilometer gilt. Allerdings ist die Aussage irreführend, weil die Erhöhung noch nicht in Kraft getreten ist, sondern erst ab dem 1. Januar 2026 wi",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesfinanzministerium_steuerentlastungsgesetz_2022",
-      "label": "Bundesfinanzministerium - Steuerentlastungsgesetz 2022",
+      "id": "quelle_pendlerpauschale_berechnen_so_hoch_ist_die_entfernungspauschale_2026",
+      "label": "Pendlerpauschale berechnen: So hoch ist die Entfernungspauschale 2026",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/19_Legislaturperiode/2022-03-23-Steuerentlastungsgesetz/0-Gesetz.html",
+      "url": "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/pendlerpauschale/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_12",
+      "id": "aussage_14",
       "label": "Aussage: Wir haben die Stromsteuer für das produzierende Gewerbe gese…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -1292,25 +1833,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_12",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_14",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Stromsteuer für das produzierende Gewerbe wurde von 2,05 Cent/kWh auf 1,537 Cent/kWh gesenkt (ab 2024 weiter auf 0,5 Cent/kWh). Dies wurde im Rahmen des Dritten Entlastungspakets der Bundesregierung beschlossen.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die Stromsteuer für das produzierende Gewerbe tatsächlich auf den EU-Mindeststeuersatz von 0,50 Euro/MWh gesenkt wurde. Allerdings handelt es sich nicht um eine generelle Senkung der Stromsteuer, sondern um eine Entlastung bzw. Erstattung, die an bestimmt",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_drittes_entlastungspaket",
-      "label": "Bundesregierung - Drittes Entlastungspaket",
+      "id": "quelle_deutscher_bundestag_stromsteuer_soll_auf_eu_mindeststeuersatz_gesenkt_werden",
+      "label": "Deutscher Bundestag - Stromsteuer soll auf EU-Mindeststeuersatz gesenkt werden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/entlastungspaket/drittes-entlastungspaket-2069952",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw41-de-energiesteuergesetz-1111808",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_13",
+      "id": "aussage_15",
       "label": "Aussage: Das Deutschlandticket kostet derzeit 63 Euro im Monat, das s…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1319,52 +1860,52 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_13",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der offizielle Preis des Deutschlandtickets beträgt seit Einführung 49 Euro, seit Mai 2024 jedoch 63 Euro pro Monat. Die Umrechnung auf 2 Euro pro Tag ist korrekt (63 Euro / 30 Tage ≈ 2,10 Euro, gerundet 2 Euro).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundesregierung_deutschlandticket",
-      "label": "Bundesregierung: Deutschlandticket",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutschlandticket-2154370",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_14",
-      "label": "Aussage: Der Vorschlag [des 9-Euro-Tickets] würde im Jahr über 9 Mill…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Der Vorschlag [des 9-Euro-Tickets] würde im Jahr über 9 Milliarden Euro kosten.",
-      "person": "Michael Donth",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_14",
+      "id": "faktencheck_15",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Kosten des ursprünglichen 9-Euro-Tickets (Juni–August 2022) beliefen sich auf etwa 2,5 Mrd. Euro für drei Monate (Quelle: Bundesregierung). Eine Hochrechnung auf 12 Monate ergäbe ca. 10 Mrd. Euro. Die Aussage ist plausibel, aber die genaue Zahl hängt von Annahmen zur Nutzung ab. Eine am",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass das Deutschlandticket derzeit 63 Euro im Monat kostet, wird durch alle bereitgestellten Belege bestätigt (VRR, ADAC, Bahn.de). Allerdings ist die Angabe '2 Euro am Tag für den ÖPNV' irreführend, da es sich um eine gerundete Durchschnittsberechnung handelt (63 Euro / 30 Tag",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_antwort_auf_kleine_anfrage_drucksache_20_3050",
-      "label": "Bundesregierung: Antwort auf Kleine Anfrage (Drucksache 20/3050)",
+      "id": "quelle_grenzenlose_mobilit_t_ihr_deutschlandticket_f_r_63_im_monat_vrr",
+      "label": "Grenzenlose Mobilität: Ihr DeutschlandTicket für 63 € im Monat! | VRR",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/030/2003050.pdf",
+      "url": "https://www.vrr.de/tickets-tarife/deutschlandticket/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_15",
+      "id": "aussage_16",
+      "label": "Aussage: Der Vorschlag [9-Euro-Ticket] würde im Jahr über 9 Milliarde…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Der Vorschlag [9-Euro-Ticket] würde im Jahr über 9 Milliarden Euro kosten.",
+      "person": "Michael Donth",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_16",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, der Vorschlag des 9-Euro-Tickets würde jährlich über 9 Milliarden Euro kosten. Die bereitgestellten Belege zeigen jedoch, dass die tatsächlichen Kosten für die dreimonatige Laufzeit des 9-Euro-Tickets (Juni bis August 2022) bei etwa 2,5 Milliarden Euro lagen. Selbst u",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundestag_beschlie_t_das_neun_euro_ticket",
+      "label": "Bundestag beschließt das Neun-Euro-Ticket",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2022/kw20-de-neun-euro-ticket-894660",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_17",
       "label": "Aussage: Das macht übrigens 110 Euro pro Nase aus, was Sie hier ausge…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1373,25 +1914,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_15",
-      "label": "Faktencheck: irreführend",
+      "id": "faktencheck_17",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Zahl bezieht sich vermutlich auf eine fiktive Umverteilung der 9 Mrd. Euro auf die Bevölkerung (9 Mrd. / ~83 Mio. Einwohner ≈ 108 Euro). Allerdings ist dies kein direkter Kostenfaktor des Tickets, sondern eine hypothetische Belastung pro Steuerzahler. Die Aussage suggeriert eine individ",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete Ausgabe von 110 Euro pro Person ('pro Nase'), ohne Kontext zu geben, worauf sich diese Summe bezieht (z.B. monatliche Lebensmittelausgaben, ein spezifisches Projekt oder eine politische Maßnahme). Die bereitgestellten Belege liefern keine direkte B",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_destatis_bev_lkerung_deutschlands",
-      "label": "Destatis: Bevölkerung Deutschlands",
+      "id": "quelle_r_fragreddit_on_reddit_hallo_wie_viel_geld_gebt_ihr_durchschnittlich_pro_tag_f_r_essen_aus",
+      "label": "r/FragReddit on Reddit: Hallo, Wie viel Geld gebt ihr durchschnittlich pro Tag für Essen aus?",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html",
+      "url": "https://www.reddit.com/r/FragReddit/comments/16ail73/hallo_wie_viel_geld_gebt_ihr_durchschnittlich_pro/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_16",
+      "id": "aussage_18",
       "label": "Aussage: nur 1,8 Millionen echte neue Nutzer; das ist bei einem Land …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1400,119 +1941,74 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_16",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Zahl von 1,8 Millionen neuen Nutzern während des 9-Euro-Tickets wird in verschiedenen Studien und Berichten genannt, allerdings mit unterschiedlichen Definitionen von 'neuen Nutzern'. Die Gesamtbevölkerung von Deutschland beträgt etwa 83 Millionen (Stand 2022). Die Aussage ist insofern ",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_evaluationsbericht_zum_9_euro_ticket_vde",
-      "label": "Evaluationsbericht zum 9-Euro-Ticket (VDE)",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.vde.com/de/verband/presse/pressemitteilungen/pm-09-2022-9-euro-ticket",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_17",
-      "label": "Aussage: aus den 14 Millionen Deutschlandtickets 9-Euro-Tickets mache…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "aus den 14 Millionen Deutschlandtickets 9-Euro-Tickets machen würden ... dann entstünden den Verkehrsunternehmen Einnahmeverluste in Höhe von ungefähr 9 Milliarden Euro",
-      "person": "Henning Rehbaum",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_17",
+      "id": "faktencheck_18",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Berechnung der Einnahmeverluste von 9 Milliarden Euro bei einer Umstellung von 14 Millionen Deutschlandtickets auf 9-Euro-Tickets ist nicht durch öffentlich zugängliche, amtliche Quellen belegt. Die Annahme basiert auf einer hypothetischen Rechnung, die nicht transparent nachvollziehbar",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf '1,8 Millionen echte neue Nutzer' in Deutschland, ein spezifischer Wert, der in den bereitgestellten Belegen nicht erwähnt oder bestätigt wird. Die Belege enthalten allgemeine Informationen zur Bevölkerungsdichte und Einwohnerzahl Deutschlands (ca. 83 Millionen)",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_18",
-      "label": "Aussage: 35.000 Busse, die wir haben…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "35.000 Busse, die wir haben",
-      "person": "Henning Rehbaum",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_18",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Kraftfahrt-Bundesamt (KBA) gab es 2022 in Deutschland etwa 79.000 Linienbusse im öffentlichen Straßenpersonenverkehr. Die Zahl von 35.000 Bussen könnte sich auf eine spezifischere Kategorie (z. B. kommunale Verkehrsbetriebe) beziehen, ist aber nicht exakt belegt. Die Größenordnung ist ",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_kraftfahrt_bundesamt_fahrzeugbestand",
-      "label": "Kraftfahrt-Bundesamt: Fahrzeugbestand",
+      "id": "quelle_kein_passender_beleg_vorhanden",
+      "label": "Kein passender Beleg vorhanden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/bestand_node.html",
+      "url": "http://www.pdwb.de/dichtgru.htm",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_19",
-      "label": "Aussage: 83 Millionen Einwohnern…",
+      "label": "Aussage: aus den 14 Millionen Deutschlandtickets 9-Euro-Tickets mache…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "83 Millionen Einwohnern",
+      "text": "aus den 14 Millionen Deutschlandtickets 9-Euro-Tickets machen würden [...] dann entstünden den Verkehrsunternehmen Einnahmeverluste in Höhe von ungefähr 9 Milliarden Euro",
       "person": "Henning Rehbaum",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_19",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bevölkerung Deutschlands betrug 2022 laut Statistischem Bundesamt etwa 83,2 Millionen Einwohner.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass bei einer Umwandlung von 14 Millionen Deutschlandtickets in 9-Euro-Tickets Einnahmeverluste von etwa 9 Milliarden Euro für die Verkehrsunternehmen entstünden. Die bereitgestellten Belege zeigen jedoch, dass die tatsächlichen Einnahmeverluste durch das Deutschland",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_bev_lkerung_deutschlands",
-      "label": "Statistisches Bundesamt (Destatis): Bevölkerung Deutschlands",
+      "id": "quelle_deutschlandticket_vor_preisschock_verkehrsunternehmen_beklagen_millionen_verluste",
+      "label": "Deutschlandticket vor Preisschock: Verkehrsunternehmen beklagen Millionen-Verluste",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html",
+      "url": "https://www.fr.de/wirtschaft/deutschland-ticket-fuer-den-nahverkehr-koennte-2026-teurer-werden-93939892.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_20",
-      "label": "Aussage: 14 Millionen Deutschlandtickets…",
+      "label": "Aussage: bei jedem der 35 000 Busse, die wir haben, an jedem Tag im J…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "14 Millionen Deutschlandtickets",
+      "text": "bei jedem der 35 000 Busse, die wir haben, an jedem Tag im Jahr sieben Stunden Fahrzeit kürzen",
       "person": "Henning Rehbaum",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_20",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Angaben des Verbands Deutscher Verkehrsunternehmen (VDV) wurden bis Mitte 2023 etwa 14 Millionen Deutschlandtickets verkauft. Diese Zahl wird auch in offiziellen Pressemitteilungen genannt.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass bei jedem der 35.000 Busse täglich sieben Stunden Fahrzeit gekürzt werden. Die Belege zeigen jedoch, dass die maximale tägliche Lenkzeit für Busfahrer gesetzlich auf neun Stunden begrenzt ist (vgl. Bußgeldkatalog). Eine Kürzung um sieben Stunden würde die Lenkzei",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_verband_deutscher_verkehrsunternehmen_vdv_deutschlandticket",
-      "label": "Verband Deutscher Verkehrsunternehmen (VDV): Deutschlandticket",
+      "id": "quelle_lenk_und_ruhezeiten_f_r_bus_fahrer_bu_geldkatalog_2026",
+      "label": "Lenk- und Ruhezeiten für Bus-Fahrer - Bußgeldkatalog 2026",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.vdv.de/presse/pressemitteilungen.aspx",
+      "url": "https://www.bussgeldkatalog.org/lenk-und-ruhezeiten-bus/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1527,28 +2023,28 @@
     },
     {
       "id": "faktencheck_21",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Statistischen Bundesamt (Destatis) waren 2021 etwa 150.000 Menschen im öffentlichen Personennahverkehr (ÖPNV) beschäftigt. Die Zahl umfasst Beschäftigte in Verkehrsunternehmen des ÖPNV.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Heute arbeiten rund 150.000 Menschen im ÖPNV' ist im Kern richtig, weicht jedoch leicht von der genauen Zahl ab. Der Beleg des VDV (Verband Deutscher Verkehrsunternehmen) gibt an, dass in den VDV-Mitgliedsunternehmen rund 152.000 Mitarbeiter*innen beschäftigt sind. Die genannte",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_besch_ftigte_im_pnv",
-      "label": "Statistisches Bundesamt (Destatis) - Beschäftigte im ÖPNV",
+      "id": "quelle_erh_hter_personal_und_fachkr_ftebedarf_im_pnv_vdv_die_verkehrsunternehmen",
+      "label": "Erhöhter Personal- und Fachkräftebedarf im ÖPNV | VDV - Die Verkehrsunternehmen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Transport-Verkehr/Unternehmen-Verkehr/Tabellen/beschaeftigte-oepnv.html",
+      "url": "https://www.vdv.de/personal-und-fachkraeftebedarf-im-oepnv.aspx",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_22",
-      "label": "Aussage: Es müssten bis 2030 60.000 Mitarbeitende neu eingestellt wer…",
+      "label": "Aussage: Es müssten bis 2030 60 000 Mitarbeitende neu eingestellt wer…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Es müssten bis 2030 60.000 Mitarbeitende neu eingestellt werden, um den Bedarf von heute komplett zu decken und die Leistung moderat auszuweiten.",
+      "text": "Es müssten bis 2030 60 000 Mitarbeitende neu eingestellt werden, um den Bedarf von heute komplett zu decken und die Leistung moderat auszuweiten.",
       "person": "Tarek Al-Wazir",
       "schicht": "fallbezug"
     },
@@ -1558,7 +2054,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Quelle, die diese konkrete Zahl von 60.000 neuen Mitarbeitenden bis 2030 im ÖPNV bestätigt. Die Aussage basiert vermutlich auf Schätzungen oder Prognosen von Verbänden oder Studien, die jedoch nicht explizit genannt werden.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete Zahl von 60.000 neuen Mitarbeitenden bis 2030, um den aktuellen Bedarf zu decken und die Leistung moderat auszuweiten. Keiner der bereitgestellten Belege enthält jedoch Daten, Prognosen oder Studien zu einem solchen Personalbedarf in einem spezifis",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_personalbedarfsplanung_definition_methoden_beispiele",
+      "label": "Personalbedarfsplanung: Definition, Methoden, Beispiele",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.personio.de/hr-lexikon/personalbedarfsplanung/",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1576,15 +2081,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Bundesministerium für Digitales und Verkehr (BMDV) beliefen sich die Gesamtkosten des ÖPNV in Deutschland 2021 auf etwa 38,5 Milliarden Euro. Die Zahl von 39 Milliarden Euro ist somit annähernd korrekt, aber nicht für das Jahr 2024 belegt.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt Gesamtkosten von knapp 39 Milliarden Euro pro Jahr für den ÖPNV in Deutschland. Die bereitgestellten Belege (tagesschau.de und deutschebahn.com) geben jedoch an, dass die Betriebskosten des ÖPNV bei etwa 25 Milliarden Euro jährlich liegen. Diese Zahl bezieht sich allerding",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_digitales_und_verkehr_bmdv_finanzierung_des_pnv",
-      "label": "Bundesministerium für Digitales und Verkehr (BMDV) - Finanzierung des ÖPNV",
+      "id": "quelle_studie_pnv_leistet_wirtschaftlich_viel_mehr_als_er_kostet_tagesschau_de",
+      "label": "Studie: ÖPNV leistet wirtschaftlich viel mehr als er kostet | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmvi.de/SharedDocs/DE/Artikel/G/finanzierung-oepnv.html",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/oeffentlicher-nahverkehr-kosten-leistungen-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -1599,11 +2104,20 @@
     },
     {
       "id": "faktencheck_24",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Quelle, die die Fahrgasteinnahmen für das Jahr 2024 bereits veröffentlicht hat. Die Aussage ist eine Prognose oder Schätzung und kann daher nicht überprüft werden.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass die Fahrgäste der Deutschen Bahn im Jahr 2024 etwas über 12 Milliarden Euro 'davontrugen'. Die bereitgestellten Belege beziehen sich jedoch auf den Konzernumsatz der Deutschen Bahn und deren Verluste, nicht auf die direkten Einnahmen oder Ausgaben der Fahrgäste. ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_deutsche_bahn_mit_milliardenverlust_trotz_rekord_fahrgastzahlen_airliners_de",
+      "label": "Deutsche Bahn mit Milliardenverlust trotz Rekord-Fahrgastzahlen - airliners.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.airliners.de/deutsche-bahn-schreibt-2025-operativ-gewinn-fahrgastzahl-rekordhoch/86767",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -1617,38 +2131,56 @@
     },
     {
       "id": "faktencheck_25",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Basierend auf den Gesamtkosten von etwa 38,5 Milliarden Euro (2021) und Fahrgasteinnahmen von etwa 12,5 Milliarden Euro (2021) ergibt sich ein Defizit von etwa 26 Milliarden Euro. Die Zahl von 27 Milliarden Euro ist somit annähernd korrekt, aber nicht für 2024 belegt.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet ein Defizit von knapp 27 Milliarden Euro, das mit Steuermitteln ausgeglichen wird. Die bereitgestellten Belege zeigen jedoch unterschiedliche Defizite: Das Statistische Bundesamt nennt ein gesamtstaatliches Defizit von 119,1 Milliarden Euro für 2025, während der Artike",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_staatsdefizit_erh_ht_sich_im_jahr_2025_leicht_auf_119_1_milliarden_euro_statistisches_bundesamt",
+      "label": "Staatsdefizit erhöht sich im Jahr 2025 leicht auf 119,1 Milliarden Euro - Statistisches Bundesamt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_060_813.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_26",
-      "label": "Aussage: Es ist tatsächlich das dritte Mal in dieser Legislaturperiod…",
+      "label": "Aussage: Der Nahverkehr ist dank Deutschlandticket heute schon ein Mi…",
       "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Es ist tatsächlich das dritte Mal in dieser Legislaturperiode, dass wir das Thema Kreislaufwirtschaft behandeln.",
-      "person": "Michael Thews",
+      "subtype": "AfD",
+      "text": "Der Nahverkehr ist dank Deutschlandticket heute schon ein Milliardenzuschussgeschäft.",
+      "person": "Maximilian Kneller",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_26",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Statistik oder Dokumentation, die die Häufigkeit der Behandlung des Themas Kreislaufwirtschaft im Bundestag in dieser Legislaturperiode auflistet. Eine Überprüfung wäre nur über interne Protokolle oder Drucksachen möglich, die nicht allgemein v",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der Nahverkehr dank Deutschlandticket heute schon ein 'Milliardenzuschussgeschäft' ist, ist im Kern richtig, da Bund und Länder jeweils 1,5 Milliarden Euro jährlich für das Deutschlandticket bereitstellen (insgesamt also 3 Milliarden Euro pro Jahr). Allerdings beziehen sic",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_finanzierung_des_deutschlandtickets_bis_2030_gesichert_tagesschau_de",
+      "label": "Finanzierung des Deutschlandtickets bis 2030 gesichert | tagesschau.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tagesschau.de/inland/gesellschaft/deutschlandticket-finanzierung-108.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_27",
-      "label": "Aussage: Wir haben ja gerade die Entwicklung, dass wir weniger Verpac…",
+      "label": "Aussage: Die Baukosten für das einspurige TSB liegen […] bei etwa 71,…",
       "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Wir haben ja gerade die Entwicklung, dass wir weniger Verpackungen, weniger Abfälle haben.",
-      "person": "Michael Thews",
+      "subtype": "AfD",
+      "text": "Die Baukosten für das einspurige TSB liegen […] bei etwa 71,1 Millionen Euro, die für den Tramausbau bei 68,1 Millionen.",
+      "person": "Maximilian Kneller",
       "schicht": "fallbezug"
     },
     {
@@ -1657,52 +2189,52 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Destatis ist das Aufkommen an Verpackungsabfällen in Deutschland in den letzten Jahren leicht rückläufig. 2021 betrug das Verpackungsaufkommen 18,9 Mio. Tonnen (2020: 18,8 Mio. Tonnen), was jedoch nur einen minimalen Rückgang darstellt. Langfristig ist das Aufkommen jedoch gestiegen (2",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt konkrete Baukosten für das einspurige TSB (Transrapid-Strecke Nürnberg, auch 'TSB' genannt) mit 71,1 Millionen Euro und für den Tramausbau mit 68,1 Millionen Euro. Der erste Beleg bestätigt zwar, dass die geschätzten Baukosten für *beide Projekte zusammen* bei etwa 70 Mill",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_destatis_verpackungsabf_lle",
-      "label": "Destatis – Verpackungsabfälle",
+      "id": "quelle_n_rnberger_magnetschwebebahn_studie_offenbart_offene_fragen",
+      "label": "Nürnberger Magnetschwebebahn: Studie offenbart offene Fragen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Umwelt/Abfallwirtschaft/Tabellen/verpackungsabfaelle.html",
+      "url": "https://www.vorreiter-zeitung.de/post/nuernberger-magnetschwebebahn-studie-offenbart-offene-fragen",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_28",
-      "label": "Aussage: 310 000 Beschäftigte, 105 Milliarden Euro Umsatz [in der Kre…",
+      "label": "Aussage: Es ist tatsächlich das dritte Mal in dieser Legislaturperiod…",
       "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "310 000 Beschäftigte, 105 Milliarden Euro Umsatz [in der Kreislaufwirtschaft].",
-      "person": "Violetta Bock",
+      "subtype": "SPD",
+      "text": "Es ist tatsächlich das dritte Mal in dieser Legislaturperiode, dass wir das Thema Kreislaufwirtschaft behandeln.",
+      "person": "Michael Thews",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_28",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Umweltbundesamt und Destatis gab es 2020 etwa 282.000 Beschäftigte in der Abfallwirtschaft (inkl. Recycling). Die 310.000 Beschäftigten sind plausibel, wenn man die gesamte Kreislaufwirtschaft (inkl. Wasserwirtschaft, Rohstoffaufbereitung etc.) betrachtet. Der Umsatz von 105 Mrd. Euro ",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege geben keinen konkreten Aufschluss darüber, wie oft das Thema Kreislaufwirtschaft in der aktuellen Legislaturperiode behandelt wurde. Die DIP-Vorgänge zeigen zwar eine intensive Auseinandersetzung mit dem Thema, aber eine genaue Anzahl von drei Malen wird nicht be",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_umweltwirtschaftsatlas_deutschland_2022_uba",
-      "label": "Umweltwirtschaftsatlas Deutschland 2022 (UBA)",
+      "id": "quelle_dip_vorgang_die_position_der_bundesregierung_zu_dem_von_der_europ_ischen_kommission_vorangetriebenen_konzept_einer_kreislaufwirtschaft",
+      "label": "DIP-Vorgang: Die Position der Bundesregierung zu dem von der Europäischen Kommission vorangetriebenen Konzept einer Kreislaufwirtschaft",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.umweltbundesamt.de/publikationen/umweltwirtschaftsatlas-deutschland-2022",
+      "url": "https://dip.bundestag.de/suche?term=Mal%20Legislaturperiode%20Thema%20Kreislaufwirtschaft",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_29",
-      "label": "Aussage: Deutschland ist weltweit führend im Recycling. Fast jede vie…",
+      "label": "Aussage: Wir haben ja gerade die Entwicklung, dass wir weniger Verpac…",
       "type": "Aussage",
-      "subtype": "Die Linke",
-      "text": "Deutschland ist weltweit führend im Recycling. Fast jede vierte Patentanmeldung kommt von hier.",
-      "person": "Violetta Bock",
+      "subtype": "SPD",
+      "text": "Wir haben ja gerade die Entwicklung, dass wir weniger Verpackungen, weniger Abfälle haben.",
+      "person": "Michael Thews",
       "schicht": "fallbezug"
     },
     {
@@ -1711,182 +2243,200 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Deutschland ist führend in Recyclingquoten (z. B. Verpackungen: ~65% laut UBA), aber nicht unbedingt 'weltweit führend' in allen Bereichen. Die Aussage zu Patenten bezieht sich auf die Umwelttechnik: Laut EPO (Europäisches Patentamt) stammten 2021 etwa 12% der globalen Patentanmeldungen im ",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass es eine Entwicklung hin zu weniger Verpackungen und weniger Abfällen gibt, ist im Kern richtig, aber nicht allgemein gültig. Der Beleg des Umweltbundesamts zeigt für 2022 einen Rückgang der Verpackungsabfälle um 3,4 % im Vergleich zum Vorjahr (2021). Allerdings handelt es ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_epo_patentindex_2021_kreislaufwirtschaft",
-      "label": "EPO-Patentindex 2021 (Kreislaufwirtschaft)",
+      "id": "quelle_entwicklung_des_verpackungsverbrauchs_zur_entsorgung_umweltbundesamt",
+      "label": "Entwicklung des Verpackungsverbrauchs zur Entsorgung | Umweltbundesamt",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.epo.org/about-us/annual-reports-statistics/statistics/2021/statistics-on-patenting-activities.html",
+      "url": "https://www.umweltbundesamt.de/bild/entwicklung-des-verpackungsverbrauchs-zur",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_30",
-      "label": "Aussage: Die fernere Lebenserwartung ab 65 Jahren hat sich in den 201…",
+      "label": "Aussage: 310 000 Beschäftigte, 105 Milliarden Euro Umsatz [in der Kre…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Die fernere Lebenserwartung ab 65 Jahren hat sich in den 2010er-Jahren nur um etwa 0,4 Jahre verlängert.",
-      "person": "Vizepräsident Omid Nouripour",
+      "subtype": "Die Linke",
+      "text": "310 000 Beschäftigte, 105 Milliarden Euro Umsatz [in der Kreislaufwirtschaft].",
+      "person": "Violetta Bock",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_30",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) stieg die fernere Lebenserwartung 65-Jähriger in Deutschland von 2010 bis 2019 bei Männern von 17,6 auf 18,2 Jahre und bei Frauen von 20,7 auf 21,1 Jahre. Dies entspricht einer durchschnittlichen Verlängerung von etwa 0,4 bis 0,5 Jahren.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt 310.000 Beschäftigte und 105 Milliarden Euro Umsatz in der Kreislaufwirtschaft. Der Beleg des VCI (2020) bestätigt die Zahl von über 310.000 Beschäftigten, gibt jedoch einen Umsatz von rund 84 Milliarden Euro an. Die Broschüre des Bundesumweltministeriums (2025) spricht vo",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_periodensterbetafeln_f_r_deutschland",
-      "label": "Statistisches Bundesamt (Destatis) - Periodensterbetafeln für Deutschland",
+      "id": "quelle_so_ist_die_kreislaufwirtschaft_in_deutschland_aktuell_aufgestellt_320",
+      "label": "So ist die Kreislaufwirtschaft in Deutschland aktuell aufgestellt | 320°",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Sterbefaelle-Lebenserwartung/Tabellen/periodensterbetafeln.html",
+      "url": "https://320grad.de/2024/01/25/so-ist-die-kreislaufwirtschaft-in-deutschland-aktuell-aufgestellt/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_31",
-      "label": "Aussage: Das durchschnittliche Renteneintrittsalter ist dagegen um 1,…",
+      "label": "Aussage: Deutschland ist weltweit führend im Recycling. Fast jede vie…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Das durchschnittliche Renteneintrittsalter ist dagegen um 1,3 Jahre gestiegen.",
-      "person": "Vizepräsident Omid Nouripour",
+      "subtype": "Die Linke",
+      "text": "Deutschland ist weltweit führend im Recycling. Fast jede vierte Patentanmeldung kommt von hier.",
+      "person": "Violetta Bock",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_31",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Deutschem Rentenversicherungsbericht stieg das durchschnittliche Renteneintrittsalter von 2010 (63,5 Jahre) bis 2022 (64,4 Jahre) um etwa 0,9 Jahre. Für den Zeitraum 2010 bis 2020 (64,6 Jahre) beträgt der Anstieg ca. 1,1 Jahre. Die Angabe von 1,3 Jahren ist leicht überhöht, aber in der",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Deutschland weltweit führend im Recycling ist, wird durch die Belege gestützt, insbesondere durch die Studien der Bertelsmann-Stiftung und die Angaben des Deutschen Patent- und Markenamts. Allerdings weicht die Angabe 'Fast jede vierte Patentanmeldung kommt von hier' deutl",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_deutsche_rentenversicherung_rentenversicherungsbericht_2023",
-      "label": "Deutsche Rentenversicherung - Rentenversicherungsbericht 2023",
+      "id": "quelle_studie_deutschland_weltweit_f_hrend_bei_technologien_f_r_die_kreislaufwirtschaft_ostasien_holt_schnell_auf",
+      "label": "Studie - Deutschland weltweit führend bei Technologien für die Kreislaufwirtschaft – Ostasien holt schnell auf",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/rv-berichte/rv_bericht_2023.pdf",
+      "url": "https://www.bertelsmann-stiftung.de/de/themen/aktuelle-meldungen/2026/deutschland-weltweit-fuehrend-bei-technologien-fuer-die-kreislaufwirtschaft-ostasien-holt-schnell-auf",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_32",
-      "label": "Aussage: 1 Euro für Rehamaßnahmen erwirtschaftet nach zwei Jahren run…",
+      "label": "Aussage: Die fernere Lebenserwartung ab 65 Jahren hat sich in den 201…",
       "type": "Aussage",
       "subtype": "",
-      "text": "1 Euro für Rehamaßnahmen erwirtschaftet nach zwei Jahren rund 5 Euro.",
-      "person": "Vizepräsident Omid Nouripour",
+      "text": "Die fernere Lebenserwartung ab 65 Jahren hat sich in den 2010er-Jahren nur um etwa 0,4 Jahre verlängert.",
+      "person": "Omid Nouripour",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_32",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Studien der Deutschen Rentenversicherung zeigen, dass medizinische Rehabilitation volkswirtschaftlich rentabel ist. Eine häufig zitierte Studie (2015) beziffert den Return on Investment (ROI) auf etwa 5 Euro pro investiertem Euro über einen längeren Zeitraum (nicht zwingend nach zwei Jahren",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem DIP-Vorgang zur 'Regelaltersgrenze für die Rente und die Entwicklung von Lebenserwartung' wird die fernere Lebenserwartung ab 65 Jahren in den 2010er-Jahren mit einer Zunahme von etwa 0,4 Jahren beziffert. Dies stützt die Aussage direkt. Ergänzend zeigt das Statistische Bundesamt, ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_deutsche_rentenversicherung_kosten_und_nutzen_der_medizinischen_rehabilitation",
-      "label": "Deutsche Rentenversicherung - Kosten und Nutzen der medizinischen Rehabilitation",
+      "id": "quelle_dip_vorgang_regelaltersgrenze_f_r_die_rente_und_die_entwicklung_von_lebenserwartung_beziehungsweise_deren_ungleichheiten",
+      "label": "DIP-Vorgang: Regelaltersgrenze für die Rente und die Entwicklung von Lebenserwartung beziehungsweise deren Ungleichheiten",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Experten/rehabilitation/rehabilitationswissenschaftliche_kolloquien/2015/band_25/02_03_schneider.pdf",
+      "url": "https://dip.bundestag.de/suche?term=Lebenserwartung%20Jahren%20Jahre",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_33",
-      "label": "Aussage: Das Rehabudget hat 2025 erstmals nicht gereicht.…",
+      "label": "Aussage: Das durchschnittliche Renteneintrittsalter ist dagegen um 1,…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Das Rehabudget hat 2025 erstmals nicht gereicht.",
-      "person": "Vizepräsident Omid Nouripour",
+      "text": "Das durchschnittliche Renteneintrittsalter ist dagegen um 1,3 Jahre gestiegen.",
+      "person": "Omid Nouripour",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_33",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Aktuelle Daten oder offizielle Prognosen der Deutschen Rentenversicherung zur Budgetausschöpfung 2025 liegen öffentlich nicht vor. Die Aussage bezieht sich vermutlich auf interne Planungen oder Schätzungen, die nicht verifiziert werden können.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg vom Demografieportal gibt an, dass das durchschnittliche Zugangsalter in gesetzliche Altersrenten seit Ende der 1990er Jahre um zwei Jahre gestiegen ist. Die Aussage spricht jedoch von einem Anstieg um 1,3 Jahre, was sich vermutlich auf einen kürzeren oder spezifischeren Zeitraum ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_belastbare_quelle_verf_gbar",
-      "label": "Keine belastbare Quelle verfügbar",
+      "id": "quelle_demografieportal_fakten_renteneintrittsalter",
+      "label": "Demografieportal - Fakten - Renteneintrittsalter",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.demografie-portal.de/DE/Fakten/renteneintrittsalter.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_34",
-      "label": "Aussage: Die Erwerbsminderungsrente (EM-Rente) macht 15 bis 18 Prozen…",
+      "label": "Aussage: 1 Euro für Rehamaßnahmen erwirtschaftet nach zwei Jahren run…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Die Erwerbsminderungsrente (EM-Rente) macht 15 bis 18 Prozent der Neurenten aus.",
-      "person": "Vizepräsident Omid Nouripour",
+      "text": "1 Euro für Rehamaßnahmen erwirtschaftet nach zwei Jahren rund 5 Euro.",
+      "person": "Omid Nouripour",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_34",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Rentenatlas der Deutschen Rentenversicherung lag der Anteil der Erwerbsminderungsrenten an allen Neurentnern 2022 bei etwa 17,5 Prozent (Männer: 16,5 %, Frauen: 18,5 %).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_deutsche_rentenversicherung_rentenatlas_2023",
-      "label": "Deutsche Rentenversicherung - Rentenatlas 2023",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/rv-atlas/rv_atlas_2023.pdf",
-      "stand": "",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine Informationen oder Daten, die die Aussage stützen, dass 1 Euro für Rehamaßnahmen nach zwei Jahren rund 5 Euro erwirtschaftet. Die Belege behandeln Themen wie den Euro-Rettungsschirm, Rettungspakete für Euro-Staaten, den europäischen Binnenmarkt un",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_35",
-      "label": "Aussage: Fast die Hälfte der Anträge auf Erwerbsminderungsrente wird …",
+      "label": "Aussage: Die Erwerbsminderungsrente (EM-Rente) macht 15 bis 18 Prozen…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Fast die Hälfte der Anträge auf Erwerbsminderungsrente wird abgelehnt.",
-      "person": "Vizepräsident Omid Nouripour",
+      "text": "Die Erwerbsminderungsrente (EM-Rente) macht 15 bis 18 Prozent der Neurenten aus.",
+      "person": "Omid Nouripour",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_35",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistik der Deutschen Rentenversicherung wurden 2022 etwa 45 % der Anträge auf Erwerbsminderungsrente abgelehnt (Bewilligungsquote: 55 %).",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Erwerbsminderungsrente (EM-Rente) 15 bis 18 Prozent der Neurenten ausmacht, wird durch die verfügbaren Belege nicht gestützt. Laut einer Veröffentlichung der Deutschen Rentenversicherung aus dem Jahr 2021 (nicht direkt in den Belegen enthalten, aber als Allgemeinwissen",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_deutsche_rentenversicherung_statistikportal",
-      "label": "Deutsche Rentenversicherung - Statistikportal",
+      "id": "quelle_erwerbsminderungsrenten_deutsche_rentenversicherung",
+      "label": "Erwerbsminderungsrenten | Deutsche Rentenversicherung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Statistiken-und-Berichte/statistiken/statistiken_node.html",
+      "url": "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Erwerbsminderungsrente/erwerbsminderungsrente_node.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_36",
+      "label": "Aussage: Fast die Hälfte der Anträge auf Erwerbsminderungsrente wird …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Fast die Hälfte der Anträge auf Erwerbsminderungsrente wird abgelehnt.",
+      "person": "Omid Nouripour",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_36",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass fast die Hälfte der Anträge auf Erwerbsminderungsrente abgelehnt wird, ist im Kern richtig, aber die genaue Zahl weicht leicht ab. Der Beleg von Hopkins Law nennt 'rund 40 %' der Anträge als abgelehnt, was nahe an der Aussage 'fast die Hälfte' liegt. Der Beleg des SoVD Sch",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_erwerbsminderungsrente_abgelehnt_die_h_ufigsten_gr_nde",
+      "label": "Erwerbsminderungsrente abgelehnt – die häufigsten Gründe",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.sovd-sh.de/aktuelles/meldung/erwerbsminderungsrente-abgelehnt-die-haeufigsten-gruende",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_37",
       "label": "Aussage: Fast 1,8 Millionen Menschen sind ganz oder teilweise auf die…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1895,16 +2445,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_36",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_37",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut der Deutschen Rentenversicherung erhielten Ende 2022 etwa 1,8 Millionen Menschen eine Rente wegen Erwerbsminderung (voll oder teilweise).",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine Zahl von 'fast 1,8 Millionen Menschen', die ganz oder teilweise auf die Erwerbsminderungsrente angewiesen sind. Die bereitgestellten Belege sprechen jedoch von rund 3 Millionen Menschen, die von Zuschlägen oder Erhöhungen der Erwerbsminderungsrente profitieren (Bundes",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_37",
+      "id": "quelle_faq_erwerbsminderungsrente_im_berblick_bundesregierung",
+      "label": "FAQ: Erwerbsminderungsrente im Überblick | Bundesregierung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/faq-erwerbsminderungsrenten-2266870",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_38",
       "label": "Aussage: Dazu kommen noch mal so viele, die gesundheitlich sehr stark…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -1913,16 +2472,16 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_37",
+      "id": "faktencheck_38",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik, die diese Aussage mit einer konkreten Zahl untermauert. Schätzungen oder Studien zu diesem Personenkreis sind nicht explizit in der Rede genannt oder allgemein bekannt.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Anzahl von Menschen, die gesundheitlich stark beeinträchtigt sind, aber keinen Anspruch auf Rente haben. Die bereitgestellten Belege behandeln zwar Themen wie Rentenanspruch, Mindestversicherungszeit, Hinzuverdienst und Grundrente, liefern jedoch keine konkr",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_38",
+      "id": "aussage_39",
       "label": "Aussage: fast die Hälfte der Anträge auf Erwerbsminderungsrente abgel…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -1931,25 +2490,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_38",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_39",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut der Deutschen Rentenversicherung wurden im Jahr 2022 etwa 44,5 % der Anträge auf Erwerbsminderungsrente abgelehnt. Die Aussage ist damit quantitativ korrekt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Ablehnungsquote von Anträgen auf Erwerbsminderungsrente. Die bereitgestellten Belege thematisieren vor allem die Höhe der Teilerwerbsminderungsrente (die etwa die Hälfte der vollen Erwerbsminderungsrente beträgt) und andere Aspekte, aber nicht direkt die Abl",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_deutsche_rentenversicherung_rentenversicherung_in_zeitreihen_2023",
-      "label": "Deutsche Rentenversicherung - Rentenversicherung in Zeitreihen 2023",
+      "id": "quelle_gesund_l_nger_arbeiten_und_erwerbsminderungsrente_verbessern",
+      "label": "Gesund länger arbeiten und Erwerbsminderungsrente verbessern",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/rv_in_zeitreihen.html",
+      "url": "https://dip.bundestag.de/suche?term=H%C3%A4lfte%20Antr%C3%A4ge%20Erwerbsminderungsrente",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_39",
+      "id": "aussage_40",
       "label": "Aussage: 50 Prozent der Beschäftigten [sagten], dass sie am Arbeitspl…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -1958,25 +2517,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_39",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_40",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Zahl stammt aus der DGB-Befragung „DGB-Index Gute Arbeit“ (2022), in der 50 % der Beschäftigten angaben, aufgrund von Zeitdruck nicht bis zum Renteneintrittsalter gesund arbeiten zu können.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass 50 Prozent der Beschäftigten aufgrund von Zeitdruck am Arbeitsplatz nicht glauben, gesund das gesetzliche Renteneintrittsalter zu erreichen. Die bereitgestellten Belege enthalten keine direkte Bestätigung dieser konkreten Prozentzahl. Der DIW-Bericht (DIW Berlin)",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_dgb_index_gute_arbeit_bericht_2022",
-      "label": "DGB-Index Gute Arbeit - Bericht 2022",
+      "id": "quelle_diw_berlin_rente_nach_45_jahren_auch_personen_mit_geringer_arbeitsbelastung_gehen_fr_hzeitig_abschlagsfrei_in_ruhestand",
+      "label": "DIW Berlin: Rente nach 45 Jahren: Auch Personen mit geringer Arbeitsbelastung gehen frühzeitig abschlagsfrei in Ruhestand",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.dgb-index-gute-arbeit.de/",
+      "url": "https://www.diw.de/de/diw_01.c.927861.de/publikationen/wochenberichte/2024_48_1/rente_nach_45_jahren__auch_personen_mit_geringer_arbeitsbelastung_gehen_fruehzeitig_abschlagsfrei_in_ruhestand.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_40",
+      "id": "aussage_41",
       "label": "Aussage: In meinem Wahlkreis Oldenburg zum Beispiel werden Neubauten …",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -1985,16 +2544,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_40",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_41",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen, amtlichen Statistiken oder Berichte, die diese spezifische Aussage für den Wahlkreis Oldenburg belegen. Eine solche Entwicklung wäre lokal begrenzt und müsste durch kommunale Daten oder Aussagen des Netzbetreibers verifiziert werden.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage suggeriert, dass in Oldenburg generell keine Neubauten mehr an das Gasnetz angeschlossen werden. Der bereitgestellte Beleg von NWZ Online zeigt jedoch, dass aktuell eine neue Erdgasleitung in der Region Oldenburg gebaut wird, die zukünftig verflüssigtes Erdgas transportieren sol",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_41",
+      "id": "quelle_von_etzel_bis_drohne_baustart_in_oberlethe_f_r_neue_erdgasleitung_abschnitt_bis_nordrhein_westfalen_ist_90_km_lang",
+      "label": "Von Etzel bis Drohne: Baustart in Oberlethe für neue Erdgasleitung – Abschnitt bis Nordrhein-Westfalen ist 90 km lang",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.nwzonline.de/oldenburg-kreis/von-etzel-bis-drohne-baustart-in-oberlethe-fuer-neue-erdgasleitung-abschnitt-bis-nordrhein-westfalen-ist-90-km-lang_a_4,2,3009038502.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_42",
       "label": "Aussage: Der Netzbetreiber EWE, ebenfalls aus meinem Wahlkreis, baut …",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -2003,25 +2571,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_41",
+      "id": "faktencheck_42",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. EWE hat tatsächlich den Ausbau von Gasnetzen reduziert, allerdings nicht vollständig eingestellt. Laut EWE-Geschäftsberichten und öffentlichen Aussagen liegt der Fokus auf der Integration von Wasserstoff und der Wärmewende, aber es gibt weiterhin Gasnetzprojekte, insbesondere für bestehende",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass EWE seit vier Jahren keine Gasnetze mehr baut, wird durch die bereitgestellten Belege nicht direkt bestätigt oder widerlegt. Die EWE NETZ GmbH betreibt nach eigenen Angaben weiterhin Gasnetze (Beleg: 'Wir betreiben hochmoderne Netze für Strom, Erdgas, Trinkwasser & Telekom",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ewe_gesch_ftsbericht_2022",
-      "label": "EWE Geschäftsbericht 2022",
+      "id": "quelle_netzbetreiber_in_ihrer_region_ewe_netz_gmbh",
+      "label": "Netzbetreiber in Ihrer Region | EWE NETZ GmbH",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.ewe.com/de/ueber-ewe/geschaeftsberichte",
+      "url": "https://www.ewe-netz.de/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_42",
+      "id": "aussage_43",
       "label": "Aussage: Die Gasnachfrage in Deutschland wird zwangsläufig sinken.…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -2030,25 +2598,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_42",
+      "id": "faktencheck_43",
       "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Prognosen der Bundesnetzagentur und des Bundesministeriums für Wirtschaft und Klimaschutz (BMWK) wird die Gasnachfrage in Deutschland aufgrund der Energiewende und des Ausbaus erneuerbarer Energien sowie effizienterer Technologien sinken. Dies wird durch die Ziele des Klimaschutzgesetz",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Gasnachfrage in Deutschland zwangsläufig sinken wird, wird durch mehrere Belege gestützt. Die Deloitte-Studie (Beleg 1) prognostiziert einen 'Einbruch der Erdgasnachfrage in Deutschland in den kommenden Jahrzehnten'. Die Zeitung für kommunale Wirtschaft (Beleg 2) konkr",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesnetzagentur_monitoringbericht_2022",
-      "label": "Bundesnetzagentur: Monitoringbericht 2022",
+      "id": "quelle_studie_erdgasnachfrage_in_deutschland_wird_drastisch_einbrechen",
+      "label": "Studie: Erdgasnachfrage in Deutschland wird drastisch einbrechen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Allgemeines/Bundesnetzagentur/Publikationen/Berichte/2022/Monitoringbericht_2022.pdf",
+      "url": "https://www.zfk.de/energie/gas/studie-erdgasnachfrage-in-deutschland-wird-drastisch-einbrechen",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_43",
+      "id": "aussage_44",
       "label": "Aussage: Jeden einzelnen Tag steigen in diesem Land Bürgerinnen und B…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -2057,25 +2625,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_43",
+      "id": "faktencheck_44",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Installation von Wärmepumpen und der Ausbau von Wärmenetzen nehmen zu, aber die Aussage, dass dies 'jeden einzelnen Tag' in signifikanter Zahl geschieht, ist eine Verallgemeinerung. Laut Bundesverband Wärmepumpe e.V. wurden 2022 etwa 236.000 Wärmepumpen in Deutschland installiert, was e",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage betont einen täglichen Umstieg auf klimafreundliche Alternativen wie Wärmepumpen oder Nah- und Fernwärmenetze. Die Belege zeigen zwar, dass es Initiativen und Förderungen für Wärmepumpen gibt (z. B. 'Woche der Wärmepumpe'), aber auch, dass Alternativen wie 'grünes Heizöl' diskut",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesverband_w_rmepumpe_e_v_marktstatistik_2022",
-      "label": "Bundesverband Wärmepumpe e.V.: Marktstatistik 2022",
+      "id": "quelle_woche_der_w_rmepumpe_4_10_nov",
+      "label": "Woche der Wärmepumpe | 4.-10. Nov",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.waermepumpe.de/verband/statistiken/marktstatistik/",
+      "url": "https://www.wochederwaermepumpe.de/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_44",
+      "id": "aussage_45",
       "label": "Aussage: Alleinerziehende sind in Deutschland am häufigsten von Armut…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2084,25 +2652,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_44",
+      "id": "faktencheck_45",
       "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) waren 2022 Alleinerziehende mit 42,6 % die Haushaltsgruppe mit dem höchsten Armutsrisiko. Das Armutsrisiko ist definiert als ein Nettoeinkommen von weniger als 60 % des mittleren Einkommens der Gesamtbevölkerung.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege stützen die Aussage, dass Alleinerziehende in Deutschland am häufigsten von Armut betroffen sind. Laut bpb.de waren 2015 rund ein Drittel aller Alleinerziehenden von Armut bedroht, während die Bertelsmann-Stiftung (2024) und die BAG kommunaler Frauenbüros (2023) ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_armutsgef_hrdungsquoten_nach_haushaltstyp",
-      "label": "Statistisches Bundesamt (Destatis) - Armutsgefährdungsquoten nach Haushaltstyp",
+      "id": "quelle_armutsgef_hrdung_von_alleinerziehenden_bag_kommunaler_frauenb_ros_und_gleichstellungsstellen",
+      "label": "Armutsgefährdung von Alleinerziehenden | BAG kommunaler Frauenbüros und Gleichstellungsstellen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/armutsgefaehrdungsquoten-haushaltstyp.html",
+      "url": "https://www.gleichberechtigt.org/armut/armutsgef%C3%A4hrdung-von-alleinerziehenden",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_45",
+      "id": "aussage_46",
       "label": "Aussage: Allein die von Ihnen bejubelten Zehntausenden minderjährigen…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2111,25 +2679,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_45",
-      "label": "Faktencheck: irreführend",
+      "id": "faktencheck_46",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Kosten für unbegleitete minderjährige Ausländer (UMA) werden in verschiedenen Studien und Berichten unterschiedlich beziffert. Der genannte Betrag von 100.000 Euro pro Kopf pro Jahr ist deutlich höher als die in amtlichen Quellen genannten Kosten. Laut Bundesregierung (2020) lagen die d",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass minderjährige unbegleitete Asylbewerber 100.000 Euro pro Kopf pro Jahr kosten. Die bereitgestellten Belege stützen diese Zahl nicht. Laut bpb.de (Bundeszentrale für politische Bildung) beliefen sich die asylbedingten Kosten in den letzten Jahren auf mehrere Milli",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestagsdrucksache_19_22000_antwort_der_bundesregierung_auf_eine_kleine_anfrage",
-      "label": "Bundestagsdrucksache 19/22000 - Antwort der Bundesregierung auf eine Kleine Anfrage",
+      "id": "quelle_asylbedingte_kosten_und_ausgaben_zahlen_zu_asyl_in_deutschland_bpb_de",
+      "label": "Asylbedingte Kosten und Ausgaben | Zahlen zu Asyl in Deutschland | bpb.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dipbt.bundestag.de/dip21/btd/19/220/1922000.pdf",
+      "url": "https://www.bpb.de/themen/migration-integration/zahlen-zu-asyl/265776/asylbedingte-kosten-und-ausgaben/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_46",
+      "id": "aussage_47",
       "label": "Aussage: Seit der von Göring-Eckardt ausgerufenen Multikultirevolutio…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2138,25 +2706,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_46",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_47",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine spezifische amtliche Quelle, die die Gesamtkosten für unbegleitete minderjährige Asylbewerber seit 2015 in der genannten Höhe (zweistelliger Milliardenbetrag) ausweist. Die Kosten sind zwar erheblich, aber eine konkrete Summe wird in der Aussage nicht belegt und ist in dieser ",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, Katrin Göring-Eckardt habe eine 'Multikultirevolution' ausgerufen, für die ein zweistelliger Milliardenbetrag für 'junge Gäste' geflossen sei. Keiner der bereitgestellten Belege stützt diese Behauptung. Die Rede von Göring-Eckardt (Bundestag) behandelt eine Kunstausst",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_quelle",
-      "label": "-",
+      "id": "quelle_deutscher_bundestag_rede_von_vizepr_sidentin_katrin_g_ring_eckardt_zur_ausstellungser_ffnung",
+      "label": "Deutscher Bundestag - Rede von Vizepräsidentin Katrin Göring-Eckardt zur Ausstellungseröffnung",
       "type": "Quelle",
       "subtype": "",
-      "url": "-",
+      "url": "https://www.bundestag.de/besuche/ausstellungen/kunst_ausst/rede-goering-eckardt-1008920",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_47",
+      "id": "aussage_48",
       "label": "Aussage: Laut Paritätischem Gesamtverband wären fast 1 Million Kinder…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2165,25 +2733,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_47",
-      "label": "Faktencheck: teilweise",
+      "id": "faktencheck_48",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Paritätische Gesamtverband hat tatsächlich vor den Auswirkungen von Kürzungen beim Unterhaltsvorschuss gewarnt. Allerdings bezieht sich die Zahl von fast 1 Million Kindern auf die Gesamtzahl der Kinder, die Anspruch auf Unterhaltsvorschuss haben, nicht zwingend auf diejenigen, die von k",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege bestätigen, dass der Paritätische Gesamtverband vor Streichungen oder Kürzungen beim Unterhaltsvorschuss für Alleinerziehende warnt. Allerdings findet sich in keinem der Belege eine konkrete Zahl von 'fast 1 Million Kinder', die von diesen Kürzungen betroffen wär",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_parit_tischer_gesamtverband_stellungnahme_zum_unterhaltsvorschuss",
-      "label": "Paritätischer Gesamtverband - Stellungnahme zum Unterhaltsvorschuss",
+      "id": "quelle_deutscher_bundestag_schlagabtausch_im_plenum_zur_sozial_und_familienpolitik",
+      "label": "Deutscher Bundestag - Schlagabtausch im Plenum zur Sozial- und Familienpolitik",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.der-paritaetische.de/fileadmin/user_upload/Schwerpunkte/Armut/2023/Stellungnahme_Unterhaltsvorschuss_2023.pdf",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw17-de-aktuelle-stunde-sozialabbau-1166792",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_48",
+      "id": "aussage_49",
       "label": "Aussage: die bisher geflossenen 55 Milliarden Euro deutsche Militärhi…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -2192,20 +2760,20 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_48",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_49",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesregierung beliefen sich die deutschen Militärhilfen für die Ukraine bis zum Zeitpunkt der Rede (Mitte 2024) auf etwa 55 Milliarden Euro. Diese Zahl umfasst sowohl bereits geleistete als auch zugesagte Hilfen.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine Summe von 55 Milliarden Euro an deutscher Militärhilfe für die Ukraine. Laut dem Beleg von 'Bundesregierung.de' beträgt die militärische Unterstützung tatsächlich rund 55,5 Milliarden Euro, was die Aussage im Kern bestätigt. Allerdings bezieht sich die bpb-Quelle auf ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_bersicht_ber_die_unterst_tzung_f_r_die_ukraine",
-      "label": "Bundesregierung - Übersicht über die Unterstützung für die Ukraine",
+      "id": "quelle_so_unterst_tzt_deutschland_die_ukraine_bundesregierung_de",
+      "label": "So unterstützt Deutschland die Ukraine - Bundesregierung.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/ukraine-hilfen-deutschland-2054992",
+      "url": "https://www.bundesregierung.de/breg-en/news/germany-aid-for-ukraine-2192480",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -11664,475 +12232,6 @@
       "start_sec": "",
       "herkunft": "protokoll",
       "schicht": "reaktion"
-    },
-    {
-      "id": "person_michael_thews",
-      "label": "Michael Thews",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kay_gottschalk",
-      "label": "Kay Gottschalk",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_matthias_hiller",
-      "label": "Dr. Matthias Hiller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andreas_audretsch",
-      "label": "Andreas Audretsch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_doris_achelwilm",
-      "label": "Doris Achelwilm",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jens_behrens",
-      "label": "Jens Behrens",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_j_rn_k_nig",
-      "label": "Jörn König",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_stefan_korbach",
-      "label": "Dr. Stefan Korbach",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sascha_m_ller",
-      "label": "Sascha Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christian_g_rke",
-      "label": "Christian Görke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_frauke_heiligenstadt",
-      "label": "Frauke Heiligenstadt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_iris_nieland",
-      "label": "Iris Nieland",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mechthilde_wittmann",
-      "label": "Mechthilde Wittmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lisa_badum",
-      "label": "Lisa Badum",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_julia_kl_ckner",
-      "label": "Julia Klöckner",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_fritz_g_ntzler",
-      "label": "Fritz Güntzler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_luigi_pantisano",
-      "label": "Luigi Pantisano",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_michael_donth",
-      "label": "Michael Donth",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_wolfgang_wiehle",
-      "label": "Wolfgang Wiehle",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_kr_ber",
-      "label": "Martin Kröber",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_victoria_bro_art",
-      "label": "Victoria Broßart",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_henning_rehbaum",
-      "label": "Henning Rehbaum",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_omid_nouripour",
-      "label": "Omid Nouripour",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lars_haise",
-      "label": "Lars Haise",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_anja_troff_schaffarzyk",
-      "label": "Anja Troff-Schaffarzyk",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tarek_al_wazir",
-      "label": "Tarek Al-Wazir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_fabian_fahl",
-      "label": "Dr. Fabian Fahl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_jonas_geissler",
-      "label": "Dr. Jonas Geissler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_maximilian_kneller",
-      "label": "Maximilian Kneller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_harald_orthey",
-      "label": "Harald Orthey",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_michael_blos",
-      "label": "Dr. Michael Blos",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_florian_bilic",
-      "label": "Florian Bilic",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_jan_niclas_gesenhues",
-      "label": "Dr. Jan-Niclas Gesenhues",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_violetta_bock",
-      "label": "Violetta Bock",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christian_moser",
-      "label": "Christian Moser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_seidler",
-      "label": "Stefan Seidler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_thomas_korell",
-      "label": "Thomas Korell",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_armin_grau",
-      "label": "Dr. Armin Grau",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_pascal_reddig",
-      "label": "Pascal Reddig",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ulrike_schielke_ziesing",
-      "label": "Ulrike Schielke-Ziesing",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_angelika_gl_ckner",
-      "label": "Angelika Glöckner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sarah_vollath",
-      "label": "Sarah Vollath",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_peter_aumer",
-      "label": "Peter Aumer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_thomas_stephan",
-      "label": "Thomas Stephan",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jens_peick",
-      "label": "Jens Peick",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bodo_ramelow",
-      "label": "Bodo Ramelow",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_steffen_kotr",
-      "label": "Steffen Kotré",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicklas_kappe",
-      "label": "Nicklas Kappe",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_alaa_alhamwi",
-      "label": "Dr. Alaa Alhamwi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helmut_kleebank",
-      "label": "Helmut Kleebank",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lorenz_g_sta_beutin",
-      "label": "Lorenz Gösta Beutin",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lars_rohwer",
-      "label": "Lars Rohwer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bernd_schattner",
-      "label": "Bernd Schattner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_denise_loop",
-      "label": "Denise Loop",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_wolfgang_dahler",
-      "label": "Wolfgang Dahler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_cansin_k_kt_rk",
-      "label": "Cansin Köktürk",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_reichardt",
-      "label": "Martin Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_heike_heubach",
-      "label": "Heike Heubach",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_heidi_reichinnek",
-      "label": "Heidi Reichinnek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ralph_edelh_u_er",
-      "label": "Ralph Edelhäußer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sara_nanni",
-      "label": "Sara Nanni",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anna_rathert",
-      "label": "Dr. Anna Rathert",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_truels_reichardt",
-      "label": "Truels Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_corinna_r_ffer",
-      "label": "Corinna Rüffer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_wilfried_oellers",
-      "label": "Wilfried Oellers",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jan_feser",
-      "label": "Jan Feser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_markus_reichel",
-      "label": "Dr. Markus Reichel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
     }
   ],
   "relationships": [
@@ -13270,11 +13369,11 @@
       "source_id": "aussage_0",
       "target_id": "faktencheck_0",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_lpreis_brent_brent_crude_oil_lkurs_wallstreet_online",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13291,11 +13390,11 @@
       "source_id": "aussage_1",
       "target_id": "faktencheck_1",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_bundestagsdrucksache_20_10200_gesetzentwurf_der_bundesregierung_zweites_gesetz_zur_senkung_der_energiesteuer_auf_kraftstoffe",
+      "target_id": "quelle_fragen_und_antworten_zur_befristeten_senkung_der_energiesteuer_f_r_kraftstoffe_im_stra_enverkehr_bundesfinanzministerium_service",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13312,11 +13411,11 @@
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_bundestagsdrucksache_20_10200_gesetzentwurf_der_bundesregierung_zweites_gesetz_zur_senkung_der_energiesteuer_auf_kraftstoffe",
+      "target_id": "quelle_ab_2026_entlastungen_f_r_verbraucherinnen_und_verbraucher_trotz_steigendem_co_preis_bmukn_pressemitteilung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13337,11 +13436,11 @@
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_bundesamt_f_r_strahlenschutz_tschernobyl",
+      "target_id": "quelle_strompreisentwicklung_so_teuer_wird_strom_2026",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_jens_behrens",
+      "source_id": "person_michael_thews",
       "target_id": "aussage_4",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13354,15 +13453,15 @@
       "source_id": "aussage_4",
       "target_id": "faktencheck_4",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_bundestagsdrucksache_20_8600_gesetz_zur_nderung_des_steuerberatungsgesetzes_und_anderer_gesetze",
+      "target_id": "quelle_nuklearkatastrophe_von_tschernobyl_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_jens_behrens",
+      "source_id": "person_michael_thews",
       "target_id": "aussage_5",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13375,11 +13474,11 @@
       "source_id": "aussage_5",
       "target_id": "faktencheck_5",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_bundestagsdrucksache_20_3873_gesetz_zur_tempor_ren_senkung_des_umsatzsteuersatzes_auf_gaslieferungen_ber_das_erdgasnetz",
+      "target_id": "quelle_kernenergie_in_europa_milliarden_f_r_reaktoren_und_endlager",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13396,15 +13495,15 @@
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_bundesgesetzblatt_gesetz_zur_tempor_ren_senkung_der_energiesteuer_auf_kraftstoffe",
+      "target_id": "quelle_gewerbesteuer_mindesthebesatz_steigt_auf_280_prozent",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_frauke_heiligenstadt",
+      "source_id": "person_jens_behrens",
       "target_id": "aussage_7",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13417,15 +13516,15 @@
       "source_id": "aussage_7",
       "target_id": "faktencheck_7",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_1_000_euro_pr_mie_berraschend_gescheitert_was_das_f_r_arbeitnehmende_bedeutet_kununu_news",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_frauke_heiligenstadt",
+      "source_id": "person_jens_behrens",
       "target_id": "aussage_8",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13438,11 +13537,11 @@
       "source_id": "aussage_8",
       "target_id": "faktencheck_8",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_statistisches_bundesamt_personal_im_ffentlichen_dienst",
+      "target_id": "quelle_bundestag_beschlie_t_tankrabatt_und_entlastungspr_mie_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13459,15 +13558,15 @@
       "source_id": "aussage_9",
       "target_id": "faktencheck_9",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "falsch"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_ifo_institut_evaluation_des_tankrabatts_2022",
+      "target_id": "quelle_partei_initiativen_k_nnten_den_haushalt_mit_bis_zu_188_milliarden_euro_belasten",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_lisa_badum",
+      "source_id": "person_frauke_heiligenstadt",
       "target_id": "aussage_10",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13484,11 +13583,11 @@
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_bundesregierung_abschaffung_der_gasspeicherumlage",
+      "target_id": "quelle_1_mrd_euro_mehr_f_r_innere_sicherheit_dpolg_bpolg_dpolg_bundespolizeigewerkschaft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_lisa_badum",
+      "source_id": "person_frauke_heiligenstadt",
       "target_id": "aussage_11",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13501,11 +13600,11 @@
       "source_id": "aussage_11",
       "target_id": "faktencheck_11",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_bundesfinanzministerium_steuerentlastungsgesetz_2022",
+      "target_id": "quelle_tankrabatt_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13522,42 +13621,42 @@
       "source_id": "aussage_12",
       "target_id": "faktencheck_12",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_12",
-      "target_id": "quelle_bundesregierung_drittes_entlastungspaket",
+      "target_id": "quelle_haushaltsl_cke_der_regierung_fehlen_bis_2029_172_milliarden_euro_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_michael_donth",
+      "source_id": "person_lisa_badum",
       "target_id": "aussage_13",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_13",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_13",
       "target_id": "faktencheck_13",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_13",
-      "target_id": "quelle_bundesregierung_deutschlandticket",
+      "target_id": "quelle_pendlerpauschale_berechnen_so_hoch_ist_die_entfernungspauschale_2026",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_michael_donth",
+      "source_id": "person_lisa_badum",
       "target_id": "aussage_14",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_14",
-      "target_id": "top_2",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -13568,7 +13667,7 @@
     },
     {
       "source_id": "faktencheck_14",
-      "target_id": "quelle_bundesregierung_antwort_auf_kleine_anfrage_drucksache_20_3050",
+      "target_id": "quelle_deutscher_bundestag_stromsteuer_soll_auf_eu_mindeststeuersatz_gesenkt_werden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13585,15 +13684,15 @@
       "source_id": "aussage_15",
       "target_id": "faktencheck_15",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_15",
-      "target_id": "quelle_destatis_bev_lkerung_deutschlands",
+      "target_id": "quelle_grenzenlose_mobilit_t_ihr_deutschlandticket_f_r_63_im_monat_vrr",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_henning_rehbaum",
+      "source_id": "person_michael_donth",
       "target_id": "aussage_16",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13606,15 +13705,15 @@
       "source_id": "aussage_16",
       "target_id": "faktencheck_16",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_16",
-      "target_id": "quelle_evaluationsbericht_zum_9_euro_ticket_vde",
+      "target_id": "quelle_bundestag_beschlie_t_das_neun_euro_ticket",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_henning_rehbaum",
+      "source_id": "person_michael_donth",
       "target_id": "aussage_17",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13631,7 +13730,7 @@
     },
     {
       "source_id": "faktencheck_17",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_r_fragreddit_on_reddit_hallo_wie_viel_geld_gebt_ihr_durchschnittlich_pro_tag_f_r_essen_aus",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13648,11 +13747,11 @@
       "source_id": "aussage_18",
       "target_id": "faktencheck_18",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_18",
-      "target_id": "quelle_kraftfahrt_bundesamt_fahrzeugbestand",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13669,11 +13768,11 @@
       "source_id": "aussage_19",
       "target_id": "faktencheck_19",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_19",
-      "target_id": "quelle_statistisches_bundesamt_destatis_bev_lkerung_deutschlands",
+      "target_id": "quelle_deutschlandticket_vor_preisschock_verkehrsunternehmen_beklagen_millionen_verluste",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13690,11 +13789,11 @@
       "source_id": "aussage_20",
       "target_id": "faktencheck_20",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_20",
-      "target_id": "quelle_verband_deutscher_verkehrsunternehmen_vdv_deutschlandticket",
+      "target_id": "quelle_lenk_und_ruhezeiten_f_r_bus_fahrer_bu_geldkatalog_2026",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13711,11 +13810,11 @@
       "source_id": "aussage_21",
       "target_id": "faktencheck_21",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_21",
-      "target_id": "quelle_statistisches_bundesamt_destatis_besch_ftigte_im_pnv",
+      "target_id": "quelle_erh_hter_personal_und_fachkr_ftebedarf_im_pnv_vdv_die_verkehrsunternehmen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13736,7 +13835,7 @@
     },
     {
       "source_id": "faktencheck_22",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_personalbedarfsplanung_definition_methoden_beispiele",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13757,7 +13856,7 @@
     },
     {
       "source_id": "faktencheck_23",
-      "target_id": "quelle_bundesministerium_f_r_digitales_und_verkehr_bmdv_finanzierung_des_pnv",
+      "target_id": "quelle_studie_pnv_leistet_wirtschaftlich_viel_mehr_als_er_kostet_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13774,11 +13873,11 @@
       "source_id": "aussage_24",
       "target_id": "faktencheck_24",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_24",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_deutsche_bahn_mit_milliardenverlust_trotz_rekord_fahrgastzahlen_airliners_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13795,42 +13894,42 @@
       "source_id": "aussage_25",
       "target_id": "faktencheck_25",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_25",
-      "target_id": "quelle_bundesministerium_f_r_digitales_und_verkehr_bmdv_finanzierung_des_pnv",
+      "target_id": "quelle_staatsdefizit_erh_ht_sich_im_jahr_2025_leicht_auf_119_1_milliarden_euro_statistisches_bundesamt",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_michael_thews",
+      "source_id": "person_maximilian_kneller",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_26",
-      "target_id": "top_3",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_26",
       "target_id": "faktencheck_26",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_26",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_finanzierung_des_deutschlandtickets_bis_2030_gesichert_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_michael_thews",
+      "source_id": "person_maximilian_kneller",
       "target_id": "aussage_27",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_27",
-      "target_id": "top_3",
+      "target_id": "top_2",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -13841,11 +13940,11 @@
     },
     {
       "source_id": "faktencheck_27",
-      "target_id": "quelle_destatis_verpackungsabf_lle",
+      "target_id": "quelle_n_rnberger_magnetschwebebahn_studie_offenbart_offene_fragen",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_violetta_bock",
+      "source_id": "person_michael_thews",
       "target_id": "aussage_28",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13858,15 +13957,15 @@
       "source_id": "aussage_28",
       "target_id": "faktencheck_28",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_28",
-      "target_id": "quelle_umweltwirtschaftsatlas_deutschland_2022_uba",
+      "target_id": "quelle_dip_vorgang_die_position_der_bundesregierung_zu_dem_von_der_europ_ischen_kommission_vorangetriebenen_konzept_einer_kreislaufwirtschaft",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_violetta_bock",
+      "source_id": "person_michael_thews",
       "target_id": "aussage_29",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -13883,49 +13982,49 @@
     },
     {
       "source_id": "faktencheck_29",
-      "target_id": "quelle_epo_patentindex_2021_kreislaufwirtschaft",
+      "target_id": "quelle_entwicklung_des_verpackungsverbrauchs_zur_entsorgung_umweltbundesamt",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_omid_nouripour",
+      "source_id": "person_violetta_bock",
       "target_id": "aussage_30",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_30",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_30",
       "target_id": "faktencheck_30",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_30",
-      "target_id": "quelle_statistisches_bundesamt_destatis_periodensterbetafeln_f_r_deutschland",
+      "target_id": "quelle_so_ist_die_kreislaufwirtschaft_in_deutschland_aktuell_aufgestellt_320",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_omid_nouripour",
+      "source_id": "person_violetta_bock",
       "target_id": "aussage_31",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_31",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_31",
       "target_id": "faktencheck_31",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_31",
-      "target_id": "quelle_deutsche_rentenversicherung_rentenversicherungsbericht_2023",
+      "target_id": "quelle_studie_deutschland_weltweit_f_hrend_bei_technologien_f_r_die_kreislaufwirtschaft_ostasien_holt_schnell_auf",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13942,11 +14041,11 @@
       "source_id": "aussage_32",
       "target_id": "faktencheck_32",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_32",
-      "target_id": "quelle_deutsche_rentenversicherung_kosten_und_nutzen_der_medizinischen_rehabilitation",
+      "target_id": "quelle_dip_vorgang_regelaltersgrenze_f_r_die_rente_und_die_entwicklung_von_lebenserwartung_beziehungsweise_deren_ungleichheiten",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13963,11 +14062,11 @@
       "source_id": "aussage_33",
       "target_id": "faktencheck_33",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_33",
-      "target_id": "quelle_keine_belastbare_quelle_verf_gbar",
+      "target_id": "quelle_demografieportal_fakten_renteneintrittsalter",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -13984,11 +14083,11 @@
       "source_id": "aussage_34",
       "target_id": "faktencheck_34",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_34",
-      "target_id": "quelle_deutsche_rentenversicherung_rentenatlas_2023",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14005,32 +14104,32 @@
       "source_id": "aussage_35",
       "target_id": "faktencheck_35",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_35",
-      "target_id": "quelle_deutsche_rentenversicherung_statistikportal",
+      "target_id": "quelle_erwerbsminderungsrenten_deutsche_rentenversicherung",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_pascal_reddig",
+      "source_id": "person_omid_nouripour",
       "target_id": "aussage_36",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_36",
-      "target_id": "top_4",
+      "target_id": "top_1",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_36",
       "target_id": "faktencheck_36",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_36",
-      "target_id": "quelle_deutsche_rentenversicherung_rentenatlas_2023",
+      "target_id": "quelle_erwerbsminderungsrente_abgelehnt_die_h_ufigsten_gr_nde",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14047,15 +14146,15 @@
       "source_id": "aussage_37",
       "target_id": "faktencheck_37",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_37",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_faq_erwerbsminderungsrente_im_berblick_bundesregierung",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_thomas_stephan",
+      "source_id": "person_pascal_reddig",
       "target_id": "aussage_38",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -14068,11 +14167,11 @@
       "source_id": "aussage_38",
       "target_id": "faktencheck_38",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_38",
-      "target_id": "quelle_deutsche_rentenversicherung_rentenversicherung_in_zeitreihen_2023",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14089,32 +14188,32 @@
       "source_id": "aussage_39",
       "target_id": "faktencheck_39",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_39",
-      "target_id": "quelle_dgb_index_gute_arbeit_bericht_2022",
+      "target_id": "quelle_gesund_l_nger_arbeiten_und_erwerbsminderungsrente_verbessern",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_alaa_alhamwi",
+      "source_id": "person_thomas_stephan",
       "target_id": "aussage_40",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_40",
-      "target_id": "top_5",
+      "target_id": "top_4",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_40",
       "target_id": "faktencheck_40",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_40",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_diw_berlin_rente_nach_45_jahren_auch_personen_mit_geringer_arbeitsbelastung_gehen_fr_hzeitig_abschlagsfrei_in_ruhestand",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14131,11 +14230,11 @@
       "source_id": "aussage_41",
       "target_id": "faktencheck_41",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_41",
-      "target_id": "quelle_ewe_gesch_ftsbericht_2022",
+      "target_id": "quelle_von_etzel_bis_drohne_baustart_in_oberlethe_f_r_neue_erdgasleitung_abschnitt_bis_nordrhein_westfalen_ist_90_km_lang",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14152,11 +14251,11 @@
       "source_id": "aussage_42",
       "target_id": "faktencheck_42",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_42",
-      "target_id": "quelle_bundesnetzagentur_monitoringbericht_2022",
+      "target_id": "quelle_netzbetreiber_in_ihrer_region_ewe_netz_gmbh",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14173,15 +14272,15 @@
       "source_id": "aussage_43",
       "target_id": "faktencheck_43",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_43",
-      "target_id": "quelle_bundesverband_w_rmepumpe_e_v_marktstatistik_2022",
+      "target_id": "quelle_studie_erdgasnachfrage_in_deutschland_wird_drastisch_einbrechen",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_bernd_schattner",
+      "source_id": "person_dr_alaa_alhamwi",
       "target_id": "aussage_44",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -14194,32 +14293,32 @@
       "source_id": "aussage_44",
       "target_id": "faktencheck_44",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_44",
-      "target_id": "quelle_statistisches_bundesamt_destatis_armutsgef_hrdungsquoten_nach_haushaltstyp",
+      "target_id": "quelle_woche_der_w_rmepumpe_4_10_nov",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_wolfgang_dahler",
+      "source_id": "person_bernd_schattner",
       "target_id": "aussage_45",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_45",
-      "target_id": "top_6",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_45",
       "target_id": "faktencheck_45",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_45",
-      "target_id": "quelle_bundestagsdrucksache_19_22000_antwort_der_bundesregierung_auf_eine_kleine_anfrage",
+      "target_id": "quelle_armutsgef_hrdung_von_alleinerziehenden_bag_kommunaler_frauenb_ros_und_gleichstellungsstellen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14236,11 +14335,11 @@
       "source_id": "aussage_46",
       "target_id": "faktencheck_46",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_46",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_asylbedingte_kosten_und_ausgaben_zahlen_zu_asyl_in_deutschland_bpb_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14257,11 +14356,11 @@
       "source_id": "aussage_47",
       "target_id": "faktencheck_47",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_47",
-      "target_id": "quelle_parit_tischer_gesamtverband_stellungnahme_zum_unterhaltsvorschuss",
+      "target_id": "quelle_deutscher_bundestag_rede_von_vizepr_sidentin_katrin_g_ring_eckardt_zur_ausstellungser_ffnung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -14278,11 +14377,32 @@
       "source_id": "aussage_48",
       "target_id": "faktencheck_48",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_48",
-      "target_id": "quelle_bundesregierung_bersicht_ber_die_unterst_tzung_f_r_die_ukraine",
+      "target_id": "quelle_deutscher_bundestag_schlagabtausch_im_plenum_zur_sozial_und_familienpolitik",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_wolfgang_dahler",
+      "target_id": "aussage_49",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_49",
+      "target_id": "top_6",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_49",
+      "target_id": "faktencheck_49",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_49",
+      "target_id": "quelle_so_unterst_tzt_deutschland_die_ukraine_bundesregierung_de",
       "relationship_type": "BELEGT_MIT"
     },
     {

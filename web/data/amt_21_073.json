@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 892,
-    "relationship_count": 1592,
+    "node_count": 900,
+    "relationship_count": 1588,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21073.pdf",
@@ -40,10 +40,38 @@
       "schicht": "zeitlich"
     },
     {
+      "id": "person_dorothee_b_r",
+      "label": "Dorothee Bär",
+      "type": "Person",
+      "subtype": "Bundesministerin für Forschung, Technologie und Raumfahrt",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_thorsten_frei",
+      "label": "Thorsten Frei",
+      "type": "Person",
+      "subtype": "Bundesminister für besondere Aufgaben",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_christoph_birghan",
+      "label": "Dr. Christoph Birghan",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_afd",
       "label": "AfD",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_carolin_wagner",
+      "label": "Dr. Carolin Wagner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -54,10 +82,24 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_ayse_asar",
+      "label": "Ayse Asar",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_b_ndnis_90_die_gr_nen",
       "label": "BÜNDNIS 90/DIE GRÜNEN",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_florian_oest",
+      "label": "Florian Oest",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -68,10 +110,395 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_heidi_reichinnek",
+      "label": "Heidi Reichinnek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_die_linke",
       "label": "Die Linke",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ronald_gl_ser",
+      "label": "Ronald Gläser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_daniel_baldy",
+      "label": "Daniel Baldy",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_reichardt",
+      "label": "Martin Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_konstantin_von_notz",
+      "label": "Dr. Konstantin von Notz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_rainer_kraft",
+      "label": "Dr. Rainer Kraft",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_katja_strauss_k_ster",
+      "label": "Dr. Katja Strauss-Köster",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tijen_atao_lu",
+      "label": "Tijen Ataoğlu",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicole_gohlke",
+      "label": "Nicole Gohlke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_j_rgen_go_ner",
+      "label": "Hans-Jürgen Goßner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_hans_theiss",
+      "label": "Dr. Hans Theiss",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_truels_reichardt",
+      "label": "Truels Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anja_reinalter",
+      "label": "Dr. Anja Reinalter",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_corinna_r_ffer",
+      "label": "Corinna Rüffer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_florian_m_ller",
+      "label": "Florian Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mayra_vriesema",
+      "label": "Mayra Vriesema",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_fabian_gramling",
+      "label": "Fabian Gramling",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_andrea_l_bcke",
+      "label": "Dr. Andrea Lübcke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_pascal_meiser",
+      "label": "Pascal Meiser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_marcel_emmerich",
+      "label": "Marcel Emmerich",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helge_limburg",
+      "label": "Helge Limburg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rainer_gro",
+      "label": "Rainer Groß",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_lina_seitzl",
+      "label": "Dr. Lina Seitzl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kerstin_vieregge",
+      "label": "Kerstin Vieregge",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_thomas_erndl",
+      "label": "Thomas Erndl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_schr_der",
+      "label": "Stefan Schröder",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_josephine_ortleb",
+      "label": "Josephine Ortleb",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andreas_mayer",
+      "label": "Andreas Mayer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_claudia_m_ller",
+      "label": "Claudia Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sonja_lemke",
+      "label": "Sonja Lemke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_oliver_kaczmarek",
+      "label": "Oliver Kaczmarek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bodo_ramelow",
+      "label": "Bodo Ramelow",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicole_h_chst",
+      "label": "Nicole Höchst",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_joachim_ebmeyer",
+      "label": "Joachim Ebmeyer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stephan_albani",
+      "label": "Stephan Albani",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_saskia_ludwig",
+      "label": "Dr. Saskia Ludwig",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_uwe_schulz",
+      "label": "Uwe Schulz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jens_peick",
+      "label": "Jens Peick",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sandra_stein",
+      "label": "Sandra Stein",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_j_rg_cezanne",
+      "label": "Jörg Cezanne",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_klaus_wiener",
+      "label": "Dr. Klaus Wiener",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andreas_bleck",
+      "label": "Andreas Bleck",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lars_rohwer",
+      "label": "Lars Rohwer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_alaa_alhamwi",
+      "label": "Dr. Alaa Alhamwi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_nina_scheer",
+      "label": "Dr. Nina Scheer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lorenz_g_sta_beutin",
+      "label": "Lorenz Gösta Beutin",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_koller",
+      "label": "Hans Koller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_paul_schmidt",
+      "label": "Dr. Paul Schmidt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_charlotte_antonia_neuh_user",
+      "label": "Charlotte Antonia Neuhäuser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_inge_gr_le",
+      "label": "Dr. Inge Gräßle",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rocco_kever",
+      "label": "Rocco Kever",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johann_saathoff",
+      "label": "Johann Saathoff",
+      "type": "Person",
+      "subtype": "Parl. Staatssekretär bei der Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_schahina_gambir",
+      "label": "Schahina Gambir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_carl_philipp_sassenrath",
+      "label": "Carl-Philipp Sassenrath",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_matthias_rentzsch",
+      "label": "Matthias Rentzsch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -1822,51 +2249,24 @@
     },
     {
       "id": "faktencheck_0",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen der Förderung von geschlechtersensibler Medizin und Frauengesundheit tatsächlich Mittel in dieser Höhe bereitgestellt. Die 90 Millionen Euro stammen aus dem Etat des BMBF, die zusätzlichen 10 Millionen Euro aus dem Gesundheitsministerium.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete Summe von 90 Millionen Euro (plus 10 Millionen Euro vom Gesundheitsministerium) für eine nicht näher spezifizierte Maßnahme in der aktuellen Legislaturperiode. Die bereitgestellten Belege liefern keine direkten Hinweise auf eine solche Mittelbereit",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeshaushaltsplan_2023_einzelplan_30_bundesministerium_f_r_bildung_und_forschung",
-      "label": "Bundeshaushaltsplan 2023, Einzelplan 30 (Bundesministerium für Bildung und Forschung)",
+      "id": "quelle_dip_vorgang_anzeige_des_gesundheitsministeriums_zum_gesundheitsstandort_deutschland",
+      "label": "DIP-Vorgang: Anzeige des Gesundheitsministeriums zum Gesundheitsstandort Deutschland",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeshaushalt.de/",
+      "url": "https://dip.bundestag.de/suche?term=Millionen%20Euro%20Legislaturperiode%20Gesundheitsministerium%20Mill",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_1",
-      "label": "Aussage: Wir verstetigen auch das Netzwerk Universitätsmedizin.…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "Wir verstetigen auch das Netzwerk Universitätsmedizin.",
-      "person": "Dorothee Bär",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_1",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage zur Verstetigung des Netzwerks Universitätsmedizin ist zwar eine konkrete Behauptung, aber ohne Angabe von Zahlen oder einer spezifischen Quelle, die diese Verstetigung quantitativ belegt, nicht überprüfbar. Es gibt zwar Hinweise auf Förderung (z.B. durch den Bund), aber keine k",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "label": "KI-Einschätzung (Mistral), ungeprüft",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_2",
       "label": "Aussage: wir investieren mit der Hightech Agenda 18 Milliarden Euro b…",
       "type": "Aussage",
       "subtype": "",
@@ -1875,25 +2275,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_2",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_1",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im Rahmen der Hightech-Strategie 2025 ein Investitionsvolumen von 18 Milliarden Euro bis 2029 für Schlüsseltechnologien vorgesehen. Dies wurde in verschiedenen Drucksachen und Regierungsdokumenten bestätigt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt korrekt das geplante Investitionsvolumen von 18 Milliarden Euro bis 2029 im Rahmen der Hightech Agenda. Allerdings bezieht sich der Beleg 'Eine Hightech-Agenda für Deutschland nach bayerischem Vorbild' auf ein bayerisches Programm mit einem Volumen von 5,5 Milliarden Euro ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_hightech_strategie_2025",
-      "label": "Bundesregierung: Hightech-Strategie 2025",
+      "id": "quelle_bundesregierung_sichert_finanzierung_der_hightech_agenda",
+      "label": "Bundesregierung sichert Finanzierung der Hightech Agenda",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/innovation-und-forschung/hightech-strategie-2025-1542258",
+      "url": "https://www.eu-schwerbehinderung.eu/index.php/politik/33134-bundesregierung-sichert-finanzierung-der-hightech-agenda",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_3",
+      "id": "aussage_2",
       "label": "Aussage: wir haben, Stand letzter Woche – wir konnten aufgrund der Ha…",
       "type": "Aussage",
       "subtype": "",
@@ -1902,16 +2302,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_3",
+      "id": "faktencheck_2",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Quelle, die diese konkrete Zahl (286 Wissenschaftler aus 45 Nationen) zum 1000-Köpfe-Plus-Programm bestätigt. Die Aussage basiert auf aktuellen, nicht veröffentlichten Daten der Ministerin.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete Zahl von 286 Wissenschaftlerinnen und Wissenschaftlern aus 45 Nationen, die angeblich bereits an einer nicht näher spezifizierten Institution arbeiten, sowie auf den zeitlichen Rahmen der Haushaltsverhandlungen (Mitte/Ende letzten Jahres) als Start",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_4",
+      "id": "quelle_dip_vorgang_bundesbericht_wissenschaftlerinnen_und_wissenschaftler_in_einer_fr_hen_karrierephase_2025_mit_stellungnahme_der_bundesregierung",
+      "label": "DIP-Vorgang: Bundesbericht Wissenschaftlerinnen und Wissenschaftler in einer frühen Karrierephase 2025 mit Stellungnahme der Bundesregierung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Stand%20Woche%20Haushaltsverhandlungen%20Mitte%20Ende%20Jahres%20Arbeit%20",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_3",
       "label": "Aussage: 35 Prozent kommen aus den Lebenswissenschaften, 32 Prozent a…",
       "type": "Aussage",
       "subtype": "",
@@ -1920,16 +2329,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_4",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_3",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Auch diese prozentuale Verteilung der Wissenschaftler nach Fachbereichen ist nicht durch eine öffentlich zugängliche, amtliche Quelle belegt. Die Zahlen stammen aus einer nicht veröffentlichten Erhebung der Ministerin.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt konkrete Prozentzahlen für die Verteilung von Forschenden auf verschiedene Wissenschaftsbereiche. Der Beleg [1000-Köpfe-Plus: Bundesregierung fördert 166 Forschende] zeigt ähnliche Kategorien, aber mit abweichenden Werten: Naturwissenschaften (28% statt 32%), Ingenieurswis",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_5",
+      "id": "quelle_1000_k_pfe_plus_bundesregierung_f_rdert_166_forschende",
+      "label": "1000-Köpfe-Plus: Bundesregierung fördert 166 Forschende",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.eu-schwerbehinderung.eu/index.php/33-aktuelles/33514-1000-koepfe-plus-bundesregierung-foerdert-166-forschende",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_4",
       "label": "Aussage: Wir werden in den nächsten Jahren bei rund 44 Prozent unsere…",
       "type": "Aussage",
       "subtype": "",
@@ -1938,25 +2356,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_5",
-      "label": "Faktencheck: teilweise",
+      "id": "faktencheck_4",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Bundesbericht Wissenschaftlicher Nachwuchs (BuWiN) 2021 wird in den nächsten 10 bis 15 Jahren ein erheblicher Anteil der Professoren in den Ruhestand gehen. Eine konkrete Zahl von 44 Prozent wird jedoch nicht explizit genannt. Schätzungen und Modellrechnungen deuten auf einen hohen",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass in den nächsten Jahren etwa 44 Prozent der Professuren in Deutschland neu besetzt werden müssen, da viele Professoren in den Ruhestand gehen, wird durch die bereitgestellten Belege gestützt. Der Artikel von 'der Freitag' nennt explizit die Zahl von 44 Prozent der Professur",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesbericht_wissenschaftlicher_nachwuchs_buwin_2021",
-      "label": "Bundesbericht Wissenschaftlicher Nachwuchs (BuWiN) 2021",
+      "id": "quelle_universit_ten_44_prozent_der_professuren_m_ssen_bis_2033_neu_besetzt_werden_der_freitag",
+      "label": "Universitäten: 44 Prozent der Professuren müssen bis 2033 neu besetzt werden — der Freitag",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.buwin.de/",
+      "url": "https://www.freitag.de/autoren/nick-reimer/universitaeten-44-prozent-der-professuren-muessen-bis-2033-neu-besetzt-werden",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_6",
+      "id": "aussage_5",
       "label": "Aussage: Am 1. April feierte der BND ja seinen 70. Geburtstag.…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -1965,29 +2383,56 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_6",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_5",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Bundesnachrichtendienst (BND) wurde am 1. April 1956 gegründet. Das 70-jährige Jubiläum fiel somit auf den 1. April 2026, allerdings wurde der BND tatsächlich 2016 60 Jahre alt. Die Aussage bezieht sich vermutlich auf das 70-jährige Jubiläum im Jahr 2026, was jedoch noch nicht stattgefu",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der BND am 1. April seinen 70. Geburtstag feierte, ist im Kern richtig, aber das Jahr stimmt nicht. Laut den Belegen feierte der BND am 1. April 2025 seinen 69. Geburtstag (siehe BND-Veranstaltungshinweis). Der 70. Geburtstag wäre demnach erst am 1. April 2026. Der Artikel",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesnachrichtendienst_geschichte",
-      "label": "Bundesnachrichtendienst - Geschichte",
+      "id": "quelle_veranstaltungen_im_besucherzentrum_bnd",
+      "label": "Veranstaltungen im Besucherzentrum | BND",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bnd.bund.de/DE/WirUeberUns/Geschichte/geschichte_node.html",
+      "url": "https://www.bnd.bund.de/DE/Besucherzentrum/veranstaltungen/veranstaltungen-node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_6",
+      "label": "Aussage: Der „Business Insider“ hat, glaube ich, vor zwei Tagen beric…",
+      "type": "Aussage",
+      "subtype": "SPD",
+      "text": "Der „Business Insider“ hat, glaube ich, vor zwei Tagen berichtet, dass beim Bundesnachrichtendienst aktuell mehrere Hundert Stellen offen sind.",
+      "person": "Daniel Baldy",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_6",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da der Business Insider tatsächlich über hunderte offene Stellen beim Bundesnachrichtendienst (BND) berichtet hat. Die Belege bestätigen, dass der BND in diesem Jahr hunderte Stellen besetzen will. Allerdings wird in den Artikeln nicht explizit ein Zeitraum ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_hunderte_offene_jobs_beim_bnd_das_m_ssen_bewerber_beim_geheimdienst_k_nnen_business_insider",
+      "label": "Hunderte offene Jobs beim BND: Das müssen Bewerber beim Geheimdienst können - Business Insider",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.businessinsider.de/karriere/hunderte-offene-jobs-beim-bnd-das-muessen-bewerber-beim-geheimdienst-koennen/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_7",
-      "label": "Aussage: Der „Business Insider“ hat, glaube ich, vor zwei Tagen beric…",
+      "label": "Aussage: Wir arbeiten mit Hochdruck an einem entsprechenden nachricht…",
       "type": "Aussage",
       "subtype": "SPD",
-      "text": "Der „Business Insider“ hat, glaube ich, vor zwei Tagen berichtet, dass beim Bundesnachrichtendienst aktuell mehrere Hundert Stellen offen sind.",
+      "text": "Wir arbeiten mit Hochdruck an einem entsprechenden nachrichtendienstlichen Gesetz, um genau diese Voraussetzungen zu schaffen. Das wird im Parlament planmäßig noch in diesem Jahr geregelt und gelöst werden können.",
       "person": "Daniel Baldy",
       "schicht": "fallbezug"
     },
@@ -1997,7 +2442,16 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Quelle, die diese konkrete Zahl bestätigt. Der Verweis auf den „Business Insider“ ist keine belastbare amtliche Quelle. Zudem ist die Aussage vage („mehrere Hundert“) und nicht durch offizielle Statistiken belegt.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf ein 'nachrichtendienstliches Gesetz', das 'planmäßig noch in diesem Jahr' im Parlament geregelt werden soll. Die bereitgestellten Belege enthalten keine konkreten Hinweise auf einen aktuellen Gesetzentwurf oder eine Drucksache, die ein solches Vorhaben für das g",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_dip_vorgang_praxis_der_bundesregierung_zur_berichterstattung_im_ausschuss_f_r_forschung_technologie_raumfahrt_und_technikfolgenabs",
+      "label": "DIP-Vorgang: Praxis der Bundesregierung zur Berichterstattung im Ausschuss für Forschung, Technologie, Raumfahrt und Technikfolgenabs",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dip.bundestag.de/suche?term=Hochdruck%20Gesetz%20Voraussetzungen%20Parlament%20Jahr",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
@@ -2011,19 +2465,19 @@
     },
     {
       "id": "faktencheck_8",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Bundeslagebild Cybercrime des Bundeskriminalamts (BKA) stammen die meisten Hinweise auf kinderpornografische Inhalte im Internet von der US-amerikanischen Organisation National Center for Missing & Exploited Children (NCMEC). Im Jahr 2022 erhielt das BKA über 136.000 Hinweise von N",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass ein Großteil der Hinweise über sexuellen Kindesmissbrauch im Netz aus den USA und insbesondere vom NCMEC kommt, wird durch den Beleg des Polizeipräsidiums Aalen bestätigt ('ein Großteil' der Anzeigen stamme aus Hinweisen der US-Organisation NCMEC). Allerdings ist der Hinwe",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeslagebild_cybercrime_2022_bundeskriminalamt",
-      "label": "Bundeslagebild Cybercrime 2022, Bundeskriminalamt",
+      "id": "quelle_eu_chatkontrolle_folgen_f_r_ermittlungen_gegen_kindesmissbrauch",
+      "label": "EU-Chatkontrolle: Folgen für Ermittlungen gegen Kindesmissbrauch",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/Lagebilder/Cybercrime/cybercrime_node.html",
+      "url": "http://www.schwaebische-post.de/baden-wuerttemberg/rems-murr-kreis/eu-chatkontrolle-folgen-fuer-ermittlungen-gegen-kindesmissbrauch-94323135.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2038,19 +2492,19 @@
     },
     {
       "id": "faktencheck_9",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die konkrete Zahl von 136.000 Hinweisen für 2022 wird im öffentlich zugänglichen Bundeslagebild Cybercrime nicht explizit genannt. Die Größenordnung ist jedoch plausibel, da frühere Berichte ähnliche Zahlen aufweisen (z. B. 2021: ca. 120.000 Hinweise). Eine amtliche Quelle mit der exakten Z",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt die Zahl von über 136.000 Hinweisen des NCMEC an das BKA für das Jahr 2022. Der Beleg aus der Polizei-Meldung (23.06.2023) gibt für 2022 jedoch 89.844 Hinweise an. Die Zahl 136.000 liegt zwar in einer ähnlichen Größenordnung, weicht aber deutlich ab. Der BKA-Beleg für 2024",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeslagebild_cybercrime_verschiedene_jahrg_nge_bundeskriminalamt",
-      "label": "Bundeslagebild Cybercrime (verschiedene Jahrgänge), Bundeskriminalamt",
+      "id": "quelle_polizei_meldungen_positionspapier_des_bka_zu_erforderlichen_speicherfristen_von_ip_adressen",
+      "label": "Polizei - Meldungen - Positionspapier des BKA zu erforderlichen Speicherfristen von IP-Adressen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/Lagebilder/Cybercrime/cybercrime_node.html",
+      "url": "https://www.polizei.de/SharedDocs/Kurzmeldungen/DE/Kurzmeldungen/230623_Mindestspeicherfristen_IP-Adressen.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2069,15 +2523,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bayerische Staatsregierung hat am 24. Januar 2024 einen Erlass veröffentlicht, der die Verwendung von Gendersprache in Behörden und Schulen untersagt. Der Erlass bezieht sich auf 'Eingriffe in Wortbildung, Grammatik und Orthografie' und fordert die Vermeidung 'sprachlicher Künstlichkeit",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass 2024 in Bayern die Gendersprache in Behörden für unzulässig erklärt wurde, wird durch mehrere Belege gestützt. Laut Deutschlandfunk Kultur und dem Bayerischen Landesportal hat Bayerns Innenminister Joachim Herrmann (CSU) ausdrücklich erklärt, dass mehrgeschlechtliche Schre",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bayerischer_erlass_zur_gendersprache_in_beh_rden_und_schulen",
-      "label": "Bayerischer Erlass zur Gendersprache in Behörden und Schulen",
+      "id": "quelle_herrmann_bayern_beschlie_t_verbot_der_gendersprache_bayerisches_landesportal",
+      "label": "Herrmann: Bayern beschließt Verbot der Gendersprache – Bayerisches Landesportal",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.stmuk.bayern.de/ministerium/aktuelles/pressemitteilungen/pressemitteilung/2024/2024_01_24.html",
+      "url": "https://www.bayern.de/herrmann-bayern-beschliesst-verbot-der-gendersprache/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2096,15 +2550,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Ausgaben für Kinder- und Jugendhilfe sind in den letzten Jahren gestiegen. Laut Statistischem Bundesamt stiegen die Nettoausgaben von 2010 bis 2021 von 28,5 Mrd. Euro auf 58,0 Mrd. Euro. Eine direkte Korrelation zwischen Ausgabensteigerung und Qualitätsverbesserung ist jedoch nicht eind",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf 'erhebliche Steigerungsraten', die nicht zwingend mit einer entsprechenden Qualitätssteigerung einhergehen. Der DIP-Vorgang zu Friedrich Merz' Äußerung (Eingliederungshilfe) belegt konkrete Steigerungsraten von bis zu 10 Prozent, die auf verbesserte Teilhabe (Qu",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_ausgaben_und_einnahmen_der_ffentlichen_kinder_und_jugendhilfe",
-      "label": "Statistisches Bundesamt: Ausgaben und Einnahmen der öffentlichen Kinder- und Jugendhilfe",
+      "id": "quelle_dip_vorgang_aussage_des_bundeskanzlers_friedrich_merz_zu_den_j_hrlichen_steigerungsraten_bei_der_eingliederungshilfe",
+      "label": "DIP-Vorgang: Aussage des Bundeskanzlers Friedrich Merz zu den jährlichen Steigerungsraten bei der Eingliederungshilfe",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/Tabellen/ausgaben-einnahmen-kinder-jugendhilfe.html",
+      "url": "https://dip.bundestag.de/suche?term=Steigerungsraten%20Steigerung%20Qualit%C3%A4t",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2119,19 +2573,19 @@
     },
     {
       "id": "faktencheck_12",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) sind die Ausgaben für Kinder- und Jugendhilfe von 2012 bis 2021 von etwa 34,5 Mrd. Euro auf rund 60,5 Mrd. Euro gestiegen. Dies entspricht einer Steigerung um etwa 75 %. Eine Verdoppelung (100 % Steigerung) wurde zwar nicht ganz erreicht, aber die Aus",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg aus SpringerLink bestätigt, dass sich die Aufwendungen für die Kinder- und Jugendhilfe in den vergangenen 20 Jahren (von 1992 bis 2011) verdoppelt haben. Die Aussage bezieht sich jedoch auf die letzten zehn Jahre, was einen anderen Zeitraum umfasst. Eine Verdoppelung in den letzte",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_ausgaben_f_r_kinder_und_jugendhilfe",
-      "label": "Statistisches Bundesamt (Destatis) - Ausgaben für Kinder- und Jugendhilfe",
+      "id": "quelle_die_finanzierung_der_kinder_und_jugendhilfe_springerlink",
+      "label": "Die Finanzierung der Kinder- und Jugendhilfe | SpringerLink",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/Tabellen/ausgaben-jugendhilfe.html",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-531-19096-9_6",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2146,19 +2600,19 @@
     },
     {
       "id": "faktencheck_13",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Ausgaben für den Unterhaltsvorschuss sind in den letzten Jahren deutlich gestiegen. Laut Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ) stiegen die Ausgaben von 2012 (ca. 1,1 Mrd. Euro) auf 2021 (ca. 2,5 Mrd. Euro). Dies entspricht einer Steigerung um etwa 127 %, wa",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine konkreten Daten oder Studien, die eine Verdreifachung bis Vervierfachung des Aufwands für Kommunen im Zusammenhang mit dem Unterhaltsvorschuss in den letzten zehn Jahren belegen. Die Quellen thematisieren zwar Änderungen, Voraussetzungen und Höhe ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_familie_senioren_frauen_und_jugend_unterhaltsvorschussstatistik",
-      "label": "Bundesministerium für Familie, Senioren, Frauen und Jugend - Unterhaltsvorschussstatistik",
+      "id": "quelle_dip_vorgang_anzahl_von_alleinerziehenden_mit_anspruch_auf_einen_unterhaltsvorschuss",
+      "label": "DIP-Vorgang: Anzahl von Alleinerziehenden mit Anspruch auf einen Unterhaltsvorschuss",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmfsfj.de/bmfsfj/themen/familie/unterhaltsvorschuss/statistik-unterhaltsvorschuss",
+      "url": "https://dip.bundestag.de/suche?term=Aufwand%20Kommunen%20Zusammenhang%20Unterhaltsvorschuss%20Jahren",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2173,24 +2627,51 @@
     },
     {
       "id": "faktencheck_14",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Kommunalen Finanzreport 2023 der Bertelsmann Stiftung und Daten des Statistischen Bundesamtes beliefen sich die kumulierten Defizite der Kommunen in Deutschland im Jahr 2022 auf etwa 30 Mrd. Euro. Diese Zahl wird auch in offiziellen Berichten der Bundesregierung und des Deutschen S",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine finanzielle Schieflage der Kommunen von 'ungefähr 30 Milliarden Euro'. Die bereitgestellten Belege zeigen jedoch, dass das Defizit für 2025 mit Werten zwischen 31,9 und 32 Milliarden Euro beziffert wird. Die Kernaussage (finanzielle Schieflage in Milliardenhöhe) ist s",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_kommunaler_finanzreport_2023_bertelsmann_stiftung",
-      "label": "Kommunaler Finanzreport 2023 - Bertelsmann Stiftung",
+      "id": "quelle_deutschlands_kommunen_am_abgrund_32_milliarden_euro_defizit_offenbaren_das_versagen_der_politik",
+      "label": "Deutschlands Kommunen am Abgrund: 32 Milliarden Euro Defizit offenbaren das Versagen der Politik",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bertelsmann-stiftung.de/de/themen/aktuelle-meldungen/2023/mai/kommunaler-finanzreport-2023",
+      "url": "https://www.kettner-edelmetalle.de/news/deutschlands-kommunen-am-abgrund-32-milliarden-euro-defizit-offenbaren-das-versagen-der-politik-10-04-2026",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_15",
+      "label": "Aussage: 30 Milliarden Euro entsprechen umgerechnet ungefähr 1 Prozen…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "30 Milliarden Euro entsprechen umgerechnet ungefähr 1 Prozent des Bruttoinlandsprodukts",
+      "person": "Thorsten Frei",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_15",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Beleg von WirtschaftsWoche (wiwo.de) beträgt das Bruttoinlandsprodukt (BIP) Deutschlands für 2025 vorläufig etwa 4.469,910 Milliarden Euro (4,47 Billionen Euro). Die Aussage, dass 30 Milliarden Euro etwa 1 Prozent des BIP entsprechen, ist im Kern richtig, da 30 Milliarden geteilt d",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bip_deutschland_2026_wie_hoch_ist_das_deutsche_bruttoinlandsprodukt",
+      "label": "BIP Deutschland 2026: Wie hoch ist das deutsche Bruttoinlandsprodukt?",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.wiwo.de/politik/deutschland/bip-2025-bruttoinlandsprodukt-und-bruttonationaleinkommen-in-deutschland-unterschied-und-entwicklung/26769924.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_16",
       "label": "Aussage: die Bundesregierung hat ihre Wachstumsprognose gerade erst a…",
       "type": "Aussage",
       "subtype": "",
@@ -2199,25 +2680,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_15",
+      "id": "faktencheck_16",
       "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat im April 2024 ihre Wachstumsprognose für das Bruttoinlandsprodukt (BIP) 2024 auf 0,5 % gesenkt. Dies wurde im Jahreswirtschaftsbericht 2024 und in der Frühjahrsprojektion der Bundesregierung veröffentlicht.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Bundesregierung ihre Wachstumsprognose auf 0,5 Prozent gesenkt hat, wird durch den Beleg von tagesschau.de gestützt. Dort wird berichtet, dass die Bundesregierung die Prognose für das Jahr 2024 von ursprünglich 1,0 Prozent auf 0,5 Prozent halbiert hat. Dies bezieht sic",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_fr_hjahrsprojektion_2024",
-      "label": "Bundesregierung - Frühjahrsprojektion 2024",
+      "id": "quelle_bundesregierung_halbiert_wachstumsprognose_auf_0_5_prozent_tagesschau_de",
+      "label": "Bundesregierung halbiert Wachstumsprognose auf 0,5 Prozent | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/themen/wirtschaft-und-innovation/wirtschaftliche-lage/fruehjahrsprojektion-2024-2250000",
+      "url": "https://www.tagesschau.de/wirtschaft/konjunktur/wachstumsprognose-bundesregierung-102.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_16",
+      "id": "aussage_17",
       "label": "Aussage: Was haben 83 Millionen Bürgerinnen und Bürger davon?…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2226,25 +2707,52 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_16",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_17",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bevölkerungszahl Deutschlands lag laut Destatis zum Stichtag 31.12.2022 bei etwa 84,3 Millionen. Die Angabe von 83 Millionen ist eine gängige, leicht gerundete Schätzung der Einwohnerzahl, die in politischen Reden häufig verwendet wird.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Was haben 83 Millionen Bürgerinnen und Bürger davon?' ist eine rhetorische Frage, die in der Regel im Kontext einer politischen Diskussion oder Maßnahme gestellt wird, um deren Nutzen für die Bevölkerung zu hinterfragen. Die bereitgestellten Belege liefern keinen konkreten Bezu",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bev_lkerung_deutschlands_nach_demografischen_merkmalen_destatis",
-      "label": "Bevölkerung Deutschlands nach demografischen Merkmalen - Destatis",
+      "id": "quelle_b_rger_in_b_rgertum_politik_f_r_kinder_einfach_erkl_rt_hanisauland_de",
+      "label": "Bürger/in / Bürgertum | Politik für Kinder, einfach erklärt - HanisauLand.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html",
+      "url": "https://www.hanisauland.de/wissen/lexikon/grosses-lexikon/b/buergerin.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_17",
+      "id": "aussage_18",
+      "label": "Aussage: seit dem 6. Mai letzten Jahres…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "seit dem 6. Mai letzten Jahres",
+      "person": "Dr. Christoph Birghan",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_18",
+      "label": "Faktencheck: irreführend",
+      "type": "Faktencheck",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'seit dem 6. Mai letzten Jahres' ist grammatikalisch nicht korrekt. Laut den Belegen muss es im Genitiv 'dieses Jahres' heißen, wenn kein Adjektiv wie 'letzten' oder 'kommenden' direkt vor 'Jahres' steht. Korrekt wäre 'seit dem 6. Mai des letzten Jahres', da hier das Adjektiv 'l",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_diesen_vs_dieses_jahres_welche_endung_ist_korrekt",
+      "label": "Diesen vs. dieses Jahres: Welche Endung ist korrekt?",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://languagetool.org/insights/de/beitrag/diesen-jahres/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_19",
       "label": "Aussage: jeder bzw. jede Fünfte von ihnen [Rentner und Rentnerinnen] …",
       "type": "Aussage",
       "subtype": "",
@@ -2253,25 +2761,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_17",
+      "id": "faktencheck_19",
       "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Armuts- und Reichtumsbericht der Bundesregierung 2021 lag die Armutsgefährdungsquote von Rentnerinnen und Rentnern in Deutschland bei etwa 19,4 % (2019). Der Wert liegt nahe an der genannten Aussage von 'jeder Fünfte'.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass jeder bzw. jede Fünfte von Rentnern und Rentnerinnen armutsgefährdet ist, wird durch die bereitgestellten Belege gestützt. Laut den Artikeln von tagesschau.de, Frankfurter Rundschau und DIE ZEIT haben rund 20 Prozent (also jeder Fünfte) der Rentnerinnen und Rentner in Deut",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_f_nfter_armuts_und_reichtumsbericht_der_bundesregierung",
-      "label": "Fünfter Armuts- und Reichtumsbericht der Bundesregierung",
+      "id": "quelle_rund_20_prozent_der_rentnerinnen_und_rentner_in_deutschland_haben_monatlich_h_chstens_1_400_euro_zur_verf_gung",
+      "label": "Rund 20 Prozent der Rentnerinnen und Rentner in Deutschland haben monatlich höchstens 1.400 Euro zur Verfügung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a335-5-armuts-reichtumsbericht-2021.pdf",
+      "url": "https://www.zeit.de/wirtschaft/2025-10/ruhestand-geld-rente-statistisches-bundesamt",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_18",
+      "id": "aussage_20",
       "label": "Aussage: Topbeamte [sollten] Gehaltssteigerungen in Höhe von 2 000 Eu…",
       "type": "Aussage",
       "subtype": "",
@@ -2280,74 +2788,29 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_18",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Im Referentenentwurf des Bundesinnenministeriums war eine Erhöhung der Besoldung für höhere Besoldungsgruppen (insbesondere B6 und höher) vorgesehen, die in Einzelfällen bis zu 2.000 Euro monatlich betragen hätte. Allerdings wurde dies später korrigiert und auf Besoldungsgruppe B3 begrenzt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundestags_drucksache_20_5642_antwort_der_bundesregierung_auf_eine_kleine_anfrage",
-      "label": "Bundestags-Drucksache 20/5642 – Antwort der Bundesregierung auf eine Kleine Anfrage",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/056/2005642.pdf",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_19",
-      "label": "Aussage: die Ukraine [befindet sich] seit über vier Jahren in einem e…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "die Ukraine [befindet sich] seit über vier Jahren in einem existenziellen Abwehr- und Verteidigungskampf",
-      "person": "Thorsten Frei",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_19",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beginn des aktuellen Krieges in der Ukraine wird allgemein auf den 24. Februar 2022 datiert (russischer Überfall). Der Konflikt im Donbas dauert jedoch seit 2014 an. Die Aussage ist somit teilweise korrekt, da der 'existenziellen Abwehr- und Verteidigungskampf' in der aktuellen Form sei",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundeszentrale_f_r_politische_bildung_ukraine_konflikt",
-      "label": "Bundeszentrale für politische Bildung - Ukraine-Konflikt",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/543981/ukraine-konflikt/",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_20",
-      "label": "Aussage: im Rahmen dieser Regierungskonsultationen wurden insgesamt z…",
-      "type": "Aussage",
-      "subtype": "",
-      "text": "im Rahmen dieser Regierungskonsultationen wurden insgesamt zwölf Vereinbarungen unterzeichnet, MoUs und andere, die die Zusammenarbeit zwischen den beiden Ländern in den unterschiedlichsten Bereichen gestärkt haben",
-      "person": "Thorsten Frei",
-      "schicht": "fallbezug"
-    },
-    {
       "id": "faktencheck_20",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche amtliche Quelle, die diese konkrete Zahl von zwölf Vereinbarungen im Rahmen der genannten Regierungskonsultationen bestätigt. Die Information könnte aus nicht-öffentlichen oder nicht-verifizierten Quellen stammen.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage suggeriert konkrete, bereits beschlossene Gehaltssteigerungen von 2.000 Euro monatlich für Topbeamte. Die Belege zeigen jedoch, dass es sich um unterschiedliche, teils geplante oder diskutierte Erhöhungen handelt: 1) Die Citopendia-Quelle nennt eine mögliche Spanne von 2.600 bis",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_besoldung_60_000_euro_mehr_f_r_den_kanzler_dobrindt_korrigiert_gehaltssprung_politik_sz_de",
+      "label": "Besoldung: 60 000 Euro mehr für den Kanzler? Dobrindt korrigiert Gehaltssprung - Politik - SZ.de",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.sueddeutsche.de/politik/besoldung-gehaltserhoehung-bundeskanzler-minister-staatssekretaere-deutschland-li.3470752",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_21",
-      "label": "Aussage: ich habe vor allen Dingen über einen 90-Milliarden-Euro-Kred…",
+      "label": "Aussage: die Mehrheit der Beschäftigten wahrscheinlich nicht in den G…",
       "type": "Aussage",
       "subtype": "",
-      "text": "ich habe vor allen Dingen über einen 90-Milliarden-Euro-Kredit auf europäischer Ebene für die Ukraine gesprochen",
+      "text": "die Mehrheit der Beschäftigten wahrscheinlich nicht in den Genuss der 1 000-Euro-Prämie kommen wird",
       "person": "Thorsten Frei",
       "schicht": "fallbezug"
     },
@@ -2357,124 +2820,133 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU hat im Februar 2024 ein Unterstützungspaket für die Ukraine in Höhe von 50 Milliarden Euro beschlossen. Ein 90-Milliarden-Euro-Kredit bezieht sich möglicherweise auf geplante oder diskutierte, aber noch nicht finalisierte Maßnahmen. Die genaue Höhe von 90 Mrd. Euro ist jedoch in aktu",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Mehrheit der Beschäftigten wahrscheinlich nicht in den Genuss der 1.000-Euro-Prämie kommen wird, wird durch die bereitgestellten Belege gestützt. Laut dem Artikel von FOCUS online erhielten nur 11,6 Prozent der Beschäftigten in der Gastronomie die Prämie, während selbs",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_europ_ischer_rat_ukraine_eu_beschlie_t_bis_2027_unterst_tzung_in_h_he_von_50_mrd_euro",
-      "label": "Europäischer Rat - Ukraine: EU beschließt bis 2027 Unterstützung in Höhe von 50 Mrd. Euro",
+      "id": "quelle_1000_euro_entlastungsbonus_wer_jetzt_profitiert_und_wer_leer_ausgeht_focus_online",
+      "label": "1000-Euro-Entlastungsbonus: Wer jetzt profitiert, und wer leer ausgeht - FOCUS online",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.consilium.europa.eu/de/policies/eu-response-ukraine-war/",
+      "url": "https://www.focus.de/finanzen/news/1000-euro-entlastungsbonus-wer-jetzt-profitiert-und-wer-leer-ausgeht_ccb16b9c-a407-4174-9d00-8c912911c7f0.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_22",
-      "label": "Aussage: Noch immer müssen sich mehr als die Hälfte der Rentnerinnen …",
+      "label": "Aussage: Wir haben es in der Ukraine mit einer Bevölkerung und mit ei…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Noch immer müssen sich mehr als die Hälfte der Rentnerinnen und Rentner allein auf die gesetzliche Rente verlassen; im Osten sind es deutlich mehr",
+      "text": "Wir haben es in der Ukraine mit einer Bevölkerung und mit einer Armee zu tun, die sich seit über vier Jahren in einem existenziellen Abwehr- und Verteidigungskampf befinden.",
       "person": "Thorsten Frei",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_22",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Alterssicherungsbericht 2020 der Bundesregierung beziehen etwa 56 % der Rentnerhaushalte in Deutschland ihre Haupteinkünfte aus der gesetzlichen Rente. In Ostdeutschland liegt dieser Anteil höher (ca. 70 %).",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die Ukraine seit dem russischen Angriff im Februar 2022 tatsächlich in einem existenziellen Abwehr- und Verteidigungskampf steht. Die Belege (z. B. Tagesschau, LpB BW) bestätigen, dass der Krieg seit über zwei Jahren (Stand 2024) andauert und die ukrainis",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_alterssicherungsbericht_2020_bundesministerium_f_r_arbeit_und_soziales",
-      "label": "Alterssicherungsbericht 2020 - Bundesministerium für Arbeit und Soziales",
+      "id": "quelle_krieg_gegen_die_ukraine_vier_jahre_im_verteidigungskampf",
+      "label": "Krieg gegen die Ukraine: Vier Jahre im Verteidigungskampf",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmas.de/SharedDocs/Downloads/DE/Rente/alterssicherungsbericht-2020.pdf",
+      "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-vier-jahre-krieg-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_23",
-      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
+      "label": "Aussage: Im Rahmen dieser Regierungskonsultationen wurden insgesamt z…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "Im Rahmen dieser Regierungskonsultationen wurden insgesamt zwölf Vereinbarungen unterzeichnet, MoUs und andere, die die Zusammenarbeit zwischen den beiden Ländern in den unterschiedlichsten Bereichen gestärkt haben.",
+      "person": "Thorsten Frei",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_23",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist nicht vollständig präzise. Laut Statistischem Bundesamt (Destatis) sind die Angebotsmieten für Wohnungen in Deutschland zwischen 2014 und 2023 um etwa 45 % gestiegen. Die Steigerung variiert jedoch stark nach Region und Wohnungsmarktsegment. Eine pauschale Aussage von 60 % i",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Anzahl von zwölf unterzeichneten Vereinbarungen, MoUs oder ähnlichen Dokumenten im Rahmen von Regierungskonsultationen zwischen zwei Ländern. Die bereitgestellten Belege enthalten keine konkreten Informationen zu der Anzahl oder den Inhalten der unterzeichne",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
-      "label": "Statistisches Bundesamt (Destatis) – Entwicklung der Mietpreise",
+      "id": "quelle_neues_aus_japan_1_regierungskonsultationen",
+      "label": "Neues aus Japan - 1. Regierungskonsultationen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Immobilienpreise/_inhalt.html",
+      "url": "https://www.de.emb-japan.go.jp/NaJ/NaJ2304/post_one.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_24",
-      "label": "Aussage: In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.…",
+      "label": "Aussage: Ich habe vor allen Dingen über einen 90-Milliarden-Euro-Kred…",
       "type": "Aussage",
       "subtype": "",
-      "text": "In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "Ich habe vor allen Dingen über einen 90-Milliarden-Euro-Kredit auf europäischer Ebene für die Ukraine gesprochen.",
+      "person": "Thorsten Frei",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_24",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Mietspiegel und Daten des Senats von Berlin sind die Mieten in Berlin seit 2017 deutlich gestiegen, allerdings nicht einheitlich. Der Anstieg liegt je nach Quelle und Wohnungssegment zwischen 30 % und 50 %. Eine pauschale Angabe von 40 % ist daher nicht falsch, aber vereinfachend.",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf einen Kredit über 90 Milliarden Euro auf europäischer Ebene für die Ukraine. Der Beleg von tagesschau.de bestätigt, dass die EU einen zinslosen Kredit in dieser Höhe für die Ukraine beschlossen hat. Auch die weiteren Quellen (esut.de und verfassungsblog.de) stüt",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_senatsverwaltung_f_r_stadtentwicklung_und_wohnen_berlin_mietspiegel_2023",
-      "label": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin – Mietspiegel 2023",
+      "id": "quelle_eu_erzielt_kompromiss_kredit_ber_90_milliarden_euro_f_r_die_ukraine",
+      "label": "EU erzielt Kompromiss: Kredit über 90 Milliarden Euro für die Ukraine",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.stadtentwicklung.berlin.de/wohnen/wohnungspolitik/mietspiegel/de/index.shtml",
+      "url": "https://www.tagesschau.de/ausland/europa/eu-ukraine-finanzierung-einigung-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_25",
-      "label": "Aussage: Seit 2014 sind die Mieten in Deutschland um 60 Prozent gesti…",
+      "label": "Aussage: noch nie Menschen weiter von der Erde entfernt waren…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Seit 2014 sind die Mieten in Deutschland um 60 Prozent gestiegen.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "noch nie Menschen weiter von der Erde entfernt waren",
+      "person": "Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_25",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist nicht vollständig präzise. Laut Statistischem Bundesamt (Destatis) sind die Angebotsmieten für Wohnungen in Deutschland zwischen 2014 und 2023 um etwa 45 % gestiegen. Die Steigerung variiert jedoch stark nach Region und Wohnungsmarktsegment. Eine pauschale Aussage von 60 % i",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'noch nie Menschen weiter von der Erde entfernt waren' wird durch mehrere aktuelle Quellen gestützt. Die Artemis-2-Mission hat den bisherigen Rekord der Apollo-13-Mission (1970) gebrochen, als die Crew eine Entfernung von über 400.171 Kilometern von der Erde erreichte. Dies wird",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_artemis_2_bricht_rekord_nie_waren_menschen_weiter_von_der_erde_entfernt",
+      "label": "Artemis 2 bricht Rekord: Nie waren Menschen weiter von der Erde entfernt",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.morgenpost.de/panorama/article411623483/artemis-2-auf-rekordkurs-wie-weit-die-astronauten-diesmal-ins-all-fliegen.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_26",
-      "label": "Aussage: In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.…",
+      "label": "Aussage: China hat massiv aufgeholt, Nationen wie Indien sind mit am …",
       "type": "Aussage",
       "subtype": "",
-      "text": "In Berlin sind die Mieten seit 2017 um 40 Prozent gestiegen.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "China hat massiv aufgeholt, Nationen wie Indien sind mit am Start",
+      "person": "Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
@@ -2483,43 +2955,52 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Mietspiegel und Daten des Senats von Berlin sind die Mieten in Berlin seit 2017 deutlich gestiegen, allerdings nicht einheitlich. Der Anstieg liegt je nach Quelle und Wohnungssegment zwischen 30 % und 50 %. Eine pauschale Angabe von 40 % ist daher nicht falsch, aber vereinfachend.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass China massiv aufgeholt hat, wird durch allgemeines Wissen über Chinas wirtschaftliche und technologische Entwicklung in den letzten Jahrzehnten gestützt. Der zweite Teil der Aussage ('Nationen wie Indien sind mit am Start') ist im Kern richtig, da Indien tatsächlich als au",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_china_und_indien_xi_und_modi_wagen_den_neustart",
+      "label": "China und Indien: Xi und Modi wagen den Neustart",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.dw.com/de/china-und-indien-xi-und-modi-wagen-den-neustart/a-70591383",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_27",
-      "label": "Aussage: noch nie Menschen weiter von der Erde entfernt waren…",
+      "label": "Aussage: Beim Raumschiff „Orion“ war ein wesentlicher Teil made in Ge…",
       "type": "Aussage",
       "subtype": "",
-      "text": "noch nie Menschen weiter von der Erde entfernt waren",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "Beim Raumschiff „Orion“ war ein wesentlicher Teil made in Germany, ganz viele Teile made in Europe, aber ganz viel made in Germany. Unser Servicemodul war essenziell für die Mission.",
+      "person": "Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_27",
-      "label": "Faktencheck: irreführend",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die Artemis-2-Mission, bei der die Besatzung jedoch nicht auf dem Mond landete, sondern nur einen Mondvorbeiflug durchführte. Die größte Entfernung von der Erde wurde bereits während der Apollo-Missionen erreicht (Apollo 13: ca. 400.171 km). Artemis 2 erreichte ",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage wird durch die bereitgestellten Belege gestützt. Das European Service Module (ESM) des Orion-Raumschiffs, das essenziell für die Mission ist, wird in Deutschland endmontiert und sichert Energieversorgung sowie Antrieb. Zudem wird betont, dass deutsche Technik (insbesondere das E",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_nasa_apollo_13_mission_overview",
-      "label": "NASA - Apollo 13 Mission Overview",
+      "id": "quelle_all_systems_go_artemis_ii_startet_mit_deutscher_technik_zum_mond_bmftr",
+      "label": "All Systems Go! Artemis II startet mit deutscher Technik zum Mond - BMFTR",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.nasa.gov/mission_pages/apollo/missions/apollo13.html",
+      "url": "https://www.bmftr.bund.de/SharedDocs/Kurzmeldungen/DE/2026/04/02042026artemisII.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_28",
-      "label": "Aussage: China hat massiv aufgeholt, Nationen wie Indien sind mit am …",
+      "label": "Aussage: Bei der Navigation im All vertraut die NASA auf einen Sterne…",
       "type": "Aussage",
       "subtype": "",
-      "text": "China hat massiv aufgeholt, Nationen wie Indien sind mit am Start",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "Bei der Navigation im All vertraut die NASA auf einen Sternensensor. Wo kommt der her? Aus Jena!",
+      "person": "Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
@@ -2528,150 +3009,159 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. China hat in den letzten Jahren erhebliche Fortschritte in der Raumfahrt gemacht, darunter erfolgreiche Mondmissionen (Chang'e-Programm) und den Aufbau einer eigenen Raumstation (Tiangong). Indien hat ebenfalls bedeutende Erfolge erzielt, wie die Chandrayaan-Missionen und die Mars Orbiter M",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die NASA bei der Navigation im All auf einen Sternensensor aus Jena vertraut, wird durch mehrere unabhängige Quellen gestützt. Laut den Belegen liefert das Unternehmen Jena-Optronik den sogenannten 'Star Tracker' für die Artemis-Mondmissionen der NASA. Dieser Sternensensor",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_esa_space_in_asia_pacific",
-      "label": "ESA - Space in Asia-Pacific",
+      "id": "quelle_navi_f_r_die_mission_artemis_ohne_jena_fliegen_wir_nicht_zum_mond_mdr_de",
+      "label": "Navi für die Mission Artemis: Ohne Jena fliegen wir nicht zum Mond | MDR.DE",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Space_in_Asia-Pacific",
+      "url": "https://www.mdr.de/wissen/astronomie-raumfahrt/artemis-mond-jena-optronik-liefert-navigation-fuer-nasa-esa-mission-102.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_29",
-      "label": "Aussage: Beim Raumschiff „Orion“ war ein wesentlicher Teil made in Ge…",
+      "label": "Aussage: Tacheles zum Beispiel. Das ist ein ganz kleiner Forschungssa…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Beim Raumschiff „Orion“ war ein wesentlicher Teil made in Germany, ganz viele Teile made in Europe, aber ganz viel made in Germany. Unser Servicemodul war essenziell für die Mission.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "Tacheles zum Beispiel. Das ist ein ganz kleiner Forschungssatellit, kaum größer als ein Handgepäckkoffer, gebaut von einem deutschen Start-up",
+      "person": "Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_29",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Europäische Servicemodul (ESM) für das Orion-Raumschiff wurde maßgeblich in Deutschland (u.a. von Airbus in Bremen) entwickelt und gebaut. Es ist essenziell für die Versorgung der Crew mit Wasser, Sauerstoff und Strom sowie für den Antrieb und die Lageregelung.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig: Der Forschungssatellit 'Tacheles' ist tatsächlich ein kleiner Satellit, der von einem deutschen Start-up (Neurospace) gebaut wurde. Der Vergleich mit der Größe eines Handgepäckkoffers ist jedoch leicht irreführend, da der Beleg von WELT den Satelliten als 's",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_esa_european_service_module",
-      "label": "ESA - European Service Module",
+      "id": "quelle_raumfahrt_deutscher_kleinsatellit_bei_artemis_mission_vorzeitig_vergl_ht_bodenstation_fehlte_zulassung_welt",
+      "label": "Raumfahrt: Deutscher Kleinsatellit bei Artemis-Mission vorzeitig verglüht – Bodenstation fehlte Zulassung - WELT",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module",
+      "url": "https://www.welt.de/wirtschaft/article69e08b3d1de1a5649f7cc69d/raumfahrt-deutscher-kleinsatellit-bei-artemis-mission-vorzeitig-verglueht-bodenstation-fehlte-zulassung.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_30",
-      "label": "Aussage: Bei der Navigation im All vertraut die NASA auf einen Sterne…",
+      "label": "Aussage: übrigens zusammen mit der ersten Frau auf Mondmission, der g…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Bei der Navigation im All vertraut die NASA auf einen Sternensensor. Wo kommt der her? Aus Jena!",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "übrigens zusammen mit der ersten Frau auf Mondmission, der großartigen Christina Koch",
+      "person": "Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_30",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Firma Jena-Optronik GmbH liefert Sternensensoren (Star Tracker) für die Navigation von Raumfahrzeugen, darunter auch für die Orion-Mission. Diese Sensoren sind tatsächlich in Jena entwickelt und hergestellt worden.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage impliziert, dass Christina Koch bereits als erste Frau auf einer Mondmission war oder diese aktuell stattfindet. Laut den Belegen ist Christina Koch zwar als erste Frau für eine Mondmission (Artemis 2) ausgewählt worden, aber der Start der Mission erfolgte erst am 1. April 2024 ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_jena_optronik_star_sensors",
-      "label": "Jena-Optronik - Star Sensors",
+      "id": "quelle_artemis_2_erste_mondmission_mit_einer_frau_wer_ist_christina_koch",
+      "label": "Artemis 2: Erste Mondmission mit einer Frau – Wer ist Christina Koch?",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.jena-optronik.de/en/products/star-sensors.html",
+      "url": "https://www.morgenpost.de/panorama/article411297186/artemis-2-erste-frau-mond-mission-christina-koch.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_31",
-      "label": "Aussage: Tacheles zum Beispiel. Das ist ein ganz kleiner Forschungssa…",
+      "label": "Aussage: wir haben auch die Zusage der NASA, dass bei den nächsten Mo…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Tacheles zum Beispiel. Das ist ein ganz kleiner Forschungssatellit, kaum größer als ein Handgepäckkoffer, gebaut von einem deutschen Start-up, das gegründet wurde von einer Frau, die als Kind mit ihren Eltern aus Sri Lanka geflohen ist.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "text": "wir haben auch die Zusage der NASA, dass bei den nächsten Mondflügen Europäer dabei sein werden",
+      "person": "Josephine Ortleb",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_31",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen, belastbaren Quellen oder amtlichen Dokumente, die diese spezifische Aussage über den Satelliten „Tacheles“ und die Gründerin des Start-ups bestätigen. Die Existenz eines solchen Satelliten oder Start-ups ist nicht nachweisbar.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Europäer bei den nächsten Mondflügen der NASA dabei sein werden, ist im Kern richtig. Die Belege bestätigen, dass die ESA (Europäische Weltraumorganisation) eine Zusage für die Teilnahme europäischer Astronauten an den Artemis-Mondmissionen erhalten hat. Allerdings wurde k",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_mondprogramm_der_nasa_italiener_fliegt_2027_bei_artemis_3_mit_kein_deutscher",
+      "label": "Mondprogramm der Nasa: Italiener fliegt 2027 bei „Artemis 3“ mit - kein Deutscher",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.handelsblatt.com/technik/forschung-innovation/mondprogramm-der-nasa-italiener-fliegt-2027-bei-artemis-3-mit-kein-deutscher/100231720.html",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_32",
-      "label": "Aussage: übrigens zusammen mit der ersten Frau auf Mondmission, der g…",
+      "label": "Aussage: Letzte Woche, also in der ersten Sitzungswoche nach dem Flug…",
       "type": "Aussage",
-      "subtype": "",
-      "text": "übrigens zusammen mit der ersten Frau auf Mondmission, der großartigen Christina Koch",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "subtype": "AfD",
+      "text": "Letzte Woche, also in der ersten Sitzungswoche nach dem Flug, kam dazu von den Regierungsfraktionen rein gar nichts.",
+      "person": "Andreas Mayer",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_32",
-      "label": "Faktencheck: irreführend",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "irreführend",
-      "verdikt": "irreführend",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Christina Koch war Teil der Artemis-2-Mission, die jedoch keine Mondlandung durchführte, sondern nur einen Mondvorbeiflug. Sie ist damit nicht die „erste Frau auf Mondmission“ im Sinne einer Landung. Die erste Frau, die den Mond betreten soll, wird voraussichtlich mit der Artemis-3-Mission ",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine konkrete 'letzte Woche' nach einem 'Flug' und behauptet, dass von den Regierungsfraktionen 'rein gar nichts' kam. Die bereitgestellten Belege enthalten allgemeine Informationen zu Sitzungswochen im Bundestag (z. B. Themen wie Klimapolitik, Luftsicherheitsge",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_nasa_artemis_ii_crew",
-      "label": "NASA - Artemis II Crew",
+      "id": "quelle_dip_vorgang_vermittlungen_zum_kauf_von_medizinischem_material_durch_abgeordnete_der_regierungsfraktionen_des_deutschen_bundestages",
+      "label": "DIP-Vorgang: Vermittlungen zum Kauf von medizinischem Material durch Abgeordnete der Regierungsfraktionen des Deutschen Bundestages",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.nasa.gov/specials/artemis-ii/",
+      "url": "https://dip.bundestag.de/suche?term=Letzte%20Woche%20Sitzungswoche%20Flug%20Regierungsfraktionen",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_33",
-      "label": "Aussage: Wir haben auch die Zusage der NASA, dass bei den nächsten Mo…",
+      "label": "Aussage: auch im zuständigen Ausschuss stand die Raumfahrt in dieser …",
       "type": "Aussage",
-      "subtype": "",
-      "text": "Wir haben auch die Zusage der NASA, dass bei den nächsten Mondflügen Europäer dabei sein werden.",
-      "person": "Vizepräsidentin Josephine Ortleb",
+      "subtype": "AfD",
+      "text": "auch im zuständigen Ausschuss stand die Raumfahrt in dieser Legislatur bisher erst dreimal auf der Tagesordnung",
+      "person": "Andreas Mayer",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_33",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die NASA hat tatsächlich zugesagt, dass europäische Astronauten an zukünftigen Artemis-Missionen teilnehmen werden, insbesondere an der Artemis-4-Mission und darüber hinaus. Dies wurde in verschiedenen offiziellen Statements und Vereinbarungen zwischen der NASA und der ESA bestätigt.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine konkreten Informationen über die Häufigkeit, mit der das Thema Raumfahrt in der aktuellen Legislaturperiode auf der Tagesordnung des zuständigen Ausschusses stand. Der Ausschuss für Bildung, Forschung und Technikfolgenabschätzung (ehemals 'Ausschu",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_esa_european_astronauts_to_fly_to_the_moon",
-      "label": "ESA - European astronauts to fly to the Moon",
+      "id": "quelle_kein_passender_beleg_in_der_liste",
+      "label": "Kein passender Beleg in der Liste",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/European_astronauts_to_fly_to_the_Moon",
+      "url": "https://www.bundestag.de/besuche/ausstellungen/pol_parl/raumfahrt",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_34",
-      "label": "Aussage: Letzte Woche, also in der ersten Sitzungswoche nach dem Flug…",
+      "label": "Aussage: Private Firmen wie SpaceX oder Blue Origin hatten 2025 mehr …",
       "type": "Aussage",
       "subtype": "AfD",
-      "text": "Letzte Woche, also in der ersten Sitzungswoche nach dem Flug, kam dazu von den Regierungsfraktionen rein gar nichts.",
+      "text": "Private Firmen wie SpaceX oder Blue Origin hatten 2025 mehr Raketenstarts als alle Staaten zusammen.",
       "person": "Andreas Mayer",
       "schicht": "fallbezug"
     },
@@ -2681,47 +3171,20 @@
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche, amtliche Dokumentation über die Tagesordnungspunkte oder Initiativen der Regierungsfraktionen in der genannten Sitzungswoche, die diese Aussage überprüfbar macht.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Jahr 2025, das in der Zukunft liegt und für das keine konkreten Daten oder Prognosen in den bereitgestellten Belegen vorliegen. Die verfügbaren Quellen geben lediglich allgemeine Informationen über SpaceX und Blue Origin (z. B. Ziele, Technologien, historisc",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kennzahlen_zum_raumfahrtunternehmen_spacex_statista",
+      "label": "Kennzahlen zum Raumfahrtunternehmen SpaceX | Statista",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.statista.com/statistik/daten/studie/689749/umfrage/kennzahlen-zum-raumfahrtunternehmen-spacex/",
+      "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_35",
-      "label": "Aussage: auch im zuständigen Ausschuss stand die Raumfahrt in dieser …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "auch im zuständigen Ausschuss stand die Raumfahrt in dieser Legislatur bisher erst dreimal auf der Tagesordnung – und das auch nur, weil unter anderem wir das Thema auf die Tagesordnung gesetzt haben.",
-      "person": "Andreas Mayer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_35",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Tagesordnungen der Ausschüsse des Deutschen Bundestages sind zwar öffentlich, aber ohne konkrete Sitzungsprotokolle oder eine offizielle Zählung der Tagesordnungspunkte zur Raumfahrt ist diese Aussage nicht belastbar überprüfbar.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_36",
-      "label": "Aussage: Private Firmen wie SpaceX oder Blue Origin hatten 2025 mehr …",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Private Firmen wie SpaceX oder Blue Origin hatten 2025 mehr Raketenstarts als alle Staaten zusammen.",
-      "person": "Andreas Mayer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_36",
-      "label": "Faktencheck: falsch",
-      "type": "Faktencheck",
-      "subtype": "falsch",
-      "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Jahr 2025, das zum Zeitpunkt der Überprüfung (2023) in der Zukunft liegt. Es gibt keine belastbaren Prognosen oder Daten für dieses Jahr. Zudem ist die Formulierung irreführend, da 2025 noch nicht eingetreten ist und keine validen Vergleichsdaten vorliegen.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_37",
       "label": "Aussage: Letztes Jahr gab es 324 Launches, davon waren mit 165 mehr a…",
       "type": "Aussage",
       "subtype": "AfD",
@@ -2730,29 +3193,83 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "faktencheck_35",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass es im letzten Jahr (2023) 324 Launches gab, davon 165 von SpaceX, ist im Kern richtig, aber die genauen Zahlen weichen leicht ab. Laut einer umfassenden Auswertung der Startstatistiken (z. B. von Jonathan McDowell oder Space Launch Report) wurden 2023 insgesamt 223 orbital",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_liste_der_falcon_9_und_falcon_heavy_raketenstarts_wikipedia",
+      "label": "Liste der Falcon-9- und Falcon-Heavy-Raketenstarts – Wikipedia",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.wikipedia.org/wiki/Liste_der_Falcon-9-_und_Falcon-Heavy-Raketenstarts",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_36",
+      "label": "Aussage: Die ESA 2021 [hat] eine Zertifizierung für Gender Equality i…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Die ESA 2021 [hat] eine Zertifizierung für Gender Equality im Weltraum [priorisiert].",
+      "person": "Andreas Mayer",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_36",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die ESA 2021 eine Zertifizierung für Gender Equality priorisiert hat, wird durch die bereitgestellten Belege gestützt. Laut der ESA-Website hat die Europäische Weltraumorganisation (ESA) im März 2021 die EDGE-Zertifizierung (Economic Dividends for Gender Equality) auf 'Ass",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_esa_esa_obtains_edge_certification_on_gender_equality",
+      "label": "ESA - ESA Obtains EDGE Certification On Gender Equality",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.esa.int/About_Us/Diversity_and_Inclusiveness/ESA_Obtains_EDGE_Certification_On_Gender_Equality",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_37",
+      "label": "Aussage: Die Europäische Union investiert insgesamt über 22 Milliarde…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "Die Europäische Union investiert insgesamt über 22 Milliarden Euro in Raumfahrtprogramme.",
+      "person": "Joachim Ebmeyer",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "faktencheck_37",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Jahresbericht 2023 der Federal Aviation Administration (FAA) und Daten von BryceTech gab es 2023 insgesamt 223 orbitale Starts weltweit, davon 96 von SpaceX. Europa führte 2023 insgesamt 3 orbitale Starts durch (Ariane 5 und Vega). Die genannten Zahlen (324 Launches, 165 von SpaceX",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine Gesamtsumme von 'über 22 Milliarden Euro' für Raumfahrtprogramme der Europäischen Union. Der SPIEGEL-Beleg zeigt jedoch, dass die EU selbst bis 2027 nur rund 14,9 Milliarden Euro für ihre Raumfahrtprogramme einplant. Die höhere Summe von 22,1 Milliarden Euro stammt au",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_brycetech_2023_space_launch_report",
-      "label": "BryceTech: 2023 Space Launch Report",
+      "id": "quelle_esa_ministerratskonferenz_2025_in_bremen_deutschland_investiert_5_4_milliarden_euro_in_die_zukunft_der_europ_ischen_raumfahrt",
+      "label": "ESA-Ministerratskonferenz 2025 in Bremen: Deutschland investiert 5,4 Milliarden Euro in die Zukunft der europäischen Raumfahrt",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://brycetech.com/reports",
+      "url": "https://www.dlr.de/de/aktuelles/nachrichten/2025/deutschland-investiert-5-4-milliarden-euro-in-die-zukunft-der-europaeischen-raumfahrt",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_38",
-      "label": "Aussage: Die Europäische Union investiert insgesamt über 22 Milliarde…",
+      "label": "Aussage: Mit Galileo verfügen wir über das präziseste Navigationssyst…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Die Europäische Union investiert insgesamt über 22 Milliarden Euro in Raumfahrtprogramme.",
+      "text": "Mit Galileo verfügen wir über das präziseste Navigationssystem der Welt – mit nahezu 4 Milliarden Nutzerinnen und Nutzern.",
       "person": "Joachim Ebmeyer",
       "schicht": "fallbezug"
     },
@@ -2762,24 +3279,24 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU hat im Rahmen des mehrjährigen Finanzrahmens (MFR) 2021–2027 insgesamt 14,88 Milliarden Euro für das Programm 'Horizont Europa' (Forschung und Innovation) und das Raumfahrtprogramm der EU vorgesehen. Davon entfallen etwa 13,2 Milliarden Euro auf das EU-Raumfahrtprogramm (inkl. Galile",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Galileo das präziseste Navigationssystem der Welt ist, wird durch die Belege bestätigt (z. B. ESA und INFODIGITAL). Allerdings weicht die Zahl der Nutzer*innen ab: Die Belege nennen 'mehr als zwei Milliarden' (EU-Vertretung) bzw. 'mehr als drei Milliarden' (ESA/INFODIGITAL",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_eu_finanzrahmen_2021_2027_raumfahrtprogramm_der_eu",
-      "label": "EU-Finanzrahmen 2021–2027: Raumfahrtprogramm der EU",
+      "id": "quelle_esa_neuer_galileo_service_soll_eine_genauigkeit_von_20_cm_bieten",
+      "label": "ESA - Neuer Galileo-Service soll eine Genauigkeit von 20 cm bieten",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32021R0696",
+      "url": "https://www.esa.int/Space_in_Member_States/Germany/Neuer_Galileo-Service_soll_eine_Genauigkeit_von_20_cm_bieten",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_39",
-      "label": "Aussage: Mit Galileo verfügen wir über das präziseste Navigationssyst…",
+      "label": "Aussage: 20 000 Einzelteile, 12 Kilometer Verkabelung, 33 Triebwerke …",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "Mit Galileo verfügen wir über das präziseste Navigationssystem der Welt – mit nahezu 4 Milliarden Nutzerinnen und Nutzern.",
+      "text": "20 000 Einzelteile, 12 Kilometer Verkabelung, 33 Triebwerke [im European Service Module].",
       "person": "Joachim Ebmeyer",
       "schicht": "fallbezug"
     },
@@ -2789,51 +3306,51 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Galileo ist das präziseste Satellitennavigationssystem der Welt (Genauigkeit von bis zu 20 cm im hochpräzisen Dienst). Die Zahl von 'nahezu 4 Milliarden Nutzern' bezieht sich auf die geschätzte globale Nutzung von Satellitennavigation (inkl. GPS, GLONASS etc.), da viele Geräte mehrere Syste",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt drei zentrale Kennzahlen zum European Service Module (ESM): 20.000 Einzelteile, 12 Kilometer Verkabelung und 33 Triebwerke. Die Anzahl der Triebwerke (33) wird durch alle relevanten Belege bestätigt (SZ.de, raumfahrer.net, Wikipedia). Die Zahl der Einzelteile (20.000) wird",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_europ_ische_kommission_galileo_fakten",
-      "label": "Europäische Kommission: Galileo-Fakten",
+      "id": "quelle_auf_ins_all_die_neue_mondsucht_wirtschaft_sz_de",
+      "label": "Auf ins All - Die neue Mondsucht - Wirtschaft - SZ.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://ec.europa.eu/growth/sectors/space/galileo_en",
+      "url": "https://www.sueddeutsche.de/wirtschaft/auf-ins-all-die-neue-mondsucht-1.4489434",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_40",
-      "label": "Aussage: 20 000 Einzelteile, 12 Kilometer Verkabelung, 33 Triebwerke …",
+      "label": "Aussage: Alleine der Genehmigungsüberschuss für Windenergie an Land b…",
       "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "20 000 Einzelteile, 12 Kilometer Verkabelung, 33 Triebwerke [im European Service Module].",
-      "person": "Joachim Ebmeyer",
+      "subtype": "SPD",
+      "text": "Alleine der Genehmigungsüberschuss für Windenergie an Land beträgt 12 Gigawatt.",
+      "person": "Dr. Nina Scheer",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_40",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das European Service Module (ESM) für die Artemis-Missionen enthält laut ESA und Airbus Defence and Space etwa 20.000 Einzelteile, 12 km Kabel und 33 Triebwerke (1 Haupttriebwerk, 8 Hilfstriebwerke, 24 Lageregelungstriebwerke).",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf einen 'Genehmigungsüberschuss' von 12 Gigawatt Windenergie an Land. Die bereitgestellten Belege zeigen jedoch, dass 12 Gigawatt im Kontext von *Ausschreibungsvolumina* oder *Sonderausschreibungen* genannt werden, nicht jedoch als Genehmigungsüberschuss. Laut Bun",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_esa_european_service_module_facts_and_figures",
-      "label": "ESA: European Service Module – Facts and Figures",
+      "id": "quelle_bundesnetzagentur_presse_ausbau_erneuerbarer_energien_2025",
+      "label": "Bundesnetzagentur - Presse - Ausbau Erneuerbarer Energien 2025",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260108_EEG.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_41",
-      "label": "Aussage: Alleine der Genehmigungsüberschuss für Windenergie an Land b…",
+      "label": "Aussage: Hunderte Gigawatt Netzanschlussanfragen für Batteriespeicher…",
       "type": "Aussage",
       "subtype": "SPD",
-      "text": "Alleine der Genehmigungsüberschuss für Windenergie an Land beträgt 12 Gigawatt.",
+      "text": "Hunderte Gigawatt Netzanschlussanfragen für Batteriespeicher liegen derzeit vor.",
       "person": "Dr. Nina Scheer",
       "schicht": "fallbezug"
     },
@@ -2843,38 +3360,20 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesnetzagentur gab es Ende 2023 einen Genehmigungsüberschuss von etwa 12 GW für Windenergie an Land, allerdings bezieht sich dies auf bereits genehmigte, aber noch nicht realisierte Projekte. Der Begriff 'Genehmigungsüberschuss' ist nicht amtlich definiert und kann unterschiedlich i",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage spricht von 'Hunderten Gigawatt' Netzanschlussanfragen für Batteriespeicher, was im Kern durch die Belege bestätigt wird. Allerdings präzisieren die Quellen die Zahl auf 'über 500 Gigawatt' (Regelleistung Online/pv magazine) bzw. 'über 100 Gigawatt' (Telepolis). Die Formulierung",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesnetzagentur_quartalsbericht_wind_an_land",
-      "label": "Bundesnetzagentur - Quartalsbericht Wind an Land",
+      "id": "quelle_mittlerweile_mehr_als_500_gigawatt_netzanschlussfragen_f_r_gro_e_batteriespeicher_pv_magazine_deutschland",
+      "label": "Mittlerweile mehr als 500 Gigawatt Netzanschlussfragen für große Batteriespeicher – pv magazine Deutschland",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Quartalszahlen/2023/4-Quartal-2023.html",
+      "url": "https://www.pv-magazine.de/2025/08/29/mittlerweile-mehr-als-500-gigawatt-netzanschlussfragen-fuer-grosse-batteriespeicher/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_42",
-      "label": "Aussage: Hunderte Gigawatt Netzanschlussanfragen für Batteriespeicher…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Hunderte Gigawatt Netzanschlussanfragen für Batteriespeicher liegen derzeit vor.",
-      "person": "Dr. Nina Scheer",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_42",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik oder Veröffentlichung, die diese konkrete Zahl ('Hunderte Gigawatt') für Netzanschlussanfragen von Batteriespeichern bestätigt. Die Bundesnetzagentur veröffentlicht zwar Daten zu Speichern, aber nicht in dieser aggregierten Form.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_43",
       "label": "Aussage: Die zuletzt abgeschalteten Atomkraftwerke im Netz hatten ein…",
       "type": "Aussage",
       "subtype": "SPD",
@@ -2883,20 +3382,20 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_43",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_42",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die drei letzten in Deutschland betriebenen Atomkraftwerke (Isar 2, Emsland, Neckarwestheim 2) hatten eine installierte Nettoleistung von zusammen 4,29 GW. Sie wurden im April 2023 abgeschaltet.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf die zuletzt abgeschalteten Atomkraftwerke in Deutschland. Laut dem Atomausstieg 2023 wurden die drei letzten AKWs (Isar 2, Emsland und Neckarwestheim 2) abgeschaltet. Die installierte Leistung dieser drei Meiler betrug zusammen etwa 4,25 Gigawatt (Isar 2: 1,48 G",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_umwelt_naturschutz_nukleare_sicherheit_und_verbraucherschutz_abschaltung_der_letzten_akws",
-      "label": "Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz - Abschaltung der letzten AKWs",
+      "id": "quelle_leistung_der_letzten_aktiven_kernkraftwerke_in_deutschland",
+      "label": "Leistung der letzten aktiven Kernkraftwerke in Deutschland",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmuv.de/themen/atomenergie-strahlenschutz/atomenergie/abschaltung-der-atomkraftwerke",
+      "url": "https://de.statista.com/statistik/daten/studie/181592/umfrage/kernkraftwerke-in-deutschland-top-10-nach-leistung/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -9295,433 +9794,6 @@
       "start_sec": "",
       "herkunft": "protokoll",
       "schicht": "reaktion"
-    },
-    {
-      "id": "person_dorothee_b_r",
-      "label": "Dorothee Bär",
-      "type": "Person",
-      "subtype": "Bundesministerin für Forschung, Technologie und Raumfahrt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_thorsten_frei",
-      "label": "Thorsten Frei",
-      "type": "Person",
-      "subtype": "Bundesminister für besondere Aufgaben",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_christoph_birghan",
-      "label": "Dr. Christoph Birghan",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_carolin_wagner",
-      "label": "Dr. Carolin Wagner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ayse_asar",
-      "label": "Ayse Asar",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_florian_oest",
-      "label": "Florian Oest",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_heidi_reichinnek",
-      "label": "Heidi Reichinnek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ronald_gl_ser",
-      "label": "Ronald Gläser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_daniel_baldy",
-      "label": "Daniel Baldy",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_reichardt",
-      "label": "Martin Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_konstantin_von_notz",
-      "label": "Dr. Konstantin von Notz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_rainer_kraft",
-      "label": "Dr. Rainer Kraft",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_katja_strauss_k_ster",
-      "label": "Dr. Katja Strauss-Köster",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tijen_atao_lu",
-      "label": "Tijen Ataoğlu",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicole_gohlke",
-      "label": "Nicole Gohlke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_j_rgen_go_ner",
-      "label": "Hans-Jürgen Goßner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_hans_theiss",
-      "label": "Dr. Hans Theiss",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_truels_reichardt",
-      "label": "Truels Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anja_reinalter",
-      "label": "Dr. Anja Reinalter",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_corinna_r_ffer",
-      "label": "Corinna Rüffer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_florian_m_ller",
-      "label": "Florian Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mayra_vriesema",
-      "label": "Mayra Vriesema",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_fabian_gramling",
-      "label": "Fabian Gramling",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_andrea_l_bcke",
-      "label": "Dr. Andrea Lübcke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_pascal_meiser",
-      "label": "Pascal Meiser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_marcel_emmerich",
-      "label": "Marcel Emmerich",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helge_limburg",
-      "label": "Helge Limburg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rainer_gro",
-      "label": "Rainer Groß",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_lina_seitzl",
-      "label": "Dr. Lina Seitzl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kerstin_vieregge",
-      "label": "Kerstin Vieregge",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_thomas_erndl",
-      "label": "Thomas Erndl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_schr_der",
-      "label": "Stefan Schröder",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_josephine_ortleb",
-      "label": "Josephine Ortleb",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andreas_mayer",
-      "label": "Andreas Mayer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_claudia_m_ller",
-      "label": "Claudia Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sonja_lemke",
-      "label": "Sonja Lemke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_oliver_kaczmarek",
-      "label": "Oliver Kaczmarek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bodo_ramelow",
-      "label": "Bodo Ramelow",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicole_h_chst",
-      "label": "Nicole Höchst",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_joachim_ebmeyer",
-      "label": "Joachim Ebmeyer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stephan_albani",
-      "label": "Stephan Albani",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_saskia_ludwig",
-      "label": "Dr. Saskia Ludwig",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_uwe_schulz",
-      "label": "Uwe Schulz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jens_peick",
-      "label": "Jens Peick",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sandra_stein",
-      "label": "Sandra Stein",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_j_rg_cezanne",
-      "label": "Jörg Cezanne",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_klaus_wiener",
-      "label": "Dr. Klaus Wiener",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andreas_bleck",
-      "label": "Andreas Bleck",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lars_rohwer",
-      "label": "Lars Rohwer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_alaa_alhamwi",
-      "label": "Dr. Alaa Alhamwi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_nina_scheer",
-      "label": "Dr. Nina Scheer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lorenz_g_sta_beutin",
-      "label": "Lorenz Gösta Beutin",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_koller",
-      "label": "Hans Koller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_paul_schmidt",
-      "label": "Dr. Paul Schmidt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_charlotte_antonia_neuh_user",
-      "label": "Charlotte Antonia Neuhäuser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_inge_gr_le",
-      "label": "Dr. Inge Gräßle",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rocco_kever",
-      "label": "Rocco Kever",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johann_saathoff",
-      "label": "Johann Saathoff",
-      "type": "Person",
-      "subtype": "Parl. Staatssekretär bei der Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_schahina_gambir",
-      "label": "Schahina Gambir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_carl_philipp_sassenrath",
-      "label": "Carl-Philipp Sassenrath",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_matthias_rentzsch",
-      "label": "Matthias Rentzsch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
     }
   ],
   "relationships": [
@@ -11699,11 +11771,11 @@
       "source_id": "aussage_0",
       "target_id": "faktencheck_0",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_bundeshaushaltsplan_2023_einzelplan_30_bundesministerium_f_r_bildung_und_forschung",
+      "target_id": "quelle_dip_vorgang_anzeige_des_gesundheitsministeriums_zum_gesundheitsstandort_deutschland",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11720,11 +11792,11 @@
       "source_id": "aussage_1",
       "target_id": "faktencheck_1",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_bundesregierung_sichert_finanzierung_der_hightech_agenda",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11741,11 +11813,11 @@
       "source_id": "aussage_2",
       "target_id": "faktencheck_2",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_bundesregierung_hightech_strategie_2025",
+      "target_id": "quelle_dip_vorgang_bundesbericht_wissenschaftlerinnen_und_wissenschaftler_in_einer_fr_hen_karrierephase_2025_mit_stellungnahme_der_bundesregierung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11762,11 +11834,11 @@
       "source_id": "aussage_3",
       "target_id": "faktencheck_3",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_1000_k_pfe_plus_bundesregierung_f_rdert_166_forschende",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11783,15 +11855,15 @@
       "source_id": "aussage_4",
       "target_id": "faktencheck_4",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_universit_ten_44_prozent_der_professuren_m_ssen_bis_2033_neu_besetzt_werden_der_freitag",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dorothee_b_r",
+      "source_id": "person_daniel_baldy",
       "target_id": "aussage_5",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -11808,7 +11880,7 @@
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_bundesbericht_wissenschaftlicher_nachwuchs_buwin_2021",
+      "target_id": "quelle_veranstaltungen_im_besucherzentrum_bnd",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11825,11 +11897,11 @@
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_bundesnachrichtendienst_geschichte",
+      "target_id": "quelle_hunderte_offene_jobs_beim_bnd_das_m_ssen_bewerber_beim_geheimdienst_k_nnen_business_insider",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11850,7 +11922,7 @@
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_dip_vorgang_praxis_der_bundesregierung_zur_berichterstattung_im_ausschuss_f_r_forschung_technologie_raumfahrt_und_technikfolgenabs",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11867,11 +11939,11 @@
       "source_id": "aussage_8",
       "target_id": "faktencheck_8",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_bundeslagebild_cybercrime_2022_bundeskriminalamt",
+      "target_id": "quelle_eu_chatkontrolle_folgen_f_r_ermittlungen_gegen_kindesmissbrauch",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11888,11 +11960,11 @@
       "source_id": "aussage_9",
       "target_id": "faktencheck_9",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_bundeslagebild_cybercrime_verschiedene_jahrg_nge_bundeskriminalamt",
+      "target_id": "quelle_polizei_meldungen_positionspapier_des_bka_zu_erforderlichen_speicherfristen_von_ip_adressen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11913,7 +11985,7 @@
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_bayerischer_erlass_zur_gendersprache_in_beh_rden_und_schulen",
+      "target_id": "quelle_herrmann_bayern_beschlie_t_verbot_der_gendersprache_bayerisches_landesportal",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11934,7 +12006,7 @@
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_statistisches_bundesamt_ausgaben_und_einnahmen_der_ffentlichen_kinder_und_jugendhilfe",
+      "target_id": "quelle_dip_vorgang_aussage_des_bundeskanzlers_friedrich_merz_zu_den_j_hrlichen_steigerungsraten_bei_der_eingliederungshilfe",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11951,11 +12023,11 @@
       "source_id": "aussage_12",
       "target_id": "faktencheck_12",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_12",
-      "target_id": "quelle_statistisches_bundesamt_destatis_ausgaben_f_r_kinder_und_jugendhilfe",
+      "target_id": "quelle_die_finanzierung_der_kinder_und_jugendhilfe_springerlink",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11972,11 +12044,11 @@
       "source_id": "aussage_13",
       "target_id": "faktencheck_13",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_13",
-      "target_id": "quelle_bundesministerium_f_r_familie_senioren_frauen_und_jugend_unterhaltsvorschussstatistik",
+      "target_id": "quelle_dip_vorgang_anzahl_von_alleinerziehenden_mit_anspruch_auf_einen_unterhaltsvorschuss",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -11993,11 +12065,11 @@
       "source_id": "aussage_14",
       "target_id": "faktencheck_14",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_14",
-      "target_id": "quelle_kommunaler_finanzreport_2023_bertelsmann_stiftung",
+      "target_id": "quelle_deutschlands_kommunen_am_abgrund_32_milliarden_euro_defizit_offenbaren_das_versagen_der_politik",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12014,15 +12086,15 @@
       "source_id": "aussage_15",
       "target_id": "faktencheck_15",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_15",
-      "target_id": "quelle_bundesregierung_fr_hjahrsprojektion_2024",
+      "target_id": "quelle_bip_deutschland_2026_wie_hoch_ist_das_deutsche_bruttoinlandsprodukt",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_christoph_birghan",
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_16",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12039,11 +12111,11 @@
     },
     {
       "source_id": "faktencheck_16",
-      "target_id": "quelle_bev_lkerung_deutschlands_nach_demografischen_merkmalen_destatis",
+      "target_id": "quelle_bundesregierung_halbiert_wachstumsprognose_auf_0_5_prozent_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_thorsten_frei",
+      "source_id": "person_dr_christoph_birghan",
       "target_id": "aussage_17",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12056,15 +12128,15 @@
       "source_id": "aussage_17",
       "target_id": "faktencheck_17",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_17",
-      "target_id": "quelle_f_nfter_armuts_und_reichtumsbericht_der_bundesregierung",
+      "target_id": "quelle_b_rger_in_b_rgertum_politik_f_r_kinder_einfach_erkl_rt_hanisauland_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_thorsten_frei",
+      "source_id": "person_dr_christoph_birghan",
       "target_id": "aussage_18",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12077,11 +12149,11 @@
       "source_id": "aussage_18",
       "target_id": "faktencheck_18",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_18",
-      "target_id": "quelle_bundestags_drucksache_20_5642_antwort_der_bundesregierung_auf_eine_kleine_anfrage",
+      "target_id": "quelle_diesen_vs_dieses_jahres_welche_endung_ist_korrekt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12098,11 +12170,11 @@
       "source_id": "aussage_19",
       "target_id": "faktencheck_19",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_19",
-      "target_id": "quelle_bundeszentrale_f_r_politische_bildung_ukraine_konflikt",
+      "target_id": "quelle_rund_20_prozent_der_rentnerinnen_und_rentner_in_deutschland_haben_monatlich_h_chstens_1_400_euro_zur_verf_gung",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12119,11 +12191,11 @@
       "source_id": "aussage_20",
       "target_id": "faktencheck_20",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_20",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_besoldung_60_000_euro_mehr_f_r_den_kanzler_dobrindt_korrigiert_gehaltssprung_politik_sz_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12144,7 +12216,7 @@
     },
     {
       "source_id": "faktencheck_21",
-      "target_id": "quelle_europ_ischer_rat_ukraine_eu_beschlie_t_bis_2027_unterst_tzung_in_h_he_von_50_mrd_euro",
+      "target_id": "quelle_1000_euro_entlastungsbonus_wer_jetzt_profitiert_und_wer_leer_ausgeht_focus_online",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12161,15 +12233,15 @@
       "source_id": "aussage_22",
       "target_id": "faktencheck_22",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_22",
-      "target_id": "quelle_alterssicherungsbericht_2020_bundesministerium_f_r_arbeit_und_soziales",
+      "target_id": "quelle_krieg_gegen_die_ukraine_vier_jahre_im_verteidigungskampf",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_josephine_ortleb",
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_23",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12182,15 +12254,15 @@
       "source_id": "aussage_23",
       "target_id": "faktencheck_23",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_23",
-      "target_id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
+      "target_id": "quelle_neues_aus_japan_1_regierungskonsultationen",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_josephine_ortleb",
+      "source_id": "person_thorsten_frei",
       "target_id": "aussage_24",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12203,11 +12275,11 @@
       "source_id": "aussage_24",
       "target_id": "faktencheck_24",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_24",
-      "target_id": "quelle_senatsverwaltung_f_r_stadtentwicklung_und_wohnen_berlin_mietspiegel_2023",
+      "target_id": "quelle_eu_erzielt_kompromiss_kredit_ber_90_milliarden_euro_f_r_die_ukraine",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12224,11 +12296,11 @@
       "source_id": "aussage_25",
       "target_id": "faktencheck_25",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_25",
-      "target_id": "quelle_statistisches_bundesamt_destatis_entwicklung_der_mietpreise",
+      "target_id": "quelle_artemis_2_bricht_rekord_nie_waren_menschen_weiter_von_der_erde_entfernt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12249,7 +12321,7 @@
     },
     {
       "source_id": "faktencheck_26",
-      "target_id": "quelle_senatsverwaltung_f_r_stadtentwicklung_und_wohnen_berlin_mietspiegel_2023",
+      "target_id": "quelle_china_und_indien_xi_und_modi_wagen_den_neustart",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12266,11 +12338,11 @@
       "source_id": "aussage_27",
       "target_id": "faktencheck_27",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_27",
-      "target_id": "quelle_nasa_apollo_13_mission_overview",
+      "target_id": "quelle_all_systems_go_artemis_ii_startet_mit_deutscher_technik_zum_mond_bmftr",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12291,7 +12363,7 @@
     },
     {
       "source_id": "faktencheck_28",
-      "target_id": "quelle_esa_space_in_asia_pacific",
+      "target_id": "quelle_navi_f_r_die_mission_artemis_ohne_jena_fliegen_wir_nicht_zum_mond_mdr_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12308,11 +12380,11 @@
       "source_id": "aussage_29",
       "target_id": "faktencheck_29",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_29",
-      "target_id": "quelle_esa_european_service_module",
+      "target_id": "quelle_raumfahrt_deutscher_kleinsatellit_bei_artemis_mission_vorzeitig_vergl_ht_bodenstation_fehlte_zulassung_welt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12329,11 +12401,11 @@
       "source_id": "aussage_30",
       "target_id": "faktencheck_30",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_30",
-      "target_id": "quelle_jena_optronik_star_sensors",
+      "target_id": "quelle_artemis_2_erste_mondmission_mit_einer_frau_wer_ist_christina_koch",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12350,53 +12422,53 @@
       "source_id": "aussage_31",
       "target_id": "faktencheck_31",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_31",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_mondprogramm_der_nasa_italiener_fliegt_2027_bei_artemis_3_mit_kein_deutscher",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_josephine_ortleb",
+      "source_id": "person_andreas_mayer",
       "target_id": "aussage_32",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_32",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_32",
       "target_id": "faktencheck_32",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "irreführend"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_32",
-      "target_id": "quelle_nasa_artemis_ii_crew",
+      "target_id": "quelle_dip_vorgang_vermittlungen_zum_kauf_von_medizinischem_material_durch_abgeordnete_der_regierungsfraktionen_des_deutschen_bundestages",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_josephine_ortleb",
+      "source_id": "person_andreas_mayer",
       "target_id": "aussage_33",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_33",
-      "target_id": "top_1",
+      "target_id": "top_3",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_33",
       "target_id": "faktencheck_33",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_33",
-      "target_id": "quelle_esa_european_astronauts_to_fly_to_the_moon",
+      "target_id": "quelle_kein_passender_beleg_in_der_liste",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12417,7 +12489,7 @@
     },
     {
       "source_id": "faktencheck_34",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_kennzahlen_zum_raumfahrtunternehmen_spacex_statista",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12434,11 +12506,11 @@
       "source_id": "aussage_35",
       "target_id": "faktencheck_35",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_35",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_liste_der_falcon_9_und_falcon_heavy_raketenstarts_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12455,15 +12527,15 @@
       "source_id": "aussage_36",
       "target_id": "faktencheck_36",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "falsch"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_36",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_esa_esa_obtains_edge_certification_on_gender_equality",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_andreas_mayer",
+      "source_id": "person_joachim_ebmeyer",
       "target_id": "aussage_37",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12480,7 +12552,7 @@
     },
     {
       "source_id": "faktencheck_37",
-      "target_id": "quelle_brycetech_2023_space_launch_report",
+      "target_id": "quelle_esa_ministerratskonferenz_2025_in_bremen_deutschland_investiert_5_4_milliarden_euro_in_die_zukunft_der_europ_ischen_raumfahrt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12501,7 +12573,7 @@
     },
     {
       "source_id": "faktencheck_38",
-      "target_id": "quelle_eu_finanzrahmen_2021_2027_raumfahrtprogramm_der_eu",
+      "target_id": "quelle_esa_neuer_galileo_service_soll_eine_genauigkeit_von_20_cm_bieten",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12522,28 +12594,28 @@
     },
     {
       "source_id": "faktencheck_39",
-      "target_id": "quelle_europ_ische_kommission_galileo_fakten",
+      "target_id": "quelle_auf_ins_all_die_neue_mondsucht_wirtschaft_sz_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_joachim_ebmeyer",
+      "source_id": "person_dr_nina_scheer",
       "target_id": "aussage_40",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_40",
-      "target_id": "top_3",
+      "target_id": "top_5",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_40",
       "target_id": "faktencheck_40",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_40",
-      "target_id": "quelle_esa_european_service_module_facts_and_figures",
+      "target_id": "quelle_bundesnetzagentur_presse_ausbau_erneuerbarer_energien_2025",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12564,7 +12636,7 @@
     },
     {
       "source_id": "faktencheck_41",
-      "target_id": "quelle_bundesnetzagentur_quartalsbericht_wind_an_land",
+      "target_id": "quelle_mittlerweile_mehr_als_500_gigawatt_netzanschlussfragen_f_r_gro_e_batteriespeicher_pv_magazine_deutschland",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -12581,32 +12653,11 @@
       "source_id": "aussage_42",
       "target_id": "faktencheck_42",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_42",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_dr_nina_scheer",
-      "target_id": "aussage_43",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_43",
-      "target_id": "top_5",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_43",
-      "target_id": "faktencheck_43",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
-    },
-    {
-      "source_id": "faktencheck_43",
-      "target_id": "quelle_bundesministerium_f_r_umwelt_naturschutz_nukleare_sicherheit_und_verbraucherschutz_abschaltung_der_letzten_akws",
+      "target_id": "quelle_leistung_der_letzten_aktiven_kernkraftwerke_in_deutschland",
       "relationship_type": "BELEGT_MIT"
     },
     {

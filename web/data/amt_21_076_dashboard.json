@@ -12,7 +12,7 @@
     "gesamtzeit_min": 291,
     "tops": 6,
     "saalreaktionen": 670,
-    "geprüfte_aussagen": 46
+    "geprüfte_aussagen": 45
   },
   "redner": [
     {
@@ -316,9 +316,10 @@
     }
   ],
   "faktencheck_bilanz": {
-    "unbelegt": 19,
-    "bestätigt": 13,
-    "teilweise": 10,
-    "irreführend": 4
+    "teilweise": 29,
+    "irreführend": 3,
+    "unbelegt": 3,
+    "bestätigt": 6,
+    "falsch": 4
   }
 }

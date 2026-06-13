@@ -12,8 +12,8 @@
       "faktencheck",
       "provenienz"
     ],
-    "node_count": 1925,
-    "relationship_count": 3567,
+    "node_count": 1915,
+    "relationship_count": 3547,
     "herkunft": "amtlich",
     "quelle_typ": "amtlich",
     "quelle_url": "https://dserver.bundestag.de/btp/21/21077.pdf",
@@ -40,10 +40,38 @@
       "schicht": "zeitlich"
     },
     {
+      "id": "person_julia_kl_ckner",
+      "label": "Julia Klöckner",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_b_rbel_bas",
+      "label": "Bärbel Bas",
+      "type": "Person",
+      "subtype": "Bundesministerin für Arbeit und Soziales",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jan_feser",
+      "label": "Jan Feser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_afd",
       "label": "AfD",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_wilfried_oellers",
+      "label": "Wilfried Oellers",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -54,10 +82,24 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_corinna_r_ffer",
+      "label": "Corinna Rüffer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_b_ndnis_90_die_gr_nen",
       "label": "BÜNDNIS 90/DIE GRÜNEN",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_s_ren_pellmann",
+      "label": "Sören Pellmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -68,6 +110,13 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_heike_heubach",
+      "label": "Heike Heubach",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_spd",
       "label": "SPD",
       "type": "Fraktion",
@@ -75,10 +124,941 @@
       "schicht": "fallbezug"
     },
     {
+      "id": "person_peter_bohnhof",
+      "label": "Peter Bohnhof",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_h_lya_d_ber",
+      "label": "Dr. Hülya Düber",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_simone_fischer",
+      "label": "Simone Fischer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_angelika_gl_ckner",
+      "label": "Angelika Glöckner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_marc_biadacz",
+      "label": "Marc Biadacz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_stefan_nacke",
+      "label": "Dr. Stefan Nacke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_britta_ha_elmann",
+      "label": "Britta Haßelmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sascha_van_beek",
+      "label": "Sascha van Beek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_sichert",
+      "label": "Martin Sichert",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_serdar_y_ksel",
+      "label": "Serdar Yüksel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ates_g_rpinar",
+      "label": "Ates Gürpinar",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_katrin_staffler",
+      "label": "Katrin Staffler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicole_hess",
+      "label": "Nicole Hess",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_lina_seitzl",
+      "label": "Dr. Lina Seitzl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_misbah_khan",
+      "label": "Misbah Khan",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_hendrik_streeck",
+      "label": "Dr. Hendrik Streeck",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_janosch_dahmen",
+      "label": "Dr. Janosch Dahmen",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stella_merendino",
+      "label": "Stella Merendino",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_thomas_pauls",
+      "label": "Dr. Thomas Pauls",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sebastian_schmidt",
+      "label": "Sebastian Schmidt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andrea_lindholz",
+      "label": "Andrea Lindholz",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ingo_vogel",
+      "label": "Ingo Vogel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hauke_finger",
+      "label": "Hauke Finger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_stefan_korbach",
+      "label": "Dr. Stefan Korbach",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_katharina_beck",
+      "label": "Katharina Beck",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_doris_achelwilm",
+      "label": "Doris Achelwilm",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_anja_troff_schaffarzyk",
+      "label": "Anja Troff-Schaffarzyk",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_otto_strau",
+      "label": "Otto Strauß",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_anja_karliczek",
+      "label": "Anja Karliczek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tarek_al_wazir",
+      "label": "Tarek Al-Wazir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_janine_wissler",
+      "label": "Janine Wissler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_heiko_hain",
+      "label": "Heiko Hain",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christian_reck",
+      "label": "Christian Reck",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sascha_m_ller",
+      "label": "Sascha Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_christoph_plo",
+      "label": "Dr. Christoph Ploß",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_erhard_brucker",
+      "label": "Erhard Brucker",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_reichardt",
+      "label": "Martin Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_oliver_p_psel",
+      "label": "Oliver Pöpsel",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_truels_reichardt",
+      "label": "Truels Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_birgit_bessin",
+      "label": "Birgit Bessin",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mandy_ei_ing",
+      "label": "Mandy Eißing",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_konrad_k_rner",
+      "label": "Dr. Konrad Körner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_maximilian_krah",
+      "label": "Dr. Maximilian Krah",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kerstin_przygodda",
+      "label": "Kerstin Przygodda",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jasmina_hostert",
+      "label": "Jasmina Hostert",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nyke_slawik",
+      "label": "Nyke Slawik",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_maik_br_ckner",
+      "label": "Maik Brückner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ellen_demuth",
+      "label": "Ellen Demuth",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sebastian_maack",
+      "label": "Sebastian Maack",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rasha_nasr",
+      "label": "Rasha Nasr",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_josephine_ortleb",
+      "label": "Josephine Ortleb",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_karsten_wildberger",
+      "label": "Dr. Karsten Wildberger",
+      "type": "Person",
+      "subtype": "Bundesminister für Digitales und Staatsmodernisierung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ruben_rupp",
+      "label": "Ruben Rupp",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_sch_tzl",
+      "label": "Johannes Schätzl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rebecca_lenhard",
+      "label": "Rebecca Lenhard",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_donata_vogtschmidt",
+      "label": "Donata Vogtschmidt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ronja_kemmer",
+      "label": "Ronja Kemmer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_robin_j_nger",
+      "label": "Robin Jünger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_carolin_wagner",
+      "label": "Dr. Carolin Wagner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_moritz_heuberger",
+      "label": "Dr. Moritz Heuberger",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hansj_rg_durz",
+      "label": "Hansjörg Durz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_alexander_arpaschi",
+      "label": "Alexander Arpaschi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_martin_plum",
+      "label": "Dr. Martin Plum",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_wolfram_weimer",
+      "label": "Dr. Wolfram Weimer",
+      "type": "Person",
+      "subtype": "Staatsminister beim Bundeskanzler",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_erwin_renner",
+      "label": "Martin Erwin Renner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_holger_mann",
+      "label": "Holger Mann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bodo_ramelow",
+      "label": "Bodo Ramelow",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anna_l_hrmann",
+      "label": "Dr. Anna Lührmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_david_schliesing",
+      "label": "David Schliesing",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anja_weisgerber",
+      "label": "Dr. Anja Weisgerber",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ronald_gl_ser",
+      "label": "Ronald Gläser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_wiebke_esdar",
+      "label": "Dr. Wiebke Esdar",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_matthias_helferich",
+      "label": "Matthias Helferich",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_pascal_reddig",
+      "label": "Pascal Reddig",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sandra_carstensen",
+      "label": "Sandra Carstensen",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anna_rathert",
+      "label": "Dr. Anna Rathert",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jan_dieren",
+      "label": "Jan Dieren",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_wagner",
+      "label": "Johannes Wagner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_peter_aumer",
+      "label": "Peter Aumer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_angela_rudzka",
+      "label": "Angela Rudzka",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_daniela_rump",
+      "label": "Daniela Rump",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_florian_hahn",
+      "label": "Florian Hahn",
+      "type": "Person",
+      "subtype": "Staatsminister beim Bundesminister des Auswärtigen",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_gerold_otten",
+      "label": "Gerold Otten",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sebastian_hartmann",
+      "label": "Sebastian Hartmann",
+      "type": "Person",
+      "subtype": "Parl. Staatssekretär beim Bundesminister der Verteidigung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_niklas_wagener",
+      "label": "Niklas Wagener",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_g_kay_akbulut",
+      "label": "Gökay Akbulut",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_peter_beyer",
+      "label": "Peter Beyer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kurt_kleinschmidt",
+      "label": "Kurt Kleinschmidt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nancy_faeser",
+      "label": "Nancy Faeser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jens_lehmann",
+      "label": "Jens Lehmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_omid_nouripour",
+      "label": "Omid Nouripour",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_joachim_bloch",
+      "label": "Joachim Bloch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_hans_theiss",
+      "label": "Dr. Hans Theiss",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_paula_piechotta",
+      "label": "Dr. Paula Piechotta",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_maria_lena_weiss",
+      "label": "Dr. Maria-Lena Weiss",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tobias_teich",
+      "label": "Tobias Teich",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_j_rg_zirwes",
+      "label": "Jörg Zirwes",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_metin_hakverdi",
+      "label": "Metin Hakverdi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_christoph_birghan",
+      "label": "Dr. Christoph Birghan",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ayse_asar",
+      "label": "Ayse Asar",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_maja_wallstein",
+      "label": "Maja Wallstein",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_beatrix_von_storch",
+      "label": "Beatrix von Storch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicole_gohlke",
+      "label": "Nicole Gohlke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_joachim_ebmeyer",
+      "label": "Joachim Ebmeyer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_michael_kaufmann",
+      "label": "Dr. Michael Kaufmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_karsten_hilse",
+      "label": "Karsten Hilse",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_fabian_gramling",
+      "label": "Fabian Gramling",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_ingo_hahn",
+      "label": "Dr. Ingo Hahn",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mahmut_zdemir",
+      "label": "Mahmut Özdemir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_fabian_jacobi",
+      "label": "Fabian Jacobi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johannes_wiegelmann",
+      "label": "Johannes Wiegelmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lukas_benner",
+      "label": "Lukas Benner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_aaron_valent",
+      "label": "Aaron Valent",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_thomas_fetsch",
+      "label": "Thomas Fetsch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_karl_b_r",
+      "label": "Karl Bär",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_anna_aeikens",
+      "label": "Anna Aeikens",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dario_seifert",
+      "label": "Dario Seifert",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_franziska_kersten",
+      "label": "Dr. Franziska Kersten",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christin_willnat",
+      "label": "Christin Willnat",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_alexander_engelhard",
+      "label": "Alexander Engelhard",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_seidler",
+      "label": "Stefan Seidler",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
       "id": "fraktion_fraktionslos",
       "label": "fraktionslos",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_michael_blos",
+      "label": "Dr. Michael Blos",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kay_gottschalk",
+      "label": "Kay Gottschalk",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_olav_gutting",
+      "label": "Olav Gutting",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_parsa_marvi",
+      "label": "Parsa Marvi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_florian_dorn",
+      "label": "Dr. Florian Dorn",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_thorsten_rudolph",
+      "label": "Dr. Thorsten Rudolph",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_j_rn_k_nig",
+      "label": "Jörn König",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_oliver_vogt",
+      "label": "Dr. Oliver Vogt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tina_winklmann",
+      "label": "Tina Winklmann",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_christian_g_rke",
+      "label": "Christian Görke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_florian_o_ner",
+      "label": "Florian Oßner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lars_schieske",
+      "label": "Lars Schieske",
+      "type": "Person",
+      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -2085,24 +3065,24 @@
       "type": "Aussage",
       "subtype": "",
       "text": "In Deutschland leben 13 Millionen Menschen mit einer anerkannten Behinderung oder Beeinträchtigung.",
-      "person": "Präsidentin Julia Klöckner",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_0",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Statistischen Bundesamt (Destatis) lebten 2021 in Deutschland rund 13,4 Millionen Menschen mit einer amtlich anerkannten Behinderung. Die Zahl von 13 Millionen ist eine gerundete Angabe und damit korrekt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt 13 Millionen Menschen mit einer anerkannten Behinderung oder Beeinträchtigung in Deutschland. Die bereitgestellten Belege beziehen sich jedoch ausschließlich auf Menschen mit einer *schweren* Behinderung, deren Anzahl zum Jahresende 2023 bei rund 7,9 Millionen lag (Statist",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_menschen_mit_behinderungen",
-      "label": "Statistisches Bundesamt (Destatis) – Menschen mit Behinderungen",
+      "id": "quelle_behinderte_menschen_statistisches_bundesamt",
+      "label": "Behinderte Menschen - Statistisches Bundesamt",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/Tabellen/behinderte-menschen-uebersicht.html",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/_inhalt.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2112,34 +3092,34 @@
       "type": "Aussage",
       "subtype": "",
       "text": "Das ist gut jeder sechste Mensch in unserem Land.",
-      "person": "Präsidentin Julia Klöckner",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_1",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Bei einer Bevölkerung von etwa 83 Millionen (Stand 2021) entspricht 13 Millionen etwa 15,7 % der Bevölkerung, also grob jeder sechste Mensch.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Das ist gut jeder sechste Mensch in unserem Land' bezieht sich auf einen nationalen Kontext ('unserem Land'), während die bereitgestellten Belege ausschließlich globale Daten der WHO zitieren ('jeder sechste Mensch weltweit'). Die Belege bestätigen zwar die globale Statistik, l",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_bev_lkerung_deutschlands",
-      "label": "Statistisches Bundesamt (Destatis) – Bevölkerung Deutschlands",
+      "id": "quelle_jeder_sechste_mensch_weltweit_laut_who_von_einsamkeit_betroffen_tagesschau_de",
+      "label": "Jeder sechste Mensch weltweit laut WHO von Einsamkeit betroffen | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html",
+      "url": "https://www.tagesschau.de/wissen/einsamkeit-krank-who-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_2",
-      "label": "Aussage: Für Behörden des Bundes gilt schon seit über 20 Jahren: Jede…",
+      "label": "Aussage: rund 190 000 schwerbehinderte Menschen in unserem Land [sind…",
       "type": "Aussage",
       "subtype": "",
-      "text": "Für Behörden des Bundes gilt schon seit über 20 Jahren: Jede Benachteiligung ist verboten.",
-      "person": "Präsidentin Julia Klöckner",
+      "text": "rund 190 000 schwerbehinderte Menschen in unserem Land [sind] arbeitslos.",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
@@ -2148,42 +3128,42 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Behindertengleichstellungsgesetz (BGG) trat 2002 in Kraft und verbietet Benachteiligungen durch Bundesbehörden. Die Aussage ist insofern korrekt, als das Gesetz seit über 20 Jahren existiert. Allerdings ist die Formulierung 'jede Benachteiligung ist verboten' vereinfacht, da das Gesetz ",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine Zahl von 'rund 190.000 schwerbehinderten Menschen', die arbeitslos sind. Der Beleg von REHADAT-Statistik gibt für Dezember 2025 eine konkrete Zahl von 184.650 arbeitslosen schwerbehinderten Menschen an. Die Aussage liegt damit im Kern richtig, weicht jedoch in der gen",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_der_justiz_behindertengleichstellungsgesetz_bgg",
-      "label": "Bundesministerium der Justiz – Behindertengleichstellungsgesetz (BGG)",
+      "id": "quelle_arbeitslos_statistik_der_bundesagentur_f_r_arbeit_rehadat_statistik",
+      "label": "Arbeitslos: Statistik der Bundesagentur für Arbeit | REHADAT-Statistik",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.gesetze-im-internet.de/bgg/BJNR146800002.html",
+      "url": "https://www.rehadat-statistik.de/statistiken/berufliche-teilhabe/arbeits-und-erwerbslosigkeit/arbeitslos-statistik-der-bundesagentur-fuer-arbeit/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_3",
-      "label": "Aussage: rund 190 000 schwerbehinderte Menschen in unserem Land [sind…",
+      "label": "Aussage: Für Behörden des Bundes gilt schon seit über 20 Jahren: Jede…",
       "type": "Aussage",
       "subtype": "",
-      "text": "rund 190 000 schwerbehinderte Menschen in unserem Land [sind] arbeitslos.",
-      "person": "Präsidentin Julia Klöckner",
+      "text": "Für Behörden des Bundes gilt schon seit über 20 Jahren: Jede Benachteiligung ist verboten.",
+      "person": "Julia Klöckner",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_3",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut der Bundesagentur für Arbeit waren im Jahr 2022 durchschnittlich etwa 170.000 schwerbehinderte Menschen arbeitslos gemeldet. Die Zahl von 190.000 liegt jedoch im Rahmen der Schwankungen der letzten Jahre und ist damit nicht falsch, aber leicht veraltet oder gerundet.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass für Behörden des Bundes schon seit über 20 Jahren *jede* Benachteiligung verboten sei. Tatsächlich gibt es seit 2006 das Allgemeine Gleichbehandlungsgesetz (AGG), das Benachteiligungen aus bestimmten Gründen (z. B. Rasse, ethnische Herkunft, Geschlecht, Religion,",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesagentur_f_r_arbeit_statistik_zur_arbeitslosigkeit_schwerbehinderter_menschen",
-      "label": "Bundesagentur für Arbeit – Statistik zur Arbeitslosigkeit schwerbehinderter Menschen",
+      "id": "quelle_mehr_schutz_vor_diskriminierung_durch_den_staat_gefordert_tagesschau_de",
+      "label": "Mehr Schutz vor Diskriminierung durch den Staat gefordert | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Menschen-mit-Schwerbehinderung/Generische-Publikationen/Arbeitsmarkt-Deutschland-Schwerbehinderte-Menschen.pdf?__blob=publicationFile&v=4",
+      "url": "https://www.tagesschau.de/inland/gesellschaft/diskriminierung-behoerden-ataman-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2192,7 +3172,7 @@
       "label": "Aussage: In Deutschland leben rund 13 Millionen Menschen mit Beeinträ…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
-      "text": "In Deutschland leben rund 13 Millionen Menschen mit Beeinträchtigungen",
+      "text": "In Deutschland leben rund 13 Millionen Menschen mit Beeinträchtigungen, die jeden Tag Barrieren begegnen, und in unserer alternden Gesellschaft werden es Jahr für Jahr mehr.",
       "person": "Marc Biadacz",
       "schicht": "fallbezug"
     },
@@ -2202,15 +3182,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Teilhabebericht der Bundesregierung (2021) leben etwa 13,4 Millionen Menschen mit einer amtlich anerkannten Behinderung in Deutschland. Die Aussage ist jedoch teilweise, da nicht alle Beeinträchtigungen amtlich anerkannt sind und die Zahl je nach Definition variieren kann.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass in Deutschland rund 13 Millionen Menschen mit Beeinträchtigungen leben, wird durch den Statista-Beleg für das Jahr 2017 bestätigt (13,04 Millionen). Allerdings bezieht sich diese Zahl auf das Jahr 2017 und nicht auf die aktuelle Situation. Zudem wird im Beleg der bpb.de nu",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_teilhabebericht_der_bundesregierung_ber_die_lebenslagen_von_menschen_mit_beeintr_chtigungen_2021",
-      "label": "Teilhabebericht der Bundesregierung über die Lebenslagen von Menschen mit Beeinträchtigungen (2021)",
+      "id": "quelle_anzahl_der_menschen_mit_beeintr_chtigungen",
+      "label": "Anzahl der Menschen mit Beeinträchtigungen",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmas.de/SharedDocs/Downloads/DE/Publikationen/a125-21-teilhabebericht-2021.pdf",
+      "url": "https://de.statista.com/statistik/daten/studie/1258663/umfrage/menschen-mit-beeintraechtigungen/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2225,19 +3205,19 @@
     },
     {
       "id": "faktencheck_5",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Bundeszuschuss zum Gesundheitsfonds wurde im Rahmen des GKV-Finanzstabilisierungsgesetzes 2023 reduziert. Ursprünglich war ein Zuschuss von 14,5 Mrd. Euro für 2023 geplant, dieser wurde auf 2 Mrd. Euro gekürzt (später teilweise korrigiert, aber dennoch eine deutliche Kürzung).",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass 'der Bundeszuschuss zum Gesundheitsfonds von Ihnen gekürzt wird', ist im Kern richtig, da laut dem Beleg von krankenkassen-direkt.de eine Kürzung des Bundeszuschusses ab 2027 um 2 Milliarden Euro auf 12,5 Milliarden Euro geplant ist. Allerdings ist die Formulierung 'von Ih",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_gesundheit_gkv_finanzstabilisierungsgesetz",
-      "label": "Bundesministerium für Gesundheit - GKV-Finanzstabilisierungsgesetz",
+      "id": "quelle_gesundheitsfonds_bundeszuschuss_themen_der_gkv_gesetzliche_krankenversicherung_kkdirekt_de",
+      "label": "Gesundheitsfonds / Bundeszuschuss - Themen der GKV - gesetzliche Krankenversicherung - kkdirekt.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/guv-20-lp/gkv-finanzstabilisierungsgesetz.html",
+      "url": "https://www.krankenkassen-direkt.de/themen/Gesundheitsfonds-Bundeszuschuss-474948.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2252,19 +3232,19 @@
     },
     {
       "id": "faktencheck_6",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die „Expertenkommission für eine moderne und bedarfsgerechte Krankenhausversorgung“ (Klinik-Kommission) hat im Oktober 2022 einen Bericht mit 483 Seiten vorgelegt, der konkrete Vorschläge zur Kostensenkung und Qualitätsverbesserung enthält.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf ein Gutachten der Expertinnen- und Expertenkommission zur Lehrkräftebildung, das tatsächlich Empfehlungen zur Verbesserung von Qualität und zur Effizienzsteigerung (implizit auch Kosteneinsparungen) enthält. Allerdings gibt der Beleg der Universität Passau an, d",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bericht_der_regierungskommission_f_r_eine_moderne_und_bedarfsgerechte_krankenhausversorgung",
-      "label": "Bericht der Regierungskommission für eine moderne und bedarfsgerechte Krankenhausversorgung",
+      "id": "quelle_podiumsdiskussion_expertenkommission_universit_t_passau",
+      "label": "Podiumsdiskussion Expertenkommission - Universität Passau",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/G/GKV/Regierungskommission/Krankenhausreform/Bericht_Regierungskommission_Krankenhaus_2022.pdf",
+      "url": "https://www.zlf.uni-passau.de/aktuelles/expertenkommission",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2279,19 +3259,19 @@
     },
     {
       "id": "faktencheck_7",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Eine konkrete Prognose für eine „Milliardenlücke ab 2029“ wird in der Rede nicht mit einer amtlichen Quelle belegt. Langfristige Finanzierungslücken im Gesundheitswesen werden zwar diskutiert, aber eine exakte Zahl für 2029 ist nicht offiziell dokumentiert.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine 'Milliardenlücke' im Bundeshaushalt, die laut den Belegen bereits für 2027 prognostiziert wird. Der STERN-Artikel bestätigt, dass das Kabinett Eckpunkte für den Haushalt 2027 beschlossen hat und dabei von anhaltenden Milliardenlücken ausgeht. Der BR24-Beitr",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "id": "quelle_kabinett_beschlie_t_eckpunkte_f_r_haushalt_2027_milliardenl_cken_bleiben",
+      "label": "Kabinett beschließt Eckpunkte für Haushalt 2027 - Milliardenlücken bleiben",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.stern.de/news/kabinett-beschliesst-eckpunkte-fuer-haushalt-2027---milliardenluecken-bleiben-37353214.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2310,15 +3290,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) betrug der Anteil der Gesundheitswirtschaft an der gesamten Bruttowertschöpfung in Deutschland im Jahr 2021 etwa 12,1 Prozent.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Beleg vom Bundesgesundheitsministerium (BMG) bestätigt, dass die Gesundheitswirtschaft 2025 einen Anteil von 12,4 Prozent an der Bruttowertschöpfung der Gesamtwirtschaft hatte. Dies stützt die Aussage, dass der Anteil über 12 Prozent liegt. Auch der AOK-Artikel (Wifor) nennt einen Antei",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_gesundheitswirtschaftliche_gesamtrechnungen",
-      "label": "Statistisches Bundesamt (Destatis) – Gesundheitswirtschaftliche Gesamtrechnungen",
+      "id": "quelle_bedeutung_der_gesundheitswirtschaft_bmg",
+      "label": "Bedeutung der Gesundheitswirtschaft | BMG",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Gesundheitsausgaben/Tabellen/gesundheitswirtschaftliche-gesamtrechnungen-bws.html",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/gesundheitswesen/gesundheitswirtschaft/bedeutung-der-gesundheitswirtschaft",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2337,15 +3317,15 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundesministerium für Wirtschaft und Klimaschutz (BMWK) waren 2021 etwa 7,4 Millionen Menschen in der Gesundheitswirtschaft beschäftigt, was etwa 16,5 Prozent der Gesamtbeschäftigung entspricht. Die Aussage 'fast jeder fünfte' (20 Prozent) ist leicht übertrieben, aber in der Nähe des t",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Fast jeder fünfte Beschäftigte in Deutschland findet hier den Arbeitsplatz' impliziert, dass etwa 20% der Bevölkerung in Deutschland beschäftigt sind. Laut den Belegen liegt die Anzahl der Erwerbstätigen in Deutschland bei etwa 46 Millionen. Bei einer Gesamtbevölkerung von rund",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_wirtschaft_und_klimaschutz_gesundheitswirtschaft_als_jobmotor",
-      "label": "Bundesministerium für Wirtschaft und Klimaschutz – Gesundheitswirtschaft als Jobmotor",
+      "id": "quelle_zahl_der_erwerbst_tigen_in_deutschland_auf_h_chststand_tagesschau_de",
+      "label": "Zahl der Erwerbstätigen in Deutschland auf Höchststand | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bmwk.de/Redaktion/DE/Publikationen/Wirtschaft/gesundheitswirtschaft-in-deutschland.html",
+      "url": "https://www.tagesschau.de/wirtschaft/erwerbstaetige-104.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2360,19 +3340,19 @@
     },
     {
       "id": "faktencheck_10",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Preis des Deutschlandtickets wurde ab Januar 2024 auf 49 Euro festgelegt, stieg jedoch im Mai 2023 zunächst auf 49 Euro und ab Dezember 2023 auf 63 Euro (für das Jahr 2024).",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass das Deutschlandticket 'mittlerweile seit Januar 63 Euro' kostet, ist im Kern richtig, da die Belege bestätigen, dass der Preis ab Januar 2026 auf 63 Euro steigen soll. Allerdings ist die Formulierung 'mittlerweile seit Januar' irreführend, da der Preis erst ab Januar 2026 ",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_deutschlandticket",
-      "label": "Bundesregierung - Deutschlandticket",
+      "id": "quelle_deutschlandticket_von_kaufen_bis_k_ndigen_alle_wichtigen_infos_verbraucherzentrale_de",
+      "label": "Deutschlandticket: Von Kaufen bis Kündigen - alle wichtigen Infos | Verbraucherzentrale.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutschlandticket",
+      "url": "https://www.verbraucherzentrale.de/wissen/reise-mobilitaet/unterwegs-sein/deutschlandticket-von-kaufen-bis-kuendigen-alle-wichtigen-infos-82203",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2387,100 +3367,100 @@
     },
     {
       "id": "faktencheck_11",
-      "label": "Faktencheck: unbelegt",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Eine automatische Preiserhöhung ab 2027 ist aktuell nicht amtlich beschlossen oder veröffentlicht. Die Preisentwicklung hängt von politischen Entscheidungen ab.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage suggeriert eine automatische Preiserhöhung ab 2027, was jedoch nicht durch die Belege gestützt wird. Der DIP-Vorgang zur 'Formel zur Berechnung des Preisindex' deutet zwar auf eine mögliche dynamische Preisanpassung hin, aber es gibt keine konkrete Bestätigung, dass diese ab 202",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_amtliche_quelle_bekannt",
-      "label": "Keine amtliche Quelle bekannt",
+      "id": "quelle_dip_vorgang_formel_zur_berechnung_des_preisindex_beim_deutschlandticket",
+      "label": "DIP-Vorgang: Formel zur Berechnung des Preisindex beim Deutschlandticket",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://dip.bundestag.de/suche?term=Ab%20Preis%20Deutschlandtickets",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_12",
-      "label": "Aussage: das Fliegen [wird] jetzt schon mit über 12 Milliarden Euro s…",
+      "label": "Aussage: die Luftverkehrsteuer [wird gesenkt] von 2,50 Euro auf der K…",
       "type": "Aussage",
       "subtype": "Die Linke",
-      "text": "das Fliegen [wird] jetzt schon mit über 12 Milliarden Euro subventioniert",
+      "text": "die Luftverkehrsteuer [wird gesenkt] von 2,50 Euro auf der Kurzstrecke und 11,40 Euro auf der Langstrecke",
       "person": "Janine Wissler",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_12",
-      "label": "Faktencheck: teilweise",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Subventionen für den Luftverkehr umfassen verschiedene Posten, darunter Steuervergünstigungen (z. B. Kerosinsteuerbefreiung). Eine genaue Summe von 'über 12 Mrd. Euro' ist jedoch nicht eindeutig belegt. Schätzungen des Umweltbundesamts (2020) nennen etwa 12 Mrd. Euro jährlich für klimas",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt Beträge von 2,50 Euro für die Kurzstrecke und 11,40 Euro für die Langstrecke, die als Senkung der Luftverkehrsteuer dargestellt werden. Laut den Belegen betragen die aktuellen Sätze jedoch deutlich höhere Werte: So liegt der Kurzstreckensatz 2025 bei 15,53 Euro (Statistisc",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_umweltbundesamt_klimasch_dliche_subventionen",
-      "label": "Umweltbundesamt - Klimaschädliche Subventionen",
+      "id": "quelle_luftverkehrabgabe_wikipedia",
+      "label": "Luftverkehrabgabe – Wikipedia",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.umweltbundesamt.de/themen/klimaschaedliche-subventionen-in-deutschland-2020",
+      "url": "https://de.wikipedia.org/wiki/Luftverkehrabgabe",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_13",
-      "label": "Aussage: die Steuersenkung von 2,50 Euro auf der Kurzstrecke und 11,4…",
+      "label": "Aussage: die wegfallenden Einnahmen durch die Steuersenkung – 350 Mil…",
       "type": "Aussage",
       "subtype": "Die Linke",
-      "text": "die Steuersenkung von 2,50 Euro auf der Kurzstrecke und 11,40 Euro auf der Langstrecke",
+      "text": "die wegfallenden Einnahmen durch die Steuersenkung – 350 Millionen Euro – sollen ab 2027 vollständig im Verkehrsetat eingespart werden",
       "person": "Janine Wissler",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_13",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die geplante Senkung der Luftverkehrsteuer sieht vor, die Sätze auf Kurzstrecken (bis 2.500 km) von 12,73 Euro auf 10,23 Euro (ca. 2,50 Euro Differenz) und auf Langstrecken (ab 6.000 km) von 58,06 Euro auf 46,66 Euro (ca. 11,40 Euro Differenz) zu reduzieren.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine konkreten Informationen zu einer Steuersenkung in Höhe von 350 Millionen Euro, deren wegfallende Einnahmen ab 2027 vollständig im Verkehrsetat eingespart werden sollen. Die genannten Dokumente behandeln allgemeine Haushaltspläne des Verkehrsetats,",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestags_drucksache_20_10000_gesetzentwurf_zur_nderung_des_luftverkehrsteuergesetzes",
-      "label": "Bundestags-Drucksache 20/10000 - Gesetzentwurf zur Änderung des Luftverkehrsteuergesetzes",
+      "id": "quelle_kein_passender_beleg_in_der_liste",
+      "label": "Kein passender Beleg in der Liste",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/100/2010000.pdf",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw38-de-verkehr-1104002",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_14",
-      "label": "Aussage: Die wegfallenden Einnahmen durch die Steuersenkung – 350 Mil…",
+      "label": "Aussage: die Luftverkehrswirtschaft [wird] jetzt schon mit über 12 Mi…",
       "type": "Aussage",
       "subtype": "Die Linke",
-      "text": "Die wegfallenden Einnahmen durch die Steuersenkung – 350 Millionen Euro – sollen ab 2027 vollständig im Verkehrsetat eingespart werden.",
+      "text": "die Luftverkehrswirtschaft [wird] jetzt schon mit über 12 Milliarden Euro subventioniert",
       "person": "Janine Wissler",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_14",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Gesetzentwurf der Bundesregierung beziffert die erwarteten Mindereinnahmen durch die Senkung der Luftverkehrsteuer auf etwa 350 Mio. Euro jährlich und sieht vor, diese ab 2027 durch Einsparungen im Verkehrsetat auszugleichen.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, die Luftverkehrswirtschaft werde 'jetzt schon mit über 12 Milliarden Euro subventioniert'. Der Beleg aus dem BDI (Bundesverband der Deutschen Industrie) nennt jedoch lediglich die Luftverkehrsteuer, die 'annähernd zwei Milliarden Euro pro Jahr' beträgt (Stand 2020). D",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundestags_drucksache_20_10000_finanzielle_auswirkungen",
-      "label": "Bundestags-Drucksache 20/10000 - Finanzielle Auswirkungen",
+      "id": "quelle_wie_die_deutsche_luftfahrt_wirtschaft_und_alltag_bef_rdert",
+      "label": "Wie die deutsche Luftfahrt Wirtschaft und Alltag befördert",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://dserver.bundestag.de/btd/20/100/2010000.pdf",
+      "url": "https://bdi.eu/luftfahrt/",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2495,19 +3475,19 @@
     },
     {
       "id": "faktencheck_15",
-      "label": "Faktencheck: falsch",
+      "label": "Faktencheck: bestätigt",
       "type": "Faktencheck",
-      "subtype": "falsch",
-      "verdikt": "falsch",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die letzte Erhöhung der Luftverkehrsteuer erfolgte im Jahr 2020 (durch das Gesetz zur Umsetzung des Klimaschutzprogramms 2030). Eine Erhöhung im Mai 2024 ist nicht dokumentiert.",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass die Luftverkehrsteuer zuletzt von der Ampel im Mai 2024 deutlich erhöht wurde, wird durch mehrere Belege gestützt. Der erste Beleg vom Deutschen Bundestag (bundestag.de) bestätigt, dass die Erhöhung der Luftverkehrsteuer auf Betreiben der Ampelkoalition zum 1. Mai 2024 erf",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesfinanzministerium_luftverkehrsteuer",
-      "label": "Bundesfinanzministerium - Luftverkehrsteuer",
+      "id": "quelle_bundestag_entscheidet_ber_senkung_der_luftverkehrsteuer",
+      "label": "Bundestag entscheidet über Senkung der Luftverkehrsteuer",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Steuerarten/Luftverkehrsteuer/luftverkehrsteuer.html",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw21-de-luftverkehrsteuer-1174746",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2522,19 +3502,19 @@
     },
     {
       "id": "faktencheck_16",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut dem Armutsbericht des Paritätischen Wohlfahrtsverbands und Daten des Statistischen Bundesamts lag die Kinderarmutsquote in Deutschland 2021 bei etwa 20,8 %. Die Aussage bezieht sich auf die relative Einkommensarmut von Kindern unter 18 Jahren.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'jedes fünfte Kind in Armut lebt' ist im Kern richtig, aber unpräzise. Die bereitgestellten Belege zeigen, dass die Aussage sowohl global als auch spezifisch für Deutschland zutrifft, jedoch mit unterschiedlichen Kontexten: Weltweit lebt fast jedes fünfte Kind in *extremer* Armu",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_armutsgef_hrdungsquote_von_kindern",
-      "label": "Statistisches Bundesamt - Armutsgefährdungsquote von Kindern",
+      "id": "quelle_unicef_bericht_fast_jedes_f_nfte_kind_weltweit_lebt_in_extremer_armut_tagesschau_de",
+      "label": "Unicef-Bericht: Fast jedes fünfte Kind weltweit lebt in extremer Armut | tagesschau.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialberichterstattung/Tabellen/armutsgefaehrdungsquote-alter.html",
+      "url": "https://www.tagesschau.de/ausland/unicef-bericht-kinderarmut-100.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2553,15 +3533,15 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die zusammengefasste Geburtenziffer (TFR) in Deutschland lag 2022 bei 1,46 Kindern pro Frau, was unter dem Bestanderhaltungsniveau von etwa 2,1 liegt. Die Aussage ist somit quantitativ korrekt, auch wenn sie sich auf den allgemeinen Trend bezieht.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'geringen Geburtenraten deutscher Frauen' wird durch die bereitgestellten Belege gestützt. Laut Statistischem Bundesamt lag die zusammengefasste Geburtenziffer der Frauen mit deutscher Staatsangehörigkeit 2024 bei 1,23 Kindern je Frau, was einen historischen Tiefstand darstellt.",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_geburten_in_deutschland",
-      "label": "Statistisches Bundesamt - Geburten in Deutschland",
+      "id": "quelle_monatliche_geburtenzahlen_statistisches_bundesamt",
+      "label": "Monatliche Geburtenzahlen - Statistisches Bundesamt",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/Tabellen/geburtenziffer.html",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/geburten-aktuell.html",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -2580,74 +3560,20 @@
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Angabe von 'rund 10 Prozent' für LSBTIQ*-Menschen in Deutschland ist eine häufig zitierte Schätzung, die auf internationalen Studien basiert (z. B. Kinsey-Report). Amtliche Daten fehlen jedoch, da in offiziellen Erhebungen wie dem Mikrozensus keine entsprechenden Fragen gestellt werden.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält zwei Teile: 1) Den Anteil von LGBTQ+-Personen in der Bevölkerung und 2) deren Möglichkeit und Wunsch, Kinder zu bekommen. Zum ersten Teil: Die Belege enthalten keine direkten Daten zum Anteil von lesbischen, schwulen, bi- oder trans Personen in Deutschland oder weltweit.",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_antidiskriminierungsstelle_des_bundes_lsbtiq_in_deutschland",
-      "label": "Antidiskriminierungsstelle des Bundes – LSBTIQ* in Deutschland",
+      "id": "quelle_familienhaushalte_nach_zahl_der_kinder_die_soziale_situation_in_deutschland_bpb_de",
+      "label": "Familienhaushalte nach Zahl der Kinder | Die soziale Situation in Deutschland | bpb.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.antidiskriminierungsstelle.de/DE/ThemenUndForschung/LSBTI/LSBTI_node.html",
+      "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61597/familienhaushalte-nach-zahl-der-kinder/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_19",
-      "label": "Aussage: Letztes Jahr hat der Bundesrat die Bundesregierung aufgeford…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Letztes Jahr hat der Bundesrat die Bundesregierung aufgefordert: Bitte stellt queere Paare im Abstammungsrecht endlich gleich!",
-      "person": "Jasmina Hostert",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_19",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der Bundesrat hat am 10. Februar 2023 eine Entschließung verabschiedet, in der die Bundesregierung aufgefordert wird, das Abstammungsrecht zu reformieren, um queere Paare rechtlich gleichzustellen (Drucksache 756/22).",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bundesratsdrucksache_756_22_beschluss",
-      "label": "Bundesratsdrucksache 756/22 (Beschluss)",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bundesrat.de/SharedDocs/drucksachen/2022/0701-0800/756-22(B).pdf?__blob=publicationFile&v=1",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_20",
-      "label": "Aussage: dass Katherina Reiche gerade den Ausbau der erneuerbaren Ene…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "dass Katherina Reiche gerade den Ausbau der erneuerbaren Energien plattmacht und die deutschen Klimaziele nicht mehr wirklich zu erreichen sind",
-      "person": "Jasmina Hostert",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_20",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage enthält eine wertende Interpretation von Handlungen der CDU-Politikerin Katherina Reiche (Vorstandsvorsitzende der Westenergie AG) sowie eine Prognose zum Erreichen der Klimaziele. Es gibt keine amtliche Quelle, die diese Behauptung quantitativ oder faktisch bestätigt. Die Entwi",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_quelle",
-      "label": "-",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "-",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_21",
       "label": "Aussage: Vor einem Jahr war ja was. Und damit meine ich nicht die ges…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -2656,25 +3582,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_21",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_19",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die aktuelle Bundesregierung (Ampelkoalition) wurde am 8. Dezember 2021 vereidigt. Die Rede scheint etwa ein Jahr nach Gründung des Digitalministeriums gehalten worden zu sein, das im Dezember 2021 eingerichtet wurde.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf den Zeitraum 'seit einem Jahr' und stellt die Bildung der Bundesregierung in den Vordergrund, während sie die gescheiterte Kanzlerwahl als Nebenaspekt erwähnt. Laut dem Beleg '[So geht es nach der Bundestagswahl weiter]' wurde der Koalitionsvertrag zwischen CDU/",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesregierung_vereidigung_der_bundesregierung",
-      "label": "Bundesregierung - Vereidigung der Bundesregierung",
+      "id": "quelle_so_geht_es_nach_der_bundestagswahl_weiter",
+      "label": "So geht es nach der Bundestagswahl weiter",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundesregierung.de/breg-de/aktuelles/vereidigung-der-bundesregierung-1986250",
+      "url": "https://www.bundestagswahl-bw.de/bundestagswahl2025/so-geht-es-nach-der-bundestagswahl-weiter",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_22",
+      "id": "aussage_20",
       "label": "Aussage: Frankreich stellt die Verwaltung auf Linux um.…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -2683,25 +3609,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_22",
+      "id": "faktencheck_20",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Frankreich hat Initiativen zur Nutzung von Open-Source-Software wie Linux in der öffentlichen Verwaltung gestartet, z. B. das Projekt 'Sovereign Workplace' (2021). Eine vollständige Umstellung der gesamten Verwaltung auf Linux ist jedoch nicht belegt und wäre ein langfristiger Prozess.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Belege deuten darauf hin, dass Frankreich eine Strategie zur Reduzierung der Abhängigkeit von außereuropäischen IT-Anbietern verfolgt und Linux als Teil dieser Strategie betrachtet. Allerdings wird in den Quellen betont, dass es sich zunächst um eine Planungsphase handelt und der Umstie",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_french_government_open_source_software_strategy",
-      "label": "French Government - Open Source Software Strategy",
+      "id": "quelle_frankreich_leitet_linux_wechsel_statt_windows_in_der_verwaltung_ein_ghacks_deutschland",
+      "label": "Frankreich leitet Linux Wechsel statt Windows in der Verwaltung ein | Ghacks Deutschland",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.numerique.gouv.fr/publications/politique-logiciels-libres/",
+      "url": "https://www.ghacks.net/de/2026/04/12/frankreich-linux-windows-verwaltung/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_23",
+      "id": "aussage_21",
       "label": "Aussage: Die Bundesregierung verschiebt die nationale Umsetzung des A…",
       "type": "Aussage",
       "subtype": "BÜNDNIS 90/DIE GRÜNEN",
@@ -2710,106 +3636,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_23",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_21",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der AI Act der EU wurde erst im Dezember 2023 vom Europäischen Parlament und Rat politisch vereinbart. Eine nationale Umsetzung in Deutschland steht noch aus, und es gibt keine offiziellen Aussagen der Bundesregierung, die eine konkrete Verschiebung bestätigen.",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, die Bundesregierung verschiebe die nationale Umsetzung des AI Act und sei bereits zu spät dran. Die Belege zeigen jedoch, dass die Bundesregierung bereits einen Gesetzentwurf zur Umsetzung des AI Act beschlossen hat (Quelle: wbs.legal) und die Grünen-Fraktion eine Ber",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_europ_isches_parlament_ai_act",
-      "label": "Europäisches Parlament - AI Act",
+      "id": "quelle_bundesregierung_beschlie_t_gesetzentwurf_zu_ai_act",
+      "label": "Bundesregierung beschließt Gesetzentwurf zu AI Act",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.europarl.europa.eu/news/de/press-room/20231206IPR15699/ki-gesetz-parlament-und-rat-einigen-sich-auf-erstes-gesetz-zur-ki",
+      "url": "https://www.wbs.legal/medienrecht/ergaenzend-zum-eu-recht-bundesregierung-beschliesst-gesetzentwurf-zu-ai-act-85345/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_24",
-      "label": "Aussage: Frankreich nutzt jetzt souveräne Lösungen im Gesundheitsbere…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Frankreich nutzt jetzt souveräne Lösungen im Gesundheitsbereich, setzt auf Alternativen bei der Videotelefonie.",
-      "person": "Rebecca Lenhard",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_24",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Frankreich fördert souveräne digitale Lösungen, z. B. durch die Nutzung von Open-Source-Software im Gesundheitswesen (z. B. 'BlueMind' für E-Mails) und die Entwicklung eigener Videokonferenzlösungen wie 'Tixeo'. Eine flächendeckende Umsetzung ist jedoch nicht vollständig dokumentiert.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_french_government_digital_sovereignty_strategy",
-      "label": "French Government - Digital Sovereignty Strategy",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.numerique.gouv.fr/dinum/",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_25",
-      "label": "Aussage: Die Werbewirtschaft folgt den Bürgern; das ist doch klar.…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Die Werbewirtschaft folgt den Bürgern; das ist doch klar.",
-      "person": "Martin Erwin Renner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_25",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist eine allgemeine Behauptung über Marktmechanismen, aber ohne konkrete Zahlen oder Entwicklungen zur Werbewirtschaft in Bezug auf lokale Medien oder soziale Medien. Es gibt keine spezifischen Daten, die diese Behauptung direkt stützen oder widerlegen.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_26",
-      "label": "Aussage: Viele Lokalredaktionen berichten davon, dass auch Kommunen t…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Viele Lokalredaktionen berichten davon, dass auch Kommunen täglich über Instagram, Youtube und andere Plattformen kommunizieren.",
-      "person": "Martin Erwin Renner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_26",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf anekdotische Berichte von Lokalredaktionen, aber es gibt keine amtlichen Statistiken oder Studien, die diese Behauptung quantitativ untermauern.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_27",
-      "label": "Aussage: Gleichzeitig aber werden Presseanfragen der lokalen Medien s…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Gleichzeitig aber werden Presseanfragen der lokalen Medien seltener, langsamer und weniger transparent beantwortet.",
-      "person": "Martin Erwin Renner",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_27",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Auch hier handelt es sich um eine qualitative Aussage ohne konkrete Zahlen oder amtliche Erhebungen, die diese Entwicklung belegen.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_28",
+      "id": "aussage_22",
       "label": "Aussage: Vier von fünf Familien sind mental am Limit.…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2818,25 +3663,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_28",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_22",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine Studie der R+V Versicherung, die jedoch nicht näher spezifiziert ist. Ohne genaue Methodik, Stichprobengröße oder Definition von 'mental am Limit' ist die Behauptung nicht überprüfbar. Es gibt keine amtliche Statistik, die diese Zahl bestätigt.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Vier von fünf Familien sind mental am Limit' wird durch den Beleg von BILD.de gestützt, der sich auf eine repräsentative Studie der R+V Versicherung bezieht. Dort heißt es, dass 'Vier von fünf Familien fühlen sich durch die mentale und organisatorische Dauerbelastung unter Druc",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_amtliche_quelle_verf_gbar",
-      "label": "Keine amtliche Quelle verfügbar",
+      "id": "quelle_mental_load_l_hmt_4_von_5_familien_politiker_und_verb_nde_fordern_nderungen_leben_wissen_bild_de",
+      "label": "„Mental Load“ lähmt 4 von 5 Familien: Politiker und Verbände fordern Änderungen | Leben & Wissen | BILD.de",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.bild.de/leben-wissen/kind-familie/mental-load-laehmt-4-von-5-familien-politiker-und-verbaende-fordern-aenderungen-6a0ecedff0f7eb608db790bb",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_29",
+      "id": "aussage_23",
       "label": "Aussage: Die Zahl der Kinderkrankentage wurde [in der Coronazeit] erh…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2845,25 +3690,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_29",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_23",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Während der COVID-19-Pandemie wurde die Anzahl der Kinderkrankentage temporär erhöht. Laut § 45 SGB V wurde die Anzahl der Tage pro Kind und Elternteil von 10 auf 30 Tage (für Alleinerziehende von 20 auf 60 Tage) erhöht. Diese Regelung gilt aktuell bis zum 31.12.2026.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die Zahl der Kinderkrankentage während der Coronazeit tatsächlich erhöht wurde. Allerdings wurde die Erhöhung nicht nur bis Ende 2026 befristet, sondern bereits für 2024, 2025 und 2026 gesetzlich fortgeschrieben (ursprünglich 10 Tage, dann temporär erhöht",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesgesetzblatt_gesetz_zur_tempor_ren_erh_hung_der_kinderkrankentage",
-      "label": "Bundesgesetzblatt: Gesetz zur temporären Erhöhung der Kinderkrankentage",
+      "id": "quelle_mehr_kinderkrankentage_f_r_eltern_bleiben_2026_erhalten",
+      "label": "Mehr Kinderkrankentage für Eltern bleiben 2026 erhalten",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl120s1693.pdf",
+      "url": "https://www.dentagen.de/allgemein/mehr-kinderkrankentage-fuer-eltern-bleiben-2026-erhalten/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_30",
+      "id": "aussage_24",
       "label": "Aussage: Das Kinderkrankengeld gibt es nur für wenige Tage.…",
       "type": "Aussage",
       "subtype": "Die Linke",
@@ -2872,129 +3717,291 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_30",
-      "label": "Faktencheck: teilweise",
+      "id": "faktencheck_24",
+      "label": "Faktencheck: irreführend",
       "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Anzahl der Kinderkrankentage beträgt regulär 10 Tage pro Elternteil und Kind pro Jahr (20 Tage für Alleinerziehende). In der Pandemie wurde dies temporär auf 30 Tage (60 Tage für Alleinerziehende) erhöht. Die Aussage ist insofern irreführend, als sie den temporären Charakter der Erhöhun",
+      "subtype": "irreführend",
+      "verdikt": "irreführend",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Das Kinderkrankengeld gibt es nur für wenige Tage' ist irreführend, da sie den Eindruck erweckt, der Anspruch sei generell sehr begrenzt. Tatsächlich haben gesetzlich versicherte Eltern pro Kind und Jahr einen Anspruch auf 15 Arbeitstage (Alleinerziehende 30 Tage), bei mehreren",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_sozialgesetzbuch_sgb_f_nftes_buch_v_45",
-      "label": "Sozialgesetzbuch (SGB) Fünftes Buch (V) - § 45",
+      "id": "quelle_kinderkrankentage_und_kinderkrankengeld_bmg",
+      "label": "Kinderkrankentage und Kinderkrankengeld | BMG",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.sozialgesetzbuch-sgb.de/sgbv/45.html",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/praevention/kindergesundheit/faq-kinderkrankengeld",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_25",
+      "label": "Aussage: Der KFOR-Einsatz der Bundeswehr im Kosovo begann 1999…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Der KFOR-Einsatz der Bundeswehr im Kosovo begann 1999",
+      "person": "Gerold Otten",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_25",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der KFOR-Einsatz der Bundeswehr im Kosovo 1999 begann, wird durch die bereitgestellten Belege gestützt. Sowohl die offizielle Seite der Bundeswehr (bmvg.de) als auch Wikipedia bestätigen, dass der KFOR-Einsatz der Bundeswehr seit 1999 andauert. Der Einsatz startete unmitte",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeswehr_gilt_im_kosovo_als_garant_f_r_stabilit_t_und_sicherheit",
+      "label": "Bundeswehr gilt im Kosovo als Garant für Stabilität und Sicherheit",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmvg.de/de/aktuelles/bundeswehr-stabilitaetsanker-kosovo-5957634",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_26",
+      "label": "Aussage: der Kosovo international auch von vielen Staaten nicht anerk…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "der Kosovo international auch von vielen Staaten nicht anerkannt, auch nicht von den fünf EU-Mitgliedstaaten Spanien, Griechenland, Zypern, Slowakei und Rumänien",
+      "person": "Gerold Otten",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_26",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass der Kosovo international von vielen Staaten nicht anerkannt wird und speziell von den fünf EU-Mitgliedstaaten Spanien, Griechenland, Zypern, Slowakei und Rumänien nicht anerkannt wird, ist durch die bereitgestellten Belege klar gestützt. Alle drei relevanten Quellen (Wikip",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_internationale_anerkennung_des_kosovo_wikipedia",
+      "label": "Internationale Anerkennung des Kosovo – Wikipedia",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://de.wikipedia.org/wiki/Internationale_Anerkennung_des_Kosovo",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_27",
+      "label": "Aussage: trotz Milliardeninvestitionen und einer dauerhaften Militärp…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "trotz Milliardeninvestitionen und einer dauerhaften Militärpräsenz vor Ort ist es nicht gelungen, eine resiliente, rechtsstaatliche Ordnung zu etablieren",
+      "person": "Gerold Otten",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_27",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege thematisieren zwar Milliardeninvestitionen und Militärpräsenz (z. B. in Deutschland oder der Arktis), liefern jedoch keine konkreten Informationen darüber, ob es trotz dieser Maßnahmen gelungen ist oder nicht, eine 'resiliente, rechtsstaatliche Ordnung' an einem ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_28",
+      "label": "Aussage: Nach 27 Jahren ist es an der Zeit, den Mut zur Wahrheit aufz…",
+      "type": "Aussage",
+      "subtype": "AfD",
+      "text": "Nach 27 Jahren ist es an der Zeit, den Mut zur Wahrheit aufzubringen",
+      "person": "Gerold Otten",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_28",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage 'Nach 27 Jahren ist es an der Zeit, den Mut zur Wahrheit aufzubringen' wird in den bereitgestellten Belegen nicht konkret bestätigt oder widerlegt. Die Zitate aus dem SPIEGEL und der ZEIT thematisieren zwar den 'Mut zur Wahrheit' in historischen Kontexten (1934 bzw. 1946), aber ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_kein_spezifischer_beleg_passend",
+      "label": "Kein spezifischer Beleg passend",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.spiegel.de/spiegel/print/d-43063797.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_29",
+      "label": "Aussage: prognostizierten Defizit von rund 16 Milliarden Euro im komm…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "prognostizierten Defizit von rund 16 Milliarden Euro im kommenden Jahr",
+      "person": "Dr. Hans Theiss",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_29",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage prognostiziert ein Defizit von 'rund 16 Milliarden Euro im kommenden Jahr'. Die bereitgestellten Belege beziehen sich jedoch auf das Jahr 2025 und zeigen deutlich höhere Defizite: Das gesamtstaatliche Defizit wird mit 119,1 Milliarden Euro (Tichys Einblick), 127,3 Milliarden Eur",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_defizit_des_staats_steigt_auf_rund_120_milliarden_euro_im_jahr",
+      "label": "Defizit des Staats steigt auf rund 120 Milliarden Euro im Jahr",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.tichyseinblick.de/daili-es-sentials/staatsdefizit-steigt",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_30",
+      "label": "Aussage: 66 Sparvorschläge vorgelegt…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "66 Sparvorschläge vorgelegt",
+      "person": "Dr. Hans Theiss",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_30",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage '66 Sparvorschläge vorgelegt' wird durch die Belege des Handelsblatts und ZDF heute gestützt. Beide Quellen berichten übereinstimmend, dass eine Expertenkommission (Finanzkommission bzw. Gesundheits-Kommission) 66 Reformideen bzw. Sparvorschläge vorgelegt hat, um das Defizit in ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_gesundheit_66_vorschl_ge_so_sollen_die_krankenkassen_reformiert_werden",
+      "label": "Gesundheit: 66 Vorschläge – so sollen die Krankenkassen reformiert werden",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.handelsblatt.com/politik/deutschland/gesundheit-66-vorschlaege-so-sollen-die-krankenkassen-reformiert-werden/100211319.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_31",
-      "label": "Aussage: Der KFOR-Einsatz der Bundeswehr im Kosovo begann 1999 als ei…",
+      "label": "Aussage: etwa 75 Prozent dieser Vorschläge übernommen…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Der KFOR-Einsatz der Bundeswehr im Kosovo begann 1999 als ein Provisorium.",
-      "person": "Gerold Otten",
+      "subtype": "CDU/CSU",
+      "text": "etwa 75 Prozent dieser Vorschläge übernommen",
+      "person": "Dr. Hans Theiss",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_31",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der KFOR-Einsatz begann tatsächlich im Juni 1999 nach der Resolution 1244 des UN-Sicherheitsrates.",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine konkreten Informationen zur Aussage 'etwa 75 Prozent dieser Vorschläge übernommen'. Die DIP-Vorgänge beziehen sich auf spezifische Verordnungsvorschläge der EU, geben aber keine Übernahmequoten an. Die anderen Quellen behandeln lediglich allgemein",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeswehr_kfor_einsatz",
-      "label": "Bundeswehr - KFOR-Einsatz",
+      "id": "quelle_dip_vorgang_vorschlag_f_r_eine_verordnung_des_europ_ischen_parlaments_und_des_rates_zur_einrichtung_des_programms_f_r_agile_schnelle_innovation_im_verteidigungsbereich_agile",
+      "label": "DIP-Vorgang: Vorschlag für eine Verordnung des Europäischen Parlaments und des Rates zur Einrichtung des Programms für agile, schnelle Innovation im Verteidigungsbereich (AGILE)",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeswehr.de/de/einsaetze-bundeswehr/einsaetze-bundeswehr/aktuelle-einsaetze-bundeswehr/kosovo-kfor",
+      "url": "https://dip.bundestag.de/suche?term=etwa%20Prozent%20Vorschl%C3%A4ge%20%C3%BCbernommen",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_32",
-      "label": "Aussage: Heute, im Jahr 2026, ist er zu einem weiteren Dauereinsatz d…",
+      "label": "Aussage: Die Mission besteht vor allem darin, dass Soldatinnen und So…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Heute, im Jahr 2026, ist er zu einem weiteren Dauereinsatz der Bundeswehr geworden.",
-      "person": "Gerold Otten",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Die Mission besteht vor allem darin, dass Soldatinnen und Soldaten, wohnhaft in 20 LOT-Häusern – so werden sie genannt – am Puls des Landes in die Bevölkerung hineinspüren",
+      "person": "Niklas Wagener",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_32",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Jahr 2026, das noch nicht eingetreten ist. Eine zukünftige Entwicklung kann aktuell nicht überprüft werden.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_33",
-      "label": "Aussage: Wenn aber ein Provisorium über ein Vierteljahrhundert andaue…",
-      "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Wenn aber ein Provisorium über ein Vierteljahrhundert andauert...",
-      "person": "Gerold Otten",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_33",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der KFOR-Einsatz dauert seit 1999 an, was im Jahr 2024 25 Jahre sind. Die Aussage bezieht sich jedoch auf das Jahr 2026, was noch nicht eingetreten ist. Bis 2024 sind es 25 Jahre, also fast ein Vierteljahrhundert.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da die LOT-Häuser der Bundeswehr tatsächlich als 'Sensoren am Puls der Bevölkerung' fungieren und die Soldatinnen und Soldaten dort als 'Augen und Ohren' der Mission agieren (vgl. Beleg). Allerdings ist die konkrete Zahl von 20 LOT-Häusern in der Aussage nic",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundeswehr_chronik_der_eins_tze",
-      "label": "Bundeswehr - Chronik der Einsätze",
+      "id": "quelle_lot_h_user_der_bundeswehr_sensoren_am_puls_der_bev_lkerung",
+      "label": "LOT-Häuser der Bundeswehr: Sensoren am Puls der Bevölkerung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bundeswehr.de/de/organisation/aktuelles/einsaetze-der-bundeswehr",
+      "url": "https://www.bundeswehr.de/de/meldungen/lot-haeuser-bundeswehr-einsatz-bevoelkerung-5870626",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_33",
+      "label": "Aussage: Wir sind seit 2022 wieder vor Ort, jetzt im 8. Einsatzkontin…",
+      "type": "Aussage",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Wir sind seit 2022 wieder vor Ort, jetzt im 8. Einsatzkontingent",
+      "person": "Niklas Wagener",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_33",
+      "label": "Faktencheck: falsch",
+      "type": "Faktencheck",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, die Bundeswehr sei seit 2022 'wieder vor Ort' im 8. Einsatzkontingent. Die bereitgestellten Belege zeigen jedoch, dass der MINUSMA-Einsatz der Bundeswehr in Mali beendet wurde. Laut dem Beleg 'Das letzte Mali-Einsatzkontingent der Bundeswehr ist zurück in Deutschland'",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_das_letzte_mali_einsatzkontingent_der_bundeswehr_ist_zur_ck_in_deutschland",
+      "label": "Das letzte Mali-Einsatzkontingent der Bundeswehr ist zurück in Deutschland",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundeswehr.de/de/meldungen/letztes-mali-einsatzkontingent-bundeswehr-zurueck-deutschland-5718824",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_34",
-      "label": "Aussage: Die einseitige Unabhängigkeitserklärung des Kosovo von Serbi…",
+      "label": "Aussage: Dort [in der Halle] wurden Tausende von Frauen vergewaltigt …",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Die einseitige Unabhängigkeitserklärung des Kosovo von Serbien am 17. Februar 2008... wird international auch von vielen Staaten nicht anerkannt, auch nicht von den fünf EU-Mitgliedstaaten Spanien, Griechenland, Zypern, Slowakei und Rumänien.",
-      "person": "Gerold Otten",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Dort [in der Halle] wurden Tausende von Frauen vergewaltigt und getötet",
+      "person": "Niklas Wagener",
       "schicht": "fallbezug"
     },
     {
       "id": "faktencheck_34",
-      "label": "Faktencheck: bestätigt",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese fünf EU-Mitgliedstaaten erkennen die Unabhängigkeit des Kosovo tatsächlich nicht an (Stand 2023).",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet, dass in einer Halle (vermutlich Halle (Saale)) Tausende von Frauen vergewaltigt und getötet wurden. Die bereitgestellten Belege stützen diese Aussage nicht. Der Artikel des Berliner Kurier beschreibt zwar Misshandlungen von Frauen in DDR-Kliniken (sogenannte 'Tripperb",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_ausw_rtiges_amt_kosovo",
-      "label": "Auswärtiges Amt - Kosovo",
+      "id": "quelle_das_leid_der_frauen_in_den_tripperburgen_der_ddr",
+      "label": "Das Leid der Frauen in den „Tripperburgen“ der DDR",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.auswaertiges-amt.de/de/aussenpolitik/laender/kosovo-node",
+      "url": "https://www.berliner-kurier.de/panorama/tripperburg-li.2212510",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_35",
-      "label": "Aussage: Dies verhindert auch weiterhin die UN-Mitgliedschaft des Kos…",
+      "label": "Aussage: Bosnien und Herzegowina steht vor massiven Herausforderungen…",
       "type": "Aussage",
-      "subtype": "AfD",
-      "text": "Dies verhindert auch weiterhin die UN-Mitgliedschaft des Kosovo.",
-      "person": "Gerold Otten",
+      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
+      "text": "Bosnien und Herzegowina steht vor massiven Herausforderungen [...] Aufgrund der wirtschaftlichen Lage findet eine massive Abwanderung statt",
+      "person": "Niklas Wagener",
       "schicht": "fallbezug"
     },
     {
@@ -3003,146 +4010,20 @@
       "type": "Faktencheck",
       "subtype": "bestätigt",
       "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Da Serbien und andere Staaten die Unabhängigkeit des Kosovo nicht anerkennen, blockieren sie dessen Aufnahme in die Vereinten Nationen.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Bosnien und Herzegowina vor massiven Herausforderungen steht und aufgrund der wirtschaftlichen Lage eine massive Abwanderung stattfindet, wird durch mehrere Belege gestützt. Der Artikel von KOSMO (kosmo.at) bestätigt demografische Probleme, insbesondere Abwanderung, als ze",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_vereinte_nationen_mitgliedschaft",
-      "label": "Vereinte Nationen - Mitgliedschaft",
+      "id": "quelle_demografische_ver_nderung_stellt_bosnien_herzegowina_vor_gro_e_herausforderungen_kosmo",
+      "label": "Demografische Veränderung stellt Bosnien-Herzegowina vor große Herausforderungen - KOSMO",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.un.org/en/about-us/member-states",
+      "url": "https://www.kosmo.at/demografische-veraenderung-stellt-bosnien-herzegowina-vor-grosse-herausforderungen/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
       "id": "aussage_36",
-      "label": "Aussage: Die massive Ausgabendynamik im Gesundheitswesen mit einem pr…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die massive Ausgabendynamik im Gesundheitswesen mit einem prognostizierten Defizit von rund 16 Milliarden Euro im kommenden Jahr und weiteren Anstiegen in den Folgejahren",
-      "person": "Dr. Hans Theiss",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_36",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Prognose eines Defizits von rund 16 Milliarden Euro für das Jahr 2024 wurde in verschiedenen Quellen diskutiert, darunter auch vom GKV-Spitzenverband. Allerdings handelt es sich um eine Prognose, die je nach Quelle und Berechnungsmethode variieren kann. Die Aussage ist insofern teilweis",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_gkv_sch_tzerkreis_prognose_der_finanzentwicklung_der_gesetzlichen_krankenversicherung_2024",
-      "label": "GKV-Schätzerkreis: Prognose der Finanzentwicklung der gesetzlichen Krankenversicherung 2024",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/gkv/gkv_finanzentwicklung/2023/2023-11-23_Schaetzerkreis_Prognose_2024.pdf",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_37",
-      "label": "Aussage: Die unabhängige FinanzKommission [hat] vor wenigen Wochen 66…",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die unabhängige FinanzKommission [hat] vor wenigen Wochen 66 Sparvorschläge vorgelegt",
-      "person": "Dr. Hans Theiss",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_37",
-      "label": "Faktencheck: bestätigt",
-      "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die 'Unabhängige Kommission für die nachhaltige Finanzierung des Gesundheitswesens' (sog. 'Rürup-Kommission II') hat im Oktober 2023 einen Bericht mit 66 Empfehlungen vorgelegt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_bericht_der_unabh_ngigen_kommission_f_r_die_nachhaltige_finanzierung_des_gesundheitswesens",
-      "label": "Bericht der Unabhängigen Kommission für die nachhaltige Finanzierung des Gesundheitswesens",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/G/GKV-Finanzstabilisierung/Bericht_der_Unabhaengigen_Kommission_fuer_die_nachhaltige_Finanzierung_des_Gesundheitswesens.pdf",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_38",
-      "label": "Aussage: Die Bundesgesundheitsministerin hat einen Großteil, etwa 75 …",
-      "type": "Aussage",
-      "subtype": "CDU/CSU",
-      "text": "Die Bundesgesundheitsministerin hat einen Großteil, etwa 75 Prozent, dieser Vorschläge übernommen",
-      "person": "Dr. Hans Theiss",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_38",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine offizielle, belastbare Quelle, die quantifiziert, dass etwa 75 Prozent der 66 Vorschläge übernommen wurden. Die Übernahme von Vorschlägen wird in politischen Debatten oft pauschal benannt, ohne dass eine konkrete Prozentzahl amtlich bestätigt wird.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_39",
-      "label": "Aussage: Die Mission besteht vor allem darin, dass Soldatinnen und So…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Die Mission besteht vor allem darin, dass Soldatinnen und Soldaten, wohnhaft in 20 LOT-Häusern – so werden sie genannt – am Puls des Landes in die Bevölkerung hineinspüren, wie sich die verschiedenen Konflikte, die es nach wie vor zwischen den Ethnien gibt, weiterentwickeln.",
-      "person": "Niklas Wagener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_39",
-      "label": "Faktencheck: teilweise",
-      "type": "Faktencheck",
-      "subtype": "teilweise",
-      "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Anzahl von 20 LOT-Häusern (Liaison and Observation Teams) im Rahmen der EUFOR Althea-Mission in Bosnien und Herzegowina wird in verschiedenen Quellen erwähnt, jedoch nicht immer aktuell oder offiziell bestätigt. Eine genaue, aktuelle Zahl ist schwer zu verifizieren, da sich die Struktur",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_eufor_althea_factsheet_bundeswehr",
-      "label": "EUFOR Althea – Factsheet (Bundeswehr)",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "https://www.bundeswehr.de/de/einsaetze/einsatz-bosnien-herzegowina",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_40",
-      "label": "Aussage: Wir sind seit 2022 wieder vor Ort, jetzt im 8. Einsatzkontin…",
-      "type": "Aussage",
-      "subtype": "BÜNDNIS 90/DIE GRÜNEN",
-      "text": "Wir sind seit 2022 wieder vor Ort, jetzt im 8. Einsatzkontingent.",
-      "person": "Niklas Wagener",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_40",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine spezifische Zählweise der Einsatzkontingente der Bundeswehr in Bosnien und Herzegowina. Es gibt keine öffentlich zugängliche, amtliche Quelle, die diese Zählweise (8. Einsatzkontingent seit 2022) bestätigt oder widerlegt. Die Bundeswehr veröffentlicht zwar ",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "quelle_keine_belastbare_quelle_verf_gbar",
-      "label": "Keine belastbare Quelle verfügbar",
-      "type": "Quelle",
-      "subtype": "",
-      "url": "",
-      "stand": "",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_41",
       "label": "Aussage: Vor 55 Jahren, 1971, hat Willy Brandt mit der FDP das BAföG …",
       "type": "Aussage",
       "subtype": "SPD",
@@ -3151,43 +4032,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_41",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_36",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Bundesausbildungsförderungsgesetz (BAföG) wurde am 1. September 1971 eingeführt. Willy Brandt war zu diesem Zeitpunkt Bundeskanzler, und die FDP war Koalitionspartner der SPD.",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage, dass Willy Brandt 1971 mit der FDP das BAföG eingeführt hat, ist im Kern richtig, da das Bundesausbildungsförderungsgesetz (BAföG) tatsächlich unter der SPD/FDP-Koalition unter Bundeskanzler Willy Brandt eingeführt wurde. Allerdings trat das Gesetz nicht 1971, sondern am 1. Sep",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_bundesministerium_f_r_bildung_und_forschung_geschichte_des_baf_g",
-      "label": "Bundesministerium für Bildung und Forschung - Geschichte des BAföG",
+      "id": "quelle_themenschwerpunkt_2021_erneuerung_bundeskanzler_willy_brandt_stiftung",
+      "label": "Themenschwerpunkt 2021: Erneuerung | Bundeskanzler Willy Brandt Stiftung",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.bafög.de/de/geschichte-des-bafoeg-308.php",
+      "url": "https://willy-brandt.de/en/the-foundation/about-us/annual-themes/themenschwerpunkt-2021-erneuerung/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_42",
-      "label": "Aussage: Genderforschung untersucht zum Beispiel, wie der Wegfall der…",
-      "type": "Aussage",
-      "subtype": "SPD",
-      "text": "Genderforschung untersucht zum Beispiel, wie der Wegfall der Musterung in der Bundeswehr dazu geführt hat, dass Hodenkrebsfälle zu spät erkannt wurden",
-      "person": "Maja Wallstein",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "faktencheck_42",
-      "label": "Faktencheck: unbelegt",
-      "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine allgemein bekannte, belastbare amtliche Quelle oder Studie, die diesen spezifischen kausalen Zusammenhang zwischen dem Wegfall der Musterung und verzögerter Diagnose von Hodenkrebs durch Genderforschung belegt.",
-      "schicht": "faktencheck"
-    },
-    {
-      "id": "aussage_43",
+      "id": "aussage_37",
       "label": "Aussage: pro Jahr rund 700 000 bis 800 000 Transaktionen im Immobilie…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -3196,25 +4059,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_43",
+      "id": "faktencheck_37",
       "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
       "subtype": "teilweise",
       "verdikt": "teilweise",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) gab es 2022 etwa 780.000 Grundstückskaufverträge (ohne Erbbaurechte). Die Spanne von 700.000 bis 800.000 ist somit plausibel, aber nicht exakt auf jährlicher Basis belegt. Die Zahl variiert leicht je nach Jahr.",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage nennt eine Spanne von 700.000 bis 800.000 Transaktionen pro Jahr im Immobilienbereich. Der bereitgestellte Beleg von Statista (Wohnimmobilienmarkt) zeigt für 2022 etwa 621.100 Transaktionen *nur im Wohnimmobiliensegment*. Da der Immobilienbereich jedoch auch Gewerbeimmobilien um",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_grundst_cksmarkt",
-      "label": "Statistisches Bundesamt (Destatis) - Grundstücksmarkt",
+      "id": "quelle_wohnimmobilienmarkt_transaktionen_nach_immobilienkategorien_statista",
+      "label": "Wohnimmobilienmarkt: Transaktionen nach Immobilienkategorien | Statista",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Baupreise-Grundstueckspreise/_inhalt.html",
+      "url": "https://de.statista.com/statistik/daten/studie/1084909/umfrage/anzahl-der-transaktionen-auf-dem-wohnimmobilienmarkt-in-deutschland-nach-immobilienkategorien/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_44",
+      "id": "aussage_38",
       "label": "Aussage: 150 Milliarden Euro im Jahre 2025 [als Transaktionsvolumen i…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -3223,25 +4086,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_44",
-      "label": "Faktencheck: unbelegt",
+      "id": "faktencheck_38",
+      "label": "Faktencheck: falsch",
       "type": "Faktencheck",
-      "subtype": "unbelegt",
-      "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Eine konkrete Prognose für 2025 liegt nicht vor. Das Transaktionsvolumen lag 2022 bei etwa 130 Mrd. Euro (Destatis). Eine Extrapolation auf 2025 ist spekulativ und nicht durch amtliche Quellen gedeckt.",
+      "subtype": "falsch",
+      "verdikt": "falsch",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage behauptet ein Transaktionsvolumen von 150 Milliarden Euro im Immobilienbereich für das Jahr 2025. Die bereitgestellten Belege zeigen jedoch deutlich niedrigere Werte für die jüngere Vergangenheit: Laut Statista lag das Transaktionsvolumen auf dem deutschen Immobilien-Investmentm",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_statistisches_bundesamt_destatis_grundst_cksmarktbericht_2022",
-      "label": "Statistisches Bundesamt (Destatis) - Grundstücksmarktbericht 2022",
+      "id": "quelle_immobilien_investmentmarkt_in_deutschland_transaktionsvolumen_bis_2024_statista",
+      "label": "Immobilien-Investmentmarkt in Deutschland - Transaktionsvolumen bis 2024 | Statista",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/06/PD23_222_311.html",
+      "url": "https://de.statista.com/statistik/daten/studie/172462/umfrage/transaktionsvolumen-investmentmarkt-fuer-immobilien-seit-2004/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_45",
+      "id": "aussage_39",
       "label": "Aussage: Hinter diesem Begriff stecken über 10 000 verschiedene chemi…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -3250,25 +4113,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_45",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_39",
+      "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Europäische Chemikalienagentur (ECHA) und die OECD bestätigen, dass es mehr als 4.700 bis über 10.000 verschiedene PFAS-Verbindungen gibt. Die genaue Zahl variiert je nach Definition und Quelle, aber die Größenordnung von über 10.000 wird in wissenschaftlichen und regulatorischen Kontex",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die bereitgestellten Belege enthalten keine spezifischen Informationen zu der Aussage, dass 'hinter diesem Begriff über 10.000 verschiedene chemische Verbindungen mit sehr unterschiedlichen Eigenschaften und Risiken' stecken. Die Belege behandeln allgemeine Risikobegriffe, Risikomanagement,",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_echa_per_and_polyfluoroalkyl_substances_pfas",
-      "label": "ECHA – Per- and polyfluoroalkyl substances (PFAS)",
+      "id": "quelle_kein_passender_beleg_vorhanden",
+      "label": "Kein passender Beleg vorhanden",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://echa.europa.eu/de/pfas",
+      "url": "https://www.controllingportal.de/Fachinfo/Risikomanagement/Grundlegendes-zu-Risiken-Der-Risiko-Begriff.html",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_46",
+      "id": "aussage_40",
       "label": "Aussage: seit Januar dieses Jahres gelten erstmals verbindliche PFAS-…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -3277,25 +4140,25 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_46",
-      "label": "Faktencheck: bestätigt",
+      "id": "faktencheck_40",
+      "label": "Faktencheck: teilweise",
       "type": "Faktencheck",
-      "subtype": "bestätigt",
-      "verdikt": "bestätigt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die EU-Trinkwasserrichtlinie (EU 2020/2184) sieht seit dem 12. Januar 2021 verbindliche Grenzwerte für PFAS vor, die ab dem 12. Januar 2023 in nationales Recht umgesetzt sein mussten. Ab diesem Zeitpunkt gelten die Grenzwerte in der gesamten EU. Die Summe der PFAS im Trinkwasser darf 0,1 Mi",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da seit Januar 2026 tatsächlich verbindliche PFAS-Grenzwerte für Trinkwasser in der EU gelten. Allerdings bezieht sich der genaue Zeitpunkt auf den 12. Januar 2026 (nicht allgemein 'Januar dieses Jahres') und es handelt sich um einen Summengrenzwert für 20 s",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_eu_trinkwasserrichtlinie_eu_2020_2184",
-      "label": "EU-Trinkwasserrichtlinie (EU 2020/2184)",
+      "id": "quelle_ab_12_januar_neue_trinkwasser_grenzwerte_f_r_pfas_vku",
+      "label": "Ab 12. Januar: Neue Trinkwasser-Grenzwerte für PFAS | VKU",
       "type": "Quelle",
       "subtype": "",
-      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32020L2184",
+      "url": "https://www.vku.de/presse/pressemitteilungen/vku-fordert-klare-strategie-zur-pfas-vermeidung-und-herstellerverantwortung/",
       "stand": "",
       "schicht": "faktencheck"
     },
     {
-      "id": "aussage_47",
+      "id": "aussage_41",
       "label": "Aussage: 2028 werden noch Verschärfungen kommen.…",
       "type": "Aussage",
       "subtype": "CDU/CSU",
@@ -3304,20 +4167,47 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "faktencheck_47",
+      "id": "faktencheck_41",
       "label": "Faktencheck: unbelegt",
       "type": "Faktencheck",
       "subtype": "unbelegt",
       "verdikt": "unbelegt",
-      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt derzeit keine konkreten, amtlich bestätigten Pläne oder Beschlüsse der EU, die eine Verschärfung der PFAS-Grenzwerte im Trinkwasser für das Jahr 2028 vorsehen. Die EU-Trinkwasserrichtlinie sieht zwar regelmäßige Überprüfungen vor, aber keine festen Verschärfungen zu diesem Zeitpunkt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage '2028 werden noch Verschärfungen kommen' ist allgemein gehalten und bezieht sich nicht konkret auf ein bestimmtes Politikfeld oder Gesetz. Die bereitgestellten Belege thematisieren zwar aktuelle oder geplante Verschärfungen in verschiedenen Bereichen (z. B. Sexualstrafrecht, Bür",
       "schicht": "faktencheck"
     },
     {
-      "id": "quelle_keine_belastbare_quelle_bekannt",
-      "label": "Keine belastbare Quelle bekannt",
+      "id": "quelle_kein_spezifischer_beleg_f_r_die_aussage",
+      "label": "Kein spezifischer Beleg für die Aussage",
       "type": "Quelle",
       "subtype": "",
-      "url": "",
+      "url": "https://www.tagesschau.de/inland/gesellschaft/sexualstrafrecht-vergewaltigung-verjaehrung-hubig-100.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_42",
+      "label": "Aussage: lauf auf europäischer Ebene gerade das ambitionierteste PFAS…",
+      "type": "Aussage",
+      "subtype": "CDU/CSU",
+      "text": "lauf auf europäischer Ebene gerade das ambitionierteste PFAS-Beschränkungsverfahren, das die EU-Chemikalienpolitik je gesehen hat; Ende dieses Jahres sind die ersten Ergebnisse zu erwarten.",
+      "person": "Anna Aeikens",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_42",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist im Kern richtig, da tatsächlich ein ambitioniertes PFAS-Beschränkungsverfahren auf EU-Ebene läuft, das als das umfangreichste in der Geschichte der EU-Chemikalienpolitik gilt (Beleg: BDI-Publikation und Markert-Group). Allerdings ist der Zeitrahmen für die ersten Ergebnisse ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_pfas_beschr_nkungsverfahren",
+      "label": "PFAS-Beschränkungsverfahren",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://bdi.eu/de/publications/pfas-beschraenkungsverfahren",
       "stand": "",
       "schicht": "faktencheck"
     },
@@ -20768,986 +21658,6 @@
       "start_sec": "",
       "herkunft": "protokoll",
       "schicht": "reaktion"
-    },
-    {
-      "id": "person_julia_kl_ckner",
-      "label": "Julia Klöckner",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_b_rbel_bas",
-      "label": "Bärbel Bas",
-      "type": "Person",
-      "subtype": "Bundesministerin für Arbeit und Soziales",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jan_feser",
-      "label": "Jan Feser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_wilfried_oellers",
-      "label": "Wilfried Oellers",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_corinna_r_ffer",
-      "label": "Corinna Rüffer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_s_ren_pellmann",
-      "label": "Sören Pellmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_heike_heubach",
-      "label": "Heike Heubach",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_peter_bohnhof",
-      "label": "Peter Bohnhof",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_h_lya_d_ber",
-      "label": "Dr. Hülya Düber",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_simone_fischer",
-      "label": "Simone Fischer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_angelika_gl_ckner",
-      "label": "Angelika Glöckner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_marc_biadacz",
-      "label": "Marc Biadacz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_stefan_nacke",
-      "label": "Dr. Stefan Nacke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_britta_ha_elmann",
-      "label": "Britta Haßelmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sascha_van_beek",
-      "label": "Sascha van Beek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_sichert",
-      "label": "Martin Sichert",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_serdar_y_ksel",
-      "label": "Serdar Yüksel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ates_g_rpinar",
-      "label": "Ates Gürpinar",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_katrin_staffler",
-      "label": "Katrin Staffler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicole_hess",
-      "label": "Nicole Hess",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_lina_seitzl",
-      "label": "Dr. Lina Seitzl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_misbah_khan",
-      "label": "Misbah Khan",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_hendrik_streeck",
-      "label": "Dr. Hendrik Streeck",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_janosch_dahmen",
-      "label": "Dr. Janosch Dahmen",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stella_merendino",
-      "label": "Stella Merendino",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_thomas_pauls",
-      "label": "Dr. Thomas Pauls",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sebastian_schmidt",
-      "label": "Sebastian Schmidt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andrea_lindholz",
-      "label": "Andrea Lindholz",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ingo_vogel",
-      "label": "Ingo Vogel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hauke_finger",
-      "label": "Hauke Finger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_stefan_korbach",
-      "label": "Dr. Stefan Korbach",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_katharina_beck",
-      "label": "Katharina Beck",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_doris_achelwilm",
-      "label": "Doris Achelwilm",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_anja_troff_schaffarzyk",
-      "label": "Anja Troff-Schaffarzyk",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_otto_strau",
-      "label": "Otto Strauß",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_anja_karliczek",
-      "label": "Anja Karliczek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tarek_al_wazir",
-      "label": "Tarek Al-Wazir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_janine_wissler",
-      "label": "Janine Wissler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_heiko_hain",
-      "label": "Heiko Hain",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christian_reck",
-      "label": "Christian Reck",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sascha_m_ller",
-      "label": "Sascha Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_christoph_plo",
-      "label": "Dr. Christoph Ploß",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_erhard_brucker",
-      "label": "Erhard Brucker",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_reichardt",
-      "label": "Martin Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_oliver_p_psel",
-      "label": "Oliver Pöpsel",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_truels_reichardt",
-      "label": "Truels Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_birgit_bessin",
-      "label": "Birgit Bessin",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mandy_ei_ing",
-      "label": "Mandy Eißing",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_konrad_k_rner",
-      "label": "Dr. Konrad Körner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_maximilian_krah",
-      "label": "Dr. Maximilian Krah",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kerstin_przygodda",
-      "label": "Kerstin Przygodda",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jasmina_hostert",
-      "label": "Jasmina Hostert",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nyke_slawik",
-      "label": "Nyke Slawik",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_maik_br_ckner",
-      "label": "Maik Brückner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ellen_demuth",
-      "label": "Ellen Demuth",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sebastian_maack",
-      "label": "Sebastian Maack",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rasha_nasr",
-      "label": "Rasha Nasr",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_josephine_ortleb",
-      "label": "Josephine Ortleb",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_karsten_wildberger",
-      "label": "Dr. Karsten Wildberger",
-      "type": "Person",
-      "subtype": "Bundesminister für Digitales und Staatsmodernisierung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ruben_rupp",
-      "label": "Ruben Rupp",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_sch_tzl",
-      "label": "Johannes Schätzl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rebecca_lenhard",
-      "label": "Rebecca Lenhard",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_donata_vogtschmidt",
-      "label": "Donata Vogtschmidt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ronja_kemmer",
-      "label": "Ronja Kemmer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_robin_j_nger",
-      "label": "Robin Jünger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_carolin_wagner",
-      "label": "Dr. Carolin Wagner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_moritz_heuberger",
-      "label": "Dr. Moritz Heuberger",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hansj_rg_durz",
-      "label": "Hansjörg Durz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_alexander_arpaschi",
-      "label": "Alexander Arpaschi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_martin_plum",
-      "label": "Dr. Martin Plum",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_wolfram_weimer",
-      "label": "Dr. Wolfram Weimer",
-      "type": "Person",
-      "subtype": "Staatsminister beim Bundeskanzler",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_erwin_renner",
-      "label": "Martin Erwin Renner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_holger_mann",
-      "label": "Holger Mann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_bodo_ramelow",
-      "label": "Bodo Ramelow",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anna_l_hrmann",
-      "label": "Dr. Anna Lührmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_david_schliesing",
-      "label": "David Schliesing",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anja_weisgerber",
-      "label": "Dr. Anja Weisgerber",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ronald_gl_ser",
-      "label": "Ronald Gläser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_wiebke_esdar",
-      "label": "Dr. Wiebke Esdar",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_matthias_helferich",
-      "label": "Matthias Helferich",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_pascal_reddig",
-      "label": "Pascal Reddig",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sandra_carstensen",
-      "label": "Sandra Carstensen",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anna_rathert",
-      "label": "Dr. Anna Rathert",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jan_dieren",
-      "label": "Jan Dieren",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_wagner",
-      "label": "Johannes Wagner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_peter_aumer",
-      "label": "Peter Aumer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_angela_rudzka",
-      "label": "Angela Rudzka",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_daniela_rump",
-      "label": "Daniela Rump",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_florian_hahn",
-      "label": "Florian Hahn",
-      "type": "Person",
-      "subtype": "Staatsminister beim Bundesminister des Auswärtigen",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_gerold_otten",
-      "label": "Gerold Otten",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sebastian_hartmann",
-      "label": "Sebastian Hartmann",
-      "type": "Person",
-      "subtype": "Parl. Staatssekretär beim Bundesminister der Verteidigung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_niklas_wagener",
-      "label": "Niklas Wagener",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_g_kay_akbulut",
-      "label": "Gökay Akbulut",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_peter_beyer",
-      "label": "Peter Beyer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kurt_kleinschmidt",
-      "label": "Kurt Kleinschmidt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nancy_faeser",
-      "label": "Nancy Faeser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jens_lehmann",
-      "label": "Jens Lehmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_omid_nouripour",
-      "label": "Omid Nouripour",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_joachim_bloch",
-      "label": "Joachim Bloch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_hans_theiss",
-      "label": "Dr. Hans Theiss",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_paula_piechotta",
-      "label": "Dr. Paula Piechotta",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_maria_lena_weiss",
-      "label": "Dr. Maria-Lena Weiss",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tobias_teich",
-      "label": "Tobias Teich",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_j_rg_zirwes",
-      "label": "Jörg Zirwes",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_metin_hakverdi",
-      "label": "Metin Hakverdi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_christoph_birghan",
-      "label": "Dr. Christoph Birghan",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ayse_asar",
-      "label": "Ayse Asar",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_maja_wallstein",
-      "label": "Maja Wallstein",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_beatrix_von_storch",
-      "label": "Beatrix von Storch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicole_gohlke",
-      "label": "Nicole Gohlke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_joachim_ebmeyer",
-      "label": "Joachim Ebmeyer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_michael_kaufmann",
-      "label": "Dr. Michael Kaufmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_karsten_hilse",
-      "label": "Karsten Hilse",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_fabian_gramling",
-      "label": "Fabian Gramling",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_ingo_hahn",
-      "label": "Dr. Ingo Hahn",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mahmut_zdemir",
-      "label": "Mahmut Özdemir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_fabian_jacobi",
-      "label": "Fabian Jacobi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johannes_wiegelmann",
-      "label": "Johannes Wiegelmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lukas_benner",
-      "label": "Lukas Benner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_aaron_valent",
-      "label": "Aaron Valent",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_thomas_fetsch",
-      "label": "Thomas Fetsch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_karl_b_r",
-      "label": "Karl Bär",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_anna_aeikens",
-      "label": "Anna Aeikens",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dario_seifert",
-      "label": "Dario Seifert",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_franziska_kersten",
-      "label": "Dr. Franziska Kersten",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christin_willnat",
-      "label": "Christin Willnat",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_alexander_engelhard",
-      "label": "Alexander Engelhard",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_seidler",
-      "label": "Stefan Seidler",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_michael_blos",
-      "label": "Dr. Michael Blos",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kay_gottschalk",
-      "label": "Kay Gottschalk",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_olav_gutting",
-      "label": "Olav Gutting",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_parsa_marvi",
-      "label": "Parsa Marvi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_florian_dorn",
-      "label": "Dr. Florian Dorn",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_thorsten_rudolph",
-      "label": "Dr. Thorsten Rudolph",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_j_rn_k_nig",
-      "label": "Jörn König",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_oliver_vogt",
-      "label": "Dr. Oliver Vogt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tina_winklmann",
-      "label": "Tina Winklmann",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_christian_g_rke",
-      "label": "Christian Görke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_florian_o_ner",
-      "label": "Florian Oßner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lars_schieske",
-      "label": "Lars Schieske",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
     }
   ],
   "relationships": [
@@ -24195,11 +24105,11 @@
       "source_id": "aussage_0",
       "target_id": "faktencheck_0",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_0",
-      "target_id": "quelle_statistisches_bundesamt_destatis_menschen_mit_behinderungen",
+      "target_id": "quelle_behinderte_menschen_statistisches_bundesamt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24216,11 +24126,11 @@
       "source_id": "aussage_1",
       "target_id": "faktencheck_1",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_1",
-      "target_id": "quelle_statistisches_bundesamt_destatis_bev_lkerung_deutschlands",
+      "target_id": "quelle_jeder_sechste_mensch_weltweit_laut_who_von_einsamkeit_betroffen_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24241,7 +24151,7 @@
     },
     {
       "source_id": "faktencheck_2",
-      "target_id": "quelle_bundesministerium_der_justiz_behindertengleichstellungsgesetz_bgg",
+      "target_id": "quelle_arbeitslos_statistik_der_bundesagentur_f_r_arbeit_rehadat_statistik",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24258,11 +24168,11 @@
       "source_id": "aussage_3",
       "target_id": "faktencheck_3",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_3",
-      "target_id": "quelle_bundesagentur_f_r_arbeit_statistik_zur_arbeitslosigkeit_schwerbehinderter_menschen",
+      "target_id": "quelle_mehr_schutz_vor_diskriminierung_durch_den_staat_gefordert_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24283,7 +24193,7 @@
     },
     {
       "source_id": "faktencheck_4",
-      "target_id": "quelle_teilhabebericht_der_bundesregierung_ber_die_lebenslagen_von_menschen_mit_beeintr_chtigungen_2021",
+      "target_id": "quelle_anzahl_der_menschen_mit_beeintr_chtigungen",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24300,11 +24210,11 @@
       "source_id": "aussage_5",
       "target_id": "faktencheck_5",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_5",
-      "target_id": "quelle_bundesministerium_f_r_gesundheit_gkv_finanzstabilisierungsgesetz",
+      "target_id": "quelle_gesundheitsfonds_bundeszuschuss_themen_der_gkv_gesetzliche_krankenversicherung_kkdirekt_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24321,11 +24231,11 @@
       "source_id": "aussage_6",
       "target_id": "faktencheck_6",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_6",
-      "target_id": "quelle_bericht_der_regierungskommission_f_r_eine_moderne_und_bedarfsgerechte_krankenhausversorgung",
+      "target_id": "quelle_podiumsdiskussion_expertenkommission_universit_t_passau",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24342,11 +24252,11 @@
       "source_id": "aussage_7",
       "target_id": "faktencheck_7",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_7",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_kabinett_beschlie_t_eckpunkte_f_r_haushalt_2027_milliardenl_cken_bleiben",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24367,7 +24277,7 @@
     },
     {
       "source_id": "faktencheck_8",
-      "target_id": "quelle_statistisches_bundesamt_destatis_gesundheitswirtschaftliche_gesamtrechnungen",
+      "target_id": "quelle_bedeutung_der_gesundheitswirtschaft_bmg",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24388,7 +24298,7 @@
     },
     {
       "source_id": "faktencheck_9",
-      "target_id": "quelle_bundesministerium_f_r_wirtschaft_und_klimaschutz_gesundheitswirtschaft_als_jobmotor",
+      "target_id": "quelle_zahl_der_erwerbst_tigen_in_deutschland_auf_h_chststand_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24405,11 +24315,11 @@
       "source_id": "aussage_10",
       "target_id": "faktencheck_10",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_10",
-      "target_id": "quelle_bundesregierung_deutschlandticket",
+      "target_id": "quelle_deutschlandticket_von_kaufen_bis_k_ndigen_alle_wichtigen_infos_verbraucherzentrale_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24426,11 +24336,11 @@
       "source_id": "aussage_11",
       "target_id": "faktencheck_11",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_11",
-      "target_id": "quelle_keine_amtliche_quelle_bekannt",
+      "target_id": "quelle_dip_vorgang_formel_zur_berechnung_des_preisindex_beim_deutschlandticket",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24447,11 +24357,11 @@
       "source_id": "aussage_12",
       "target_id": "faktencheck_12",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_12",
-      "target_id": "quelle_umweltbundesamt_klimasch_dliche_subventionen",
+      "target_id": "quelle_luftverkehrabgabe_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24468,11 +24378,11 @@
       "source_id": "aussage_13",
       "target_id": "faktencheck_13",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_13",
-      "target_id": "quelle_bundestags_drucksache_20_10000_gesetzentwurf_zur_nderung_des_luftverkehrsteuergesetzes",
+      "target_id": "quelle_kein_passender_beleg_in_der_liste",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24489,11 +24399,11 @@
       "source_id": "aussage_14",
       "target_id": "faktencheck_14",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_14",
-      "target_id": "quelle_bundestags_drucksache_20_10000_finanzielle_auswirkungen",
+      "target_id": "quelle_wie_die_deutsche_luftfahrt_wirtschaft_und_alltag_bef_rdert",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24510,11 +24420,11 @@
       "source_id": "aussage_15",
       "target_id": "faktencheck_15",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "falsch"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_15",
-      "target_id": "quelle_bundesfinanzministerium_luftverkehrsteuer",
+      "target_id": "quelle_bundestag_entscheidet_ber_senkung_der_luftverkehrsteuer",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24531,11 +24441,11 @@
       "source_id": "aussage_16",
       "target_id": "faktencheck_16",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_16",
-      "target_id": "quelle_statistisches_bundesamt_armutsgef_hrdungsquote_von_kindern",
+      "target_id": "quelle_unicef_bericht_fast_jedes_f_nfte_kind_weltweit_lebt_in_extremer_armut_tagesschau_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24556,7 +24466,7 @@
     },
     {
       "source_id": "faktencheck_17",
-      "target_id": "quelle_statistisches_bundesamt_geburten_in_deutschland",
+      "target_id": "quelle_monatliche_geburtenzahlen_statistisches_bundesamt",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24577,49 +24487,49 @@
     },
     {
       "source_id": "faktencheck_18",
-      "target_id": "quelle_antidiskriminierungsstelle_des_bundes_lsbtiq_in_deutschland",
+      "target_id": "quelle_familienhaushalte_nach_zahl_der_kinder_die_soziale_situation_in_deutschland_bpb_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_jasmina_hostert",
+      "source_id": "person_rebecca_lenhard",
       "target_id": "aussage_19",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_19",
-      "target_id": "top_5",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_19",
       "target_id": "faktencheck_19",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_19",
-      "target_id": "quelle_bundesratsdrucksache_756_22_beschluss",
+      "target_id": "quelle_so_geht_es_nach_der_bundestagswahl_weiter",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_jasmina_hostert",
+      "source_id": "person_rebecca_lenhard",
       "target_id": "aussage_20",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_20",
-      "target_id": "top_5",
+      "target_id": "top_6",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_20",
       "target_id": "faktencheck_20",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_20",
-      "target_id": "quelle_quelle",
+      "target_id": "quelle_frankreich_leitet_linux_wechsel_statt_windows_in_der_verwaltung_ein_ghacks_deutschland",
       "relationship_type": "BELEGT_MIT"
     },
     {
@@ -24636,21 +24546,21 @@
       "source_id": "aussage_21",
       "target_id": "faktencheck_21",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_21",
-      "target_id": "quelle_bundesregierung_vereidigung_der_bundesregierung",
+      "target_id": "quelle_bundesregierung_beschlie_t_gesetzentwurf_zu_ai_act",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_rebecca_lenhard",
+      "source_id": "person_mandy_ei_ing",
       "target_id": "aussage_22",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_22",
-      "target_id": "top_6",
+      "target_id": "top_8",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -24661,101 +24571,101 @@
     },
     {
       "source_id": "faktencheck_22",
-      "target_id": "quelle_french_government_open_source_software_strategy",
+      "target_id": "quelle_mental_load_l_hmt_4_von_5_familien_politiker_und_verb_nde_fordern_nderungen_leben_wissen_bild_de",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_rebecca_lenhard",
+      "source_id": "person_mandy_ei_ing",
       "target_id": "aussage_23",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_23",
-      "target_id": "top_6",
+      "target_id": "top_8",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_23",
       "target_id": "faktencheck_23",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_23",
-      "target_id": "quelle_europ_isches_parlament_ai_act",
+      "target_id": "quelle_mehr_kinderkrankentage_f_r_eltern_bleiben_2026_erhalten",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_rebecca_lenhard",
+      "source_id": "person_mandy_ei_ing",
       "target_id": "aussage_24",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_24",
-      "target_id": "top_6",
+      "target_id": "top_8",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_24",
       "target_id": "faktencheck_24",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "irreführend"
     },
     {
       "source_id": "faktencheck_24",
-      "target_id": "quelle_french_government_digital_sovereignty_strategy",
+      "target_id": "quelle_kinderkrankentage_und_kinderkrankengeld_bmg",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_martin_erwin_renner",
+      "source_id": "person_gerold_otten",
       "target_id": "aussage_25",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_25",
-      "target_id": "top_7",
+      "target_id": "top_9",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_25",
       "target_id": "faktencheck_25",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_25",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_bundeswehr_gilt_im_kosovo_als_garant_f_r_stabilit_t_und_sicherheit",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_martin_erwin_renner",
+      "source_id": "person_gerold_otten",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_26",
-      "target_id": "top_7",
+      "target_id": "top_9",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_26",
       "target_id": "faktencheck_26",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_26",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_internationale_anerkennung_des_kosovo_wikipedia",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_martin_erwin_renner",
+      "source_id": "person_gerold_otten",
       "target_id": "aussage_27",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_27",
-      "target_id": "top_7",
+      "target_id": "top_9",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -24766,17 +24676,17 @@
     },
     {
       "source_id": "faktencheck_27",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_kein_passender_beleg_in_der_liste",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_mandy_ei_ing",
+      "source_id": "person_gerold_otten",
       "target_id": "aussage_28",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_28",
-      "target_id": "top_8",
+      "target_id": "top_9",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -24787,143 +24697,143 @@
     },
     {
       "source_id": "faktencheck_28",
-      "target_id": "quelle_keine_amtliche_quelle_verf_gbar",
+      "target_id": "quelle_kein_spezifischer_beleg_passend",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_mandy_ei_ing",
+      "source_id": "person_dr_hans_theiss",
       "target_id": "aussage_29",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_29",
-      "target_id": "top_8",
+      "target_id": "top_10",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_29",
       "target_id": "faktencheck_29",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_29",
-      "target_id": "quelle_bundesgesetzblatt_gesetz_zur_tempor_ren_erh_hung_der_kinderkrankentage",
+      "target_id": "quelle_defizit_des_staats_steigt_auf_rund_120_milliarden_euro_im_jahr",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_mandy_ei_ing",
+      "source_id": "person_dr_hans_theiss",
       "target_id": "aussage_30",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_30",
-      "target_id": "top_8",
+      "target_id": "top_10",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_30",
       "target_id": "faktencheck_30",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "bestätigt"
     },
     {
       "source_id": "faktencheck_30",
-      "target_id": "quelle_sozialgesetzbuch_sgb_f_nftes_buch_v_45",
+      "target_id": "quelle_gesundheit_66_vorschl_ge_so_sollen_die_krankenkassen_reformiert_werden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gerold_otten",
+      "source_id": "person_dr_hans_theiss",
       "target_id": "aussage_31",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_31",
-      "target_id": "top_9",
+      "target_id": "top_10",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_31",
       "target_id": "faktencheck_31",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_31",
-      "target_id": "quelle_bundeswehr_kfor_einsatz",
+      "target_id": "quelle_dip_vorgang_vorschlag_f_r_eine_verordnung_des_europ_ischen_parlaments_und_des_rates_zur_einrichtung_des_programms_f_r_agile_schnelle_innovation_im_verteidigungsbereich_agile",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gerold_otten",
+      "source_id": "person_niklas_wagener",
       "target_id": "aussage_32",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_32",
-      "target_id": "top_9",
+      "target_id": "top_11",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_32",
       "target_id": "faktencheck_32",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_32",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_lot_h_user_der_bundeswehr_sensoren_am_puls_der_bev_lkerung",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gerold_otten",
+      "source_id": "person_niklas_wagener",
       "target_id": "aussage_33",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_33",
-      "target_id": "top_9",
+      "target_id": "top_11",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_33",
       "target_id": "faktencheck_33",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_33",
-      "target_id": "quelle_bundeswehr_chronik_der_eins_tze",
+      "target_id": "quelle_das_letzte_mali_einsatzkontingent_der_bundeswehr_ist_zur_ck_in_deutschland",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gerold_otten",
+      "source_id": "person_niklas_wagener",
       "target_id": "aussage_34",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_34",
-      "target_id": "top_9",
+      "target_id": "top_11",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_34",
       "target_id": "faktencheck_34",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_34",
-      "target_id": "quelle_ausw_rtiges_amt_kosovo",
+      "target_id": "quelle_das_leid_der_frauen_in_den_tripperburgen_der_ddr",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_gerold_otten",
+      "source_id": "person_niklas_wagener",
       "target_id": "aussage_35",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_35",
-      "target_id": "top_9",
+      "target_id": "top_11",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -24934,17 +24844,17 @@
     },
     {
       "source_id": "faktencheck_35",
-      "target_id": "quelle_vereinte_nationen_mitgliedschaft",
+      "target_id": "quelle_demografische_ver_nderung_stellt_bosnien_herzegowina_vor_gro_e_herausforderungen_kosmo",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_hans_theiss",
+      "source_id": "person_maja_wallstein",
       "target_id": "aussage_36",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_36",
-      "target_id": "top_10",
+      "target_id": "top_12",
       "relationship_type": "ZU_TOP"
     },
     {
@@ -24955,238 +24865,133 @@
     },
     {
       "source_id": "faktencheck_36",
-      "target_id": "quelle_gkv_sch_tzerkreis_prognose_der_finanzentwicklung_der_gesetzlichen_krankenversicherung_2024",
+      "target_id": "quelle_themenschwerpunkt_2021_erneuerung_bundeskanzler_willy_brandt_stiftung",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_hans_theiss",
+      "source_id": "person_fabian_gramling",
       "target_id": "aussage_37",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_37",
-      "target_id": "top_10",
+      "target_id": "top_12",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_37",
       "target_id": "faktencheck_37",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_37",
-      "target_id": "quelle_bericht_der_unabh_ngigen_kommission_f_r_die_nachhaltige_finanzierung_des_gesundheitswesens",
+      "target_id": "quelle_wohnimmobilienmarkt_transaktionen_nach_immobilienkategorien_statista",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_dr_hans_theiss",
+      "source_id": "person_fabian_gramling",
       "target_id": "aussage_38",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_38",
-      "target_id": "top_10",
+      "target_id": "top_12",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_38",
       "target_id": "faktencheck_38",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "falsch"
     },
     {
       "source_id": "faktencheck_38",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "target_id": "quelle_immobilien_investmentmarkt_in_deutschland_transaktionsvolumen_bis_2024_statista",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_niklas_wagener",
+      "source_id": "person_anna_aeikens",
       "target_id": "aussage_39",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_39",
-      "target_id": "top_11",
+      "target_id": "top_14",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_39",
       "target_id": "faktencheck_39",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "teilweise"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_39",
-      "target_id": "quelle_eufor_althea_factsheet_bundeswehr",
+      "target_id": "quelle_kein_passender_beleg_vorhanden",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_niklas_wagener",
+      "source_id": "person_anna_aeikens",
       "target_id": "aussage_40",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_40",
-      "target_id": "top_11",
+      "target_id": "top_14",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_40",
       "target_id": "faktencheck_40",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
+      "verdikt": "teilweise"
     },
     {
       "source_id": "faktencheck_40",
-      "target_id": "quelle_keine_belastbare_quelle_verf_gbar",
+      "target_id": "quelle_ab_12_januar_neue_trinkwasser_grenzwerte_f_r_pfas_vku",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_maja_wallstein",
+      "source_id": "person_anna_aeikens",
       "target_id": "aussage_41",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_41",
-      "target_id": "top_12",
+      "target_id": "top_14",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_41",
       "target_id": "faktencheck_41",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
+      "verdikt": "unbelegt"
     },
     {
       "source_id": "faktencheck_41",
-      "target_id": "quelle_bundesministerium_f_r_bildung_und_forschung_geschichte_des_baf_g",
+      "target_id": "quelle_kein_spezifischer_beleg_f_r_die_aussage",
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_maja_wallstein",
+      "source_id": "person_anna_aeikens",
       "target_id": "aussage_42",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
     {
       "source_id": "aussage_42",
-      "target_id": "top_12",
+      "target_id": "top_14",
       "relationship_type": "ZU_TOP"
     },
     {
       "source_id": "aussage_42",
       "target_id": "faktencheck_42",
       "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
-    },
-    {
-      "source_id": "faktencheck_42",
-      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_fabian_gramling",
-      "target_id": "aussage_43",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_43",
-      "target_id": "top_12",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_43",
-      "target_id": "faktencheck_43",
-      "relationship_type": "GEPRUEFT_ALS",
       "verdikt": "teilweise"
     },
     {
-      "source_id": "faktencheck_43",
-      "target_id": "quelle_statistisches_bundesamt_destatis_grundst_cksmarkt",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_fabian_gramling",
-      "target_id": "aussage_44",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_44",
-      "target_id": "top_12",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_44",
-      "target_id": "faktencheck_44",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
-    },
-    {
-      "source_id": "faktencheck_44",
-      "target_id": "quelle_statistisches_bundesamt_destatis_grundst_cksmarktbericht_2022",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_anna_aeikens",
-      "target_id": "aussage_45",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_45",
-      "target_id": "top_14",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_45",
-      "target_id": "faktencheck_45",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
-    },
-    {
-      "source_id": "faktencheck_45",
-      "target_id": "quelle_echa_per_and_polyfluoroalkyl_substances_pfas",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_anna_aeikens",
-      "target_id": "aussage_46",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_46",
-      "target_id": "top_14",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_46",
-      "target_id": "faktencheck_46",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "bestätigt"
-    },
-    {
-      "source_id": "faktencheck_46",
-      "target_id": "quelle_eu_trinkwasserrichtlinie_eu_2020_2184",
-      "relationship_type": "BELEGT_MIT"
-    },
-    {
-      "source_id": "person_anna_aeikens",
-      "target_id": "aussage_47",
-      "relationship_type": "TAETIGT_AUSSAGE"
-    },
-    {
-      "source_id": "aussage_47",
-      "target_id": "top_14",
-      "relationship_type": "ZU_TOP"
-    },
-    {
-      "source_id": "aussage_47",
-      "target_id": "faktencheck_47",
-      "relationship_type": "GEPRUEFT_ALS",
-      "verdikt": "unbelegt"
-    },
-    {
-      "source_id": "faktencheck_47",
-      "target_id": "quelle_keine_belastbare_quelle_bekannt",
+      "source_id": "faktencheck_42",
+      "target_id": "quelle_pfas_beschr_nkungsverfahren",
       "relationship_type": "BELEGT_MIT"
     },
     {
