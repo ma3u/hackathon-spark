@@ -19,6 +19,8 @@
       .tab { background: var(--panel); color: var(--text); border: 1px solid var(--border);
         padding: 7px 14px; border-radius: 7px; cursor: pointer; font-size: 13px; }
       .tab.active { border-color: var(--accent); color: var(--accent); }
+      .tab:focus-visible, .close:focus-visible, a:focus-visible, .gaplink:focus-visible {
+        outline: 2px solid var(--accent); outline-offset: 2px; }
       #wrap { display: flex; height: calc(100vh - 56px); }
       #graph { flex: 1; position: relative; min-width: 0; overflow: hidden; }
       #side { width: 380px; border-left: 1px solid var(--border); overflow-y: auto; padding: 16px; }
@@ -92,14 +94,15 @@
         <div class="sub">Bundestags-Plenarprotokoll → Knowledge Graph + Faktencheck · echte Daten · SPARK Challenge 2</div>
       </div>
       <div class="tabs">
-        <select class="tab" id="sessions" title="Reale Bundestagssitzung wählen"><option value="">📺 Sitzung wählen…</option></select>
+        <select class="tab" id="sessions" aria-label="Bundestagssitzung wählen" title="Reale Bundestagssitzung wählen"><option value="">📺 Sitzung wählen…</option></select>
         <button class="tab" id="srcOff" title="Offiziell: amtliches Plenarprotokoll-XML (Struktur, Volltext, Saalreaktionen, Faktencheck) + Mediathek-Video je Rede">🟢 Offiziell</button>
         <button class="tab" id="srcYt" title="YouTube-Gesamtmitschnitt (Zeit-Deeplinks)">🎬 YouTube</button>
         <button class="tab" id="viewToggle">📊 Dashboard</button>
         <button class="tab" id="a11y" title="Protokoll als HTML — Transkript, Quellen, Deeplinks">♿ Protokoll</button>
       </div>
     </header>
-    <div class="overlay" id="gapOverlay"><div class="modal" id="gapModal"></div></div>
+    <div class="overlay" id="gapOverlay" role="dialog" aria-modal="true" aria-label="Gap-Diff: Protokoll gegen gesprochenes Wort"><div class="modal" id="gapModal"></div></div>
+    <main id="content">
     <div id="dash" style="display:none"></div>
     <div id="wrap">
       <div id="graph"></div>
@@ -110,6 +113,7 @@
         <div class="card" id="factcheck" style="display:none"><h2>🔎 Faktencheck</h2></div>
       </div>
     </div>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/3d-force-graph@1.73.4/dist/3d-force-graph.min.js"></script>
     <script>
@@ -446,16 +450,21 @@
           return "";
         }).join(" ") + `</div>`;
       }
-      function closeGap() { $("gapOverlay").classList.remove("on"); }
+      let gapTrigger = null;
+      function closeGap() {
+        $("gapOverlay").classList.remove("on");
+        if (gapTrigger) { gapTrigger.focus(); gapTrigger = null; }  // Fokus zurück zum Auslöser
+      }
       async function openGap(file) {
         const m = $("gapModal");
+        gapTrigger = document.activeElement;
         $("gapOverlay").classList.add("on");
-        m.innerHTML = `<span class="close">✕ schließen</span><div class="gaphead">Lade…</div>`;
+        m.innerHTML = `<button class="close" type="button">✕ schließen</button><div class="gaphead">Lade…</div>`;
         let d;
         try { d = await (await fetch(`./data/${file}?cb=${Date.now()}`)).json(); }
-        catch { m.innerHTML = `<span class="close">✕ schließen</span><div class="gaphead">Konnte ${esc(file)} nicht laden.</div>`; return; }
+        catch { m.innerHTML = `<button class="close" type="button">✕ schließen</button><div class="gaphead">Konnte ${esc(file)} nicht laden.</div>`; return; }
         const w = d.wer || {}, med = d.quelle_typ === "mediathek";
-        let h = `<span class="close">✕ schließen</span>`;
+        let h = `<button class="close" type="button">✕ schließen</button>`;
         h += `<h2>🔀 ${med ? "Korrektur-Gap" : "ASR-Gap"}${d.sitzung ? " — " + d.sitzung.nr + ". Sitzung" : ""}</h2>`;
         h += `<div class="gaphead">${esc(d.vergleich || "")}<br/>WER <b>${Math.round((w.wer || 0) * 100)}%</b>`
           + (w.ref_woerter ? ` · ${w.ref_woerter.toLocaleString("de")} Referenzwörter` : "")
@@ -476,6 +485,8 @@
             : `<div class="empty">Keine Inhalts-Lücken erfasst.</div>`;
         }
         m.innerHTML = h;
+        const cb = m.querySelector(".close");
+        if (cb) cb.focus();  // Tastatur-Fokus in den Dialog setzen
       }
       document.addEventListener("click", (ev) => {
         const gl = ev.target.closest(".gaplink");
