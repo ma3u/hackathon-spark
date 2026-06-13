@@ -43,6 +43,7 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 | 19 | YouTube-Clips (`/videos`) als Quelle für Sitzungen ohne Stream | ⬜ | braucht **YouTube Data API Key** (`pipeline/youtube_clips.py`) |
 | 20 | Korrektur-/Freigabe-Workflow (Mensch-im-Loop) | ⬜ | offen (M4) |
 | 21 | **Entity-Resolution Person** (Anrede/Titel/NBSP → Merge) | ✅ | `scripts/entity_resolution.py` (682→671), `bundestag_xml._canon_person_name` |
+| 21b | **DIP-Personen-IDs** (amtliche Identität + Profil-Deeplink, dip_id-Merge) | ✅ | `scripts/dip_person_ids.py` (97% aufgelöst, 668 Knoten) |
 
 ## 3. Stand 2026-06-12 (Fortschritts-Log)
 
@@ -78,8 +79,9 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 
 1. ✅ ~~Belastbare Faktencheck-Verdikte~~ — **erledigt** via Brave-Websuche (**ganze Showcase 70–81 grounded**).
    Optional: Grounding auf alle 81 ausweiten (Brave-Free-Plan-Limit beachten).
-2. ✅ ~~Entity-Resolution für `Person`~~ — **erledigt** (`scripts/entity_resolution.py`):
-   682→671 Knoten, Anrede/Titel/NBSP-Dubletten gemerged, Quelle gefixt. Optional: DIP-Personen-IDs.
+2. ✅ ~~Entity-Resolution für `Person`~~ — **erledigt**: String-Resolution
+   (`entity_resolution.py`, 682→671) + **DIP-Personen-IDs** (`dip_person_ids.py`, 97% aufgelöst,
+   amtliche dip_id + Profil-Deeplink, dip_id-Merge fängt Inge/Ingeborg Gräßle etc. → 668).
 3. ⬜ **YouTube Data API Key** → `youtube_clips` für Sitzungen ohne Gesamt-Stream;
    die 42 YouTube-bestätigten Sitzungen als 🎬-Quelle ingestieren.
 4. ✅ ~~Mediathek-Video-Deeplinks auf alle 81~~ — **erledigt** (`scripts/mediathek_links.py`):
