@@ -28,7 +28,8 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 | 5 | Neo4j-Import (idempotent, parametrisiert, namespaced) | ✅ | `pipeline/neo4j_loader.py` |
 | 6 | Neo4j-GraphRAG (Text2Cypher) + GDS + Haystack + Vektor | ✅ | `pipeline/neo4j_graphrag.py`, `scripts/` |
 | 7 | Sitzungs-Dashboard (Redezeit, Sachthemen, Redner, Sprachanteil, Feedback) | ✅ | `pipeline/dashboard.py` |
-| 8 | Gap-Analyse YouTube ↔ amtlich (WER, Reaktions-Recall) | ✅ | `pipeline/gap_analysis.py` (79: 41 %, 81: 21 %) |
+| 8 | Gap-Analyse YouTube ↔ amtlich (WER, Reaktions-Recall) | ✅ | `pipeline/gap_analysis.py` (ASR-Gap 79: 41 %, 81: 21 %) |
+| 8b | **WER-Benchmark über 10 Sitzungen** (Mediathek ↔ amtlich, Korrektur-Gap) | ✅ | `scripts/wer_benchmark.py` (Ø 1,8 %, 520k Wörter) |
 | 9 | GitHub-Pages-App (Graph + Dashboard + Protokoll-HTML) | ✅ | `web/` |
 | 10 | **ECHTDATEN: alle 81 WP21-Protokolle (dserver) in Neo4j** | ✅ | `scripts/sync_sessions.py --official` |
 | 11 | **YouTube-Gesamtmitschnitte** (Streams 79/81), Zeit-Deeplinks | ✅ | `--youtube`, `pipeline/subtitles.py` |
@@ -87,5 +88,7 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
 4. ✅ ~~Mediathek-Video-Deeplinks auf alle 81~~ — **erledigt** (`scripts/mediathek_links.py`):
    81/81 Sitzungen mit 📺 Mediathek-Deeplink, 7388 Reden sprecher-genau verlinkt (Neo4j + Pages).
 5. ⬜ Mensch-im-Loop-Korrektur-/Freigabeprozess (M4), Barrierefreiheit-Audit.
-6. ⬜ WER/DER-Benchmark gegen mehr Sitzungen; Gap-Report in der UI ausbauen.
+6. ✅ ~~WER-Benchmark gegen mehr Sitzungen~~ — **erledigt** (`scripts/wer_benchmark.py`):
+   10 Sitzungen Korrektur-Gap (Mediathek ↔ amtlich) Ø 1,8 % + 2 ASR-Gaps (YouTube); UI
+   unterscheidet ASR-Gap/Korrektur-Gap. Offen: DER (Diarisierung), Gap-Diff-Ansicht in der UI.
 7. ⬜ CI: `actions/*@v4` → Node-24-fähige Versionen (GitHub erzwingt Node 24 ab 16.06.2026).
