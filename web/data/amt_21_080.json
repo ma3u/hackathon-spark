@@ -21335,161 +21335,207 @@
       "label": "Julia Klöckner",
       "type": "Person",
       "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "224",
+      "dip_url": "https://dip.bundestag.de/person/224"
     },
     {
       "id": "person_dr_christiane_schenderlein",
       "label": "Dr. Christiane Schenderlein",
       "type": "Person",
       "subtype": "Staatsministerin beim Bundeskanzler",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8169",
+      "dip_url": "https://dip.bundestag.de/person/8169"
     },
     {
       "id": "person_j_rn_k_nig",
       "label": "Jörn König",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2256",
+      "dip_url": "https://dip.bundestag.de/person/2256"
     },
     {
       "id": "person_bettina_lugk",
       "label": "Bettina Lugk",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7368",
+      "dip_url": "https://dip.bundestag.de/person/7368"
     },
     {
       "id": "person_tina_winklmann",
       "label": "Tina Winklmann",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7461",
+      "dip_url": "https://dip.bundestag.de/person/7461"
     },
     {
       "id": "person_christian_g_rke",
       "label": "Christian Görke",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7287",
+      "dip_url": "https://dip.bundestag.de/person/7287"
     },
     {
       "id": "person_stephan_mayer",
       "label": "Stephan Mayer",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "374",
+      "dip_url": "https://dip.bundestag.de/person/374"
     },
     {
       "id": "person_thomas_korell",
       "label": "Thomas Korell",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8052",
+      "dip_url": "https://dip.bundestag.de/person/8052"
     },
     {
       "id": "person_dr_ophelia_nick",
       "label": "Dr. Ophelia Nick",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7539",
+      "dip_url": "https://dip.bundestag.de/person/7539"
     },
     {
       "id": "person_jens_lehmann",
       "label": "Jens Lehmann",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2268",
+      "dip_url": "https://dip.bundestag.de/person/2268"
     },
     {
       "id": "person_bastian_treuheit",
       "label": "Bastian Treuheit",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7992",
+      "dip_url": "https://dip.bundestag.de/person/7992"
     },
     {
       "id": "person_fritz_g_ntzler",
       "label": "Fritz Güntzler",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1599",
+      "dip_url": "https://dip.bundestag.de/person/1599"
     },
     {
       "id": "person_markus_frohnmaier",
       "label": "Markus Frohnmaier",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2176",
+      "dip_url": "https://dip.bundestag.de/person/2176"
     },
     {
       "id": "person_dr_hendrik_hoppenstedt",
       "label": "Dr. Hendrik Hoppenstedt",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1683",
+      "dip_url": "https://dip.bundestag.de/person/1683"
     },
     {
       "id": "person_robin_wagener",
       "label": "Robin Wagener",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7444",
+      "dip_url": "https://dip.bundestag.de/person/7444"
     },
     {
       "id": "person_enrico_komning",
       "label": "Enrico Komning",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2255",
+      "dip_url": "https://dip.bundestag.de/person/2255"
     },
     {
       "id": "person_daniel_baldy",
       "label": "Daniel Baldy",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7223",
+      "dip_url": "https://dip.bundestag.de/person/7223"
     },
     {
       "id": "person_ina_latendorf",
       "label": "Ina Latendorf",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7874",
+      "dip_url": "https://dip.bundestag.de/person/7874"
     },
     {
       "id": "person_marc_henrichmann",
       "label": "Marc Henrichmann",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2214",
+      "dip_url": "https://dip.bundestag.de/person/2214"
     },
     {
       "id": "person_dr_anna_rathert",
       "label": "Dr. Anna Rathert",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8058",
+      "dip_url": "https://dip.bundestag.de/person/8058"
     },
     {
       "id": "person_mahmut_zdemir",
       "label": "Mahmut Özdemir",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1567",
+      "dip_url": "https://dip.bundestag.de/person/1567"
     },
     {
       "id": "person_michael_kellner",
       "label": "Michael Kellner",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7528",
+      "dip_url": "https://dip.bundestag.de/person/7528"
     },
     {
       "id": "person_thomas_silberhorn",
       "label": "Thomas Silberhorn",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "124",
+      "dip_url": "https://dip.bundestag.de/person/124"
     },
     {
       "id": "person_steffen_kotr",
@@ -21503,763 +21549,981 @@
       "label": "Dr. Ralf Stegner",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7425",
+      "dip_url": "https://dip.bundestag.de/person/7425"
     },
     {
       "id": "person_andrea_lindholz",
       "label": "Andrea Lindholz",
       "type": "Person",
       "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8171",
+      "dip_url": "https://dip.bundestag.de/person/8171"
     },
     {
       "id": "person_j_rgen_hardt",
       "label": "Jürgen Hardt",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1055",
+      "dip_url": "https://dip.bundestag.de/person/1055"
     },
     {
       "id": "person_stephan_brandner",
       "label": "Stephan Brandner",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2075",
+      "dip_url": "https://dip.bundestag.de/person/2075"
     },
     {
       "id": "person_arne_raue",
       "label": "Arne Raue",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8081",
+      "dip_url": "https://dip.bundestag.de/person/8081"
     },
     {
       "id": "person_mandy_ei_ing",
       "label": "Mandy Eißing",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7884",
+      "dip_url": "https://dip.bundestag.de/person/7884"
     },
     {
       "id": "person_j_rgen_co_e",
       "label": "Jürgen Coße",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1911",
+      "dip_url": "https://dip.bundestag.de/person/1911"
     },
     {
       "id": "person_leon_eckert",
       "label": "Leon Eckert",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7267",
+      "dip_url": "https://dip.bundestag.de/person/7267"
     },
     {
       "id": "person_jan_k_stering",
       "label": "Jan Köstering",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8054",
+      "dip_url": "https://dip.bundestag.de/person/8054"
     },
     {
       "id": "person_dieter_stier",
       "label": "Dieter Stier",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1132",
+      "dip_url": "https://dip.bundestag.de/person/1132"
     },
     {
       "id": "person_artur_auernhammer",
       "label": "Artur Auernhammer",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1498",
+      "dip_url": "https://dip.bundestag.de/person/1498"
     },
     {
       "id": "person_dr_julia_verlinden",
       "label": "Dr. Julia Verlinden",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1769",
+      "dip_url": "https://dip.bundestag.de/person/1769"
     },
     {
       "id": "person_sepp_m_ller",
       "label": "Sepp Müller",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2016",
+      "dip_url": "https://dip.bundestag.de/person/2016"
     },
     {
       "id": "person_lisa_badum",
       "label": "Lisa Badum",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1983",
+      "dip_url": "https://dip.bundestag.de/person/1983"
     },
     {
       "id": "person_marc_bernhard",
       "label": "Marc Bernhard",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2066",
+      "dip_url": "https://dip.bundestag.de/person/2066"
     },
     {
       "id": "person_helmut_kleebank",
       "label": "Helmut Kleebank",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7328",
+      "dip_url": "https://dip.bundestag.de/person/7328"
     },
     {
       "id": "person_violetta_bock",
       "label": "Violetta Bock",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7967",
+      "dip_url": "https://dip.bundestag.de/person/7967"
     },
     {
       "id": "person_dr_klaus_wiener",
       "label": "Dr. Klaus Wiener",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7458",
+      "dip_url": "https://dip.bundestag.de/person/7458"
     },
     {
       "id": "person_caren_lay",
       "label": "Caren Lay",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7815",
+      "dip_url": "https://dip.bundestag.de/person/7815"
     },
     {
       "id": "person_raimond_scheirich",
       "label": "Raimond Scheirich",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8096",
+      "dip_url": "https://dip.bundestag.de/person/8096"
     },
     {
       "id": "person_dr_nina_scheer",
       "label": "Dr. Nina Scheer",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1601",
+      "dip_url": "https://dip.bundestag.de/person/1601"
     },
     {
       "id": "person_dr_alaa_alhamwi",
       "label": "Dr. Alaa Alhamwi",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7908",
+      "dip_url": "https://dip.bundestag.de/person/7908"
     },
     {
       "id": "person_j_rg_cezanne",
       "label": "Jörg Cezanne",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2095",
+      "dip_url": "https://dip.bundestag.de/person/2095"
     },
     {
       "id": "person_lars_rohwer",
       "label": "Lars Rohwer",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7374",
+      "dip_url": "https://dip.bundestag.de/person/7374"
     },
     {
       "id": "person_mathias_weiser",
       "label": "Mathias Weiser",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8022",
+      "dip_url": "https://dip.bundestag.de/person/8022"
     },
     {
       "id": "person_hans_koller",
       "label": "Hans Koller",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8050",
+      "dip_url": "https://dip.bundestag.de/person/8050"
     },
     {
       "id": "person_bodo_ramelow",
       "label": "Bodo Ramelow",
       "type": "Person",
       "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8174",
+      "dip_url": "https://dip.bundestag.de/person/8174"
     },
     {
       "id": "person_alexander_dobrindt",
       "label": "Alexander Dobrindt",
       "type": "Person",
       "subtype": "Bundesminister des Innern",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8121",
+      "dip_url": "https://dip.bundestag.de/person/8121"
     },
     {
       "id": "person_steffen_janich",
       "label": "Steffen Janich",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7312",
+      "dip_url": "https://dip.bundestag.de/person/7312"
     },
     {
       "id": "person_christian_pegel",
       "label": "Christian Pegel",
       "type": "Person",
       "subtype": "Minister (Mecklenburg-Vorpommern)",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7788",
+      "dip_url": "https://dip.bundestag.de/person/7788"
     },
     {
       "id": "person_dr_konstantin_von_notz",
       "label": "Dr. Konstantin von Notz",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1191",
+      "dip_url": "https://dip.bundestag.de/person/1191"
     },
     {
       "id": "person_sebastian_schmidt",
       "label": "Sebastian Schmidt",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8104",
+      "dip_url": "https://dip.bundestag.de/person/8104"
     },
     {
       "id": "person_sebastian_hartmann",
       "label": "Sebastian Hartmann",
       "type": "Person",
       "subtype": "Parl. Staatssekretär beim Bundesminister der Verteidigung",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8143",
+      "dip_url": "https://dip.bundestag.de/person/8143"
     },
     {
       "id": "person_josephine_ortleb",
       "label": "Josephine Ortleb",
       "type": "Person",
       "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8172",
+      "dip_url": "https://dip.bundestag.de/person/8172"
     },
     {
       "id": "person_dr_katja_strauss_k_ster",
       "label": "Dr. Katja Strauss-Köster",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7965",
+      "dip_url": "https://dip.bundestag.de/person/7965"
     },
     {
       "id": "person_dr_daniel_zerbin",
       "label": "Dr. Daniel Zerbin",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8031",
+      "dip_url": "https://dip.bundestag.de/person/8031"
     },
     {
       "id": "person_rasha_nasr",
       "label": "Rasha Nasr",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7455",
+      "dip_url": "https://dip.bundestag.de/person/7455"
     },
     {
       "id": "person_josef_oster",
       "label": "Josef Oster",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2034",
+      "dip_url": "https://dip.bundestag.de/person/2034"
     },
     {
       "id": "person_sebastian_fiedler",
       "label": "Sebastian Fiedler",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7276",
+      "dip_url": "https://dip.bundestag.de/person/7276"
     },
     {
       "id": "person_omid_nouripour",
       "label": "Omid Nouripour",
       "type": "Person",
       "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8173",
+      "dip_url": "https://dip.bundestag.de/person/8173"
     },
     {
       "id": "person_thomas_fetsch",
       "label": "Thomas Fetsch",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7892",
+      "dip_url": "https://dip.bundestag.de/person/7892"
     },
     {
       "id": "person_johannes_wiegelmann",
       "label": "Johannes Wiegelmann",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8025",
+      "dip_url": "https://dip.bundestag.de/person/8025"
     },
     {
       "id": "person_helge_limburg",
       "label": "Helge Limburg",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7365",
+      "dip_url": "https://dip.bundestag.de/person/7365"
     },
     {
       "id": "person_aaron_valent",
       "label": "Aaron Valent",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8013",
+      "dip_url": "https://dip.bundestag.de/person/8013"
     },
     {
       "id": "person_dr_konrad_k_rner",
       "label": "Dr. Konrad Körner",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8053",
+      "dip_url": "https://dip.bundestag.de/person/8053"
     },
     {
       "id": "person_ansgar_heveling",
       "label": "Ansgar Heveling",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1061",
+      "dip_url": "https://dip.bundestag.de/person/1061"
     },
     {
       "id": "person_micha_fehre",
       "label": "Micha Fehre",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7890",
+      "dip_url": "https://dip.bundestag.de/person/7890"
     },
     {
       "id": "person_dr_thomas_gebhart",
       "label": "Dr. Thomas Gebhart",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1043",
+      "dip_url": "https://dip.bundestag.de/person/1043"
     },
     {
       "id": "person_julian_joswig",
       "label": "Julian Joswig",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7950",
+      "dip_url": "https://dip.bundestag.de/person/7950"
     },
     {
       "id": "person_karsten_hilse",
       "label": "Karsten Hilse",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2222",
+      "dip_url": "https://dip.bundestag.de/person/2222"
     },
     {
       "id": "person_esra_limbacher",
       "label": "Esra Limbacher",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7364",
+      "dip_url": "https://dip.bundestag.de/person/7364"
     },
     {
       "id": "person_mirze_edis",
       "label": "Mirze Edis",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7882",
+      "dip_url": "https://dip.bundestag.de/person/7882"
     },
     {
       "id": "person_kay_gottschalk",
       "label": "Kay Gottschalk",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2191",
+      "dip_url": "https://dip.bundestag.de/person/2191"
     },
     {
       "id": "person_boris_pistorius",
       "label": "Boris Pistorius",
       "type": "Person",
       "subtype": "Bundesminister der Verteidigung",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7650",
+      "dip_url": "https://dip.bundestag.de/person/7650"
     },
     {
       "id": "person_gerold_otten",
       "label": "Gerold Otten",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2035",
+      "dip_url": "https://dip.bundestag.de/person/2035"
     },
     {
       "id": "person_florian_hahn",
       "label": "Florian Hahn",
       "type": "Person",
       "subtype": "Staatsminister beim Bundesminister des Auswärtigen",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8141",
+      "dip_url": "https://dip.bundestag.de/person/8141"
     },
     {
       "id": "person_sara_nanni",
       "label": "Sara Nanni",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7445",
+      "dip_url": "https://dip.bundestag.de/person/7445"
     },
     {
       "id": "person_cansu_zdemir",
       "label": "Cansu Özdemir",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7986",
+      "dip_url": "https://dip.bundestag.de/person/7986"
     },
     {
       "id": "person_kerstin_vieregge",
       "label": "Kerstin Vieregge",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2174",
+      "dip_url": "https://dip.bundestag.de/person/2174"
     },
     {
       "id": "person_thomas_ladzinski",
       "label": "Thomas Ladzinski",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8059",
+      "dip_url": "https://dip.bundestag.de/person/8059"
     },
     {
       "id": "person_derya_t_rk_nachbaur",
       "label": "Derya Türk-Nachbaur",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7438",
+      "dip_url": "https://dip.bundestag.de/person/7438"
     },
     {
       "id": "person_siegfried_walch",
       "label": "Siegfried Walch",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8020",
+      "dip_url": "https://dip.bundestag.de/person/8020"
     },
     {
       "id": "person_caroline_bosbach",
       "label": "Caroline Bosbach",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7975",
+      "dip_url": "https://dip.bundestag.de/person/7975"
     },
     {
       "id": "person_danny_meiners",
       "label": "Danny Meiners",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8069",
+      "dip_url": "https://dip.bundestag.de/person/8069"
     },
     {
       "id": "person_svenja_stadler",
       "label": "Svenja Stadler",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1618",
+      "dip_url": "https://dip.bundestag.de/person/1618"
     },
     {
       "id": "person_dr_zoe_mayer",
       "label": "Dr. Zoe Mayer",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7334",
+      "dip_url": "https://dip.bundestag.de/person/7334"
     },
     {
       "id": "person_alexander_engelhard",
       "label": "Alexander Engelhard",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7270",
+      "dip_url": "https://dip.bundestag.de/person/7270"
     },
     {
       "id": "person_christian_zaum",
       "label": "Christian Zaum",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8030",
+      "dip_url": "https://dip.bundestag.de/person/8030"
     },
     {
       "id": "person_nicklas_kappe",
       "label": "Nicklas Kappe",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8038",
+      "dip_url": "https://dip.bundestag.de/person/8038"
     },
     {
       "id": "person_dr_saskia_ludwig",
       "label": "Dr. Saskia Ludwig",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7138",
+      "dip_url": "https://dip.bundestag.de/person/7138"
     },
     {
       "id": "person_andreas_mayer",
       "label": "Andreas Mayer",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8067",
+      "dip_url": "https://dip.bundestag.de/person/8067"
     },
     {
       "id": "person_christian_douglas",
       "label": "Christian Douglas",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8006",
+      "dip_url": "https://dip.bundestag.de/person/8006"
     },
     {
       "id": "person_dr_florian_dorn",
       "label": "Dr. Florian Dorn",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8005",
+      "dip_url": "https://dip.bundestag.de/person/8005"
     },
     {
       "id": "person_awet_tesfaiesus",
       "label": "Awet Tesfaiesus",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7433",
+      "dip_url": "https://dip.bundestag.de/person/7433"
     },
     {
       "id": "person_parsa_marvi",
       "label": "Parsa Marvi",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7331",
+      "dip_url": "https://dip.bundestag.de/person/7331"
     },
     {
       "id": "person_david_schliesing",
       "label": "David Schliesing",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8100",
+      "dip_url": "https://dip.bundestag.de/person/8100"
     },
     {
       "id": "person_dr_matthias_hiller",
       "label": "Dr. Matthias Hiller",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7942",
+      "dip_url": "https://dip.bundestag.de/person/7942"
     },
     {
       "id": "person_reinhard_mixl",
       "label": "Reinhard Mixl",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8075",
+      "dip_url": "https://dip.bundestag.de/person/8075"
     },
     {
       "id": "person_martin_rabanus",
       "label": "Martin Rabanus",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1580",
+      "dip_url": "https://dip.bundestag.de/person/1580"
     },
     {
       "id": "person_leif_erik_bodin",
       "label": "Leif Erik Bodin",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7968",
+      "dip_url": "https://dip.bundestag.de/person/7968"
     },
     {
       "id": "person_ren_bochmann",
       "label": "René Bochmann",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7245",
+      "dip_url": "https://dip.bundestag.de/person/7245"
     },
     {
       "id": "person_anja_troff_schaffarzyk",
       "label": "Anja Troff-Schaffarzyk",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7437",
+      "dip_url": "https://dip.bundestag.de/person/7437"
     },
     {
       "id": "person_matthias_gastel",
       "label": "Matthias Gastel",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1558",
+      "dip_url": "https://dip.bundestag.de/person/1558"
     },
     {
       "id": "person_lorenz_g_sta_beutin",
       "label": "Lorenz Gösta Beutin",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2069",
+      "dip_url": "https://dip.bundestag.de/person/2069"
     },
     {
       "id": "person_regina_kraushaar",
       "label": "Regina Kraushaar",
       "type": "Person",
       "subtype": "Staatsministerin (Sachsen)",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8206",
+      "dip_url": "https://dip.bundestag.de/person/8206"
     },
     {
       "id": "person_alexis_l_giersch",
       "label": "Alexis L. Giersch",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8110",
+      "dip_url": "https://dip.bundestag.de/person/8110"
     },
     {
       "id": "person_truels_reichardt",
       "label": "Truels Reichardt",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8085",
+      "dip_url": "https://dip.bundestag.de/person/8085"
     },
     {
       "id": "person_stefan_seidler",
       "label": "Stefan Seidler",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7415",
+      "dip_url": "https://dip.bundestag.de/person/7415"
     },
     {
       "id": "person_dr_rainer_kraft",
       "label": "Dr. Rainer Kraft",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2260",
+      "dip_url": "https://dip.bundestag.de/person/2260"
     },
     {
       "id": "person_sandra_stein",
       "label": "Sandra Stein",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7933",
+      "dip_url": "https://dip.bundestag.de/person/7933"
     },
     {
       "id": "person_gitta_connemann",
       "label": "Gitta Connemann",
       "type": "Person",
       "subtype": "Parl. Staatssekretärin bei der Bundesministerin für Wirtschaft und Energie",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8145",
+      "dip_url": "https://dip.bundestag.de/person/8145"
     },
     {
       "id": "person_manfred_schiller",
       "label": "Manfred Schiller",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7780",
+      "dip_url": "https://dip.bundestag.de/person/7780"
     },
     {
       "id": "person_daniel_bettermann",
       "label": "Daniel Bettermann",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7959",
+      "dip_url": "https://dip.bundestag.de/person/7959"
     },
     {
       "id": "person_agnes_conrad",
       "label": "Agnes Conrad",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8001",
+      "dip_url": "https://dip.bundestag.de/person/8001"
     },
     {
       "id": "person_adam_balten",
       "label": "Adam Balten",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7944",
+      "dip_url": "https://dip.bundestag.de/person/7944"
     },
     {
       "id": "person_vanessa_zobel",
       "label": "Vanessa Zobel",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8035",
+      "dip_url": "https://dip.bundestag.de/person/8035"
     },
     {
       "id": "person_ingo_vogel",
       "label": "Ingo Vogel",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "8015",
+      "dip_url": "https://dip.bundestag.de/person/8015"
     },
     {
       "id": "person_hauke_finger",
       "label": "Hauke Finger",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7896",
+      "dip_url": "https://dip.bundestag.de/person/7896"
     },
     {
       "id": "person_bj_rn_simon",
       "label": "Björn Simon",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "2135",
+      "dip_url": "https://dip.bundestag.de/person/2135"
     },
     {
       "id": "person_sascha_m_ller",
       "label": "Sascha Müller",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7387",
+      "dip_url": "https://dip.bundestag.de/person/7387"
     },
     {
       "id": "person_doris_achelwilm",
       "label": "Doris Achelwilm",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1969",
+      "dip_url": "https://dip.bundestag.de/person/1969"
     },
     {
       "id": "person_mechthilde_wittmann",
       "label": "Mechthilde Wittmann",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7463",
+      "dip_url": "https://dip.bundestag.de/person/7463"
     },
     {
       "id": "person_otto_strau",
       "label": "Otto Strauß",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7964",
+      "dip_url": "https://dip.bundestag.de/person/7964"
     },
     {
       "id": "person_andreas_paul",
       "label": "Andreas Paul",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7990",
+      "dip_url": "https://dip.bundestag.de/person/7990"
     },
     {
       "id": "person_ralph_edelh_u_er",
       "label": "Ralph Edelhäußer",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7268",
+      "dip_url": "https://dip.bundestag.de/person/7268"
     },
     {
       "id": "person_ulrich_thoden",
       "label": "Ulrich Thoden",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7982",
+      "dip_url": "https://dip.bundestag.de/person/7982"
     },
     {
       "id": "person_vivian_tauschwitz",
       "label": "Vivian Tauschwitz",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7971",
+      "dip_url": "https://dip.bundestag.de/person/7971"
     },
     {
       "id": "person_sabine_dittmar",
       "label": "Sabine Dittmar",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "1541",
+      "dip_url": "https://dip.bundestag.de/person/1541"
     },
     {
       "id": "person_niklas_wagener",
       "label": "Niklas Wagener",
       "type": "Person",
       "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
+      "schicht": "fallbezug",
+      "dip_id": "7442",
+      "dip_url": "https://dip.bundestag.de/person/7442"
     }
   ],
   "relationships": [

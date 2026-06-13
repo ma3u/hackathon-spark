@@ -204,6 +204,10 @@
             html += `<div class="prop"><a class="cite" href="${v}" target="_blank" rel="noopener">▶ Rede im Video (Mediathek)</a></div>`;
             continue;
           }
+          if (k === "dip_url" && /^https?:/.test(v)) {  // Person: amtliches DIP-Profil
+            html += `<div class="prop"><a class="cite" href="${v}" target="_blank" rel="noopener">🏛 DIP-Profil (Bundestag)</a></div>`;
+            continue;
+          }
           html += `<div class="prop"><b>${k}:</b> ${v}</div>`;
         }
         const src = srcInfo(curData);
