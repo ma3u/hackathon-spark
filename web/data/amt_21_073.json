@@ -40,38 +40,10 @@
       "schicht": "zeitlich"
     },
     {
-      "id": "person_dorothee_b_r",
-      "label": "Dorothee Bär",
-      "type": "Person",
-      "subtype": "Bundesministerin für Forschung, Technologie und Raumfahrt",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_thorsten_frei",
-      "label": "Thorsten Frei",
-      "type": "Person",
-      "subtype": "Bundesminister für besondere Aufgaben",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_christoph_birghan",
-      "label": "Dr. Christoph Birghan",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
       "id": "fraktion_afd",
       "label": "AfD",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_carolin_wagner",
-      "label": "Dr. Carolin Wagner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -82,24 +54,10 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "person_ayse_asar",
-      "label": "Ayse Asar",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
       "id": "fraktion_b_ndnis_90_die_gr_nen",
       "label": "BÜNDNIS 90/DIE GRÜNEN",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_florian_oest",
-      "label": "Florian Oest",
-      "type": "Person",
-      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -110,395 +68,10 @@
       "schicht": "fallbezug"
     },
     {
-      "id": "person_heidi_reichinnek",
-      "label": "Heidi Reichinnek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
       "id": "fraktion_die_linke",
       "label": "Die Linke",
       "type": "Fraktion",
       "subtype": "Ratsfraktion",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_ronald_gl_ser",
-      "label": "Ronald Gläser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_daniel_baldy",
-      "label": "Daniel Baldy",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_martin_reichardt",
-      "label": "Martin Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_konstantin_von_notz",
-      "label": "Dr. Konstantin von Notz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_rainer_kraft",
-      "label": "Dr. Rainer Kraft",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_katja_strauss_k_ster",
-      "label": "Dr. Katja Strauss-Köster",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_tijen_atao_lu",
-      "label": "Tijen Ataoğlu",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicole_gohlke",
-      "label": "Nicole Gohlke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_j_rgen_go_ner",
-      "label": "Hans-Jürgen Goßner",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_hans_theiss",
-      "label": "Dr. Hans Theiss",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_truels_reichardt",
-      "label": "Truels Reichardt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_anja_reinalter",
-      "label": "Dr. Anja Reinalter",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_corinna_r_ffer",
-      "label": "Corinna Rüffer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_florian_m_ller",
-      "label": "Florian Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_mayra_vriesema",
-      "label": "Mayra Vriesema",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_fabian_gramling",
-      "label": "Fabian Gramling",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_andrea_l_bcke",
-      "label": "Dr. Andrea Lübcke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_pascal_meiser",
-      "label": "Pascal Meiser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_marcel_emmerich",
-      "label": "Marcel Emmerich",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_helge_limburg",
-      "label": "Helge Limburg",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rainer_gro",
-      "label": "Rainer Groß",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_lina_seitzl",
-      "label": "Dr. Lina Seitzl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_kerstin_vieregge",
-      "label": "Kerstin Vieregge",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_thomas_erndl",
-      "label": "Thomas Erndl",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stefan_schr_der",
-      "label": "Stefan Schröder",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_vizepr_sidentin_josephine_ortleb",
-      "label": "Vizepräsidentin Josephine Ortleb",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andreas_mayer",
-      "label": "Andreas Mayer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_claudia_m_ller",
-      "label": "Claudia Müller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sonja_lemke",
-      "label": "Sonja Lemke",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_oliver_kaczmarek",
-      "label": "Oliver Kaczmarek",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_vizepr_sident_bodo_ramelow",
-      "label": "Vizepräsident Bodo Ramelow",
-      "type": "Person",
-      "subtype": "Sitzungsleitung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_nicole_h_chst",
-      "label": "Nicole Höchst",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_joachim_ebmeyer",
-      "label": "Joachim Ebmeyer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_stephan_albani",
-      "label": "Stephan Albani",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_saskia_ludwig",
-      "label": "Dr. Saskia Ludwig",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_uwe_schulz",
-      "label": "Uwe Schulz",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_jens_peick",
-      "label": "Jens Peick",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_sandra_stein",
-      "label": "Sandra Stein",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_j_rg_cezanne",
-      "label": "Jörg Cezanne",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_klaus_wiener",
-      "label": "Dr. Klaus Wiener",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_andreas_bleck",
-      "label": "Andreas Bleck",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lars_rohwer",
-      "label": "Lars Rohwer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_alaa_alhamwi",
-      "label": "Dr. Alaa Alhamwi",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_nina_scheer",
-      "label": "Dr. Nina Scheer",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_lorenz_g_sta_beutin",
-      "label": "Lorenz Gösta Beutin",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_hans_koller",
-      "label": "Hans Koller",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_paul_schmidt",
-      "label": "Dr. Paul Schmidt",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_charlotte_antonia_neuh_user",
-      "label": "Charlotte Antonia Neuhäuser",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_dr_inge_gr_le",
-      "label": "Dr. Inge Gräßle",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_rocco_kever",
-      "label": "Rocco Kever",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_johann_saathoff",
-      "label": "Johann Saathoff",
-      "type": "Person",
-      "subtype": "Parl. Staatssekretär bei der Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_schahina_gambir",
-      "label": "Schahina Gambir",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_carl_philipp_sassenrath",
-      "label": "Carl-Philipp Sassenrath",
-      "type": "Person",
-      "subtype": "Abgeordneter",
-      "schicht": "fallbezug"
-    },
-    {
-      "id": "person_matthias_rentzsch",
-      "label": "Matthias Rentzsch",
-      "type": "Person",
-      "subtype": "Abgeordneter",
       "schicht": "fallbezug"
     },
     {
@@ -9722,6 +9295,433 @@
       "start_sec": "",
       "herkunft": "protokoll",
       "schicht": "reaktion"
+    },
+    {
+      "id": "person_dorothee_b_r",
+      "label": "Dorothee Bär",
+      "type": "Person",
+      "subtype": "Bundesministerin für Forschung, Technologie und Raumfahrt",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_thorsten_frei",
+      "label": "Thorsten Frei",
+      "type": "Person",
+      "subtype": "Bundesminister für besondere Aufgaben",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_christoph_birghan",
+      "label": "Dr. Christoph Birghan",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_carolin_wagner",
+      "label": "Dr. Carolin Wagner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ayse_asar",
+      "label": "Ayse Asar",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_florian_oest",
+      "label": "Florian Oest",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_heidi_reichinnek",
+      "label": "Heidi Reichinnek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_ronald_gl_ser",
+      "label": "Ronald Gläser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_daniel_baldy",
+      "label": "Daniel Baldy",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_martin_reichardt",
+      "label": "Martin Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_konstantin_von_notz",
+      "label": "Dr. Konstantin von Notz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_rainer_kraft",
+      "label": "Dr. Rainer Kraft",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_katja_strauss_k_ster",
+      "label": "Dr. Katja Strauss-Köster",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_tijen_atao_lu",
+      "label": "Tijen Ataoğlu",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicole_gohlke",
+      "label": "Nicole Gohlke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_j_rgen_go_ner",
+      "label": "Hans-Jürgen Goßner",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_hans_theiss",
+      "label": "Dr. Hans Theiss",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_truels_reichardt",
+      "label": "Truels Reichardt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_anja_reinalter",
+      "label": "Dr. Anja Reinalter",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_corinna_r_ffer",
+      "label": "Corinna Rüffer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_florian_m_ller",
+      "label": "Florian Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_mayra_vriesema",
+      "label": "Mayra Vriesema",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_fabian_gramling",
+      "label": "Fabian Gramling",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_andrea_l_bcke",
+      "label": "Dr. Andrea Lübcke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_pascal_meiser",
+      "label": "Pascal Meiser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_marcel_emmerich",
+      "label": "Marcel Emmerich",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_helge_limburg",
+      "label": "Helge Limburg",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rainer_gro",
+      "label": "Rainer Groß",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_lina_seitzl",
+      "label": "Dr. Lina Seitzl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_kerstin_vieregge",
+      "label": "Kerstin Vieregge",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_thomas_erndl",
+      "label": "Thomas Erndl",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stefan_schr_der",
+      "label": "Stefan Schröder",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_josephine_ortleb",
+      "label": "Josephine Ortleb",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andreas_mayer",
+      "label": "Andreas Mayer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_claudia_m_ller",
+      "label": "Claudia Müller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sonja_lemke",
+      "label": "Sonja Lemke",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_oliver_kaczmarek",
+      "label": "Oliver Kaczmarek",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_bodo_ramelow",
+      "label": "Bodo Ramelow",
+      "type": "Person",
+      "subtype": "Sitzungsleitung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_nicole_h_chst",
+      "label": "Nicole Höchst",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_joachim_ebmeyer",
+      "label": "Joachim Ebmeyer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_stephan_albani",
+      "label": "Stephan Albani",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_saskia_ludwig",
+      "label": "Dr. Saskia Ludwig",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_uwe_schulz",
+      "label": "Uwe Schulz",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_jens_peick",
+      "label": "Jens Peick",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_sandra_stein",
+      "label": "Sandra Stein",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_j_rg_cezanne",
+      "label": "Jörg Cezanne",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_klaus_wiener",
+      "label": "Dr. Klaus Wiener",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_andreas_bleck",
+      "label": "Andreas Bleck",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lars_rohwer",
+      "label": "Lars Rohwer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_alaa_alhamwi",
+      "label": "Dr. Alaa Alhamwi",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_nina_scheer",
+      "label": "Dr. Nina Scheer",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_lorenz_g_sta_beutin",
+      "label": "Lorenz Gösta Beutin",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_hans_koller",
+      "label": "Hans Koller",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_paul_schmidt",
+      "label": "Dr. Paul Schmidt",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_charlotte_antonia_neuh_user",
+      "label": "Charlotte Antonia Neuhäuser",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_dr_inge_gr_le",
+      "label": "Dr. Inge Gräßle",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_rocco_kever",
+      "label": "Rocco Kever",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_johann_saathoff",
+      "label": "Johann Saathoff",
+      "type": "Person",
+      "subtype": "Parl. Staatssekretär bei der Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_schahina_gambir",
+      "label": "Schahina Gambir",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_carl_philipp_sassenrath",
+      "label": "Carl-Philipp Sassenrath",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "person_matthias_rentzsch",
+      "label": "Matthias Rentzsch",
+      "type": "Person",
+      "subtype": "Abgeordneter",
+      "schicht": "fallbezug"
     }
   ],
   "relationships": [
@@ -12169,7 +12169,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_23",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12190,7 +12190,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_24",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12211,7 +12211,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_25",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12232,7 +12232,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_26",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12253,7 +12253,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_27",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12274,7 +12274,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_28",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12295,7 +12295,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_29",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12316,7 +12316,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_30",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12337,7 +12337,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_31",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12358,7 +12358,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_32",
       "relationship_type": "TAETIGT_AUSSAGE"
     },
@@ -12379,7 +12379,7 @@
       "relationship_type": "BELEGT_MIT"
     },
     {
-      "source_id": "person_vizepr_sidentin_josephine_ortleb",
+      "source_id": "person_josephine_ortleb",
       "target_id": "aussage_33",
       "relationship_type": "TAETIGT_AUSSAGE"
     },

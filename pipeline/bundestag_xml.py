@@ -44,6 +44,24 @@ def _text(el: ET.Element | None) -> str:
     return "".join(el.itertext()).strip() if el is not None else ""
 
 
+# Amts-/Sitzungsleitungs-Anreden, die im <name>-Feld der Sitzungsleitung dem Namen
+# vorangestellt werden ("Präsidentin Julia Klöckner") — gehören NICHT zum Namen und
+# erzeugen sonst Personen-Dubletten ggü. dem Redner-Pfad ("Julia Klöckner"). Entity-
+# Resolution beginnt an der Quelle: Anrede strippen + NBSP/Unicode normalisieren (der
+# akademische Titel Dr./Prof. bleibt Teil des Anzeigenamens). Siehe scripts/entity_resolution.py.
+_ANREDE = re.compile(
+    r"^\s*(alters|vize)?präsident(in)?\b|^\s*schriftführer(in)?\b", re.IGNORECASE)
+
+
+def _canon_person_name(name: str) -> str:
+    name = unicodedata.normalize("NFC", (name or "").replace(" ", " "))
+    prev = None
+    while prev != name:  # mehrfach: "Vizepräsidentin Dr. …" → Titel bleibt, Anrede weg
+        prev = name
+        name = _ANREDE.sub("", name).strip()
+    return " ".join(name.split())
+
+
 def _speaker_from_redner(redner: ET.Element) -> dict:
     name = redner.find("name")
     if name is None:
@@ -55,7 +73,7 @@ def _speaker_from_redner(redner: ET.Element) -> dict:
     fraktion = _canon_fraktion(t("fraktion"))
     rolle_el = name.find("rolle")
     rolle = _text(rolle_el.find("rolle_lang")) if rolle_el is not None else ""
-    voll = " ".join(p for p in [titel, vorname, nachname] if p).strip() or "Unbekannt"
+    voll = _canon_person_name(" ".join(p for p in [titel, vorname, nachname] if p)) or "Unbekannt"
     return {"name": voll, "rolle": rolle or "Abgeordneter", "fraktion": fraktion}
 
 
@@ -205,7 +223,7 @@ def parse_plenarprotokoll(xml_path: str | Path) -> Protocol:
             elif child.tag == "kommentar":
                 _add_kommentar(p, _text(child), cur, rede_index)
             elif child.tag == "name":  # Sitzungsleitung (Präsident:in)
-                txt = _text(child).rstrip(":")
+                txt = _canon_person_name(_text(child).rstrip(":"))  # Anrede weg → keine Dublette
                 if txt:
                     add_utterance({"name": txt, "rolle": "Sitzungsleitung", "fraktion": None}, "")
 
