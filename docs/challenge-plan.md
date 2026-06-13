@@ -87,7 +87,8 @@ Aus echten öffentlichen Bundestagssitzungen entsteht **automatisch**:
    die 42 YouTube-bestätigten Sitzungen als 🎬-Quelle ingestieren.
 4. ✅ ~~Mediathek-Video-Deeplinks auf alle 81~~ — **erledigt** (`scripts/mediathek_links.py`):
    81/81 Sitzungen mit 📺 Mediathek-Deeplink, 7388 Reden sprecher-genau verlinkt (Neo4j + Pages).
-5. ⬜ Mensch-im-Loop-Korrektur-/Freigabeprozess (M4), Barrierefreiheit-Audit.
+5. 🔜 Mensch-im-Loop-Korrektur-/Freigabeprozess (M4). ✅ Barrierefreiheit-Audit (axe-core 0 Verstöße,
+   `<main>`/aria/Dialog-Fokus/Esc/focus-visible).
 6. ✅ ~~WER-Benchmark gegen mehr Sitzungen~~ — **erledigt** (`scripts/wer_benchmark.py`):
    10 Sitzungen Korrektur-Gap (Mediathek ↔ amtlich) Ø 1,8 % + 2 ASR-Gaps (YouTube); UI
    unterscheidet ASR-Gap/Korrektur-Gap. **Gap-Diff-Ansicht** als Overlay (Wort-Diff
