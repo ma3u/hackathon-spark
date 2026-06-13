@@ -42,6 +42,16 @@
       .fc.bestätigt { border-color: #3fb950; } .fc.falsch { border-color: #f85149; }
       .fc.irreführend { border-color: #d29922; } .fc.unbelegt { border-color: #8b949e; }
       .fc .verdikt { font-weight: 600; } .fc .src { color: var(--muted); font-size: 11px; }
+      /* Mensch-im-Loop: Review-Steuerung am Faktencheck */
+      .review { margin-top: 6px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+      .review button { background: var(--bg); color: var(--text); border: 1px solid var(--border);
+        border-radius: 6px; padding: 2px 8px; font-size: 11px; cursor: pointer; }
+      .review button:hover { border-color: var(--accent); }
+      .review .rbadge { font-size: 11px; font-weight: 600; }
+      .rbadge.ok { color: #3fb950; } .rbadge.rej { color: #f85149; } .rbadge.cor { color: #d29922; }
+      .rev-hint { color: var(--muted); font-size: 11px; margin: 2px 0 8px; }
+      .rev-export { background: var(--bg); color: var(--accent); border: 1px solid var(--border);
+        border-radius: 6px; padding: 3px 9px; font-size: 11.5px; cursor: pointer; margin-left: 8px; }
       .cite { color: var(--accent); font-size: 11.5px; cursor: pointer; }
       audio { width: 100%; margin-top: 8px; }
       a { color: var(--accent); }
@@ -327,8 +337,12 @@
         };
         const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
         const src = srcInfo(data), disc = data.metadata && data.metadata.factcheck_disclaimer;
-        box.innerHTML = "<h2>🔎 Faktencheck der Reden</h2>"
+        const rev = loadReview(current);
+        const nrev = Object.keys(rev).length;
+        box.innerHTML = `<h2>🔎 Faktencheck der Reden`
+          + `<button class="rev-export" id="revExport" title="Menschliche Korrekturen als JSON herunterladen">⬇ Korrekturen (${nrev})</button></h2>`
           + (disc ? `<div class="empty">⚠️ ${disc}</div>` : "")
+          + `<div class="rev-hint">Mensch-im-Loop: KI-Vorschläge freigeben ✓, ablehnen ✗ oder korrigieren ✎ — wird lokal gespeichert &amp; exportierbar.</div>`
           + checks.map((fc) => {
             const c = claimOf(fc.id), s = srcOf(fc.id), seg = segOf(c);
             let deep = "";
@@ -339,11 +353,29 @@
               const rb = redeOf(c);
               if (rb && rb.video_url) deep = ` · <a class="cite" href="${rb.video_url}" target="_blank" rel="noopener">▶ Rede im Video</a>`;
             }
-            return `<div class="fc ${fc.verdikt}">
+            return `<div class="fc ${fc.verdikt}" data-fcid="${fc.id}" data-person="${esc(c ? c.person : "")}" data-aussage="${esc(c ? c.text : "")}" data-verdikt="${fc.verdikt}">
             <span class="verdikt">${fc.verdikt.toUpperCase()}</span> — ${c ? c.person : ""}<br/>
             „${c ? c.text : ""}"<br/>
-            <span class="src">${fc.begruendung || ""}${s ? ` · Quelle: ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.label}</a>` : s.label}${s.stand ? ` (Stand ${s.stand})` : ""}` : ""}${deep}</span></div>`;
+            <span class="src">${fc.begruendung || ""}${s ? ` · Quelle: ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.label}</a>` : s.label}${s.stand ? ` (Stand ${s.stand})` : ""}` : ""}${deep}</span>
+            <div class="review">
+              <button data-rev="ok" title="Verdikt freigeben">✓ Freigeben</button>
+              <button data-rev="rej" title="Verdikt ablehnen">✗ Ablehnen</button>
+              <button data-rev="cor" title="Verdikt korrigieren">✎ Korrigieren</button>
+              <span class="rbadge">${reviewBadge(rev[fc.id])}</span>
+            </div></div>`;
           }).join("");
+      }
+
+      // ── Mensch-im-Loop: Review-Zustand (localStorage je Sitzung) + Export ──────────
+      const VERDIKTE = ["bestätigt", "teilweise", "irreführend", "falsch", "unbelegt"];
+      const loadReview = (sit) => { try { return JSON.parse(localStorage.getItem("korr:" + sit) || "{}"); } catch { return {}; } };
+      const saveReview = (sit, r) => localStorage.setItem("korr:" + sit, JSON.stringify(r));
+      function reviewBadge(e) {
+        if (!e) return "";
+        if (e.status === "bestätigt") return `<span class="ok">✅ freigegeben</span>`;
+        if (e.status === "abgelehnt") return `<span class="rej">✗ abgelehnt</span>`;
+        if (e.status === "korrigiert") return `<span class="cor">✎ korrigiert → ${esc(e.verdikt_neu || "")}</span>`;
+        return "";
       }
 
       async function load(scenario) {
@@ -488,10 +520,43 @@
         const cb = m.querySelector(".close");
         if (cb) cb.focus();  // Tastatur-Fokus in den Dialog setzen
       }
+      function exportReview() {
+        const rev = loadReview(current);
+        const korrekturen = Object.entries(rev).map(([id, e]) => ({
+          faktencheck_id: id, person: e.person, aussage: e.aussage, verdikt_alt: e.verdikt_alt,
+          status: e.status, verdikt_neu: e.verdikt_neu || null, notiz: e.notiz || "", stand: e.ts,
+        }));
+        const out = { sitzung: current, geprueft_von: "Reviewer (Pages-Prototyp)",
+                      stand: new Date().toISOString(), anzahl: korrekturen.length, korrekturen };
+        const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = `korrekturen_${current}.json`;
+        a.click();
+        URL.revokeObjectURL(a.href);
+      }
+      function applyReview(fcEl, kind) {
+        const id = fcEl.dataset.fcid, rev = loadReview(current);
+        const base = { person: fcEl.dataset.person, aussage: fcEl.dataset.aussage,
+                       verdikt_alt: fcEl.dataset.verdikt, ts: new Date().toISOString() };
+        if (kind === "ok") rev[id] = { ...base, status: "bestätigt" };
+        else if (kind === "rej") rev[id] = { ...base, status: "abgelehnt" };
+        else if (kind === "cor") {
+          const v = (prompt("Korrigiertes Verdikt (" + VERDIKTE.join(" / ") + "):", fcEl.dataset.verdikt) || "").trim().toLowerCase();
+          if (!VERDIKTE.includes(v)) { if (v) alert("Unbekanntes Verdikt: " + v); return; }
+          const n = prompt("Begründung der Korrektur (optional):", "") || "";
+          rev[id] = { ...base, status: "korrigiert", verdikt_neu: v, notiz: n };
+        }
+        saveReview(current, rev);
+        if (curData) renderFactcheck(curData);  // Badge + Zähler aktualisieren
+      }
       document.addEventListener("click", (ev) => {
         const gl = ev.target.closest(".gaplink");
         if (gl) { ev.preventDefault(); openGap(gl.dataset.file); return; }
-        if (ev.target.closest(".close") || ev.target.id === "gapOverlay") closeGap();
+        if (ev.target.closest(".close") || ev.target.id === "gapOverlay") { closeGap(); return; }
+        if (ev.target.id === "revExport") { exportReview(); return; }
+        const rb = ev.target.closest(".review button[data-rev]");
+        if (rb) { applyReview(rb.closest(".fc"), rb.dataset.rev); }
       });
       document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") closeGap(); });
 
