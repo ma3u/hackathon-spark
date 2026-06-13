@@ -69,6 +69,160 @@
       "top": 3
     }
   ],
+  "diffs": [
+    {
+      "sprecher": "Ina Latendorf",
+      "top": 3,
+      "rede_wer": 0.064,
+      "ref_woerter": 393,
+      "segmente": [
+        [
+          "=",
+          "… diesen Anträgen rundum geschieht."
+        ],
+        [
+          "p",
+          "Gerade im Internationalen Jahr der Frauen in der Landwirtschaft möchte ich"
+        ],
+        [
+          "=",
+          "an dieser Stelle"
+        ],
+        [
+          "g",
+          "möchte ich"
+        ],
+        [
+          "=",
+          "ausdrücklich"
+        ],
+        [
+          "g",
+          "noch einmal die"
+        ],
+        [
+          "=",
+          "die Frauen in der … Folgen für ihre Altersvorsorge,"
+        ],
+        [
+          "g",
+          "gerade im Internationalen Jahr der Frauen in der Landwirtschaft."
+        ],
+        [
+          "=",
+          "Meine Damen und Herren, …"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Tobias Winkler",
+      "top": 5,
+      "rede_wer": 0.055,
+      "ref_woerter": 417,
+      "segmente": [
+        [
+          "g",
+          "Abgeordnete Tobias Winkler das Wort."
+        ],
+        [
+          "=",
+          "Sehr geehrte Frau Präsidentin! … aufs Trockendock. Herzlichen Dank."
+        ],
+        [
+          "g",
+          "Damit sind wir am Ende der Aussprache. Interfraktionell wird die Überweisung der Vorlage auf Drucksache 21/5330 an"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Artur Auernhammer",
+      "top": 3,
+      "rede_wer": 0.048,
+      "ref_woerter": 125,
+      "segmente": [
+        [
+          "=",
+          "… Zukunft führen? Vielen Dank."
+        ],
+        [
+          "g",
+          "Vielen herzlichen Dank für Ihre Frage."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Hans Theiss",
+      "top": 4,
+      "rede_wer": 0.036,
+      "ref_woerter": 335,
+      "segmente": [
+        [
+          "p",
+          "Sehr geehrte Frau Präsidentin!"
+        ],
+        [
+          "=",
+          "Sehr geehrte Frau Ministerin! … in der Medizin! Danke."
+        ],
+        [
+          "g",
+          "Ich schließe die Aussprache. Interfraktionell wird Überweisung der"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Bernd Schuhmann",
+      "top": 3,
+      "rede_wer": 0.025,
+      "ref_woerter": 243,
+      "segmente": [
+        [
+          "p",
+          "Vielen herzlichen Dank für Ihre Frage."
+        ],
+        [
+          "=",
+          "Ich kann sie ganz …"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Anton Hofreiter",
+      "top": 5,
+      "rede_wer": 0.025,
+      "ref_woerter": 366,
+      "segmente": [
+        [
+          "g",
+          "Abgeordnete Dr. Anton Hofreiter."
+        ],
+        [
+          "=",
+          "Sehr geehrte Frau Präsidentin! … Ende. Ihr letzter Satz!"
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "hat sozusagen den ersten … Ihnen das Mikrofon ab."
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "hat Ihr Verbündeter Trump … in dieser Debatte der"
+        ],
+        [
+          "p",
+          "Abgeordnete Tobias Winkler das Wort."
+        ]
+      ]
+    }
+  ],
   "bewertung": [
     "Korrektur-Gap (WER) 0.5% — Abweichung Protokoll ↔ gesprochenes Wort gering",
     "61/63 Reden ausgerichtet verglichen.",

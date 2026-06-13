@@ -69,6 +69,148 @@
       "top": 3
     }
   ],
+  "diffs": [
+    {
+      "sprecher": "Dr. Hendrik Streeck",
+      "top": 3,
+      "rede_wer": 0.429,
+      "ref_woerter": 219,
+      "segmente": [
+        [
+          "g",
+          "einer sogenannten Kurzintervention hat jeder zwei Minuten Zeit – noch mal zur Erläuterung –, und es muss nicht unbedingt nur eine Frage sein; es darf auch noch eingekleidet sein in ein paar Worte. Ich will es einfach an der Stelle noch mal sagen. Das ist der Unterschied zwischen Kurzintervention und Zwischenfrage. – So, Herr Kollege Streeck."
+        ],
+        [
+          "=",
+          "Vielen Dank. Ich halte … dieser Debatte: für die"
+        ],
+        [
+          "p",
+          "Fraktion Die Linke Stella Merendino. – Ich würde jetzt vorschlagen, dass wir die Fraktionszwischengespräche einstellen und der Rednerin zuhören. Sie haben alle im Gesundheitsausschuss und in den nachfolgenden parlamentarischen Beratungen noch Zeit genug, Argumente miteinander auszutauschen. Jetzt hören wir der Rednerin zu."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Carolin Wagner",
+      "top": 12,
+      "rede_wer": 0.238,
+      "ref_woerter": 63,
+      "segmente": [
+        [
+          "p",
+          "Ja. Vielen Dank, Herr Präsident. –"
+        ],
+        [
+          "=",
+          "Der wissenschaftliche Konsens in … Diskussion nichts. Vielen Dank."
+        ],
+        [
+          "p",
+          "– Das ist einfach Schwachsinn. Sie nehmen die Zahlen nicht wahr."
+        ],
+        [
+          "=",
+          "Vielen Dank. – Wir …"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Janosch Dahmen",
+      "top": 3,
+      "rede_wer": 0.144,
+      "ref_woerter": 409,
+      "segmente": [
+        [
+          "g",
+          "von Herrn Dr. Dahmen. Bitte schön."
+        ],
+        [
+          "=",
+          "Sehr geehrte Frau Präsidentin! … – Herr Kollege Dahmen."
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "indem wir Über- und … müssten zum Ende kommen."
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "die Sie hier wirklichkeitswidrig … zu antworten. – Bei"
+        ],
+        [
+          "p",
+          "einer sogenannten Kurzintervention hat jeder zwei Minuten Zeit – noch mal zur Erläuterung –, und es muss nicht unbedingt nur eine Frage sein; es darf auch noch eingekleidet sein in ein paar Worte. Ich will es einfach an der Stelle noch mal sagen. Das ist der Unterschied zwischen Kurzintervention und Zwischenfrage. – So, Herr Kollege Streeck."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Misbah Khan",
+      "top": 3,
+      "rede_wer": 0.138,
+      "ref_woerter": 181,
+      "segmente": [
+        [
+          "g",
+          "Wir kehren zur üblichen Regel zurück. Jetzt darf die Befragte antworten."
+        ],
+        [
+          "=",
+          "Wir kennen doch die … er sich gerade macht."
+        ],
+        [
+          "g",
+          "Wir fahren fort in der Debatte, und für die CDU/CSU-Fraktion hat Herr"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Misbah Khan",
+      "top": 3,
+      "rede_wer": 0.134,
+      "ref_woerter": 119,
+      "segmente": [
+        [
+          "p",
+          "Herr Kollege, ich glaube, Sie haben weder verstanden, was die Kommission"
+        ],
+        [
+          "=",
+          "gesagt hat, noch verstanden, … die Fraktion Die Linke."
+        ],
+        [
+          "p",
+          "Herr Abgeordneter Ates Gürpinar, bitte."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Martin Reichardt",
+      "top": 5,
+      "rede_wer": 0.133,
+      "ref_woerter": 218,
+      "segmente": [
+        [
+          "g",
+          "In diesem Fall ist es Herr Reichardt. – Ich würde alle anderen bitten, sich zurückzuhalten, damit wir vielleicht die Chance haben, die Kurzintervention zu hören."
+        ],
+        [
+          "=",
+          "Die Geburtenzahlen in Deutschland … die Chance, zu antworten."
+        ],
+        [
+          "g",
+          "Natürlich antworte ich gerne. – Das"
+        ]
+      ]
+    }
+  ],
   "bewertung": [
     "Korrektur-Gap (WER) 1.2% — Abweichung Protokoll ↔ gesprochenes Wort gering",
     "170/170 Reden ausgerichtet verglichen.",

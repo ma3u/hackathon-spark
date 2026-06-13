@@ -69,6 +69,112 @@
       "top": 8
     }
   ],
+  "diffs": [
+    {
+      "sprecher": "Christian Moser",
+      "top": 8,
+      "rede_wer": 0.636,
+      "ref_woerter": 44,
+      "segmente": [
+        [
+          "p",
+          "Sehr geehrter Herr Krauthausen, der Flugverkehr ist nicht betroffen von"
+        ],
+        [
+          "=",
+          "der Treibhausgasminderungsquote. Werte Kolleginnen … hören wir von der"
+        ],
+        [
+          "p",
+          "AfD-Fraktion Thomas Korell. – Es wäre freundlich, wenn die AfD ihren Redner auch reden lassen würde. Vielen Dank."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Martin Sichert",
+      "top": 9,
+      "rede_wer": 0.591,
+      "ref_woerter": 66,
+      "segmente": [
+        [
+          "p",
+          "Vielen Dank, Herr Präsident. – Frau Machalet, Sie haben ja gerade gesagt, Sie wollen eine gleichmäßige Verteilung der Lasten. Wie kann es dann sein, dass Sie die Familienversicherung"
+        ],
+        [
+          "=",
+          "abschaffen wollen? Das bedeutet … kommen Sie dann dazu?"
+        ],
+        [
+          "g",
+          "Kollege Sichert, wenn Sie mir eben zugehört hätten, dann hätten Sie auch"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Tanja Machalet",
+      "top": 9,
+      "rede_wer": 0.25,
+      "ref_woerter": 48,
+      "segmente": [
+        [
+          "p",
+          "Kollege Sichert, wenn Sie mir eben zugehört hätten, dann hätten Sie auch"
+        ],
+        [
+          "=",
+          "genau gehört, was ich …"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Maik Brückner",
+      "top": 5,
+      "rede_wer": 0.134,
+      "ref_woerter": 716,
+      "segmente": [
+        [
+          "=",
+          "… ziehen“ und: „Sie haben"
+        ],
+        [
+          "p",
+          "nichts auf der Pfanne.“ Ich sage es an der Stelle einmal so: Wir befinden uns im Parlament; das ist der Deutsche Bundestag. Der Deutsche Bundestag ist nicht irgendein Parlament in Deutschland. Wir haben zahlreiche Zuschauerinnen und Zuschauer, insbesondere auch jüngere Menschen, unter uns. Jetzt mag sich jeder Gedanken machen, ob er in seiner Rede und in seinen Zwischenrufen eine gewisse Vorbildfunktion erkennen kann oder nicht. Ich appelliere einfach noch einmal daran, auf die Art und Weise, wie wir hier inhaltlich miteinander debattieren, zu achten. Der nächste Redner in dieser Debatte ist für die Unionsfraktion Oliver Pöpsel."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Linda Heitmann",
+      "top": 9,
+      "rede_wer": 0.126,
+      "ref_woerter": 601,
+      "segmente": [
+        [
+          "=",
+          "… die Sitzungsleitung übergebe, möchte"
+        ],
+        [
+          "p",
+          "ich darauf hinweisen, dass ich mir einiges aus dieser Aussprache noch im Protokoll anschauen werde. Ich gestatte mir eine weitere Bemerkung, da ich selbst mit einer Frau aus einem anderen Land verheiratet bin: Wir laden öfters Gäste ein, aber wir lassen nie Gäste bei uns zu Hause arbeiten. Man sollte manchmal auch über so etwas nachdenken. Ich darf für die CDU/CSU-Fraktion Dr. Thomas Pauls das Wort erteilen. – Ich würde mir manche Worte mal überlegen."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Martin Rabanus",
+      "top": 11,
+      "rede_wer": 0.087,
+      "ref_woerter": 115,
+      "segmente": [
+        [
+          "=",
+          "… Verantwortung, nicht in meiner."
+        ],
+        [
+          "g",
+          "Ich schließe die Aussprache. Wir kommen zur Abstimmung über den"
+        ]
+      ]
+    }
+  ],
   "bewertung": [
     "Korrektur-Gap (WER) 0.9% — Abweichung Protokoll ↔ gesprochenes Wort gering",
     "148/148 Reden ausgerichtet verglichen.",

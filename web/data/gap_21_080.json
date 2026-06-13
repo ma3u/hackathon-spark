@@ -69,6 +69,141 @@
       "top": 5
     }
   ],
+  "diffs": [
+    {
+      "sprecher": "Jürgen Hardt",
+      "top": 3,
+      "rede_wer": 0.149,
+      "ref_woerter": 645,
+      "segmente": [
+        [
+          "=",
+          "… Kehle setzen. Herzlichen Dank."
+        ],
+        [
+          "g",
+          "Sehr geehrter Herr Kollege Hardt, ich rüge zunächst einmal Ihren Satz: „Sie haben doch nicht alle Tassen im Schrank“, den Sie vollständig in Richtung der AfD gerichtet haben, als unparlamentarisch. Ich werde mir den letzten Teil Ihrer Rede anschauen müssen, weil ich zum Schluss nicht mehr alles verstanden habe. Ich will ankündigen, dass ich mir auch diesen Teil noch einmal anschaue. Ich möchte noch einmal dahin gehend appellieren, dass wir trotz aller Emotionen in den Debatten anständig miteinander umgehen. Ich rufe den nächsten Redner in dieser Debatte auf. Für die AfD-Fraktion ist das Stephan Brandner."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Anna Rathert",
+      "top": 3,
+      "rede_wer": 0.138,
+      "ref_woerter": 501,
+      "segmente": [
+        [
+          "g",
+          "Bitte."
+        ],
+        [
+          "=",
+          "Frau Präsidentin! Meine Damen … ist abgelaufen. Danke sehr."
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "diesen Anschlag auf deutsche … geht auch so nicht."
+        ],
+        [
+          "g",
+          "Ich will noch einmal einen Hinweis geben; das ist kein Vorschlag zur Güte: Wenn am Rednerpult „Präsident“ aufblinkt"
+        ],
+        [
+          "=",
+          "Und"
+        ],
+        [
+          "g",
+          "Ihre Zeit abgelaufen ist – das halte ich wirklich bei allen gleich –, mache ich einen Hinweis. Dann gibt es einen weiteren Hinweis. Aber dann einfach weiterzureden, ist respektlos gegenüber der Sitzungsleitung. Das will ich nur sehr klar sagen. Jetzt hat für"
+        ],
+        [
+          "=",
+          "die"
+        ],
+        [
+          "r",
+          "Wahrheit kommt sowieso ans Licht.",
+          "SPD-Fraktion der Abgeordnete Herr Mahmut Özdemir das Wort. Bitte."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Caren Lay",
+      "top": 5,
+      "rede_wer": 0.128,
+      "ref_woerter": 172,
+      "segmente": [
+        [
+          "=",
+          "… es so nicht bleiben."
+        ],
+        [
+          "g",
+          "Vielen Dank. – Mit Ihrer Frage haben Sie ja noch mal bewiesen, dass Sie es wirklich nicht verstehen. Also, über die Preise entscheiden"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Alexander Engelhard",
+      "top": 13,
+      "rede_wer": 0.096,
+      "ref_woerter": 447,
+      "segmente": [
+        [
+          "=",
+          "… schwäbischen Trasse. Herzlichen Dank."
+        ],
+        [
+          "g",
+          "Vielen Dank. – Der letzte Redner in dieser Aussprache ist Dr. Rainer Kraft. Während er nach vorne kommt, möchte ich noch mal wiederholen, dass ich aufgrund der fortgeschrittenen Zeit keine Kurzinterventionen zulasse. Ich bitte dafür um Verständnis. Sie haben das Wort, Herr Dr. Kraft."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Klaus Wiener",
+      "top": 5,
+      "rede_wer": 0.094,
+      "ref_woerter": 233,
+      "segmente": [
+        [
+          "p",
+          "Vielen Dank. – Mit Ihrer Frage haben Sie ja noch mal bewiesen, dass Sie es wirklich nicht verstehen. Also, über die Preise entscheiden"
+        ],
+        [
+          "=",
+          "nicht die Vermieter oder …"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Enrico Komning",
+      "top": 3,
+      "rede_wer": 0.061,
+      "ref_woerter": 295,
+      "segmente": [
+        [
+          "g",
+          "von Herrn Abgeordneten Enrico Komning von der AfD-Fraktion zu der Rede von Herrn Dr. Hoppenstedt zu. Bitte."
+        ],
+        [
+          "=",
+          "Vielen Dank, Frau Präsidentin. … eine Kurzintervention ist abgelaufen."
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "wenn Sie sich heute …"
+        ]
+      ]
+    }
+  ],
   "bewertung": [
     "Korrektur-Gap (WER) 0.9% — Abweichung Protokoll ↔ gesprochenes Wort gering",
     "151/154 Reden ausgerichtet verglichen.",

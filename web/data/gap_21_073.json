@@ -69,6 +69,188 @@
       "top": 4
     }
   ],
+  "diffs": [
+    {
+      "sprecher": "Dr. Rainer Kraft",
+      "top": 1,
+      "rede_wer": 1.5,
+      "ref_woerter": 84,
+      "segmente": [
+        [
+          "r",
+          "Vielen Dank.",
+          "AfD-Fraktion übergeben. Danke, Herr Präsident."
+        ],
+        [
+          "=",
+          "–"
+        ],
+        [
+          "r",
+          "Herr Minister Frei,",
+          "Keine Sorge, ich werde"
+        ],
+        [
+          "=",
+          "Sie"
+        ],
+        [
+          "g",
+          "nicht nach der DDR-Mondbasis fragen Sie standen hier vorne und"
+        ],
+        [
+          "=",
+          "haben"
+        ],
+        [
+          "p",
+          "jetzt auf diese und auch"
+        ],
+        [
+          "=",
+          "auf die"
+        ],
+        [
+          "r",
+          "vorhergehende Frage geantwortet, welche Pläne",
+          "negativen Klimaauswirkungen von Raketenstarts hingewiesen. Können"
+        ],
+        [
+          "=",
+          "Sie"
+        ],
+        [
+          "g",
+          "mir zum Beispiel im Fall der Ariane 6, die mit flüssigem Sauerstoff und flüssigem Wasserstoff angetrieben wird und hinten einfach nur Wasserdampf ausscheidet, diese schädlichen Klimaauswirkungen darlegen, die Sie glauben wahrgenommen zu"
+        ],
+        [
+          "=",
+          "haben,"
+        ],
+        [
+          "p",
+          "um den Bundesnachrichtendienst auf organisatorischer Ebene zu ertüchtigen. Aber ich frage Sie: Wie wollen Sie es schaffen, den BND und andere Geheimdienste auch gegen schlechte Entscheidungen auf den obersten Ebenen zu ertüchtigen? Ich spiele hier an auf die Entscheidung des damaligen Kanzleramtsministers Frank-Walter Steinmeier, der die Aufklärung gegenüber Russland eingestellt hat, was, wie wir im Nachhinein wissen, eine sehr schlechte Idee war."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Thorsten Frei",
+      "top": 1,
+      "rede_wer": 0.233,
+      "ref_woerter": 527,
+      "segmente": [
+        [
+          "g",
+          "Minuten Zeit. Bitte sehr."
+        ],
+        [
+          "=",
+          "Großartig. Ganz herzlichen Dank. … den Weg. Herzlichen Dank."
+        ],
+        [
+          "p",
+          "Ich bedanke mich. Sie beide haben sich die Zeit sehr gut aufgeteilt und noch etwas übrig gelassen. Danke schön dafür. Wir starten jetzt mit der Befragung der beiden Regierungsmitglieder. Kurz zur Erläuterung: Es wird eine Fraktionsrunde geben. Das heißt für die erste Frage eine Minute, für die Antwort eine Minute. Nachfrage ist möglich; hierfür gibt es eine halbe Minute und für die Antwort dann auch eine halbe Minute. Dann kommen weitere Runden, in denen dann später auch weitere Fragen gestellt werden dürfen. Letzter Hinweis – bitte darauf achten –: Wir zeigen das farblich an, und ab Gelb kann man zum Ende kommen, ab Rot ist dann Ende. Jetzt hat für die AfD-Fraktion Herr Abgeordneter Oliver Birghan das Wort. Bitte sehr."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Matthias Rentzsch",
+      "top": 6,
+      "rede_wer": 0.06,
+      "ref_woerter": 317,
+      "segmente": [
+        [
+          "=",
+          "… postkolonialen Strukturen“ zu überwinden."
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "Frau Roth, gemach, gemach! … lehnen diesen Antrag ab."
+        ],
+        [
+          "g",
+          "Ich schließe die Aussprache. Interfraktionell wird die Überweisung der Vorlage auf Drucksache 21/5029 an den Ausschuss für wirtschaftliche"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Paul Schmidt",
+      "top": 5,
+      "rede_wer": 0.029,
+      "ref_woerter": 376,
+      "segmente": [
+        [
+          "=",
+          "… bitte zu! Vielen Dank."
+        ],
+        [
+          "g",
+          "Damit schließe ich die Aussprache. Wir kommen nun zum Antrag der"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Klaus Wiener",
+      "top": 4,
+      "rede_wer": 0.028,
+      "ref_woerter": 849,
+      "segmente": [
+        [
+          "g",
+          "Dr. Klaus Wiener, CDU/CSU-Fraktion."
+        ],
+        [
+          "=",
+          "Herr Präsident! Verehrte Kolleginnen … in geopolitisch schwierigen Zeiten."
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "Man merkt die Unruhe. … wir nicht brauchen, sind"
+        ],
+        [
+          "r",
+          "100 000",
+          "100.000"
+        ],
+        [
+          "=",
+          "überbezahlte Bürokraten, an die … den Weg. Herzlichen Dank."
+        ],
+        [
+          "g",
+          "Ich darf damit die Aussprache zu dem Gesetzentwurf mit einem wahrlich sperrigen Namen beenden. Interfraktionell wird die Überweisung"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dorothee Bär",
+      "top": 1,
+      "rede_wer": 0.026,
+      "ref_woerter": 468,
+      "segmente": [
+        [
+          "g",
+          "Technologie und Raumfahrt, Frau Dorothee Bär. Bitte sehr."
+        ],
+        [
+          "=",
+          "Sehr geehrte Frau Präsidentin! … Bundesminister hat sogar fünf"
+        ],
+        [
+          "p",
+          "Minuten Zeit. Bitte sehr."
+        ]
+      ]
+    }
+  ],
   "bewertung": [
     "Korrektur-Gap (WER) 1.5% — Abweichung Protokoll ↔ gesprochenes Wort gering",
     "39/165 Reden ausgerichtet verglichen.",

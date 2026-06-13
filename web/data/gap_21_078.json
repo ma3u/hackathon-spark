@@ -69,6 +69,110 @@
       "top": 5
     }
   ],
+  "diffs": [
+    {
+      "sprecher": "Aaron Valent",
+      "top": 1,
+      "rede_wer": 0.331,
+      "ref_woerter": 127,
+      "segmente": [
+        [
+          "p",
+          "Vielen Dank. – Frau Wegge, auch ich komme aus Bayern, und ich höre in"
+        ],
+        [
+          "=",
+          "meinem Wahlkreis sehr viel … Ihre Genossinnen da reagieren."
+        ],
+        [
+          "g",
+          "Danke schön. – Bevor wir in der Debatte fortfahren folgender Hinweis: Der Abgeordnete Martin Reichardt hat fristgerecht Einspruch gegen den ihm in der 77. Sitzung erteilten Ordnungsruf eingelegt, und diesem"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Carmen Wegge",
+      "top": 1,
+      "rede_wer": 0.091,
+      "ref_woerter": 143,
+      "segmente": [
+        [
+          "=",
+          "… können darauf gerne antworten."
+        ],
+        [
+          "g",
+          "Vielen Dank. – Frau Wegge, auch ich komme aus Bayern, und ich höre in"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dunja Kreiser",
+      "top": 2,
+      "rede_wer": 0.089,
+      "ref_woerter": 788,
+      "segmente": [
+        [
+          "=",
+          "… heute mit dem sogenannten"
+        ],
+        [
+          "r",
+          "Windenergieflächenbedarfsabschaffungsgesetz.",
+          "Windenergieflächenbedarfsabschaffung- sgesetz."
+        ],
+        [
+          "=",
+          "Sie hatten mal vor, … es geht um Abschaffung."
+        ],
+        [
+          "r",
+          "Überraschend",
+          "berraschend"
+        ],
+        [
+          "=",
+          "ist das im Übrigen … Ihren Gesetzentwurf ab. Danke."
+        ],
+        [
+          "g",
+          "Ich verstehe, dass es Wünsche nach Kurzinterventionen gibt. Aber wenn aus den jeweiligen Fraktionen noch einige Redner anstehen, dann können sie das Thema noch aufgreifen. Sollte jemand direkt angesprochen werden, lasse ich eine Kurzintervention zu, ansonsten nicht, da sich die Sitzung – auch angesichts der namentlichen Abstimmung – sonst zu lange hinziehen würde. Ich bitte da um Verständnis. Jetzt ist für die Linksfraktion Herr Abgeordneter Lorenz Gösta Beutin dran."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Franziska Kersten",
+      "top": 5,
+      "rede_wer": 0.069,
+      "ref_woerter": 277,
+      "segmente": [
+        [
+          "=",
+          "… sind sie hier entbehrlich."
+        ],
+        [
+          "g",
+          "Liebe Kolleginnen und Kollegen, bevor wir die letzte Stimme in der Aussprache hören, möchte ich Sie um Kooperation bitten."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Axel Müller",
+      "top": 1,
+      "rede_wer": 0.034,
+      "ref_woerter": 291,
+      "segmente": [
+        [
+          "=",
+          "… bin optimistisch. Danke schön."
+        ],
+        [
+          "g",
+          "Hiermit schließe ich die Aussprache. Wir kommen zur Abstimmung über"
+        ]
+      ]
+    }
+  ],
   "bewertung": [
     "Korrektur-Gap (WER) 0.7% — Abweichung Protokoll ↔ gesprochenes Wort gering",
     "78/78 Reden ausgerichtet verglichen.",

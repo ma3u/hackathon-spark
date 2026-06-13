@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import difflib
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -72,6 +73,37 @@ def _wer(ref: list[str], hyp: list[str]) -> dict:
             "subst": sub, "ins": ins, "del": dele, "ref_woerter": n}
 
 
+def _diff_segments(ref_text: str, hyp_text: str, *, ctx: int = 4, max_seg: int = 90) -> list:
+    """Wort-Diff Protokoll(ref) ↔ gesprochen(hyp) auf ORIGINALtext (Vergleich normalisiert).
+
+    Segmente: ["=",text] gleich · ["p",text] nur im Protokoll (redaktionell ergänzt) ·
+    ["g",text] nur gesprochen (redaktionell entfernt, z. B. Füllwörter) · ["r",prot,gespr] ersetzt.
+    Lange Gleich-Läufe werden auf etwas Kontext um die Änderungen gekürzt.
+    """
+    rt, ht = re.findall(r"\S+", ref_text), re.findall(r"\S+", hyp_text)
+    key = lambda w: re.sub(r"[^0-9a-zäöüß]", "", w.lower())
+    rk, hk = [key(w) for w in rt], [key(w) for w in ht]
+    sm = difflib.SequenceMatcher(None, rk, hk, autojunk=False)
+    ops = sm.get_opcodes()
+    segs = []
+    for n, (tag, i1, i2, j1, j2) in enumerate(ops):
+        if tag == "equal":
+            words = rt[i1:i2]
+            if len(words) > 2 * ctx + 1:  # langen Gleich-Lauf kürzen (Kontext vorn/hinten)
+                head = words[:ctx] if n > 0 else []
+                tail = words[-ctx:] if n < len(ops) - 1 else []
+                words = head + (["…"] if (head or tail) else []) + tail
+            if words:
+                segs.append(["=", " ".join(words)])
+        elif tag == "delete":
+            segs.append(["p", " ".join(rt[i1:i2])])
+        elif tag == "insert":
+            segs.append(["g", " ".join(ht[j1:j2])])
+        else:
+            segs.append(["r", " ".join(rt[i1:i2]), " ".join(ht[j1:j2])])
+    return segs[:max_seg]
+
+
 def benchmark(nr: int, clips: list[dict], srt_cache: dict) -> dict | None:
     xml = AMT / f"{WP}{nr:03d}.xml"
     if not xml.exists():
@@ -85,7 +117,8 @@ def benchmark(nr: int, clips: list[dict], srt_cache: dict) -> dict | None:
     # Übergrößen-Schutz (gelegentlich ist ein Clip ein ganzer TOP-Block, kein Einzelbeitrag).
     by_spk: dict[str, list[dict]] = defaultdict(list)
     for c in clips:
-        by_spk[_norm_name(c["speaker"])].append({"words": gap_analysis._norm(c["text"]), "used": False})
+        by_spk[_norm_name(c["speaker"])].append(
+            {"words": gap_analysis._norm(c["text"]), "text_orig": c["text"], "used": False})
     tot_ref = tot_edit = matched = 0
     divergenzen = []
     for r in p.redebeitraege:
@@ -116,11 +149,22 @@ def benchmark(nr: int, clips: list[dict], srt_cache: dict) -> dict | None:
         tot_edit += edits
         matched += 1
         divergenzen.append({"sprecher": r["person"], "rede_wer": round(edits / max(1, w["ref_woerter"]), 3),
-                            "ref_woerter": w["ref_woerter"], "top": r.get("top_nummer")})
+                            "ref_woerter": w["ref_woerter"], "top": r.get("top_nummer"),
+                            "_ref": ref_text, "_hyp": best["text_orig"]})
     if not tot_ref:
         return None
     wer_val = round(tot_edit / tot_ref, 3)
     divergenzen.sort(key=lambda d: -d["rede_wer"])
+    # Diff nur für die auffälligsten Reden mit echtem Änderungsanteil (Anzeige in der UI).
+    diffs = []
+    for d in divergenzen:
+        if len(diffs) >= 6 or d["rede_wer"] < 0.02:
+            break
+        diffs.append({"sprecher": d["sprecher"], "top": d["top"], "rede_wer": d["rede_wer"],
+                      "ref_woerter": d["ref_woerter"], "segmente": _diff_segments(d["_ref"], d["_hyp"])})
+    for d in divergenzen:  # Rohtexte nicht in den Report schreiben
+        d.pop("_ref", None)
+        d.pop("_hyp", None)
     return {
         "sitzung": {"wp": WP, "nr": nr, "datum": p.meeting.get("datum", "")},
         "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
@@ -129,6 +173,7 @@ def benchmark(nr: int, clips: list[dict], srt_cache: dict) -> dict | None:
         "reaktionen": {"amtlich": len(p.kommentare), "im_untertitel": 0,
                        "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."},
         "groesste_divergenzen": divergenzen[:8],
+        "diffs": diffs,
         "bewertung": [
             f"Korrektur-Gap (WER) {wer_val:.1%} — Abweichung Protokoll ↔ gesprochenes Wort "
             + ("gering" if wer_val < 0.15 else "mittel" if wer_val < 0.3 else "hoch"),

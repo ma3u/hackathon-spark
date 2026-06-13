@@ -69,6 +69,133 @@
       "top": 6
     }
   ],
+  "diffs": [
+    {
+      "sprecher": "Lisa Badum",
+      "top": 1,
+      "rede_wer": 0.218,
+      "ref_woerter": 316,
+      "segmente": [
+        [
+          "g",
+          "Badum das Wort. Bitte."
+        ],
+        [
+          "=",
+          "Sehr geehrte Frau Präsidentin! … geehrten Damen und Herren!"
+        ],
+        [
+          "r",
+          "Öl",
+          "l"
+        ],
+        [
+          "=",
+          "ist so knapp wie … Sie diesen Tankrabatt ab!"
+        ],
+        [
+          "g",
+          "Liebe Kollegen, bevor ich dem nächsten Redner das Wort erteile, will ich jetzt schon darauf hinweisen, dass unmittelbar nach Eröffnung der namentlichen Schlussabstimmung noch weitere einfache Abstimmungen hier im Saal stattfinden werden. Es ist eine gutgemeinte verbindliche Empfehlung, dann hier im Saal zu bleiben. Und nun hat als letzter Redner dieses Tagesordnungspunktes für die CDU/CSU-Fraktion Herr Abgeordneter Fritz Güntzler das Wort. Bitte."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Florian Bilic",
+      "top": 3,
+      "rede_wer": 0.199,
+      "ref_woerter": 649,
+      "segmente": [
+        [
+          "=",
+          "… beherzigen. Vielen herzlichen Dank."
+        ],
+        [
+          "g",
+          "Vielen Dank. – Verehrte Kolleginnen und Kollegen, ich will das noch einmal hier sagen: Wir haben eine Geschäftsordnung, in der wir vereinbart haben, dass wir hier die Auseinandersetzung verbal führen. Das Nonverbale ist hier schlicht untersagt. Das bedeutet, dass man hier weder Plakate hochhält noch Joghurtbecher oder andere Alltagsgegenstände. Wir haben beispielsweise nachher eine Diskussion um die Gaspreise. Bitte bringen Sie keine Gasrohre mit oder was auch immer. Wir reden hier miteinander, und dabei bleibt es. Darum habe ich nicht zu bitten, sondern Sie haben das zu unterlassen. Das haben wir miteinander vereinbart. Wenn Sie es anders haben möchten, dann wirken Sie bitte auf die Veränderung der Geschäftsordnung hin. Bis dahin bleibt es so. Ich komme zurück zum Tagesordnungspunkt 6c. Die Zeit für die namentliche Abstimmung, wie wir sie vorhin"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Ralph Edelhäußer",
+      "top": 6,
+      "rede_wer": 0.196,
+      "ref_woerter": 199,
+      "segmente": [
+        [
+          "p",
+          "Frau Kollegin, ich weiß ja nicht,"
+        ],
+        [
+          "=",
+          "ob bei weiteren Reden … die Hand aus. Danke."
+        ],
+        [
+          "g",
+          "Liebe Kolleginnen und Kollegen, ich will mein Handeln jetzt transparent machen. Ich beabsichtige nun, keine Kurz- interventionen und Zwischenfragen mehr zuzulassen, und darf jetzt der AfD-Abgeordneten Dr. Anna Rathert das Wort erteilen."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Dr. Alaa Alhamwi",
+      "top": 5,
+      "rede_wer": 0.124,
+      "ref_woerter": 380,
+      "segmente": [
+        [
+          "=",
+          "… AfD-Quatschantrag. Bleiben Sie gesund!"
+        ],
+        [
+          "g",
+          "Liebe Kolleginnen und Kollegen, da ich es nicht zuordnen kann, kann ich keinen Ordnungsruf erteilen. Aber ich finde es unparlamentarisch, einen Redner hier vorne als „Luftpumpe“ zu bezeichnen. Ich finde, so sollten wir nicht miteinander umgehen. Ich darf für die SPD-Fraktion Helmut Kleebank das Wort erteilen."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Frauke Heiligenstadt",
+      "top": 1,
+      "rede_wer": 0.105,
+      "ref_woerter": 713,
+      "segmente": [
+        [
+          "g",
+          "Heiligenstadt das Wort. Bitte."
+        ],
+        [
+          "=",
+          "Sehr geehrte Frau Präsidentin! … schaffen die CO2-Steuer ab."
+        ],
+        [
+          "p",
+          "–"
+        ],
+        [
+          "=",
+          "Ja, passen Sie mal … dass wir uns nicht"
+        ],
+        [
+          "p",
+          "persönlich mit Extremismusvorwürfen überziehen. Das gilt für alle Seiten. Diesen Hinweis möchte ich noch mal geben. – Das gilt immer für beide Seiten, gell? Darüber haben wir auch im Ältestenrat gesprochen. Ich lasse jetzt für eine Kurzintervention, weil er keine Chance zur Zwischenfrage hatte, Herrn Gottschalk zu. Ich will aber kurz darauf hinweisen, dass das heute hier nicht ausufert, dass man, wenn man keine Zwischenfrage bekommt, dann entsprechend anders agiert. – Danke schön."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Kay Gottschalk",
+      "top": 1,
+      "rede_wer": 0.105,
+      "ref_woerter": 238,
+      "segmente": [
+        [
+          "g",
+          "Ich will aber kurz darauf hinweisen, dass das heute hier nicht ausufert, dass man, wenn man keine Zwischenfrage bekommt, dann entsprechend anders agiert. – Danke schön."
+        ],
+        [
+          "=",
+          "Vielen Dank, Frau Präsidentin, …"
+        ]
+      ]
+    }
+  ],
   "bewertung": [
     "Korrektur-Gap (WER) 1.8% — Abweichung Protokoll ↔ gesprochenes Wort gering",
     "77/77 Reden ausgerichtet verglichen.",

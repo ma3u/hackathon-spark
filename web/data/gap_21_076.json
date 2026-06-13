@@ -69,6 +69,80 @@
       "top": 4
     }
   ],
+  "diffs": [
+    {
+      "sprecher": "Reem Alabali Radovan",
+      "top": 1,
+      "rede_wer": 0.28,
+      "ref_woerter": 471,
+      "segmente": [
+        [
+          "g",
+          "Reem Alabali Radovan. Bitte sehr."
+        ],
+        [
+          "=",
+          "Sehr geehrte Frau Präsidentin! … Dank. Ich bedanke mich."
+        ],
+        [
+          "p",
+          "Sie haben beide die Zeit nicht völlig ausgereizt. Das ist schon mal eine gute Orientierung und Vorgabe. Jetzt kommen wir zum eigentlichen Frageteil. Ich bitte, zunächst die Fragen zu den beiden Geschäftsbereichen der anwesenden Regierungsmitglieder zu stellen. Wie Sie wissen, gibt es zuerst eine Fraktionsrunde – eine Minute Frage, eine Minute Antwort – mit der Möglichkeit, der gleichen Person eine Nachfrage zu stellen; da haben Sie für die Frage 30 Sekunden Zeit, und für die Antwort sind es ebenfalls 30 Sekunden. Das ist die erste Fraktionsrunde. Noch ein Hinweis, der sehr hilfreich ist: Oben läuft ein Farbband mit. Wenn es gelb wird, sollte man zum Schluss kommen. Bei Rot mache ich dann Schluss. Für die AfD hat als Erstes Herr Abgeordneter René Springer das Wort. Ihre Frage, bitte sehr."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Martin Hess",
+      "top": 6,
+      "rede_wer": 0.153,
+      "ref_woerter": 300,
+      "segmente": [
+        [
+          "p",
+          "Kollege, gestatten Sie mir zunächst die Bemerkung: Wer als Abgeordneter"
+        ],
+        [
+          "=",
+          "des Deutschen Bundestages nicht … die Unionsfraktion Frederik Bouffier."
+        ],
+        [
+          "p",
+          "Dann hätte ich noch die Bitte, dass die Kolleginnen und Kollegen, die sich hier unterhalten möchten, das vielleicht außerhalb dieses Raumes tun oder weiter oben oder sich hinsetzen. Vielen Dank. – Ja, dann machen wir das jetzt."
+        ]
+      ]
+    },
+    {
+      "sprecher": "Frederik Bouffier",
+      "top": 6,
+      "rede_wer": 0.066,
+      "ref_woerter": 549,
+      "segmente": [
+        [
+          "g",
+          "Dann hätte ich noch die Bitte, dass die Kolleginnen und Kollegen, die sich hier unterhalten möchten, das vielleicht außerhalb dieses Raumes tun oder weiter oben oder sich hinsetzen. Vielen Dank. Ja, dann machen wir das jetzt."
+        ],
+        [
+          "=",
+          "Frau Präsidentin! Meine sehr …"
+        ]
+      ]
+    },
+    {
+      "sprecher": "Luigi Pantisano",
+      "top": 6,
+      "rede_wer": 0.032,
+      "ref_woerter": 315,
+      "segmente": [
+        [
+          "=",
+          "… so sind wie Sie?"
+        ],
+        [
+          "g",
+          "Kollege, gestatten Sie mir zunächst die Bemerkung: Wer als Abgeordneter"
+        ]
+      ]
+    }
+  ],
   "bewertung": [
     "Korrektur-Gap (WER) 1.0% — Abweichung Protokoll ↔ gesprochenes Wort gering",
     "49/169 Reden ausgerichtet verglichen.",
