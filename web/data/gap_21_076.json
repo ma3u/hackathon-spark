@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 76,
+    "datum": "06.05.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.01,
+    "ref_woerter": 25563,
+    "editieroperationen": 266
+  },
+  "reden": {
+    "verglichen": 49,
+    "gesamt": 169
+  },
+  "reaktionen": {
+    "amtlich": 670,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Reem Alabali Radovan",
+      "rede_wer": 0.28,
+      "ref_woerter": 471,
+      "top": 1
+    },
+    {
+      "sprecher": "Martin Hess",
+      "rede_wer": 0.153,
+      "ref_woerter": 300,
+      "top": 6
+    },
+    {
+      "sprecher": "Frederik Bouffier",
+      "rede_wer": 0.066,
+      "ref_woerter": 549,
+      "top": 6
+    },
+    {
+      "sprecher": "Luigi Pantisano",
+      "rede_wer": 0.032,
+      "ref_woerter": 315,
+      "top": 6
+    },
+    {
+      "sprecher": "Thomas Silberhorn",
+      "rede_wer": 0.018,
+      "ref_woerter": 439,
+      "top": 5
+    },
+    {
+      "sprecher": "Hans Koller",
+      "rede_wer": 0.013,
+      "ref_woerter": 854,
+      "top": 3
+    },
+    {
+      "sprecher": "Jan Köstering",
+      "rede_wer": 0.01,
+      "ref_woerter": 394,
+      "top": 4
+    },
+    {
+      "sprecher": "Tobias Winkler",
+      "rede_wer": 0.01,
+      "ref_woerter": 403,
+      "top": 4
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 1.0% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "49/169 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21076.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7652704"
+  },
+  "quelle_typ": "mediathek"
+}

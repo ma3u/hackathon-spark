@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 80,
+    "datum": "21.05.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.009,
+    "ref_woerter": 86792,
+    "editieroperationen": 790
+  },
+  "reden": {
+    "verglichen": 151,
+    "gesamt": 154
+  },
+  "reaktionen": {
+    "amtlich": 1514,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Jürgen Hardt",
+      "rede_wer": 0.149,
+      "ref_woerter": 645,
+      "top": 3
+    },
+    {
+      "sprecher": "Dr. Anna Rathert",
+      "rede_wer": 0.138,
+      "ref_woerter": 501,
+      "top": 3
+    },
+    {
+      "sprecher": "Caren Lay",
+      "rede_wer": 0.128,
+      "ref_woerter": 172,
+      "top": 5
+    },
+    {
+      "sprecher": "Alexander Engelhard",
+      "rede_wer": 0.096,
+      "ref_woerter": 447,
+      "top": 13
+    },
+    {
+      "sprecher": "Dr. Klaus Wiener",
+      "rede_wer": 0.094,
+      "ref_woerter": 233,
+      "top": 5
+    },
+    {
+      "sprecher": "Enrico Komning",
+      "rede_wer": 0.061,
+      "ref_woerter": 295,
+      "top": 3
+    },
+    {
+      "sprecher": "Thomas Korell",
+      "rede_wer": 0.059,
+      "ref_woerter": 455,
+      "top": 4
+    },
+    {
+      "sprecher": "Dr. Julia Verlinden",
+      "rede_wer": 0.05,
+      "ref_woerter": 763,
+      "top": 5
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 0.9% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "151/154 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21080.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7653355"
+  },
+  "quelle_typ": "mediathek"
+}

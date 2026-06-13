@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 74,
+    "datum": "23.04.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.009,
+    "ref_woerter": 83690,
+    "editieroperationen": 763
+  },
+  "reden": {
+    "verglichen": 148,
+    "gesamt": 148
+  },
+  "reaktionen": {
+    "amtlich": 1471,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Christian Moser",
+      "rede_wer": 0.636,
+      "ref_woerter": 44,
+      "top": 8
+    },
+    {
+      "sprecher": "Martin Sichert",
+      "rede_wer": 0.591,
+      "ref_woerter": 66,
+      "top": 9
+    },
+    {
+      "sprecher": "Dr. Tanja Machalet",
+      "rede_wer": 0.25,
+      "ref_woerter": 48,
+      "top": 9
+    },
+    {
+      "sprecher": "Maik Brückner",
+      "rede_wer": 0.134,
+      "ref_woerter": 716,
+      "top": 5
+    },
+    {
+      "sprecher": "Linda Heitmann",
+      "rede_wer": 0.126,
+      "ref_woerter": 601,
+      "top": 9
+    },
+    {
+      "sprecher": "Martin Rabanus",
+      "rede_wer": 0.087,
+      "ref_woerter": 115,
+      "top": 11
+    },
+    {
+      "sprecher": "Dr. Konrad Körner",
+      "rede_wer": 0.083,
+      "ref_woerter": 229,
+      "top": 5
+    },
+    {
+      "sprecher": "Manuel Krauthausen",
+      "rede_wer": 0.072,
+      "ref_woerter": 180,
+      "top": 8
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 0.9% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "148/148 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21074.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7652156"
+  },
+  "quelle_typ": "mediathek"
+}

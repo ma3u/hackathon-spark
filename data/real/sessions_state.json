@@ -1096,6 +1096,76 @@
       "ref_woerter": 47679,
       "reaktionen": 890,
       "ts": "2026-06-08T20:22:41Z"
+    },
+    "21-070": {
+      "wer": 0.033,
+      "ref_woerter": 20960,
+      "reaktionen": 494,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-071": {
+      "wer": 0.058,
+      "ref_woerter": 72311,
+      "reaktionen": 1333,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-072": {
+      "wer": 0.005,
+      "ref_woerter": 34820,
+      "reaktionen": 433,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-073": {
+      "wer": 0.015,
+      "ref_woerter": 23547,
+      "reaktionen": 533,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-074": {
+      "wer": 0.009,
+      "ref_woerter": 83690,
+      "reaktionen": 1471,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-075": {
+      "wer": 0.018,
+      "ref_woerter": 42456,
+      "reaktionen": 788,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-076": {
+      "wer": 0.01,
+      "ref_woerter": 25563,
+      "reaktionen": 670,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-077": {
+      "wer": 0.012,
+      "ref_woerter": 87482,
+      "reaktionen": 1454,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-078": {
+      "wer": 0.007,
+      "ref_woerter": 42520,
+      "reaktionen": 814,
+      "typ": "mediathek",
+      "ts": ""
+    },
+    "21-080": {
+      "wer": 0.009,
+      "ref_woerter": 86792,
+      "reaktionen": 1514,
+      "typ": "mediathek",
+      "ts": ""
     }
   },
   "mediathek": {

@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 70,
+    "datum": "15.04.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.033,
+    "ref_woerter": 20960,
+    "editieroperationen": 696
+  },
+  "reden": {
+    "verglichen": 42,
+    "gesamt": 178
+  },
+  "reaktionen": {
+    "amtlich": 494,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Ruben Rupp",
+      "rede_wer": 3.366,
+      "ref_woerter": 134,
+      "top": 2
+    },
+    {
+      "sprecher": "Dr. Hans Theiss",
+      "rede_wer": 0.175,
+      "ref_woerter": 63,
+      "top": 8
+    },
+    {
+      "sprecher": "Dr. Daniel Zerbin",
+      "rede_wer": 0.147,
+      "ref_woerter": 95,
+      "top": 8
+    },
+    {
+      "sprecher": "Dr. Michael Kaufmann",
+      "rede_wer": 0.101,
+      "ref_woerter": 89,
+      "top": 8
+    },
+    {
+      "sprecher": "Maja Wallstein",
+      "rede_wer": 0.045,
+      "ref_woerter": 423,
+      "top": 8
+    },
+    {
+      "sprecher": "Karoline Otte",
+      "rede_wer": 0.035,
+      "ref_woerter": 142,
+      "top": 7
+    },
+    {
+      "sprecher": "Dr. Christoph Birghan",
+      "rede_wer": 0.032,
+      "ref_woerter": 401,
+      "top": 8
+    },
+    {
+      "sprecher": "Oliver Pöpsel",
+      "rede_wer": 0.026,
+      "ref_woerter": 379,
+      "top": 7
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 3.3% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "42/178 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21070.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7651366"
+  },
+  "quelle_typ": "mediathek"
+}

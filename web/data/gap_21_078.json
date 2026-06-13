@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 78,
+    "datum": "08.05.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.007,
+    "ref_woerter": 42520,
+    "editieroperationen": 288
+  },
+  "reden": {
+    "verglichen": 78,
+    "gesamt": 78
+  },
+  "reaktionen": {
+    "amtlich": 814,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Aaron Valent",
+      "rede_wer": 0.331,
+      "ref_woerter": 127,
+      "top": 1
+    },
+    {
+      "sprecher": "Carmen Wegge",
+      "rede_wer": 0.091,
+      "ref_woerter": 143,
+      "top": 1
+    },
+    {
+      "sprecher": "Dunja Kreiser",
+      "rede_wer": 0.089,
+      "ref_woerter": 788,
+      "top": 2
+    },
+    {
+      "sprecher": "Dr. Franziska Kersten",
+      "rede_wer": 0.069,
+      "ref_woerter": 277,
+      "top": 5
+    },
+    {
+      "sprecher": "Axel Müller",
+      "rede_wer": 0.034,
+      "ref_woerter": 291,
+      "top": 1
+    },
+    {
+      "sprecher": "Angelika Glöckner",
+      "rede_wer": 0.019,
+      "ref_woerter": 154,
+      "top": 4
+    },
+    {
+      "sprecher": "Dr. Lena Gumnior",
+      "rede_wer": 0.018,
+      "ref_woerter": 600,
+      "top": 1
+    },
+    {
+      "sprecher": "Alexander Jordan",
+      "rede_wer": 0.017,
+      "ref_woerter": 422,
+      "top": 5
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 0.7% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "78/78 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21078.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7653121"
+  },
+  "quelle_typ": "mediathek"
+}

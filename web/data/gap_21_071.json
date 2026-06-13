@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 71,
+    "datum": "16.04.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.058,
+    "ref_woerter": 72311,
+    "editieroperationen": 4181
+  },
+  "reden": {
+    "verglichen": 136,
+    "gesamt": 136
+  },
+  "reaktionen": {
+    "amtlich": 1333,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Günter Baumgartner",
+      "rede_wer": 0.427,
+      "ref_woerter": 143,
+      "top": 3
+    },
+    {
+      "sprecher": "Gunther Krichbaum",
+      "rede_wer": 0.384,
+      "ref_woerter": 967,
+      "top": 6
+    },
+    {
+      "sprecher": "Dr. Karsten Wildberger",
+      "rede_wer": 0.364,
+      "ref_woerter": 107,
+      "top": 4
+    },
+    {
+      "sprecher": "Hans Koller",
+      "rede_wer": 0.322,
+      "ref_woerter": 936,
+      "top": 5
+    },
+    {
+      "sprecher": "Sonja Lemke",
+      "rede_wer": 0.28,
+      "ref_woerter": 100,
+      "top": 4
+    },
+    {
+      "sprecher": "Karsten Hilse",
+      "rede_wer": 0.279,
+      "ref_woerter": 147,
+      "top": 5
+    },
+    {
+      "sprecher": "Andreas Jung",
+      "rede_wer": 0.262,
+      "ref_woerter": 900,
+      "top": 5
+    },
+    {
+      "sprecher": "Sonja Lemke",
+      "rede_wer": 0.261,
+      "ref_woerter": 1213,
+      "top": 4
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 5.8% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "136/136 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21071.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7651544"
+  },
+  "quelle_typ": "mediathek"
+}

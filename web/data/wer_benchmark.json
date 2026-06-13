@@ -1,0 +1,70 @@
+{
+  "sessions": 10,
+  "wer_mittel": 0.018,
+  "wer_min": 0.005,
+  "wer_max": 0.058,
+  "ref_woerter_gesamt": 520141,
+  "vergleich": "Mediathek-Untertitel ↔ amtliches Protokoll (Korrektur-Gap)",
+  "sitzungen": [
+    {
+      "nr": 70,
+      "wer": 0.033,
+      "reden": 42,
+      "ref_woerter": 20960
+    },
+    {
+      "nr": 71,
+      "wer": 0.058,
+      "reden": 136,
+      "ref_woerter": 72311
+    },
+    {
+      "nr": 72,
+      "wer": 0.005,
+      "reden": 61,
+      "ref_woerter": 34820
+    },
+    {
+      "nr": 73,
+      "wer": 0.015,
+      "reden": 39,
+      "ref_woerter": 23547
+    },
+    {
+      "nr": 74,
+      "wer": 0.009,
+      "reden": 148,
+      "ref_woerter": 83690
+    },
+    {
+      "nr": 75,
+      "wer": 0.018,
+      "reden": 77,
+      "ref_woerter": 42456
+    },
+    {
+      "nr": 76,
+      "wer": 0.01,
+      "reden": 49,
+      "ref_woerter": 25563
+    },
+    {
+      "nr": 77,
+      "wer": 0.012,
+      "reden": 170,
+      "ref_woerter": 87482
+    },
+    {
+      "nr": 78,
+      "wer": 0.007,
+      "reden": 78,
+      "ref_woerter": 42520
+    },
+    {
+      "nr": 80,
+      "wer": 0.009,
+      "reden": 151,
+      "ref_woerter": 86792
+    }
+  ]
+}

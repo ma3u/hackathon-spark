@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 72,
+    "datum": "17.04.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.005,
+    "ref_woerter": 34820,
+    "editieroperationen": 178
+  },
+  "reden": {
+    "verglichen": 61,
+    "gesamt": 63
+  },
+  "reaktionen": {
+    "amtlich": 433,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Ina Latendorf",
+      "rede_wer": 0.064,
+      "ref_woerter": 393,
+      "top": 3
+    },
+    {
+      "sprecher": "Tobias Winkler",
+      "rede_wer": 0.055,
+      "ref_woerter": 417,
+      "top": 5
+    },
+    {
+      "sprecher": "Artur Auernhammer",
+      "rede_wer": 0.048,
+      "ref_woerter": 125,
+      "top": 3
+    },
+    {
+      "sprecher": "Dr. Hans Theiss",
+      "rede_wer": 0.036,
+      "ref_woerter": 335,
+      "top": 4
+    },
+    {
+      "sprecher": "Bernd Schuhmann",
+      "rede_wer": 0.025,
+      "ref_woerter": 243,
+      "top": 3
+    },
+    {
+      "sprecher": "Dr. Anton Hofreiter",
+      "rede_wer": 0.025,
+      "ref_woerter": 366,
+      "top": 5
+    },
+    {
+      "sprecher": "Dr. Alexander Wolf",
+      "rede_wer": 0.019,
+      "ref_woerter": 637,
+      "top": 6
+    },
+    {
+      "sprecher": "Alexander Jordan",
+      "rede_wer": 0.018,
+      "ref_woerter": 610,
+      "top": 3
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 0.5% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "61/63 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21072.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7651749"
+  },
+  "quelle_typ": "mediathek"
+}

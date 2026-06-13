@@ -236,7 +236,10 @@
         const prot = curSrc === "yt" ? (e && e.youtube && e.youtube.protokoll)
                                      : (e && e.amtlich && e.amtlich.protokoll);
         if (prot) links.push(`<a href="./data/${prot}" target="_blank" rel="noopener">📄 Protokoll (HTML)</a>`);
-        if (e && e.gap) links.push(`<a href="./data/${e.gap.file}" target="_blank" rel="noopener">🔀 Gap-Analyse (WER ${Math.round(e.gap.wer * 100)}%)</a>`);
+        if (e && e.gap) {  // youtube = ASR-Gap (Auto-Caption ↔ amtlich), mediathek = Korrektur-Gap (gesprochen ↔ Protokoll)
+          const gl = e.gap.typ === "mediathek" ? "Korrektur-Gap" : "ASR-Gap";
+          links.push(`<a href="./data/${e.gap.file}" target="_blank" rel="noopener" title="${e.gap.typ === "mediathek" ? "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll" : "YouTube-Auto-Caption (ASR) ↔ amtliches Protokoll"}">🔀 ${gl} (WER ${Math.round(e.gap.wer * 100)}%)</a>`);
+        }
         const quelle = links.length ? links.join(" · ") : (m.source_audio || "—");
         const herk = m.herkunft === "youtube" ? "🎬 YouTube-Mitschnitt (mit Zeit-Deeplinks)"
           : m.herkunft === "mediathek" ? "📺 Bundestag-Mediathek (korrigierte Untertitel, sprecher-attribuiert)"

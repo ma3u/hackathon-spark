@@ -323,7 +323,8 @@ def write_index(st, *, wp) -> None:
                 a["mediathek_verlinkt"] = amt.get("mediathek_verlinkt", 0)
             entry["amtlich"] = a
         if gap:
-            entry["gap"] = {"file": f"gap_{wp_}_{nr:03d}.json", "wer": gap["wer"]}
+            entry["gap"] = {"file": f"gap_{wp_}_{nr:03d}.json", "wer": gap["wer"],
+                            "typ": gap.get("typ", "youtube")}  # youtube=ASR-Gap, mediathek=Korrektur-Gap
         sessions.append(entry)
     WEB.mkdir(parents=True, exist_ok=True)
     (WEB / "sessions.json").write_text(json.dumps(

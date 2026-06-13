@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 73,
+    "datum": "22.04.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.015,
+    "ref_woerter": 23547,
+    "editieroperationen": 362
+  },
+  "reden": {
+    "verglichen": 39,
+    "gesamt": 165
+  },
+  "reaktionen": {
+    "amtlich": 533,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Dr. Rainer Kraft",
+      "rede_wer": 1.5,
+      "ref_woerter": 84,
+      "top": 1
+    },
+    {
+      "sprecher": "Thorsten Frei",
+      "rede_wer": 0.233,
+      "ref_woerter": 527,
+      "top": 1
+    },
+    {
+      "sprecher": "Matthias Rentzsch",
+      "rede_wer": 0.06,
+      "ref_woerter": 317,
+      "top": 6
+    },
+    {
+      "sprecher": "Dr. Paul Schmidt",
+      "rede_wer": 0.029,
+      "ref_woerter": 376,
+      "top": 5
+    },
+    {
+      "sprecher": "Dr. Klaus Wiener",
+      "rede_wer": 0.028,
+      "ref_woerter": 849,
+      "top": 4
+    },
+    {
+      "sprecher": "Dorothee Bär",
+      "rede_wer": 0.026,
+      "ref_woerter": 468,
+      "top": 1
+    },
+    {
+      "sprecher": "Stephan Albani",
+      "rede_wer": 0.023,
+      "ref_woerter": 755,
+      "top": 3
+    },
+    {
+      "sprecher": "Jörg Cezanne",
+      "rede_wer": 0.02,
+      "ref_woerter": 307,
+      "top": 4
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 1.5% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "39/165 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21073.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7651975"
+  },
+  "quelle_typ": "mediathek"
+}

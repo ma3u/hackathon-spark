@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 75,
+    "datum": "24.04.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.018,
+    "ref_woerter": 42456,
+    "editieroperationen": 775
+  },
+  "reden": {
+    "verglichen": 77,
+    "gesamt": 77
+  },
+  "reaktionen": {
+    "amtlich": 788,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Lisa Badum",
+      "rede_wer": 0.218,
+      "ref_woerter": 316,
+      "top": 1
+    },
+    {
+      "sprecher": "Florian Bilic",
+      "rede_wer": 0.199,
+      "ref_woerter": 649,
+      "top": 3
+    },
+    {
+      "sprecher": "Ralph Edelhäußer",
+      "rede_wer": 0.196,
+      "ref_woerter": 199,
+      "top": 6
+    },
+    {
+      "sprecher": "Dr. Alaa Alhamwi",
+      "rede_wer": 0.124,
+      "ref_woerter": 380,
+      "top": 5
+    },
+    {
+      "sprecher": "Frauke Heiligenstadt",
+      "rede_wer": 0.105,
+      "ref_woerter": 713,
+      "top": 1
+    },
+    {
+      "sprecher": "Kay Gottschalk",
+      "rede_wer": 0.105,
+      "ref_woerter": 238,
+      "top": 1
+    },
+    {
+      "sprecher": "Jan Feser",
+      "rede_wer": 0.089,
+      "ref_woerter": 820,
+      "top": 6
+    },
+    {
+      "sprecher": "Cansin Köktürk",
+      "rede_wer": 0.088,
+      "ref_woerter": 125,
+      "top": 6
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 1.8% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "77/77 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21075.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7652430"
+  },
+  "quelle_typ": "mediathek"
+}

@@ -1,0 +1,82 @@
+{
+  "sitzung": {
+    "wp": "21",
+    "nr": 77,
+    "datum": "07.05.2026"
+  },
+  "vergleich": "Mediathek-Untertitel (gesprochenes Wort) ↔ amtliches Protokoll",
+  "wer": {
+    "wer": 0.012,
+    "ref_woerter": 87482,
+    "editieroperationen": 1086
+  },
+  "reden": {
+    "verglichen": 170,
+    "gesamt": 170
+  },
+  "reaktionen": {
+    "amtlich": 1454,
+    "im_untertitel": 0,
+    "hinweis": "Untertitel erfassen Saalreaktionen nicht — separat via XML/SED."
+  },
+  "groesste_divergenzen": [
+    {
+      "sprecher": "Dr. Hendrik Streeck",
+      "rede_wer": 0.429,
+      "ref_woerter": 219,
+      "top": 3
+    },
+    {
+      "sprecher": "Dr. Carolin Wagner",
+      "rede_wer": 0.238,
+      "ref_woerter": 63,
+      "top": 12
+    },
+    {
+      "sprecher": "Dr. Janosch Dahmen",
+      "rede_wer": 0.144,
+      "ref_woerter": 409,
+      "top": 3
+    },
+    {
+      "sprecher": "Misbah Khan",
+      "rede_wer": 0.138,
+      "ref_woerter": 181,
+      "top": 3
+    },
+    {
+      "sprecher": "Misbah Khan",
+      "rede_wer": 0.134,
+      "ref_woerter": 119,
+      "top": 3
+    },
+    {
+      "sprecher": "Martin Reichardt",
+      "rede_wer": 0.133,
+      "ref_woerter": 218,
+      "top": 5
+    },
+    {
+      "sprecher": "Fabian Gramling",
+      "rede_wer": 0.132,
+      "ref_woerter": 197,
+      "top": 12
+    },
+    {
+      "sprecher": "Stella Merendino",
+      "rede_wer": 0.127,
+      "ref_woerter": 324,
+      "top": 3
+    }
+  ],
+  "bewertung": [
+    "Korrektur-Gap (WER) 1.2% — Abweichung Protokoll ↔ gesprochenes Wort gering",
+    "170/170 Reden ausgerichtet verglichen.",
+    "Kein Faktenfehler: Differenz = redaktionelle Korrektur (Korrekturrecht), als Diff modelliert."
+  ],
+  "quellen": {
+    "amtlich": "https://dserver.bundestag.de/btp/21/21077.pdf",
+    "mediathek": "https://dbtg.tv/fvid/7652884"
+  },
+  "quelle_typ": "mediathek"
+}
