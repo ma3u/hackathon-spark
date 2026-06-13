@@ -234,10 +234,14 @@
         const herk = m.herkunft === "youtube" ? "🎬 YouTube-Mitschnitt (mit Zeit-Deeplinks)"
           : m.herkunft === "mediathek" ? "📺 Bundestag-Mediathek (korrigierte Untertitel, sprecher-attribuiert)"
           : m.herkunft === "amtlich" ? "🟢 amtliches Plenarprotokoll" : null;
+        const ytNote = e && !e.youtube
+          ? `<div class="prop" style="color:var(--muted)">🎬 Kein YouTube-Gesamtmitschnitt für diese Sitzung — YouTube gibt nur die ~5 jüngsten Streams frei (vorhanden: 79, 81). Amtliches XML deckt alle 82 Sitzungen ab.</div>`
+          : "";
         $("meta").innerHTML = `<h2>${m.title || "Protokoll-Graph"}</h2>
           <div class="prop"><b>Quelle:</b> ${quelle}</div>
           ${herk ? `<div class="prop"><b>Herkunft:</b> ${herk}</div>` : ""}
-          <div class="prop"><b>Knoten:</b> ${m.node_count || 0} · <b>Beziehungen:</b> ${m.relationship_count || 0}</div>`;
+          <div class="prop"><b>Knoten:</b> ${m.node_count || 0} · <b>Beziehungen:</b> ${m.relationship_count || 0}</div>
+          ${ytNote}`;
       }
 
       // Legende DYNAMISCH: nur Schichten zeigen, die im aktuellen Graph wirklich vorkommen
@@ -265,10 +269,25 @@
           const r = data.relationships.find((r) => r.source_id === fcId && r.relationship_type === "BELEGT_MIT");
           return r ? byId[r.target_id] : null;
         };
-        const segOf = (claim) => {  // Aussage → Transkriptsegment (für Zeit-Deeplink)
+        const segOf = (claim) => {  // Aussage → Transkriptsegment (für Zeit-Deeplink, YouTube)
           if (!claim) return null;
           const r = data.relationships.find((r) => r.source_id === claim.id && r.relationship_type === "BELEGT_DURCH");
           return r ? byId[r.target_id] : null;
+        };
+        // Amtlich: kein Transkriptsegment in der Pages-Projektion → Deeplink über den
+        // passenden Redebeitrag (gleiche Person, möglichst gleicher TOP) → Mediathek-Video.
+        const redeOf = (claim) => {
+          if (!claim) return null;
+          const pe = data.relationships.find((r) => r.target_id === claim.id && r.relationship_type === "TAETIGT_AUSSAGE");
+          if (!pe) return null;
+          const te = data.relationships.find((r) => r.source_id === claim.id && r.relationship_type === "ZU_TOP");
+          const tid = te && te.target_id;
+          const reden = data.relationships
+            .filter((r) => r.source_id === pe.source_id && r.relationship_type === "HAT_REDEBEITRAG")
+            .map((r) => byId[r.target_id]).filter((rb) => rb && rb.video_url);
+          const sameTop = reden.find((rb) => tid && data.relationships.some(
+            (r) => r.source_id === rb.id && r.relationship_type === "ZU_TOP" && r.target_id === tid));
+          return sameTop || reden[0] || null;
         };
         const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
         const src = srcInfo(data), disc = data.metadata && data.metadata.factcheck_disclaimer;
@@ -277,9 +296,12 @@
           + checks.map((fc) => {
             const c = claimOf(fc.id), s = srcOf(fc.id), seg = segOf(c);
             let deep = "";
-            if (src && seg && seg.start_sec != null && src.video_id) {
+            if (src && seg && seg.start_sec != null && src.video_id) {  // YouTube: Zeit-Deeplink
               const t = Math.floor(seg.start_sec);
               deep = ` · <a class="cite" href="${ytLink(src.video_id, t)}" target="_blank" rel="noopener">▶ im Video [${mmss(t)}]</a>`;
+            } else {                                                    // Amtlich: Mediathek-Rede
+              const rb = redeOf(c);
+              if (rb && rb.video_url) deep = ` · <a class="cite" href="${rb.video_url}" target="_blank" rel="noopener">▶ Rede im Video</a>`;
             }
             return `<div class="fc ${fc.verdikt}">
             <span class="verdikt">${fc.verdikt.toUpperCase()}</span> — ${c ? c.person : ""}<br/>
@@ -396,6 +418,8 @@
         const off = $("srcOff"), yt = $("srcYt");
         off.disabled = !e.amtlich; yt.disabled = !e.youtube;
         off.style.opacity = e.amtlich ? "1" : ".4"; yt.style.opacity = e.youtube ? "1" : ".4";
+        yt.title = e.youtube ? "YouTube-Gesamtmitschnitt (Zeit-Deeplinks)"
+          : "Kein YouTube-Gesamtmitschnitt für diese Sitzung (nur 79/81 verfügbar)";
         off.classList.toggle("active", curSrc === "off"); yt.classList.toggle("active", curSrc === "yt");
       }
       function loadSession(e, src) {
@@ -432,7 +456,11 @@
         }).join("");
         sel.addEventListener("change", () =>
           loadSession(SESSIONS.find((x) => `${x.wp}-${x.nr}` === sel.value), "off"));
-        loadSession(SESSIONS[0], "off");  // neueste Sitzung, offiziell
+        // Start: neueste WP21-Sitzung mit committetem Graphen (zeigt Graph + Mediathek-
+        // Deeplinks + aktivierbaren YouTube-Umschalter) statt der WP20-Altsitzung.
+        const start = SESSIONS.find((e) => e.wp === "21" && e.amtlich && e.amtlich.graph) || SESSIONS[0];
+        sel.value = `${start.wp}-${start.nr}`;
+        loadSession(start, "off");
       }
 
       window.addEventListener("resize", sizeGraph);
