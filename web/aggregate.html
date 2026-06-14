@@ -5,26 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bundestag WP21 — Aggregat-Dashboard</title>
 <style>
+  /* Material Design · Bundestag-Look (hell, Blau, Elevation) — Klassennamen unverändert. */
   :root{
-    --bg:#0f1419; --card:#1a2230; --ink:#eef2f7; --muted:#9fb0c3; --line:#2b3850;
-    --best:#2e9e5b; --teil:#b9962e; --irre:#e07b2e; --fals:#d4453b; --unbe:#6b7a8f;
-    --accent:#4f8cff;
+    --bg:#eef1f5; --card:#ffffff; --card-2:#f6f8fb; --ink:#1a2330; --muted:#5b6776; --line:#d6dde6;
+    --best:#1e8e3e; --teil:#e0922f; --irre:#ef7a2a; --fals:#d23b3b; --unbe:#8a98a8;
+    --accent:#16467f; --accent-l:#e9eff7;
+    --e1:0 1px 2px rgba(16,49,96,.06),0 1px 3px rgba(16,49,96,.10);
+    --e2:0 4px 14px rgba(16,49,96,.14),0 2px 4px rgba(16,49,96,.08);
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);
-       font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-  header{padding:24px 20px 8px;max-width:1100px;margin:0 auto}
-  h1{font-size:1.6rem;margin:0 0 4px}
-  .sub{color:var(--muted);font-size:.9rem}
-  main{max-width:1100px;margin:0 auto;padding:8px 20px 60px}
-  section{background:var(--card);border:1px solid var(--line);border-radius:12px;
+  body{margin:0;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;
+       font:15px/1.55 "Roboto","Segoe UI",system-ui,-apple-system,sans-serif}
+  /* App-Bar (Bundestag-Blau), volle Breite + Elevation; Inhalt darunter zentriert */
+  header{background:var(--accent);color:#fff;padding:18px 24px;box-shadow:var(--e2)}
+  h1{font-size:1.5rem;margin:0 0 2px;font-weight:600;letter-spacing:.2px}
+  .sub{color:rgba(255,255,255,.82);font-size:.9rem}
+  main{max-width:1100px;margin:0 auto;padding:18px 20px 60px}
+  section{background:var(--card);border-radius:12px;box-shadow:var(--e1);
           padding:18px 20px;margin:16px 0}
-  h2{font-size:1.15rem;margin:0 0 14px;border-bottom:1px solid var(--line);padding-bottom:8px}
-  .note{background:#3a2e12;border:1px solid #7a5e1e;color:#ffe6a8;border-radius:10px;
+  h2{font-size:1.1rem;margin:0 0 14px;border-bottom:1px solid var(--line);padding-bottom:10px;
+     color:var(--accent);font-weight:600}
+  h2 .sub{color:var(--muted)}
+  .note{background:#fff8e1;border:1px solid #f0d28a;color:#7a5a12;border-radius:10px;
         padding:12px 14px;margin:12px 0;font-size:.9rem}
   .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
-  .tile{background:#121a26;border:1px solid var(--line);border-radius:10px;padding:14px}
-  .tile b{display:block;font-size:1.5rem}
+  .tile{background:var(--accent-l);border:1px solid var(--line);border-radius:10px;padding:14px}
+  .tile b{display:block;font-size:1.5rem;color:var(--accent)}
   .tile span{color:var(--muted);font-size:.82rem}
   table{width:100%;border-collapse:collapse;font-size:.9rem}
   th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line)}
@@ -32,20 +38,20 @@
   td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
   .scroll{max-height:480px;overflow:auto;border:1px solid var(--line);border-radius:8px}
   .bar{display:flex;align-items:center;gap:10px;margin:6px 0}
-  .bar .lab{width:190px;flex:none;color:var(--muted);font-size:.85rem;
+  .bar .lab{width:190px;flex:none;color:var(--ink);font-size:.85rem;
             overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .bar .track{flex:1;background:#121a26;border-radius:6px;overflow:hidden;height:18px}
+  .bar .track{flex:1;background:#e6ebf1;border-radius:6px;overflow:hidden;height:18px}
   .bar .fill{display:block;height:100%;min-width:2px;background:var(--accent)}
-  .bar .val{width:74px;flex:none;text-align:right;font-variant-numeric:tabular-nums;font-size:.85rem}
+  .bar .val{width:74px;flex:none;text-align:right;font-variant-numeric:tabular-nums;font-size:.85rem;color:var(--muted)}
   .stack{display:flex;height:22px;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
   .seg{height:100%}
   .legend{display:flex;flex-wrap:wrap;gap:14px;margin:10px 0;font-size:.84rem;color:var(--muted)}
   .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
   .best{background:var(--best)} .teil{background:var(--teil)} .irre{background:var(--irre)}
   .fals{background:var(--fals)} .unbe{background:var(--unbe)}
-  .pill{font-size:.78rem;padding:1px 7px;border-radius:20px;border:1px solid var(--line)}
-  .frag{color:#ff9b8f;font-weight:600}
-  .fakt{color:#7fd6a0;font-weight:600}
+  .pill{font-size:.78rem;padding:1px 8px;border-radius:20px;border:1px solid var(--line);background:var(--accent-l);color:var(--accent)}
+  .frag{color:#c5372f;font-weight:700}
+  .fakt{color:#1e8e3e;font-weight:700}
   ul.facts{margin:0;padding-left:18px} ul.facts li{margin:6px 0}
   a{color:var(--accent)}
   @media(max-width:560px){.bar .lab{width:120px}.bar .val{width:60px}}
