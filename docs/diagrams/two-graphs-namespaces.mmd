@@ -1,0 +1,12 @@
+%% graph-protokoll — two source-tagged graphs per session, global Person/Fraktion. ADR-0008.
+%% Source: README.md "Datenquellen → Graph"; scripts/sync_sessions.py; docs/spark-und-echtdaten.md.
+flowchart LR
+    subgraph S81["Sitzung WP21/081"]
+        XML["amtliches XML<br/>dserver.bundestag.de"] --> AMT["Graph amt_21_081<br/>herkunft=amtlich<br/>+ Mediathek-Deeplink je Rede"]
+        YT["YouTube-Gesamtmitschnitt<br/>@bundestag/streams (VTT)"] --> YTG["Graph yt_21_081<br/>herkunft=youtube<br/>Zeit-Deeplinks"]
+    end
+    AMT --> GAP{{"sync_sessions --gap<br/>WER · Reaktions-Recall"}}
+    YTG --> GAP
+    AMT -. teilen .-> PG[("Person / Fraktion<br/>GLOBAL, un-namespaced<br/>derselbe Mensch in beiden Graphen")]
+    YTG -. teilen .-> PG
+    PG --> GDS["GDS Mitsprache-Graph<br/>cross-session (PageRank/Louvain)"]

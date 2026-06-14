@@ -78,5 +78,18 @@
       "Bash(rm -rf ~:*)",
       "Bash(rm -rf /Users/ma3u:*)"
     ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.sh\""
+          }
+        ]
+      }
+    ]
   }
 }

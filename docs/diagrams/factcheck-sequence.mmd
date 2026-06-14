@@ -1,0 +1,25 @@
+%% graph-protokoll — fact-check sequence: real session = LLM verdict as captioned AI suggestion.
+%% Source: pipeline/factcheck.py (factcheck_with_retrieval / _with_llm, _LLM_DISCLAIMER, assert);
+%% ADR-0006, ADR-0007. Render: mermaid.
+sequenceDiagram
+    participant EX as extract (_is_checkable)
+    participant FC as factcheck.py
+    participant RET as Retrieval (Brave + DIP-API + Wikipedia)
+    participant LLM as LLM verifier (Azure Mistral-Large-3)
+    participant G as graph_build / Neo4j
+    participant H as Mensch-im-Loop (apply_corrections)
+
+    EX->>FC: Aussage (quantifizierbar, kein Versprechen)
+    alt fiktives Demo-Szenario
+        FC->>FC: factcheck_rule_based(evidenz.json)
+    else reale Sitzung
+        FC->>RET: Belege suchen
+        RET-->>FC: Quellen {titel, stand, url}
+        FC->>LLM: NLI gegen Belege
+        LLM-->>FC: verdikt ∈ VERDIKTE + begruendung
+        FC->>FC: begruendung = _LLM_DISCLAIMER + …
+    end
+    FC->>FC: assert all(fc.quelle) — Quelle Pflicht
+    FC-->>G: Faktencheck -GEPRUEFT_ALS-> ; -BELEGT_MIT-> Quelle ; metadata.factcheck_disclaimer
+    G-->>H: KI-Vorschlag (ungeprüft) — Banner
+    H->>G: freigeben / ablehnen / korrigieren (vor Veröffentlichung)

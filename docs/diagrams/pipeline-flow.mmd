@@ -1,0 +1,27 @@
+%% graph-protokoll — pipeline flow: two input fronts converge on one Protocol.
+%% Source: CLAUDE.md "Architecture"; README.md "die Pipeline"; ADR-0004.
+%% Render: mermaid (e.g. `mmdc -i pipeline-flow.mmd -o pipeline-flow.svg`).
+flowchart TD
+    A([🎙️ Audio mp3/wav]) --> ASR["asr.py<br/>Produktiv: faster-whisper large-v3<br/>Demo: load_pretranscribed"]
+    ASR --> DIA["diarize.py<br/>Produktiv: pyannote 3.1<br/>Demo: load_diarized"]
+    DIA --> ALI["align.py<br/>Produktiv: WhisperX align<br/>Demo: from_pretranscribed"]
+    X([📄 Amtliches Plenarprotokoll-XML<br/>DTD dbtplenarprotokoll]) --> BXML["bundestag_xml.py<br/>parse_plenarprotokoll<br/>(+ Saalreaktionen)"]
+
+    ALI --> P{{"Protocol<br/>tops·antraege·abstimmungen·beschluesse·<br/>befangenheiten·aufgaben·redebeitraege·<br/>aussagen·fragen·kommentare·utterances"}}
+    BXML --> P
+
+    P --> GB["graph_build.py<br/>SPARK-Format · 5 Schichten · BELEGT_DURCH"]
+    P --> FC["factcheck.py<br/>Verdikt + Quelle (immer)"]
+    FC --> GB
+    GB --> EXP["export.py<br/>JSON / CSV / Cypher"]
+    GB --> N4L["neo4j_loader.py<br/>idempotent · parametrisiert · _SAFE"]
+    GB --> DASH["dashboard.py / accessible.py<br/>Kennzahlen · Vorlesefassung"]
+    N4L --> NEO[("Neo4j")]
+    NEO --> RAG["neo4j_graphrag.py (Text2Cypher)<br/>graphrag.py (offline Demo)"]
+    GB --> WEB["web/index.html<br/>3D-Graph + Faktencheck-Panel"]
+    RAG --> ANS([Antwort + ↳ Audiobeleg])
+
+    classDef demo fill:#e6f4ea,stroke:#34a853;
+    classDef prod fill:#e8f0fe,stroke:#4285f4;
+    class ASR,DIA,ALI,FC,RAG prod;
+    class GB,EXP,DASH,WEB demo;

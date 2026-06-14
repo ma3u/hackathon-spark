@@ -7,6 +7,12 @@ Every extracted statement is provable down to the audio second (`BELEGT_DURCH`).
 
 Code, docs, and domain identifiers are **German**. Demo data is **entirely fictional**.
 
+## Detailed rules (imported — keep this prefix stable & cacheable)
+
+@.claude/rules/code-style.md
+@.claude/rules/testing.md
+@.claude/rules/api-conventions.md
+
 ## Build & run commands
 
 The demo path needs **only Python 3.11+ (stdlib)** — no GPU, models, network, or pip.
@@ -130,3 +136,19 @@ See `.claude/rules/code-style.md` and `.claude/rules/api-conventions.md` for det
    `factcheck_rule_based` against the fictional `evidenz.json` is for the **fictional demo
    scenarios only**. (Policy updated 2026-06: previously real sessions ran `--no-factcheck`;
    now real content is LLM-checked with a disclaimer.) See `docs/spark-und-echtdaten.md`.
+
+## Knowledge & planning
+
+Depth lives on demand, not in this prefix — load these when a task needs them:
+
+- **Knowledge (OKF bundle):** [`docs/knowledge/index.md`](docs/knowledge/index.md) — one
+  concept per file (datamodels · services · apis · runbooks · decisions); change log in
+  `docs/knowledge/log.md`.
+- **Planning board:** [`docs/planning/index.md`](docs/planning/index.md) — `future/ →
+  current/ → done/`, mirrored from the live tracker `docs/challenge-plan.md`. Groom with
+  `/plan`.
+- **Architecture decisions:** [`docs/adr/`](docs/adr/) — Nygard-style, immutable (supersede,
+  never edit). Structural ADRs link a before/after diagram in `docs/diagrams/`.
+- **Subagents:** `architect` (design), `implementer` (change), `reviewer`/`tester`/
+  `security-test`/`compliance-reviewer` (verify). **Slash commands:** `/review`, `/fix-issue`,
+  `/deploy-check`, `/plan`.

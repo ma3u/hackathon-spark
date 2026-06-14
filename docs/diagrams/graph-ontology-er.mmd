@@ -1,0 +1,32 @@
+%% graph-protokoll — 5-layer ontology + key relationships (SPARK graph format).
+%% Source: pipeline/graph_build.py; README.md "Vier-Schichten-Ontologie";
+%% .claude/rules/api-conventions.md §5; ADR-0003, ADR-0005, ADR-0012.
+%% Layers (schicht): normativ · zeitlich · prozedural · fallbezug · reaktion · faktencheck · provenienz
+erDiagram
+    Sitzung ||--o{ Tagesordnungspunkt : HAT_TOP
+    Person }o--|| Fraktion : MITGLIED_VON
+    Sitzung }o--|| Person : GELEITET_VON
+    Tagesordnungspunkt ||--o{ Antrag : BEHANDELT_ANTRAG
+    Antrag ||--o{ Abstimmung : ENTSCHIEDEN_DURCH
+    Abstimmung ||--o| Beschluss : FUEHRT_ZU
+    Beschluss ||--o{ Aufgabe : ERZEUGT_AUFGABE
+    Person }o--o{ Tagesordnungspunkt : BEFANGEN_BEI
+    Person ||--o{ Redebeitrag : HAT_REDEBEITRAG
+    Redebeitrag }o--|| Tagesordnungspunkt : ZU_TOP
+    Person ||--o{ Aussage : TAETIGT_AUSSAGE
+    Aussage ||--|| Faktencheck : GEPRUEFT_ALS
+    Faktencheck ||--|| Quelle : BELEGT_MIT
+    Redebeitrag ||--o{ AkustischesEreignis : HAT_REAKTION
+    Beschluss ||--o{ Transkriptsegment : BELEGT_DURCH
+    Aussage ||--o{ Transkriptsegment : BELEGT_DURCH
+    Abstimmung ||--o{ Transkriptsegment : BELEGT_DURCH
+
+    Sitzung { string schicht "zeitlich" }
+    Norm { string schicht "normativ (kommunal)" }
+    Tagesordnungspunkt { string schicht "prozedural" }
+    Beschluss { string schicht "prozedural" }
+    Person { string schicht "fallbezug" }
+    Aussage { string schicht "fallbezug" }
+    AkustischesEreignis { string schicht "reaktion" }
+    Faktencheck { string schicht "faktencheck" }
+    Transkriptsegment { float start_sec "provenienz" }
