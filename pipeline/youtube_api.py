@@ -96,6 +96,47 @@ def collect_session(nr, *, api_key: str | None = None, max_pages: int = 40) -> l
     return clips
 
 
+def all_session_clips(*, api_key: str | None = None, max_pages: int = 400) -> dict[int, list[dict]]:
+    """EIN Durchlauf der Uploads-Playlist → Clips gruppiert nach Sitzungsnummer.
+
+    Effizient für Massen-Operationen (statt `collect_session` je Sitzung neu zu scannen): ein
+    Voll-Scan kostet ~1 Quota-Einheit/Seite (≤50 Items). Gibt {nr: [{video_id, top, topic, url}]}.
+    """
+    api_key = api_key or os.environ.get("YOUTUBE_API_KEY")
+    if not api_key:
+        raise RuntimeError("YOUTUBE_API_KEY fehlt (.env) — für die YouTube Data API nötig.")
+    _, uploads = uploads_playlist(api_key)
+    by_session: dict[int, list[dict]] = {}
+    page_token, pages = None, 0
+    while pages < max_pages:
+        params = dict(part="snippet", playlistId=uploads, maxResults=50)
+        if page_token:
+            params["pageToken"] = page_token
+        data = _get("playlistItems", api_key, **params)
+        for item in data.get("items", []):
+            sn = item["snippet"]
+            title = sn.get("title", "")
+            m = _NR.search(title)
+            if not m:
+                continue
+            if "Sitzung vom" not in title and ", TOP" not in title and ". TOP" not in title:
+                continue
+            mt = _TOP.search(title)
+            top = mt.group(1).strip() if mt else "TOP"
+            topic = mt.group(2).strip() if mt else title.split(".")[-1].strip()
+            vid = sn["resourceId"]["videoId"]
+            by_session.setdefault(int(m.group(1)), []).append(
+                {"video_id": vid, "top": top, "topic": topic,
+                 "url": f"https://www.youtube.com/watch?v={vid}"})
+        page_token = data.get("nextPageToken")
+        pages += 1
+        if not page_token:
+            break
+    for nr in by_session:
+        by_session[nr].reverse()
+    return by_session
+
+
 if __name__ == "__main__":
     import sys
 

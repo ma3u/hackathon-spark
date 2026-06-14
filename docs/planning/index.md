@@ -17,6 +17,7 @@ this board with `/plan`. Frontmatter: `title, status, owner, updated`, optional 
 - [YouTube Data API v3 integration (official clip discovery)](done/youtube-data-api-integration.md)
 
 ## 🔜 current
+- [All-81 YouTube completeness + aggregate dashboard](current/all-81-youtube-completeness.md)
 - [CI: upgrade GitHub Actions to Node-24-capable versions](current/ci-actions-node24-upgrade.md)
 
 ## ⬜ future

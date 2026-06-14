@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bundestag WP21 — Aggregat-Dashboard</title>
+<style>
+  :root{
+    --bg:#0f1419; --card:#1a2230; --ink:#eef2f7; --muted:#9fb0c3; --line:#2b3850;
+    --best:#2e9e5b; --teil:#b9962e; --irre:#e07b2e; --fals:#d4453b; --unbe:#6b7a8f;
+    --accent:#4f8cff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  header{padding:24px 20px 8px;max-width:1100px;margin:0 auto}
+  h1{font-size:1.6rem;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:.9rem}
+  main{max-width:1100px;margin:0 auto;padding:8px 20px 60px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:12px;
+          padding:18px 20px;margin:16px 0}
+  h2{font-size:1.15rem;margin:0 0 14px;border-bottom:1px solid var(--line);padding-bottom:8px}
+  .note{background:#3a2e12;border:1px solid #7a5e1e;color:#ffe6a8;border-radius:10px;
+        padding:12px 14px;margin:12px 0;font-size:.9rem}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+  .tile{background:#121a26;border:1px solid var(--line);border-radius:10px;padding:14px}
+  .tile b{display:block;font-size:1.5rem}
+  .tile span{color:var(--muted);font-size:.82rem}
+  table{width:100%;border-collapse:collapse;font-size:.9rem}
+  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--card)}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .scroll{max-height:480px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+  .bar{display:flex;align-items:center;gap:10px;margin:6px 0}
+  .bar .lab{width:190px;flex:none;color:var(--muted);font-size:.85rem;
+            overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .bar .track{flex:1;background:#121a26;border-radius:6px;overflow:hidden;height:18px}
+  .bar .fill{height:100%;background:var(--accent)}
+  .bar .val{width:74px;flex:none;text-align:right;font-variant-numeric:tabular-nums;font-size:.85rem}
+  .stack{display:flex;height:22px;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+  .seg{height:100%}
+  .legend{display:flex;flex-wrap:wrap;gap:14px;margin:10px 0;font-size:.84rem;color:var(--muted)}
+  .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+  .best{background:var(--best)} .teil{background:var(--teil)} .irre{background:var(--irre)}
+  .fals{background:var(--fals)} .unbe{background:var(--unbe)}
+  .pill{font-size:.78rem;padding:1px 7px;border-radius:20px;border:1px solid var(--line)}
+  .frag{color:#ff9b8f;font-weight:600}
+  .fakt{color:#7fd6a0;font-weight:600}
+  ul.facts{margin:0;padding-left:18px} ul.facts li{margin:6px 0}
+  a{color:var(--accent)}
+  @media(max-width:560px){.bar .lab{width:120px}.bar .val{width:60px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>🏛️ Bundestag WP21 — Aggregat-Dashboard</h1>
+  <div class="sub" id="sub">lädt …</div>
+</header>
+<main id="app" aria-live="polite">lädt …</main>
+
+<script>
+const V = ["bestätigt","teilweise","irreführend","falsch","unbelegt"];
+const VC = {"bestätigt":"best","teilweise":"teil","irreführend":"irre","falsch":"fals","unbelegt":"unbe"};
+const fmt = n => (n??0).toLocaleString("de-DE");
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function bars(items, label, value, max){
+  const m = max || Math.max(1,...items.map(value));
+  return items.map(it=>`<div class="bar"><span class="lab" title="${esc(label(it))}">${esc(label(it))}</span>
+    <span class="track"><span class="fill" style="width:${(value(it)/m*100).toFixed(1)}%"></span></span>
+    <span class="val">${fmt(value(it))}</span></div>`).join("");
+}
+function stack(counts){
+  const tot = V.reduce((a,v)=>a+(counts[v]||0),0)||1;
+  return `<div class="stack" role="img" aria-label="${V.map(v=>v+': '+(counts[v]||0)).join(', ')}">`
+    + V.map(v=>`<span class="seg ${VC[v]}" style="width:${((counts[v]||0)/tot*100).toFixed(1)}%"></span>`).join("")
+    + `</div>`;
+}
+const legend = `<div class="legend">`+V.map(v=>`<span><i class="${VC[v]}"></i>${v}</span>`).join("")+`</div>`;
+
+function render(d){
+  const m=d.meta, q=m.quellen, K=d.kennzahlen, F=d.faktencheck;
+  document.getElementById("sub").textContent =
+    `Stand ${m.stand} · ${q.amtliche_dashboards} amtliche Sitzungen · `
+    + `${q.voll_graphen_mit_faktencheck} mit Faktencheck · ${q.youtube_sitzungen_mit_clips} mit YouTube-Clips`;
+
+  const tiles = [
+    ["Sitzungen", q.amtliche_dashboards],["Reden", K.reden],["Wörter", K.woerter],
+    ["Saalreaktionen", K.saalreaktionen],["geprüfte Aussagen", K["geprüfte_aussagen"]],
+    ["TOPs", K.tops],["YouTube-Clips", d.youtube_abdeckung.clips_gesamt],
+  ].map(([l,v])=>`<div class="tile"><b>${fmt(v)}</b><span>${l}</span></div>`).join("");
+
+  const persons = F.je_person.map(s=>`<tr>
+    <td>${esc(s.name)}</td><td>${esc(s.fraktion)}</td>
+    <td class="num">${s["geprüft"]}</td>
+    <td class="num fakt">${s.faktenbasiert}</td>
+    <td class="num frag">${s["fragwürdig"]}</td>
+    <td class="num">${s.unbelegt}</td>
+    <td style="min-width:120px">${stack(s)}</td></tr>`).join("");
+
+  const frakt = Object.entries(F.je_fraktion)
+    .sort((a,b)=>V.reduce((s,v)=>s+(b[1][v]||0),0)-V.reduce((s,v)=>s+(a[1][v]||0),0))
+    .map(([fr,c])=>`<tr><td>${esc(fr)}</td><td style="min-width:160px">${stack(c)}</td>
+      <td class="num">${V.reduce((s,v)=>s+(c[v]||0),0)}</td></tr>`).join("");
+
+  const trend = F.trend_je_sitzung.map(t=>`<tr><td>${t.wp}/${t.nr}</td>
+    <td style="min-width:160px">${stack(t.verdikte)}</td>
+    <td class="num">${V.reduce((s,v)=>s+(t.verdikte[v]||0),0)}</td></tr>`).join("");
+
+  document.getElementById("app").innerHTML = `
+  <section><h2>📊 Kennzahlen (alle Sitzungen)</h2><div class="tiles">${tiles}</div></section>
+
+  <section><h2>🧩 Themen nach Redevolumen</h2>
+    ${bars(d.themen_nach_redevolumen, t=>t.thema, t=>t.woerter)}</section>
+
+  <section><h2>🗣️ Top-Redner:innen (Wörter gesamt)</h2>
+    <div class="scroll"><table><thead><tr><th>Name</th><th>Fraktion</th>
+      <th class="num">Wörter</th><th class="num">Reden</th></tr></thead><tbody>
+      ${d.top_redner.map(r=>`<tr><td>${esc(r.name)}</td><td>${esc(r.fraktion)}</td>
+        <td class="num">${fmt(r.woerter)}</td><td class="num">${r.reden}</td></tr>`).join("")}
+    </tbody></table></div></section>
+
+  <section><h2>✅ Faktencheck — Verdikt-Verteilung</h2>
+    <p class="note" role="note">⚠️ ${esc(m.disclaimer_faktencheck)}</p>
+    ${legend}
+    ${bars(V.map(v=>({v,n:F.verdikt_gesamt[v]||0})), x=>x.v, x=>x.n)}</section>
+
+  <section><h2>👤 Aussagen je Person — faktenbasiert vs. fragwürdig <span class="pill">KI-Vorschlag, kein Urteil</span></h2>
+    <p class="sub">„faktenbasiert" = bestätigt + teilweise · „fragwürdig" = irreführend + falsch. ${q.voll_graphen_mit_faktencheck} geprüfte Sitzungen.</p>
+    ${legend}
+    <div class="scroll"><table><thead><tr><th>Person</th><th>Fraktion</th>
+      <th class="num">geprüft</th><th class="num">faktenbasiert</th><th class="num">fragwürdig</th>
+      <th class="num">unbelegt</th><th>Verteilung</th></tr></thead><tbody>${persons}</tbody></table></div></section>
+
+  <section><h2>🏳️ Faktencheck je Fraktion</h2>${legend}
+    <div class="scroll"><table><thead><tr><th>Fraktion</th><th>Verteilung</th><th class="num">geprüft</th></tr></thead>
+    <tbody>${frakt}</tbody></table></div></section>
+
+  <section><h2>📈 Trend je Sitzung (geprüfte Showcase-Sitzungen)</h2>${legend}
+    <div class="scroll"><table><thead><tr><th>WP/Nr</th><th>Verdikte</th><th class="num">gesamt</th></tr></thead>
+    <tbody>${trend}</tbody></table></div></section>
+
+  <section><h2>🎬 YouTube-Clip-Abdeckung</h2>
+    <p>${d.youtube_abdeckung.ingestiert} / ${d.youtube_abdeckung.gesamt} Sitzungen mit Clips
+       (${fmt(d.youtube_abdeckung.clips_gesamt)} Clips, Discovery via YouTube Data API v3).</p>
+    <p class="sub">Ohne Clips (amtliches XML in Neo4j): ${d.youtube_abdeckung.ohne_clips.join(", ")||"–"}</p>
+    ${d.youtube_clip_themen?.length?("<h3 style='font-size:.95rem;color:var(--muted)'>Häufigste Clip-Themen</h3>"+bars(d.youtube_clip_themen, t=>t.thema, t=>t.clips)):""}</section>
+
+  <section><h2>✨ Fun Facts</h2><ul class="facts">${d.fun_facts.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></section>
+
+  <section class="sub"><p>${esc(m.hinweis)}</p>
+    <p>Daten dep-frei erzeugt aus <code>web/data/*.json</code> · <a href="index.html">← 3D-Graph</a></p></section>`;
+}
+
+fetch("data/aggregate_dashboard.json").then(r=>r.json()).then(render).catch(e=>{
+  document.getElementById("app").innerHTML =
+    `<section><h2>Fehler</h2><p>aggregate_dashboard.json nicht geladen: ${esc(e.message)}.<br>
+     Erst <code>python3 scripts/aggregate_dashboard.py</code> ausführen.</p></section>`;
+});
+</script>
+</body>
+</html>

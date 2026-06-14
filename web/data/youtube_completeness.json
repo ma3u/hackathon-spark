@@ -1,0 +1,1017 @@
+{
+  "generated_for": "WP21 1-81",
+  "sessions_total": 81,
+  "sessions_ingested": 56,
+  "sessions_without_clips": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    11,
+    12,
+    13,
+    16,
+    17,
+    19,
+    20,
+    23,
+    25,
+    26,
+    29,
+    30,
+    33,
+    36,
+    39,
+    44,
+    45,
+    46,
+    52,
+    55
+  ],
+  "total_clips": 377,
+  "total_nodes": 1240,
+  "sessions": {
+    "1": {
+      "clips": 11,
+      "tops": 11,
+      "nodes": 35,
+      "rels": 55,
+      "topics": [
+        "Eröffnung der Sitzung durch den Alterspräsidenten",
+        "Beschlussfassung über die Geschäftsordnung",
+        "Eröffnung der Sitzung durch den Alters­präsidenten",
+        "Wahl der Präsidentin­/des Präsidenten",
+        "Amtsübernahme durch die Präsidentin/den Präsidenten",
+        "Wahl der Präsidentin/des Präsidenten",
+        "Beschluss­fassung über Geschäfts­ordnungen",
+        "Wahl der Stellvertreterinnen und Stellvertreter",
+        "Festlegung der Zahl der Stellvertreterinnen und Stellvertreter",
+        "Amtsübernahme durch die Präsidentin",
+        "Sitzung, TOP 5-7: Festlegung der Zahl und Wahl der Stell­ver­treterinnen­/Stell­vertreter der Pr"
+      ],
+      "status": "ingested"
+    },
+    "2": {
+      "clips": 4,
+      "tops": 4,
+      "nodes": 14,
+      "rels": 20,
+      "topics": [
+        "Infektionsschutzgesetz, Impfpassfälschung",
+        "Eidesleistung des Bundeskanzlers",
+        "Bekanntgabe der Bildung der Bundesregierung",
+        "Eidesleistung der Bundesministerinnen und Bundesminister"
+      ],
+      "status": "ingested"
+    },
+    "3": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "4": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "5": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "6": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "7": {
+      "clips": 5,
+      "tops": 5,
+      "nodes": 17,
+      "rels": 25,
+      "topics": [
+        "Miet­wucher­gesetz",
+        "Erneuer­bare Energien",
+        "Bundes­wehr­ein­satz im Libanon (UNIFIL)",
+        "Bundes­wehr­ein­satz EUFOR ALTHEA",
+        "Reform der Ein­bürgerungs­politik"
+      ],
+      "status": "ingested"
+    },
+    "8": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "75 Jahre Mitglied­schaft Deutschlands im Europa­rat",
+        "Kohlen­stoff­dioxid-Bepreisung"
+      ],
+      "status": "ingested"
+    },
+    "9": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "10": {
+      "clips": 5,
+      "tops": 5,
+      "nodes": 17,
+      "rels": 25,
+      "topics": [
+        "16: Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz",
+        "Befragung der Bundesregierung",
+        "Liefer­ketten­sorgfalts­pflichten­abschaffungs­gesetz",
+        "Europa­recht - Zurück­weisungen an den Binnen­grenzen",
+        "Zulässige Miet­höhe"
+      ],
+      "status": "ingested"
+    },
+    "11": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "12": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "13": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "14": {
+      "clips": 4,
+      "tops": 4,
+      "nodes": 14,
+      "rels": 20,
+      "topics": [
+        "Klima­schutz­folgen­be­reinigungs­gesetz",
+        "Zu­lässige Miet­höhe, Miet­preis­bremse",
+        "Queer­feind­liche Hass­kriminalität",
+        "Wirtschafts­standort Deutschland"
+      ],
+      "status": "ingested"
+    },
+    "15": {
+      "clips": 1,
+      "tops": 1,
+      "nodes": 5,
+      "rels": 5,
+      "topics": [
+        "Aussetzung des Familiennachzugs"
+      ],
+      "status": "ingested"
+    },
+    "16": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "17": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "18": {
+      "clips": 3,
+      "tops": 3,
+      "nodes": 11,
+      "rels": 15,
+      "topics": [
+        "Ver­län­gerung der Sonder­regelungen beim Kurz­arbeiter­geld",
+        "Heiz­kosten­zuschuss­gesetz",
+        "Vereinbarte Debatte - Arbeits­programm 2022 der Europä­ischen Kommission"
+      ],
+      "status": "ingested"
+    },
+    "19": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "20": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "21": {
+      "clips": 8,
+      "tops": 8,
+      "nodes": 26,
+      "rels": 40,
+      "topics": [
+        "Impf­pflicht gegen SARS-CoV-2",
+        "Sichere Energie­versorgung",
+        "Vereinbarte Debatte - 30 Jahre Enquete-Kommission zur Auf­arbeitung der SED-Dik",
+        "Meinungs­freiheit in Sozialen Netz­werken",
+        "Aufnahmezusagen für Personen aus Afghanistan",
+        "NIS-2 Richtlinie",
+        "Grenzkontrollen und Zurückweisung",
+        "Entbürokratisierung in der Pflege, Pflegefachassistenzeinführung"
+      ],
+      "status": "ingested"
+    },
+    "22": {
+      "clips": 4,
+      "tops": 4,
+      "nodes": 14,
+      "rels": 20,
+      "topics": [
+        "Trans­formation der Auto­mobil­industrie, Verkehrs­projekte",
+        "Sitzung, TOP 21, ZP 15-18: Infektions­schutz­gesetz und weitere corona­bedingte Regelungen",
+        "TOP 25, 10: Infrastrukturinvestitionen von Ländern und Kommunen",
+        "Mehrwertsteuerbefreiungen"
+      ],
+      "status": "ingested"
+    },
+    "23": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "24": {
+      "clips": 1,
+      "tops": 1,
+      "nodes": 5,
+      "rels": 5,
+      "topics": [
+        "TOP Epl 04, 22: Bundeskanzler und Bundeskanzleramt, Unabhängiger Kontro"
+      ],
+      "status": "ingested"
+    },
+    "25": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "26": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "27": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "Befragung der Bundes­regierung mit Bundes­kanzler Olaf Scholz",
+        "Bundeskanzler und Bundeskanzleramt"
+      ],
+      "status": "ingested"
+    },
+    "28": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "Steuer­nach­zahlung bei Kurz­arbeiter­geld",
+        "Gleich­stellungs­bericht der Bundes­regierung"
+      ],
+      "status": "ingested"
+    },
+    "29": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "30": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "31": {
+      "clips": 4,
+      "tops": 4,
+      "nodes": 14,
+      "rels": 20,
+      "topics": [
+        "GEAS-Anpassungsgesetz und GEAS-Anpassungsfolgegesetz",
+        "Artikel 3 GG - Einfügung des Merkmals sexuelle Identität",
+        "Wohnungsbau und Wohnraumsicherung",
+        "Migrationswende"
+      ],
+      "status": "ingested"
+    },
+    "32": {
+      "clips": 1,
+      "tops": 1,
+      "nodes": 5,
+      "rels": 5,
+      "topics": [
+        "Tariftreuegesetz"
+      ],
+      "status": "ingested"
+    },
+    "33": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "34": {
+      "clips": 7,
+      "tops": 7,
+      "nodes": 23,
+      "rels": 35,
+      "topics": [
+        "Ausbau erneuer­barer Energien, Energie­wirtschafts­recht",
+        "Änderung des Bundes­aus­bildungs­förderungs­gesetzes",
+        "Arbeits­be­dingungen in der Pflege",
+        "Notfallversorgung, Kranken- und Pflegeversicherung",
+        "Gesetzliche RV - Rentenniveau und Betriebsrenten",
+        "Antifa-Verbote",
+        "Regierungserklärung zum Europäischen Rat"
+      ],
+      "status": "ingested"
+    },
+    "35": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "Renten­anpassung 2022",
+        "Wehr­hafte Demo­kratie gegenüber Extre­mis­mus"
+      ],
+      "status": "ingested"
+    },
+    "36": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "37": {
+      "clips": 4,
+      "tops": 4,
+      "nodes": 14,
+      "rels": 20,
+      "topics": [
+        "EU-Richtlinie zur Resilienz kritischer Anlagen",
+        "25 Jahre UN-Resolution \"Frauen, Frieden, Sicherheit\"",
+        "Entbürokratisierung in der Pflege",
+        "Steuerreform"
+      ],
+      "status": "ingested"
+    },
+    "38": {
+      "clips": 4,
+      "tops": 4,
+      "nodes": 14,
+      "rels": 20,
+      "topics": [
+        "Wohn­eigen­tums­förderung, Gebäude­effizienz­förderung",
+        "Bundes­wehr­ein­satz im Sahel mit Schwer­punkt Niger (EUTM Mali)",
+        "Standortfördergesetz",
+        "Windindustrie und Photovoltaik"
+      ],
+      "status": "ingested"
+    },
+    "39": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "40": {
+      "clips": 4,
+      "tops": 4,
+      "nodes": 14,
+      "rels": 20,
+      "topics": [
+        "Hightech Agenda Deutschland",
+        "Wirtschaft 2045, Wärmewende",
+        "TOP 9, ZP 2,16: Bekämpfung von Schwarzarbeit",
+        "Klimaschutzfolgenbereinigungsgesetz"
+      ],
+      "status": "ingested"
+    },
+    "41": {
+      "clips": 1,
+      "tops": 1,
+      "nodes": 5,
+      "rels": 5,
+      "topics": [
+        "Aktivrentengesetz"
+      ],
+      "status": "ingested"
+    },
+    "42": {
+      "clips": 1,
+      "tops": 1,
+      "nodes": 5,
+      "rels": 5,
+      "topics": [
+        "2025, TOP I: Haushaltsgesetz 2026"
+      ],
+      "status": "ingested"
+    },
+    "43": {
+      "clips": 1,
+      "tops": 1,
+      "nodes": 5,
+      "rels": 5,
+      "topics": [
+        "TOP Epl 04, 22: Bundeskanzler und Bundeskanzleramt, Unabhängiger Kontro"
+      ],
+      "status": "ingested"
+    },
+    "44": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "45": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "46": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "47": {
+      "clips": 5,
+      "tops": 5,
+      "nodes": 17,
+      "rels": 25,
+      "topics": [
+        "Vereinbarte Debatte - Ein Jahr nach der Flut­katastrophe",
+        "Steueränderungsgesetz 2025",
+        "EU-Klimapolitik",
+        "Bewerbung für Olympische und Paralympische Sommerspiele",
+        "Entlassungsforderung des BKM"
+      ],
+      "status": "ingested"
+    },
+    "48": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "Wehrdienst-Modernisierungsgesetz",
+        "Bargeld und Bitcoin"
+      ],
+      "status": "ingested"
+    },
+    "49": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "Befragung der Bundesregierung (Bundeskanzler)",
+        "TOP Sitzungseröffnung:"
+      ],
+      "status": "ingested"
+    },
+    "50": {
+      "clips": 3,
+      "tops": 3,
+      "nodes": 11,
+      "rels": 15,
+      "topics": [
+        "Modernisierung des Bundespolizeigesetzes",
+        "Einsetzung eines UA in der 21. WP",
+        "Demokratiefördergesetz"
+      ],
+      "status": "ingested"
+    },
+    "51": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "Standortfördergesetz",
+        "Erbschaftsteuer"
+      ],
+      "status": "ingested"
+    },
+    "52": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "53": {
+      "clips": 4,
+      "tops": 4,
+      "nodes": 14,
+      "rels": 20,
+      "topics": [
+        "Grund­sicherungs­geld, Leistungs­rechts­anpassungs­gesetz",
+        "Mittel­stands­politik, Wärme­pumpen­offensive",
+        "Bürokratie­rück­bau",
+        "Trans­parenz und das Targeting politischer Werbung"
+      ],
+      "status": "ingested"
+    },
+    "54": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "Daten­ver­ordnung, Daten-Governance-Gesetz",
+        "Natur- u. Umwelt­schutz b. Wind­kraft- u. Solar­anlagen"
+      ],
+      "status": "ingested"
+    },
+    "55": {
+      "clips": 0,
+      "status": "keine_clips"
+    },
+    "56": {
+      "clips": 6,
+      "tops": 6,
+      "nodes": 20,
+      "rels": 30,
+      "topics": [
+        "Resilienz kritischer Infrastruktur",
+        "Aktuelle Stunde - Anwendung des Mercosur-Abkommens",
+        "Beschäftigtenrechte bei Essenslieferdiensten",
+        "Bürokratierückbau im Bereich des BMI",
+        "Be­kämpfung der Clan­kriminalität",
+        "Resilienz kritischer Infra­struktur"
+      ],
+      "status": "ingested"
+    },
+    "57": {
+      "clips": 2,
+      "tops": 2,
+      "nodes": 8,
+      "rels": 10,
+      "topics": [
+        "Regie­rungs­erklärung z. Jahres­wirtschafts­bericht 2026",
+        "Mobilitäts­garantie"
+      ],
+      "status": "ingested"
+    },
+    "58": {
+      "clips": 7,
+      "tops": 7,
+      "nodes": 23,
+      "rels": 35,
+      "topics": [
+        "Befragung der Bundesregierung (BMVg und BMG)",
+        "Fragestunde",
+        "Aktuelle Stunde",
+        "Solidarität mit der Ukraine",
+        "Abschaffung des Heizungsgesetzes",
+        "TOP ZP 4, 5: Finanzierung von Startups/Scaleups, Bürokratieabbau",
+        "Missbrauch von Vaterschaftsanerkennungen"
+      ],
+      "status": "ingested"
+    },
+    "59": {
+      "clips": 25,
+      "tops": 24,
+      "nodes": 76,
+      "rels": 124,
+      "topics": [
+        "Tariftreuegesetz",
+        "TOP ZP 7, 9: Klimaschutz, bezahlbarer Strom",
+        "Kontrollen und Zurückweisungen an der Grenze",
+        "Reform der privaten Altersvorsorge",
+        "Demokratische Schule",
+        "Wasserstoffhochlauf",
+        "Abschaffung der Grundsteuer",
+        "Änderung des Luftsicherheitsgesetzes",
+        "Arbeitsmarktpolitik",
+        "Schutz vor Einschüchterungsklagen",
+        "Mietrecht, Wohngeld- und Mietenbericht 2024",
+        "Urteil des BVerfG zur Vaterschaftsanfechtung",
+        "Verbot der Islamischen Revolutionsgarde des Iran",
+        "Nichtmilitärische Bedrohungen aus der Luft",
+        "Nachhaltige Nutzung der Meere, Hochseeschutzgesetz",
+        "Änderung des Chemikaliengesetzes",
+        "Änderung des Registerzensuserprobungsgesetzes",
+        "Wahleinsprüche anlässlich der Bundestagswahl 2025",
+        "Weiterentwicklung der Treibhausgasminderungs-Quote",
+        "Infrastruktur-Zukunftsgesetz",
+        "Aktuelle Stunde: Verwandtenbeschäftigung bei AfD-Abgeordnete",
+        "Schuldenschnitt für die Ukraine",
+        "Änderung des Umwelt-Rechtsbehelfsgesetzes",
+        "Infrastruktur-Zukunftsgesetz",
+        "Kontrollen und Zurück­weisungen an der Grenze"
+      ],
+      "status": "ingested"
+    },
+    "60": {
+      "clips": 12,
+      "tops": 12,
+      "nodes": 38,
+      "rels": 60,
+      "topics": [
+        "Bürgergeld-Gesetz, Sozialer Arbeits­markt",
+        "Wohn­geld-Plus-Gesetz, Heiz­kosten­zuschuss­gesetz",
+        "Strom- und Gas­sperren, Gas- und Strom­preis­deckel",
+        "Roh­stoff­politik",
+        "TOP ZP 14 - 16: Reform des Gemeinsamen Europäischen Asylsystems",
+        "Rohstoffpolitik",
+        "Elektronische Aufenthaltsüberwachung",
+        "Recht auf Heizen",
+        "Apothekenversorgung-Weiterentwicklungsgesetz",
+        "TOP ZP 17, 18: Schwangerschaftsabbrüche, reproduktive Gerechtigkeit",
+        "Politische-Werbung-Transparenz-Gesetz",
+        "Aktuelle Stunde: Bekämpfung von sexualisiertem Missbrauch"
+      ],
+      "status": "ingested"
+    },
+    "61": {
+      "clips": 6,
+      "tops": 6,
+      "nodes": 20,
+      "rels": 30,
+      "topics": [
+        "Befragung der Bundesregierung (BMBFSFJ und BMUKN)",
+        "Fragestunde",
+        "Aktuelle Stunde: Die Lage im Iran und in der Region",
+        "Modernisierung des Produkthaftungsrechts",
+        "Demokratieförderung",
+        "Unabhängigkeit des Bundesrechnungshofes"
+      ],
+      "status": "ingested"
+    },
+    "62": {
+      "clips": 17,
+      "tops": 17,
+      "nodes": 53,
+      "rels": 85,
+      "topics": [
+        "Vertrag mit dem Vereinigten Königreich",
+        "Untersuchung deutscher Bezüge zu den Epstein-Akten",
+        "Vertrag mit dem Vereinigten König­reich",
+        "Unter­suchung deutscher Bezüge zu den Epstein-Akten",
+        "Umge­staltung der Grund­sicherung (SGB II)",
+        "Umgestaltung der Grundsicherung (SGB II)",
+        "TOP ZP 3, 4: Erneuerbare Energien, Wärmewende",
+        "Aktuelle Stunde: Gefährdungen der digitalen Teilhabe",
+        "Bundesjagdgesetz und Bundesnaturschutzgesetz",
+        "Kernenergie",
+        "Fondsrisikobegrenzungsgesetz",
+        "Einsatz von Jugendoffizieren an Schulen",
+        "Baukulturbericht 2024/25",
+        "Organisierte Kriminalität",
+        "Infrastrukturvorhaben im Schienennetz",
+        "Beendigung der Mitwirkung am Weltklimarat (IPCC)",
+        "Beschränkung der Verbeamtung, Pensionslasten"
+      ],
+      "status": "ingested"
+    },
+    "63": {
+      "clips": 7,
+      "tops": 7,
+      "nodes": 23,
+      "rels": 35,
+      "topics": [
+        "TOP ZP 7-9: Krankenhausreform",
+        "Ver­mögen­steuer",
+        "Vermögensteuer",
+        "Angebote der Jugendarbeit, Ganztagsbetreuung",
+        "Kommunalpolitik",
+        "Gutachten zu Forschung und Innovation 2026",
+        "Einsetzung des 1. UA (\"Stuttgart 21\")"
+      ],
+      "status": "ingested"
+    },
+    "64": {
+      "clips": 6,
+      "tops": 6,
+      "nodes": 20,
+      "rels": 30,
+      "topics": [
+        "Regierungserklärung zum Europäischen Rat",
+        "Befragung der Bundesregierung (BMWE und BMV)",
+        "Fragestunde",
+        "Aktuelle Stunde: Wettbewerb an der Tankstelle",
+        "Versorgung von Patientinnen und Patienten",
+        "Deutsches Staatsgold"
+      ],
+      "status": "ingested"
+    },
+    "65": {
+      "clips": 19,
+      "tops": 19,
+      "nodes": 59,
+      "rels": 95,
+      "topics": [
+        "Vereinbarte Debatte zum internationalen Frauentag",
+        "Vereinbarte Debatte zum inter­nationalen Frauen­tag",
+        "Zeitenwende in der Zivilen Verteidigung",
+        "Kraftstoffmaßnahmenpaket, Energiepreissteigerungen",
+        "Zeiten­wende in der Zivilen Verteidigung",
+        "Kraft­stoff­maß­nahmen­paket, Energie­preis­steigerungen",
+        "Kernkraftausstieg",
+        "Aktuelle Stunde zum Kernenergiegipfel in Paris",
+        "18. März - Tag der Demokratiegeschichte",
+        "Institutioneller Rassismus in Deutschland",
+        "Änderung des Wissenschaftsfreiheitsgesetzes",
+        "Statistik über Frauenmorde im Namen der Familienehre",
+        "Digitalisierung der Zwangsvollstreckung",
+        "Aufhebung des Polizeibeauftragtengesetzes",
+        "Änderung des Steuerberatungsgesetzes, Steuerrecht",
+        "GreenTech, Zukunft der europäischen Chemieindustrie",
+        "Bericht zur Lage der älteren Generation",
+        "Enquete-Kommission - Kommunalfinanzen",
+        "Nutzung militärischer Infrastruktur auf deutschem Boden"
+      ],
+      "status": "ingested"
+    },
+    "66": {
+      "clips": 8,
+      "tops": 8,
+      "nodes": 26,
+      "rels": 40,
+      "topics": [
+        "Durch­führung der EU-Ver­ordnung über KI",
+        "Reform der Genfer Flüchtlings­konvention",
+        "Durchführung der EU-Verordnung über KI",
+        "Reform der Genfer Flüchtlingskonvention",
+        "Klimageld",
+        "Schutz von Natur, Klima und Zivilgesellschaft",
+        "Aktuelle Stunde: Kunst-, Kultur- und Meinungsfreiheit",
+        "Kassenzulassung des nicht-invasiven Pränataltests"
+      ],
+      "status": "ingested"
+    },
+    "67": {
+      "clips": 9,
+      "tops": 8,
+      "nodes": 28,
+      "rels": 44,
+      "topics": [
+        "TOP Sitzungseröffnung:",
+        "Befragung der Bundesregierung (Bundeskanzler)",
+        "Fragestunde",
+        "Aktuelle Stunde: Gewalt gegen Frauen und Mädchen",
+        "Rechtsberatende Berufe, aufsichtsrechtliche Verfahren",
+        "Reform der Einbürgerungspolitik",
+        "Reform des Unterhaltsvorschusses",
+        "Befragung der Bundesregierung (Bundeskanzler)",
+        "Online-Verfahren im Gesellschafts- und Registerrecht"
+      ],
+      "status": "ingested"
+    },
+    "68": {
+      "clips": 22,
+      "tops": 22,
+      "nodes": 68,
+      "rels": 110,
+      "topics": [
+        "Kraftstoffmaßnahmenpaket, Energiepreissteigerungen",
+        "Kraft­stoff­maß­nahmen­paket, Energie­preis­steigerungen",
+        "Statistik über Übergriffe und Gewalt an Schulen",
+        "Statistik über Über­griffe und Gewalt an Schulen",
+        "Jahresbericht 2025 des Wehrbeauftragten",
+        "Jahres­bericht 2025 des Wehr­beauftragten",
+        "Strafbarkeit bildbasierter sexualisierter Gewalt",
+        "Änderung des Transplantationsgesetzes",
+        "Förderung von LGBTIQ-Projekten im Ausland",
+        "Fairer Datenzugang, Daten-Governance-Gesetz",
+        "Wohnungslosenhilfe, Verwendung bestehender Gebäude",
+        "Intelligente-Verkehrssysteme-Gesetz",
+        "Rechtmäßigkeit des Sondervermögens Infrastruktur und Klimaneu",
+        "Anerkennungsverfahren in Heilberufen",
+        "Muslimisches Leben in Deutschland",
+        "EU-Notfallverfahren für Gasgeräte und persönliche Schutzausrü",
+        "Boykottmaßnahmen durch Nichtregierungsorganisationen",
+        "Änderung straßenverkehrsrechtlicher Vorschriften",
+        "Bekämpfung von Sozialleistungsbetrug",
+        "EU-Verordnung über fluorierte Treibhausgase",
+        "Umsetzung der EU-Richtlinie zu Industrieemissionen",
+        "Aktuelle Stunde: Familienversicherung in der gesetzlichen Kra"
+      ],
+      "status": "ingested"
+    },
+    "69": {
+      "clips": 8,
+      "tops": 8,
+      "nodes": 26,
+      "rels": 40,
+      "topics": [
+        "Alters­vorsorge­reform­gesetz",
+        "Zukunft der Auto­mobil­industrie",
+        "Altersvorsorgereformgesetz",
+        "Zukunft der Automobilindustrie",
+        "Armuts- und Reichtumsbericht",
+        "Klimaschutzpolitik",
+        "Preiserhöhungen in der Gastronomie",
+        "Aktuelle Stunde: Bundesprogramm \"Demokratie leben\""
+      ],
+      "status": "ingested"
+    },
+    "70": {
+      "clips": 6,
+      "tops": 6,
+      "nodes": 20,
+      "rels": 30,
+      "topics": [
+        "Befragung der Bundesregierung (BMJV und BMDS)",
+        "Fragestunde",
+        "Aktuelle Stunde: Verhinderung zusätzlicher Gewinne der Minera",
+        "Ökodesign und Energieverbrauchskennzeichnung",
+        "Digitalsteuer",
+        "Wissenschafts- und Meinungsfreiheit an Universitäten"
+      ],
+      "status": "ingested"
+    },
+    "71": {
+      "clips": 14,
+      "tops": 14,
+      "nodes": 44,
+      "rels": 70,
+      "topics": [
+        "Senkung der Energiesteuern",
+        "TOP ZP 4, 5: Stromsteuergesetz, Straßenverkehrsgesetz",
+        "Rechenzentrumsstrategie",
+        "Deutsche Klimaschutzmaßnahmen",
+        "Aktuelle Stunde: Ungarn nach der Wahl",
+        "Straffreiheit für Fahren ohne Fahrschein",
+        "Tragen des Kinderkopftuchs in Schulen",
+        "Small Modular Reactors - Miniatomkraftwerke",
+        "Tierschutz und Forschung",
+        "Berufsfreiheit für Selbstständige",
+        "TOP ZP 11, 12: Vorkaufsrecht für Mietende, Erhalt des Gebäudebestands",
+        "Senkung der Energie­steuern",
+        "Rechen­zentrums­strategie",
+        "Deutsche Klima­schutz­maßnahmen"
+      ],
+      "status": "ingested"
+    },
+    "72": {
+      "clips": 7,
+      "tops": 7,
+      "nodes": 23,
+      "rels": 35,
+      "topics": [
+        "Ernährungs­sicher­heit und Land­wirtschafts­politik",
+        "EU-Richtlinie über Verbraucherkreditverträge",
+        "EU-Richt­linie über Ver­braucher­kredit­verträge",
+        "Ernährungssicherheit und Landwirtschaftspolitik",
+        "Ambulante Versorgung",
+        "Bekämpfung der russischen Schattenflotte",
+        "Aktuelle Stunde: Militärische Eskalation und humanitäre Notl"
+      ],
+      "status": "ingested"
+    },
+    "73": {
+      "clips": 6,
+      "tops": 6,
+      "nodes": 20,
+      "rels": 30,
+      "topics": [
+        "Befragung der Bundesregierung (BMFTR und BKAmt)",
+        "Fragestunde",
+        "Aktuelle Stunde: Raumfahrtnation Deutschland",
+        "EU-RL zum Elektromagnetische-Verträglichkeit-Gesetz",
+        "Globale Gerechtigkeit, Entwicklungszusammenarbeit",
+        "Wiederinbetriebnahme abgeschalteter Kernkraftwerke"
+      ],
+      "status": "ingested"
+    },
+    "74": {
+      "clips": 16,
+      "tops": 16,
+      "nodes": 50,
+      "rels": 80,
+      "topics": [
+        "Mari­time Wirt­schaft",
+        "Konsens­basiertes Sexual­straf­recht",
+        "Maritime Wirtschaft",
+        "Konsensbasiertes Sexualstrafrecht",
+        "Aktuelle Stunde: Projekte d. Amadeu-Antonio-Stiftung",
+        "EU-Verordnung: Datenaustausch bei Kurzzeitvermietungen",
+        "Vermögensteuer",
+        "Weiterentwicklung der Treibhausgasminderungs-Quote",
+        "Familienversicherung",
+        "Änderung des Energiewirtschaftsgesetzes",
+        "Gerichtsurteil zur Correctiv-Berichterstattung",
+        "Förderung u. Modernisierung des Anwaltsnotariats",
+        "40 Jahre Tschernobyl",
+        "Nationale Mobilfunkversorgung",
+        "Änderung des Bundesrechnungshofgesetzes",
+        "Beschleunigung der Vergabe öffentlicher Aufträge"
+      ],
+      "status": "ingested"
+    },
+    "75": {
+      "clips": 9,
+      "tops": 8,
+      "nodes": 28,
+      "rels": 44,
+      "topics": [
+        "Neun-Euro-Ticket, Gemeinde­ver­kehrs­finanzierung",
+        "Senkung der Energie­steuern, Steuer­beratungs­recht",
+        "Aktuelle Stunde: Kein Sozialabbau bei Kindern, Jugendlichen",
+        "TOP 6, ZP 11, 12: Senkung der Energiesteuern, Steuerberatungsrecht",
+        "Neun-Euro-Ticket, Gemeindeverkehrsfinanzierung",
+        "Erwerbsminderungsrente",
+        "Gasnetzentgelte",
+        "Aktuelle Stunde: Kein Sozialabbau bei Kindern, Jugendlichen",
+        "Anpassung des Verpackungsrechts"
+      ],
+      "status": "ingested"
+    },
+    "76": {
+      "clips": 5,
+      "tops": 5,
+      "nodes": 17,
+      "rels": 25,
+      "topics": [
+        "Rechtsstaatlichkeit wiederherstellen",
+        "Kabeldiplomatie",
+        "Aktuelle Stunde: Ein Jahr Regierung unter Bundeskanzler Merz",
+        "Fragestunde",
+        "Befragung der Bundesregierung (BMAS und BMZ)"
+      ],
+      "status": "ingested"
+    },
+    "77": {
+      "clips": 15,
+      "tops": 15,
+      "nodes": 47,
+      "rels": 75,
+      "topics": [
+        "Änderung des Behindertengleichstellungsgesetzes",
+        "Änderung des Behinderten­gleich­stellungs­gesetzes",
+        "Änderung des Luft­verkehr­steuer­gesetzes",
+        "Bundesinstitut für Bevölkerungsforschung",
+        "Bundes­institut für Be­völkerungs­forschung",
+        "Meinungsvielfalt und Bürgerbeteiligung - Lokalmedien",
+        "Vereinbarkeit von Familie und Beruf (Entgeltfortzahlung)",
+        "Absicherung der Bundeskaderathletinnen und -athleten",
+        "Abschaffung des Solidaritätszuschlags",
+        "Verschmutzung von Trinkwasser - Ewigkeitschemikalien",
+        "Digitalisierung des Vollzugs von Immobilienverträgen",
+        "Wissenschaftsstandort Deutschland",
+        "Bundeswehreinsatz Operation EUFOR ALTHEA",
+        "Stärkung des Gesundheitssystems",
+        "Bundeswehreinsatz in Kosovo (KFOR)"
+      ],
+      "status": "ingested"
+    },
+    "78": {
+      "clips": 6,
+      "tops": 6,
+      "nodes": 20,
+      "rels": 30,
+      "topics": [
+        "Elektronische Aufenthaltsüberwachung, Gewaltschutzgesetz",
+        "Elektro­nische Aufent­halts­über­wachung, Gewalt­schutzG",
+        "Wind­energie",
+        "Städtebauförderung",
+        "Betriebliche Mitbestimmungsrechte",
+        "TOP 7, 13: Haushalt der Europäischen Union 2028 bis 2034"
+      ],
+      "status": "ingested"
+    },
+    "79": {
+      "clips": 7,
+      "tops": 7,
+      "nodes": 23,
+      "rels": 35,
+      "topics": [
+        "Befragung der Bundesregierung (BMF und BMWSB)",
+        "Fragestunde",
+        "Aktuelle Stunde: Prognose des IPCC zur Erderwärmung",
+        "EU-Richtlinie zur Förderung der Reparatur von Waren",
+        "Paralleljustiz",
+        "Situation im Sudan",
+        "Stationierung von Mittelstreckenraketen"
+      ],
+      "status": "ingested"
+    },
+    "80": {
+      "clips": 23,
+      "tops": 23,
+      "nodes": 71,
+      "rels": 115,
+      "topics": [
+        "Ein­setzung eines UA: Angriff auf die Nord­stream-Pipelines",
+        "Zusammen­halt durch Engagement - Ehren­amt",
+        "EU-Gebäude­richt­linie, Energie­unab­hängigkeit",
+        "Sportfördergesetz",
+        "Einsetzung eines UA: Angriff auf die Nordstream-Pipelines",
+        "Zusammenhalt durch Engagement - Ehrenamt",
+        "EU-Gebäuderichtlinie, Energieunabhängigkeit",
+        "Aktuelle Stunde: Bevölkerungsschutz in Deutschland",
+        "Förderung und Modernisierung des Anwaltsnotariats",
+        "Abschaffung des CO2-Emissionshandelsystems",
+        "Bundeswehreinsatz in Libanon (UNIFIL)",
+        "Kostenfreies Mittagessen in Schulen und Kitas",
+        "Rundfunkbeitrag",
+        "Ergebnisse der Vorplanung von Neu- und Ausbaustrecken der DB",
+        "Zukunft des Handwerks, Wirtschaft 2045",
+        "Änderung des Luftverkehrsteuergesetzes",
+        "Zulagen für spezialisierte Kräfte in der Bundeswehr",
+        "Bürokratierückbau im Bereich des BMI",
+        "Einberufung eines nationalen Bildungsgipfels",
+        "Medizinregister und Medizinregisterdatennutzung",
+        "Änderung des Preisangabenrechts",
+        "Abschöpfung und Einziehung von Vermögenswerten",
+        "Steuer- und Steuerberatungsrecht"
+      ],
+      "status": "ingested"
+    },
+    "81": {
+      "clips": 8,
+      "tops": 8,
+      "nodes": 26,
+      "rels": 40,
+      "topics": [
+        "Antrags­loses Kinder­geld",
+        "Globale Hungerkrise",
+        "Antragsloses Kindergeld",
+        "TOP ZP 8, 9: Arbeitszeitpolitik",
+        "Weiterentwicklung der Apothekenversorgung",
+        "Jahresabrüstungsberichte 2024 und 2025",
+        "Erhalt des Gaskraftwerks am Standort Lubmin",
+        "Aktuelle Stunde: Immobilienkonzerne und Mieterschutz"
+      ],
+      "status": "ingested"
+    }
+  }
+}

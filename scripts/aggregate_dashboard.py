@@ -1,0 +1,228 @@
+#!/usr/bin/env python3
+"""
+Aggregat-Dashboard über ALLE Sitzungen → web/data/aggregate_dashboard.json.
+
+Verdichtet die committeten Sitzungsdaten (dep-frei, ohne Neo4j/LLM/Netz):
+  • alle web/data/amt_*_dashboard.json  → Themen, Redner:innen, Faktencheck-Bilanz (Trend)
+  • die 13 Voll-Graphen web/data/amt_*.json (70–81 + 20/214) → Faktencheck JE PERSON
+  • web/data/youtube_completeness.json   → YouTube-Clip-Abdeckung (56/81)
+
+Faktencheck über reale Personen = **KI-Vorschlag (ungeprüft), kein Urteil** (ADR-0007). Sprecher
+werden NICHT als „Lügner" etikettiert, sondern Aussagen als faktenbasiert (bestätigt/teilweise)
+vs. fragwürdig (irreführend/falsch) gezählt — mit Disclaimer.
+
+  python scripts/aggregate_dashboard.py
+"""
+
+from __future__ import annotations
+
+import datetime
+import glob
+import json
+import re
+from collections import Counter, defaultdict
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+WEB = REPO / "web" / "data"
+
+FACT = {"bestätigt", "teilweise"}            # faktenbasiert
+QUESTIONABLE = {"irreführend", "falsch"}      # fragwürdig
+VERDIKTE = ["bestätigt", "teilweise", "irreführend", "falsch", "unbelegt"]
+DISCLAIMER = ("Faktencheck automatisch durch KI (Mistral) erzeugt — ungeprüfte Vorschläge, "
+              "kein Urteil über reale Personen. Vor Veröffentlichung von Menschen prüfen.")
+_DASH = re.compile(r"amt_(\d+)_(\d+)_dashboard\.json$")
+_FULL = re.compile(r"amt_(\d+)_(\d+)\.json$")
+
+
+def _load(p):
+    return json.loads(Path(p).read_text(encoding="utf-8"))
+
+
+def per_session_dashboards() -> list[dict]:
+    out = []
+    for f in sorted(glob.glob(str(WEB / "amt_*_dashboard.json"))):
+        m = _DASH.search(f)
+        if m:
+            d = _load(f)
+            d["_wp"], d["_nr"] = int(m.group(1)), int(m.group(2))
+            out.append(d)
+    return out
+
+
+def speaker_factcheck() -> tuple[dict, dict, list]:
+    """Aus den Voll-Graphen: Verdikt-Bilanz je Person und je Fraktion (+ Sitzungs-Trend)."""
+    per_person: dict[str, Counter] = defaultdict(Counter)
+    person_fraktion: dict[str, str] = {}
+    per_fraktion: dict[str, Counter] = defaultdict(Counter)
+    trend = []
+    for f in sorted(glob.glob(str(WEB / "amt_*.json"))):
+        if _DASH.search(f) or "_barrierefrei" in f or "_protokoll" in f or not _FULL.search(f):
+            continue
+        m = _FULL.search(f)
+        g = _load(f)
+        nodes = {n["id"]: n for n in g["nodes"]}
+        frakt = {n["id"]: n["label"] for n in g["nodes"] if n["type"] == "Fraktion"}
+        # Person → Fraktion (MITGLIED_VON)
+        p2f = {}
+        for r in g["relationships"]:
+            if r["relationship_type"] == "MITGLIED_VON" and r["target_id"] in frakt:
+                src = nodes.get(r["source_id"])
+                if src:
+                    p2f[src["label"]] = frakt[r["target_id"]]
+        # Aussage → Faktencheck (GEPRUEFT_ALS)
+        a2v = {}
+        for r in g["relationships"]:
+            if r["relationship_type"] == "GEPRUEFT_ALS":
+                fc = nodes.get(r["target_id"])
+                if fc and fc.get("verdikt"):
+                    a2v[r["source_id"]] = fc["verdikt"]
+        sess = Counter()
+        for n in g["nodes"]:
+            if n["type"] != "Aussage":
+                continue
+            v = a2v.get(n["id"])
+            if not v:
+                continue
+            person = (n.get("person") or "").strip() or "Unbekannt"
+            per_person[person][v] += 1
+            sess[v] += 1
+            fr = p2f.get(person)
+            if fr:
+                person_fraktion[person] = fr
+                per_fraktion[fr][v] += 1
+        trend.append({"wp": int(m.group(1)), "nr": int(m.group(2)),
+                      "datum": g["metadata"].get("title", ""), "verdikte": dict(sess)})
+    # serialisieren
+    speakers = []
+    for name, c in per_person.items():
+        total = sum(c.values())
+        speakers.append({
+            "name": name, "fraktion": person_fraktion.get(name, ""),
+            "geprüft": total, "faktenbasiert": c["bestätigt"] + c["teilweise"],
+            "fragwürdig": c["irreführend"] + c["falsch"], "unbelegt": c["unbelegt"],
+            **{v: c[v] for v in VERDIKTE},
+        })
+    speakers.sort(key=lambda s: (-s["geprüft"], -s["fragwürdig"]))
+    fraktionen = {fr: {v: c[v] for v in VERDIKTE} for fr, c in per_fraktion.items()}
+    return {"speakers": speakers}, {"fraktionen": fraktionen}, sorted(trend, key=lambda t: (t["wp"], t["nr"]))
+
+
+def main() -> int:
+    dashes = per_session_dashboards()
+    yt = _load(WEB / "youtube_completeness.json") if (WEB / "youtube_completeness.json").exists() else {}
+
+    # Themen (nach Redevolumen über alle Sitzungen)
+    themen = Counter()
+    for d in dashes:
+        for t in d.get("sachthemen", []):
+            themen[t["thema"]] += t.get("woerter", 0)
+    # Clip-Themen (YouTube)
+    clip_topics = Counter()
+    for s in (yt.get("sessions") or {}).values():
+        for tp in s.get("topics", []):
+            clip_topics[tp] += 1
+
+    # Redner:innen (Redevolumen über alle Sitzungen)
+    redner = defaultdict(lambda: {"woerter": 0, "reden": 0, "fraktion": ""})
+    for d in dashes:
+        for r in d.get("redner", []):
+            e = redner[r["name"]]
+            e["woerter"] += r.get("woerter", 0)
+            e["reden"] += r.get("reden", 0)
+            e["fraktion"] = r.get("fraktion") or e["fraktion"]
+    top_redner = sorted(({"name": k, **v} for k, v in redner.items()),
+                        key=lambda x: -x["woerter"])[:25]
+
+    # Faktencheck je Person/Fraktion + Trend
+    spk, frk, trend = speaker_factcheck()
+
+    # Verdikt-Gesamtverteilung
+    verdikt_total = Counter()
+    for d in dashes:
+        for v, n in (d.get("faktencheck_bilanz") or {}).items():
+            verdikt_total[v] += n
+
+    # Kennzahlen-Summen
+    K = Counter()
+    for d in dashes:
+        for k, v in (d.get("kennzahlen") or {}).items():
+            if isinstance(v, (int, float)):
+                K[k] += v
+
+    # Fun Facts
+    def _max(field, key):
+        best = None
+        for d in dashes:
+            val = (d.get("kennzahlen") or {}).get(field, 0)
+            if best is None or val > best[1]:
+                best = (d["sitzung"].get("sitzung_nr"), val, d["sitzung"].get("datum"))
+        return {"sitzung": best[0], key: best[1], "datum": best[2]} if best else {}
+
+    yt_sessions = yt.get("sessions") or {}
+    most_clips = max(((nr, s.get("clips", 0)) for nr, s in yt_sessions.items()),
+                     key=lambda x: x[1], default=("-", 0))
+    top_fragwuerdig = sorted(spk["speakers"], key=lambda s: -s["fragwürdig"])[:1]
+
+    fun_facts = [
+        f"Insgesamt {len(dashes)} amtliche Sitzungs-Dashboards, {K['reden']} Reden, "
+        f"{K['woerter']:,} Wörter, {K['saalreaktionen']} Saalreaktionen.".replace(",", "."),
+        f"Meiste Saalreaktionen: " + json.dumps(_max('saalreaktionen', 'saalreaktionen'), ensure_ascii=False),
+        f"Längste Sitzung (min): " + json.dumps(_max('gesamtzeit_min', 'gesamtzeit_min'), ensure_ascii=False),
+        f"Meiste geprüfte Aussagen: " + json.dumps(_max('geprüfte_aussagen', 'geprüfte_aussagen'), ensure_ascii=False),
+        f"Meiste YouTube-Clips: Sitzung {most_clips[0]} ({most_clips[1]} Clips).",
+        f"Vielredner:in (Wörter gesamt): {top_redner[0]['name']} "
+        f"({top_redner[0]['woerter']:,} Wörter, {top_redner[0]['fraktion']}).".replace(",", ".") if top_redner else "",
+        (f"Meiste fragwürdige Aussagen (KI-Vorschlag): {top_fragwuerdig[0]['name']} "
+         f"({top_fragwuerdig[0]['fragwürdig']} von {top_fragwuerdig[0]['geprüft']} geprüft)."
+         if top_fragwuerdig and top_fragwuerdig[0]['fragwürdig'] else ""),
+    ]
+
+    out = {
+        "meta": {
+            "titel": "Bundestag WP21 — Aggregat-Dashboard (alle Sitzungen)",
+            "stand": datetime.date.today().isoformat(),
+            "quellen": {
+                "amtliche_dashboards": len(dashes),
+                "voll_graphen_mit_faktencheck": len(trend),
+                "youtube_sitzungen_mit_clips": yt.get("sessions_ingested", 0),
+                "youtube_clips_gesamt": yt.get("total_clips", 0),
+            },
+            "disclaimer_faktencheck": DISCLAIMER,
+            "hinweis": ("Faktencheck-Bilanzen existieren nur für die per LLM/Retrieval geprüften "
+                        "Showcase-Sitzungen (70–81 + 20/214); Themen/Redner:innen über alle "
+                        "verfügbaren Dashboards."),
+        },
+        "kennzahlen": dict(K),
+        "themen_nach_redevolumen": [{"thema": t, "woerter": w} for t, w in themen.most_common(15)],
+        "youtube_clip_themen": [{"thema": t, "clips": n} for t, n in clip_topics.most_common(15)],
+        "top_redner": top_redner,
+        "faktencheck": {
+            "verdikt_gesamt": {v: verdikt_total.get(v, 0) for v in VERDIKTE},
+            "je_fraktion": frk["fraktionen"],
+            "je_person": spk["speakers"][:40],
+            "trend_je_sitzung": trend,
+        },
+        "youtube_abdeckung": {
+            "ingestiert": yt.get("sessions_ingested", 0),
+            "gesamt": yt.get("sessions_total", 0),
+            "ohne_clips": yt.get("sessions_without_clips", []),
+            "clips_gesamt": yt.get("total_clips", 0),
+        },
+        "fun_facts": [f for f in fun_facts if f],
+    }
+
+    WEB.mkdir(parents=True, exist_ok=True)
+    (WEB / "aggregate_dashboard.json").write_text(
+        json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    print("✓ web/data/aggregate_dashboard.json")
+    print(f"  Sitzungen(Dashboards): {len(dashes)} · Faktencheck-Sitzungen: {len(trend)} · "
+          f"YouTube: {out['meta']['quellen']['youtube_sitzungen_mit_clips']}")
+    print(f"  Themen: {len(out['themen_nach_redevolumen'])} · Redner: {len(top_redner)} · "
+          f"geprüfte Personen: {len(spk['speakers'])}")
+    print(f"  Verdikt gesamt: {out['faktencheck']['verdikt_gesamt']}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

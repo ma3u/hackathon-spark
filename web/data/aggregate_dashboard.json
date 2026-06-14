@@ -1,0 +1,1024 @@
+{
+  "meta": {
+    "titel": "Bundestag WP21 — Aggregat-Dashboard (alle Sitzungen)",
+    "stand": "2026-06-14",
+    "quellen": {
+      "amtliche_dashboards": 82,
+      "voll_graphen_mit_faktencheck": 13,
+      "youtube_sitzungen_mit_clips": 56,
+      "youtube_clips_gesamt": 377
+    },
+    "disclaimer_faktencheck": "Faktencheck automatisch durch KI (Mistral) erzeugt — ungeprüfte Vorschläge, kein Urteil über reale Personen. Vor Veröffentlichung von Menschen prüfen.",
+    "hinweis": "Faktencheck-Bilanzen existieren nur für die per LLM/Retrieval geprüften Showcase-Sitzungen (70–81 + 20/214); Themen/Redner:innen über alle verfügbaren Dashboards."
+  },
+  "kennzahlen": {
+    "reden": 10058,
+    "schriftliche_beitraege": 119,
+    "woerter": 4616984,
+    "gesamtzeit_min": 35517,
+    "tops": 746,
+    "saalreaktionen": 79358,
+    "geprüfte_aussagen": 603
+  },
+  "themen_nach_redevolumen": [
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 617585
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 499339
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 439648
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 403811
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 313353
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 306101
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 305761
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 294705
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 274808
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 263718
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 238645
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 204521
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 187420
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 150178
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 90339
+    }
+  ],
+  "youtube_clip_themen": [
+    {
+      "thema": "Fragestunde",
+      "clips": 8
+    },
+    {
+      "thema": "Befragung der Bundesregierung (Bundeskanzler)",
+      "clips": 3
+    },
+    {
+      "thema": "TOP Epl 04, 22: Bundeskanzler und Bundeskanzleramt, Unabhängiger Kontro",
+      "clips": 2
+    },
+    {
+      "thema": "Tariftreuegesetz",
+      "clips": 2
+    },
+    {
+      "thema": "Regierungserklärung zum Europäischen Rat",
+      "clips": 2
+    },
+    {
+      "thema": "Standortfördergesetz",
+      "clips": 2
+    },
+    {
+      "thema": "TOP Sitzungseröffnung:",
+      "clips": 2
+    },
+    {
+      "thema": "Bürokratierückbau im Bereich des BMI",
+      "clips": 2
+    },
+    {
+      "thema": "Weiterentwicklung der Treibhausgasminderungs-Quote",
+      "clips": 2
+    },
+    {
+      "thema": "Infrastruktur-Zukunftsgesetz",
+      "clips": 2
+    },
+    {
+      "thema": "Vermögensteuer",
+      "clips": 2
+    },
+    {
+      "thema": "Kraftstoffmaßnahmenpaket, Energiepreissteigerungen",
+      "clips": 2
+    },
+    {
+      "thema": "Kraft­stoff­maß­nahmen­paket, Energie­preis­steigerungen",
+      "clips": 2
+    },
+    {
+      "thema": "Aktuelle Stunde: Kein Sozialabbau bei Kindern, Jugendlichen",
+      "clips": 2
+    },
+    {
+      "thema": "Eröffnung der Sitzung durch den Alterspräsidenten",
+      "clips": 1
+    }
+  ],
+  "top_redner": [
+    {
+      "name": "Friedrich Merz",
+      "woerter": 52700,
+      "reden": 119,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Lars Klingbeil",
+      "woerter": 37069,
+      "reden": 114,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Jens Spahn",
+      "woerter": 22509,
+      "reden": 11,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Alexander Dobrindt",
+      "woerter": 21907,
+      "reden": 87,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Kay Gottschalk",
+      "woerter": 21041,
+      "reden": 24,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Carsten Schneider",
+      "woerter": 20982,
+      "reden": 74,
+      "fraktion": ""
+    },
+    {
+      "name": "Dorothee Bär",
+      "woerter": 20132,
+      "reden": 67,
+      "fraktion": ""
+    },
+    {
+      "name": "Dr. Johann David Wadephul",
+      "woerter": 20010,
+      "reden": 91,
+      "fraktion": ""
+    },
+    {
+      "name": "Mechthilde Wittmann",
+      "woerter": 18885,
+      "reden": 20,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Boris Pistorius",
+      "woerter": 18716,
+      "reden": 77,
+      "fraktion": ""
+    },
+    {
+      "name": "Dr. Konrad Körner",
+      "woerter": 18129,
+      "reden": 29,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Tino Chrupalla",
+      "woerter": 18080,
+      "reden": 12,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Stephan Brandner",
+      "woerter": 18046,
+      "reden": 32,
+      "fraktion": "AfD"
+    },
+    {
+      "name": "Heidi Reichinnek",
+      "woerter": 17754,
+      "reden": 14,
+      "fraktion": "Die Linke"
+    },
+    {
+      "name": "Karin Prien",
+      "woerter": 17652,
+      "reden": 92,
+      "fraktion": ""
+    },
+    {
+      "name": "Dr. Klaus Wiener",
+      "woerter": 16371,
+      "reden": 24,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Nina Warken",
+      "woerter": 15773,
+      "reden": 76,
+      "fraktion": ""
+    },
+    {
+      "name": "Katharina Dröge",
+      "woerter": 15431,
+      "reden": 10,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Dr. Jan-Marco Luczak",
+      "woerter": 15176,
+      "reden": 11,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Stephan Mayer",
+      "woerter": 15139,
+      "reden": 16,
+      "fraktion": "CDU/CSU"
+    },
+    {
+      "name": "Dr. Paula Piechotta",
+      "woerter": 14532,
+      "reden": 17,
+      "fraktion": "BÜNDNIS 90/DIE GRÜNEN"
+    },
+    {
+      "name": "Katherina Reiche",
+      "woerter": 13886,
+      "reden": 75,
+      "fraktion": ""
+    },
+    {
+      "name": "Helge Lindh",
+      "woerter": 13816,
+      "reden": 19,
+      "fraktion": "SPD"
+    },
+    {
+      "name": "Dr. Stefanie Hubig",
+      "woerter": 13645,
+      "reden": 75,
+      "fraktion": ""
+    },
+    {
+      "name": "Sebastian Fiedler",
+      "woerter": 13119,
+      "reden": 19,
+      "fraktion": "SPD"
+    }
+  ],
+  "faktencheck": {
+    "verdikt_gesamt": {
+      "bestätigt": 115,
+      "teilweise": 293,
+      "irreführend": 42,
+      "falsch": 60,
+      "unbelegt": 93
+    },
+    "je_fraktion": {
+      "CDU/CSU": {
+        "bestätigt": 23,
+        "teilweise": 70,
+        "irreführend": 5,
+        "falsch": 18,
+        "unbelegt": 25
+      },
+      "Die Linke": {
+        "bestätigt": 12,
+        "teilweise": 22,
+        "irreführend": 5,
+        "falsch": 5,
+        "unbelegt": 8
+      },
+      "SPD": {
+        "bestätigt": 6,
+        "teilweise": 34,
+        "irreführend": 3,
+        "falsch": 7,
+        "unbelegt": 9
+      },
+      "BÜNDNIS 90/DIE GRÜNEN": {
+        "bestätigt": 17,
+        "teilweise": 37,
+        "irreführend": 7,
+        "falsch": 10,
+        "unbelegt": 7
+      },
+      "AfD": {
+        "bestätigt": 26,
+        "teilweise": 66,
+        "irreführend": 8,
+        "falsch": 11,
+        "unbelegt": 19
+      }
+    },
+    "je_person": [
+      {
+        "name": "Julia Klöckner",
+        "fraktion": "",
+        "geprüft": 20,
+        "faktenbasiert": 16,
+        "fragwürdig": 2,
+        "unbelegt": 2,
+        "bestätigt": 9,
+        "teilweise": 7,
+        "irreführend": 2,
+        "falsch": 0
+      },
+      {
+        "name": "Josephine Ortleb",
+        "fraktion": "",
+        "geprüft": 18,
+        "faktenbasiert": 14,
+        "fragwürdig": 3,
+        "unbelegt": 1,
+        "bestätigt": 4,
+        "teilweise": 10,
+        "irreführend": 2,
+        "falsch": 1
+      },
+      {
+        "name": "Thorsten Frei",
+        "fraktion": "CDU/CSU",
+        "geprüft": 14,
+        "faktenbasiert": 10,
+        "fragwürdig": 1,
+        "unbelegt": 3,
+        "bestätigt": 4,
+        "teilweise": 6,
+        "irreführend": 1,
+        "falsch": 0
+      },
+      {
+        "name": "Jörg Cezanne",
+        "fraktion": "Die Linke",
+        "geprüft": 13,
+        "faktenbasiert": 7,
+        "fragwürdig": 3,
+        "unbelegt": 3,
+        "bestätigt": 3,
+        "teilweise": 4,
+        "irreführend": 2,
+        "falsch": 1
+      },
+      {
+        "name": "Vizepräsidentin Andrea Lindholz",
+        "fraktion": "",
+        "geprüft": 10,
+        "faktenbasiert": 5,
+        "fragwürdig": 4,
+        "unbelegt": 1,
+        "bestätigt": 0,
+        "teilweise": 5,
+        "irreführend": 3,
+        "falsch": 1
+      },
+      {
+        "name": "Präsidentin Julia Klöckner",
+        "fraktion": "",
+        "geprüft": 10,
+        "faktenbasiert": 4,
+        "fragwürdig": 2,
+        "unbelegt": 4,
+        "bestätigt": 0,
+        "teilweise": 4,
+        "irreführend": 1,
+        "falsch": 1
+      },
+      {
+        "name": "Susanne Hierl",
+        "fraktion": "CDU/CSU",
+        "geprüft": 9,
+        "faktenbasiert": 5,
+        "fragwürdig": 0,
+        "unbelegt": 4,
+        "bestätigt": 3,
+        "teilweise": 2,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Michael Thews",
+        "fraktion": "SPD",
+        "geprüft": 8,
+        "faktenbasiert": 5,
+        "fragwürdig": 2,
+        "unbelegt": 1,
+        "bestätigt": 0,
+        "teilweise": 5,
+        "irreführend": 0,
+        "falsch": 2
+      },
+      {
+        "name": "Ruppert Stüwe",
+        "fraktion": "SPD",
+        "geprüft": 8,
+        "faktenbasiert": 5,
+        "fragwürdig": 2,
+        "unbelegt": 1,
+        "bestätigt": 1,
+        "teilweise": 4,
+        "irreführend": 1,
+        "falsch": 1
+      },
+      {
+        "name": "Ulle Schauws",
+        "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+        "geprüft": 8,
+        "faktenbasiert": 7,
+        "fragwürdig": 1,
+        "unbelegt": 0,
+        "bestätigt": 2,
+        "teilweise": 5,
+        "irreführend": 1,
+        "falsch": 0
+      },
+      {
+        "name": "Violetta Bock",
+        "fraktion": "Die Linke",
+        "geprüft": 8,
+        "faktenbasiert": 6,
+        "fragwürdig": 1,
+        "unbelegt": 1,
+        "bestätigt": 3,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 1
+      },
+      {
+        "name": "Präsidentin Bärbel Bas",
+        "fraktion": "",
+        "geprüft": 8,
+        "faktenbasiert": 3,
+        "fragwürdig": 0,
+        "unbelegt": 5,
+        "bestätigt": 3,
+        "teilweise": 0,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Dr. Stefanie Hubig",
+        "fraktion": "",
+        "geprüft": 7,
+        "faktenbasiert": 4,
+        "fragwürdig": 3,
+        "unbelegt": 0,
+        "bestätigt": 1,
+        "teilweise": 3,
+        "irreführend": 2,
+        "falsch": 1
+      },
+      {
+        "name": "Axel Müller",
+        "fraktion": "CDU/CSU",
+        "geprüft": 7,
+        "faktenbasiert": 1,
+        "fragwürdig": 3,
+        "unbelegt": 3,
+        "bestätigt": 0,
+        "teilweise": 1,
+        "irreführend": 0,
+        "falsch": 3
+      },
+      {
+        "name": "Lars Klingbeil",
+        "fraktion": "",
+        "geprüft": 7,
+        "faktenbasiert": 3,
+        "fragwürdig": 2,
+        "unbelegt": 2,
+        "bestätigt": 0,
+        "teilweise": 3,
+        "irreführend": 1,
+        "falsch": 1
+      },
+      {
+        "name": "Tobias Matthias Peterka",
+        "fraktion": "AfD",
+        "geprüft": 7,
+        "faktenbasiert": 3,
+        "fragwürdig": 1,
+        "unbelegt": 3,
+        "bestätigt": 1,
+        "teilweise": 2,
+        "irreführend": 0,
+        "falsch": 1
+      },
+      {
+        "name": "Swantje Henrike Michaelsen",
+        "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+        "geprüft": 7,
+        "faktenbasiert": 5,
+        "fragwürdig": 0,
+        "unbelegt": 2,
+        "bestätigt": 2,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Dr. Ingo Hahn",
+        "fraktion": "AfD",
+        "geprüft": 6,
+        "faktenbasiert": 1,
+        "fragwürdig": 5,
+        "unbelegt": 0,
+        "bestätigt": 1,
+        "teilweise": 0,
+        "irreführend": 1,
+        "falsch": 4
+      },
+      {
+        "name": "Dr. Karsten Wildberger",
+        "fraktion": "",
+        "geprüft": 6,
+        "faktenbasiert": 3,
+        "fragwürdig": 2,
+        "unbelegt": 1,
+        "bestätigt": 1,
+        "teilweise": 2,
+        "irreführend": 0,
+        "falsch": 2
+      },
+      {
+        "name": "Karoline Otte",
+        "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+        "geprüft": 6,
+        "faktenbasiert": 3,
+        "fragwürdig": 2,
+        "unbelegt": 1,
+        "bestätigt": 1,
+        "teilweise": 2,
+        "irreführend": 1,
+        "falsch": 1
+      },
+      {
+        "name": "Roderich Kiesewetter",
+        "fraktion": "CDU/CSU",
+        "geprüft": 6,
+        "faktenbasiert": 4,
+        "fragwürdig": 2,
+        "unbelegt": 0,
+        "bestätigt": 1,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 2
+      },
+      {
+        "name": "Janine Wissler",
+        "fraktion": "Die Linke",
+        "geprüft": 6,
+        "faktenbasiert": 3,
+        "fragwürdig": 2,
+        "unbelegt": 1,
+        "bestätigt": 1,
+        "teilweise": 2,
+        "irreführend": 1,
+        "falsch": 1
+      },
+      {
+        "name": "Bastian Ernst",
+        "fraktion": "CDU/CSU",
+        "geprüft": 6,
+        "faktenbasiert": 4,
+        "fragwürdig": 2,
+        "unbelegt": 0,
+        "bestätigt": 1,
+        "teilweise": 3,
+        "irreführend": 1,
+        "falsch": 1
+      },
+      {
+        "name": "Stephan Protschka",
+        "fraktion": "AfD",
+        "geprüft": 6,
+        "faktenbasiert": 5,
+        "fragwürdig": 1,
+        "unbelegt": 0,
+        "bestätigt": 2,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 1
+      },
+      {
+        "name": "Rita Schwarzelühr-Sutter",
+        "fraktion": "",
+        "geprüft": 6,
+        "faktenbasiert": 5,
+        "fragwürdig": 1,
+        "unbelegt": 0,
+        "bestätigt": 4,
+        "teilweise": 1,
+        "irreführend": 1,
+        "falsch": 0
+      },
+      {
+        "name": "Ricarda Lang",
+        "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+        "geprüft": 6,
+        "faktenbasiert": 3,
+        "fragwürdig": 1,
+        "unbelegt": 2,
+        "bestätigt": 2,
+        "teilweise": 1,
+        "irreführend": 0,
+        "falsch": 1
+      },
+      {
+        "name": "Hakan Demir",
+        "fraktion": "SPD",
+        "geprüft": 6,
+        "faktenbasiert": 4,
+        "fragwürdig": 0,
+        "unbelegt": 2,
+        "bestätigt": 0,
+        "teilweise": 4,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Karsten Hilse",
+        "fraktion": "AfD",
+        "geprüft": 6,
+        "faktenbasiert": 6,
+        "fragwürdig": 0,
+        "unbelegt": 0,
+        "bestätigt": 0,
+        "teilweise": 6,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Carl-Philipp Sassenrath",
+        "fraktion": "CDU/CSU",
+        "geprüft": 6,
+        "faktenbasiert": 5,
+        "fragwürdig": 0,
+        "unbelegt": 1,
+        "bestätigt": 2,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Dr. Wolfgang Stefinger",
+        "fraktion": "CDU/CSU",
+        "geprüft": 6,
+        "faktenbasiert": 5,
+        "fragwürdig": 0,
+        "unbelegt": 1,
+        "bestätigt": 2,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Dr. Malte Kaufmann",
+        "fraktion": "AfD",
+        "geprüft": 6,
+        "faktenbasiert": 6,
+        "fragwürdig": 0,
+        "unbelegt": 0,
+        "bestätigt": 3,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Tarek Al-Wazir",
+        "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+        "geprüft": 5,
+        "faktenbasiert": 2,
+        "fragwürdig": 2,
+        "unbelegt": 1,
+        "bestätigt": 0,
+        "teilweise": 2,
+        "irreführend": 0,
+        "falsch": 2
+      },
+      {
+        "name": "Fritz Güntzler",
+        "fraktion": "CDU/CSU",
+        "geprüft": 5,
+        "faktenbasiert": 4,
+        "fragwürdig": 1,
+        "unbelegt": 0,
+        "bestätigt": 0,
+        "teilweise": 4,
+        "irreführend": 0,
+        "falsch": 1
+      },
+      {
+        "name": "Omid Nouripour",
+        "fraktion": "",
+        "geprüft": 5,
+        "faktenbasiert": 3,
+        "fragwürdig": 1,
+        "unbelegt": 1,
+        "bestätigt": 1,
+        "teilweise": 2,
+        "irreführend": 0,
+        "falsch": 1
+      },
+      {
+        "name": "Denis Pauli",
+        "fraktion": "AfD",
+        "geprüft": 5,
+        "faktenbasiert": 4,
+        "fragwürdig": 1,
+        "unbelegt": 0,
+        "bestätigt": 1,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 1
+      },
+      {
+        "name": "Christian Reck",
+        "fraktion": "AfD",
+        "geprüft": 5,
+        "faktenbasiert": 4,
+        "fragwürdig": 1,
+        "unbelegt": 0,
+        "bestätigt": 0,
+        "teilweise": 4,
+        "irreführend": 1,
+        "falsch": 0
+      },
+      {
+        "name": "Katharina Beck",
+        "fraktion": "BÜNDNIS 90/DIE GRÜNEN",
+        "geprüft": 5,
+        "faktenbasiert": 4,
+        "fragwürdig": 1,
+        "unbelegt": 0,
+        "bestätigt": 1,
+        "teilweise": 3,
+        "irreführend": 1,
+        "falsch": 0
+      },
+      {
+        "name": "Thomas Ladzinski",
+        "fraktion": "AfD",
+        "geprüft": 5,
+        "faktenbasiert": 3,
+        "fragwürdig": 1,
+        "unbelegt": 1,
+        "bestätigt": 0,
+        "teilweise": 3,
+        "irreführend": 0,
+        "falsch": 1
+      },
+      {
+        "name": "Ulrich von Zons",
+        "fraktion": "AfD",
+        "geprüft": 5,
+        "faktenbasiert": 4,
+        "fragwürdig": 0,
+        "unbelegt": 1,
+        "bestätigt": 2,
+        "teilweise": 2,
+        "irreführend": 0,
+        "falsch": 0
+      },
+      {
+        "name": "Gunther Krichbaum",
+        "fraktion": "",
+        "geprüft": 5,
+        "faktenbasiert": 4,
+        "fragwürdig": 0,
+        "unbelegt": 1,
+        "bestätigt": 0,
+        "teilweise": 4,
+        "irreführend": 0,
+        "falsch": 0
+      }
+    ],
+    "trend_je_sitzung": [
+      {
+        "wp": 20,
+        "nr": 214,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 18.03.2025",
+        "verdikte": {
+          "unbelegt": 13,
+          "bestätigt": 11,
+          "irreführend": 1,
+          "teilweise": 7
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 70,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 15.04.2026",
+        "verdikte": {
+          "unbelegt": 6,
+          "bestätigt": 13,
+          "irreführend": 3,
+          "teilweise": 24,
+          "falsch": 5
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 71,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 16.04.2026",
+        "verdikte": {
+          "teilweise": 24,
+          "unbelegt": 8,
+          "bestätigt": 7,
+          "falsch": 7,
+          "irreführend": 1
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 72,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 17.04.2026",
+        "verdikte": {
+          "bestätigt": 16,
+          "falsch": 5,
+          "irreführend": 4,
+          "teilweise": 25,
+          "unbelegt": 6
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 73,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 22.04.2026",
+        "verdikte": {
+          "unbelegt": 9,
+          "teilweise": 20,
+          "bestätigt": 10,
+          "irreführend": 4
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 74,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 23.04.2026",
+        "verdikte": {
+          "bestätigt": 14,
+          "falsch": 3,
+          "unbelegt": 9,
+          "teilweise": 15,
+          "irreführend": 3
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 75,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 24.04.2026",
+        "verdikte": {
+          "teilweise": 24,
+          "falsch": 12,
+          "bestätigt": 5,
+          "unbelegt": 7,
+          "irreführend": 2
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 76,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 06.05.2026",
+        "verdikte": {
+          "teilweise": 29,
+          "irreführend": 3,
+          "unbelegt": 3,
+          "bestätigt": 6,
+          "falsch": 4
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 77,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 07.05.2026",
+        "verdikte": {
+          "teilweise": 21,
+          "irreführend": 4,
+          "bestätigt": 7,
+          "falsch": 5,
+          "unbelegt": 6
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 78,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 08.05.2026",
+        "verdikte": {
+          "teilweise": 28,
+          "irreführend": 4,
+          "falsch": 4,
+          "bestätigt": 7,
+          "unbelegt": 3
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 79,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 20.05.2026",
+        "verdikte": {
+          "irreführend": 6,
+          "teilweise": 26,
+          "unbelegt": 3,
+          "bestätigt": 4,
+          "falsch": 8
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 80,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 21.05.2026",
+        "verdikte": {
+          "teilweise": 26,
+          "falsch": 5,
+          "unbelegt": 8,
+          "irreführend": 2,
+          "bestätigt": 6
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 81,
+        "datum": "Protokoll-Knowledge-Graph — Deutscher Bundestag, 22.05.2026",
+        "verdikte": {
+          "unbelegt": 12,
+          "teilweise": 24,
+          "bestätigt": 9,
+          "irreführend": 5,
+          "falsch": 2
+        }
+      }
+    ]
+  },
+  "youtube_abdeckung": {
+    "ingestiert": 56,
+    "gesamt": 81,
+    "ohne_clips": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      11,
+      12,
+      13,
+      16,
+      17,
+      19,
+      20,
+      23,
+      25,
+      26,
+      29,
+      30,
+      33,
+      36,
+      39,
+      44,
+      45,
+      46,
+      52,
+      55
+    ],
+    "clips_gesamt": 377
+  },
+  "fun_facts": [
+    "Insgesamt 82 amtliche Sitzungs-Dashboards. 10058 Reden. 4.616.984 Wörter. 79358 Saalreaktionen.",
+    "Meiste Saalreaktionen: {\"sitzung\": \"65\", \"saalreaktionen\": 1742, \"datum\": \"19.03.2026\"}",
+    "Längste Sitzung (min): {\"sitzung\": \"24\", \"gesamtzeit_min\": 732, \"datum\": \"17.09.2025\"}",
+    "Meiste geprüfte Aussagen: {\"sitzung\": \"72\", \"geprüfte_aussagen\": 56, \"datum\": \"17.04.2026\"}",
+    "Meiste YouTube-Clips: Sitzung 59 (25 Clips).",
+    "Vielredner:in (Wörter gesamt): Friedrich Merz (52.700 Wörter. CDU/CSU).",
+    "Meiste fragwürdige Aussagen (KI-Vorschlag): Dr. Ingo Hahn (5 von 6 geprüft)."
+  ]
+}
