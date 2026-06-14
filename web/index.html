@@ -21,7 +21,9 @@
         --ok: #1e8e3e; --warn: #e0922f; --err: #d23b3b; --neutral: #8a98a8;
         --e1: 0 1px 2px rgba(16,49,96,.06), 0 1px 3px rgba(16,49,96,.10);
         --e2: 0 4px 14px rgba(16,49,96,.14), 0 2px 4px rgba(16,49,96,.08);
-        --r: 12px;
+        --r: 12px; --gold: #c8a44d;   /* Bundestag-Akzent (Adler/Gold) */
+        --ts-title: 600 19px/1.2 "Roboto", system-ui, sans-serif;   /* Material type scale */
+        --ts-sub: 400 12px/1.35 "Roboto", system-ui, sans-serif;
       }
       * { box-sizing: border-box; }
       body { margin: 0; font-family: "Roboto", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -31,9 +33,12 @@
       /* App-Bar (Bundestag-Blau) mit Material-Elevation */
       header { padding: 0 20px; min-height: 60px; background: var(--accent); color: #fff;
         display: flex; align-items: center; gap: 16px; flex-wrap: wrap; box-shadow: var(--e2);
-        position: relative; z-index: 10; }
-      header h1 { font-size: 18px; margin: 0; font-weight: 600; letter-spacing: .2px; }
-      header .sub { color: rgba(255,255,255,.8); font-size: 12px; }
+        border-bottom: 3px solid var(--gold); position: relative; z-index: 10; }
+      .brand { display: flex; align-items: center; gap: 12px; padding: 8px 0; }
+      .brand .mark { flex: none; color: var(--gold); }
+      .brand h1 { font: var(--ts-title); margin: 0; letter-spacing: .2px; }
+      header .sub { color: rgba(255,255,255,.82); font: var(--ts-sub); }
+      .tab:active { transform: translateY(1px); }   /* Material press state */
       .tabs { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; padding: 9px 0; }
       .tab { background: var(--panel); color: var(--accent); border: 1px solid var(--border);
         padding: 7px 14px; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 500;
@@ -132,9 +137,17 @@
   </head>
   <body>
     <header>
-      <div>
-        <h1>🎙️ graph-protokoll</h1>
-        <div class="sub">Bundestags-Plenarprotokoll → Knowledge Graph + Faktencheck · echte Daten · SPARK Challenge 2</div>
+      <div class="brand">
+        <svg class="mark" width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 21h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M5 21v-9a7 7 0 0 1 14 0v9" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M12 3.2V21M8.1 6.3V21M15.9 6.3V21" stroke="currentColor" stroke-width="1.1" opacity=".85"/>
+          <circle cx="12" cy="2.4" r="1.1" fill="currentColor"/>
+        </svg>
+        <div>
+          <h1>graph·protokoll</h1>
+          <div class="sub">Deutscher Bundestag · Wissensgraph + Faktencheck · SPARK Challenge 2</div>
+        </div>
       </div>
       <div class="tabs">
         <select class="tab" id="sessions" aria-label="Bundestagssitzung wählen" title="Reale Bundestagssitzung wählen"><option value="">📺 Sitzung wählen…</option></select>
