@@ -1069,12 +1069,57 @@
     ]
   },
   "fun_facts": [
-    "Insgesamt 82 amtliche Sitzungs-Dashboards. 10058 Reden. 4.616.984 Wörter. 79358 Saalreaktionen.",
-    "Meiste Saalreaktionen: {\"sitzung\": \"65\", \"saalreaktionen\": 1742, \"datum\": \"19.03.2026\"}",
-    "Längste Sitzung (min): {\"sitzung\": \"24\", \"gesamtzeit_min\": 732, \"datum\": \"17.09.2025\"}",
-    "Meiste geprüfte Aussagen: {\"sitzung\": \"72\", \"geprüfte_aussagen\": 56, \"datum\": \"17.04.2026\"}",
-    "Meiste YouTube-Clips: Sitzung 59 (25 Clips).",
-    "Vielredner:in (Wörter gesamt): Friedrich Merz (52.700 Wörter. CDU/CSU).",
-    "Meiste fragwürdige Aussagen (KI-Vorschlag): Dr. Ingo Hahn (5 von 6 geprüft)."
+    {
+      "kat": "Überblick",
+      "text": "82 Sitzungen · 10.058 Reden · 4.616.984 Wörter · 79.358 Saalreaktionen."
+    },
+    {
+      "kat": "Meistbeklatscht",
+      "text": "Hans Koller — 61 Beifallsbekundungen während der Reden (CDU/CSU)."
+    },
+    {
+      "kat": "Meiste Gegenrufe",
+      "text": "Lars Klingbeil — 25× Zwischenruf/Widerspruch während der Reden (SPD)."
+    },
+    {
+      "kat": "Schlagabtausch",
+      "text": "„AfD“ rief am häufigsten bei Dunja Kreiser dazwischen — 11× (Zwischenruf/Widerspruch)."
+    },
+    {
+      "kat": "Schlagabtausch",
+      "text": "„AfD“ rief am häufigsten bei Lorenz Gösta Beutin dazwischen — 10× (Zwischenruf/Widerspruch)."
+    },
+    {
+      "kat": "Schlagabtausch",
+      "text": "„AfD“ rief am häufigsten bei Dr. Alaa Alhamwi dazwischen — 9× (Zwischenruf/Widerspruch)."
+    },
+    {
+      "kat": "Hitzigste Sitzung",
+      "text": "Sitzung 65 — 1742 Saalreaktionen (19.03.2026)."
+    },
+    {
+      "kat": "Längste Sitzung",
+      "text": "Sitzung 24 — 732 Minuten (17.09.2025)."
+    },
+    {
+      "kat": "Meiste geprüfte Aussagen",
+      "text": "Sitzung 72 — 56 (17.04.2026)."
+    },
+    {
+      "kat": "Meiste YouTube-Clips",
+      "text": "Sitzung 59 — 25 Clips."
+    },
+    {
+      "kat": "Vielredner:in",
+      "text": "Friedrich Merz — 52.700 Wörter (CDU/CSU)."
+    },
+    {
+      "kat": "Meiste fragwürdige Aussagen (KI-Vorschlag)",
+      "text": "Dr. Ingo Hahn — 5 von 6 geprüft."
+    },
+    {
+      "kat": "Hinweis",
+      "text": "„Ähnliche Reden“ (semantisch) folgt über den Vektor-Index; der Zwischenruf-urheber ist meist fraktions-, nicht personenscharf."
+    }
   ]
 }

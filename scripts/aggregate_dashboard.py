@@ -131,6 +131,46 @@ def youtube_factcheck() -> dict:
             "je_sitzung": sorted(sessions, key=lambda s: (s["wp"], s["nr"]))}
 
 
+POS_REAK = {"Beifall", "Heiterkeit"}
+NEG_REAK = {"Zwischenruf", "Widerspruch", "Unruhe"}
+
+
+def content_insights():
+    """Inhaltsdynamik aus den Voll-Graphen (amtlich): Beifall/Gegenruf je Redner:in und die
+    schärfsten Zwischenruf-Hotspots (urheber → Redner:in). Hinweis: `urheber` der Saalreaktion
+    ist meist FRAKTIONS-, nicht personenscharf — daher Fraktion→Redner:in, kein Personenduell."""
+    applause, heckle, fight, spk_frak = Counter(), Counter(), Counter(), {}
+    for f in sorted(glob.glob(str(WEB / "amt_*.json"))):
+        if _DASH.search(f) or "_barrierefrei" in f or "_protokoll" in f or not _FULL.search(f):
+            continue
+        g = _load(f)
+        idn = {n["id"]: n for n in g["nodes"]}
+        frak = {n["id"]: n["label"] for n in g["nodes"] if n["type"] == "Fraktion"}
+        for r in g["relationships"]:
+            if r["relationship_type"] == "MITGLIED_VON" and r["target_id"] in frak:
+                s = idn.get(r["source_id"])
+                if s:
+                    spk_frak[s["label"]] = frak[r["target_id"]]
+        rb2s = {r["target_id"]: idn[r["source_id"]]["label"]
+                for r in g["relationships"]
+                if r["relationship_type"] == "HAT_REDEBEITRAG" and r["source_id"] in idn}
+        for r in g["relationships"]:
+            if r["relationship_type"] != "REAKTION_AUF":
+                continue
+            a = idn.get(r["source_id"])
+            sp = rb2s.get(r["target_id"])
+            if not a or not sp:
+                continue
+            st, urh = a.get("subtype"), (a.get("urheber") or "").strip()
+            if st in POS_REAK:
+                applause[sp] += 1
+            elif st in NEG_REAK:
+                heckle[sp] += 1
+                if urh:
+                    fight[(urh, sp)] += 1
+    return applause, heckle, fight, spk_frak
+
+
 def main() -> int:
     dashes = per_session_dashboards()
     yt = _load(WEB / "youtube_completeness.json") if (WEB / "youtube_completeness.json").exists() else {}
@@ -174,33 +214,59 @@ def main() -> int:
             if isinstance(v, (int, float)):
                 K[k] += v
 
-    # Fun Facts
-    def _max(field, key):
-        best = None
+    # Content-Insights + Fun Facts (inhaltlich, strukturiert {kat, text})
+    def _max(field):
+        best = ("-", 0, "")
         for d in dashes:
-            val = (d.get("kennzahlen") or {}).get(field, 0)
-            if best is None or val > best[1]:
-                best = (d["sitzung"].get("sitzung_nr"), val, d["sitzung"].get("datum"))
-        return {"sitzung": best[0], key: best[1], "datum": best[2]} if best else {}
+            v = (d.get("kennzahlen") or {}).get(field, 0)
+            if v > best[1]:
+                best = (d["sitzung"].get("sitzung_nr"), v, d["sitzung"].get("datum"))
+        return best
 
+    applause, heckle, fight, spk_frak = content_insights()
     yt_sessions = yt.get("sessions") or {}
     most_clips = max(((nr, s.get("clips", 0)) for nr, s in yt_sessions.items()),
                      key=lambda x: x[1], default=("-", 0))
-    top_fragwuerdig = sorted(spk["speakers"], key=lambda s: -s["fragwürdig"])[:1]
+    top_frag = sorted(spk["speakers"], key=lambda s: -s["fragwürdig"])
+    facts: list[dict] = []
 
-    fun_facts = [
-        f"Insgesamt {len(dashes)} amtliche Sitzungs-Dashboards, {K['reden']} Reden, "
-        f"{K['woerter']:,} Wörter, {K['saalreaktionen']} Saalreaktionen.".replace(",", "."),
-        f"Meiste Saalreaktionen: " + json.dumps(_max('saalreaktionen', 'saalreaktionen'), ensure_ascii=False),
-        f"Längste Sitzung (min): " + json.dumps(_max('gesamtzeit_min', 'gesamtzeit_min'), ensure_ascii=False),
-        f"Meiste geprüfte Aussagen: " + json.dumps(_max('geprüfte_aussagen', 'geprüfte_aussagen'), ensure_ascii=False),
-        f"Meiste YouTube-Clips: Sitzung {most_clips[0]} ({most_clips[1]} Clips).",
-        f"Vielredner:in (Wörter gesamt): {top_redner[0]['name']} "
-        f"({top_redner[0]['woerter']:,} Wörter, {top_redner[0]['fraktion']}).".replace(",", ".") if top_redner else "",
-        (f"Meiste fragwürdige Aussagen (KI-Vorschlag): {top_fragwuerdig[0]['name']} "
-         f"({top_fragwuerdig[0]['fragwürdig']} von {top_fragwuerdig[0]['geprüft']} geprüft)."
-         if top_fragwuerdig and top_fragwuerdig[0]['fragwürdig'] else ""),
-    ]
+    def add(kat, text):
+        if text:
+            facts.append({"kat": kat, "text": text})
+
+    def _de(n):  # 1234567 → 1.234.567
+        return f"{n:,}".replace(",", ".")
+
+    add("Überblick", f"{len(dashes)} Sitzungen · {_de(K['reden'])} Reden · "
+        f"{_de(K['woerter'])} Wörter · {_de(K['saalreaktionen'])} Saalreaktionen.")
+    if applause:
+        n, c = applause.most_common(1)[0]
+        fr = spk_frak.get(n, "")
+        add("Meistbeklatscht", f"{n} — {c} Beifallsbekundungen während der Reden"
+            + (f" ({fr})." if fr else "."))
+    if heckle:
+        n, c = heckle.most_common(1)[0]
+        fr = spk_frak.get(n, "")
+        add("Meiste Gegenrufe", f"{n} — {c}× Zwischenruf/Widerspruch während der Reden"
+            + (f" ({fr})." if fr else "."))
+    for (urh, sp), c in fight.most_common(3):
+        add("Schlagabtausch", f"„{urh}“ rief am häufigsten bei {sp} dazwischen — {c}× "
+            f"(Zwischenruf/Widerspruch).")
+    sr, lg, ga = _max("saalreaktionen"), _max("gesamtzeit_min"), _max("geprüfte_aussagen")
+    add("Hitzigste Sitzung", f"Sitzung {sr[0]} — {sr[1]} Saalreaktionen ({sr[2]}).")
+    add("Längste Sitzung", f"Sitzung {lg[0]} — {lg[1]} Minuten ({lg[2]}).")
+    add("Meiste geprüfte Aussagen", f"Sitzung {ga[0]} — {ga[1]} ({ga[2]}).")
+    add("Meiste YouTube-Clips", f"Sitzung {most_clips[0]} — {most_clips[1]} Clips.")
+    if top_redner:
+        add("Vielredner:in", f"{top_redner[0]['name']} — {_de(top_redner[0]['woerter'])} Wörter "
+            f"({top_redner[0]['fraktion']}).")
+    if top_frag and top_frag[0]["fragwürdig"]:
+        t = top_frag[0]
+        add("Meiste fragwürdige Aussagen (KI-Vorschlag)",
+            f"{t['name']} — {t['fragwürdig']} von {t['geprüft']} geprüft.")
+    add("Hinweis", "„Ähnliche Reden“ (semantisch) folgt über den Vektor-Index; der "
+        "Zwischenruf-urheber ist meist fraktions-, nicht personenscharf.")
+    fun_facts = facts
 
     out = {
         "meta": {
@@ -234,7 +300,7 @@ def main() -> int:
             "clips_gesamt": yt.get("total_clips", 0),
         },
         "youtube_faktencheck": ytfc,
-        "fun_facts": [f for f in fun_facts if f],
+        "fun_facts": fun_facts,
     }
     out["meta"]["quellen"]["youtube_faktencheck_sitzungen"] = len(ytfc["je_sitzung"])
 

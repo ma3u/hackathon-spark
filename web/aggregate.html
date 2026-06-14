@@ -35,7 +35,7 @@
   .bar .lab{width:190px;flex:none;color:var(--muted);font-size:.85rem;
             overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .bar .track{flex:1;background:#121a26;border-radius:6px;overflow:hidden;height:18px}
-  .bar .fill{height:100%;background:var(--accent)}
+  .bar .fill{display:block;height:100%;min-width:2px;background:var(--accent)}
   .bar .val{width:74px;flex:none;text-align:right;font-variant-numeric:tabular-nums;font-size:.85rem}
   .stack{display:flex;height:22px;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
   .seg{height:100%}
@@ -156,7 +156,7 @@ function render(d){
       <td style="min-width:140px">${stack(s.verdikte)}</td>
       <td class="num">${V.reduce((a,v)=>a+(s.verdikte[v]||0),0)}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
 
-  <section><h2>✨ Fun Facts</h2><ul class="facts">${d.fun_facts.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></section>
+  <section><h2>✨ Fun Facts &amp; Inhalts-Insights</h2><ul class="facts">${d.fun_facts.map(f=>`<li><b>${esc(f.kat)}</b> — ${esc(f.text)}</li>`).join("")}</ul></section>
 
   <section class="sub"><p>${esc(m.hinweis)}</p>
     <p>Daten dep-frei erzeugt aus <code>web/data/*.json</code> · <a href="index.html">← 3D-Graph</a></p></section>`;
