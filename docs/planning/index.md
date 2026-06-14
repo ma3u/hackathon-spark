@@ -25,3 +25,4 @@ this board with `/plan`. Frontmatter: `title, status, owner, updated`, optional 
 - [Extend fact-check retrieval grounding to all 81 sessions](future/grounding-all-81.md)
 - [Gap-diff overlay (word diff) + Diarisierungs-DER](future/gap-diff-der.md)
 - [SPARK reuse — Temporal durability + optional LiteLLM gateway](future/spark-reuse-temporal-litellm.md)
+- [LLM provider independence — migrate call sites + self-host options](future/llm-provider-independence.md)

@@ -77,10 +77,22 @@ def embed_missing(driver) -> int:
                 time.sleep(8)  # Rate-Limit → kurz warten
         payload = [{"id": cid, "vec": d.embedding} for (cid, _), d in zip(chunk, resp.data)]
         with driver.session() as s:
-            s.run("UNWIND $rows AS r MATCH (n) WHERE id(n)=r.id SET n.embedding = r.vec",
-                  rows=payload)
+            # embedding_model mitschreiben → Embedder-Wechsel erkennbar (ADR-0015, --reembed)
+            s.run("UNWIND $rows AS r MATCH (n) WHERE id(n)=r.id "
+                  "SET n.embedding = r.vec, n.embedding_model = $m", rows=payload, m=EMB_MODEL)
         done += len(chunk)
     return done
+
+
+def reembed_stale(driver) -> int:
+    """Vektoren eines ANDEREN Embedding-Modells verwerfen → werden neu berechnet (ADR-0015).
+    Embeddings sind modell-/dim-gebunden; bei abweichender Dimension zusätzlich den
+    Vektor-Index neu anlegen (DROP/CREATE)."""
+    with driver.session() as s:
+        r = s.run("MATCH (n:Transkriptsegment) WHERE n.embedding IS NOT NULL AND "
+                  "coalesce(n.embedding_model,'?') <> $m SET n.embedding = NULL "
+                  "RETURN count(n) AS c", m=EMB_MODEL).single()
+    return r["c"] if r else 0
 
 
 def ensure_index(driver) -> None:
@@ -99,8 +111,12 @@ def ensure_index(driver) -> None:
 
 
 def main() -> int:
+    reembed = "--reembed" in sys.argv
     driver = GraphDatabase.driver(URI, auth=AUTH)
     print(f"Neo4j: {URI}  ·  Embedding: {EMB_MODEL} ({DIM}d)\n")
+    if reembed:
+        stale = reembed_stale(driver)
+        print(f"   --reembed: {stale} Embeddings anderer Modelle verworfen → Neuberechnung")
     n = embed_missing(driver)
     ensure_index(driver)
     print(f"✓ {n} neue Embeddings | Vektor-Index '{INDEX}' bereit\n")
@@ -113,7 +129,7 @@ def main() -> int:
                                  retrieval_query=RETRIEVAL_QUERY, embedder=embedder)
     rag = GraphRAG(retriever=retr, llm=llm)
 
-    questions = sys.argv[1:] or QUESTIONS
+    questions = [a for a in sys.argv[1:] if not a.startswith("--")] or QUESTIONS
     for q in (questions if isinstance(questions, list) else [questions]):
         print("═" * 78 + f"\n❓ {q}\n")
         resp = rag.search(query_text=q, retriever_config={"top_k": 6}, return_context=True)

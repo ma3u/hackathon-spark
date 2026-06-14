@@ -19,6 +19,7 @@ edit an Accepted ADR's Decision. New ADRs start from [`0000-template.md`](0000-t
 | [0012](0012-five-layer-ontology-schicht.md) | Five-layer ontology in a `schicht` property | Accepted |
 | [0013](0013-youtube-data-api-discovery.md) | YouTube clip discovery via the official Data API v3 (yt-dlp keeps captions) | Accepted |
 | [0014](0014-spark-reuse-temporal-litellm.md) | SPARK reuse: Temporal + LiteLLM; keep Haystack; no Docling/MinIO | Accepted |
+| [0015](0015-llm-provider-independence.md) | LLM provider independence (OpenAI-compat boundary · on-prem · embedding swap-safety) | Accepted |
 
 Each ADR cites the repo source(s) it is grounded in. Structural ADRs link a diagram in
 [`../diagrams/`](../diagrams/).
