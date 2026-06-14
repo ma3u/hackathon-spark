@@ -335,10 +335,19 @@
         const ytNote = e && !e.youtube
           ? `<div class="prop" style="color:var(--muted)">🎬 Kein YouTube-Gesamtmitschnitt für diese Sitzung — YouTube gibt nur die ~5 jüngsten Streams frei (vorhanden: 79, 81). Amtliches XML deckt alle 82 Sitzungen ab.</div>`
           : "";
+        // ▶ Video der ganzen Sitzung: YouTube-Stream (einbettbar) bevorzugt, sonst Mediathek (öffnet im Tab, CSP).
+        let vid = null;
+        if (src && src.video_id)
+          vid = { embed: ytEmbed(src.video_id, 0), orig: ytLink(src.video_id, 0),
+                  label: "▶ Video der Sitzung (YouTube)", title: (m.title || "Sitzung") + " — YouTube" };
+        else if (e && e.amtlich && e.amtlich.mediathek)
+          vid = { embed: e.amtlich.mediathek, orig: e.amtlich.mediathek,
+                  label: "▶ Video der Sitzung (Mediathek)", title: (m.title || "Sitzung") + " — Mediathek" };
         $("meta").innerHTML = `<h2>${m.title || "Protokoll-Graph"}</h2>
           <div class="prop"><b>Quelle:</b> ${quelle}</div>
           ${herk ? `<div class="prop"><b>Herkunft:</b> ${herk}</div>` : ""}
           <div class="prop"><b>Knoten:</b> ${m.node_count || 0} · <b>Beziehungen:</b> ${m.relationship_count || 0}</div>
+          ${vid ? `<div class="prop"><a class="cite playvid" href="${vid.orig}" data-embed="${vid.embed}" data-orig="${vid.orig}" data-title="${esc(vid.title)}">${vid.label}</a></div>` : ""}
           ${ytNote}`;
       }
 
