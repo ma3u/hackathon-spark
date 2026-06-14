@@ -24,3 +24,4 @@ this board with `/plan`. Frontmatter: `title, status, owner, updated`, optional 
 - [Bulk-ingest the 42 YouTube-confirmed stream-less sessions (clips)](future/youtube-clips-bulk-ingest.md)
 - [Extend fact-check retrieval grounding to all 81 sessions](future/grounding-all-81.md)
 - [Gap-diff overlay (word diff) + Diarisierungs-DER](future/gap-diff-der.md)
+- [SPARK reuse — Temporal durability + optional LiteLLM gateway](future/spark-reuse-temporal-litellm.md)
