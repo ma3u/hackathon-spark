@@ -175,6 +175,30 @@
       const color = (n) => (LAYER[n.schicht] || { c: "#999" }).c;
       const $ = (id) => document.getElementById(id);
 
+      // Knotengröße nach Bedeutung: Personen/Fraktionen/Reden GROSS, Saalreaktions-/Beleg-Schwarm klein.
+      const SIZE = { fallbezug: 16, prozedural: 9, zeitlich: 9, normativ: 9, faktencheck: 4, reaktion: 1, provenienz: 0.8 };
+      let selId = null, hlNodes = new Set(), hlLinks = new Set();
+      const nodeVal = (n) => (n.id === selId ? 30 : (SIZE[n.schicht] ?? 3));
+      const nodeColorHL = (n) => {
+        if (selId) { if (n.id === selId) return "#f2c14e"; if (!hlNodes.has(n.id)) return "#22344b"; }  // Auswahl = Gold, Rest gedimmt
+        return color(n);
+      };
+      const linkColorHL = (l) => hlLinks.has(l) ? "#f2c14e" : (selId ? "rgba(150,170,200,.10)" : "#8b949e");
+      const linkWidthHL = (l) => (hlLinks.has(l) ? 2 : 0.6);
+      // Auswahl visuell markieren: gewählten Knoten + Nachbarschaft hervorheben, Rest dimmen.
+      function highlightNode(n) {
+        selId = n ? n.id : null; hlNodes = new Set(); hlLinks = new Set();
+        if (n && Graph) {
+          hlNodes.add(n.id);
+          Graph.graphData().links.forEach((l) => {
+            const s = typeof l.source === "object" ? l.source.id : l.source;
+            const t = typeof l.target === "object" ? l.target.id : l.target;
+            if (s === n.id || t === n.id) { hlLinks.add(l); hlNodes.add(s); hlNodes.add(t); }
+          });
+        }
+        if (Graph) Graph.nodeColor(nodeColorHL).nodeVal(nodeVal).linkColor(linkColorHL).linkWidth(linkWidthHL);
+      }
+
       // Fraktions-Farben (dark-theme-tauglich) für klar erkennbare Balken statt Grau.
       const PARTY = {
         "CDU/CSU": "#bfc7d0", "SPD": "#e3000f", "BÜNDNIS 90/DIE GRÜNEN": "#3fbf46",
@@ -234,18 +258,21 @@
         try {
           Graph = ForceGraph3D()($("graph"))
             .backgroundColor("#0b2239")
-            .nodeColor(color)
+            .nodeColor(nodeColorHL)
+            .nodeVal(nodeVal)                 // Personen/Fraktionen/Reden groß, Saalreaktionen klein
+            .nodeRelSize(4)
             .nodeLabel((n) => `<b>${n.label}</b><br/><i>${n.type}</i>`)
-            .nodeRelSize(5)
             // Beziehungen sichtbar machen (Default-Opacity 0.2 + dunkles Grau = unsichtbar):
-            .linkColor(() => "#8b949e")
-            .linkOpacity(0.55)
-            .linkWidth(0.6)
+            .linkColor(linkColorHL)
+            .linkOpacity(0.5)
+            .linkWidth(linkWidthHL)
             .linkDirectionalArrowLength(3.5)
             .linkDirectionalArrowRelPos(1)
             .linkDirectionalArrowColor(() => "#8b949e")
             .linkLabel((l) => l.relationship_type)
-            .onNodeClick(showNode);
+            .onNodeClick((n) => { showNode(n); highlightNode(n); if (curData) renderFactcheck(curData, n); })
+            .onBackgroundClick(() => { highlightNode(null); if (curData) renderFactcheck(curData);
+              $("detail").innerHTML = '<h2>Knoten</h2><div class="muted">Knoten anklicken…</div>'; });
           requestAnimationFrame(sizeGraph);  // Canvas auf die Container-Breite zwingen
           // GPU-Kontextverlust (z. B. abgestürzter GPU-Prozess) abfangen → Fallback statt
           // leerer/„kaputter" Canvas. Nach einem Frame prüfen, ob wirklich gerendert wird.
@@ -300,6 +327,12 @@
           html += `<div class="prop"><b>${k}:</b> ${v}</div>`;
         }
         const src = srcInfo(curData);
+        // Rede im Video — direkt zur belegten Sekunde springen (YouTube einbettbar).
+        if (n.type === "Redebeitrag" && src && src.video_id && Number(n.start_sec) > 0) {
+          const t = Math.floor(n.start_sec);
+          const mm = `${String(Math.floor(t / 60)).padStart(2, "0")}:${String(t % 60).padStart(2, "0")}`;
+          html += `<div class="prop"><a class="cite playvid" href="${ytLink(src.video_id, t)}" data-embed="${ytEmbed(src.video_id, t)}" data-orig="${ytLink(src.video_id, t)}" data-title="${esc(n.label || "Rede")} [${mm}]">▶ Rede im Video ab ${mm}</a></div>`;
+        }
         if (n.type === "Transkriptsegment" && src) {  // Deeplink in die echte Quelle (eingebettet)
           const t = Math.floor(n.start_sec || 0);
           const link = src.video_id ? ytLink(src.video_id, t)
@@ -393,7 +426,7 @@
           : '<div class="empty">Graph wählen…</div>');
       }
 
-      function renderFactcheck(data) {
+      function renderFactcheck(data, sel) {
         const checks = data.nodes.filter((n) => n.type === "Faktencheck");
         const box = $("factcheck");
         if (!checks.length) { box.style.display = "none"; return; }
@@ -428,14 +461,28 @@
           return sameTop || reden[0] || null;
         };
         const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+        // Nur den Faktencheck zur markierten Rede/Redner:in zeigen (sonst alle).
+        let filterPerson = null;
+        if (sel) {
+          if (sel.type === "Person") filterPerson = sel.label;
+          else if (sel.type === "Aussage") filterPerson = sel.person;
+          else if (sel.type === "Redebeitrag") {
+            const r = data.relationships.find((r) => r.target_id === sel.id && r.relationship_type === "HAT_REDEBEITRAG");
+            filterPerson = r ? (byId[r.source_id] || {}).label : null;
+          }
+        }
+        const shown = filterPerson ? checks.filter((fc) => { const c = claimOf(fc.id); return c && c.person === filterPerson; }) : checks;
         const src = srcInfo(data), disc = data.metadata && data.metadata.factcheck_disclaimer;
         const rev = loadReview(current);
         const nrev = Object.keys(rev).length;
         box.innerHTML = `<h2>🔎 Faktencheck der Reden`
           + `<button class="rev-export" id="revExport" title="Menschliche Korrekturen als JSON herunterladen">⬇ Korrekturen (${nrev})</button></h2>`
           + (disc ? `<div class="empty">⚠️ ${disc}</div>` : "")
-          + `<div class="rev-hint">Mensch-im-Loop: KI-Vorschläge freigeben ✓, ablehnen ✗ oder korrigieren ✎ — wird lokal gespeichert &amp; exportierbar.</div>`
-          + checks.map((fc) => {
+          + (filterPerson
+            ? `<div class="rev-hint">Gefiltert auf <b>${esc(filterPerson)}</b> · <button class="rev-export" id="fcAll" title="Alle Faktenchecks zeigen">↺ alle anzeigen</button></div>`
+            : `<div class="rev-hint">Mensch-im-Loop: KI-Vorschläge freigeben ✓, ablehnen ✗ oder korrigieren ✎ — wird lokal gespeichert &amp; exportierbar. <span style="color:var(--muted)">Knoten (Rede/Redner:in) anklicken filtert hier.</span></div>`)
+          + (shown.length ? "" : `<div class="empty">Keine geprüften Aussagen${filterPerson ? " für " + esc(filterPerson) : ""}.</div>`)
+          + shown.map((fc) => {
             const c = claimOf(fc.id), s = srcOf(fc.id), seg = segOf(c);
             let deep = "";
             if (src && seg && seg.start_sec != null && src.video_id) {  // YouTube: Zeit-Deeplink
@@ -674,6 +721,7 @@
         if (pv) { ev.preventDefault(); playVideo(pv.dataset); return; }
         if (ev.target.closest(".close") || ev.target.id === "gapOverlay" || ev.target.id === "videoOverlay") { closeGap(); return; }
         if (ev.target.id === "revExport") { exportReview(); return; }
+        if (ev.target.id === "fcAll") { highlightNode(null); if (curData) renderFactcheck(curData); return; }
         const rb = ev.target.closest(".review button[data-rev]");
         if (rb) { applyReview(rb.closest(".fc"), rb.dataset.rev); }
       });

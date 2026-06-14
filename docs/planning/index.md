@@ -26,3 +26,4 @@ this board with `/plan`. Frontmatter: `title, status, owner, updated`, optional 
 - [Gap-diff overlay (word diff) + Diarisierungs-DER](future/gap-diff-der.md)
 - [SPARK reuse — Temporal durability + optional LiteLLM gateway](future/spark-reuse-temporal-litellm.md)
 - [LLM provider independence — migrate call sites + self-host options](future/llm-provider-independence.md)
+- [Design-System-Rollout — Material 3 + Bundestag CD vervollständigen](future/design-system-rollout.md)
