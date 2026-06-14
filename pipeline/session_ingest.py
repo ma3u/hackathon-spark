@@ -152,6 +152,43 @@ def mediathek_protocol(clips, *, wp, nr):
     return p, rede_links
 
 
+def _clip_titel(c, i) -> str:
+    """Einheitlicher TOP-Titel eines Clips (Thema bevorzugt) — Loop und tops-Aufbau gleich."""
+    return c.get("topic") or c.get("top") or f"TOP {i + 1}"
+
+
+def clips_protocol(clips, *, wp, nr, datum=""):
+    """@bundestag/videos-Clips (je TOP ein Clip, optional clip['text']) → Protocol + Deeplinks je TOP.
+
+    Discovery via youtube_api (Data API, ADR-0013) ODER youtube_clips (yt-dlp). Jeder Clip ist ein
+    eigener TOP-Mitschnitt → ein TOP + ein Redebeitrag + eine Utterance; der Deeplink ist die
+    Clip-URL. Fehlt der Untertiteltext, dient das TOP-Thema als Segmenttext (Provenienz/Deeplink
+    bleiben erhalten). Liefert (Protocol, rede_links: {utterance_index: clip_url}).
+    """
+    p = extract_protocol()
+    p.meeting = {"gremium": "Deutscher Bundestag (YouTube-Clips je TOP)", "datum": datum,
+                 "wahlperiode": str(wp), "sitzung_nr": str(int(nr)), "ort": "Berlin"}
+    top_nr: dict[str, int] = {}
+    rede_links: dict[int, str] = {}
+    for i, c in enumerate(clips):
+        titel = _clip_titel(c, i)
+        if titel not in top_nr:
+            top_nr[titel] = len(top_nr) + 1
+        tn = top_nr[titel]
+        p.utterances.append(Utterance(
+            start=float(i), end=float(i), speaker_label=c.get("video_id", f"S{i}"),
+            speaker_name="Sprecher:in (Video)", rolle="Redner:in", fraktion=None,
+            text=c.get("text") or titel, herkunft="protokoll"))  # Deeplink = Clip-URL (rede_links)
+        p.redebeitraege.append({"person": "Sprecher:in (Video)", "fraktion": None,
+                                "top_nummer": tn, "timecode": c.get("top", ""), "start": 0.0,
+                                "quelle_utterances": [i]})
+        rede_links[i] = c["url"]
+    p.tops = [{"nummer": n, "titel": t,
+               "quelle_utterances": [i for i, c in enumerate(clips) if top_nr[_clip_titel(c, i)] == n]}
+              for t, n in top_nr.items()]
+    return p, rede_links
+
+
 def llm_factcheck_mediathek(p, *, model, base_url, api_key, max_passages: int = 16):
     """LLM extrahiert+prüft echte Claims aus den Reden; Aussagen tragen den echten Sprecher."""
     n = len(p.utterances)
@@ -408,4 +445,59 @@ def ingest_mediathek(*, wp, nr, az=None, load=False, write_web=True, neo4j=None,
     return {"name": ids["md_name"], "nodes": graph["metadata"]["node_count"],
             "rels": graph["metadata"]["relationship_count"], "reden": len(clips),
             "datum": p.meeting["datum"], "tops": len(p.tops), "checks": len(checks),
+            "quelle_url": quelle_url, "protocol": p}
+
+
+def ingest_youtube_clips(*, wp, nr, az=None, load=False, write_web=True, neo4j=None,
+                         api_key=None, use_api=True, captions=True, max_pages: int = 40) -> dict | None:
+    """Komplett: @bundestag/videos-Clips je TOP → Protocol → Graph + web/ + Neo4j (yt_).
+
+    Discovery offiziell über die YouTube Data API v3 (`youtube_api`, ADR-0013), Fallback yt-dlp
+    (`youtube_clips`). Untertiteltexte (captions=True) holt yt-dlp (`captions.download` nur für
+    eigene Videos). Für Sitzungen OHNE Gesamt-Stream. Gibt None zurück, wenn keine Clips gefunden
+    werden.
+    """
+    from . import youtube_clips  # lazy: yt-dlp/Netz nur im Produktivpfad
+    ids = _ids(wp, nr)
+    if use_api:
+        from . import youtube_api  # lazy: Data-API-Client (urllib + Schlüssel)
+        clips = youtube_api.collect_session(nr, api_key=api_key, max_pages=max_pages)
+    else:
+        clips = youtube_clips.collect_session(nr)
+    if not clips:
+        return None
+    if captions:
+        clips = youtube_clips.fetch_captions(clips)
+        clips = [c for c in clips if c.get("text")] or clips  # alle leer → Struktur behalten
+    p, rede_links = clips_protocol(clips, wp=wp, nr=nr)
+    checks = llm_factcheck_mediathek(p, **az) if az else []
+    graph = graph_build.build_graph(p, audio_file=f"yt_clips_{wp}_{ids['nnn']}",
+                                    sitzung_id=ids["sid_yt"], factchecks=checks)
+    quelle_url = clips[0]["url"]
+    _decorate(graph, herkunft="youtube", quelle_typ="youtube", quelle_url=quelle_url,
+              quelle_label=f"YouTube @bundestag — Clips je TOP ({int(nr)}. Sitzung)",
+              official_pdf=ids["pdf"], official_xml=ids["xml"],
+              disclaimer=_FC_DISCLAIMER if checks else None)
+    graph["metadata"]["clips"] = len(clips)
+    graph["metadata"]["discovery"] = "youtube_data_api_v3" if use_api else "yt-dlp"
+    OUT.mkdir(parents=True, exist_ok=True)
+    export.write_json(graph, OUT / f"{ids['yt_name']}_graph_data.json")
+    if write_web:
+        WEB.mkdir(parents=True, exist_ok=True)
+        export.write_json(graph, WEB / f"{ids['yt_name']}.json")
+        export.write_json(dashboard.compute_dashboard(p, checks), WEB / f"{ids['yt_name']}_dashboard.json")
+        html = protocol_html.render(
+            p, factchecks=checks, quelle_url=quelle_url, rede_links=rede_links,
+            quelle_label="YouTube @bundestag — Clips je TOP",
+            official_pdf=ids["pdf"], official_xml=ids["xml"],
+            disclaimer=_FC_DISCLAIMER if checks else None,
+            title=f"Deutscher Bundestag — {int(nr)}. Sitzung (YouTube-Clips je TOP)")
+        (WEB / f"{ids['yt_name']}_protokoll.html").write_text(html, encoding="utf-8")
+        (WEB / f"{ids['yt_name']}_barrierefrei.txt").write_text(
+            accessible.summarize(p, checks), encoding="utf-8")
+    if neo4j is not None or load:
+        to_neo4j(graph, prefix=ids["yt_prefix"], load=load, **(neo4j or {}))
+    return {"name": ids["yt_name"], "nodes": graph["metadata"]["node_count"],
+            "rels": graph["metadata"]["relationship_count"], "clips": len(clips),
+            "tops": len(p.tops), "checks": len(checks), "discovery": graph["metadata"]["discovery"],
             "quelle_url": quelle_url, "protocol": p}
