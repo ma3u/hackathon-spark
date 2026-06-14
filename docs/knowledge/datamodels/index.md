@@ -14,3 +14,4 @@ tags: [datamodels, index]
 - [FactCheck & Quelle](faktencheck-quelle.md) — verdict scale + the mandatory-source invariant.
 - [Provenance (BELEGT_DURCH)](provenienz-belegt-durch.md) — audio-second proof backbone.
 - [Transkriptsegment](transkriptsegment.md) — the provenance leaf node.
+- [Graph schema (Meta-Graph)](graph-schema.md) — generated node/relationship/metadata inventory + schema diagram.

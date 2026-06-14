@@ -1,0 +1,32 @@
+%% graph-protokoll — Meta-Graph (Schema), generiert aus web/data/*.json durch
+%% scripts/graph_schema.py. Knoten = Knotentypen (Label), Kanten = Beziehungstypen.
+flowchart LR
+    Abstimmung -->|BELEGT_DURCH| Transkriptsegment
+    Abstimmung -->|FUEHRT_ZU| Beschluss
+    AkustischesEreignis -->|BELEGT_DURCH| Transkriptsegment
+    AkustischesEreignis -->|REAKTION_AUF| Redebeitrag
+    Aussage -->|BELEGT_DURCH| Transkriptsegment
+    Aussage -->|GEPRUEFT_ALS| Faktencheck
+    Aussage -->|ZU_TOP| Tagesordnungspunkt
+    Beschluss -->|BELEGT_DURCH| Transkriptsegment
+    Beschluss -->|ERZEUGT_AUFGABE| Aufgabe
+    Faktencheck -->|BELEGT_MIT| Quelle
+    Frage -->|ZU_TOP| Tagesordnungspunkt
+    Person -->|BEFANGENHEIT_NACH| Norm
+    Person -->|BEFANGEN_BEI| Tagesordnungspunkt
+    Person -->|HAT_REDEBEITRAG| Redebeitrag
+    Person -->|MITGLIED_VON| Fraktion
+    Person -->|STELLT_FRAGE| Frage
+    Person -->|TAETIGT_AUSSAGE| Aussage
+    Redebeitrag -->|BELEGT_DURCH| Transkriptsegment
+    Redebeitrag -->|ZU_TOP| Tagesordnungspunkt
+    Sitzung -->|BESCHLUSSFAEHIG_NACH| Norm
+    Sitzung -->|GELEITET_VON| Person
+    Sitzung -->|HAT_TOP| Tagesordnungspunkt
+    Sitzung -->|PROTOKOLLIERT_VON| Person
+    Tagesordnungspunkt -->|BEHANDELT_ANTRAG| Antrag
+    Tagesordnungspunkt -->|BELEGT_DURCH| Transkriptsegment
+    Tagesordnungspunkt -->|ENTSCHIEDEN_DURCH| Abstimmung
+    Tagesordnungspunkt -->|ERGEBNIS_BESCHLUSS| Beschluss
+    Tagesordnungspunkt -->|ERZEUGT_AUFGABE| Aufgabe
+    Tagesordnungspunkt -->|HAT_REAKTION| AkustischesEreignis
