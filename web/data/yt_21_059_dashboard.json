@@ -1,0 +1,235 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag (YouTube-Clips je TOP)",
+    "datum": "",
+    "wahlperiode": "21",
+    "sitzung_nr": "59"
+  },
+  "kennzahlen": {
+    "reden": 25,
+    "schriftliche_beitraege": 0,
+    "woerter": 125293,
+    "gesamtzeit_min": 964,
+    "tops": 24,
+    "saalreaktionen": 0,
+    "geprüfte_aussagen": 43
+  },
+  "redner": [
+    {
+      "name": "Sprecher:in (Video)",
+      "woerter": 125293,
+      "reden": 25,
+      "fraktion": null
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Energie & Klima",
+      "woerter": 18980
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 18131
+    },
+    {
+      "thema": "Migration & Asyl",
+      "woerter": 17511
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 16884
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 13444
+    },
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 9718
+    },
+    {
+      "thema": "Innere Sicherheit",
+      "woerter": 7186
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 6242
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 5172
+    },
+    {
+      "thema": "Sonstige / Verfahren",
+      "woerter": 3893
+    },
+    {
+      "thema": "Krieg in der Ukraine",
+      "woerter": 3064
+    },
+    {
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 3024
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 2044
+    }
+  ],
+  "top_themen": [
+    {
+      "top": 20,
+      "titel": "Infrastruktur-Zukunftsgesetz",
+      "thema": "Verkehr & Mobilität",
+      "woerter": 16884
+    },
+    {
+      "top": 2,
+      "titel": "TOP ZP 7, 9: Klimaschutz, bezahlbarer Strom",
+      "thema": "Energie & Klima",
+      "woerter": 11539
+    },
+    {
+      "top": 1,
+      "titel": "Tariftreuegesetz",
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 9217
+    },
+    {
+      "top": 21,
+      "titel": "Aktuelle Stunde: Verwandtenbeschäftigung bei AfD-Abgeordnete",
+      "thema": "Steuern & Finanzen",
+      "woerter": 8958
+    },
+    {
+      "top": 24,
+      "titel": "Kontrollen und Zurück­weisungen an der Grenze",
+      "thema": "Migration & Asyl",
+      "woerter": 8757
+    },
+    {
+      "top": 3,
+      "titel": "Kontrollen und Zurückweisungen an der Grenze",
+      "thema": "Migration & Asyl",
+      "woerter": 8754
+    },
+    {
+      "top": 11,
+      "titel": "Mietrecht, Wohngeld- und Mietenbericht 2024",
+      "thema": "Wohnen & Bau",
+      "woerter": 6242
+    },
+    {
+      "top": 4,
+      "titel": "Reform der privaten Altersvorsorge",
+      "thema": "Rente & Soziales",
+      "woerter": 5172
+    },
+    {
+      "top": 6,
+      "titel": "Wasserstoffhochlauf",
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4608
+    },
+    {
+      "top": 5,
+      "titel": "Demokratische Schule",
+      "thema": "Bildung & Forschung",
+      "woerter": 4516
+    },
+    {
+      "top": 7,
+      "titel": "Abschaffung der Grundsteuer",
+      "thema": "Steuern & Finanzen",
+      "woerter": 4486
+    },
+    {
+      "top": 9,
+      "titel": "Arbeitsmarktpolitik",
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4306
+    },
+    {
+      "top": 8,
+      "titel": "Änderung des Luftsicherheitsgesetzes",
+      "thema": "Innere Sicherheit",
+      "woerter": 4062
+    },
+    {
+      "top": 10,
+      "titel": "Schutz vor Einschüchterungsklagen",
+      "thema": "Bildung & Forschung",
+      "woerter": 3989
+    },
+    {
+      "top": 13,
+      "titel": "Verbot der Islamischen Revolutionsgarde des Iran",
+      "thema": "Innere Sicherheit",
+      "woerter": 3124
+    },
+    {
+      "top": 22,
+      "titel": "Schuldenschnitt für die Ukraine",
+      "thema": "Krieg in der Ukraine",
+      "woerter": 3064
+    },
+    {
+      "top": 23,
+      "titel": "Änderung des Umwelt-Rechtsbehelfsgesetzes",
+      "thema": "Landwirtschaft & Umwelt",
+      "woerter": 3024
+    },
+    {
+      "top": 15,
+      "titel": "Nachhaltige Nutzung der Meere, Hochseeschutzgesetz",
+      "thema": "Energie & Klima",
+      "woerter": 2752
+    },
+    {
+      "top": 16,
+      "titel": "Änderung des Chemikaliengesetzes",
+      "thema": "Energie & Klima",
+      "woerter": 2546
+    },
+    {
+      "top": 12,
+      "titel": "Urteil des BVerfG zur Vaterschaftsanfechtung",
+      "thema": null,
+      "woerter": 2315
+    },
+    {
+      "top": 19,
+      "titel": "Weiterentwicklung der Treibhausgasminderungs-Quote",
+      "thema": "Energie & Klima",
+      "woerter": 2143
+    },
+    {
+      "top": 14,
+      "titel": "Nichtmilitärische Bedrohungen aus der Luft",
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 2044
+    },
+    {
+      "top": 18,
+      "titel": "Wahleinsprüche anlässlich der Bundestagswahl 2025",
+      "thema": null,
+      "woerter": 1578
+    },
+    {
+      "top": 17,
+      "titel": "Änderung des Registerzensuserprobungsgesetzes",
+      "thema": "Bildung & Forschung",
+      "woerter": 1213
+    }
+  ],
+  "sprachanteil_fraktion": [],
+  "feedback_je_thema": [],
+  "feedback_gegeben_fraktion": [],
+  "feedback_erhalten_fraktion": [],
+  "faktencheck_bilanz": {
+    "teilweise": 13,
+    "bestätigt": 10,
+    "unbelegt": 19,
+    "irreführend": 1
+  }
+}

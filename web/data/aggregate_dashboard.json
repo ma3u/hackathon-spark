@@ -6,7 +6,8 @@
       "amtliche_dashboards": 82,
       "voll_graphen_mit_faktencheck": 13,
       "youtube_sitzungen_mit_clips": 56,
-      "youtube_clips_gesamt": 377
+      "youtube_clips_gesamt": 377,
+      "youtube_faktencheck_sitzungen": 4
     },
     "disclaimer_faktencheck": "Faktencheck automatisch durch KI (Mistral) erzeugt — ungeprüfte Vorschläge, kein Urteil über reale Personen. Vor Veröffentlichung von Menschen prüfen.",
     "hinweis": "Faktencheck-Bilanzen existieren nur für die per LLM/Retrieval geprüften Showcase-Sitzungen (70–81 + 20/214); Themen/Redner:innen über alle verfügbaren Dashboards."
@@ -1011,6 +1012,61 @@
       55
     ],
     "clips_gesamt": 377
+  },
+  "youtube_faktencheck": {
+    "verdikt_gesamt": {
+      "bestätigt": 56,
+      "teilweise": 53,
+      "irreführend": 5,
+      "falsch": 2,
+      "unbelegt": 69
+    },
+    "je_sitzung": [
+      {
+        "wp": 21,
+        "nr": 59,
+        "clips": 25,
+        "verdikte": {
+          "bestätigt": 10,
+          "teilweise": 13,
+          "irreführend": 1,
+          "unbelegt": 19
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 68,
+        "clips": 22,
+        "verdikte": {
+          "bestätigt": 10,
+          "teilweise": 13,
+          "unbelegt": 23
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 79,
+        "clips": null,
+        "verdikte": {
+          "bestätigt": 21,
+          "teilweise": 15,
+          "irreführend": 4,
+          "falsch": 1,
+          "unbelegt": 12
+        }
+      },
+      {
+        "wp": 21,
+        "nr": 81,
+        "clips": null,
+        "verdikte": {
+          "bestätigt": 15,
+          "teilweise": 12,
+          "falsch": 1,
+          "unbelegt": 15
+        }
+      }
+    ]
   },
   "fun_facts": [
     "Insgesamt 82 amtliche Sitzungs-Dashboards. 10058 Reden. 4.616.984 Wörter. 79358 Saalreaktionen.",

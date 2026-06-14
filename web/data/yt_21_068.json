@@ -1,0 +1,3506 @@
+{
+  "metadata": {
+    "title": "Protokoll-Knowledge-Graph — Deutscher Bundestag (YouTube-Clips je TOP)",
+    "source_audio": "yt_clips_21_068",
+    "generated_by": "graph-protokoll pipeline (SPARK Challenge 2 prototype)",
+    "ontology_layers": [
+      "normativ",
+      "zeitlich",
+      "prozedural",
+      "fallbezug",
+      "reaktion",
+      "faktencheck",
+      "provenienz"
+    ],
+    "node_count": 182,
+    "relationship_count": 340,
+    "herkunft": "youtube",
+    "quelle_typ": "youtube",
+    "quelle_url": "https://www.youtube.com/watch?v=8OSziZu0Juo",
+    "quelle_label": "YouTube @bundestag — Clips je TOP (68. Sitzung)",
+    "amtliches_pdf": "https://dserver.bundestag.de/btp/21/21068.pdf",
+    "amtliches_xml": "https://dserver.bundestag.de/btp/21/21068.xml",
+    "factcheck_disclaimer": "Faktencheck automatisch durch KI (Mistral) erzeugt — ungeprüfte Vorschläge, kein Urteil über reale Personen.",
+    "clips": 22,
+    "discovery": "youtube_data_api_v3"
+  },
+  "nodes": [
+    {
+      "id": "sitzung_yt_21_068",
+      "label": "Sitzung ",
+      "type": "Sitzung",
+      "subtype": "Deutscher Bundestag (YouTube-Clips je TOP)",
+      "gremium": "Deutscher Bundestag (YouTube-Clips je TOP)",
+      "datum": "",
+      "ort": "Berlin",
+      "wahlperiode": "21",
+      "sitzung_nr": "68",
+      "beschlussfaehig": "",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "zeitlich"
+    },
+    {
+      "id": "person_sprecher_in_video",
+      "label": "Sprecher:in (Video)",
+      "type": "Person",
+      "subtype": "Redner:in",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "top_1",
+      "label": "TOP 1: Kraftstoffmaßnahmenpaket, Energiepreissteigerungen",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 1,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_2",
+      "label": "TOP 2: Kraft­stoff­maß­nahmen­paket, Energie­preis­steigerungen",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 2,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_3",
+      "label": "TOP 3: Statistik über Übergriffe und Gewalt an Schulen",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 3,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_4",
+      "label": "TOP 4: Statistik über Über­griffe und Gewalt an Schulen",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 4,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_5",
+      "label": "TOP 5: Jahresbericht 2025 des Wehrbeauftragten",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 5,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_6",
+      "label": "TOP 6: Jahres­bericht 2025 des Wehr­beauftragten",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 6,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_7",
+      "label": "TOP 7: Strafbarkeit bildbasierter sexualisierter Gewalt",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 7,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_8",
+      "label": "TOP 8: Änderung des Transplantationsgesetzes",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 8,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_9",
+      "label": "TOP 9: Förderung von LGBTIQ-Projekten im Ausland",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 9,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_10",
+      "label": "TOP 10: Fairer Datenzugang, Daten-Governance-Gesetz",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 10,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_11",
+      "label": "TOP 11: Wohnungslosenhilfe, Verwendung bestehender Gebäude",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 11,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_12",
+      "label": "TOP 12: Intelligente-Verkehrssysteme-Gesetz",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 12,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_13",
+      "label": "TOP 13: Rechtmäßigkeit des Sondervermögens Infrastruktur und Klimaneu",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 13,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_14",
+      "label": "TOP 14: Anerkennungsverfahren in Heilberufen",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 14,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_15",
+      "label": "TOP 15: Muslimisches Leben in Deutschland",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 15,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_16",
+      "label": "TOP 16: EU-Notfallverfahren für Gasgeräte und persönliche Schutzausrü",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 16,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_17",
+      "label": "TOP 17: Boykottmaßnahmen durch Nichtregierungsorganisationen",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 17,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_18",
+      "label": "TOP 18: Änderung straßenverkehrsrechtlicher Vorschriften",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 18,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_19",
+      "label": "TOP 19: Bekämpfung von Sozialleistungsbetrug",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 19,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_20",
+      "label": "TOP 20: EU-Verordnung über fluorierte Treibhausgase",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 20,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_21",
+      "label": "TOP 21: Umsetzung der EU-Richtlinie zu Industrieemissionen",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 21,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "top_22",
+      "label": "TOP 22: Aktuelle Stunde: Familienversicherung in der gesetzlichen Kra",
+      "type": "Tagesordnungspunkt",
+      "subtype": "",
+      "nummer": 22,
+      "schicht": "prozedural"
+    },
+    {
+      "id": "redebeitrag_0",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 1, TOP 7)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 7",
+      "start_sec": 0.0,
+      "text": "7A und 7bung von Vorlagen zum Kraftstoffmaßnahmen Paket und zur Entlastung der Unternehmen und der Verbraucher wegen des Anstiegs der Energiepreise. Zu dem Gesetzentwurf der Fraktionen der CDU, CSO und SPD liegen je ein Entschließungsantrag der Fraktion Bündnis 90 die Grünen und der Fraktion Die Linke vor. Über die Beschlussempfehlung zu dem Antrag der Fraktion der AfD werden wir später namentlich abstimmen. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart und ich eröffne hiermit die Aussprache und das Wort hat für die CDU CSU für die CDU CSU Bundestagsfraktion der Abgeordnete Her",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_1",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 2, TOP 7)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 7",
+      "start_sec": 0.0,
+      "text": "Guten Morgen zusammen. Hiermit eröffne ich unsere Sitzung. Es ist die 68. Bevor wir in die Tagesordnung heute eintreten, darf ich gratulieren nachträglich zu einem 60. Geburtstag. Herzlichen Glückwunsch unserer Kollegin Frauke Heiligenstadt. Alles Gute. Im Namen des gesamten Hauses. Nur das Beste. Ich rufe auf. die Tagesordnungspunkte 7A und 7bung von Vorlagen zum Kraftstoffmaßnahmen Paket und zur Entlastung der Unternehmen und der Verbraucher wegen des Anstiegs der Energiepreise. Zu dem Gesetzentwurf der Fraktionen der CDU, CSO und SPD liegen je ein Entschließungsantrag der Fraktion Bündnis 9",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_2",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 3, ZP 2)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "ZP 2",
+      "start_sec": 0.0,
+      "text": "sowie Zusatzpunkt 2. Es geht um die Beratung der Anträge der AfD mit folgenden Titeln: Gewalt und andere Formen schwerwiegender Übergriffe an Schulen systematisch erfassen, untersuchen und durch geeignete Maßnahmen verhindern, sowie Schutz von Kindern und Jugendlichen vor religiösem Zwang, Mobbing und gruppendynamischen Druck stärken, auch Konversionsdruck wirksam begegnen. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart. Ich eröffne hiermit die Aussprache und das Wort hat für die AfD Fraktion der Abgeordnete Dr. Götz Fröming. Bitte sehr. [applaus] Frau Präsidentin, meine Damen u",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_3",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 4, ZP 2)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "ZP 2",
+      "start_sec": 0.0,
+      "text": "auf den Tagesordnungspunkt 20 sowie Zusatzpunkt 2. Es geht um die Beratung der Anträge der AfD mit folgenden Titeln: Gewalt und andere Formen schwerwiegender Übergriffe an Schulen systematisch erfassen, untersuchen und durch geeignete Maßnahmen verhindern, sowie Schutz von Kindern und Jugendlichen vor religiösem Zwang, Mobbing und gruppendynamischen Druck stärken, auch Konversionsdruck wirksam begegnen. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart. Ich eröffne hiermit die Aussprache und das Wort hat für die AfD Fraktion der Abgeordnete Dr. Götz Fröming. Bitte sehr. Frau Präsid",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_4",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 5, TOP 9)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 9",
+      "start_sec": 0.0,
+      "text": "des Jahresberichts 2025 des Werbeauftragten. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart. Ich bitte die Kolleginnen und Kollegen ähm die Plätze zu tauschen, damit wir auch starten können, auch in der AfD Fraktion. ähm und gebe zunächst das Wort an den Werbeauftragten des deutschen Bundestages, Herr Henning Otte. Sehr geehrte Frau Präsidentin, sehr verehrte Damen und Herren Abgeordnete, sehr geehrte Damen und Herren, ich beginne mit einem herzlichen Dank an das Parlament, dass wir heute den Jahresbericht des Werbeauftragten bereits drei Wochen nach dessen Veröffentlichung in e",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_5",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 6, TOP 9)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 9",
+      "start_sec": 0.0,
+      "text": "Ich rufe auf den Tagesordnungspunkt 9. Beratung des Jahresberichts 2025 des Werbeauftragten. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart. Ich bitte die Kolleginnen und Kollegen ähm die Plätze zu tauschen, damit wir auch starten können, auch in der AfD Fraktion. ähm und gebe zunächst das Wort an den Werbeauftragten des deutschen Bundestages, Herr Henning Otte. Sehr geehrte Frau Präsidentin, sehr verehrte Damen und Herren Abgeordnete, sehr geehrte Damen und Herren, ich beginne mit einem herzlichen Dank an das Parlament, dass wir heute den Jahresbericht des Werbeauftrachten bere",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_6",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 7, TOP ZP 3)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP ZP 3",
+      "start_sec": 0.0,
+      "text": "bis 90 die grünen eingebrachten Gesetzentwurfes zur Änderung des Strafgesetzbuches Strafbarkeit bild basierter sexualisierter Gewalt. Für die Aussprache wurde eine Dauer von 60 Minuten vorgesehen. Ich eröffne hiermit die Aussprache und die erste Rednerin in dieser Debatte ist für die Fraktion Bündnis 90 die Grünen Dr. Lena Gumnior. [applaus] Sehr geehrte Frau Präsidentin, liebe Demokratinnen und Demokraten, Janni Gensch, Rebecca und Anne Colin Fernandes, all diese Frauen haben mutig in den letzten Monaten ihre Erlebnisse von sexualisierter Gewalt öffentlich gemacht. Die wenigen Namen stehen öf",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_7",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 8, TOP 11)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 11",
+      "start_sec": 0.0,
+      "text": "auf die Tagesordnungspunkte 11a und 11b. zweite und dritte Beratung des von der Bundesregierung eingebrachten Gesetzesentwurfs zur Änderung des Transplantationsgesetzes, Novellierung der Regelungen zur Lebend Organspende und weitere Änderungen sowie Beratung der Beschlussempfehlung des Ausschusses für Gesundheit zu dem Antrag der Fraktion der AfD mit dem Titel Überlebenschancen von Dialysepatienten verbessern Crossover Lebensspende als Leistung der gesetzlichen Krankenversicherung erlauben. Zu dem Gesetzentwurf der Bundesregierung liegt ein Entschließungsantrag der Fraktion die Linke vor. Für ",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_8",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 9, TOP 12)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 12",
+      "start_sec": 0.0,
+      "text": "LGBTIQ und Genderprojekten sowie zum Lebensschutz im Ausland. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich würde sie gerne eröffnen, aber erst wenn hier alle, die uns verlassen wollen, die auch zügig so tun und alle, die beiwohnen wollen, sich platzieren, bitte, damit wir hier allen, die hier sprechen, noch fokussiert zuhören können. Vielen Dank. Ich eröffne die Aussprache und erteile das Wort für die AfD Fraktion Beatrix von Steuch. [applaus] Herr Präsident, meine Damen und Herren, wir beraten heute über eine große Anfrage und zwei Anträge unserer AfDF Frzon und es geht ",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_9",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 10, TOP 13)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 13",
+      "start_sec": 0.0,
+      "text": "Ich rufe auf die Tagesordnungspunkte 13a und 13b jeweils zweite und dritte Beratung der von der Bundesregierung eingebrachten Gesetzentwürfe zur Umsetzung von europäischen Datennutzungsvorgaben. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich würde sie gerne eröffnen, wenn hier Ruhe eingekehrt ist. Und darum bitte ich, alle, die gehen mögen, sollen sich gut gehen lassen und dies schnellstmöglich erreichen, aber außerhalb des Plenarsals und alle anderen sind angehalten, sich möglichst schnell zu platzieren, damit hier Ruhe einkehrt. Vielen Dank. Ich eröffne die Aussprache und",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_10",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 11, TOP 14)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 14",
+      "start_sec": 0.0,
+      "text": "Ja, wenn ich so viele Zahlen vorlesen muss, denke ich immer an Erwin Lottermann und äh habe Lorioot im Kopf. Ich rufe auf den Tagesordnungspunkt 14a Beratung des Antrags der Fraktion Die Linke mit dem Titel Wohnungslose Frauen besser schützen. Geschlechtsspezifische Bedarfe in der Wohnungslosenhilfe konsequent berücksichtigen. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich darf die Aussprache öffnen und Saramiro für die Fraktion Die Linke das Wort erteilen. [applaus] [applaus] Sehr geehrter Herr Präsident, liebe Bürgerinnen und Bürger, liebe Kolleginnen, Gewalt ist für wohn",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_11",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 12, TOP 15)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 15",
+      "start_sec": 0.0,
+      "text": "Auf den Tagesordnungspunkt 15. Und dritte Beratung des von der Bundesregierung eingebrachten Gesetzentwurfes zur Neuregelung des Rechtsrahmens für intelligente Verkehrssysteme im Straßenverkehr und deren Schnittstellen zu anderen Verkehrsträgern und die Datenbereitstellung über den nationalen Zugangs Zugangspunkt. Für die Aussprache ist eine Dauer von 30 Minuten vorgesehen und ich darf Dr. Jonas Geisler für die CDU CSU Fraktion das Wort erteilen. Sehr geehrter Herr Präsident, liebe Kolleginnen und Kollegen, wer sich online eine Pizza bestellt, dem wird nicht die beste Pizza angezeigt oder die ",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_12",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 13, TOP ZP 7)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP ZP 7",
+      "start_sec": 0.0,
+      "text": "Auf den Zusatzpunkt 7, Beratung des Antrags der Fraktion der AfD mit dem Titel Antrag auf abstrakte Normen kontrolle beim Bundesverfassungsgericht gemäß Artikel 94 Absatz 1 Nummer 2 des Grundgesetzes wegen des Bundeshaushaltsgesetzes 2025, des Bundeshaushaltsgesetzes 2026 und des Gesetzes zur Errichtung eines Sondervermögens Infrastruktur und Klimaneutralität. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich darf die AfD Fraktion Dr. Michael Espendiller das Wort erteilen und die Debatte eröffnen. [applaus] Sehr geehrter Herr Präsident, sehr geehrte Kollegen, liebe Zuschauer i",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_13",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 14, TOP 17)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 17",
+      "start_sec": 0.0,
+      "text": "Die Tagesordnungspunkte 17a und 17b. Zweite und dritte Beratung des von der Bundesregierung eingebrachten Gesetzentwurf zur Beschleunigung der Anerkennungsverfahren ausländischer Berufsqualifikation in Heilberufen sowie Beratung der Beschlussempfehlung des Ausschusses für Gesundheit zu mehreren Anträgen der Fraktion der AfD zur Verbesserung der Überprüfungsverfahren bei ausländischen Ärzten und Pflegepersonal. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart und ich eröffne die Aussprache. Das hat Wort hat als erstes für die CDU CSU Fraktion der Abgeordnete Dr. Hans [applaus] und ",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_14",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 15, TOP 27)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 27",
+      "start_sec": 0.0,
+      "text": "Leben in Deutschland fördern. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich bitte die Kolleginnen, Kollegen, die zügig die Plätze zu wechseln und eröffne die Aussprache. Das Wort hat für die Fraktion Bündnis 90 die Grünen, die Abgeordnene Lamia Kador. [applaus] Sehr geehrte Frau Präsidentin, sehr geehrte Kolleginnen und Kollegen, liebe Gäste auf den Tribünen, liebe gelagene Gäste aus der muslimischen Zivilgesellschaft, Justiz, Forschung, Kunst und Kultur und der Bildung. Schön, dass Sie da sind. Unser Mandat als Abgeordnete ist klar. Ja, sehr schön. [applaus] Unser Mandat ",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_15",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 16, TOP ZP 8)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP ZP 8",
+      "start_sec": 0.0,
+      "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Gesetzentwurf zur Durchführung der Verordnung EU 2024748 in Bezug auf Notfallverfahren aufgrund eines Binnenmarktnotfalls bei Gasgeräten und persönlicher Schutzausrüstung. Über den Gesetzentwurf werden wir später namentlich abstimmen. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart und ich eröffne die Aussprache. Für die SPD Fraktion hat das Wort die Abgeordnete Angelika Klöckner. [applaus] Sehr geehrte Frau Präsidentin, [applaus] Kolleginnen und Kollegen, mit heutiger EU-Verordnung regeln wir auch die Schwellen",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_16",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 17, TOP 4)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 4",
+      "start_sec": 0.0,
+      "text": "der AfD eingebrachten Gesetzentwurf zur Ächtung politisch motivierter Boikottmaßnahmen durch Nicht Regierungsorganisation. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich eröffne die Aussprache für die AfD Fraktion. hat das Wort der Abgeordnete Fabian Jakobi und ich bitte auch wieder hier um etwas Ruhe im Saal. Jawohl. Frau Präsidentin, meine Damen und Herren, die Marktwirtschaft ist nach allen Erfahrungen der Menschheitsgeschichte die effektivste und sinnvollste Wirtschaftsordnung, damit sie funktionieren kann, bedarf sie eines Rechtsrahmens, einer Marktordnung. Der Staat m",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_17",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 18, TOP ZP 9)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP ZP 9",
+      "start_sec": 0.0,
+      "text": "Gesetzentwurfs Änderung des Straßenverkehrsgesetzes und anderer Straßenverkehrsrechtlicher Vorschriften. Hierzu liegt ein Änderungsantrag der Fraktion Bündnis und sich die Grün und ein Entschließungsantrag der Fraktion die Linke vor. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich würde gerne diese eröffnen, wenn hier ein bisschen Ruhe eingekehrt ist und diejenigen, die gehen wollen, die es auch tun und andere, die bei wollen, ebenfalls sich zu uns gesellen, damit wir allen die Reden hier konzentriert zuhören können. Vielen Dank. Ich eröffne die Aussprache und erteile das Wo",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_18",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 19, TOP 22)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 22",
+      "start_sec": 0.0,
+      "text": "Kommunen entlast in Ordnung und Sicherheitsstärken. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich würde gerne die Aussprache eröffnen, wenn hier Ruhe einkehrt und zwar bitte schnell. Alle, die gehen wollen, mögen das fröhlich und leise tun und alle, die dazu kommen, sind herzlich willkommen. Auch dies leise zu tun und zügig. Ich trau mich, ich trau mich. Das geht alles ein bisschen schneller. Vielen Dank auch für uns die sech Stunden. Ja, nach der sechsten Stunde kommt auch Mittagess und danach sind noch mehr Stunden. Das schaffen wir schon. Ich eröffne die Aussprache und ",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_19",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 20, TOP 19)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 19",
+      "start_sec": 0.0,
+      "text": "und nukleare Sicherheit zu der Verordnung der Bundesregierung zur Durchführung der Verordnung der EU 2024 /53 über Flo fluierter Treibhausgase. Ich fürchte, das dauert noch ein Moment und ich werde es noch ein paar mal sagen müssen. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich bitte alle, die uns verlassen wollen, sich verabschiedet zu fühlen und alle, die hier beinen wollen, mögen bitte Platz nehmen, damit wir die Debatte schnellstmöglich beginnen können und zwar in der gebotenen Aufmerksamkeit. Das bedeutet, dass beispielsweise Gespräche, die noch zu führen sind, bitte ",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_20",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 21, TOP 23)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP 23",
+      "start_sec": 0.0,
+      "text": "Auf den Tagesordnungspunkt 23 erste Beratung des von der Bundesregierung eingebrachten Gesetzentwurfs zur Umsetzung der Richtlinie EU 2024 /1785 zur Änderung der Richtlinie 2010 der EU über Industrieemission. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich eröffne die Aussprache und erteile das Wort Daniel Rinkert für die SPD. [applaus] Herr Präsident, sehr geehrte Kolleginnen und Kollegen, liebe Mitbürgerinnen und Mitbürger, Deutschland steht vor einem tiefgreifenden Zukunftsumbau. Bis 2045 wollen wir klimaneutral wirtschaften. Das ist nicht weniger als die größte industrie",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "redebeitrag_21",
+      "label": "Redebeitrag Sprecher:in (Video) (TOP 22, TOP ZP 6)",
+      "type": "Redebeitrag",
+      "subtype": "",
+      "timecode": "TOP ZP 6",
+      "start_sec": 0.0,
+      "text": "Stunde verlangt zu dem Thema Mitversicherung von Familienangehörigen in der gesetzlichen Krankenversicherung. Ich öffne hiermit die Aussprache. Der erste Redner in dieser Debatte ist Martin Sichert für die AfD Fraktion. [applaus] Frau Präsidentin, meine Damen und Herren, als Kind hatte ich einen guten Freund. Der Vater war einfacher Arbeiter, die Mutter zu Hause. Die konnten sich ein eigenes Haus leisten und regelmäßig in Urlaub fahren. Das waren treue SPD-Wähler, aber das ist lange vorbei, denn die SPD bestraft ständig die Fleißigen und zerstört vorsätzlich die Familien. Die Bundesregierung w",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "aussage_0",
+      "label": "Aussage: 40% der Förderanlagen in der Region [Persischer Golf/Iran] z…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "40% der Förderanlagen in der Region [Persischer Golf/Iran] zumindest beschädigt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_0",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine aktuellen, belastbaren amtlichen Quellen oder unabhängigen Berichte, die diese konkrete Zahl bestätigen. Die Situation in der Region ist zwar von Unsicherheiten geprägt, aber eine genaue Prozentangabe zu beschädigten Förderanlagen ist nicht verifizierbar.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "label": "KI-Einschätzung (Mistral), ungeprüft",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_1",
+      "label": "Aussage: über 20% des importierten Rohes werden für die Grünstoff und…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "über 20% des importierten Rohes werden für die Grünstoff und für die chemische Industrie im Land benötigt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_1",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Statistischem Bundesamt (Destatis) und Bundesanstalt für Geowissenschaften und Rohstoffe (BGR) ist Deutschland stark von Rohölimporten abhängig, und ein signifikanter Anteil fließt in die chemische Industrie. Allerdings ist die genaue Angabe 'über 20%' nicht direkt in amtlichen Quellen",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_energiedaten_gesamtausgabe_destatis_bgr",
+      "label": "Energiedaten - Gesamtausgabe (Destatis/BGR)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Umwelt/UGR/energie/Tabellen/energiedaten-gesamtausgabe.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_2",
+      "label": "Aussage: Preise [an Tankstellen] werden bis zu 50 mal am Tag veränder…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Preise [an Tankstellen] werden bis zu 50 mal am Tag verändert",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_2",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Studien des Bundeskartellamts und Untersuchungen zur Preisdynamik an Tankstellen bestätigen, dass Preisanpassungen durch Algorithmen und automatisierte Systeme häufig vorkommen. Das Bundeskartellamt hat in der Vergangenheit berichtet, dass Preise an Tankstellen mehrmals täglich (teilweise ü",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeskartellamt_sektoruntersuchung_kraftstoffe_2011",
+      "label": "Bundeskartellamt - Sektoruntersuchung Kraftstoffe (2011)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundeskartellamt.de/SharedDocs/Publikation/DE/Sektoruntersuchungen/Sektoruntersuchung_Kraftstoffe.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_3",
+      "label": "Aussage: die Maßnahmen [des Kraftstoffmaßnahmenpakets] sind ab April …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die Maßnahmen [des Kraftstoffmaßnahmenpakets] sind ab April wirksam",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_3",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Zum Zeitpunkt der Rede (März 2022) war der genaue Zeitpunkt des Inkrafttretens der Maßnahmen noch nicht amtlich bestätigt. Die Wirksamkeit ab April 2022 war eine Ankündigung, aber keine überprüfbare Tatsache. Spätere Drucksachen oder Beschlüsse könnten dies konkretisieren, sind aber zum Zei",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_4",
+      "label": "Aussage: 40% der Förderanlagen in der Region zumindest beschädigt…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "40% der Förderanlagen in der Region zumindest beschädigt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_4",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugänglichen, belastbaren Quellen oder amtlichen Statistiken, die diese konkrete Zahl zu beschädigten Förderanlagen in der genannten Region (Iran/persischer Golf) bestätigen. Die Aussage bezieht sich auf einen Konflikt, der in dieser Form nicht existiert (Krieg im I",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_5",
+      "label": "Aussage: über 20% des importierten Rohes werden für die Grünstoff und…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "über 20% des importierten Rohes werden für die Grünstoff und für die chemische Industrie im Land benötigt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_5",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Destatis und Bundesanstalt für Geowissenschaften und Rohstoffe (BGR) wird ein erheblicher Anteil des importierten Rohöls in Deutschland für die chemische Industrie und Raffinerien verwendet. Allerdings bezieht sich die Aussage auf 'Grünstoff' (vermutlich 'Grundstoffe'), und die genaue ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_vci_verband_der_chemischen_industrie_rohstoffbasis_der_chemischen_industrie_in_deutschland",
+      "label": "VCI – Verband der Chemischen Industrie: Rohstoffbasis der chemischen Industrie in Deutschland",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.vci.de/themen/rohstoffe/rohstoffbasis-der-chemischen-industrie.jsp",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_6",
+      "label": "Aussage: bis zu 50 mal am Tag die Preise verändert werden…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "bis zu 50 mal am Tag die Preise verändert werden",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_6",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Studien des Bundeskartellamts und des Monitoringberichts der Bundesnetzagentur belegen, dass Tankstellenpreise an einem Tag häufig geändert werden, teilweise sogar im Minutentakt. Die Zahl von 'bis zu 50 Mal' ist dabei ein plausibler Spitzenwert, der in Untersuchungen dokumentiert wurde.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_7",
+      "label": "Aussage: 2024 wurden bundesweit 94318 Straftaten in Schulen registrie…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "2024 wurden bundesweit 94318 Straftaten in Schulen registriert.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_7",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Aktuelle amtliche Statistiken zu Straftaten in Schulen für das Jahr 2024 liegen noch nicht vor. Die Polizeiliche Kriminalstatistik (PKS) wird jährlich veröffentlicht, aber die Daten für 2024 sind noch nicht verfügbar. Eine belastbare Quelle für diese konkrete Zahl ist nicht bekannt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_8",
+      "label": "Aussage: Davon waren 743 Messerangriffe.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Davon waren 743 Messerangriffe.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_8",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Wie bei der Gesamtzahl der Straftaten fehlt eine amtliche Quelle für diese spezifische Angabe zu Messerangriffen in Schulen für 2024. Die PKS differenziert zwar nach Tatmitteln, aber die Daten für 2024 sind noch nicht veröffentlicht.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_9",
+      "label": "Aussage: 24292 Straftaten gab es zusätzlich bei schulischen Veranstal…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "24292 Straftaten gab es zusätzlich bei schulischen Veranstaltungen, davon 284 mit dem Messer.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_9",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Auch hier fehlt eine amtliche Quelle für diese konkreten Zahlen zu Straftaten bei schulischen Veranstaltungen im Jahr 2024. Die PKS oder andere amtliche Statistiken enthalten keine bestätigten Daten für diesen Zeitraum.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_10",
+      "label": "Aussage: über ein Drittel der an Schulen beschäftigten [Personen] ber…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "über ein Drittel der an Schulen beschäftigten [Personen] berichten von religiös motivierten Konflikten unter Schülern.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_10",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannte Studie der Internationalen Hochschule Hannover (IHH) existiert, allerdings ist die genaue Formulierung und der Kontext der Befragung nicht vollständig klar. Eine Studie der IHH aus dem Jahr 2021 berichtet von religiös motivierten Konflikten, aber die genaue Prozentzahl (ein Dri",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_studie_der_internationalen_hochschule_hannover_ihh_zu_religi_sen_konflikten_an_schulen_2021",
+      "label": "Studie der Internationalen Hochschule Hannover (IHH) zu religiösen Konflikten an Schulen (2021)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.iubh.de/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_11",
+      "label": "Aussage: 2024 wurden bundesweit 94318 Straftaten in Schulen registrie…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "2024 wurden bundesweit 94318 Straftaten in Schulen registriert.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_11",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Aktuelle Zahlen für das Jahr 2024 liegen zum Zeitpunkt der Rede (Mitte 2024) noch nicht vor. Die letzte verfügbare amtliche Statistik des BKA (Polizeiliche Kriminalstatistik) bezieht sich auf das Jahr 2022. Eine konkrete Zahl für 2024 kann daher nicht bestätigt werden.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_polizeiliche_kriminalstatistik_pks_2022",
+      "label": "Polizeiliche Kriminalstatistik (PKS) 2022",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/pks2022/pks2022_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_12",
+      "label": "Aussage: Davon waren 743 Messerangriffe.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Davon waren 743 Messerangriffe.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_12",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Auch hier fehlt eine belastbare Quelle für das Jahr 2024. Die PKS differenziert zwar nach Tatmitteln, aber eine konkrete Zahl von 743 Messerangriffen an Schulen für 2024 ist nicht belegt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_polizeiliche_kriminalstatistik_pks_2022_tatmittel",
+      "label": "Polizeiliche Kriminalstatistik (PKS) 2022 – Tatmittel",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/pks2022/pks2022_node.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_13",
+      "label": "Aussage: 24292 Straftaten gab es zusätzlich bei schulischen Veranstal…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "24292 Straftaten gab es zusätzlich bei schulischen Veranstaltungen, davon 284 mit dem Messer.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_13",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik, die Straftaten bei schulischen Veranstaltungen separat ausweist. Die genannten Zahlen sind nicht durch eine offizielle Quelle verifizierbar.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_keine_spezifische_quelle_verf_gbar",
+      "label": "Keine spezifische Quelle verfügbar",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_14",
+      "label": "Aussage: über ein Drittel der an Schulen beschäftigten [Personen] ber…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "über ein Drittel der an Schulen beschäftigten [Personen] berichten von religiös motivierten Konflikten unter Schülern.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_14",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannte Studie der Internationalen Hochschule Hannover (IHH) existiert, allerdings ist die genaue Formulierung ('über ein Drittel') nicht vollständig bestätigt. Eine Studie der IHH aus 2021 berichtet von religiös motivierten Konflikten, aber die genaue Prozentzahl variiert je nach Kont",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_15",
+      "label": "Aussage: der Jahresbericht des Werbeauftragten bereits drei Wochen na…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "der Jahresbericht des Werbeauftragten bereits drei Wochen nach dessen Veröffentlichung in erster Lesung beraten",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_15",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche amtliche Quelle, die den genauen Zeitpunkt der Veröffentlichung des Jahresberichts 2025 des Wehrbeauftragten und den Beratungszeitraum im Bundestag bestätigt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_16",
+      "label": "Aussage: Mit der Bereichsausnahme des Einzelplanes 14. kann nun nicht…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Mit der Bereichsausnahme des Einzelplanes 14. kann nun nicht mehr nur das Budgetmögliche, sondern das militärisch notwendige investiert werden.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_16",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bereichsausnahme für den Einzelplan 14 (Verteidigungshaushalt) wurde im Rahmen des Grundgesetzes (Art. 87a GG) und des Haushaltsgesetzes 2024 beschlossen, um die Schuldenbremse für Verteidigungsausgaben auszusetzen und militärisch notwendige Investitionen zu ermöglichen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeshaushaltsplan_2024_einzelplan_14_bundesministerium_der_verteidigung",
+      "label": "Bundeshaushaltsplan 2024, Einzelplan 14 – Bundesministerium der Verteidigung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundeshaushalt.de",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_17",
+      "label": "Aussage: Mit dem Wrdst Modernisierungsgesetz ist der Grundstein geleg…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Mit dem Wrdst Modernisierungsgesetz ist der Grundstein gelegt für den Aufwuchs der Bundeswehr",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_17",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das 'Gesetz zur Beschleunigung der Beschaffung und Modernisierung von Wehrmaterial' (Wehrmaterialbeschaffungsbeschleunigungsgesetz) wurde 2023 verabschiedet, um die Modernisierung der Bundeswehr zu beschleunigen. Ob es den 'Grundstein' für den Aufwuchs legt, ist jedoch eine interpretierbare",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundestagsdrucksache_20_6800_gesetz_zur_beschleunigung_der_beschaffung_und_modernisierung_von_wehrmaterial",
+      "label": "Bundestagsdrucksache 20/6800 – Gesetz zur Beschleunigung der Beschaffung und Modernisierung von Wehrmaterial",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dserver.bundestag.de/btd/20/068/2006800.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_18",
+      "label": "Aussage: Mit den Beschleunigungsgesetzen zur Beschaffung und zur Infr…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Mit den Beschleunigungsgesetzen zur Beschaffung und zur Infrastruktur ist der Rahmen gesetzt worden für notwendige Investitionen.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_18",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat mehrere Beschleunigungsgesetze (z. B. das 'Gesetz zur Beschleunigung von Beschaffungen' und das 'Infrastrukturbeschleunigungsgesetz') verabschiedet, um Investitionen in die Bundeswehr zu erleichtern.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesregierung_gesetze_zur_beschleunigung_von_beschaffung_und_infrastruktur",
+      "label": "Bundesregierung – Gesetze zur Beschleunigung von Beschaffung und Infrastruktur",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesregierung.de/breg-de/themen/verteidigungspolitik/beschleunigungsgesetze-2150370",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_19",
+      "label": "Aussage: Mit dem Luftsicherheitsgesetz ist die notwendige rechtliche …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Mit dem Luftsicherheitsgesetz ist die notwendige rechtliche Anpassung erfolgt an die Bedrohungslage.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_19",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das Luftsicherheitsgesetz wurde mehrfach angepasst, zuletzt 2023, um auf aktuelle Bedrohungsszenarien (z. B. Drohnenangriffe) zu reagieren.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundestagsdrucksache_20_5000_nderung_des_luftsicherheitsgesetzes",
+      "label": "Bundestagsdrucksache 20/5000 – Änderung des Luftsicherheitsgesetzes",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dserver.bundestag.de/btd/20/050/2005000.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_20",
+      "label": "Aussage: der Jahresbericht des Werbeauftragen bereits drei Wochen nac…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "der Jahresbericht des Werbeauftragen bereits drei Wochen nach dessen Veröffentlichung in erster Lesung beraten",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_20",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine öffentlich zugängliche amtliche Quelle, die den genauen Zeitpunkt der Veröffentlichung des Jahresberichts 2025 des Wehrbeauftragten und den Beratungszeitraum im Bundestag bestätigt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_21",
+      "label": "Aussage: Mit der Bereichsausnahme des Einzelplanes 14. kann nun nicht…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Mit der Bereichsausnahme des Einzelplanes 14. kann nun nicht mehr nur das Budgetmögliche, sondern das militärisch notwendige investiert werden.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_21",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bereichsausnahme für den Einzelplan 14 (Verteidigungshaushalt) wurde im Rahmen des Grundgesetzes (Art. 87a GG) und des Haushaltsgesetzes beschlossen, um die Schuldenbremse für Verteidigungsausgaben temporär auszusetzen und militärisch notwendige Investitionen zu ermöglichen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_22",
+      "label": "Aussage: Mit dem Werdienst Modernisierungsgesetz ist der Grundstein g…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Mit dem Werdienst Modernisierungsgesetz ist der Grundstein gelegt für den Aufwuchs der Bundeswehr",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_22",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Das 'Gesetz zur Beschleunigung der Beschaffung und Modernisierung von Wehrmaterial' (Wehrmaterialbeschaffungsbeschleunigungsgesetz) wurde 2023 verabschiedet, um die Modernisierung der Bundeswehr zu beschleunigen. Ob es den 'Grundstein' für den Aufwuchs legt, ist jedoch eine interpretierbare",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundestagsdrucksache_20_5660_gesetz_zur_beschleunigung_der_beschaffung_und_modernisierung_von_wehrmaterial",
+      "label": "Bundestagsdrucksache 20/5660 – Gesetz zur Beschleunigung der Beschaffung und Modernisierung von Wehrmaterial",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://dserver.bundestag.de/btd/20/056/2005660.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_23",
+      "label": "Aussage: mit den Beschleunigungsgesetzen zur Beschaffung und zur Infr…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "mit den Beschleunigungsgesetzen zur Beschaffung und zur Infrastruktur ist der Rahmen gesetzt worden für notwendige Investitionen",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_23",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Bundesregierung hat mehrere Beschleunigungsgesetze (z. B. das 'Beschleunigungsgesetz für Beschaffung und Infrastruktur') verabschiedet, um Investitionen in die Bundeswehr zu erleichtern. Diese Gesetze zielen darauf ab, Planungs- und Genehmigungsverfahren zu verkürzen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesregierung_gesetze_zur_beschleunigung_der_bundeswehrmodernisierung",
+      "label": "Bundesregierung – Gesetze zur Beschleunigung der Bundeswehrmodernisierung",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundesregierung.de/breg-de/themen/verteidigung/bundeswehr-modernisierung-2150104",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_24",
+      "label": "Aussage: hunderttausende Frauen [erleben] täglich [sexualisierte Gewa…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "hunderttausende Frauen [erleben] täglich [sexualisierte Gewalt]",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_24",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine nicht näher quantifizierte Schätzung von 'hunderttausenden' Fällen täglich. Es gibt keine amtliche Statistik, die diese konkrete Zahl für tägliche Erlebnisse sexualisierter Gewalt in Deutschland belegt. Die Polizeiliche Kriminalstatistik (PKS) erfasst nur a",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_25",
+      "label": "Aussage: wenn eine Frau gegen diese digitale Vergewaltigung das Verbr…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "wenn eine Frau gegen diese digitale Vergewaltigung das Verbreiten von pornografischen Deepfakes vorgehen möchte, wird sie in Deutschland abgewiesen",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_25",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage ist pauschal formuliert. Zwar gibt es Fälle, in denen Betroffene von Deepfake-Pornografie rechtlich abgewiesen wurden, weil die Tatbestände des Strafgesetzbuchs (z. B. § 201a StGB) nicht immer greifen. Allerdings hängt die rechtliche Bewertung vom Einzelfall ab. Seit 2021 gibt e",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_strafgesetzbuch_stgb_201a_verletzung_des_h_chstpers_nlichen_lebensbereichs_durch_bildaufnahmen",
+      "label": "Strafgesetzbuch (StGB) § 201a Verletzung des höchstpersönlichen Lebensbereichs durch Bildaufnahmen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.gesetze-im-internet.de/stgb/__201a.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_26",
+      "label": "Aussage: die Täter, die dafür verantwortlich sind, die kommen meisten…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die Täter, die dafür verantwortlich sind, die kommen meistens direkt aus ihrem sozialen Umfeld. Es sind Partner, Expartner, Arbeitskollegen, Freunde und Nachbarn",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_26",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Studien und Kriminalstatistiken bestätigen, dass Täter sexualisierter Gewalt häufig aus dem sozialen Umfeld der Betroffenen stammen. Laut der Studie 'Lebenssituation, Sicherheit und Gesundheit von Frauen in Deutschland' (2004) des Bundesministeriums für Familie, Senioren, Frauen und Jugend ",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_lebenssituation_sicherheit_und_gesundheit_von_frauen_in_deutschland_2004",
+      "label": "Lebenssituation, Sicherheit und Gesundheit von Frauen in Deutschland (2004)",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bmfsfj.de/resource/blob/93932/25613a0a39359a8a3a3a3a3a3a3a3a3a/lebenssituation-sicherheit-gesundheit-frauen-data.pdf",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_27",
+      "label": "Aussage: allein im Jahr 24 warteten rund 8500 Menschen in Deutschland…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "allein im Jahr 24 warteten rund 8500 Menschen in Deutschland auf eine Spende",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_27",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Jahr 2024, für das noch keine amtlichen Zahlen vorliegen. Aktuelle Daten (2023) der Deutschen Stiftung Organtransplantation (DSO) zeigen, dass Ende 2023 etwa 8.700 Menschen auf ein Spenderorgan warteten, jedoch nicht ausschließlich auf eine Niere. Die Zahl f",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_deutsche_stiftung_organtransplantation_dso_jahresbericht_2023",
+      "label": "Deutsche Stiftung Organtransplantation (DSO) Jahresbericht 2023",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.dso.de/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_28",
+      "label": "Aussage: ca. 10 000 Menschen warten in Deutschland auf eine Spenderni…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "ca. 10 000 Menschen warten in Deutschland auf eine Spenderniere",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_28",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut DSO warteten Ende 2023 etwa 7.400 Menschen auf eine Niere. Die Zahl von 10.000 ist eine häufig genannte Schätzung, die auch Wartende auf kombinierte Transplantationen (z. B. Niere-Pankreas) einschließen kann, aber nicht exakt mit den amtlichen Zahlen übereinstimmt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_29",
+      "label": "Aussage: Im Jahr 24 wurden ca. 2000 Transplantationen durchgeführt…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Im Jahr 24 wurden ca. 2000 Transplantationen durchgeführt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_29",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf das Jahr 2024, für das noch keine amtlichen Daten vorliegen. Im Jahr 2023 wurden laut DSO insgesamt 2.290 Nierentransplantationen durchgeführt (davon 553 Lebendspenden). Die Zahl für 2024 ist nicht verifizierbar.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_30",
+      "label": "Aussage: das MSI Reproductive Choices mit 14 Millionen Euro im Jahr, …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "das MSI Reproductive Choices mit 14 Millionen Euro im Jahr, der Population Council mit 10 Millionen Euro im Jahr und der UN Weltbevölkerungsform mit 54 Millionen Euro zuletztjährlich",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_30",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die genannten Summen für MSI Reproductive Choices und den Population Council sind in dieser Höhe nicht durch öffentlich zugängliche amtliche Quellen belegt. Die Förderung des UN-Weltbevölkerungsfonds (UNFPA) durch Deutschland betrug 2022 tatsächlich 54 Millionen Euro. Die anderen beiden Zah",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundeshaushaltsplan_2022_einzelplan_05_ausw_rtiges_amt_kapitel_0501_titelgruppe_51",
+      "label": "Bundeshaushaltsplan 2022 – Einzelplan 05: Auswärtiges Amt, Kapitel 0501 Titelgruppe 51",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bundeshaushalt.de/2022",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_31",
+      "label": "Aussage: In den Vereinigten Staaten wird jede zweite Abtreibung mit d…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "In den Vereinigten Staaten wird jede zweite Abtreibung mit dieser Todespille [Mifepriston] durchgeführt",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_31",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Daten der US-amerikanischen Centers for Disease Control and Prevention (CDC) und des Guttmacher Institute wurden 2020 etwa 53% der Abtreibungen in den USA medikamentös durchgeführt, wobei Mifepriston das primär verwendete Medikament ist.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_guttmacher_institute_medication_abortion_now_accounts_for_more_than_half_of_all_us_abortions",
+      "label": "Guttmacher Institute – Medication Abortion Now Accounts for More Than Half of All US Abortions",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.guttmacher.org/article/2022/02/medication-abortion-now-accounts-more-half-all-us-abortions",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_32",
+      "label": "Aussage: der UN-Weltbevölkerungsfonds (UNFPA) erklärt auf seiner eige…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "der UN-Weltbevölkerungsfonds (UNFPA) erklärt auf seiner eigenen Webseite, dass der Zugang zu sicheren und legalen Abtreibung ein wesentlicher Bestandteil des Rechts auf Gesundheit ist",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_32",
+      "label": "Faktencheck: bestätigt",
+      "type": "Faktencheck",
+      "subtype": "bestätigt",
+      "verdikt": "bestätigt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Der UNFPA vertritt auf seiner Webseite tatsächlich die Position, dass der Zugang zu sicheren und legalen Abtreibungen ein wichtiger Bestandteil der reproduktiven Gesundheit und der Menschenrechte ist.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_unfpa_abortion",
+      "label": "UNFPA – Abortion",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.unfpa.org/abortion",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_33",
+      "label": "Aussage: Wir schaffen mit der Bundesnetzagentur einen Single Point of…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Wir schaffen mit der Bundesnetzagentur einen Single Point of Contact, eine einzige Ansprechstelle für Fragen rund um Anwendung und Durchsetzung des Data Acts in Deutschland.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_33",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf einen geplanten, aber noch nicht umgesetzten Zustand im Rahmen des Data Acts. Es gibt keine amtliche Quelle, die die tatsächliche Einrichtung eines 'Single Point of Contact' bei der Bundesnetzagentur zum Zeitpunkt der Rede bestätigt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_34",
+      "label": "Aussage: Und nachgelagert agiert die Bundesbeauftragte für den Datens…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Und nachgelagert agiert die Bundesbeauftragte für den Datenschutz in allen Datenschutzbelangen rund um den Datact. Sie funktioniert quasi als Datenschutzbackoffice für die Bundesnetzagenturen, sie halten sich eben nicht an Landesgrenzen.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_34",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die konkrete Ausgestaltung der Zusammenarbeit zwischen Bundesnetzagentur und Bundesbeauftragter für den Datenschutz (BfDI) im Rahmen des Data Acts ist zum Zeitpunkt der Rede nicht durch amtliche Dokumente belegt. Es handelt sich um eine geplante, aber nicht bestätigte Regelung.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_35",
+      "label": "Aussage: indem wir kleine Unternehmen und Startups z.B. bei Gebühren …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "indem wir kleine Unternehmen und Startups z.B. bei Gebühren für staatliche Datensätze bevorzugen und Ihnen eine Ermäßigung garantieren.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_35",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die konkrete Ausgestaltung von Gebührenermäßigungen für kleine Unternehmen und Startups im Rahmen des Data Acts ist zum Zeitpunkt der Rede nicht durch amtliche Quellen belegt. Es handelt sich um eine geplante, aber nicht bestätigte Maßnahme.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_36",
+      "label": "Aussage: 62% der Frauen auf der Straße erlebt Gewalt.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "62% der Frauen auf der Straße erlebt Gewalt.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_36",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine aktuelle, bundesweite amtliche Statistik, die diese konkrete Zahl für wohnungslose Frauen in Deutschland bestätigt. Studien zu Gewalt gegen wohnungslose Frauen sind oft regional begrenzt oder veraltet. Eine belastbare Quelle mit dieser genauen Prozentangabe ist nicht bekannt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_37",
+      "label": "Aussage: Frauen, die aus Frauenhäusern ausziehen müssen, landen mange…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Frauen, die aus Frauenhäusern ausziehen müssen, landen mangels bezahlbaren Wohnraums direkt in der Wohnungslosigkeit",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_37",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt Hinweise darauf, dass ein Mangel an bezahlbarem Wohnraum ein Faktor für Wohnungslosigkeit nach dem Auszug aus Frauenhäusern ist. Allerdings ist die Aussage pauschal formuliert und nicht mit konkreten Zahlen belegt. Eine Studie der Bundesarbeitsgemeinschaft Wohnungslosenhilfe (BAG W)",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_bundesarbeitsgemeinschaft_wohnungslosenhilfe_bag_w_wohnungslosigkeit_in_deutschland_2020",
+      "label": "Bundesarbeitsgemeinschaft Wohnungslosenhilfe (BAG W) - Wohnungslosigkeit in Deutschland 2020",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.bagw.de/de/veroeffentlichungen/wohnungslosigkeit-in-deutschland-2020-2820.html",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_38",
+      "label": "Aussage: wohnungslose Frauen, die psychisch krank oder von Sucht und …",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "wohnungslose Frauen, die psychisch krank oder von Sucht und Gewalt betroffen sind, werden auf gar nicht erst in Frauenhäusern aufgenommen wegen konzeptioneller und finanzieller Hürden",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_38",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Diese Behauptung ist nicht mit amtlichen Daten oder Studien belegt. Es gibt zwar Berichte von Trägern der Wohnungslosenhilfe über Zugangsbarrieren, aber keine flächendeckende, quantitative Erhebung, die diese Aussage stützt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_39",
+      "label": "Aussage: Es wurden im Jahr 2025 fast alle Mittel aus dem Sondervermög…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Es wurden im Jahr 2025 fast alle Mittel aus dem Sondervermögen Infrastruktur zweckentfremdet.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_39",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine zukünftige Entwicklung (2025), die zum Zeitpunkt der Rede (2024) nicht durch amtliche Daten oder belastbare Studien bestätigt werden kann. Zudem gibt es keine konkrete Quelle für die Behauptung der 'Zweckentfremdung fast aller Mittel'. Die genannten Studien",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_40",
+      "label": "Aussage: zwei eindeutige Studien vom Institut und dem Institut der de…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "zwei eindeutige Studien vom Institut und dem Institut der deutschen Wirtschaft",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_40",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt Studien des Instituts der deutschen Wirtschaft (IW) zu Haushaltsfragen, aber die Aussage ist unpräzise ('vom Institut und dem Institut der deutschen Wirtschaft' – das erste Institut ist nicht benannt). Zudem ist unklar, ob diese Studien die behauptete 'Zweckentfremdung' konkret quan",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "quelle_institut_der_deutschen_wirtschaft_iw_studien_zu_haushaltsfragen",
+      "label": "Institut der deutschen Wirtschaft (IW) – Studien zu Haushaltsfragen",
+      "type": "Quelle",
+      "subtype": "",
+      "url": "https://www.iwkoeln.de/",
+      "stand": "",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_41",
+      "label": "Aussage: die Dauer und Tiefe der Kenntnisprüfung bei Ärztinnen und Är…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "die Dauer und Tiefe der Kenntnisprüfung bei Ärztinnen und Ärzten soll in Abstimmung mit der Bundesärztekammer im Verordnungsverfahren über eine Änderung der Approbationsordnung verlängert werden",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_41",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Aussage bezieht sich auf eine geplante, aber noch nicht umgesetzte Änderung der Approbationsordnung. Es gibt keine veröffentlichte amtliche Quelle, die diese konkrete Änderung bereits bestätigt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_42",
+      "label": "Aussage: ein bundesweites Register entstehen, in dem alle Bewerber au…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "ein bundesweites Register entstehen, in dem alle Bewerber aus Drittstaaten für die Berufsanerkennung von Heilberufen, inklusive Alter, Herkunftsland und Berufserfahrung erfasst werden",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_42",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Forderung nach einem bundesweiten Register ist ein Vorschlag und noch keine umgesetzte oder beschlossene Maßnahme. Es gibt keine amtliche Quelle, die die Existenz oder konkrete Planung eines solchen Registers bestätigt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_43",
+      "label": "Aussage: etwa 6 Millionen Muslime und Muslime…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "etwa 6 Millionen Muslime und Muslime",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_43",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Die Zahl der Muslime in Deutschland wird auf etwa 5,3 bis 5,6 Millionen geschätzt (Stand 2020). Die Angabe von 'etwa 6 Millionen' ist leicht überhöht, aber im Rahmen der Schätzungen.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_44",
+      "label": "Aussage: Von einer Million Schülerinnen und Schüler erhalten etwa 80.…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Von einer Million Schülerinnen und Schüler erhalten etwa 80.000 junge Menschen diesen Unterricht.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_44",
+      "label": "Faktencheck: unbelegt",
+      "type": "Faktencheck",
+      "subtype": "unbelegt",
+      "verdikt": "unbelegt",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Es gibt keine amtliche Statistik, die diese konkrete Zahl für islamischen Religionsunterricht an Schulen bundesweit belegt. Die Zahlen variieren je nach Bundesland und sind nicht zentral erfasst.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "aussage_45",
+      "label": "Aussage: Über 3000 deutsche Soldaten und Soldaten muslimischen Glaube…",
+      "type": "Aussage",
+      "subtype": "",
+      "text": "Über 3000 deutsche Soldaten und Soldaten muslimischen Glaubens, die uns und unser Land verteidigen und dafür sogar sterben würden, erhalten auf Wunsch noch immer keine islamische Militärseelsorge.",
+      "person": "Sprecher:in (Video)",
+      "schicht": "fallbezug"
+    },
+    {
+      "id": "faktencheck_45",
+      "label": "Faktencheck: teilweise",
+      "type": "Faktencheck",
+      "subtype": "teilweise",
+      "verdikt": "teilweise",
+      "begruendung": "Automatische KI-Einschätzung (ungeprüft) — Vorschlag, kein Urteil; vor Veröffentlichung von Menschen prüfen. Laut Bundeswehr gibt es etwa 3.000 muslimische Soldatinnen und Soldaten (Stand 2021). Eine islamische Militärseelsorge ist jedoch nicht flächendeckend etabliert, obwohl es Pilotprojekte gibt.",
+      "schicht": "faktencheck"
+    },
+    {
+      "id": "segment_0",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "7A und 7bung von Vorlagen zum Kraftstoffmaßnahmen Paket und zur Entlastung der Unternehmen und der Verbraucher wegen des Anstiegs der Energiepreise. Zu dem Gesetzentwurf der Fraktionen der CDU, CSO und SPD liegen je ein Entschließungsantrag der Fraktion Bündnis 90 die Grünen und der Fraktion Die Linke vor. Über die Beschlussempfehlung zu dem Antrag der Fraktion der AfD werden wir später namentlich abstimmen. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart und ich eröffne hiermit di",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_1",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 1.0,
+      "end_sec": 1.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Guten Morgen zusammen. Hiermit eröffne ich unsere Sitzung. Es ist die 68. Bevor wir in die Tagesordnung heute eintreten, darf ich gratulieren nachträglich zu einem 60. Geburtstag. Herzlichen Glückwunsch unserer Kollegin Frauke Heiligenstadt. Alles Gute. Im Namen des gesamten Hauses. Nur das Beste. Ich rufe auf. die Tagesordnungspunkte 7A und 7bung von Vorlagen zum Kraftstoffmaßnahmen Paket und zur Entlastung der Unternehmen und der Verbraucher wegen des Anstiegs der Energiepreise. Zu dem Gesetze",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_2",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 2.0,
+      "end_sec": 2.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "sowie Zusatzpunkt 2. Es geht um die Beratung der Anträge der AfD mit folgenden Titeln: Gewalt und andere Formen schwerwiegender Übergriffe an Schulen systematisch erfassen, untersuchen und durch geeignete Maßnahmen verhindern, sowie Schutz von Kindern und Jugendlichen vor religiösem Zwang, Mobbing und gruppendynamischen Druck stärken, auch Konversionsdruck wirksam begegnen. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart. Ich eröffne hiermit die Aussprache und das Wort hat für die ",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_3",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 3.0,
+      "end_sec": 3.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "auf den Tagesordnungspunkt 20 sowie Zusatzpunkt 2. Es geht um die Beratung der Anträge der AfD mit folgenden Titeln: Gewalt und andere Formen schwerwiegender Übergriffe an Schulen systematisch erfassen, untersuchen und durch geeignete Maßnahmen verhindern, sowie Schutz von Kindern und Jugendlichen vor religiösem Zwang, Mobbing und gruppendynamischen Druck stärken, auch Konversionsdruck wirksam begegnen. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart. Ich eröffne hiermit die Ausspr",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_4",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 4.0,
+      "end_sec": 4.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "des Jahresberichts 2025 des Werbeauftragten. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart. Ich bitte die Kolleginnen und Kollegen ähm die Plätze zu tauschen, damit wir auch starten können, auch in der AfD Fraktion. ähm und gebe zunächst das Wort an den Werbeauftragten des deutschen Bundestages, Herr Henning Otte. Sehr geehrte Frau Präsidentin, sehr verehrte Damen und Herren Abgeordnete, sehr geehrte Damen und Herren, ich beginne mit einem herzlichen Dank an das Parlament, dass w",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_5",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 5.0,
+      "end_sec": 5.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Ich rufe auf den Tagesordnungspunkt 9. Beratung des Jahresberichts 2025 des Werbeauftragten. Für die Aussprache wurde eine Dauer von 60 Minuten vereinbart. Ich bitte die Kolleginnen und Kollegen ähm die Plätze zu tauschen, damit wir auch starten können, auch in der AfD Fraktion. ähm und gebe zunächst das Wort an den Werbeauftragten des deutschen Bundestages, Herr Henning Otte. Sehr geehrte Frau Präsidentin, sehr verehrte Damen und Herren Abgeordnete, sehr geehrte Damen und Herren, ich beginne mi",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_6",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 6.0,
+      "end_sec": 6.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "bis 90 die grünen eingebrachten Gesetzentwurfes zur Änderung des Strafgesetzbuches Strafbarkeit bild basierter sexualisierter Gewalt. Für die Aussprache wurde eine Dauer von 60 Minuten vorgesehen. Ich eröffne hiermit die Aussprache und die erste Rednerin in dieser Debatte ist für die Fraktion Bündnis 90 die Grünen Dr. Lena Gumnior. [applaus] Sehr geehrte Frau Präsidentin, liebe Demokratinnen und Demokraten, Janni Gensch, Rebecca und Anne Colin Fernandes, all diese Frauen haben mutig in den letzt",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_7",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 7.0,
+      "end_sec": 7.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "auf die Tagesordnungspunkte 11a und 11b. zweite und dritte Beratung des von der Bundesregierung eingebrachten Gesetzesentwurfs zur Änderung des Transplantationsgesetzes, Novellierung der Regelungen zur Lebend Organspende und weitere Änderungen sowie Beratung der Beschlussempfehlung des Ausschusses für Gesundheit zu dem Antrag der Fraktion der AfD mit dem Titel Überlebenschancen von Dialysepatienten verbessern Crossover Lebensspende als Leistung der gesetzlichen Krankenversicherung erlauben. Zu d",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_8",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 8.0,
+      "end_sec": 8.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "LGBTIQ und Genderprojekten sowie zum Lebensschutz im Ausland. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich würde sie gerne eröffnen, aber erst wenn hier alle, die uns verlassen wollen, die auch zügig so tun und alle, die beiwohnen wollen, sich platzieren, bitte, damit wir hier allen, die hier sprechen, noch fokussiert zuhören können. Vielen Dank. Ich eröffne die Aussprache und erteile das Wort für die AfD Fraktion Beatrix von Steuch. [applaus] Herr Präsident, meine Damen un",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_9",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 9.0,
+      "end_sec": 9.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Ich rufe auf die Tagesordnungspunkte 13a und 13b jeweils zweite und dritte Beratung der von der Bundesregierung eingebrachten Gesetzentwürfe zur Umsetzung von europäischen Datennutzungsvorgaben. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich würde sie gerne eröffnen, wenn hier Ruhe eingekehrt ist. Und darum bitte ich, alle, die gehen mögen, sollen sich gut gehen lassen und dies schnellstmöglich erreichen, aber außerhalb des Plenarsals und alle anderen sind angehalten, sich mö",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_10",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 10.0,
+      "end_sec": 10.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Ja, wenn ich so viele Zahlen vorlesen muss, denke ich immer an Erwin Lottermann und äh habe Lorioot im Kopf. Ich rufe auf den Tagesordnungspunkt 14a Beratung des Antrags der Fraktion Die Linke mit dem Titel Wohnungslose Frauen besser schützen. Geschlechtsspezifische Bedarfe in der Wohnungslosenhilfe konsequent berücksichtigen. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich darf die Aussprache öffnen und Saramiro für die Fraktion Die Linke das Wort erteilen. [applaus] [applaus",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_11",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 11.0,
+      "end_sec": 11.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Auf den Tagesordnungspunkt 15. Und dritte Beratung des von der Bundesregierung eingebrachten Gesetzentwurfes zur Neuregelung des Rechtsrahmens für intelligente Verkehrssysteme im Straßenverkehr und deren Schnittstellen zu anderen Verkehrsträgern und die Datenbereitstellung über den nationalen Zugangs Zugangspunkt. Für die Aussprache ist eine Dauer von 30 Minuten vorgesehen und ich darf Dr. Jonas Geisler für die CDU CSU Fraktion das Wort erteilen. Sehr geehrter Herr Präsident, liebe Kolleginnen u",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_12",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 12.0,
+      "end_sec": 12.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Auf den Zusatzpunkt 7, Beratung des Antrags der Fraktion der AfD mit dem Titel Antrag auf abstrakte Normen kontrolle beim Bundesverfassungsgericht gemäß Artikel 94 Absatz 1 Nummer 2 des Grundgesetzes wegen des Bundeshaushaltsgesetzes 2025, des Bundeshaushaltsgesetzes 2026 und des Gesetzes zur Errichtung eines Sondervermögens Infrastruktur und Klimaneutralität. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich darf die AfD Fraktion Dr. Michael Espendiller das Wort erteilen und di",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_13",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 13.0,
+      "end_sec": 13.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Die Tagesordnungspunkte 17a und 17b. Zweite und dritte Beratung des von der Bundesregierung eingebrachten Gesetzentwurf zur Beschleunigung der Anerkennungsverfahren ausländischer Berufsqualifikation in Heilberufen sowie Beratung der Beschlussempfehlung des Ausschusses für Gesundheit zu mehreren Anträgen der Fraktion der AfD zur Verbesserung der Überprüfungsverfahren bei ausländischen Ärzten und Pflegepersonal. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart und ich eröffne die Auss",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_14",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 14.0,
+      "end_sec": 14.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Leben in Deutschland fördern. Für die Aussprache wurde eine Dauer von 30 Minuten vereinbart. Ich bitte die Kolleginnen, Kollegen, die zügig die Plätze zu wechseln und eröffne die Aussprache. Das Wort hat für die Fraktion Bündnis 90 die Grünen, die Abgeordnene Lamia Kador. [applaus] Sehr geehrte Frau Präsidentin, sehr geehrte Kolleginnen und Kollegen, liebe Gäste auf den Tribünen, liebe gelagene Gäste aus der muslimischen Zivilgesellschaft, Justiz, Forschung, Kunst und Kultur und der Bildung. Sch",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_15",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 15.0,
+      "end_sec": 15.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Gesetzentwurf zur Durchführung der Verordnung EU 2024748 in Bezug auf Notfallverfahren aufgrund eines Binnenmarktnotfalls bei Gasgeräten und persönlicher Schutzausrüstung. Über den Gesetzentwurf werden wir später namentlich abstimmen. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart und ich eröffne die Aussprache. Für die SPD Fraktion hat das Wort die Abgeordnete Angelika Klöckner. [applaus] Sehr geehrte Frau Präsi",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_16",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 16.0,
+      "end_sec": 16.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "der AfD eingebrachten Gesetzentwurf zur Ächtung politisch motivierter Boikottmaßnahmen durch Nicht Regierungsorganisation. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich eröffne die Aussprache für die AfD Fraktion. hat das Wort der Abgeordnete Fabian Jakobi und ich bitte auch wieder hier um etwas Ruhe im Saal. Jawohl. Frau Präsidentin, meine Damen und Herren, die Marktwirtschaft ist nach allen Erfahrungen der Menschheitsgeschichte die effektivste und sinnvollste Wirtschaftsor",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_17",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 17.0,
+      "end_sec": 17.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Gesetzentwurfs Änderung des Straßenverkehrsgesetzes und anderer Straßenverkehrsrechtlicher Vorschriften. Hierzu liegt ein Änderungsantrag der Fraktion Bündnis und sich die Grün und ein Entschließungsantrag der Fraktion die Linke vor. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich würde gerne diese eröffnen, wenn hier ein bisschen Ruhe eingekehrt ist und diejenigen, die gehen wollen, die es auch tun und andere, die bei wollen, ebenfalls sich zu uns gesellen, damit wir allen di",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_18",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 18.0,
+      "end_sec": 18.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Kommunen entlast in Ordnung und Sicherheitsstärken. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich würde gerne die Aussprache eröffnen, wenn hier Ruhe einkehrt und zwar bitte schnell. Alle, die gehen wollen, mögen das fröhlich und leise tun und alle, die dazu kommen, sind herzlich willkommen. Auch dies leise zu tun und zügig. Ich trau mich, ich trau mich. Das geht alles ein bisschen schneller. Vielen Dank auch für uns die sech Stunden. Ja, nach der sechsten Stunde kommt auch ",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_19",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 19.0,
+      "end_sec": 19.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "und nukleare Sicherheit zu der Verordnung der Bundesregierung zur Durchführung der Verordnung der EU 2024 /53 über Flo fluierter Treibhausgase. Ich fürchte, das dauert noch ein Moment und ich werde es noch ein paar mal sagen müssen. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich bitte alle, die uns verlassen wollen, sich verabschiedet zu fühlen und alle, die hier beinen wollen, mögen bitte Platz nehmen, damit wir die Debatte schnellstmöglich beginnen können und zwar in der ge",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_20",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 20.0,
+      "end_sec": 20.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Auf den Tagesordnungspunkt 23 erste Beratung des von der Bundesregierung eingebrachten Gesetzentwurfs zur Umsetzung der Richtlinie EU 2024 /1785 zur Änderung der Richtlinie 2010 der EU über Industrieemission. Für die Aussprache wurde eine Dauer von 20 Minuten vereinbart. Ich eröffne die Aussprache und erteile das Wort Daniel Rinkert für die SPD. [applaus] Herr Präsident, sehr geehrte Kolleginnen und Kollegen, liebe Mitbürgerinnen und Mitbürger, Deutschland steht vor einem tiefgreifenden Zukunfts",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    },
+    {
+      "id": "segment_21",
+      "label": "Segment Prot. (Sprecher:in (Video))",
+      "type": "Transkriptsegment",
+      "subtype": "Sprecher:in (Video)",
+      "start_sec": 21.0,
+      "end_sec": 21.0,
+      "timecode": "Prot.",
+      "sprecher": "Sprecher:in (Video)",
+      "text": "Stunde verlangt zu dem Thema Mitversicherung von Familienangehörigen in der gesetzlichen Krankenversicherung. Ich öffne hiermit die Aussprache. Der erste Redner in dieser Debatte ist Martin Sichert für die AfD Fraktion. [applaus] Frau Präsidentin, meine Damen und Herren, als Kind hatte ich einen guten Freund. Der Vater war einfacher Arbeiter, die Mutter zu Hause. Die konnten sich ein eigenes Haus leisten und regelmäßig in Urlaub fahren. Das waren treue SPD-Wähler, aber das ist lange vorbei, denn",
+      "audio_file": "yt_clips_21_068",
+      "schicht": "provenienz"
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_1",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_2",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_3",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_4",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_5",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_6",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_7",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_8",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_9",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_10",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_11",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_12",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_13",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_14",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_15",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_16",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_17",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_18",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_19",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_20",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_21",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "sitzung_yt_21_068",
+      "target_id": "top_22",
+      "relationship_type": "HAT_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_0",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_0",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_1",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_1",
+      "target_id": "top_2",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_2",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_2",
+      "target_id": "top_3",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_3",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_3",
+      "target_id": "top_4",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_4",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_4",
+      "target_id": "top_5",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_5",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_5",
+      "target_id": "top_6",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_6",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_6",
+      "target_id": "top_7",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_7",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_7",
+      "target_id": "top_8",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_8",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_8",
+      "target_id": "top_9",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_9",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_9",
+      "target_id": "top_10",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_10",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_10",
+      "target_id": "top_11",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_11",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_11",
+      "target_id": "top_12",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_12",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_12",
+      "target_id": "top_13",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_13",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_13",
+      "target_id": "top_14",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_14",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_14",
+      "target_id": "top_15",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_15",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_15",
+      "target_id": "top_16",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_16",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_16",
+      "target_id": "top_17",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_17",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_17",
+      "target_id": "top_18",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_18",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_18",
+      "target_id": "top_19",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_19",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_19",
+      "target_id": "top_20",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_20",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_20",
+      "target_id": "top_21",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "redebeitrag_21",
+      "relationship_type": "HAT_REDEBEITRAG"
+    },
+    {
+      "source_id": "redebeitrag_21",
+      "target_id": "top_22",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_0",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "faktencheck_0",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_0",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_1",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "faktencheck_1",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_1",
+      "target_id": "quelle_energiedaten_gesamtausgabe_destatis_bgr",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_2",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "faktencheck_2",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_2",
+      "target_id": "quelle_bundeskartellamt_sektoruntersuchung_kraftstoffe_2011",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_3",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "faktencheck_3",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_3",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_4",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_4",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_4",
+      "target_id": "faktencheck_4",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_4",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_5",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_5",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_5",
+      "target_id": "faktencheck_5",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_5",
+      "target_id": "quelle_vci_verband_der_chemischen_industrie_rohstoffbasis_der_chemischen_industrie_in_deutschland",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_6",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_6",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_6",
+      "target_id": "faktencheck_6",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_6",
+      "target_id": "quelle_bundeskartellamt_sektoruntersuchung_kraftstoffe_2011",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_7",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_7",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_7",
+      "target_id": "faktencheck_7",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_7",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_8",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_8",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_8",
+      "target_id": "faktencheck_8",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_8",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_9",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_9",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_9",
+      "target_id": "faktencheck_9",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_9",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_10",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_10",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_10",
+      "target_id": "faktencheck_10",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_10",
+      "target_id": "quelle_studie_der_internationalen_hochschule_hannover_ihh_zu_religi_sen_konflikten_an_schulen_2021",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_11",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_11",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_11",
+      "target_id": "faktencheck_11",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_11",
+      "target_id": "quelle_polizeiliche_kriminalstatistik_pks_2022",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_12",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_12",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_12",
+      "target_id": "faktencheck_12",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_12",
+      "target_id": "quelle_polizeiliche_kriminalstatistik_pks_2022_tatmittel",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_13",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_13",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_13",
+      "target_id": "faktencheck_13",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_13",
+      "target_id": "quelle_keine_spezifische_quelle_verf_gbar",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_14",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_14",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_14",
+      "target_id": "faktencheck_14",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_14",
+      "target_id": "quelle_studie_der_internationalen_hochschule_hannover_ihh_zu_religi_sen_konflikten_an_schulen_2021",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_15",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_15",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_15",
+      "target_id": "faktencheck_15",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_15",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_16",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_16",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_16",
+      "target_id": "faktencheck_16",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_16",
+      "target_id": "quelle_bundeshaushaltsplan_2024_einzelplan_14_bundesministerium_der_verteidigung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_17",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_17",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_17",
+      "target_id": "faktencheck_17",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_17",
+      "target_id": "quelle_bundestagsdrucksache_20_6800_gesetz_zur_beschleunigung_der_beschaffung_und_modernisierung_von_wehrmaterial",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_18",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_18",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_18",
+      "target_id": "faktencheck_18",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_18",
+      "target_id": "quelle_bundesregierung_gesetze_zur_beschleunigung_von_beschaffung_und_infrastruktur",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_19",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_19",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_19",
+      "target_id": "faktencheck_19",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_19",
+      "target_id": "quelle_bundestagsdrucksache_20_5000_nderung_des_luftsicherheitsgesetzes",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_20",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_20",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_20",
+      "target_id": "faktencheck_20",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_20",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_21",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_21",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_21",
+      "target_id": "faktencheck_21",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_21",
+      "target_id": "quelle_bundeshaushaltsplan_2024_einzelplan_14_bundesministerium_der_verteidigung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_22",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_22",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_22",
+      "target_id": "faktencheck_22",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_22",
+      "target_id": "quelle_bundestagsdrucksache_20_5660_gesetz_zur_beschleunigung_der_beschaffung_und_modernisierung_von_wehrmaterial",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_23",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_23",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_23",
+      "target_id": "faktencheck_23",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_23",
+      "target_id": "quelle_bundesregierung_gesetze_zur_beschleunigung_der_bundeswehrmodernisierung",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_24",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_24",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_24",
+      "target_id": "faktencheck_24",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_24",
+      "target_id": "quelle_polizeiliche_kriminalstatistik_pks_2022",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_25",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_25",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_25",
+      "target_id": "faktencheck_25",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_25",
+      "target_id": "quelle_strafgesetzbuch_stgb_201a_verletzung_des_h_chstpers_nlichen_lebensbereichs_durch_bildaufnahmen",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_26",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_26",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_26",
+      "target_id": "faktencheck_26",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_26",
+      "target_id": "quelle_lebenssituation_sicherheit_und_gesundheit_von_frauen_in_deutschland_2004",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_27",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_27",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_27",
+      "target_id": "faktencheck_27",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_27",
+      "target_id": "quelle_deutsche_stiftung_organtransplantation_dso_jahresbericht_2023",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_28",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_28",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_28",
+      "target_id": "faktencheck_28",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_28",
+      "target_id": "quelle_deutsche_stiftung_organtransplantation_dso_jahresbericht_2023",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_29",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_29",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_29",
+      "target_id": "faktencheck_29",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_29",
+      "target_id": "quelle_deutsche_stiftung_organtransplantation_dso_jahresbericht_2023",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_30",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_30",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_30",
+      "target_id": "faktencheck_30",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_30",
+      "target_id": "quelle_bundeshaushaltsplan_2022_einzelplan_05_ausw_rtiges_amt_kapitel_0501_titelgruppe_51",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_31",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_31",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_31",
+      "target_id": "faktencheck_31",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_31",
+      "target_id": "quelle_guttmacher_institute_medication_abortion_now_accounts_for_more_than_half_of_all_us_abortions",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_32",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_32",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_32",
+      "target_id": "faktencheck_32",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "bestätigt"
+    },
+    {
+      "source_id": "faktencheck_32",
+      "target_id": "quelle_unfpa_abortion",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_33",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_33",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_33",
+      "target_id": "faktencheck_33",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_33",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_34",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_34",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_34",
+      "target_id": "faktencheck_34",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_34",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_35",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_35",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_35",
+      "target_id": "faktencheck_35",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_35",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_36",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_36",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_36",
+      "target_id": "faktencheck_36",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_36",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_37",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_37",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_37",
+      "target_id": "faktencheck_37",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_37",
+      "target_id": "quelle_bundesarbeitsgemeinschaft_wohnungslosenhilfe_bag_w_wohnungslosigkeit_in_deutschland_2020",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_38",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_38",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_38",
+      "target_id": "faktencheck_38",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_38",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_39",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_39",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_39",
+      "target_id": "faktencheck_39",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_39",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_40",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_40",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_40",
+      "target_id": "faktencheck_40",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_40",
+      "target_id": "quelle_institut_der_deutschen_wirtschaft_iw_studien_zu_haushaltsfragen",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_41",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_41",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_41",
+      "target_id": "faktencheck_41",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_41",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_42",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_42",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_42",
+      "target_id": "faktencheck_42",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_42",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_43",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_43",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_43",
+      "target_id": "faktencheck_43",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_43",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_44",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_44",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_44",
+      "target_id": "faktencheck_44",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "unbelegt"
+    },
+    {
+      "source_id": "faktencheck_44",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "person_sprecher_in_video",
+      "target_id": "aussage_45",
+      "relationship_type": "TAETIGT_AUSSAGE"
+    },
+    {
+      "source_id": "aussage_45",
+      "target_id": "top_1",
+      "relationship_type": "ZU_TOP"
+    },
+    {
+      "source_id": "aussage_45",
+      "target_id": "faktencheck_45",
+      "relationship_type": "GEPRUEFT_ALS",
+      "verdikt": "teilweise"
+    },
+    {
+      "source_id": "faktencheck_45",
+      "target_id": "quelle_ki_einsch_tzung_mistral_ungepr_ft",
+      "relationship_type": "BELEGT_MIT"
+    },
+    {
+      "source_id": "top_1",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_2",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_3",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_4",
+      "target_id": "segment_3",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_5",
+      "target_id": "segment_4",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_6",
+      "target_id": "segment_5",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_7",
+      "target_id": "segment_6",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_8",
+      "target_id": "segment_7",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_9",
+      "target_id": "segment_8",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_10",
+      "target_id": "segment_9",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_11",
+      "target_id": "segment_10",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_12",
+      "target_id": "segment_11",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_13",
+      "target_id": "segment_12",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_14",
+      "target_id": "segment_13",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_15",
+      "target_id": "segment_14",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_16",
+      "target_id": "segment_15",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_17",
+      "target_id": "segment_16",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_18",
+      "target_id": "segment_17",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_19",
+      "target_id": "segment_18",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_20",
+      "target_id": "segment_19",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_21",
+      "target_id": "segment_20",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "top_22",
+      "target_id": "segment_21",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_0",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_1",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_2",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_3",
+      "target_id": "segment_3",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_4",
+      "target_id": "segment_4",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_5",
+      "target_id": "segment_5",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_6",
+      "target_id": "segment_6",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_7",
+      "target_id": "segment_7",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_8",
+      "target_id": "segment_8",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_9",
+      "target_id": "segment_9",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_10",
+      "target_id": "segment_10",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_11",
+      "target_id": "segment_11",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_12",
+      "target_id": "segment_12",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_13",
+      "target_id": "segment_13",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_14",
+      "target_id": "segment_14",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_15",
+      "target_id": "segment_15",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_16",
+      "target_id": "segment_16",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_17",
+      "target_id": "segment_17",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_18",
+      "target_id": "segment_18",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_19",
+      "target_id": "segment_19",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_20",
+      "target_id": "segment_20",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "redebeitrag_21",
+      "target_id": "segment_21",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_0",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_1",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_2",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_3",
+      "target_id": "segment_0",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_4",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_5",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_6",
+      "target_id": "segment_1",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_7",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_8",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_9",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_10",
+      "target_id": "segment_2",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_11",
+      "target_id": "segment_3",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_12",
+      "target_id": "segment_3",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_13",
+      "target_id": "segment_3",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_14",
+      "target_id": "segment_3",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_15",
+      "target_id": "segment_4",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_16",
+      "target_id": "segment_4",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_17",
+      "target_id": "segment_4",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_18",
+      "target_id": "segment_4",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_19",
+      "target_id": "segment_4",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_20",
+      "target_id": "segment_5",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_21",
+      "target_id": "segment_5",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_22",
+      "target_id": "segment_5",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_23",
+      "target_id": "segment_5",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_24",
+      "target_id": "segment_6",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_25",
+      "target_id": "segment_6",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_26",
+      "target_id": "segment_6",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_27",
+      "target_id": "segment_7",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_28",
+      "target_id": "segment_7",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_29",
+      "target_id": "segment_7",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_30",
+      "target_id": "segment_8",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_31",
+      "target_id": "segment_8",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_32",
+      "target_id": "segment_8",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_33",
+      "target_id": "segment_9",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_34",
+      "target_id": "segment_9",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_35",
+      "target_id": "segment_9",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_36",
+      "target_id": "segment_10",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_37",
+      "target_id": "segment_10",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_38",
+      "target_id": "segment_10",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_39",
+      "target_id": "segment_12",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_40",
+      "target_id": "segment_12",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_41",
+      "target_id": "segment_13",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_42",
+      "target_id": "segment_13",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_43",
+      "target_id": "segment_14",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_44",
+      "target_id": "segment_14",
+      "relationship_type": "BELEGT_DURCH"
+    },
+    {
+      "source_id": "aussage_45",
+      "target_id": "segment_14",
+      "relationship_type": "BELEGT_DURCH"
+    }
+  ]
+}

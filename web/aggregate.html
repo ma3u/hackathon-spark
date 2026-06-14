@@ -146,6 +146,16 @@ function render(d){
     <p class="sub">Ohne Clips (amtliches XML in Neo4j): ${d.youtube_abdeckung.ohne_clips.join(", ")||"–"}</p>
     ${d.youtube_clip_themen?.length?("<h3 style='font-size:.95rem;color:var(--muted)'>Häufigste Clip-Themen</h3>"+bars(d.youtube_clip_themen, t=>t.thema, t=>t.clips)):""}</section>
 
+  ${d.youtube_faktencheck && d.youtube_faktencheck.je_sitzung.length ? `
+  <section><h2>🎬 Faktencheck der YouTube-Mitschnitte <span class="pill">KI-Vorschlag, kein Urteil</span></h2>
+    <p class="sub">Inhalt der Auto-Untertitel geprüft; ohne Sprecher-Label → keine Personen-Zuordnung (vgl. amtliche Graphen oben).</p>
+    ${legend}
+    ${bars(V.map(v=>({v,n:d.youtube_faktencheck.verdikt_gesamt[v]||0})), x=>x.v, x=>x.n)}
+    <div class="scroll"><table><thead><tr><th>WP/Nr</th><th class="num">Clips</th><th>Verdikte</th><th class="num">geprüft</th></tr></thead>
+    <tbody>${d.youtube_faktencheck.je_sitzung.map(s=>`<tr><td>${s.wp}/${s.nr}</td><td class="num">${s.clips??""}</td>
+      <td style="min-width:140px">${stack(s.verdikte)}</td>
+      <td class="num">${V.reduce((a,v)=>a+(s.verdikte[v]||0),0)}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
+
   <section><h2>✨ Fun Facts</h2><ul class="facts">${d.fun_facts.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></section>
 
   <section class="sub"><p>${esc(m.hinweis)}</p>

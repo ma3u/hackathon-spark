@@ -41,12 +41,17 @@ unbelegt 93. The fact-check carries the `_LLM_DISCLAIMER` banner (ADR-0007/-0006
 
 - [x] GCP API survey of all 81 (`youtube_api.all_session_clips`, `scripts/youtube_survey.py`).
 - [x] Structural ingest of the 56 with clips (`scripts/ingest_all_youtube_clips.py`).
-- [x] Aggregate dashboard JSON + accessible HTML (rendered/verified desktop + mobile).
-- [ ] Captions (yt-dlp) + LLM fact-check for the 56 → real per-speaker verdicts on the YouTube
-      graphs (cost/time) — see [`../future/youtube-clips-bulk-ingest.md`](../future/youtube-clips-bulk-ingest.md).
-- [ ] Publish the 56 `yt_` graphs to Pages/Neo4j (`ingest_youtube_clips.py <nr> --load`) — opt-in
-      to avoid web/data bloat.
-- [ ] Link `aggregate.html` from `web/index.html`.
+- [x] Aggregate dashboard JSON + accessible HTML (rendered/verified desktop + mobile);
+      now also a **„Faktencheck der YouTube-Mitschnitte"**-Sektion (yt_ verdicts).
+- [x] Link `aggregate.html` from `web/index.html` (📈 Gesamt-Dashboard tab).
+- [x] Captions (yt-dlp) + LLM fact-check for **top clip-sessions 59 + 68** → `yt_` graphs with
+      real verdicts (KI-Vorschlag, Disclaimer) on Pages; verdicts folded into the dashboard.
+      Session 59: 25 Clips → 43 Faktenchecks (bestätigt 10 · teilweise 13 · irreführend 1 ·
+      unbelegt 19).
+- [ ] Captions + LLM fact-check for the **remaining ~54** sessions (cost/time) — see
+      [`../future/youtube-clips-bulk-ingest.md`](../future/youtube-clips-bulk-ingest.md).
+- [ ] Publish all `yt_` graphs to Pages/Neo4j (`ingest_youtube_clips.py <nr> --load`) — opt-in;
+      59 + 68 live, 79 + 81 (streams) already live.
 
 ## Notes / caveats
 

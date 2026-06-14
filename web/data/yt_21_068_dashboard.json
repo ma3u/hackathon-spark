@@ -1,0 +1,214 @@
+{
+  "sitzung": {
+    "gremium": "Deutscher Bundestag (YouTube-Clips je TOP)",
+    "datum": "",
+    "wahlperiode": "21",
+    "sitzung_nr": "68"
+  },
+  "kennzahlen": {
+    "reden": 22,
+    "schriftliche_beitraege": 0,
+    "woerter": 139783,
+    "gesamtzeit_min": 1075,
+    "tops": 22,
+    "saalreaktionen": 0,
+    "geprüfte_aussagen": 46
+  },
+  "redner": [
+    {
+      "name": "Sprecher:in (Video)",
+      "woerter": 139783,
+      "reden": 22,
+      "fraktion": null
+    }
+  ],
+  "sachthemen": [
+    {
+      "thema": "Bildung & Forschung",
+      "woerter": 27934
+    },
+    {
+      "thema": "Steuern & Finanzen",
+      "woerter": 24848
+    },
+    {
+      "thema": "Gesundheit & Pflege",
+      "woerter": 23410
+    },
+    {
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 20675
+    },
+    {
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 11726
+    },
+    {
+      "thema": "Digitalisierung",
+      "woerter": 9391
+    },
+    {
+      "thema": "Verkehr & Mobilität",
+      "woerter": 7174
+    },
+    {
+      "thema": "Haushalt & Schulden",
+      "woerter": 5412
+    },
+    {
+      "thema": "Wohnen & Bau",
+      "woerter": 4432
+    },
+    {
+      "thema": "Rente & Soziales",
+      "woerter": 2785
+    },
+    {
+      "thema": "Energie & Klima",
+      "woerter": 1996
+    }
+  ],
+  "top_themen": [
+    {
+      "top": 1,
+      "titel": "Kraftstoffmaßnahmenpaket, Energiepreissteigerungen",
+      "thema": "Steuern & Finanzen",
+      "woerter": 12441
+    },
+    {
+      "top": 2,
+      "titel": "Kraft­stoff­maß­nahmen­paket, Energie­preis­steigerungen",
+      "thema": "Steuern & Finanzen",
+      "woerter": 12407
+    },
+    {
+      "top": 3,
+      "titel": "Statistik über Übergriffe und Gewalt an Schulen",
+      "thema": "Bildung & Forschung",
+      "woerter": 11398
+    },
+    {
+      "top": 4,
+      "titel": "Statistik über Über­griffe und Gewalt an Schulen",
+      "thema": "Bildung & Forschung",
+      "woerter": 11393
+    },
+    {
+      "top": 22,
+      "titel": "Aktuelle Stunde: Familienversicherung in der gesetzlichen Kra",
+      "thema": "Gesundheit & Pflege",
+      "woerter": 10412
+    },
+    {
+      "top": 5,
+      "titel": "Jahresbericht 2025 des Wehrbeauftragten",
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 10339
+    },
+    {
+      "top": 6,
+      "titel": "Jahres­bericht 2025 des Wehr­beauftragten",
+      "thema": "Verteidigung & Bundeswehr",
+      "woerter": 10336
+    },
+    {
+      "top": 7,
+      "titel": "Strafbarkeit bildbasierter sexualisierter Gewalt",
+      "thema": "Digitalisierung",
+      "woerter": 9391
+    },
+    {
+      "top": 13,
+      "titel": "Rechtmäßigkeit des Sondervermögens Infrastruktur und Klimaneu",
+      "thema": "Haushalt & Schulden",
+      "woerter": 5412
+    },
+    {
+      "top": 15,
+      "titel": "Muslimisches Leben in Deutschland",
+      "thema": "Bildung & Forschung",
+      "woerter": 5143
+    },
+    {
+      "top": 10,
+      "titel": "Fairer Datenzugang, Daten-Governance-Gesetz",
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 4760
+    },
+    {
+      "top": 9,
+      "titel": "Förderung von LGBTIQ-Projekten im Ausland",
+      "thema": "Gesundheit & Pflege",
+      "woerter": 4691
+    },
+    {
+      "top": 14,
+      "titel": "Anerkennungsverfahren in Heilberufen",
+      "thema": "Gesundheit & Pflege",
+      "woerter": 4633
+    },
+    {
+      "top": 11,
+      "titel": "Wohnungslosenhilfe, Verwendung bestehender Gebäude",
+      "thema": "Wohnen & Bau",
+      "woerter": 4432
+    },
+    {
+      "top": 12,
+      "titel": "Intelligente-Verkehrssysteme-Gesetz",
+      "thema": "Verkehr & Mobilität",
+      "woerter": 3975
+    },
+    {
+      "top": 8,
+      "titel": "Änderung des Transplantationsgesetzes",
+      "thema": "Gesundheit & Pflege",
+      "woerter": 3674
+    },
+    {
+      "top": 18,
+      "titel": "Änderung straßenverkehrsrechtlicher Vorschriften",
+      "thema": "Verkehr & Mobilität",
+      "woerter": 3199
+    },
+    {
+      "top": 16,
+      "titel": "EU-Notfallverfahren für Gasgeräte und persönliche Schutzausrü",
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 3003
+    },
+    {
+      "top": 19,
+      "titel": "Bekämpfung von Sozialleistungsbetrug",
+      "thema": "Rente & Soziales",
+      "woerter": 2785
+    },
+    {
+      "top": 21,
+      "titel": "Umsetzung der EU-Richtlinie zu Industrieemissionen",
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 2432
+    },
+    {
+      "top": 20,
+      "titel": "EU-Verordnung über fluorierte Treibhausgase",
+      "thema": "Energie & Klima",
+      "woerter": 1996
+    },
+    {
+      "top": 17,
+      "titel": "Boykottmaßnahmen durch Nichtregierungsorganisationen",
+      "thema": "Wirtschaft & Arbeit",
+      "woerter": 1531
+    }
+  ],
+  "sprachanteil_fraktion": [],
+  "feedback_je_thema": [],
+  "feedback_gegeben_fraktion": [],
+  "feedback_erhalten_fraktion": [],
+  "faktencheck_bilanz": {
+    "unbelegt": 23,
+    "teilweise": 13,
+    "bestätigt": 10
+  }
+}

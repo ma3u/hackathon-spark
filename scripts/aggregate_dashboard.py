@@ -108,6 +108,29 @@ def speaker_factcheck() -> tuple[dict, dict, list]:
     return {"speakers": speakers}, {"fraktionen": fraktionen}, sorted(trend, key=lambda t: (t["wp"], t["nr"]))
 
 
+def youtube_factcheck() -> dict:
+    """Verdikt-Bilanz der YouTube-Graphen (yt_*.json) — Inhalt geprüft, Sprecher unbekannt
+    (Auto-Untertitel ohne Sprecher-Label → keine Personen-Zuordnung)."""
+    total = Counter()
+    sessions = []
+    for f in sorted(glob.glob(str(WEB / "yt_*.json"))):
+        if "_dashboard" in f or "_barrierefrei" in f or "_protokoll" in f:
+            continue
+        g = _load(f)
+        c = Counter(n.get("verdikt") for n in g["nodes"]
+                    if n["type"] == "Faktencheck" and n.get("verdikt"))
+        if not c:
+            continue
+        m = re.search(r"yt_(\d+)_(\d+)\.json$", f)
+        sessions.append({"wp": int(m.group(1)) if m else 0, "nr": int(m.group(2)) if m else 0,
+                         "clips": g["metadata"].get("clips"),
+                         "verdikte": {v: c[v] for v in VERDIKTE if c[v]}})
+        for v in VERDIKTE:
+            total[v] += c[v]
+    return {"verdikt_gesamt": {v: total[v] for v in VERDIKTE},
+            "je_sitzung": sorted(sessions, key=lambda s: (s["wp"], s["nr"]))}
+
+
 def main() -> int:
     dashes = per_session_dashboards()
     yt = _load(WEB / "youtube_completeness.json") if (WEB / "youtube_completeness.json").exists() else {}
@@ -134,8 +157,9 @@ def main() -> int:
     top_redner = sorted(({"name": k, **v} for k, v in redner.items()),
                         key=lambda x: -x["woerter"])[:25]
 
-    # Faktencheck je Person/Fraktion + Trend
+    # Faktencheck je Person/Fraktion + Trend (amtlich) + YouTube-Inhalts-Faktencheck
     spk, frk, trend = speaker_factcheck()
+    ytfc = youtube_factcheck()
 
     # Verdikt-Gesamtverteilung
     verdikt_total = Counter()
@@ -209,8 +233,10 @@ def main() -> int:
             "ohne_clips": yt.get("sessions_without_clips", []),
             "clips_gesamt": yt.get("total_clips", 0),
         },
+        "youtube_faktencheck": ytfc,
         "fun_facts": [f for f in fun_facts if f],
     }
+    out["meta"]["quellen"]["youtube_faktencheck_sitzungen"] = len(ytfc["je_sitzung"])
 
     WEB.mkdir(parents=True, exist_ok=True)
     (WEB / "aggregate_dashboard.json").write_text(
