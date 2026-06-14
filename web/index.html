@@ -85,6 +85,10 @@
         border-radius: 6px; padding: 2px 9px; background: var(--bg); }
       .gaphead { color: var(--muted); font-size: 12.5px; margin-bottom: 12px; line-height: 1.6; }
       .gaphead b { color: var(--text); }
+      .videowrap { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000;
+        border-radius: 8px; overflow: hidden; margin: 6px 0 10px; }
+      .videowrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+      #videoOverlay .modal { width: min(880px, 94vw); }
       .difflegend { font-size: 11px; color: var(--muted); margin: 6px 0 14px; }
       .rede { border-top: 1px solid var(--border); padding: 11px 0; }
       .rede .who { font-size: 12.5px; color: var(--text); margin-bottom: 5px; }
@@ -113,6 +117,7 @@
       </div>
     </header>
     <div class="overlay" id="gapOverlay" role="dialog" aria-modal="true" aria-label="Gap-Diff: Protokoll gegen gesprochenes Wort"><div class="modal" id="gapModal"></div></div>
+    <div class="overlay" id="videoOverlay" role="dialog" aria-modal="true" aria-label="Video-Player"><div class="modal" id="videoModal"></div></div>
     <main id="content">
     <div id="dash" style="display:none"></div>
     <div id="wrap">
@@ -128,14 +133,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/3d-force-graph@1.73.4/dist/3d-force-graph.min.js"></script>
     <script>
+      // Plain-language Schicht-Labels (kein L1/L2/L3-Jargon) — die Farbe sagt, WAS der Knoten ist.
       const LAYER = {
-        normativ:    { c: "#a569bd", label: "L1 Normativ (Normen)" },
-        zeitlich:    { c: "#2471a3", label: "L2 Zeitlich (Sitzung)" },
-        prozedural:  { c: "#1e8449", label: "L3 Prozedural (TOP/Beschluss)" },
-        fallbezug:   { c: "#ca6f1e", label: "L4 Fallbezug (Person/Fraktion/Rede/Aussage)" },
-        reaktion:    { c: "#16a085", label: "Saalreaktion (Beifall/Zwischenruf)" },
-        faktencheck: { c: "#c0392b", label: "Faktencheck (Verdikt/Quelle)" },
-        provenienz:  { c: "#566573", label: "Provenienz (Transkriptsegment)" },
+        normativ:    { c: "#a569bd", label: "📜 Regeln & Normen" },
+        zeitlich:    { c: "#2471a3", label: "🗓️ Sitzung & Zeit" },
+        prozedural:  { c: "#1e8449", label: "📋 Ablauf: TOP → Antrag → Abstimmung → Beschluss" },
+        fallbezug:   { c: "#ca6f1e", label: "👤 Personen, Fraktionen & Reden" },
+        reaktion:    { c: "#16a085", label: "👏 Saalreaktionen (Beifall/Zwischenruf)" },
+        faktencheck: { c: "#c0392b", label: "✅ Faktencheck (Verdikt + Quelle)" },
+        provenienz:  { c: "#566573", label: "🎧 Beleg (Transkript / Audio-Sekunde)" },
       };
       const color = (n) => (LAYER[n.schicht] || { c: "#999" }).c;
       const $ = (id) => document.getElementById(id);
@@ -165,6 +171,8 @@
         return null;
       }
       const ytLink = (vid, sec) => `https://www.youtube.com/watch?v=${vid}&t=${Math.floor(sec || 0)}s`;
+      // Eingebetteter Player: YouTube über nocookie-Embed mit Startsekunde; Mediathek/sonst direkt.
+      const ytEmbed = (vid, sec) => `https://www.youtube-nocookie.com/embed/${vid}?start=${Math.floor(sec || 0)}&autoplay=1&rel=0`;
 
       // 3D-Graph braucht WebGL (3d-force-graph → THREE.js). Ist WebGL aus (Hardware-
       // beschleunigung deaktiviert/sandboxed), darf die Init NICHT die ganze Seite lahmlegen:
@@ -252,8 +260,8 @@
             html += `<div class="prop"><b>url:</b> <a href="${v}" target="_blank" rel="noopener">${v}</a></div>`;
             continue;
           }
-          if (k === "video_url" && /^https?:/.test(v)) {  // Redebeitrag: Mediathek-Video je Rede
-            html += `<div class="prop"><a class="cite" href="${v}" target="_blank" rel="noopener">▶ Rede im Video (Mediathek)</a></div>`;
+          if (k === "video_url" && /^https?:/.test(v)) {  // Redebeitrag: Mediathek-Video je Rede (eingebettet)
+            html += `<div class="prop"><a class="cite playvid" href="${v}" data-embed="${v}" data-orig="${v}" data-title="${esc(n.label || "Rede")} — Mediathek">▶ Rede im Video (Mediathek)</a></div>`;
             continue;
           }
           if (k === "dip_url" && /^https?:/.test(v)) {  // Person: amtliches DIP-Profil
@@ -263,14 +271,42 @@
           html += `<div class="prop"><b>${k}:</b> ${v}</div>`;
         }
         const src = srcInfo(curData);
-        if (n.type === "Transkriptsegment" && src) {  // Deeplink in die echte Quelle
+        if (n.type === "Transkriptsegment" && src) {  // Deeplink in die echte Quelle (eingebettet)
           const t = Math.floor(n.start_sec || 0);
           const link = src.video_id ? ytLink(src.video_id, t)
             : (src.url ? `${src.url}${src.url.includes("?") ? "&" : "?"}t=${t}s` : null);
-          if (link) html += `<div class="prop"><a class="cite" href="${link}" target="_blank" rel="noopener">▶ Quelle ansehen (${n.timecode}${t ? ", " + t + "s" : ""})</a></div>`;
+          if (link) {
+            const emb = src.video_id ? ytEmbed(src.video_id, t) : link;
+            html += `<div class="prop"><a class="cite playvid" href="${link}" data-embed="${emb}" data-orig="${link}" data-title="Beleg ${n.timecode || ""}">▶ Quelle ansehen (${n.timecode}${t ? ", " + t + "s" : ""})</a></div>`;
+          }
         }
         if (n.type === "Transkriptsegment" && /\.(mp3|wav|m4a)$/i.test(n.audio_file || "")) {
           html += `<audio controls preload="none" src="./audio/${n.audio_file}#t=${Math.floor(n.start_sec || 0)}"></audio>`;
+        }
+        // Faktencheck zum AUSGEWÄHLTEN Knoten (Aussage/Person/Faktencheck) direkt im Panel
+        if (curData) {
+          const byId = Object.fromEntries(curData.nodes.map((x) => [x.id, x]));
+          const rels = curData.relationships, fcList = [];
+          const fcForAussage = (aid) => rels
+            .filter((r) => r.source_id === aid && r.relationship_type === "GEPRUEFT_ALS")
+            .forEach((r) => { const fc = byId[r.target_id]; if (fc) fcList.push({ fc, claim: byId[aid] }); });
+          if (n.type === "Faktencheck") {
+            const cr = rels.find((r) => r.target_id === n.id && r.relationship_type === "GEPRUEFT_ALS");
+            fcList.push({ fc: n, claim: cr ? byId[cr.source_id] : null });
+          } else if (n.type === "Aussage") fcForAussage(n.id);
+          else if (n.type === "Person") rels
+            .filter((r) => r.source_id === n.id && r.relationship_type === "TAETIGT_AUSSAGE")
+            .forEach((r) => fcForAussage(r.target_id));
+          if (fcList.length) {
+            const srcOf = (id) => { const r = rels.find((r) => r.source_id === id && r.relationship_type === "BELEGT_MIT"); return r ? byId[r.target_id] : null; };
+            html += `<div class="prop" style="margin-top:10px"><b>🔎 Faktencheck zu diesem Knoten (${fcList.length})</b></div>`;
+            html += fcList.slice(0, 6).map(({ fc, claim }) => {
+              const q = srcOf(fc.id), col = VERDICT[fc.verdikt] || "#8b949e";
+              return `<div class="fc ${fc.verdikt}" style="border-color:${col}"><span class="verdikt" style="color:${col}">${(fc.verdikt || "").toUpperCase()}</span>${claim && claim.person ? " — " + esc(claim.person) : ""}<br/>`
+                + (claim && claim.text ? `„${esc(claim.text)}"<br/>` : "")
+                + `<span class="src">${esc(fc.begruendung || "")}${q ? ` · Quelle: ${q.url ? `<a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.label || q.url)}</a>` : esc(q.label || "")}` : ""}</span></div>`;
+            }).join("");
+          }
         }
         $("detail").innerHTML = html;
       }
@@ -312,7 +348,9 @@
         const present = {};
         ((data && data.nodes) || []).forEach((n) => { if (n.schicht) present[n.schicht] = (present[n.schicht] || 0) + 1; });
         const keys = Object.keys(LAYER).filter((k) => present[k]);
-        $("legend").innerHTML = "<h2>Ontologie-Schichten</h2>" + (keys.length
+        $("legend").innerHTML = "<h2>Bedeutungs-Ebenen</h2>"
+          + '<div class="muted" style="font-size:11px;margin:-2px 0 8px">Die Farbe sagt, <b>was</b> ein Knoten ist. Knoten anklicken → Details + Faktencheck rechts.</div>'
+          + (keys.length
           ? keys.map((k) => `<span><span class="dot" style="background:${LAYER[k].c}"></span>${LAYER[k].label} <span style="color:var(--muted)">· ${present[k]}</span></span>`).join("")
           : '<div class="empty">Graph wählen…</div>');
       }
@@ -364,10 +402,10 @@
             let deep = "";
             if (src && seg && seg.start_sec != null && src.video_id) {  // YouTube: Zeit-Deeplink
               const t = Math.floor(seg.start_sec);
-              deep = ` · <a class="cite" href="${ytLink(src.video_id, t)}" target="_blank" rel="noopener">▶ im Video [${mmss(t)}]</a>`;
+              deep = ` · <a class="cite playvid" href="${ytLink(src.video_id, t)}" data-embed="${ytEmbed(src.video_id, t)}" data-orig="${ytLink(src.video_id, t)}" data-title="${esc(c ? c.person : "Rede")} [${mmss(t)}]">▶ im Video [${mmss(t)}]</a>`;
             } else {                                                    // Amtlich: Mediathek-Rede
               const rb = redeOf(c);
-              if (rb && rb.video_url) deep = ` · <a class="cite" href="${rb.video_url}" target="_blank" rel="noopener">▶ Rede im Video</a>`;
+              if (rb && rb.video_url) deep = ` · <a class="cite playvid" href="${rb.video_url}" data-embed="${rb.video_url}" data-orig="${rb.video_url}" data-title="${esc(c ? c.person : "Rede")} — Mediathek">▶ Rede im Video</a>`;
             }
             return `<div class="fc ${fc.verdikt}" data-fcid="${fc.id}" data-person="${esc(c ? c.person : "")}" data-aussage="${esc(c ? c.text : "")}" data-verdikt="${fc.verdikt}">
             <span class="verdikt">${fc.verdikt.toUpperCase()}</span> — ${c ? c.person : ""}<br/>
@@ -507,7 +545,26 @@
       let gapTrigger = null;
       function closeGap() {
         $("gapOverlay").classList.remove("on");
+        const vo = $("videoOverlay");
+        if (vo) { vo.classList.remove("on"); $("videoModal").innerHTML = ""; }  // Video stoppen
         if (gapTrigger) { gapTrigger.focus(); gapTrigger = null; }  // Fokus zurück zum Auslöser
+      }
+      // Eingebetteter Video-Player (advanced): YouTube-/Mediathek-Iframe im Overlay, Startsekunde,
+      // Vollbild; „Original öffnen" als Fallback, falls die Einbettung gesperrt ist.
+      function playVideo(ds) {
+        // YouTube lässt sich einbetten (nocookie). Die Bundestag-Mediathek (dbtg.tv) verbietet
+        // Framing per CSP (frame-ancestors) → dort sauber im neuen Tab öffnen statt schwarzem Kasten.
+        const isYt = /youtube(?:-nocookie)?\.com\/embed/.test(ds.embed || "");
+        if (!isYt) { window.open(ds.orig, "_blank", "noopener"); return; }
+        const vo = $("videoOverlay"), m = $("videoModal");
+        gapTrigger = document.activeElement;
+        vo.classList.add("on");
+        m.innerHTML = `<button class="close" type="button">✕ schließen</button>`
+          + `<h2>▶ ${esc(ds.title || "Video")}</h2>`
+          + `<div class="videowrap"><iframe src="${ds.embed}" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe></div>`
+          + `<div class="gaphead"><a href="${ds.orig}" target="_blank" rel="noopener">↗ Auf YouTube öffnen</a> · springt zur belegten Sekunde.</div>`;
+        const cb = m.querySelector(".close");
+        if (cb) cb.focus();
       }
       async function openGap(file) {
         const m = $("gapModal");
@@ -575,7 +632,9 @@
       document.addEventListener("click", (ev) => {
         const gl = ev.target.closest(".gaplink");
         if (gl) { ev.preventDefault(); openGap(gl.dataset.file); return; }
-        if (ev.target.closest(".close") || ev.target.id === "gapOverlay") { closeGap(); return; }
+        const pv = ev.target.closest(".playvid");
+        if (pv) { ev.preventDefault(); playVideo(pv.dataset); return; }
+        if (ev.target.closest(".close") || ev.target.id === "gapOverlay" || ev.target.id === "videoOverlay") { closeGap(); return; }
         if (ev.target.id === "revExport") { exportReview(); return; }
         const rb = ev.target.closest(".review button[data-rev]");
         if (rb) { applyReview(rb.closest(".fc"), rb.dataset.rev); }

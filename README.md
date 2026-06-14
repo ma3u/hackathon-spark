@@ -9,6 +9,41 @@ Knowledge Graph mit GraphRAG — inklusive **Faktencheck** politischer Aussagen.
 
 ![GraphRAG](https://img.shields.io/badge/GraphRAG-mit%20Audio--Provenienz-brightgreen) ![Faktencheck](https://img.shields.io/badge/Faktencheck-mit%20Quellen-red) ![Szenarien](https://img.shields.io/badge/Demos-Gemeinderat%20%2B%20Bundestag-blue) ![DSGVO](https://img.shields.io/badge/KI-lokal%20%2B%20DSGVO-brightgreen) ![License](https://img.shields.io/badge/license-EUPL--1.2-green)
 
+## 🏛️ Für die Jury — graph-protokoll in 60 Sekunden
+
+**Problem.** Parlaments- und Gremienprotokolle sind lange, unstrukturierte Textmassen. Wer wissen
+will „Welcher Beschluss mit welchem Ergebnis?", „Wer war befangen — nach welcher Norm?" oder
+„Stimmt diese Zahl?", sucht sich tot. Suchen allein reicht nicht — man muss **Zusammenhänge sehen**
+und jede Aussage **belegen** können.
+
+**Warum wir SPARK weiterdenken.** Das BMDS-Referenzprojekt **SPARK** beschleunigt Planungs- und
+Genehmigungsverfahren mit KI über **Dokumente + Vektorsuche**. Challenge 2 fragt „Da geht noch
+mehr!". Wir übertragen die KI-Bausteine auf eine **neue Leistung — das Protokoll selbst** — und
+ergänzen SPARK um zwei Bausteine, die es nicht hat: **Sprache/Video als Eingabe** und einen
+**Wissensgraph mit Faktencheck und lückenloser Quelle**.
+
+**Warum dieser Use Case.** Bundestags-Plenarprotokolle sind **öffentlich/gemeinfrei**, hochrelevant
+und **mehrhop-strukturiert** (Antrag→Abstimmung→Beschluss; Person→Befangenheit→Norm). Genau dort
+schlägt ein **Knowledge Graph** die reine Volltext-/Vektorsuche.
+
+**Die Lösung.** Aus einem **Audio-/Video-Mitschnitt** oder dem **amtlichen XML** entsteht
+**automatisch** ein durchsuchbarer, **rechtssicher belegbarer** Wissensgraph mit **Faktencheck** —
+jede Aussage ist **per Klick im Video an der richtigen Sekunde** nachprüfbar. **81 echte
+Bundestagssitzungen** sind geladen; KI-Faktencheck-Vorschläge sind als solche markiert und werden
+**von Menschen freigegeben** (kein Urteil per Knopfdruck).
+
+| 3D-Wissensgraph je Sitzung | Aggregat-Dashboard (alle Sitzungen) | Eingebetteter Video-Beleg |
+| --- | --- | --- |
+| [![3D-Wissensgraph](docs/img/graph.png)](https://ma3u.github.io/hackathon-spark/) | [![Aggregat-Dashboard](docs/img/dashboard.png)](https://ma3u.github.io/hackathon-spark/aggregate.html) | [![Video-Beleg](docs/img/video.png)](https://ma3u.github.io/hackathon-spark/) |
+| Personen · Reden · Beschlüsse · Saalreaktionen · Faktenchecks — farbig nach Bedeutung; Knoten anklicken zeigt den Faktencheck rechts | Themen, Redezeit, Faktencheck-Bilanz, Schlagabtausch & Fun Facts über alle Sitzungen | Klick auf einen Faktencheck → **Rede im Video**, Start an der belegten Sekunde |
+
+**▶ Live ausprobieren:** **<https://ma3u.github.io/hackathon-spark/>** — Sitzung wählen, Knoten
+anklicken, Quelle umschalten (🟢 amtlich ↔ 🎬 YouTube), 📈 **Gesamt-Dashboard** öffnen. Ohne Login.
+
+<sub>Technische Details, Architektur, Datenquellen und Reproduktion: weiter unten ↓</sub>
+
+---
+
 > **Aktueller Stand (2026-06-11) — echte Daten.** Alle **81 WP21-Plenarprotokolle** +
 > WP20/214 sind in **Neo4j** geladen (~136 k Knoten / ~361 k Beziehungen). Die Pages-App
 > bietet **82 reale Sitzungen** zur Auswahl mit Quellen-Umschalter **🟢 Offiziell**
