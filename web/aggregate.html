@@ -62,7 +62,14 @@
   .frag{color:#c5372f;font-weight:700}
   .fakt{color:#1e8e3e;font-weight:700}
   ul.facts{margin:0;padding-left:18px} ul.facts li{margin:6px 0}
-  a{color:var(--accent)}
+  a{color:var(--accent);border-radius:4px;transition:background .12s}
+  a:hover{background:var(--accent-l)}
+  /* Fokus-Ringe flächendeckend (Blau im Body, Weiß auf der App-Bar) */
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:5px}
+  header :focus-visible{outline-color:#fff}
+  /* Material State-Layer: Tabellenzeilen + Pills hervorheben bei Hover */
+  tbody tr{transition:background .12s} tbody tr:hover{background:var(--accent-l)}
+  .pill{transition:background .12s} .pill:hover{background:#dde7f4}
   @media(max-width:560px){.bar .lab{width:120px}.bar .val{width:60px}}
 </style>
 </head>

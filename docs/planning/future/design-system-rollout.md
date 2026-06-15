@@ -29,7 +29,9 @@ Schritte, damit es klar „Material 3" und authentisch Bundestag wirkt.
 ## Offen
 - [ ] **Offizielle Bundestag-CD-Werte** prüfen/übernehmen (exaktes Blau/Gold, Raster, vollständige Typo).
 - [ ] **Material Type Scale** auf alle Ebenen ausweiten (display/headline/title/body/label).
-- [ ] **State Layers / Ripple** + sichtbare Fokus-Ringe flächendeckend.
+- [x] **State Layers** (Hover/Focus/Press via `::after`, adaptiv currentColor) + **Fokus-Ringe
+      flächendeckend** (`:focus-visible`, Blau im Body / Weiß auf der App-Bar) — beide Seiten.
+      Offen bleibt nur echtes **Ripple** (braucht JS).
 - [ ] Optional **FAB** für die Primäraktion (z. B. „▶ Video der Sitzung").
 - [ ] **Motion** (Material-Easing) bei Panel-/Overlay-Wechseln.
 - [ ] **WCAG-AA-Kontrast-Audit** des hellen Themes (axe-core), wie schon für die alte UI.
