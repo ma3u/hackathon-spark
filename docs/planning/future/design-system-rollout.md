@@ -34,4 +34,6 @@ Schritte, damit es klar „Material 3" und authentisch Bundestag wirkt.
       Offen bleibt nur echtes **Ripple** (braucht JS).
 - [ ] Optional **FAB** für die Primäraktion (z. B. „▶ Video der Sitzung").
 - [ ] **Motion** (Material-Easing) bei Panel-/Overlay-Wechseln.
-- [ ] **WCAG-AA-Kontrast-Audit** des hellen Themes (axe-core), wie schon für die alte UI.
+- [x] **WCAG-AA-Audit** (axe-core 4.10, wcag2a/2aa/21a/21aa) → **index 0, aggregate 0 Verstöße**.
+      Behoben: grünes `.fakt`/`--ok` auf AA-Kontrast gedunkelt (#1a7a34), Badge-Text-Amber
+      entkoppelt (#8a5a12), scrollbare Tabellen tastatur-fokussierbar (`tabindex=0`, role/aria).

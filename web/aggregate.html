@@ -60,7 +60,7 @@
   .fals{background:var(--fals)} .unbe{background:var(--unbe)}
   .pill{font-size:.78rem;padding:1px 8px;border-radius:20px;border:1px solid var(--line);background:var(--accent-l);color:var(--accent)}
   .frag{color:#c5372f;font-weight:700}
-  .fakt{color:#1e8e3e;font-weight:700}
+  .fakt{color:#1a7a34;font-weight:700}   /* WCAG-AA: 4.5:1 auf Weiß */
   ul.facts{margin:0;padding-left:18px} ul.facts li{margin:6px 0}
   a{color:var(--accent);border-radius:4px;transition:background .12s}
   a:hover{background:var(--accent-l)}
@@ -146,7 +146,7 @@ function render(d){
     ${bars(d.themen_nach_redevolumen, t=>t.thema, t=>t.woerter)}</section>
 
   <section><h2>🗣️ Top-Redner:innen (Wörter gesamt)</h2>
-    <div class="scroll"><table><thead><tr><th>Name</th><th>Fraktion</th>
+    <div class="scroll" tabindex="0" role="region" aria-label="Tabelle (scrollbar)"><table><thead><tr><th>Name</th><th>Fraktion</th>
       <th class="num">Wörter</th><th class="num">Reden</th></tr></thead><tbody>
       ${d.top_redner.map(r=>`<tr><td>${esc(r.name)}</td><td>${esc(r.fraktion)}</td>
         <td class="num">${fmt(r.woerter)}</td><td class="num">${r.reden}</td></tr>`).join("")}
@@ -160,16 +160,16 @@ function render(d){
   <section><h2>👤 Aussagen je Person — faktenbasiert vs. fragwürdig <span class="pill">KI-Vorschlag, kein Urteil</span></h2>
     <p class="sub">„faktenbasiert" = bestätigt + teilweise · „fragwürdig" = irreführend + falsch. ${q.voll_graphen_mit_faktencheck} geprüfte Sitzungen.</p>
     ${legend}
-    <div class="scroll"><table><thead><tr><th>Person</th><th>Fraktion</th>
+    <div class="scroll" tabindex="0" role="region" aria-label="Tabelle (scrollbar)"><table><thead><tr><th>Person</th><th>Fraktion</th>
       <th class="num">geprüft</th><th class="num">faktenbasiert</th><th class="num">fragwürdig</th>
       <th class="num">unbelegt</th><th>Verteilung</th></tr></thead><tbody>${persons}</tbody></table></div></section>
 
   <section><h2>🏳️ Faktencheck je Fraktion</h2>${legend}
-    <div class="scroll"><table><thead><tr><th>Fraktion</th><th>Verteilung</th><th class="num">geprüft</th></tr></thead>
+    <div class="scroll" tabindex="0" role="region" aria-label="Tabelle (scrollbar)"><table><thead><tr><th>Fraktion</th><th>Verteilung</th><th class="num">geprüft</th></tr></thead>
     <tbody>${frakt}</tbody></table></div></section>
 
   <section><h2>📈 Trend je Sitzung (geprüfte Showcase-Sitzungen)</h2>${legend}
-    <div class="scroll"><table><thead><tr><th>WP/Nr</th><th>Verdikte</th><th class="num">gesamt</th></tr></thead>
+    <div class="scroll" tabindex="0" role="region" aria-label="Tabelle (scrollbar)"><table><thead><tr><th>WP/Nr</th><th>Verdikte</th><th class="num">gesamt</th></tr></thead>
     <tbody>${trend}</tbody></table></div></section>
 
   <section><h2>🎬 YouTube-Clip-Abdeckung</h2>
@@ -183,7 +183,7 @@ function render(d){
     <p class="sub">Inhalt der Auto-Untertitel geprüft; ohne Sprecher-Label → keine Personen-Zuordnung (vgl. amtliche Graphen oben).</p>
     ${legend}
     ${bars(V.map(v=>({v,n:d.youtube_faktencheck.verdikt_gesamt[v]||0})), x=>x.v, x=>x.n)}
-    <div class="scroll"><table><thead><tr><th>WP/Nr</th><th class="num">Clips</th><th>Verdikte</th><th class="num">geprüft</th></tr></thead>
+    <div class="scroll" tabindex="0" role="region" aria-label="Tabelle (scrollbar)"><table><thead><tr><th>WP/Nr</th><th class="num">Clips</th><th>Verdikte</th><th class="num">geprüft</th></tr></thead>
     <tbody>${d.youtube_faktencheck.je_sitzung.map(s=>`<tr><td>${s.wp}/${s.nr}</td><td class="num">${s.clips??""}</td>
       <td style="min-width:140px">${stack(s.verdikte)}</td>
       <td class="num">${V.reduce((a,v)=>a+(s.verdikte[v]||0),0)}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
