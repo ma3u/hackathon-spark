@@ -15,7 +15,7 @@
       /* Material Design · Bundestag-Look (Blau, helle Flächen, Elevation). Token-Namen bleiben
          (--bg/--panel/--border/--text/--muted/--accent) → Inline-Styles im JS funktionieren weiter. */
       :root {
-        --accent: #16467f; --accent-d: #0e3160; --accent-l: #e9eff7;   /* Bundestag-Blau */
+        --accent: #0b3e7a; --accent-d: #082f5e; --accent-l: #e7eef6;   /* Bundestag-CD-Blau (Näherung, s. ADR-0016) */
         --bg: #eef1f5; --panel: #ffffff; --panel-2: #f6f8fb; --border: #d6dde6;
         --text: #1a2330; --muted: #5b6776; --graph-bg: #0b2239;
         --ok: #1a7a34; --warn: #e0922f; --err: #d23b3b; --neutral: #8a98a8;   /* --ok AA-tauglich auf Weiß */
@@ -135,6 +135,20 @@
         border-radius: 10px; overflow: hidden; margin: 6px 0 10px; }
       .videowrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
       #videoOverlay .modal { width: min(880px, 94vw); }
+      /* Material Extended FAB — „Video der Sitzung" */
+      .fab { position: fixed; right: 22px; bottom: 22px; z-index: 40; display: inline-flex;
+        align-items: center; gap: 8px; padding: 0 20px; height: 52px; border: none; cursor: pointer;
+        background: var(--accent); color: #fff; font: 600 14px/1 "Roboto", system-ui, sans-serif;
+        border-radius: 16px; box-shadow: var(--e2); overflow: hidden; isolation: isolate;
+        transition: box-shadow .2s cubic-bezier(.2,0,0,1), transform .2s cubic-bezier(.2,0,0,1); }
+      .fab[hidden] { display: none; }
+      .fab::after { content: ""; position: absolute; inset: 0; background: #fff; opacity: 0; transition: opacity .15s; z-index: -1; }
+      .fab:hover { box-shadow: 0 10px 24px rgba(8,40,90,.30); transform: translateY(-1px); }
+      .fab:hover::after { opacity: .12; } .fab:active::after { opacity: .2; }
+      /* Material Motion: Modal scale-in beim Öffnen */
+      @keyframes modalIn { from { transform: translateY(10px) scale(.97); opacity: 0; } to { transform: none; opacity: 1; } }
+      .overlay.on .modal { animation: modalIn .22s cubic-bezier(.2,0,0,1) both; }
+      @media (prefers-reduced-motion: reduce) { *, *::after { animation: none !important; transition: none !important; } }
       .difflegend { font-size: 11px; color: var(--muted); margin: 6px 0 14px; }
       .rede { border-top: 1px solid var(--border); padding: 11px 0; }
       .rede .who { font-size: 12.5px; color: var(--text); margin-bottom: 5px; font-weight: 500; }
@@ -183,6 +197,7 @@
         <div class="card" id="factcheck" style="display:none"><h2>🔎 Faktencheck</h2></div>
       </div>
     </div>
+    <button id="fab" class="fab playvid" hidden aria-label="Video der Sitzung abspielen">▶ Video der Sitzung</button>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/3d-force-graph@1.73.4/dist/3d-force-graph.min.js"></script>
@@ -251,6 +266,22 @@
       const ytLink = (vid, sec) => `https://www.youtube.com/watch?v=${vid}&t=${Math.floor(sec || 0)}s`;
       // Eingebetteter Player: YouTube über nocookie-Embed mit Startsekunde; Mediathek/sonst direkt.
       const ytEmbed = (vid, sec) => `https://www.youtube-nocookie.com/embed/${vid}?start=${Math.floor(sec || 0)}&autoplay=1&rel=0`;
+      // Video der ganzen Sitzung (YouTube einbettbar; Mediathek öffnet im Tab) — für Meta-Panel + FAB.
+      function sessionVideo(data) {
+        const m = (data && data.metadata) || {}, src = srcInfo(data), e = entryFor(current);
+        if (src && src.video_id) return { embed: ytEmbed(src.video_id, 0), orig: ytLink(src.video_id, 0),
+          label: "▶ Video der Sitzung (YouTube)", title: (m.title || "Sitzung") + " — YouTube" };
+        if (e && e.amtlich && e.amtlich.mediathek) return { embed: e.amtlich.mediathek, orig: e.amtlich.mediathek,
+          label: "▶ Video der Sitzung (Mediathek)", title: (m.title || "Sitzung") + " — Mediathek" };
+        return null;
+      }
+      // Floating Action Button: zeigt/versteckt sich je nach Sitzung + Ansicht; nutzt den playVideo-Pfad.
+      function updateFab() {
+        const f = $("fab"); if (!f) return;
+        const v = !dashOn ? sessionVideo(curData) : null;
+        if (v) { f.hidden = false; f.dataset.embed = v.embed; f.dataset.orig = v.orig; f.dataset.title = v.title; }
+        else f.hidden = true;
+      }
 
       // 3D-Graph braucht WebGL (3d-force-graph → THREE.js). Ist WebGL aus (Hardware-
       // beschleunigung deaktiviert/sandboxed), darf die Init NICHT die ganze Seite lahmlegen:
@@ -422,14 +453,7 @@
         const ytNote = e && !e.youtube
           ? `<div class="prop" style="color:var(--muted)">🎬 Kein YouTube-Gesamtmitschnitt für diese Sitzung — YouTube gibt nur die ~5 jüngsten Streams frei (vorhanden: 79, 81). Amtliches XML deckt alle 82 Sitzungen ab.</div>`
           : "";
-        // ▶ Video der ganzen Sitzung: YouTube-Stream (einbettbar) bevorzugt, sonst Mediathek (öffnet im Tab, CSP).
-        let vid = null;
-        if (src && src.video_id)
-          vid = { embed: ytEmbed(src.video_id, 0), orig: ytLink(src.video_id, 0),
-                  label: "▶ Video der Sitzung (YouTube)", title: (m.title || "Sitzung") + " — YouTube" };
-        else if (e && e.amtlich && e.amtlich.mediathek)
-          vid = { embed: e.amtlich.mediathek, orig: e.amtlich.mediathek,
-                  label: "▶ Video der Sitzung (Mediathek)", title: (m.title || "Sitzung") + " — Mediathek" };
+        const vid = sessionVideo(data);   // ▶ Video der ganzen Sitzung (YouTube/Mediathek)
         $("meta").innerHTML = `<h2>${m.title || "Protokoll-Graph"}</h2>
           <div class="prop"><b>Quelle:</b> ${quelle}</div>
           ${herk ? `<div class="prop"><b>Herkunft:</b> ${herk}</div>` : ""}
@@ -563,10 +587,11 @@
           if (Graph) Graph.graphData({ nodes: [], links: [] });
           $("factcheck").style.display = "none";
           $("detail").innerHTML = '<h2>Knoten</h2><div class="empty">Vollständiger Graph dieser amtlichen Sitzung liegt in Neo4j (zu groß für die Pages-Demo). Quelle &amp; Dashboard oben; Gap-Analyse vergleicht ihn mit dem YouTube-Mitschnitt.</div>';
+          updateFab();
           return;
         }
         curData = data;
-        renderMeta(data); renderFactcheck(data); renderLegend(data);
+        renderMeta(data); renderFactcheck(data); renderLegend(data); updateFab();
         if (Graph) Graph.graphData(toGraph(data));
         $("detail").innerHTML = '<h2>Knoten</h2><div class="muted">Knoten anklicken…</div>';
       }
@@ -759,6 +784,7 @@
         $("viewToggle").textContent = dashOn ? "🕸️ Graph" : "📊 Dashboard";
         if (dashOn) loadDash(current);
         else requestAnimationFrame(sizeGraph);  // beim Zurückschalten Canvas neu vermessen
+        updateFab();
       }
 
       // Quelle umschalten: 🟢 Offiziell (amtliches XML + Mediathek-Video) ↔ 🎬 YouTube.

@@ -26,14 +26,21 @@ Schritte, damit es klar „Material 3" und authentisch Bundestag wirkt.
 - [x] **Material Type Scale** begonnen (`--ts-title`/`--ts-sub`), App-Bar darauf umgestellt.
 - [x] **Press-State** auf Buttons/Tabs (`:active`).
 
+## Rollout-Schritt 2 (2026-06-21)
+- [x] **CD-Blau übernommen** (`--accent #0b3e7a`, beide Seiten) — **Näherung**: die offizielle
+      Bundestag-CD-Spezifikation (HKS/Pantone-Hex) ließ sich nicht verifizieren (Suche/Live-Probe
+      ohne Treffer). Token zentral → bei Vorlage des CD-Handbuchs 1:1 austauschbar. Gold `#c8a44d`.
+- [x] **FAB** (Material Extended FAB) „▶ Video der Sitzung" unten rechts — nur in der Graph-Ansicht
+      mit verfügbarem Video; YouTube eingebettet, Mediathek im Tab. Nutzt den `playVideo`-Pfad.
+- [x] **Motion**: Modal-Scale-in (`@keyframes modalIn`, Material-Easing), FAB-Hover-Lift,
+      `prefers-reduced-motion` respektiert.
+- [x] **WCAG-AA-Audit** nach Farbwechsel erneut: **index 0, aggregate 0 Verstöße** (axe-core 4.10).
+
 ## Offen
-- [ ] **Offizielle Bundestag-CD-Werte** prüfen/übernehmen (exaktes Blau/Gold, Raster, vollständige Typo).
+- [ ] **Exakte offizielle CD-Werte** übernehmen, sobald das Bundestag-CD-Handbuch vorliegt.
 - [ ] **Material Type Scale** auf alle Ebenen ausweiten (display/headline/title/body/label).
-- [x] **State Layers** (Hover/Focus/Press via `::after`, adaptiv currentColor) + **Fokus-Ringe
-      flächendeckend** (`:focus-visible`, Blau im Body / Weiß auf der App-Bar) — beide Seiten.
-      Offen bleibt nur echtes **Ripple** (braucht JS).
-- [ ] Optional **FAB** für die Primäraktion (z. B. „▶ Video der Sitzung").
-- [ ] **Motion** (Material-Easing) bei Panel-/Overlay-Wechseln.
-- [x] **WCAG-AA-Audit** (axe-core 4.10, wcag2a/2aa/21a/21aa) → **index 0, aggregate 0 Verstöße**.
+- [ ] Echtes **Ripple** (braucht JS).
+- [x] **State Layers** + **Fokus-Ringe** flächendeckend (s. o.).
+- [x] **WCAG-AA-Audit** (axe-core 4.10) → index 0, aggregate 0.
       Behoben: grünes `.fakt`/`--ok` auf AA-Kontrast gedunkelt (#1a7a34), Badge-Text-Amber
       entkoppelt (#8a5a12), scrollbare Tabellen tastatur-fokussierbar (`tabindex=0`, role/aria).

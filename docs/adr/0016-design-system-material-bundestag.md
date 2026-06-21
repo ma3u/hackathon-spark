@@ -49,6 +49,15 @@ state layer (filled-on-blue in the bar, tonal in the body, `.active` = filled) �
   scale**; **state-layer/ripple** affordances + focus rings; optional **FAB** for the primary
   action; motion polish; WCAG-AA contrast audit of the light theme.
 
+## Stand 2026-06-21 (Rollout)
+
+Umgesetzt: Kuppel-Marke + Wortmarke, Gold-Akzent, Type-Scale (begonnen), State-Layer + Fokus-Ringe
+flächendeckend, **FAB** „Video der Sitzung", **Motion** (Modal-Scale-in, reduced-motion), **WCAG-AA
+0 Verstöße** (axe-core). **CD-Blau** auf `#0b3e7a` gesetzt — **ausdrücklich eine Näherung**: die
+offizielle Bundestag-CD-Spezifikation (HKS/Pantone) ließ sich nicht belegen (Web-Suche + Live-Probe
+ohne Treffer). Die Farbe liegt zentral als Token vor und ist bei Vorlage des CD-Handbuchs 1:1
+austauschbar — sie ist **nicht** als amtlich verbürgt zu verstehen.
+
 ## Alternatives considered
 
 - **Dark theme** — rejected: Material 3 + Bundestag CD are light; jury readability favors light.
