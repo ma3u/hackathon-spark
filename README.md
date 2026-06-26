@@ -438,6 +438,36 @@ graph-protokoll/
   Einordnung & weitere Echtdaten-Wege (YouTube-Untertitel, eigene Sitzungen):
   [`docs/spark-und-echtdaten.md`](docs/spark-und-echtdaten.md).
 
+## 🤖 Agentic-AI-Kontroll-Stack (Claude Code)
+
+Dieses Repo ist als **Claude-Code-natives Agentic-AI-Projekt** aufgesetzt
+([Agentic-Init-Prompt](https://gist.github.com/ma3u/09e76d3b604d132673bc4a59b092709a)).
+Bootstrap + Selbstprüfung idempotent:
+
+```bash
+bash scripts/agentic-init.sh          # fehlende Tools installieren + Stack prüfen
+bash scripts/agentic-init.sh --check  # nur prüfen, nichts installieren
+```
+
+| Baustein | Inhalt |
+| -------- | ------ |
+| `CLAUDE.md` | schlank + cachebar; Details on-demand via `@.claude/rules/*`-Imports |
+| `.claude/settings.json` + `hooks/guard.sh` | Permissions (allow/ask/deny) + **PreToolUse-Guard**: blockt root/home-Wipes·Force-Push, fragt bei `rm -rf`·`reset --hard`·Infra-Teardown·Secret-Reads |
+| `.claude/rules/` (3) | `code-style` · `testing` · `api-conventions` (importierte Konventionen) |
+| `.claude/commands/` (4) | `/review` · `/fix-issue` · `/deploy-check` · `/plan` |
+| `.claude/agents/` (6) | architect · implementer · reviewer · tester · security-test · compliance-reviewer (Modell + Effort je Rolle) |
+| `.claude/skills/` (5) | audio-transcription · bundestag-ingestion · fact-checking · graphrag-queries · knowledge-graph |
+| `docs/adr/` (17) | ADRs (Nygard, **immutabel**) + Index; Strukturentscheidungen verlinken `docs/diagrams/` (Mermaid) |
+| `docs/planning/` | `future → current → done`, gespiegelt aus [`docs/challenge-plan.md`](docs/challenge-plan.md) |
+| `docs/knowledge/` (31) | **OKF-v0.1-Wissensbasis** — ein Konzept pro Datei (datamodels · services · apis · runbooks · decisions), progressive Disclosure |
+
+**Token-Disziplin (lokal, nur Dev — nie in CI).** **RTK** (Rust Token Killer, *Input*-Seite,
+PreToolUse-Hook) komprimiert Tool-Ausgaben vor dem Kontext — in dieser Session gemessen
+**88,6 % Ersparnis** (≈ 589,6 k Tokens über 373 Befehle, `rtk gain`). **caveman** (*Output*-Seite,
+Claude-Code-Skill) strippt Prosa (~65 %; Code/Commands bleiben exakt). Beide stapeln mit dem
+Opus-4.8-Prompt-Caching auf der stabilen `CLAUDE.md`. Entscheidungen zum Design-System:
+[ADR-0016](docs/adr/0016-design-system-material-bundestag.md).
+
 ## Lizenz
 
 **EUPL-1.2** — wie die BMDS-Referenzlösung **SPARK Workflow**, im Sinne von
